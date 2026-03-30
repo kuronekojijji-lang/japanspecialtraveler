@@ -32,6 +32,21 @@ a:hover { text-decoration: underline; color: var(--red-dark); }
 
 img { max-width: 100%; height: auto; display: block; }
 
+/* ── Theme buttons (homepage) ── */
+.theme-btn {
+  display: inline-flex; align-items: center; gap: .4rem;
+  padding: .6rem 1.2rem; border-radius: 50px;
+  background: var(--tbg, #fff); color: var(--tc, var(--red));
+  border: 2px solid var(--tc, var(--red));
+  font-size: .88rem; font-weight: 700;
+  text-decoration: none; transition: all .18s;
+}
+.theme-btn:hover {
+  background: var(--tc, var(--red)); color: #fff;
+  text-decoration: none; transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,.12);
+}
+
 /* ── Divider accent ── */
 .section-rule {
   border: none;
