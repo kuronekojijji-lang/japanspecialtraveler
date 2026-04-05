@@ -130,10 +130,34 @@ Explore Destinations &rarr;
 </section>
 <div class=map-tooltip id=mapTooltip></div>
 <script>(function(){var g={hokkaido:{name:'Hokkaido',url:'/destinations/hokkaido/',cities:'Sapporo, Hakodate, Furano',season:'❄️ Powder snow · 🌿 Lavender summer',food:'Miso ramen, fresh seafood, dairy'},tohoku:{name:'Tohoku',url:'/destinations/tohoku/',cities:'Sendai, Aomori, Matsushima',season:'🍂 Vivid autumn koyo · 🌸 Late sakura',food:'Gyutan (beef tongue), oysters, wanko soba'},kanto:{name:'Kanto',url:'/regions/kanto/',cities:'Tokyo, Yokohama, Nikko, Kamakura',season:'🌸 Cherry blossom capital · Year-round',food:'Monjayaki, sushi, ramen'},chubu:{name:'Chubu',url:'/destinations/chubu/',cities:'Nagoya, Kanazawa, Takayama',season:'🍂 Alpine autumn · 🌸 Snow-capped spring',food:'Hitsumabushi eel, Kanazawa seafood, Hida beef'},kinki:{name:'Kansai',url:'/destinations/kansai/',cities:'Kyoto, Osaka, Nara, Kobe',season:'🌸 Iconic sakura · 🍂 Stunning momiji',food:'Kaiseki, okonomiyaki, takoyaki, Kobe beef'},chugoku:{name:'Chugoku',url:'/destinations/chugoku/',cities:'Hiroshima, Tottori, Kurashiki',season:'🌸 Miyajima sakura · All seasons',food:'Oysters, okonomiyaki, ramen'},shikoku:{name:'Shikoku',url:'/destinations/shikoku/',cities:'Matsuyama, Takamatsu, Kochi',season:'🌸 Spring · 🍂 Autumn · Uncrowded year-round',food:'Sanuki udon, katsuo tataki, sudachi citrus'},kyushu:{name:'Kyushu',url:'/destinations/kyushu/',cities:'Fukuoka, Beppu, Nagasaki, Kagoshima',season:'🌸 Earliest cherry blossoms · ♨️ Onsen',food:'Hakata ramen, wagyu, mentaiko, chanpon'},okinawa:{name:'Okinawa',url:'/destinations/okinawa/',cities:'Naha, Miyako, Ishigaki',season:'🌊 Beach: Apr–Oct · 🌸 Earliest sakura',food:'Goya champuru, Okinawa soba, awamori'}},a=document.getElementById('mapTooltip'),i=document.getElementById('svgMapContainer'),e=null,b=i.querySelector('svg');b&&(b.style.width='100%',b.style.height='auto',j(b));function f(b,d){a.innerHTML='<strong>'+b.name+'</strong>'+b.cities+'<br>'+'<em>'+b.season+'</em>'+'<em>🍽 '+b.food+'</em>',a.classList.add('visible'),c(d)}function c(b){var c=b.clientX+14,d=b.clientY-10;c+250>window.innerWidth&&(c=b.clientX-258),a.style.left=c+'px',a.style.top=d+'px'}function h(){a.classList.remove('visible')}function d(a,b){e=a,b.querySelectorAll('.region-grp').forEach(function(b){b.classList.toggle('active',b.dataset.region===a)}),document.querySelectorAll('.region-item').forEach(function(b){b.classList.toggle('active',b.dataset.region===a)})}function j(a){var b=null;a.querySelectorAll('.pref').forEach(function(i){var e=i.dataset.region,j=g[e];if(!j)return;i.addEventListener('mouseover',function(d){b!==e&&(b=e,f(j,d),a.querySelectorAll('.region-grp').forEach(function(a){a.classList.toggle('hovered',a.dataset.region===e)})),c(d)}),i.addEventListener('mousemove',c),i.addEventListener('mouseout',function(d){var c=d.relatedTarget;(!c||c.dataset.region!==e)&&(b=null,h(),a.querySelectorAll('.region-grp.hovered').forEach(function(a){a.classList.remove('hovered')}))}),i.addEventListener('click',function(){d(e,a),window.location.href=j.url})}),document.querySelectorAll('.region-item').forEach(function(b){var f=b.dataset.region,c=a.querySelector('#region-'+f);b.addEventListener('mouseenter',function(){c&&c.classList.add('hovered')}),b.addEventListener('mouseleave',function(){c&&e!==f&&c.classList.remove('hovered')}),b.addEventListener('click',function(){d(f,a)})})}})()</script>
+<div class=season-grid style=background:#fff>
+<h2>Special Guides</h2>
+<p style=text-align:center;color:var(--gray);font-size:.95rem;margin-bottom:1.5rem>In-depth guides for every kind of Japan traveller.</p>
+<hr>
+<div class=card-grid>
+<article class=card>
+<img src="https://images.unsplash.com/photo-1478436127897-769e1b3f0f36?w=1200&q=80" alt="Japan Specialty Traveler" class=card-img loading=lazy>
+<div class=card-body>
+<span class="badge badge-dest" style=font-size:.7rem;margin-bottom:.4rem>Special Guide</span>
+<h3><a href=https://japanspecialtraveler.com/guides/best-shrines-honeymoon-japan/ style=color:inherit>Best Shrines in Japan for a Honeymoon: A Couple's Guide</a></h3>
+<p>Japan's most romantic and spiritually significant shrines for honeymooners — from Izumo Taisha's …</p>
+</div>
+</article>
+</div>
+</div>
 <div class=season-grid>
 <h2>Latest Guides</h2>
 <hr>
 <div class=card-grid>
+<article class=card>
+<img src="https://images.unsplash.com/photo-1478436127897-769e1b3f0f36?w=1200&q=80" alt="Japan Specialty Traveler" class=card-img>
+<div class=card-body>
+<div class=article-meta style=margin-bottom:.5rem>
+</div>
+<h3><a href=https://japanspecialtraveler.com/guides/best-shrines-honeymoon-japan/ style=color:inherit>Best Shrines in Japan for a Honeymoon: A Couple's Guide</a></h3>
+<p>Japan's most romantic and spiritually significant shrines for honeymooners — from Izumo …</p>
+</div>
+</article>
 <article class=card>
 <img src=/images/autumn.jpg alt="Japan Specialty Traveler" class=card-img>
 <div class=card-body>
@@ -185,16 +209,6 @@ Explore Destinations &rarr;
 </div>
 <h3><a href=https://japanspecialtraveler.com/seasons/best-time-to-visit-japan-for-cherry-blossoms-2026/ style=color:inherit>Best Time to Visit Japan for Cherry Blossoms 2026</a></h3>
 <p>Plan your Japan trip for spring 2026! Discover the best time to visit for stunning cherry …</p>
-</div>
-</article>
-<article class=card>
-<img src=/images/japan-best.jpg alt="Japan Specialty Traveler" class=card-img>
-<div class=card-body>
-<div class=article-meta style=margin-bottom:.5rem>
-<span class="badge badge-dest" style=font-size:.7rem>japan</span>
-</div>
-<h3><a href=https://japanspecialtraveler.com/seasons/best-time-to-visit-japan-for-food-lovers/ style=color:inherit>Best Time to Visit Japan for Food Lovers 2026</a></h3>
-<p>Discover the best time to visit Japan for food lovers in 2026. Explore seasonal cuisines, …</p>
 </div>
 </article>
 </div>
