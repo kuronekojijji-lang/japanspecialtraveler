@@ -89,39 +89,39 @@ Explore Destinations &rarr;
 </div>
 <div class=region-list>
 <h3>All Regions</h3>
-<a class=region-item href=/destinations/hokkaido/ data-region=hokkaido>
+<a class=region-item href=/prefectures/hokkaido/ data-region=hokkaido>
 <div class=region-dot style="background:#fae6ea;border:1px solid #d8a0ae"></div>
 <div class=region-info><strong>Hokkaido</strong><span>Sapporo · Hakodate · Best: Summer & Winter</span></div>
 </a>
-<a class=region-item href=/destinations/tohoku/ data-region=tohoku>
+<a class=region-item href=/regions/tohoku/ data-region=tohoku>
 <div class=region-dot style=background:#f0b2bf></div>
-<div class=region-info><strong>Tohoku</strong><span>Sendai · Matsushima · Best: Autumn & Spring</span></div>
+<div class=region-info><strong>Tohoku</strong><span>Sendai · Matsushima · Best: Autumn & Summer</span></div>
 </a>
 <a class=region-item href=/regions/kanto/ data-region=kanto>
 <div class=region-dot style=background:#bc002d></div>
 <div class=region-info><strong>Kanto</strong><span>Tokyo · Nikko · Kamakura · Year-round</span></div>
 </a>
-<a class=region-item href=/destinations/chubu/ data-region=chubu>
+<a class=region-item href=/regions/chubu/ data-region=chubu>
 <div class=region-dot style=background:#e06579></div>
-<div class=region-info><strong>Chubu</strong><span>Nagoya · Kanazawa · Takayama · Best: Autumn</span></div>
+<div class=region-info><strong>Chubu</strong><span>Kanazawa · Takayama · Matsumoto · Best: Autumn</span></div>
 </a>
-<a class=region-item href=/destinations/kansai/ data-region=kinki>
+<a class=region-item href=/regions/kansai/ data-region=kinki>
 <div class=region-dot style=background:#cf1839></div>
-<div class=region-info><strong>Kansai</strong><span>Kyoto · Osaka · Nara · Best: Spring & Autumn</span></div>
+<div class=region-info><strong>Kansai</strong><span>Nara · Kobe · Himeji · Koyasan · Best: Spring & Autumn</span></div>
 </a>
-<a class=region-item href=/destinations/chugoku/ data-region=chugoku>
+<a class=region-item href=/regions/chugoku/ data-region=chugoku>
 <div class=region-dot style=background:#eb98a9></div>
-<div class=region-info><strong>Chugoku</strong><span>Hiroshima · Tottori · Best: Spring</span></div>
+<div class=region-info><strong>Chugoku</strong><span>Hiroshima · Miyajima · Tottori · Best: Spring</span></div>
 </a>
-<a class=region-item href=/destinations/shikoku/ data-region=shikoku>
+<a class=region-item href=/regions/shikoku/ data-region=shikoku>
 <div class=region-dot style="background:#f5ccd4;border:1px solid #c898a8"></div>
-<div class=region-info><strong>Shikoku</strong><span>Matsuyama · Takamatsu · Best: Spring</span></div>
+<div class=region-info><strong>Shikoku</strong><span>Dogo Onsen · Naruto · Awa Odori · Best: Spring</span></div>
 </a>
-<a class=region-item href=/destinations/kyushu/ data-region=kyushu>
+<a class=region-item href=/regions/kyushu/ data-region=kyushu>
 <div class=region-dot style=background:#da4b64></div>
-<div class=region-info><strong>Kyushu</strong><span>Fukuoka · Beppu · Kagoshima · Best: Spring</span></div>
+<div class=region-info><strong>Kyushu</strong><span>Fukuoka · Beppu · Mt. Aso · Best: Spring & Autumn</span></div>
 </a>
-<a class=region-item href=/destinations/okinawa/ data-region=okinawa>
+<a class=region-item href=/prefectures/okinawa/ data-region=okinawa>
 <div class=region-dot style=background:#d5314e></div>
 <div class=region-info><strong>Okinawa</strong><span>Naha · Ishigaki · Best: Spring & Summer</span></div>
 </a>
@@ -129,7 +129,7 @@ Explore Destinations &rarr;
 </div>
 </section>
 <div class=map-tooltip id=mapTooltip></div>
-<script>(function(){var g={hokkaido:{name:'Hokkaido',url:'/destinations/hokkaido/',cities:'Sapporo, Hakodate, Furano',season:'❄️ Powder snow · 🌿 Lavender summer',food:'Miso ramen, fresh seafood, dairy'},tohoku:{name:'Tohoku',url:'/destinations/tohoku/',cities:'Sendai, Aomori, Matsushima',season:'🍂 Vivid autumn koyo · 🌸 Late sakura',food:'Gyutan (beef tongue), oysters, wanko soba'},kanto:{name:'Kanto',url:'/regions/kanto/',cities:'Tokyo, Yokohama, Nikko, Kamakura',season:'🌸 Cherry blossom capital · Year-round',food:'Monjayaki, sushi, ramen'},chubu:{name:'Chubu',url:'/destinations/chubu/',cities:'Nagoya, Kanazawa, Takayama',season:'🍂 Alpine autumn · 🌸 Snow-capped spring',food:'Hitsumabushi eel, Kanazawa seafood, Hida beef'},kinki:{name:'Kansai',url:'/destinations/kansai/',cities:'Kyoto, Osaka, Nara, Kobe',season:'🌸 Iconic sakura · 🍂 Stunning momiji',food:'Kaiseki, okonomiyaki, takoyaki, Kobe beef'},chugoku:{name:'Chugoku',url:'/destinations/chugoku/',cities:'Hiroshima, Tottori, Kurashiki',season:'🌸 Miyajima sakura · All seasons',food:'Oysters, okonomiyaki, ramen'},shikoku:{name:'Shikoku',url:'/destinations/shikoku/',cities:'Matsuyama, Takamatsu, Kochi',season:'🌸 Spring · 🍂 Autumn · Uncrowded year-round',food:'Sanuki udon, katsuo tataki, sudachi citrus'},kyushu:{name:'Kyushu',url:'/destinations/kyushu/',cities:'Fukuoka, Beppu, Nagasaki, Kagoshima',season:'🌸 Earliest cherry blossoms · ♨️ Onsen',food:'Hakata ramen, wagyu, mentaiko, chanpon'},okinawa:{name:'Okinawa',url:'/destinations/okinawa/',cities:'Naha, Miyako, Ishigaki',season:'🌊 Beach: Apr–Oct · 🌸 Earliest sakura',food:'Goya champuru, Okinawa soba, awamori'}},a=document.getElementById('mapTooltip'),i=document.getElementById('svgMapContainer'),e=null,b=i.querySelector('svg');b&&(b.style.width='100%',b.style.height='auto',j(b));function f(b,d){a.innerHTML='<strong>'+b.name+'</strong>'+b.cities+'<br>'+'<em>'+b.season+'</em>'+'<em>🍽 '+b.food+'</em>',a.classList.add('visible'),c(d)}function c(b){var c=b.clientX+14,d=b.clientY-10;c+250>window.innerWidth&&(c=b.clientX-258),a.style.left=c+'px',a.style.top=d+'px'}function h(){a.classList.remove('visible')}function d(a,b){e=a,b.querySelectorAll('.region-grp').forEach(function(b){b.classList.toggle('active',b.dataset.region===a)}),document.querySelectorAll('.region-item').forEach(function(b){b.classList.toggle('active',b.dataset.region===a)})}function j(a){var b=null;a.querySelectorAll('.pref').forEach(function(i){var e=i.dataset.region,j=g[e];if(!j)return;i.addEventListener('mouseover',function(d){b!==e&&(b=e,f(j,d),a.querySelectorAll('.region-grp').forEach(function(a){a.classList.toggle('hovered',a.dataset.region===e)})),c(d)}),i.addEventListener('mousemove',c),i.addEventListener('mouseout',function(d){var c=d.relatedTarget;(!c||c.dataset.region!==e)&&(b=null,h(),a.querySelectorAll('.region-grp.hovered').forEach(function(a){a.classList.remove('hovered')}))}),i.addEventListener('click',function(){d(e,a),window.location.href=j.url})}),document.querySelectorAll('.region-item').forEach(function(b){var f=b.dataset.region,c=a.querySelector('#region-'+f);b.addEventListener('mouseenter',function(){c&&c.classList.add('hovered')}),b.addEventListener('mouseleave',function(){c&&e!==f&&c.classList.remove('hovered')}),b.addEventListener('click',function(){d(f,a)})})}})()</script>
+<script>(function(){var g={hokkaido:{name:'Hokkaido',url:'/prefectures/hokkaido/',cities:'Sapporo, Hakodate, Furano',season:'❄️ Powder snow · 🌿 Lavender summer',food:'Miso ramen, fresh seafood, dairy'},tohoku:{name:'Tohoku',url:'/regions/tohoku/',cities:'Sendai, Aomori, Matsushima',season:'🍂 Vivid autumn koyo · 🌸 Late sakura',food:'Gyutan (beef tongue), oysters, wanko soba'},kanto:{name:'Kanto',url:'/regions/kanto/',cities:'Tokyo, Yokohama, Nikko, Kamakura',season:'🌸 Cherry blossom capital · Year-round',food:'Monjayaki, sushi, ramen'},chubu:{name:'Chubu',url:'/regions/chubu/',cities:'Kanazawa, Takayama, Matsumoto',season:'🍂 Alpine autumn · 🌸 Snow-capped spring',food:'Hida beef, Kanazawa seafood, Shinshu soba'},kinki:{name:'Kansai',url:'/regions/kansai/',cities:'Nara, Kobe, Himeji, Koyasan',season:'🌸 Iconic sakura · 🍂 Stunning momiji',food:'Kobe beef, Matsusaka beef, Ise lobster'},chugoku:{name:'Chugoku',url:'/regions/chugoku/',cities:'Hiroshima, Miyajima, Tottori',season:'🌸 Miyajima sakura · All seasons',food:'Oysters, Hiroshima okonomiyaki, fugu'},shikoku:{name:'Shikoku',url:'/regions/shikoku/',cities:'Matsuyama, Takamatsu, Kochi',season:'🌸 Spring · 🍂 Autumn · Uncrowded year-round',food:'Sanuki udon, katsuo tataki, sudachi citrus'},kyushu:{name:'Kyushu',url:'/regions/kyushu/',cities:'Fukuoka, Beppu, Nagasaki, Kumamoto',season:'🌸 Earliest cherry blossoms · ♨️ Onsen',food:'Hakata ramen, mentaiko, Nagasaki champon'},okinawa:{name:'Okinawa',url:'/prefectures/okinawa/',cities:'Naha, Miyako, Ishigaki',season:'🌊 Beach: Apr–Oct · 🌸 Earliest sakura',food:'Goya champuru, Okinawa soba, awamori'}},a=document.getElementById('mapTooltip'),i=document.getElementById('svgMapContainer'),e=null,b=i.querySelector('svg');b&&(b.style.width='100%',b.style.height='auto',j(b));function f(b,d){a.innerHTML='<strong>'+b.name+'</strong>'+b.cities+'<br>'+'<em>'+b.season+'</em>'+'<em>🍽 '+b.food+'</em>',a.classList.add('visible'),c(d)}function c(b){var c=b.clientX+14,d=b.clientY-10;c+250>window.innerWidth&&(c=b.clientX-258),a.style.left=c+'px',a.style.top=d+'px'}function h(){a.classList.remove('visible')}function d(a,b){e=a,b.querySelectorAll('.region-grp').forEach(function(b){b.classList.toggle('active',b.dataset.region===a)}),document.querySelectorAll('.region-item').forEach(function(b){b.classList.toggle('active',b.dataset.region===a)})}function j(a){var b=null;a.querySelectorAll('.pref').forEach(function(i){var e=i.dataset.region,j=g[e];if(!j)return;i.addEventListener('mouseover',function(d){b!==e&&(b=e,f(j,d),a.querySelectorAll('.region-grp').forEach(function(a){a.classList.toggle('hovered',a.dataset.region===e)})),c(d)}),i.addEventListener('mousemove',c),i.addEventListener('mouseout',function(d){var c=d.relatedTarget;(!c||c.dataset.region!==e)&&(b=null,h(),a.querySelectorAll('.region-grp.hovered').forEach(function(a){a.classList.remove('hovered')}))}),i.addEventListener('click',function(){d(e,a),window.location.href=j.url})}),document.querySelectorAll('.region-item').forEach(function(b){var f=b.dataset.region,c=a.querySelector('#region-'+f);b.addEventListener('mouseenter',function(){c&&c.classList.add('hovered')}),b.addEventListener('mouseleave',function(){c&&e!==f&&c.classList.remove('hovered')}),b.addEventListener('click',function(){d(f,a)})})}})()</script>
 <div class=season-grid style=background:#fff>
 <h2>Special Guides</h2>
 <p style=text-align:center;color:var(--gray);font-size:.95rem;margin-bottom:1.5rem>In-depth guides for every kind of Japan traveller.</p>
