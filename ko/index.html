@@ -131,21 +131,46 @@
 </section>
 <div class=map-tooltip id=mapTooltip></div>
 <script>(function(){var g={hokkaido:{name:'Hokkaido',url:'/prefectures/hokkaido/',cities:'Sapporo, Hakodate, Furano',season:'❄️ Powder snow · 🌿 Lavender summer',food:'Miso ramen, fresh seafood, dairy'},tohoku:{name:'Tohoku',url:'/regions/tohoku/',cities:'Sendai, Aomori, Matsushima',season:'🍂 Vivid autumn koyo · 🌸 Late sakura',food:'Gyutan (beef tongue), oysters, wanko soba'},kanto:{name:'Kanto',url:'/regions/kanto/',cities:'Tokyo, Yokohama, Nikko, Kamakura',season:'🌸 Cherry blossom capital · Year-round',food:'Monjayaki, sushi, ramen'},chubu:{name:'Chubu',url:'/regions/chubu/',cities:'Kanazawa, Takayama, Matsumoto',season:'🍂 Alpine autumn · 🌸 Snow-capped spring',food:'Hida beef, Kanazawa seafood, Shinshu soba'},kinki:{name:'Kansai',url:'/regions/kansai/',cities:'Nara, Kobe, Himeji, Koyasan',season:'🌸 Iconic sakura · 🍂 Stunning momiji',food:'Kobe beef, Matsusaka beef, Ise lobster'},chugoku:{name:'Chugoku',url:'/regions/chugoku/',cities:'Hiroshima, Miyajima, Tottori',season:'🌸 Miyajima sakura · All seasons',food:'Oysters, Hiroshima okonomiyaki, fugu'},shikoku:{name:'Shikoku',url:'/regions/shikoku/',cities:'Matsuyama, Takamatsu, Kochi',season:'🌸 Spring · 🍂 Autumn · Uncrowded year-round',food:'Sanuki udon, katsuo tataki, sudachi citrus'},kyushu:{name:'Kyushu',url:'/regions/kyushu/',cities:'Fukuoka, Beppu, Nagasaki, Kumamoto',season:'🌸 Earliest cherry blossoms · ♨️ Onsen',food:'Hakata ramen, mentaiko, Nagasaki champon'},okinawa:{name:'Okinawa',url:'/prefectures/okinawa/',cities:'Naha, Miyako, Ishigaki',season:'🌊 Beach: Apr–Oct · 🌸 Earliest sakura',food:'Goya champuru, Okinawa soba, awamori'}},a=document.getElementById('mapTooltip'),i=document.getElementById('svgMapContainer'),e=null,b=i.querySelector('svg');b&&(b.style.width='100%',b.style.height='auto',j(b));function f(b,d){a.innerHTML='<strong>'+b.name+'</strong>'+b.cities+'<br>'+'<em>'+b.season+'</em>'+'<em>🍽 '+b.food+'</em>',a.classList.add('visible'),c(d)}function c(b){var c=b.clientX+14,d=b.clientY-10;c+250>window.innerWidth&&(c=b.clientX-258),a.style.left=c+'px',a.style.top=d+'px'}function h(){a.classList.remove('visible')}function d(a,b){e=a,b.querySelectorAll('.region-grp').forEach(function(b){b.classList.toggle('active',b.dataset.region===a)}),document.querySelectorAll('.region-item').forEach(function(b){b.classList.toggle('active',b.dataset.region===a)})}function j(a){var b=null;a.querySelectorAll('.pref').forEach(function(i){var e=i.dataset.region,j=g[e];if(!j)return;i.addEventListener('mouseover',function(d){b!==e&&(b=e,f(j,d),a.querySelectorAll('.region-grp').forEach(function(a){a.classList.toggle('hovered',a.dataset.region===e)})),c(d)}),i.addEventListener('mousemove',c),i.addEventListener('mouseout',function(d){var c=d.relatedTarget;(!c||c.dataset.region!==e)&&(b=null,h(),a.querySelectorAll('.region-grp.hovered').forEach(function(a){a.classList.remove('hovered')}))}),i.addEventListener('click',function(){d(e,a),window.location.href=j.url})}),document.querySelectorAll('.region-item').forEach(function(b){var f=b.dataset.region,c=a.querySelector('#region-'+f);b.addEventListener('mouseenter',function(){c&&c.classList.add('hovered')}),b.addEventListener('mouseleave',function(){c&&e!==f&&c.classList.remove('hovered')}),b.addEventListener('click',function(){d(f,a)})})}})()</script>
+<style>.season-grid .season-card{padding:0;display:flex;flex-direction:column;align-items:stretch;border-radius:14px;overflow:hidden;box-shadow:0 4px 18px rgba(0,0,0,.13);transition:transform .2s,box-shadow .2s}.season-grid .season-card:hover{transform:translateY(-5px);box-shadow:0 10px 32px rgba(0,0,0,.18);opacity:1}.season-grid .season-card .ponko-wrap{width:100%;aspect-ratio:1/1;overflow:hidden;flex-shrink:0}.season-grid .season-card .ponko-wrap img{width:100%;height:100%;object-fit:cover;object-position:center center;display:block;transition:transform .4s ease}.season-grid .season-card:hover .ponko-wrap img{transform:scale(1.06)}.season-card-label{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.12rem;padding:.8rem .5rem .9rem;font-size:1rem;font-weight:800;line-height:1.3;color:#fff;letter-spacing:.01em}.season-card-label small{font-size:.78rem;font-weight:400;opacity:.88;display:block}</style>
 <div class=season-grid>
 <h2>계절별 여행 계획</h2>
 <hr>
 <div class=season-cards>
 <a href=/seasons/spring/ class="season-card spring">
-<span class=icon>🌸</span>봄<br><small style=font-weight:400;font-size:.85rem>3월 – 5월</small>
+<div class=ponko-wrap>
+<img src=/images/ponko/ponko.png alt=봄>
+</div>
+<span class=season-card-label>
+봄
+<small>3월 – 5월</small>
+</span>
 </a>
 <a href=/seasons/summer/ class="season-card summer">
-<span class=icon>🌿</span>여름<br><small style=font-weight:400;font-size:.85rem>6월 – 8월</small>
+<div class=ponko-wrap>
+<img src=/images/ponko/ponko_summer.png alt=여름>
+</div>
+<span class=season-card-label>
+여름
+<small>6월 – 8월</small>
+</span>
 </a>
 <a href=/seasons/autumn/ class="season-card autumn">
-<span class=icon>🍂</span>가을<br><small style=font-weight:400;font-size:.85rem>9월 – 11월</small>
+<div class=ponko-wrap>
+<img src=/images/ponko/ponko_autom.png alt=가을>
+</div>
+<span class=season-card-label>
+가을
+<small>9월 – 11월</small>
+</span>
 </a>
 <a href=/seasons/winter/ class="season-card winter">
-<span class=icon>❄️</span>겨울<br><small style=font-weight:400;font-size:.85rem>12월 – 2월</small>
+<div class=ponko-wrap>
+<img src=/images/ponko/ponko_winter.png alt=겨울>
+</div>
+<span class=season-card-label>
+겨울
+<small>12월 – 2월</small>
+</span>
 </a>
 </div>
 </div>
