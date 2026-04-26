@@ -62,7 +62,7 @@
 </header>
 <style>.lang-switcher{position:relative;margin-left:.8rem;flex-shrink:0}.lang-btn{display:flex;align-items:center;gap:.28rem;background:0 0;border:1.5px solid var(--border);border-radius:6px;padding:.22rem .55rem;font-size:.73rem;font-weight:700;color:var(--gray);cursor:pointer;font-family:inherit;transition:border-color .15s,color .15s}.lang-btn:hover,.lang-btn[aria-expanded=true]{border-color:var(--red);color:var(--red)}.lang-globe{font-size:.85rem;line-height:1}.lang-arrow{font-size:.68rem;transition:transform .15s;display:inline-block}.lang-btn[aria-expanded=true] .lang-arrow{transform:rotate(180deg)}.lang-dropdown{display:none;position:absolute;top:calc(100% + 5px);right:0;background:#fff;border:1.5px solid var(--border);border-radius:8px;box-shadow:0 4px 18px rgba(0,0,0,.11);list-style:none;margin:0;padding:.3rem 0;min-width:110px;z-index:9998}.lang-dropdown.open{display:block}.lang-opt{display:flex;align-items:center;justify-content:space-between;padding:.4rem .85rem;font-size:.78rem;font-weight:700;color:var(--gray);text-decoration:none;white-space:nowrap;gap:.4rem}a.lang-opt:hover{background:#fdf5f6;color:var(--red)}.lang-opt-active{color:var(--red);cursor:default}.lang-check{font-size:.75rem}</style>
 <script>(function(){var d=document.getElementById('langSwitcher'),b,a;if(!d)return;b=document.getElementById('langBtn'),a=document.getElementById('langDropdown');function c(){a.classList.remove('open'),b.setAttribute('aria-expanded','false')}function e(){a.classList.add('open'),b.setAttribute('aria-expanded','true')}b.addEventListener('click',function(b){b.stopPropagation(),a.classList.contains('open')?c():e()}),document.addEventListener('click',function(){c()}),a.addEventListener('click',function(a){a.stopPropagation()}),document.addEventListener('keydown',function(a){a.key==='Escape'&&c()})})()</script>
-<style>.pref-breadcrumb{background:#f8f9fa;border-bottom:1px solid var(--border);padding:.6rem 1.5rem;font-size:.82rem;color:var(--gray)}.pref-breadcrumb a{color:var(--red);text-decoration:none}.pref-breadcrumb a:hover{text-decoration:underline}.pref-breadcrumb span{margin:0 .4rem}.pref-hero{position:relative;min-height:440px;display:flex;align-items:flex-end;background:#0a1a3a 50%/cover no-repeat;background-image:url(https://images.unsplash.com/photo-1565130838609-c3a86655db61?w=1600&q=80)}.pref-hero::after{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,.15) 0%,rgba(0,0,0,.7) 100%)}.pref-hero-body{position:relative;z-index:1;padding:2.5rem 1.5rem 2rem;max-width:var(--max-w);margin:0 auto;width:100%}.pref-hero-eyebrow{color:rgba(255,255,255,.75);font-size:.82rem;font-weight:600;text-transform:uppercase;letter-spacing:.1em;margin-bottom:.5rem}.pref-hero h1{color:#fff;font-size:clamp(2.2rem,5.5vw,3.4rem);font-weight:900;margin:0 0 .5rem;line-height:1.1}.pref-hero .pref-sub{color:rgba(255,255,255,.88);font-size:1.05rem;max-width:560px;margin-bottom:1rem}.pref-stats{display:flex;flex-wrap:wrap;gap:.6rem}.pref-stat{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);border-radius:20px;padding:.3rem .85rem;color:#fff;font-size:.8rem;font-weight:600}.pref-section{padding:2.5rem 1.5rem}.pref-section+.pref-section{padding-top:0}.pref-container{max-width:var(--max-w);margin:0 auto}.pref-section-title{font-size:1.55rem;font-weight:900;margin:0 0 .4rem;display:flex;align-items:center;gap:.5rem}.pref-section-lead{font-size:1rem;color:#555;line-height:1.7;max-width:680px;margin-bottom:1.5rem}.ponko-guide{display:flex;align-items:flex-end;gap:0;margin-bottom:1.6rem}.ponko-bubble{flex:1;min-width:0;background:linear-gradient(135deg,#fff9f0,#fff3e0);border:2px solid #f5a623;border-radius:18px 18px 18px 4px;padding:1.2rem 1.5rem;position:relative;box-shadow:0 4px 14px rgba(245,166,35,.13)}.ponko-bubble::after{content:'';position:absolute;right:-18px;bottom:22px;border:9px solid transparent;border-left-color:#f5a623}.ponko-bubble::before{content:'';position:absolute;right:-13px;bottom:23px;z-index:1;border:8px solid transparent;border-left-color:#fff9f0}.ponko-bubble p{font-size:.97rem;line-height:1.8;color:#333;margin:0}.ponko-figure{flex-shrink:0;width:170px;margin-left:4px;animation:ponko-float 3s ease-in-out infinite}.ponko-figure img{width:100%;height:auto;display:block;filter:drop-shadow(0 6px 10px rgba(0,0,0,.18))}@keyframes ponko-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}@media(max-width:640px){.ponko-guide{flex-direction:column;align-items:center}.ponko-bubble{border-radius:18px;order:2;width:100%}.ponko-bubble::after,.ponko-bubble::before{display:none}.ponko-figure{order:1;width:130px;margin-left:0;margin-bottom:.5rem;animation:none}}.quick-facts{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.8rem;margin-top:1.4rem}.qf-card{background:#f8f9fb;border:1px solid var(--border);border-radius:12px;padding:1rem 1.1rem;display:flex;align-items:flex-start;gap:.7rem}.qf-icon{font-size:1.4rem;flex-shrink:0}.qf-label{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--gray);margin-bottom:.15rem}.qf-value{font-size:.9rem;font-weight:600;color:var(--dark)}.access-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}.access-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 8px rgba(0,0,0,5%)}.access-card-hd{display:flex;align-items:center;gap:.5rem;margin-bottom:.8rem}.access-card-icon{font-size:1.5rem}.access-card-title{font-size:1rem;font-weight:800;color:var(--dark)}.access-card ul{margin:0;padding-left:1.1rem}.access-card li{font-size:.875rem;line-height:1.65;color:#444;margin-bottom:.3rem}.access-card li strong{color:var(--dark)}.access-tip{margin-top:1.2rem;background:#fff8e6;border:1px solid #ffe0a0;border-radius:10px;padding:.9rem 1.1rem;font-size:.85rem;line-height:1.6;color:#5a3e00}.access-tip strong{display:block;margin-bottom:.2rem;font-size:.88rem}.guide-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem}.guide-card{background:#fff;border-radius:14px;overflow:hidden;border:1px solid var(--border);box-shadow:0 2px 8px rgba(0,0,0,5%);transition:transform .15s,box-shadow .15s;position:relative;display:flex;flex-direction:column}.guide-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.guide-card-img{width:100%;height:150px;object-fit:cover;background:#e8eef4;display:block}.guide-card-img-ph{width:100%;height:150px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:2.5rem}.guide-card-body{padding:.9rem 1rem 1rem;flex:1}.guide-cat-badge{display:inline-block;font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;padding:.15rem .55rem;border-radius:8px;background:var(--red);color:#fff;margin-bottom:.4rem}.guide-card-title{font-size:.92rem;font-weight:800;color:var(--dark);line-height:1.4}.guide-coming-soon{position:absolute;top:.6rem;right:.6rem;background:rgba(0,0,0,.55);color:#fff;font-size:.65rem;font-weight:700;padding:.2rem .5rem;border-radius:6px;text-transform:uppercase;letter-spacing:.05em}.guide-card-link{text-decoration:none;color:inherit;display:flex;flex-direction:column;height:100%}.pref-toc{background:#fff;border-bottom:2px solid var(--border);position:sticky;top:0;z-index:100;overflow-x:auto}.pref-toc-inner{display:flex;gap:0;max-width:var(--max-w);margin:0 auto}.pref-toc-btn{flex:none;display:flex;align-items:center;gap:.4rem;padding:.8rem 1.2rem;border:none;background:0 0;cursor:pointer;font-family:inherit;font-size:.88rem;font-weight:600;color:var(--gray);border-bottom:3px solid transparent;transition:all .18s;white-space:nowrap}.pref-toc-btn .toc-icon{font-size:1.1rem}.pref-toc-btn:hover{color:var(--dark);background:#f8f8f8}.pref-toc-btn.active{color:var(--toc-color,var(--red));border-bottom-color:var(--toc-color,var(--red))}.spot-section{padding:2rem 1.5rem 2.5rem}.spot-section.hidden{display:none}.spot-section-inner{max-width:var(--max-w);margin:0 auto}.section-hd{display:flex;align-items:center;gap:.6rem;margin-bottom:1.4rem;padding-bottom:.7rem;border-bottom:2px solid var(--border)}.section-hd .s-icon{font-size:1.6rem}.section-hd h2{font-size:1.35rem;font-weight:800;margin:0}.section-hd .s-count{margin-left:auto;background:var(--sec-color,var(--red));color:#fff;border-radius:20px;padding:.15rem .65rem;font-size:.78rem;font-weight:700}.spot-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.25rem}.spot-card{border-radius:14px;overflow:hidden;border:1px solid var(--border);background:#fff;box-shadow:0 2px 8px rgba(0,0,0,6%);transition:transform .15s,box-shadow .15s;display:flex;flex-direction:column}.spot-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.spot-img{width:100%;height:200px;object-fit:cover;background:#e8eef4;display:block}.spot-img-ph{width:100%;height:200px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:3rem}.spot-body{padding:1rem 1.1rem 1.1rem;flex:1;display:flex;flex-direction:column}.spot-meta{display:flex;align-items:center;gap:.5rem;margin-bottom:.5rem}.spot-location{font-size:.78rem;color:var(--gray);font-weight:500}.spot-season-badge{margin-left:auto;font-size:.7rem;font-weight:700;padding:.1rem .5rem;border-radius:10px;background:#f0f4f8;color:#555;white-space:nowrap}.spot-name{font-size:1.08rem;font-weight:800;color:var(--dark);margin:0 0 .45rem;line-height:1.3}.spot-desc{font-size:.86rem;line-height:1.65;color:#555;flex:1;margin-bottom:.75rem}.spot-tags{display:flex;flex-wrap:wrap;gap:.3rem}.spot-tag{font-size:.7rem;font-weight:600;padding:.15rem .5rem;border-radius:6px;background:var(--tag-bg,#f0f4f8);color:var(--tag-color,#445)}.tips-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem}.tip-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 6px rgba(0,0,0,4%)}.tip-card-icon{font-size:1.8rem;margin-bottom:.6rem}.tip-card-title{font-size:.95rem;font-weight:800;color:var(--dark);margin-bottom:.5rem}.tip-card-body{font-size:.85rem;line-height:1.65;color:#555}.tip-card-body ul{margin:.3rem 0 0;padding-left:1.1rem}.tip-card-body li{margin-bottom:.2rem}.pref-cta{background:var(--bg-soft);padding:2.5rem 1.5rem 3rem;border-top:1px solid var(--border)}.pref-cta .pref-container{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}@media(max-width:600px){.pref-hero{min-height:320px}.quick-facts{grid-template-columns:repeat(2,1fr)}.pref-toc-btn{padding:.7rem .9rem;font-size:.82rem}}</style>
+<style>.pref-breadcrumb{background:#f8f9fa;border-bottom:1px solid var(--border);padding:.6rem 1.5rem;font-size:.82rem;color:var(--gray)}.pref-breadcrumb a{color:var(--red);text-decoration:none}.pref-breadcrumb a:hover{text-decoration:underline}.pref-breadcrumb span{margin:0 .4rem}.pref-hero{position:relative;min-height:440px;display:flex;align-items:flex-end;background:#0a1a3a 50%/cover no-repeat;background-image:url(https://images.unsplash.com/photo-1565130838609-c3a86655db61?w=1600&q=80)}.pref-hero::after{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,.15) 0%,rgba(0,0,0,.7) 100%)}.pref-hero-body{position:relative;z-index:1;padding:2.5rem 1.5rem 2rem;max-width:var(--max-w);margin:0 auto;width:100%}.pref-hero-eyebrow{color:rgba(255,255,255,.75);font-size:.82rem;font-weight:600;text-transform:uppercase;letter-spacing:.1em;margin-bottom:.5rem}.pref-hero h1{color:#fff;font-size:clamp(2.2rem,5.5vw,3.4rem);font-weight:900;margin:0 0 .5rem;line-height:1.1}.pref-hero .pref-sub{color:rgba(255,255,255,.88);font-size:1.05rem;max-width:560px;margin-bottom:1rem}.pref-stats{display:flex;flex-wrap:wrap;gap:.6rem}.pref-stat{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);border-radius:20px;padding:.3rem .85rem;color:#fff;font-size:.8rem;font-weight:600}.pref-section{padding:2.5rem 1.5rem}.pref-section+.pref-section{padding-top:0}.pref-container{max-width:var(--max-w);margin:0 auto}.pref-section-title{font-size:1.55rem;font-weight:900;margin:0 0 .4rem;display:flex;align-items:center;gap:.5rem}.pref-section-lead{font-size:1rem;color:#555;line-height:1.7;max-width:680px;margin-bottom:1.5rem}.ponko-guide{display:flex;align-items:flex-end;gap:0;margin-bottom:1.6rem}.ponko-bubble{flex:1;min-width:0;background:linear-gradient(135deg,#fff9f0,#fff3e0);border:2px solid #f5a623;border-radius:18px 18px 18px 4px;padding:1.2rem 1.5rem;position:relative;box-shadow:0 4px 14px rgba(245,166,35,.13)}.ponko-bubble::after{content:'';position:absolute;right:-18px;bottom:22px;border:9px solid transparent;border-left-color:#f5a623}.ponko-bubble::before{content:'';position:absolute;right:-13px;bottom:23px;z-index:1;border:8px solid transparent;border-left-color:#fff9f0}.ponko-bubble p{font-size:.97rem;line-height:1.8;color:#333;margin:0}.ponko-figure{flex-shrink:0;width:170px;margin-left:4px;animation:ponko-float 3s ease-in-out infinite}.ponko-figure img{width:100%;height:auto;display:block;filter:drop-shadow(0 6px 10px rgba(0,0,0,.18))}@keyframes ponko-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}@media(max-width:640px){.ponko-guide{flex-direction:column;align-items:center}.ponko-bubble{border-radius:18px;order:2;width:100%}.ponko-bubble::after,.ponko-bubble::before{display:none}.ponko-figure{order:1;width:130px;margin-left:0;margin-bottom:.5rem;animation:none}}.quick-facts{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.8rem;margin-top:1.4rem}.qf-card{background:#f8f9fb;border:1px solid var(--border);border-radius:12px;padding:1rem 1.1rem;display:flex;align-items:flex-start;gap:.7rem}.qf-icon{font-size:1.4rem;flex-shrink:0}.qf-label{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--gray);margin-bottom:.15rem}.qf-value{font-size:.9rem;font-weight:600;color:var(--dark)}.access-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}.access-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 8px rgba(0,0,0,5%)}.access-card-hd{display:flex;align-items:center;gap:.5rem;margin-bottom:.8rem}.access-card-icon{font-size:1.5rem}.access-card-title{font-size:1rem;font-weight:800;color:var(--dark)}.access-card ul{margin:0;padding-left:1.1rem}.access-card li{font-size:.875rem;line-height:1.65;color:#444;margin-bottom:.3rem}.access-card li strong{color:var(--dark)}.access-tip{margin-top:1.2rem;background:#fff8e6;border:1px solid #ffe0a0;border-radius:10px;padding:.9rem 1.1rem;font-size:.85rem;line-height:1.6;color:#5a3e00}.access-tip strong{display:block;margin-bottom:.2rem;font-size:.88rem}.guide-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem}.guide-card{background:#fff;border-radius:14px;overflow:hidden;border:1px solid var(--border);box-shadow:0 2px 8px rgba(0,0,0,5%);transition:transform .15s,box-shadow .15s;position:relative;display:flex;flex-direction:column}.guide-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.guide-card-img{width:100%;height:150px;object-fit:cover;background:#e8eef4;display:block}.guide-card-img-ph{width:100%;height:150px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:2.5rem}.guide-card-body{padding:.9rem 1rem 1rem;flex:1}.guide-cat-badge{display:inline-block;font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;padding:.15rem .55rem;border-radius:8px;background:var(--red);color:#fff;margin-bottom:.4rem}.guide-card-title{font-size:.92rem;font-weight:800;color:var(--dark);line-height:1.4}.guide-coming-soon{position:absolute;top:.6rem;right:.6rem;background:rgba(0,0,0,.55);color:#fff;font-size:.65rem;font-weight:700;padding:.2rem .5rem;border-radius:6px;text-transform:uppercase;letter-spacing:.05em}.guide-card-link{text-decoration:none;color:inherit;display:flex;flex-direction:column;height:100%}.pref-toc{background:#fff;border-bottom:2px solid var(--border);position:sticky;top:0;z-index:100;overflow-x:auto}.pref-toc-inner{display:flex;gap:0;max-width:var(--max-w);margin:0 auto}.pref-toc-btn{flex:none;display:flex;align-items:center;gap:.4rem;padding:.8rem 1.2rem;border:none;background:0 0;cursor:pointer;font-family:inherit;font-size:.88rem;font-weight:600;color:var(--gray);border-bottom:3px solid transparent;transition:all .18s;white-space:nowrap}.pref-toc-btn .toc-icon{font-size:1.1rem}.pref-toc-btn:hover{color:var(--dark);background:#f8f8f8}.pref-toc-btn.active{color:var(--toc-color,var(--red));border-bottom-color:var(--toc-color,var(--red))}.spot-section{padding:2rem 1.5rem 2.5rem}.spot-section.hidden{display:none}.spot-section-inner{max-width:var(--max-w);margin:0 auto}.section-hd{display:flex;align-items:center;gap:.6rem;margin-bottom:1.4rem;padding-bottom:.7rem;border-bottom:2px solid var(--border)}.section-hd .s-icon{font-size:1.6rem}.section-hd h2{font-size:1.35rem;font-weight:800;margin:0}.section-hd .s-count{margin-left:auto;background:var(--sec-color,var(--red));color:#fff;border-radius:20px;padding:.15rem .65rem;font-size:.78rem;font-weight:700}.spot-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.25rem}.spot-card{border-radius:14px;overflow:hidden;border:1px solid var(--border);background:#fff;box-shadow:0 2px 8px rgba(0,0,0,6%);transition:transform .15s,box-shadow .15s;display:flex;flex-direction:column}.spot-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.spot-img{width:100%;height:200px;object-fit:cover;background:#e8eef4;display:block}.spot-img-ph{width:100%;height:200px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:3rem}.spot-body{padding:1rem 1.1rem 1.1rem;flex:1;display:flex;flex-direction:column}.spot-meta{display:flex;align-items:center;gap:.5rem;margin-bottom:.5rem}.spot-location{font-size:.78rem;color:var(--gray);font-weight:500}.spot-season-badge{margin-left:auto;font-size:.7rem;font-weight:700;padding:.1rem .5rem;border-radius:10px;background:#f0f4f8;color:#555;white-space:nowrap}.spot-name{font-size:1.08rem;font-weight:800;color:var(--dark);margin:0 0 .45rem;line-height:1.3}.spot-desc{font-size:.86rem;line-height:1.65;color:#555;flex:1;margin-bottom:.75rem}.spot-tags{display:flex;flex-wrap:wrap;gap:.3rem}.spot-tag{font-size:.7rem;font-weight:600;padding:.15rem .5rem;border-radius:6px;background:var(--tag-bg,#f0f4f8);color:var(--tag-color,#445)}.tips-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem}.tip-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 6px rgba(0,0,0,4%)}.tip-card-icon{font-size:1.8rem;margin-bottom:.6rem}.tip-card-title{font-size:.95rem;font-weight:800;color:var(--dark);margin-bottom:.5rem}.tip-card-body{font-size:.85rem;line-height:1.65;color:#555}.tip-card-body ul{margin:.3rem 0 0;padding-left:1.1rem}.tip-card-body li{margin-bottom:.2rem}.pref-cta{background:var(--bg-soft);padding:2.5rem 1.5rem 3rem;border-top:1px solid var(--border)}.pref-cta .pref-container{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}@media(max-width:600px){.pref-hero{min-height:320px}.quick-facts{grid-template-columns:repeat(2,1fr)}.pref-toc-btn{padding:.7rem .9rem;font-size:.82rem}}.btn-add-plan{display:inline-flex;align-items:center;gap:.35rem;margin-top:.75rem;padding:.45rem .9rem;border:1.5px solid #2d5be3;border-radius:8px;background:#fff;color:#2d5be3;font-size:.78rem;font-weight:700;font-family:inherit;cursor:pointer;transition:background .15s,color .15s,transform .1s;width:100%;justify-content:center}.btn-add-plan:hover{background:#2d5be3;color:#fff;transform:translateY(-1px)}.btn-add-plan.in-plan{background:#e8f0ff;color:#1a45a8;border-color:#1a45a8}.btn-add-plan.in-plan:hover{background:#c0003a;color:#fff;border-color:#c0003a}.jst-plan-float{position:fixed;bottom:1.5rem;left:1.5rem;z-index:9998;display:none;align-items:center;gap:.5rem;background:linear-gradient(135deg,#0a1844,#2d5be3);color:#fff;border-radius:30px;padding:.6rem 1.2rem .6rem .9rem;box-shadow:0 4px 20px rgba(45,91,227,.4);text-decoration:none;font-weight:700;font-size:.88rem;transition:transform .15s,box-shadow .15s;animation:plan-float-in .4s cubic-bezier(.34,1.4,.64,1)both}.jst-plan-float:hover{transform:translateY(-3px);box-shadow:0 8px 28px rgba(45,91,227,.5)}@keyframes plan-float-in{from{transform:translateY(20px);opacity:0}to{transform:translateY(0);opacity:1}}.jst-plan-float-icon{font-size:1.1rem}.jst-plan-float-badge{background:rgba(255,255,255,.25);border-radius:10px;padding:.1rem .45rem;font-size:.75rem}@media(max-width:480px){.jst-plan-float{bottom:1rem;left:1rem}}</style>
 <nav class=pref-breadcrumb aria-label=breadcrumb>
 <a href=/>Home</a><span>›</span>
 <a href=/explore/>Explore Japan</a><span>›</span>
@@ -367,7 +367,7 @@
 <span class=s-count>6 spots</span>
 </div>
 <div class=spot-grid>
-<article class=spot-card>
+<article class=spot-card data-spot-id=hikone-castle data-spot-name="Hikone Castle" data-spot-pref=shiga data-spot-fee=0 data-spot-dur=60 data-spot-lat=0 data-spot-lng=0 data-spot-area data-spot-rating=0 data-spot-reviews=0 data-spot-img="https://images.unsplash.com/photo-1590559899731-a382839e5549?w=800&q=80" data-spot-cats=sightseeing>
 <img class=spot-img src="https://images.unsplash.com/photo-1590559899731-a382839e5549?w=800&q=80" alt="Hikone Castle" loading=lazy onerror="this.style.display='none',this.nextElementSibling.style.display='flex'">
 <div class=spot-img-ph style=display:none>⛩️</div>
 <div class=spot-body>
@@ -382,9 +382,12 @@
 <span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Original Keep</span>
 <span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Cherry Blossoms</span>
 </div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
 </div>
 </article>
-<article class=spot-card>
+<article class=spot-card data-spot-id=nagahama-historic-town data-spot-name="Nagahama Historic Town and Glass Studios" data-spot-pref=shiga data-spot-fee=0 data-spot-dur=60 data-spot-lat=0 data-spot-lng=0 data-spot-area data-spot-rating=0 data-spot-reviews=0 data-spot-img="https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=800&q=80" data-spot-cats=sightseeing>
 <img class=spot-img src="https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=800&q=80" alt="Nagahama Historic Town and Glass Studios" loading=lazy onerror="this.style.display='none',this.nextElementSibling.style.display='flex'">
 <div class=spot-img-ph style=display:none>⛩️</div>
 <div class=spot-body>
@@ -399,9 +402,12 @@
 <span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Glass Art</span>
 <span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Kuromon Market</span>
 </div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
 </div>
 </article>
-<article class=spot-card>
+<article class=spot-card data-spot-id=chikubushima-island-shrine data-spot-name="Chikubushima Island Shrine" data-spot-pref=shiga data-spot-fee=0 data-spot-dur=60 data-spot-lat=0 data-spot-lng=0 data-spot-area data-spot-rating=0 data-spot-reviews=0 data-spot-img="https://images.unsplash.com/photo-1504198458649-3128b932f49e?w=800&q=80" data-spot-cats=sightseeing>
 <img class=spot-img src="https://images.unsplash.com/photo-1504198458649-3128b932f49e?w=800&q=80" alt="Chikubushima Island Shrine" loading=lazy onerror="this.style.display='none',this.nextElementSibling.style.display='flex'">
 <div class=spot-img-ph style=display:none>⛩️</div>
 <div class=spot-body>
@@ -416,9 +422,12 @@
 <span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Sacred Island</span>
 <span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Ferry</span>
 </div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
 </div>
 </article>
-<article class=spot-card>
+<article class=spot-card data-spot-id=shirahige-shrine-lake-torii data-spot-name="Shirahige Shrine Lake Torii" data-spot-pref=shiga data-spot-fee=0 data-spot-dur=60 data-spot-lat=0 data-spot-lng=0 data-spot-area data-spot-rating=0 data-spot-reviews=0 data-spot-img="https://images.unsplash.com/photo-1565130838609-c3a86655db61?w=800&q=80" data-spot-cats=sightseeing>
 <img class=spot-img src="https://images.unsplash.com/photo-1565130838609-c3a86655db61?w=800&q=80" alt="Shirahige Shrine Lake Torii" loading=lazy onerror="this.style.display='none',this.nextElementSibling.style.display='flex'">
 <div class=spot-img-ph style=display:none>⛩️</div>
 <div class=spot-body>
@@ -433,9 +442,12 @@
 <span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Sunrise</span>
 <span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Lake Biwa's Miyajima</span>
 </div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
 </div>
 </article>
-<article class=spot-card>
+<article class=spot-card data-spot-id=azuchi-castle-ruins data-spot-name="Azuchi Castle Ruins" data-spot-pref=shiga data-spot-fee=0 data-spot-dur=60 data-spot-lat=0 data-spot-lng=0 data-spot-area data-spot-rating=0 data-spot-reviews=0 data-spot-img="https://images.unsplash.com/photo-1590559899731-a382839e5549?w=800&q=80" data-spot-cats=sightseeing>
 <img class=spot-img src="https://images.unsplash.com/photo-1590559899731-a382839e5549?w=800&q=80" alt="Azuchi Castle Ruins" loading=lazy onerror="this.style.display='none',this.nextElementSibling.style.display='flex'">
 <div class=spot-img-ph style=display:none>⛩️</div>
 <div class=spot-body>
@@ -450,9 +462,12 @@
 <span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Castle Ruins</span>
 <span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Hilltop Views</span>
 </div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
 </div>
 </article>
-<article class=spot-card>
+<article class=spot-card data-spot-id=miho-museum data-spot-name="Miho Museum" data-spot-pref=shiga data-spot-fee=0 data-spot-dur=60 data-spot-lat=0 data-spot-lng=0 data-spot-area data-spot-rating=0 data-spot-reviews=0 data-spot-img="https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?w=800&q=80" data-spot-cats=sightseeing>
 <img class=spot-img src="https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?w=800&q=80" alt="Miho Museum" loading=lazy onerror="this.style.display='none',this.nextElementSibling.style.display='flex'">
 <div class=spot-img-ph style=display:none>⛩️</div>
 <div class=spot-body>
@@ -467,6 +482,9 @@
 <span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Mountain Museum</span>
 <span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Asian Art</span>
 </div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
 </div>
 </article>
 </div>
@@ -480,7 +498,7 @@
 <span class=s-count>5 spots</span>
 </div>
 <div class=spot-grid>
-<article class=spot-card>
+<article class=spot-card data-spot-id=omi-beef data-spot-name="Omi Beef Wagyu" data-spot-pref=shiga data-spot-fee=0 data-spot-dur=60 data-spot-lat=0 data-spot-lng=0 data-spot-area data-spot-rating=0 data-spot-reviews=0 data-spot-img="https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?w=800&q=80" data-spot-cats=gourmet>
 <img class=spot-img src="https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?w=800&q=80" alt="Omi Beef Wagyu" loading=lazy onerror="this.style.display='none',this.nextElementSibling.style.display='flex'">
 <div class=spot-img-ph style=display:none>🍜</div>
 <div class=spot-body>
@@ -495,9 +513,12 @@
 <span class=spot-tag style=background:#fff0ea;color:#9a3000>Japan's Oldest Beef Brand</span>
 <span class=spot-tag style=background:#fff0ea;color:#9a3000>Sukiyaki</span>
 </div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
 </div>
 </article>
-<article class=spot-card>
+<article class=spot-card data-spot-id=funazushi data-spot-name="Funazushi Fermented Carp" data-spot-pref=shiga data-spot-fee=0 data-spot-dur=60 data-spot-lat=0 data-spot-lng=0 data-spot-area data-spot-rating=0 data-spot-reviews=0 data-spot-img="https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?w=800&q=80" data-spot-cats=gourmet>
 <img class=spot-img src="https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?w=800&q=80" alt="Funazushi Fermented Carp" loading=lazy onerror="this.style.display='none',this.nextElementSibling.style.display='flex'">
 <div class=spot-img-ph style=display:none>🍜</div>
 <div class=spot-body>
@@ -512,9 +533,12 @@
 <span class=spot-tag style=background:#fff0ea;color:#9a3000>Ancient Recipe</span>
 <span class=spot-tag style=background:#fff0ea;color:#9a3000>Acquired Taste</span>
 </div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
 </div>
 </article>
-<article class=spot-card>
+<article class=spot-card data-spot-id=omi-chanpon data-spot-name="Omi Chanpon Noodles" data-spot-pref=shiga data-spot-fee=0 data-spot-dur=60 data-spot-lat=0 data-spot-lng=0 data-spot-area data-spot-rating=0 data-spot-reviews=0 data-spot-img="https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?w=800&q=80" data-spot-cats=gourmet>
 <img class=spot-img src="https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?w=800&q=80" alt="Omi Chanpon Noodles" loading=lazy onerror="this.style.display='none',this.nextElementSibling.style.display='flex'">
 <div class=spot-img-ph style=display:none>🍜</div>
 <div class=spot-body>
@@ -529,9 +553,12 @@
 <span class=spot-tag style=background:#fff0ea;color:#9a3000>Shiga Specialty</span>
 <span class=spot-tag style=background:#fff0ea;color:#9a3000>Hearty</span>
 </div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
 </div>
 </article>
-<article class=spot-card>
+<article class=spot-card data-spot-id=lake-biwa-freshwater-fish data-spot-name="Lake Biwa Freshwater Fish Cuisine" data-spot-pref=shiga data-spot-fee=0 data-spot-dur=60 data-spot-lat=0 data-spot-lng=0 data-spot-area data-spot-rating=0 data-spot-reviews=0 data-spot-img="https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?w=800&q=80" data-spot-cats=gourmet>
 <img class=spot-img src="https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?w=800&q=80" alt="Lake Biwa Freshwater Fish Cuisine" loading=lazy onerror="this.style.display='none',this.nextElementSibling.style.display='flex'">
 <div class=spot-img-ph style=display:none>🍜</div>
 <div class=spot-body>
@@ -546,9 +573,12 @@
 <span class=spot-tag style=background:#fff0ea;color:#9a3000>Lake Fish</span>
 <span class=spot-tag style=background:#fff0ea;color:#9a3000>Smelt Tempura</span>
 </div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
 </div>
 </article>
-<article class=spot-card>
+<article class=spot-card data-spot-id=hiyoshi-sake data-spot-name="Hiyoshi Sake Breweries" data-spot-pref=shiga data-spot-fee=0 data-spot-dur=60 data-spot-lat=0 data-spot-lng=0 data-spot-area data-spot-rating=0 data-spot-reviews=0 data-spot-img="https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?w=800&q=80" data-spot-cats=gourmet>
 <img class=spot-img src="https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?w=800&q=80" alt="Hiyoshi Sake Breweries" loading=lazy onerror="this.style.display='none',this.nextElementSibling.style.display='flex'">
 <div class=spot-img-ph style=display:none>🍜</div>
 <div class=spot-body>
@@ -563,6 +593,9 @@
 <span class=spot-tag style=background:#fff0ea;color:#9a3000>Soft Water</span>
 <span class=spot-tag style=background:#fff0ea;color:#9a3000>Koto Region</span>
 </div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
 </div>
 </article>
 </div>
@@ -576,7 +609,7 @@
 <span class=s-count>4 spots</span>
 </div>
 <div class=spot-grid>
-<article class=spot-card>
+<article class=spot-card data-spot-id=lake-biwa data-spot-name="Lake Biwa" data-spot-pref=shiga data-spot-fee=0 data-spot-dur=60 data-spot-lat=0 data-spot-lng=0 data-spot-area data-spot-rating=0 data-spot-reviews=0 data-spot-img="https://images.unsplash.com/photo-1565130838609-c3a86655db61?w=800&q=80" data-spot-cats=nature>
 <img class=spot-img src="https://images.unsplash.com/photo-1565130838609-c3a86655db61?w=800&q=80" alt="Lake Biwa" loading=lazy onerror="this.style.display='none',this.nextElementSibling.style.display='flex'">
 <div class=spot-img-ph style=display:none>🏔️</div>
 <div class=spot-body>
@@ -591,9 +624,12 @@
 <span class=spot-tag style=background:#e4f4e8;color:#155a28>4 Million Years Old</span>
 <span class=spot-tag style=background:#e4f4e8;color:#155a28>Endemic Species</span>
 </div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
 </div>
 </article>
-<article class=spot-card>
+<article class=spot-card data-spot-id=metasequoia-avenue data-spot-name="Metasequoia Avenue, Makino" data-spot-pref=shiga data-spot-fee=0 data-spot-dur=60 data-spot-lat=0 data-spot-lng=0 data-spot-area data-spot-rating=0 data-spot-reviews=0 data-spot-img="https://images.unsplash.com/photo-1565130838609-c3a86655db61?w=800&q=80" data-spot-cats=nature>
 <img class=spot-img src="https://images.unsplash.com/photo-1565130838609-c3a86655db61?w=800&q=80" alt="Metasequoia Avenue, Makino" loading=lazy onerror="this.style.display='none',this.nextElementSibling.style.display='flex'">
 <div class=spot-img-ph style=display:none>🏔️</div>
 <div class=spot-body>
@@ -608,9 +644,12 @@
 <span class=spot-tag style=background:#e4f4e8;color:#155a28>Autumn Foliage</span>
 <span class=spot-tag style=background:#e4f4e8;color:#155a28>Scenic Road</span>
 </div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
 </div>
 </article>
-<article class=spot-card>
+<article class=spot-card data-spot-id=mt-ibuki data-spot-name="Mt. Ibuki" data-spot-pref=shiga data-spot-fee=0 data-spot-dur=60 data-spot-lat=0 data-spot-lng=0 data-spot-area data-spot-rating=0 data-spot-reviews=0 data-spot-img="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=800&q=80" data-spot-cats=nature>
 <img class=spot-img src="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=800&q=80" alt="Mt. Ibuki" loading=lazy onerror="this.style.display='none',this.nextElementSibling.style.display='flex'">
 <div class=spot-img-ph style=display:none>🏔️</div>
 <div class=spot-body>
@@ -625,9 +664,12 @@
 <span class=spot-tag style=background:#e4f4e8;color:#155a28>Wildflowers</span>
 <span class=spot-tag style=background:#e4f4e8;color:#155a28>Toll Road Summit</span>
 </div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
 </div>
 </article>
-<article class=spot-card>
+<article class=spot-card data-spot-id=lake-biwa-reed-marshes data-spot-name="Lake Biwa Reed Marshes" data-spot-pref=shiga data-spot-fee=0 data-spot-dur=60 data-spot-lat=0 data-spot-lng=0 data-spot-area data-spot-rating=0 data-spot-reviews=0 data-spot-img="https://images.unsplash.com/photo-1565130838609-c3a86655db61?w=800&q=80" data-spot-cats=nature>
 <img class=spot-img src="https://images.unsplash.com/photo-1565130838609-c3a86655db61?w=800&q=80" alt="Lake Biwa Reed Marshes" loading=lazy onerror="this.style.display='none',this.nextElementSibling.style.display='flex'">
 <div class=spot-img-ph style=display:none>🏔️</div>
 <div class=spot-body>
@@ -642,6 +684,9 @@
 <span class=spot-tag style=background:#e4f4e8;color:#155a28>Egrets</span>
 <span class=spot-tag style=background:#e4f4e8;color:#155a28>Wetlands</span>
 </div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
 </div>
 </article>
 </div>
@@ -655,7 +700,7 @@
 <span class=s-count>4 spots</span>
 </div>
 <div class=spot-grid>
-<article class=spot-card>
+<article class=spot-card data-spot-id=biwaichi-cycling data-spot-name="Biwaichi Cycling Circuit" data-spot-pref=shiga data-spot-fee=0 data-spot-dur=60 data-spot-lat=0 data-spot-lng=0 data-spot-area data-spot-rating=0 data-spot-reviews=0 data-spot-img="https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=800&q=80" data-spot-cats=leisure>
 <img class=spot-img src="https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=800&q=80" alt="Biwaichi Cycling Circuit" loading=lazy onerror="this.style.display='none',this.nextElementSibling.style.display='flex'">
 <div class=spot-img-ph style=display:none>🎿</div>
 <div class=spot-body>
@@ -670,9 +715,12 @@
 <span class=spot-tag style=background:#fff3e0;color:#7a3f00>Cycling</span>
 <span class=spot-tag style=background:#fff3e0;color:#7a3f00>Stamp Rally</span>
 </div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
 </div>
 </article>
-<article class=spot-card>
+<article class=spot-card data-spot-id=lake-biwa-cruise data-spot-name="Lake Biwa Cruise Ship" data-spot-pref=shiga data-spot-fee=0 data-spot-dur=60 data-spot-lat=0 data-spot-lng=0 data-spot-area data-spot-rating=0 data-spot-reviews=0 data-spot-img="https://images.unsplash.com/photo-1565130838609-c3a86655db61?w=800&q=80" data-spot-cats=leisure>
 <img class=spot-img src="https://images.unsplash.com/photo-1565130838609-c3a86655db61?w=800&q=80" alt="Lake Biwa Cruise Ship" loading=lazy onerror="this.style.display='none',this.nextElementSibling.style.display='flex'">
 <div class=spot-img-ph style=display:none>🎿</div>
 <div class=spot-body>
@@ -687,9 +735,12 @@
 <span class=spot-tag style=background:#fff3e0;color:#7a3f00>Sightseeing Boat</span>
 <span class=spot-tag style=background:#fff3e0;color:#7a3f00>Otsu</span>
 </div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
 </div>
 </article>
-<article class=spot-card>
+<article class=spot-card data-spot-id=lake-biwa-sup-kayak data-spot-name="SUP and Kayaking on Lake Biwa" data-spot-pref=shiga data-spot-fee=0 data-spot-dur=60 data-spot-lat=0 data-spot-lng=0 data-spot-area data-spot-rating=0 data-spot-reviews=0 data-spot-img="https://images.unsplash.com/photo-1565130838609-c3a86655db61?w=800&q=80" data-spot-cats=leisure>
 <img class=spot-img src="https://images.unsplash.com/photo-1565130838609-c3a86655db61?w=800&q=80" alt="SUP and Kayaking on Lake Biwa" loading=lazy onerror="this.style.display='none',this.nextElementSibling.style.display='flex'">
 <div class=spot-img-ph style=display:none>🎿</div>
 <div class=spot-body>
@@ -704,9 +755,12 @@
 <span class=spot-tag style=background:#fff3e0;color:#7a3f00>Kayaking</span>
 <span class=spot-tag style=background:#fff3e0;color:#7a3f00>Water Sports</span>
 </div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
 </div>
 </article>
-<article class=spot-card>
+<article class=spot-card data-spot-id=biwako-valley-ski-resort data-spot-name="Biwako Valley Ski Resort and Ropeway" data-spot-pref=shiga data-spot-fee=0 data-spot-dur=60 data-spot-lat=0 data-spot-lng=0 data-spot-area data-spot-rating=0 data-spot-reviews=0 data-spot-img="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=800&q=80" data-spot-cats=leisure>
 <img class=spot-img src="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=800&q=80" alt="Biwako Valley Ski Resort and Ropeway" loading=lazy onerror="this.style.display='none',this.nextElementSibling.style.display='flex'">
 <div class=spot-img-ph style=display:none>🎿</div>
 <div class=spot-body>
@@ -721,6 +775,9 @@
 <span class=spot-tag style=background:#fff3e0;color:#7a3f00>Ropeway</span>
 <span class=spot-tag style=background:#fff3e0;color:#7a3f00>Lake Views</span>
 </div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
 </div>
 </article>
 </div>
@@ -734,7 +791,7 @@
 <span class=s-count>3 spots</span>
 </div>
 <div class=spot-grid>
-<article class=spot-card>
+<article class=spot-card data-spot-id=nagahama-hikiyama-festival data-spot-name="Nagahama Hikiyama Festival" data-spot-pref=shiga data-spot-fee=0 data-spot-dur=60 data-spot-lat=0 data-spot-lng=0 data-spot-area data-spot-rating=0 data-spot-reviews=0 data-spot-img="https://images.unsplash.com/photo-1509316785289-025f5b846b35?w=800&q=80" data-spot-cats=events>
 <img class=spot-img src="https://images.unsplash.com/photo-1509316785289-025f5b846b35?w=800&q=80" alt="Nagahama Hikiyama Festival" loading=lazy onerror="this.style.display='none',this.nextElementSibling.style.display='flex'">
 <div class=spot-img-ph style=display:none>🎆</div>
 <div class=spot-body>
@@ -749,9 +806,12 @@
 <span class=spot-tag style=background:#ffe8f4;color:#88004e>Child Kabuki</span>
 <span class=spot-tag style=background:#ffe8f4;color:#88004e>Dashi Floats</span>
 </div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
 </div>
 </article>
-<article class=spot-card>
+<article class=spot-card data-spot-id=hikone-cherry-blossoms data-spot-name="Hikone Castle Cherry Blossoms" data-spot-pref=shiga data-spot-fee=0 data-spot-dur=60 data-spot-lat=0 data-spot-lng=0 data-spot-area data-spot-rating=0 data-spot-reviews=0 data-spot-img="https://images.unsplash.com/photo-1565130838609-c3a86655db61?w=800&q=80" data-spot-cats=events>
 <img class=spot-img src="https://images.unsplash.com/photo-1565130838609-c3a86655db61?w=800&q=80" alt="Hikone Castle Cherry Blossoms" loading=lazy onerror="this.style.display='none',this.nextElementSibling.style.display='flex'">
 <div class=spot-img-ph style=display:none>🎆</div>
 <div class=spot-body>
@@ -766,9 +826,12 @@
 <span class=spot-tag style=background:#ffe8f4;color:#88004e>Castle Illumination</span>
 <span class=spot-tag style=background:#ffe8f4;color:#88004e>Spring</span>
 </div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
 </div>
 </article>
-<article class=spot-card>
+<article class=spot-card data-spot-id=azai-three-sisters-festival data-spot-name="Azai Three Sisters Festival" data-spot-pref=shiga data-spot-fee=0 data-spot-dur=60 data-spot-lat=0 data-spot-lng=0 data-spot-area data-spot-rating=0 data-spot-reviews=0 data-spot-img="https://images.unsplash.com/photo-1509316785289-025f5b846b35?w=800&q=80" data-spot-cats=events>
 <img class=spot-img src="https://images.unsplash.com/photo-1509316785289-025f5b846b35?w=800&q=80" alt="Azai Three Sisters Festival" loading=lazy onerror="this.style.display='none',this.nextElementSibling.style.display='flex'">
 <div class=spot-img-ph style=display:none>🎆</div>
 <div class=spot-body>
@@ -783,6 +846,9 @@
 <span class=spot-tag style=background:#ffe8f4;color:#88004e>Sengoku</span>
 <span class=spot-tag style=background:#ffe8f4;color:#88004e>Summer</span>
 </div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
 </div>
 </article>
 </div>
@@ -867,7 +933,12 @@
 </div>
 </div>
 </div>
-<script>(function(){const b={sightseeing:{color:"#1a45a8"},gourmet:{color:"#D64000"},nature:{color:"#1a7a34"},leisure:{color:"#b35c00"},events:{color:"#b5006e"}},e=document.querySelectorAll('.spot-section[data-cat]'),c=document.querySelectorAll('.pref-toc-btn[data-cat]');function d(a){c.forEach(c=>{c.classList.toggle('active',c.dataset.cat===a),c.dataset.cat===a&&b[a]&&c.style.setProperty('--toc-color',b[a].color)}),e.forEach(b=>{a==='all'?b.classList.remove('hidden'):b.classList.toggle('hidden',b.dataset.cat!==a)}),history.replaceState(null,'',a==='all'?'#all':'#'+a)}c.forEach(a=>a.addEventListener('click',()=>d(a.dataset.cat)));const a=location.hash.replace('#','');d(a&&(a==='all'||b[a])?a:'all')})()</script>
+<a href=/plan-builder/ class=jst-plan-float id=jst-plan-float aria-label="View your travel plan">
+<span class=jst-plan-float-icon>🗺️</span>
+<span>Plan</span>
+<span class=jst-plan-float-badge id=jst-plan-float-count>0</span>
+</a>
+<script>(function(){const c={sightseeing:{color:"#1a45a8"},gourmet:{color:"#D64000"},nature:{color:"#1a7a34"},leisure:{color:"#b35c00"},events:{color:"#b5006e"}},h=document.querySelectorAll('.spot-section[data-cat]'),f=document.querySelectorAll('.pref-toc-btn[data-cat]');function d(a){f.forEach(b=>{b.classList.toggle('active',b.dataset.cat===a),b.dataset.cat===a&&c[a]&&b.style.setProperty('--toc-color',c[a].color)}),h.forEach(b=>{a==='all'?b.classList.remove('hidden'):b.classList.toggle('hidden',b.dataset.cat!==a)}),history.replaceState(null,'',a==='all'?'#all':'#'+a)}f.forEach(a=>a.addEventListener('click',()=>d(a.dataset.cat)));const b=location.hash.replace('#','');d(b&&(b==='all'||c[b])?b:'all');const e='jst_plan_v1';function i(){try{return new Map(JSON.parse(localStorage.getItem(e)||'[]'))}catch(a){return new Map}}function j(a){localStorage.setItem(e,JSON.stringify([...a]))}let a=i();function g(){const b=document.getElementById('jst-plan-float'),d=document.getElementById('jst-plan-float-count');if(!b)return;const c=a.size;b.style.display=c>0?'flex':'none',d.textContent=c}function k(){document.querySelectorAll('.spot-card[data-spot-id]').forEach(c=>{const d=c.dataset.spotId,b=c.querySelector('.btn-add-plan');if(!b)return;a.has(d)?(b.classList.add('in-plan'),b.textContent='✓ In Plan — Remove'):(b.classList.remove('in-plan'),b.textContent='🗺️ Add to Plan')})}window.prefTogglePlan=function(c){const b=c.closest('.spot-card[data-spot-id]');if(!b)return;const d=b.dataset.spotId;if(a.has(d))a.delete(d),c.classList.remove('in-plan'),c.textContent='🗺️ Add to Plan';else{const e={id:d,name:b.dataset.spotName||'',_pref:b.dataset.spotPref||'',entry_fee:parseInt(b.dataset.spotFee)||0,avg_duration_min:parseInt(b.dataset.spotDur)||60,lat:parseFloat(b.dataset.spotLat)||0,lng:parseFloat(b.dataset.spotLng)||0,area:b.dataset.spotArea||'',rating:parseFloat(b.dataset.spotRating)||0,review_count:parseInt(b.dataset.spotReviews)||0,img:b.dataset.spotImg||'',cats:(b.dataset.spotCats||'').split(',').filter(Boolean),location:b.querySelector('.spot-location')?.textContent.replace('📍 ','')||''};a.set(d,e),c.classList.add('in-plan'),c.textContent='✓ In Plan — Remove'}j(a),g();const e=document.getElementById('jst-plan-float');e&&(e.style.transform='scale(1.12)',setTimeout(()=>{e.style.transform=''},200))},k(),g()})()</script>
 <div id=affWidget class=aff-widget aria-label="Book travel services">
 <div class=aff-popup id=affPopup role=complementary aria-label="Hotel search">
 <div class=aff-popup-header>

@@ -64,7 +64,7 @@
 </header>
 <style>.lang-switcher{position:relative;margin-left:.8rem;flex-shrink:0}.lang-btn{display:flex;align-items:center;gap:.28rem;background:0 0;border:1.5px solid var(--border);border-radius:6px;padding:.22rem .55rem;font-size:.73rem;font-weight:700;color:var(--gray);cursor:pointer;font-family:inherit;transition:border-color .15s,color .15s}.lang-btn:hover,.lang-btn[aria-expanded=true]{border-color:var(--red);color:var(--red)}.lang-globe{font-size:.85rem;line-height:1}.lang-arrow{font-size:.68rem;transition:transform .15s;display:inline-block}.lang-btn[aria-expanded=true] .lang-arrow{transform:rotate(180deg)}.lang-dropdown{display:none;position:absolute;top:calc(100% + 5px);right:0;background:#fff;border:1.5px solid var(--border);border-radius:8px;box-shadow:0 4px 18px rgba(0,0,0,.11);list-style:none;margin:0;padding:.3rem 0;min-width:110px;z-index:9998}.lang-dropdown.open{display:block}.lang-opt{display:flex;align-items:center;justify-content:space-between;padding:.4rem .85rem;font-size:.78rem;font-weight:700;color:var(--gray);text-decoration:none;white-space:nowrap;gap:.4rem}a.lang-opt:hover{background:#fdf5f6;color:var(--red)}.lang-opt-active{color:var(--red);cursor:default}.lang-check{font-size:.75rem}</style>
 <script>(function(){var d=document.getElementById('langSwitcher'),b,a;if(!d)return;b=document.getElementById('langBtn'),a=document.getElementById('langDropdown');function c(){a.classList.remove('open'),b.setAttribute('aria-expanded','false')}function e(){a.classList.add('open'),b.setAttribute('aria-expanded','true')}b.addEventListener('click',function(b){b.stopPropagation(),a.classList.contains('open')?c():e()}),document.addEventListener('click',function(){c()}),a.addEventListener('click',function(a){a.stopPropagation()}),document.addEventListener('keydown',function(a){a.key==='Escape'&&c()})})()</script>
-<style>.pref-breadcrumb{background:#f8f9fa;border-bottom:1px solid var(--border);padding:.6rem 1.5rem;font-size:.82rem;color:var(--gray)}.pref-breadcrumb a{color:var(--red);text-decoration:none}.pref-breadcrumb a:hover{text-decoration:underline}.pref-breadcrumb span{margin:0 .4rem}.pref-hero{position:relative;min-height:440px;display:flex;align-items:flex-end;background:#0a1844 50%/cover no-repeat;background-image:url(https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=1600&q=80)}.pref-hero::after{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,.15) 0%,rgba(0,0,0,.7) 100%)}.pref-hero-body{position:relative;z-index:1;padding:2.5rem 1.5rem 2rem;max-width:var(--max-w);margin:0 auto;width:100%}.pref-hero-eyebrow{color:rgba(255,255,255,.75);font-size:.82rem;font-weight:600;text-transform:uppercase;letter-spacing:.1em;margin-bottom:.5rem}.pref-hero h1{color:#fff;font-size:clamp(2.2rem,5.5vw,3.4rem);font-weight:900;margin:0 0 .5rem;line-height:1.1}.pref-hero .pref-sub{color:rgba(255,255,255,.88);font-size:1.05rem;max-width:560px;margin-bottom:1rem}.pref-stats{display:flex;flex-wrap:wrap;gap:.6rem}.pref-stat{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);border-radius:20px;padding:.3rem .85rem;color:#fff;font-size:.8rem;font-weight:600}.pref-section{padding:2.5rem 1.5rem}.pref-section+.pref-section{padding-top:0}.pref-container{max-width:var(--max-w);margin:0 auto}.pref-section-title{font-size:1.55rem;font-weight:900;margin:0 0 .4rem;display:flex;align-items:center;gap:.5rem}.pref-section-lead{font-size:1rem;color:#555;line-height:1.7;max-width:680px;margin-bottom:1.5rem}.ponko-guide{display:flex;align-items:flex-end;gap:0;margin-bottom:1.6rem}.ponko-bubble{flex:1;min-width:0;background:linear-gradient(135deg,#fff9f0,#fff3e0);border:2px solid #f5a623;border-radius:18px 18px 18px 4px;padding:1.2rem 1.5rem;position:relative;box-shadow:0 4px 14px rgba(245,166,35,.13)}.ponko-bubble::after{content:'';position:absolute;right:-18px;bottom:22px;border:9px solid transparent;border-left-color:#f5a623}.ponko-bubble::before{content:'';position:absolute;right:-13px;bottom:23px;z-index:1;border:8px solid transparent;border-left-color:#fff9f0}.ponko-bubble p{font-size:.97rem;line-height:1.8;color:#333;margin:0}.ponko-figure{flex-shrink:0;width:170px;margin-left:4px;animation:ponko-float 3s ease-in-out infinite}.ponko-figure img{width:100%;height:auto;display:block;filter:drop-shadow(0 6px 10px rgba(0,0,0,.18))}@keyframes ponko-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}@media(max-width:640px){.ponko-guide{flex-direction:column;align-items:center}.ponko-bubble{border-radius:18px;order:2;width:100%}.ponko-bubble::after,.ponko-bubble::before{display:none}.ponko-figure{order:1;width:130px;margin-left:0;margin-bottom:.5rem;animation:none}}.quick-facts{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.8rem;margin-top:1.4rem}.qf-card{background:#f8f9fb;border:1px solid var(--border);border-radius:12px;padding:1rem 1.1rem;display:flex;align-items:flex-start;gap:.7rem}.qf-icon{font-size:1.4rem;flex-shrink:0}.qf-label{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--gray);margin-bottom:.15rem}.qf-value{font-size:.9rem;font-weight:600;color:var(--dark)}.access-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}.access-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 8px rgba(0,0,0,5%)}.access-card-hd{display:flex;align-items:center;gap:.5rem;margin-bottom:.8rem}.access-card-icon{font-size:1.5rem}.access-card-title{font-size:1rem;font-weight:800;color:var(--dark)}.access-card ul{margin:0;padding-left:1.1rem}.access-card li{font-size:.875rem;line-height:1.65;color:#444;margin-bottom:.3rem}.access-card li strong{color:var(--dark)}.access-tip{margin-top:1.2rem;background:#fff8e6;border:1px solid #ffe0a0;border-radius:10px;padding:.9rem 1.1rem;font-size:.85rem;line-height:1.6;color:#5a3e00}.access-tip strong{display:block;margin-bottom:.2rem;font-size:.88rem}.guide-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem}.guide-card{background:#fff;border-radius:14px;overflow:hidden;border:1px solid var(--border);box-shadow:0 2px 8px rgba(0,0,0,5%);transition:transform .15s,box-shadow .15s;position:relative;display:flex;flex-direction:column}.guide-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.guide-card-img{width:100%;height:150px;object-fit:cover;background:#e8eef4;display:block}.guide-card-img-ph{width:100%;height:150px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:2.5rem}.guide-card-body{padding:.9rem 1rem 1rem;flex:1}.guide-cat-badge{display:inline-block;font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;padding:.15rem .55rem;border-radius:8px;background:var(--red);color:#fff;margin-bottom:.4rem}.guide-card-title{font-size:.92rem;font-weight:800;color:var(--dark);line-height:1.4}.guide-coming-soon{position:absolute;top:.6rem;right:.6rem;background:rgba(0,0,0,.55);color:#fff;font-size:.65rem;font-weight:700;padding:.2rem .5rem;border-radius:6px;text-transform:uppercase;letter-spacing:.05em}.guide-card-link{text-decoration:none;color:inherit;display:flex;flex-direction:column;height:100%}.pref-toc{background:#fff;border-bottom:2px solid var(--border);position:sticky;top:0;z-index:100;overflow-x:auto}.pref-toc-inner{display:flex;gap:0;max-width:var(--max-w);margin:0 auto}.pref-toc-btn{flex:none;display:flex;align-items:center;gap:.4rem;padding:.8rem 1.2rem;border:none;background:0 0;cursor:pointer;font-family:inherit;font-size:.88rem;font-weight:600;color:var(--gray);border-bottom:3px solid transparent;transition:all .18s;white-space:nowrap}.pref-toc-btn .toc-icon{font-size:1.1rem}.pref-toc-btn:hover{color:var(--dark);background:#f8f8f8}.pref-toc-btn.active{color:var(--toc-color,var(--red));border-bottom-color:var(--toc-color,var(--red))}.spot-section{padding:2rem 1.5rem 2.5rem}.spot-section.hidden{display:none}.spot-section-inner{max-width:var(--max-w);margin:0 auto}.section-hd{display:flex;align-items:center;gap:.6rem;margin-bottom:1.4rem;padding-bottom:.7rem;border-bottom:2px solid var(--border)}.section-hd .s-icon{font-size:1.6rem}.section-hd h2{font-size:1.35rem;font-weight:800;margin:0}.section-hd .s-count{margin-left:auto;background:var(--sec-color,var(--red));color:#fff;border-radius:20px;padding:.15rem .65rem;font-size:.78rem;font-weight:700}.spot-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.25rem}.spot-card{border-radius:14px;overflow:hidden;border:1px solid var(--border);background:#fff;box-shadow:0 2px 8px rgba(0,0,0,6%);transition:transform .15s,box-shadow .15s;display:flex;flex-direction:column}.spot-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.spot-img{width:100%;height:200px;object-fit:cover;background:#e8eef4;display:block}.spot-img-ph{width:100%;height:200px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:3rem}.spot-body{padding:1rem 1.1rem 1.1rem;flex:1;display:flex;flex-direction:column}.spot-meta{display:flex;align-items:center;gap:.5rem;margin-bottom:.5rem}.spot-location{font-size:.78rem;color:var(--gray);font-weight:500}.spot-season-badge{margin-left:auto;font-size:.7rem;font-weight:700;padding:.1rem .5rem;border-radius:10px;background:#f0f4f8;color:#555;white-space:nowrap}.spot-name{font-size:1.08rem;font-weight:800;color:var(--dark);margin:0 0 .45rem;line-height:1.3}.spot-desc{font-size:.86rem;line-height:1.65;color:#555;flex:1;margin-bottom:.75rem}.spot-tags{display:flex;flex-wrap:wrap;gap:.3rem}.spot-tag{font-size:.7rem;font-weight:600;padding:.15rem .5rem;border-radius:6px;background:var(--tag-bg,#f0f4f8);color:var(--tag-color,#445)}.tips-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem}.tip-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 6px rgba(0,0,0,4%)}.tip-card-icon{font-size:1.8rem;margin-bottom:.6rem}.tip-card-title{font-size:.95rem;font-weight:800;color:var(--dark);margin-bottom:.5rem}.tip-card-body{font-size:.85rem;line-height:1.65;color:#555}.tip-card-body ul{margin:.3rem 0 0;padding-left:1.1rem}.tip-card-body li{margin-bottom:.2rem}.pref-cta{background:var(--bg-soft);padding:2.5rem 1.5rem 3rem;border-top:1px solid var(--border)}.pref-cta .pref-container{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}@media(max-width:600px){.pref-hero{min-height:320px}.quick-facts{grid-template-columns:repeat(2,1fr)}.pref-toc-btn{padding:.7rem .9rem;font-size:.82rem}}</style>
+<style>.pref-breadcrumb{background:#f8f9fa;border-bottom:1px solid var(--border);padding:.6rem 1.5rem;font-size:.82rem;color:var(--gray)}.pref-breadcrumb a{color:var(--red);text-decoration:none}.pref-breadcrumb a:hover{text-decoration:underline}.pref-breadcrumb span{margin:0 .4rem}.pref-hero{position:relative;min-height:440px;display:flex;align-items:flex-end;background:#0a1844 50%/cover no-repeat;background-image:url(https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=1600&q=80)}.pref-hero::after{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,.15) 0%,rgba(0,0,0,.7) 100%)}.pref-hero-body{position:relative;z-index:1;padding:2.5rem 1.5rem 2rem;max-width:var(--max-w);margin:0 auto;width:100%}.pref-hero-eyebrow{color:rgba(255,255,255,.75);font-size:.82rem;font-weight:600;text-transform:uppercase;letter-spacing:.1em;margin-bottom:.5rem}.pref-hero h1{color:#fff;font-size:clamp(2.2rem,5.5vw,3.4rem);font-weight:900;margin:0 0 .5rem;line-height:1.1}.pref-hero .pref-sub{color:rgba(255,255,255,.88);font-size:1.05rem;max-width:560px;margin-bottom:1rem}.pref-stats{display:flex;flex-wrap:wrap;gap:.6rem}.pref-stat{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);border-radius:20px;padding:.3rem .85rem;color:#fff;font-size:.8rem;font-weight:600}.pref-section{padding:2.5rem 1.5rem}.pref-section+.pref-section{padding-top:0}.pref-container{max-width:var(--max-w);margin:0 auto}.pref-section-title{font-size:1.55rem;font-weight:900;margin:0 0 .4rem;display:flex;align-items:center;gap:.5rem}.pref-section-lead{font-size:1rem;color:#555;line-height:1.7;max-width:680px;margin-bottom:1.5rem}.ponko-guide{display:flex;align-items:flex-end;gap:0;margin-bottom:1.6rem}.ponko-bubble{flex:1;min-width:0;background:linear-gradient(135deg,#fff9f0,#fff3e0);border:2px solid #f5a623;border-radius:18px 18px 18px 4px;padding:1.2rem 1.5rem;position:relative;box-shadow:0 4px 14px rgba(245,166,35,.13)}.ponko-bubble::after{content:'';position:absolute;right:-18px;bottom:22px;border:9px solid transparent;border-left-color:#f5a623}.ponko-bubble::before{content:'';position:absolute;right:-13px;bottom:23px;z-index:1;border:8px solid transparent;border-left-color:#fff9f0}.ponko-bubble p{font-size:.97rem;line-height:1.8;color:#333;margin:0}.ponko-figure{flex-shrink:0;width:170px;margin-left:4px;animation:ponko-float 3s ease-in-out infinite}.ponko-figure img{width:100%;height:auto;display:block;filter:drop-shadow(0 6px 10px rgba(0,0,0,.18))}@keyframes ponko-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}@media(max-width:640px){.ponko-guide{flex-direction:column;align-items:center}.ponko-bubble{border-radius:18px;order:2;width:100%}.ponko-bubble::after,.ponko-bubble::before{display:none}.ponko-figure{order:1;width:130px;margin-left:0;margin-bottom:.5rem;animation:none}}.quick-facts{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.8rem;margin-top:1.4rem}.qf-card{background:#f8f9fb;border:1px solid var(--border);border-radius:12px;padding:1rem 1.1rem;display:flex;align-items:flex-start;gap:.7rem}.qf-icon{font-size:1.4rem;flex-shrink:0}.qf-label{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--gray);margin-bottom:.15rem}.qf-value{font-size:.9rem;font-weight:600;color:var(--dark)}.access-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}.access-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 8px rgba(0,0,0,5%)}.access-card-hd{display:flex;align-items:center;gap:.5rem;margin-bottom:.8rem}.access-card-icon{font-size:1.5rem}.access-card-title{font-size:1rem;font-weight:800;color:var(--dark)}.access-card ul{margin:0;padding-left:1.1rem}.access-card li{font-size:.875rem;line-height:1.65;color:#444;margin-bottom:.3rem}.access-card li strong{color:var(--dark)}.access-tip{margin-top:1.2rem;background:#fff8e6;border:1px solid #ffe0a0;border-radius:10px;padding:.9rem 1.1rem;font-size:.85rem;line-height:1.6;color:#5a3e00}.access-tip strong{display:block;margin-bottom:.2rem;font-size:.88rem}.guide-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem}.guide-card{background:#fff;border-radius:14px;overflow:hidden;border:1px solid var(--border);box-shadow:0 2px 8px rgba(0,0,0,5%);transition:transform .15s,box-shadow .15s;position:relative;display:flex;flex-direction:column}.guide-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.guide-card-img{width:100%;height:150px;object-fit:cover;background:#e8eef4;display:block}.guide-card-img-ph{width:100%;height:150px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:2.5rem}.guide-card-body{padding:.9rem 1rem 1rem;flex:1}.guide-cat-badge{display:inline-block;font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;padding:.15rem .55rem;border-radius:8px;background:var(--red);color:#fff;margin-bottom:.4rem}.guide-card-title{font-size:.92rem;font-weight:800;color:var(--dark);line-height:1.4}.guide-coming-soon{position:absolute;top:.6rem;right:.6rem;background:rgba(0,0,0,.55);color:#fff;font-size:.65rem;font-weight:700;padding:.2rem .5rem;border-radius:6px;text-transform:uppercase;letter-spacing:.05em}.guide-card-link{text-decoration:none;color:inherit;display:flex;flex-direction:column;height:100%}.pref-toc{background:#fff;border-bottom:2px solid var(--border);position:sticky;top:0;z-index:100;overflow-x:auto}.pref-toc-inner{display:flex;gap:0;max-width:var(--max-w);margin:0 auto}.pref-toc-btn{flex:none;display:flex;align-items:center;gap:.4rem;padding:.8rem 1.2rem;border:none;background:0 0;cursor:pointer;font-family:inherit;font-size:.88rem;font-weight:600;color:var(--gray);border-bottom:3px solid transparent;transition:all .18s;white-space:nowrap}.pref-toc-btn .toc-icon{font-size:1.1rem}.pref-toc-btn:hover{color:var(--dark);background:#f8f8f8}.pref-toc-btn.active{color:var(--toc-color,var(--red));border-bottom-color:var(--toc-color,var(--red))}.spot-section{padding:2rem 1.5rem 2.5rem}.spot-section.hidden{display:none}.spot-section-inner{max-width:var(--max-w);margin:0 auto}.section-hd{display:flex;align-items:center;gap:.6rem;margin-bottom:1.4rem;padding-bottom:.7rem;border-bottom:2px solid var(--border)}.section-hd .s-icon{font-size:1.6rem}.section-hd h2{font-size:1.35rem;font-weight:800;margin:0}.section-hd .s-count{margin-left:auto;background:var(--sec-color,var(--red));color:#fff;border-radius:20px;padding:.15rem .65rem;font-size:.78rem;font-weight:700}.spot-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.25rem}.spot-card{border-radius:14px;overflow:hidden;border:1px solid var(--border);background:#fff;box-shadow:0 2px 8px rgba(0,0,0,6%);transition:transform .15s,box-shadow .15s;display:flex;flex-direction:column}.spot-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.spot-img{width:100%;height:200px;object-fit:cover;background:#e8eef4;display:block}.spot-img-ph{width:100%;height:200px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:3rem}.spot-body{padding:1rem 1.1rem 1.1rem;flex:1;display:flex;flex-direction:column}.spot-meta{display:flex;align-items:center;gap:.5rem;margin-bottom:.5rem}.spot-location{font-size:.78rem;color:var(--gray);font-weight:500}.spot-season-badge{margin-left:auto;font-size:.7rem;font-weight:700;padding:.1rem .5rem;border-radius:10px;background:#f0f4f8;color:#555;white-space:nowrap}.spot-name{font-size:1.08rem;font-weight:800;color:var(--dark);margin:0 0 .45rem;line-height:1.3}.spot-desc{font-size:.86rem;line-height:1.65;color:#555;flex:1;margin-bottom:.75rem}.spot-tags{display:flex;flex-wrap:wrap;gap:.3rem}.spot-tag{font-size:.7rem;font-weight:600;padding:.15rem .5rem;border-radius:6px;background:var(--tag-bg,#f0f4f8);color:var(--tag-color,#445)}.tips-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem}.tip-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 6px rgba(0,0,0,4%)}.tip-card-icon{font-size:1.8rem;margin-bottom:.6rem}.tip-card-title{font-size:.95rem;font-weight:800;color:var(--dark);margin-bottom:.5rem}.tip-card-body{font-size:.85rem;line-height:1.65;color:#555}.tip-card-body ul{margin:.3rem 0 0;padding-left:1.1rem}.tip-card-body li{margin-bottom:.2rem}.pref-cta{background:var(--bg-soft);padding:2.5rem 1.5rem 3rem;border-top:1px solid var(--border)}.pref-cta .pref-container{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}@media(max-width:600px){.pref-hero{min-height:320px}.quick-facts{grid-template-columns:repeat(2,1fr)}.pref-toc-btn{padding:.7rem .9rem;font-size:.82rem}}.btn-add-plan{display:inline-flex;align-items:center;gap:.35rem;margin-top:.75rem;padding:.45rem .9rem;border:1.5px solid #2d5be3;border-radius:8px;background:#fff;color:#2d5be3;font-size:.78rem;font-weight:700;font-family:inherit;cursor:pointer;transition:background .15s,color .15s,transform .1s;width:100%;justify-content:center}.btn-add-plan:hover{background:#2d5be3;color:#fff;transform:translateY(-1px)}.btn-add-plan.in-plan{background:#e8f0ff;color:#1a45a8;border-color:#1a45a8}.btn-add-plan.in-plan:hover{background:#c0003a;color:#fff;border-color:#c0003a}.jst-plan-float{position:fixed;bottom:1.5rem;left:1.5rem;z-index:9998;display:none;align-items:center;gap:.5rem;background:linear-gradient(135deg,#0a1844,#2d5be3);color:#fff;border-radius:30px;padding:.6rem 1.2rem .6rem .9rem;box-shadow:0 4px 20px rgba(45,91,227,.4);text-decoration:none;font-weight:700;font-size:.88rem;transition:transform .15s,box-shadow .15s;animation:plan-float-in .4s cubic-bezier(.34,1.4,.64,1)both}.jst-plan-float:hover{transform:translateY(-3px);box-shadow:0 8px 28px rgba(45,91,227,.5)}@keyframes plan-float-in{from{transform:translateY(20px);opacity:0}to{transform:translateY(0);opacity:1}}.jst-plan-float-icon{font-size:1.1rem}.jst-plan-float-badge{background:rgba(255,255,255,.25);border-radius:10px;padding:.1rem .45rem;font-size:.75rem}@media(max-width:480px){.jst-plan-float{bottom:1rem;left:1rem}}</style>
 <nav class=pref-breadcrumb aria-label=breadcrumb>
 <a href=/>홈</a><span>›</span>
 <a href=/explore/>일본 탐색</a><span>›</span>
@@ -369,7 +369,7 @@
 <span class=s-count>5 곳</span>
 </div>
 <div class=spot-grid>
-<article class=spot-card>
+<article class=spot-card data-spot-id=sensoji data-spot-name="Senso-ji Temple" data-spot-pref=tokyo data-spot-fee=0 data-spot-dur=90 data-spot-lat=35.7148 data-spot-lng=139.7967 data-spot-area=asakusa data-spot-rating=4.6 data-spot-reviews=122000 data-spot-img="https://images.unsplash.com/photo-1568028860651-ac5463c69d04?w=800&q=80" data-spot-cats=sightseeing>
 <img class=spot-img src="https://images.unsplash.com/photo-1568028860651-ac5463c69d04?w=800&q=80" alt="Senso-ji Temple" loading=lazy onerror="this.style.display='none',this.nextElementSibling.style.display='flex'">
 <div class=spot-img-ph style=display:none>⛩️</div>
 <div class=spot-body>
@@ -385,9 +385,12 @@
 <span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Nakamise Street</span>
 <span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Free Entry</span>
 </div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
 </div>
 </article>
-<article class=spot-card>
+<article class=spot-card data-spot-id=meiji-jingu data-spot-name="Meiji Jingu Shrine" data-spot-pref=tokyo data-spot-fee=0 data-spot-dur=60 data-spot-lat=35.6764 data-spot-lng=139.6993 data-spot-area=harajuku data-spot-rating=4.5 data-spot-reviews=86000 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Meiji-jing%C5%AB_main_hall.jpg/960px-Meiji-jing%C5%AB_main_hall.jpg data-spot-cats=sightseeing>
 <img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Meiji-jing%C5%AB_main_hall.jpg/960px-Meiji-jing%C5%AB_main_hall.jpg alt="Meiji Jingu Shrine" loading=lazy onerror="this.style.display='none',this.nextElementSibling.style.display='flex'">
 <div class=spot-img-ph style=display:none>⛩️</div>
 <div class=spot-body>
@@ -403,9 +406,12 @@
 <span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Imperial</span>
 <span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Free Entry</span>
 </div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
 </div>
 </article>
-<article class=spot-card>
+<article class=spot-card data-spot-id=tokyo-skytree data-spot-name="Tokyo Skytree" data-spot-pref=tokyo data-spot-fee=2100 data-spot-dur=90 data-spot-lat=35.7101 data-spot-lng=139.8107 data-spot-area=asakusa data-spot-rating=4.4 data-spot-reviews=72000 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Tokyo_Skytree_2023.jpg/500px-Tokyo_Skytree_2023.jpg data-spot-cats=sightseeing>
 <img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Tokyo_Skytree_2023.jpg/500px-Tokyo_Skytree_2023.jpg alt="Tokyo Skytree" loading=lazy onerror="this.style.display='none',this.nextElementSibling.style.display='flex'">
 <div class=spot-img-ph style=display:none>⛩️</div>
 <div class=spot-body>
@@ -421,9 +427,12 @@
 <span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Shopping</span>
 <span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Modern</span>
 </div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
 </div>
 </article>
-<article class=spot-card>
+<article class=spot-card data-spot-id=shibuya-crossing data-spot-name="Shibuya Scramble Crossing" data-spot-pref=tokyo data-spot-fee=0 data-spot-dur=30 data-spot-lat=35.6595 data-spot-lng=139.7004 data-spot-area=shibuya data-spot-rating=4.6 data-spot-reviews=96000 data-spot-img="https://images.unsplash.com/photo-1542051841857-5f90071e7989?w=800&q=80" data-spot-cats=sightseeing>
 <img class=spot-img src="https://images.unsplash.com/photo-1542051841857-5f90071e7989?w=800&q=80" alt="Shibuya Scramble Crossing" loading=lazy onerror="this.style.display='none',this.nextElementSibling.style.display='flex'">
 <div class=spot-img-ph style=display:none>⛩️</div>
 <div class=spot-body>
@@ -439,9 +448,12 @@
 <span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Shopping</span>
 <span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Youth Culture</span>
 </div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
 </div>
 </article>
-<article class=spot-card>
+<article class=spot-card data-spot-id=imperial-palace data-spot-name="Tokyo Imperial Palace East Gardens" data-spot-pref=tokyo data-spot-fee=0 data-spot-dur=60 data-spot-lat=35.6852 data-spot-lng=139.7528 data-spot-area=marunouchi data-spot-rating=4.5 data-spot-reviews=42000 data-spot-img="https://images.unsplash.com/photo-1695500045025-a73a9ab1bbb6?w=800&q=80" data-spot-cats=sightseeing>
 <img class=spot-img src="https://images.unsplash.com/photo-1695500045025-a73a9ab1bbb6?w=800&q=80" alt="Tokyo Imperial Palace East Gardens" loading=lazy onerror="this.style.display='none',this.nextElementSibling.style.display='flex'">
 <div class=spot-img-ph style=display:none>⛩️</div>
 <div class=spot-body>
@@ -457,6 +469,9 @@
 <span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Free Entry</span>
 <span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Photography</span>
 </div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
 </div>
 </article>
 </div>
@@ -470,7 +485,7 @@
 <span class=s-count>5 곳</span>
 </div>
 <div class=spot-grid>
-<article class=spot-card>
+<article class=spot-card data-spot-id=tsukiji-market data-spot-name="Tsukiji Outer Market" data-spot-pref=tokyo data-spot-fee=1500 data-spot-dur=60 data-spot-lat=35.6654 data-spot-lng=139.7707 data-spot-area=tsukiji data-spot-rating=4.3 data-spot-reviews=55000 data-spot-img="https://images.unsplash.com/photo-1490974764272-9f2b89eb0a6c?w=800&q=80" data-spot-cats=gourmet>
 <img class=spot-img src="https://images.unsplash.com/photo-1490974764272-9f2b89eb0a6c?w=800&q=80" alt="Tsukiji Outer Market" loading=lazy onerror="this.style.display='none',this.nextElementSibling.style.display='flex'">
 <div class=spot-img-ph style=display:none>🍜</div>
 <div class=spot-body>
@@ -486,9 +501,12 @@
 <span class=spot-tag style=background:#fff0ea;color:#9a3000>Morning</span>
 <span class=spot-tag style=background:#fff0ea;color:#9a3000>Tuna</span>
 </div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
 </div>
 </article>
-<article class=spot-card>
+<article class=spot-card data-spot-id=omoide-yokocho data-spot-name="Omoide Yokocho (Memory Lane)" data-spot-pref=tokyo data-spot-fee=2000 data-spot-dur=90 data-spot-lat=35.6902 data-spot-lng=139.7007 data-spot-area=shinjuku data-spot-rating=4.2 data-spot-reviews=28000 data-spot-img="https://images.unsplash.com/photo-1740752714845-480bf0f2dbb9?w=800&q=80" data-spot-cats=gourmet>
 <img class=spot-img src="https://images.unsplash.com/photo-1740752714845-480bf0f2dbb9?w=800&q=80" alt="Omoide Yokocho (Memory Lane)" loading=lazy onerror="this.style.display='none',this.nextElementSibling.style.display='flex'">
 <div class=spot-img-ph style=display:none>🍜</div>
 <div class=spot-body>
@@ -504,9 +522,12 @@
 <span class=spot-tag style=background:#fff0ea;color:#9a3000>Retro</span>
 <span class=spot-tag style=background:#fff0ea;color:#9a3000>Night Out</span>
 </div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
 </div>
 </article>
-<article class=spot-card>
+<article class=spot-card data-spot-id=ginza-sushi data-spot-name="Ginza Omakase Sushi" data-spot-pref=tokyo data-spot-fee=30000 data-spot-dur=120 data-spot-lat=35.6717 data-spot-lng=139.7647 data-spot-area=ginza data-spot-rating=4.8 data-spot-reviews=4800 data-spot-img="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Takashi_Saito_preparing_sushi_2023.jpg/500px-Takashi_Saito_preparing_sushi_2023.jpg?_=20250603141924" data-spot-cats=gourmet>
 <img class=spot-img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Takashi_Saito_preparing_sushi_2023.jpg/500px-Takashi_Saito_preparing_sushi_2023.jpg?_=20250603141924" alt="Ginza Omakase Sushi" loading=lazy onerror="this.style.display='none',this.nextElementSibling.style.display='flex'">
 <div class=spot-img-ph style=display:none>🍜</div>
 <div class=spot-body>
@@ -522,9 +543,12 @@
 <span class=spot-tag style=background:#fff0ea;color:#9a3000>Counter Sushi</span>
 <span class=spot-tag style=background:#fff0ea;color:#9a3000>Reservation Required</span>
 </div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
 </div>
 </article>
-<article class=spot-card>
+<article class=spot-card data-spot-id=tsukishima-monja data-spot-name="Tsukishima Monjayaki Street" data-spot-pref=tokyo data-spot-fee=1800 data-spot-dur=90 data-spot-lat=35.6627 data-spot-lng=139.7833 data-spot-area=tsukishima data-spot-rating=4.3 data-spot-reviews=12000 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Monjayaki_dish_from_Tsukishima%2C_Tokyo%2C_Japan%3B_January_2013.jpg/960px-Monjayaki_dish_from_Tsukishima%2C_Tokyo%2C_Japan%3B_January_2013.jpg data-spot-cats=gourmet>
 <img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Monjayaki_dish_from_Tsukishima%2C_Tokyo%2C_Japan%3B_January_2013.jpg/960px-Monjayaki_dish_from_Tsukishima%2C_Tokyo%2C_Japan%3B_January_2013.jpg alt="Tsukishima Monjayaki Street" loading=lazy onerror="this.style.display='none',this.nextElementSibling.style.display='flex'">
 <div class=spot-img-ph style=display:none>🍜</div>
 <div class=spot-body>
@@ -540,9 +564,12 @@
 <span class=spot-tag style=background:#fff0ea;color:#9a3000>DIY Cooking</span>
 <span class=spot-tag style=background:#fff0ea;color:#9a3000>Local Favorite</span>
 </div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
 </div>
 </article>
-<article class=spot-card>
+<article class=spot-card data-spot-id=ramen-fuunji data-spot-name="Shinjuku Ramen Alley" data-spot-pref=tokyo data-spot-fee=1000 data-spot-dur=60 data-spot-lat=35.6938 data-spot-lng=139.7035 data-spot-area=shinjuku data-spot-rating=4.2 data-spot-reviews=20000 data-spot-img="https://images.unsplash.com/photo-1591325418441-ff678baf78ef?w=800&q=80" data-spot-cats=gourmet>
 <img class=spot-img src="https://images.unsplash.com/photo-1591325418441-ff678baf78ef?w=800&q=80" alt="Shinjuku Ramen Alley" loading=lazy onerror="this.style.display='none',this.nextElementSibling.style.display='flex'">
 <div class=spot-img-ph style=display:none>🍜</div>
 <div class=spot-body>
@@ -558,6 +585,9 @@
 <span class=spot-tag style=background:#fff0ea;color:#9a3000>Budget-friendly</span>
 <span class=spot-tag style=background:#fff0ea;color:#9a3000>Late Night</span>
 </div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
 </div>
 </article>
 </div>
@@ -571,7 +601,7 @@
 <span class=s-count>5 곳</span>
 </div>
 <div class=spot-grid>
-<article class=spot-card>
+<article class=spot-card data-spot-id=shinjuku-gyoen data-spot-name="Shinjuku Gyoen National Garden" data-spot-pref=tokyo data-spot-fee=500 data-spot-dur=90 data-spot-lat=35.6851 data-spot-lng=139.71 data-spot-area=shinjuku data-spot-rating=4.6 data-spot-reviews=62000 data-spot-img="https://images.unsplash.com/photo-1705695373213-115c102714fd?w=800&q=80" data-spot-cats=nature>
 <img class=spot-img src="https://images.unsplash.com/photo-1705695373213-115c102714fd?w=800&q=80" alt="Shinjuku Gyoen National Garden" loading=lazy onerror="this.style.display='none',this.nextElementSibling.style.display='flex'">
 <div class=spot-img-ph style=display:none>🏔️</div>
 <div class=spot-body>
@@ -587,9 +617,12 @@
 <span class=spot-tag style=background:#e4f4e8;color:#155a28>Picnic</span>
 <span class=spot-tag style=background:#e4f4e8;color:#155a28>Seasonal</span>
 </div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
 </div>
 </article>
-<article class=spot-card>
+<article class=spot-card data-spot-id=mount-takao data-spot-name="Mount Takao (Takao-san)" data-spot-pref=tokyo data-spot-fee=0 data-spot-dur=240 data-spot-lat=35.6258 data-spot-lng=139.2432 data-spot-area=takao data-spot-rating=4.5 data-spot-reviews=46000 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Takao-san_hike_during_winter_10.jpg/960px-Takao-san_hike_during_winter_10.jpg data-spot-cats=nature>
 <img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Takao-san_hike_during_winter_10.jpg/960px-Takao-san_hike_during_winter_10.jpg alt="Mount Takao (Takao-san)" loading=lazy onerror="this.style.display='none',this.nextElementSibling.style.display='flex'">
 <div class=spot-img-ph style=display:none>🏔️</div>
 <div class=spot-body>
@@ -605,9 +638,12 @@
 <span class=spot-tag style=background:#e4f4e8;color:#155a28>Mt. Fuji View</span>
 <span class=spot-tag style=background:#e4f4e8;color:#155a28>Day Trip</span>
 </div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
 </div>
 </article>
-<article class=spot-card>
+<article class=spot-card data-spot-id=hamarikyu data-spot-name="Hamarikyu Gardens" data-spot-pref=tokyo data-spot-fee=300 data-spot-dur=60 data-spot-lat=35.6591 data-spot-lng=139.7633 data-spot-area=tsukiji data-spot-rating=4.4 data-spot-reviews=24000 data-spot-img="https://images.unsplash.com/photo-1593296984896-f5c6d6966363?w=800&q=80" data-spot-cats=nature>
 <img class=spot-img src="https://images.unsplash.com/photo-1593296984896-f5c6d6966363?w=800&q=80" alt="Hamarikyu Gardens" loading=lazy onerror="this.style.display='none',this.nextElementSibling.style.display='flex'">
 <div class=spot-img-ph style=display:none>🏔️</div>
 <div class=spot-body>
@@ -623,9 +659,12 @@
 <span class=spot-tag style=background:#e4f4e8;color:#155a28>Photography</span>
 <span class=spot-tag style=background:#e4f4e8;color:#155a28>Seasonal Flowers</span>
 </div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
 </div>
 </article>
-<article class=spot-card>
+<article class=spot-card data-spot-id=inokashira-park data-spot-name="Inokashira Park" data-spot-pref=tokyo data-spot-fee=0 data-spot-dur=60 data-spot-lat=35.7014 data-spot-lng=139.5754 data-spot-area=kichijoji data-spot-rating=4.5 data-spot-reviews=36000 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Inokashira_park_pond_2024.jpg/960px-Inokashira_park_pond_2024.jpg data-spot-cats=nature>
 <img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Inokashira_park_pond_2024.jpg/960px-Inokashira_park_pond_2024.jpg alt="Inokashira Park" loading=lazy onerror="this.style.display='none',this.nextElementSibling.style.display='flex'">
 <div class=spot-img-ph style=display:none>🏔️</div>
 <div class=spot-body>
@@ -641,9 +680,12 @@
 <span class=spot-tag style=background:#e4f4e8;color:#155a28>Street Art</span>
 <span class=spot-tag style=background:#e4f4e8;color:#155a28>Ghibli Museum</span>
 </div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
 </div>
 </article>
-<article class=spot-card>
+<article class=spot-card data-spot-id=okutama data-spot-name="Okutama Valley &amp;amp; Lake" data-spot-pref=tokyo data-spot-fee=0 data-spot-dur=360 data-spot-lat=35.8269 data-spot-lng=139.0792 data-spot-area=okutama data-spot-rating=4.5 data-spot-reviews=8200 data-spot-img="https://images.unsplash.com/photo-1644378334642-b46b340e4d56?w=800&q=80" data-spot-cats=nature>
 <img class=spot-img src="https://images.unsplash.com/photo-1644378334642-b46b340e4d56?w=800&q=80" alt="Okutama Valley & Lake" loading=lazy onerror="this.style.display='none',this.nextElementSibling.style.display='flex'">
 <div class=spot-img-ph style=display:none>🏔️</div>
 <div class=spot-body>
@@ -659,6 +701,9 @@
 <span class=spot-tag style=background:#e4f4e8;color:#155a28>Autumn Leaves</span>
 <span class=spot-tag style=background:#e4f4e8;color:#155a28>Escape the City</span>
 </div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
 </div>
 </article>
 </div>
@@ -672,7 +717,7 @@
 <span class=s-count>5 곳</span>
 </div>
 <div class=spot-grid>
-<article class=spot-card>
+<article class=spot-card data-spot-id=teamlab-planets data-spot-name="teamLab Planets Tokyo" data-spot-pref=tokyo data-spot-fee=3200 data-spot-dur=90 data-spot-lat=35.6456 data-spot-lng=139.7919 data-spot-area=odaiba data-spot-rating=4.5 data-spot-reviews=35000 data-spot-img="https://images.unsplash.com/photo-1620789360171-4712b171fb60?w=800&q=80" data-spot-cats=leisure>
 <img class=spot-img src="https://images.unsplash.com/photo-1620789360171-4712b171fb60?w=800&q=80" alt="teamLab Planets Tokyo" loading=lazy onerror="this.style.display='none',this.nextElementSibling.style.display='flex'">
 <div class=spot-img-ph style=display:none>🎿</div>
 <div class=spot-body>
@@ -688,9 +733,12 @@
 <span class=spot-tag style=background:#fff3e0;color:#7a3f00>Instagram</span>
 <span class=spot-tag style=background:#fff3e0;color:#7a3f00>Book in Advance</span>
 </div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
 </div>
 </article>
-<article class=spot-card>
+<article class=spot-card data-spot-id=odaiba data-spot-name="Odaiba Entertainment Island" data-spot-pref=tokyo data-spot-fee=0 data-spot-dur=180 data-spot-lat=35.6264 data-spot-lng=139.7769 data-spot-area=odaiba data-spot-rating=4.3 data-spot-reviews=28000 data-spot-img="https://images.unsplash.com/photo-1674705015184-47bd9e749a1b?w=800&q=80" data-spot-cats=leisure>
 <img class=spot-img src="https://images.unsplash.com/photo-1674705015184-47bd9e749a1b?w=800&q=80" alt="Odaiba Entertainment Island" loading=lazy onerror="this.style.display='none',this.nextElementSibling.style.display='flex'">
 <div class=spot-img-ph style=display:none>🎿</div>
 <div class=spot-body>
@@ -707,9 +755,12 @@
 <span class=spot-tag style=background:#fff3e0;color:#7a3f00>Bay Views</span>
 <span class=spot-tag style=background:#fff3e0;color:#7a3f00>Futuristic</span>
 </div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
 </div>
 </article>
-<article class=spot-card>
+<article class=spot-card data-spot-id=akihabara data-spot-name="Akihabara Electric Town" data-spot-pref=tokyo data-spot-fee=0 data-spot-dur=180 data-spot-lat=35.6984 data-spot-lng=139.7731 data-spot-area=akihabara data-spot-rating=4.4 data-spot-reviews=42000 data-spot-img="https://images.unsplash.com/photo-1561172317-5427a31ef91e?w=800&q=80" data-spot-cats=leisure>
 <img class=spot-img src="https://images.unsplash.com/photo-1561172317-5427a31ef91e?w=800&q=80" alt="Akihabara Electric Town" loading=lazy onerror="this.style.display='none',this.nextElementSibling.style.display='flex'">
 <div class=spot-img-ph style=display:none>🎿</div>
 <div class=spot-body>
@@ -726,9 +777,12 @@
 <span class=spot-tag style=background:#fff3e0;color:#7a3f00>Maid Cafes</span>
 <span class=spot-tag style=background:#fff3e0;color:#7a3f00>Gaming</span>
 </div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
 </div>
 </article>
-<article class=spot-card>
+<article class=spot-card data-spot-id=shibuya-sky data-spot-name="Shibuya Sky Observation Deck" data-spot-pref=tokyo data-spot-fee=2000 data-spot-dur=60 data-spot-lat=35.6584 data-spot-lng=139.7021 data-spot-area=shibuya data-spot-rating=4.5 data-spot-reviews=31000 data-spot-img="https://images.unsplash.com/photo-1622989428689-569c4fe81c11?w=800&q=80" data-spot-cats=leisure>
 <img class=spot-img src="https://images.unsplash.com/photo-1622989428689-569c4fe81c11?w=800&q=80" alt="Shibuya Sky Observation Deck" loading=lazy onerror="this.style.display='none',this.nextElementSibling.style.display='flex'">
 <div class=spot-img-ph style=display:none>🎿</div>
 <div class=spot-body>
@@ -744,9 +798,12 @@
 <span class=spot-tag style=background:#fff3e0;color:#7a3f00>Sunset</span>
 <span class=spot-tag style=background:#fff3e0;color:#7a3f00>Photography</span>
 </div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
 </div>
 </article>
-<article class=spot-card>
+<article class=spot-card data-spot-id=disneysea data-spot-name="Tokyo DisneySea" data-spot-pref=tokyo data-spot-fee=9400 data-spot-dur=600 data-spot-lat=35.6267 data-spot-lng=139.8836 data-spot-area=disney data-spot-rating=4.7 data-spot-reviews=92000 data-spot-img="https://images.unsplash.com/photo-1594316523378-f7b5612a696c?w=800&q=80" data-spot-cats=leisure>
 <img class=spot-img src="https://images.unsplash.com/photo-1594316523378-f7b5612a696c?w=800&q=80" alt="Tokyo DisneySea" loading=lazy onerror="this.style.display='none',this.nextElementSibling.style.display='flex'">
 <div class=spot-img-ph style=display:none>🎿</div>
 <div class=spot-body>
@@ -762,6 +819,9 @@
 <span class=spot-tag style=background:#fff3e0;color:#7a3f00>Full Day</span>
 <span class=spot-tag style=background:#fff3e0;color:#7a3f00>Unique Worldwide</span>
 </div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
 </div>
 </article>
 </div>
@@ -775,7 +835,7 @@
 <span class=s-count>6 곳</span>
 </div>
 <div class=spot-grid>
-<article class=spot-card>
+<article class=spot-card data-spot-id=hanami data-spot-name="Cherry Blossom Season (Hanami)" data-spot-pref=tokyo data-spot-fee=0 data-spot-dur=120 data-spot-lat=35.7074 data-spot-lng=139.7692 data-spot-area=ueno data-spot-rating=4.8 data-spot-reviews=50000 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/%E5%8D%83%E9%B3%A5%E3%83%B6%E6%B7%B5%E3%81%AE%E6%A1%9C.jpg/960px-%E5%8D%83%E9%B3%A5%E3%83%B6%E6%B7%B5%E3%81%AE%E6%A1%9C.jpg data-spot-cats=events>
 <img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/%E5%8D%83%E9%B3%A5%E3%83%B6%E6%B7%B5%E3%81%AE%E6%A1%9C.jpg/960px-%E5%8D%83%E9%B3%A5%E3%83%B6%E6%B7%B5%E3%81%AE%E6%A1%9C.jpg alt="Cherry Blossom Season (Hanami)" loading=lazy onerror="this.style.display='none',this.nextElementSibling.style.display='flex'">
 <div class=spot-img-ph style=display:none>🎆</div>
 <div class=spot-body>
@@ -791,9 +851,12 @@
 <span class=spot-tag style=background:#ffe8f4;color:#88004e>Spring</span>
 <span class=spot-tag style=background:#ffe8f4;color:#88004e>Free</span>
 </div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
 </div>
 </article>
-<article class=spot-card>
+<article class=spot-card data-spot-id=sumida-fireworks data-spot-name="Sumida River Fireworks Festival" data-spot-pref=tokyo data-spot-fee=0 data-spot-dur=180 data-spot-lat=35.7089 data-spot-lng=139.8025 data-spot-area=asakusa data-spot-rating=4.7 data-spot-reviews=15000 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/2012%E5%B9%B4%E9%9A%85%E7%94%B0%E5%B7%9D%E8%8A%B1%E7%81%AB%E5%A4%A7%E4%BC%9A.jpg/960px-2012%E5%B9%B4%E9%9A%85%E7%94%B0%E5%B7%9D%E8%8A%B1%E7%81%AB%E5%A4%A7%E4%BC%9A.jpg data-spot-cats=events>
 <img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/2012%E5%B9%B4%E9%9A%85%E7%94%B0%E5%B7%9D%E8%8A%B1%E7%81%AB%E5%A4%A7%E4%BC%9A.jpg/960px-2012%E5%B9%B4%E9%9A%85%E7%94%B0%E5%B7%9D%E8%8A%B1%E7%81%AB%E5%A4%A7%E4%BC%9A.jpg alt="Sumida River Fireworks Festival" loading=lazy onerror="this.style.display='none',this.nextElementSibling.style.display='flex'">
 <div class=spot-img-ph style=display:none>🎆</div>
 <div class=spot-body>
@@ -809,9 +872,12 @@
 <span class=spot-tag style=background:#ffe8f4;color:#88004e>Yukata</span>
 <span class=spot-tag style=background:#ffe8f4;color:#88004e>Free</span>
 </div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
 </div>
 </article>
-<article class=spot-card>
+<article class=spot-card data-spot-id=koenji-awa-odori data-spot-name="Koenji Awa Odori Dance Festival" data-spot-pref=tokyo data-spot-fee=0 data-spot-dur=120 data-spot-lat=35.7052 data-spot-lng=139.649 data-spot-area=koenji data-spot-rating=4.5 data-spot-reviews=8500 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/2008-08-24_Parade_Of_Awa_Dance_%28%E9%AB%98%E5%86%86%E5%AF%BA%E9%98%BF%E6%B3%A2%E8%B8%8A%E3%82%8A%29_10.jpg/960px-2008-08-24_Parade_Of_Awa_Dance_%28%E9%AB%98%E5%86%86%E5%AF%BA%E9%98%BF%E6%B3%A2%E8%B8%8A%E3%82%8A%29_10.jpg data-spot-cats=events>
 <img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/2008-08-24_Parade_Of_Awa_Dance_%28%E9%AB%98%E5%86%86%E5%AF%BA%E9%98%BF%E6%B3%A2%E8%B8%8A%E3%82%8A%29_10.jpg/960px-2008-08-24_Parade_Of_Awa_Dance_%28%E9%AB%98%E5%86%86%E5%AF%BA%E9%98%BF%E6%B3%A2%E8%B8%8A%E3%82%8A%29_10.jpg alt="Koenji Awa Odori Dance Festival" loading=lazy onerror="this.style.display='none',this.nextElementSibling.style.display='flex'">
 <div class=spot-img-ph style=display:none>🎆</div>
 <div class=spot-body>
@@ -827,9 +893,12 @@
 <span class=spot-tag style=background:#ffe8f4;color:#88004e>Free Admission</span>
 <span class=spot-tag style=background:#ffe8f4;color:#88004e>Parade</span>
 </div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
 </div>
 </article>
-<article class=spot-card>
+<article class=spot-card data-spot-id=comiket data-spot-name="Comic Market (Comiket)" data-spot-pref=tokyo data-spot-fee=1000 data-spot-dur=240 data-spot-lat=35.6297 data-spot-lng=139.794 data-spot-area=odaiba data-spot-rating=4.6 data-spot-reviews=11000 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/The_Cosplayers_of_Comiket_69.jpg/960px-The_Cosplayers_of_Comiket_69.jpg data-spot-cats=events>
 <img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/The_Cosplayers_of_Comiket_69.jpg/960px-The_Cosplayers_of_Comiket_69.jpg alt="Comic Market (Comiket)" loading=lazy onerror="this.style.display='none',this.nextElementSibling.style.display='flex'">
 <div class=spot-img-ph style=display:none>🎆</div>
 <div class=spot-body>
@@ -845,9 +914,12 @@
 <span class=spot-tag style=background:#ffe8f4;color:#88004e>Cosplay</span>
 <span class=spot-tag style=background:#ffe8f4;color:#88004e>Doujinshi</span>
 </div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
 </div>
 </article>
-<article class=spot-card>
+<article class=spot-card data-spot-id=halloween-shibuya data-spot-name="Halloween in Shibuya" data-spot-pref=tokyo data-spot-fee=0 data-spot-dur=180 data-spot-lat=35.6595 data-spot-lng=139.7004 data-spot-area=shibuya data-spot-rating=4.3 data-spot-reviews=8200 data-spot-img="https://images.unsplash.com/photo-1762270108017-dc0348c950a8?w=800&q=80" data-spot-cats=events>
 <img class=spot-img src="https://images.unsplash.com/photo-1762270108017-dc0348c950a8?w=800&q=80" alt="Halloween in Shibuya" loading=lazy onerror="this.style.display='none',this.nextElementSibling.style.display='flex'">
 <div class=spot-img-ph style=display:none>🎆</div>
 <div class=spot-body>
@@ -863,9 +935,12 @@
 <span class=spot-tag style=background:#ffe8f4;color:#88004e>Night Life</span>
 <span class=spot-tag style=background:#ffe8f4;color:#88004e>Unique Experience</span>
 </div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
 </div>
 </article>
-<article class=spot-card>
+<article class=spot-card data-spot-id=hatsumode data-spot-name="Hatsumode at Meiji Shrine" data-spot-pref=tokyo data-spot-fee=0 data-spot-dur=90 data-spot-lat=35.6764 data-spot-lng=139.6993 data-spot-area=harajuku data-spot-rating=4.7 data-spot-reviews=21000 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/%E6%98%8E%E6%B2%BB%E7%A5%9E%E5%AE%AE%E3%83%BC%EF%BC%92.JPG/960px-%E6%98%8E%E6%B2%BB%E7%A5%9E%E5%AE%AE%E3%83%BC%EF%BC%92.JPG data-spot-cats=events>
 <img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/%E6%98%8E%E6%B2%BB%E7%A5%9E%E5%AE%AE%E3%83%BC%EF%BC%92.JPG/960px-%E6%98%8E%E6%B2%BB%E7%A5%9E%E5%AE%AE%E3%83%BC%EF%BC%92.JPG alt="Hatsumode at Meiji Shrine" loading=lazy onerror="this.style.display='none',this.nextElementSibling.style.display='flex'">
 <div class=spot-img-ph style=display:none>🎆</div>
 <div class=spot-body>
@@ -881,6 +956,9 @@
 <span class=spot-tag style=background:#ffe8f4;color:#88004e>Tradition</span>
 <span class=spot-tag style=background:#ffe8f4;color:#88004e>Free</span>
 </div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
 </div>
 </article>
 </div>
@@ -988,7 +1066,12 @@
 </div>
 </div>
 </div>
-<script>(function(){const b={sightseeing:{color:"#1a45a8"},gourmet:{color:"#D64000"},nature:{color:"#1a7a34"},leisure:{color:"#b35c00"},events:{color:"#b5006e"}},e=document.querySelectorAll('.spot-section[data-cat]'),c=document.querySelectorAll('.pref-toc-btn[data-cat]');function d(a){c.forEach(c=>{c.classList.toggle('active',c.dataset.cat===a),c.dataset.cat===a&&b[a]&&c.style.setProperty('--toc-color',b[a].color)}),e.forEach(b=>{a==='all'?b.classList.remove('hidden'):b.classList.toggle('hidden',b.dataset.cat!==a)}),history.replaceState(null,'',a==='all'?'#all':'#'+a)}c.forEach(a=>a.addEventListener('click',()=>d(a.dataset.cat)));const a=location.hash.replace('#','');d(a&&(a==='all'||b[a])?a:'all')})()</script>
+<a href=/plan-builder/ class=jst-plan-float id=jst-plan-float aria-label="View your travel plan">
+<span class=jst-plan-float-icon>🗺️</span>
+<span>Plan</span>
+<span class=jst-plan-float-badge id=jst-plan-float-count>0</span>
+</a>
+<script>(function(){const c={sightseeing:{color:"#1a45a8"},gourmet:{color:"#D64000"},nature:{color:"#1a7a34"},leisure:{color:"#b35c00"},events:{color:"#b5006e"}},h=document.querySelectorAll('.spot-section[data-cat]'),f=document.querySelectorAll('.pref-toc-btn[data-cat]');function d(a){f.forEach(b=>{b.classList.toggle('active',b.dataset.cat===a),b.dataset.cat===a&&c[a]&&b.style.setProperty('--toc-color',c[a].color)}),h.forEach(b=>{a==='all'?b.classList.remove('hidden'):b.classList.toggle('hidden',b.dataset.cat!==a)}),history.replaceState(null,'',a==='all'?'#all':'#'+a)}f.forEach(a=>a.addEventListener('click',()=>d(a.dataset.cat)));const b=location.hash.replace('#','');d(b&&(b==='all'||c[b])?b:'all');const e='jst_plan_v1';function i(){try{return new Map(JSON.parse(localStorage.getItem(e)||'[]'))}catch(a){return new Map}}function j(a){localStorage.setItem(e,JSON.stringify([...a]))}let a=i();function g(){const b=document.getElementById('jst-plan-float'),d=document.getElementById('jst-plan-float-count');if(!b)return;const c=a.size;b.style.display=c>0?'flex':'none',d.textContent=c}function k(){document.querySelectorAll('.spot-card[data-spot-id]').forEach(c=>{const d=c.dataset.spotId,b=c.querySelector('.btn-add-plan');if(!b)return;a.has(d)?(b.classList.add('in-plan'),b.textContent='✓ In Plan — Remove'):(b.classList.remove('in-plan'),b.textContent='🗺️ Add to Plan')})}window.prefTogglePlan=function(c){const b=c.closest('.spot-card[data-spot-id]');if(!b)return;const d=b.dataset.spotId;if(a.has(d))a.delete(d),c.classList.remove('in-plan'),c.textContent='🗺️ Add to Plan';else{const e={id:d,name:b.dataset.spotName||'',_pref:b.dataset.spotPref||'',entry_fee:parseInt(b.dataset.spotFee)||0,avg_duration_min:parseInt(b.dataset.spotDur)||60,lat:parseFloat(b.dataset.spotLat)||0,lng:parseFloat(b.dataset.spotLng)||0,area:b.dataset.spotArea||'',rating:parseFloat(b.dataset.spotRating)||0,review_count:parseInt(b.dataset.spotReviews)||0,img:b.dataset.spotImg||'',cats:(b.dataset.spotCats||'').split(',').filter(Boolean),location:b.querySelector('.spot-location')?.textContent.replace('📍 ','')||''};a.set(d,e),c.classList.add('in-plan'),c.textContent='✓ In Plan — Remove'}j(a),g();const e=document.getElementById('jst-plan-float');e&&(e.style.transform='scale(1.12)',setTimeout(()=>{e.style.transform=''},200))},k(),g()})()</script>
 <div id=affWidget class=aff-widget aria-label="Book travel services">
 <div class=aff-popup id=affPopup role=complementary aria-label="Hotel search">
 <div class=aff-popup-header>
