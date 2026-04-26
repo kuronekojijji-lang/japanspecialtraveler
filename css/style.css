@@ -90,8 +90,16 @@ nav a {
   letter-spacing: .4px;
   text-transform: uppercase;
   font-weight: 600;
+  white-space: nowrap;
 }
 nav a:hover { color: var(--blue); text-decoration: none; }
+
+/* ── French nav: longer items need tighter spacing ── */
+html[lang="fr"] nav a {
+  font-size: .76rem;
+  margin-left: 1.05rem;
+  letter-spacing: .2px;
+}
 
 /* ── Hero (article image) ── */
 .hero {
