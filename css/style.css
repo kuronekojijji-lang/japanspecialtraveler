@@ -94,44 +94,48 @@ nav a {
 }
 nav a:hover { color: var(--blue); text-decoration: none; }
 
-/* ── Plan Builder nav button ── */
-.nav-plan-btn {
-  display: inline-flex !important;
+/* ── Floating Plan Cart Button (global) ── */
+.jst-plan-float {
+  position: fixed;
+  bottom: 1.5rem;
+  left: 1.5rem;
+  z-index: 9997;
+  display: flex;
   align-items: center;
-  gap: .3rem;
-  margin-left: 1.4rem;
-  padding: .28rem .75rem;
-  background: linear-gradient(135deg, #2d5be3, #1a45a8);
-  color: #fff !important;
-  border-radius: 20px;
-  font-size: .76rem;
-  font-weight: 800;
-  text-transform: uppercase;
-  letter-spacing: .05em;
-  white-space: nowrap;
-  text-decoration: none !important;
-  transition: filter .15s, transform .1s;
-  flex-shrink: 0;
+  gap: .45rem;
+  background: linear-gradient(135deg, #0a1844, #2d5be3);
+  color: #fff;
+  border-radius: 30px;
+  padding: .5rem .9rem .5rem .75rem;
+  box-shadow: 0 3px 14px rgba(45,91,227,.28);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: .82rem;
+  transition: transform .15s, box-shadow .15s, opacity .2s;
+  opacity: .5;
 }
-.nav-plan-btn:hover {
-  filter: brightness(1.14);
-  transform: translateY(-1px);
-  color: #fff !important;
-  text-decoration: none !important;
+.jst-plan-float.has-items {
+  opacity: 1;
+  box-shadow: 0 4px 20px rgba(45,91,227,.45);
+  animation: jst-float-pop .4s cubic-bezier(.34,1.4,.64,1) both;
 }
-.nav-plan-badge {
-  background: rgba(255,255,255,.28);
+.jst-plan-float:hover { transform: translateY(-3px); box-shadow: 0 8px 26px rgba(45,91,227,.5); opacity: 1; }
+@keyframes jst-float-pop {
+  from { transform: translateY(14px) scale(.92); opacity: .3; }
+  to   { transform: none; opacity: 1; }
+}
+.jst-plan-float-icon { font-size: 1.05rem; line-height: 1; }
+.jst-plan-float-text { display: none; }
+.jst-plan-float.has-items .jst-plan-float-text { display: inline; }
+.jst-plan-float-badge {
+  background: rgba(255,255,255,.25);
   border-radius: 10px;
-  padding: .05rem .38rem;
-  font-size: .7rem;
-  font-weight: 900;
-  min-width: 1rem;
-  text-align: center;
+  padding: .1rem .42rem;
+  font-size: .72rem;
+  display: none;
 }
-@media (max-width: 640px) {
-  .nav-plan-btn span:not(.nav-plan-badge) { display: none; }
-  .nav-plan-btn { padding: .28rem .6rem; }
-}
+.jst-plan-float.has-items .jst-plan-float-badge { display: inline; }
+@media (max-width: 480px) { .jst-plan-float { bottom: 1rem; left: 1rem; } }
 
 /* ── French nav: longer items need tighter spacing ── */
 html[lang="fr"] nav a {
