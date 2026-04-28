@@ -3,8 +3,9 @@
 
 /* ─── Constants ─────────────────────────────── */
 const STORAGE_KEY = 'jst_plan_v1';
-const MAX_DAY_MIN = 480;      // 8 active hours per day
-const START_HOUR  = 9;        // day starts 09:00
+const MAX_DAY_MIN = 780;         // 13 active hours per day (09:00–22:00)
+const FULL_DAY_TRAVEL_MIN = 360; // flight or journey ≥ this = dedicated travel day
+const START_HOUR  = 9;           // day starts 09:00
 
 const CAT_COLOR = {
   sightseeing: '#1a45a8',
@@ -177,6 +178,91 @@ function travelMin(a, b) {
   return 250;                   // long Shinkansen
 }
 
+/* ─── Route travel-time table (minutes, door-to-door realistic) ── */
+// Key = sorted "prefA:prefB". Covers major tourist routes.
+// Flights are handled by needsFlight(); this table is for Shinkansen / train routes.
+const ROUTE_TABLE = {
+  // ── Kanto local ──────────────────────────────────────
+  'chiba:tokyo':          40,
+  'kanagawa:tokyo':       30,
+  'saitama:tokyo':        35,
+  'gunma:tokyo':          55,
+  'ibaraki:tokyo':        60,
+  'tochigi:tokyo':        55,
+  // ── Tokyo / Kanto ↔ Tokai / Kansai (Shinkansen) ─────
+  'aichi:tokyo':         105,
+  'aichi:kanagawa':       65,
+  'aichi:kyoto':          35,
+  'aichi:nara':           55,
+  'aichi:osaka':          50,
+  'aichi:shiga':          40,
+  'kanagawa:kyoto':      120,
+  'kanagawa:osaka':      135,
+  'kyoto:tokyo':         140,
+  'mie:nagoya':           45,
+  'mie:osaka':            55,
+  'nara:tokyo':          165,
+  'osaka:tokyo':         155,
+  'shiga:tokyo':         155,
+  // ── Kansai local ─────────────────────────────────────
+  'kyoto:nara':           45,
+  'kyoto:osaka':          15,
+  'nara:osaka':           40,
+  'osaka:shiga':          40,
+  // ── Kansai ↔ Chugoku ─────────────────────────────────
+  'hiroshima:kyoto':     100,
+  'hiroshima:osaka':      90,
+  'hiroshima:okayama':    35,
+  'okayama:kyoto':        60,
+  'okayama:osaka':        50,
+  // ── ↔ Kyushu (Shinkansen) ────────────────────────────
+  'fukuoka:hiroshima':    60,
+  'fukuoka:kagoshima':    40,
+  'fukuoka:osaka':       155,
+  'fukuoka:tokyo':       295,
+  'kagoshima:osaka':     185,
+  'kagoshima:tokyo':     330,
+  // ── Tohoku Shinkansen ────────────────────────────────
+  'akita:tokyo':         185,
+  'aomori:tokyo':        195,
+  'fukushima:tokyo':      90,
+  'iwate:tokyo':         145,
+  'miyagi:tokyo':        100,
+  'yamagata:tokyo':      145,
+  // ── Hokuriku Shinkansen ──────────────────────────────
+  'ishikawa:tokyo':      155,
+  'niigata:tokyo':       100,
+  'toyama:tokyo':        130,
+  // ── Hokkaido (flight, transfers included) ────────────
+  'hokkaido:aomori':      80,
+  'hokkaido:osaka':      150,
+  'hokkaido:tokyo':      160,
+  // ── Okinawa (flight, transfers included) ─────────────
+  'okinawa:fukuoka':     120,
+  'okinawa:hiroshima':   145,
+  'okinawa:kagoshima':    90,
+  'okinawa:nagasaki':    130,
+  'okinawa:osaka':       150,
+  'okinawa:tokyo':       210,
+};
+
+/* ─── Route-level travel time (pref→pref, minutes) ── */
+function routeTravelMin(prefA, prefB) {
+  if (!prefA || !prefB || prefA === prefB) return 0;
+  const key = [prefA, prefB].sort().join(':');
+  if (ROUTE_TABLE[key]) return ROUTE_TABLE[key];
+  // Fallback: distance between prefecture centres
+  const cA = PREF_CENTER[prefA], cB = PREF_CENTER[prefB];
+  if (!cA || !cB) return 120;
+  const dist = haversine(cA[0], cA[1], cB[0], cB[1]);
+  if (dist <  30) return  40;
+  if (dist <  80) return  70;
+  if (dist < 150) return 110;
+  if (dist < 300) return 160;
+  if (dist < 500) return 210;
+  return 270;
+}
+
 /* ─── Travel label ──────────────────────────── */
 function travelLabel(a, b) {
   if (hasRealArea(a) && hasRealArea(b) && a.area === b.area && a._pref === b._pref)
@@ -200,8 +286,12 @@ function travelLabel(a, b) {
 
 /* ─── Itinerary generation ──────────────────── */
 // Returns array of day-objects:
-//   { type:'normal', spots:[...] }
-//   { type:'travel', from:'tokyo', to:'okinawa', flight:true, dist:1600 }
+//   { type:'normal', spots:[...], travelNote:{from,to,flight,travelMin}|null, startOffset:N }
+//   { type:'travel', from, to, flight, dist, travelMin }  — full-day travel only (flight / ≥360 min)
+//
+// Travel logic:
+//   flight OR routeTravelMin ≥ FULL_DAY_TRAVEL_MIN → dedicated full travel day
+//   otherwise → embed travel in the next sightseeing day (travelNote), reducing available hours
 function generateItinerary(spots) {
   if (!spots.length) return [];
 
@@ -219,12 +309,11 @@ function generateItinerary(spots) {
     return avg(prefMap[pb]) - avg(prefMap[pa]);
   });
 
-  // 3. Build ordered spot list per pref (sorted by area lat), with travel markers between distant prefs
-  const segments = [];   // { type:'spots'|'travel', ... }
+  // 3. Build ordered spot list per pref, with travel markers between distant prefs
+  const segments = [];
   let prevLastSpot = null;
 
   sortedPrefs.forEach(pref => {
-    // Sort spots within pref by area (group areas, then sort areas N→S)
     const areaMap = {};
     prefMap[pref].forEach(s => {
       const k = spotArea(s) || 'other';
@@ -241,7 +330,6 @@ function generateItinerary(spots) {
       const firstSpot = ordered[0];
       const flight    = needsFlight(prevLastSpot, firstSpot);
       const dist      = spotDist(prevLastSpot, firstSpot);
-      // Insert a travel marker when a flight is needed OR distance > 200 km
       if (flight || dist > 200) {
         segments.push({ type: 'travel',
           from: prevLastSpot._pref, to: pref, flight, dist });
@@ -252,26 +340,50 @@ function generateItinerary(spots) {
     if (ordered.length) prevLastSpot = ordered[ordered.length - 1];
   });
 
-  // 4. Pack into day objects, inserting travel-days at each 'travel' segment
-  const days = [];
-  let daySpots = [];
-  let dayMin   = 0;
+  // 4. Pack into day objects
+  //    • Flights or journeys ≥ FULL_DAY_TRAVEL_MIN → dedicated travel day
+  //    • Shorter Shinkansen/train journeys → embed as travelNote in sightseeing day
+  const days     = [];
+  let daySpots   = [];
+  let dayMinUsed = 0;    // minutes consumed this day (travel + spots)
+  let dayTravel  = null; // pending travel note for start of current day
 
   const flushDay = () => {
-    if (daySpots.length) { days.push({ type: 'normal', spots: daySpots }); daySpots = []; dayMin = 0; }
+    if (daySpots.length > 0) {
+      days.push({
+        type:        'normal',
+        spots:       [...daySpots],
+        travelNote:  dayTravel,
+        startOffset: dayTravel ? dayTravel.travelMin : 0,
+      });
+    }
+    daySpots   = [];
+    dayMinUsed = 0;
+    dayTravel  = null;
   };
 
   segments.forEach(seg => {
     if (seg.type === 'travel') {
-      flushDay();
-      days.push({ type: 'travel', from: seg.from, to: seg.to, flight: seg.flight, dist: seg.dist });
+      const tMin = routeTravelMin(seg.from, seg.to);
+      if (seg.flight || tMin >= FULL_DAY_TRAVEL_MIN) {
+        // Long / flight journey → dedicated full travel day
+        flushDay();
+        days.push({ type: 'travel', from: seg.from, to: seg.to,
+                    flight: seg.flight, dist: seg.dist, travelMin: tMin });
+      } else {
+        // Shinkansen / short journey → embed in next sightseeing day
+        flushDay();
+        dayTravel  = { from: seg.from, to: seg.to, flight: seg.flight, travelMin: tMin };
+        dayMinUsed = tMin;   // travel already consumes this much of the day
+      }
     } else {
       seg.spots.forEach(spot => {
-        const travel = daySpots.length ? travelMin(daySpots[daySpots.length - 1], spot) : 0;
-        const needed = (spot.avg_duration_min || 60) + travel;
-        if (dayMin + needed > MAX_DAY_MIN && daySpots.length > 0) flushDay();
+        const intraTravel = daySpots.length
+          ? travelMin(daySpots[daySpots.length - 1], spot) : 0;
+        const needed = (spot.avg_duration_min || 60) + intraTravel;
+        if (dayMinUsed + needed > MAX_DAY_MIN && daySpots.length > 0) flushDay();
         daySpots.push(spot);
-        dayMin += needed;
+        dayMinUsed += needed;
       });
     }
   });
@@ -566,14 +678,15 @@ document.getElementById('pb-generate-btn').addEventListener('click', function() 
     dayNum++;
 
     if (day.type === 'travel') {
-      // ── Travel day card ──
+      // ── Full travel day card (flight or very long journey) ──
       const fromLabel = PREF_LABEL[day.from] || day.from || '';
       const toLabel   = PREF_LABEL[day.to]   || day.to   || '';
       const icon      = day.flight ? '✈️' : '🚄';
       const mode      = day.flight ? 'Flight' : 'Shinkansen';
+      const tMin      = day.travelMin || Math.round(day.dist / 2);
       const timeNote  = day.flight
-        ? 'Allow a full day: ~1h to airport + ~2.5h flight + ~1h from destination airport. Depart morning for a comfortable arrival.'
-        : `~${Math.round(day.dist / 2)} min by Shinkansen (approx). Check JR Pass coverage for this route.`;
+        ? `Allow a full day (~${tMin} min total): depart morning, airport check-in (90 min before), ~${Math.max(60, tMin - 120)} min flight, arrival transfers. Book early for best fares.`
+        : `~${tMin} min by Shinkansen. Depart morning and arrive in time for a relaxed evening. Check JR Pass coverage for this route.`;
       const warning   = day.flight
         ? `⚠️ Book domestic flights in advance. Budget airlines (Peach, Jetstar) from ~¥8,000; average ~¥20,000–35,000/person.`
         : `💡 JR Pass holders ride Shinkansen free on most routes.`;
@@ -609,17 +722,53 @@ document.getElementById('pb-generate-btn').addEventListener('click', function() 
         </div>`;
 
     } else {
-      // ── Normal sightseeing day card ──
-      const daySpots = day.spots;
-      const areas    = [...new Set(daySpots.map(s => spotArea(s) || ''))].filter(Boolean);
+      // ── Normal sightseeing day card (may include a Shinkansen arrival note) ──
+      const daySpots  = day.spots;
+      const offset    = day.startOffset || 0;
+      const areas     = [...new Set(daySpots.map(s => spotArea(s) || ''))].filter(Boolean);
       const areaLabel = areas.slice(0, 3).map(a => a.charAt(0).toUpperCase()+a.slice(1)).join(' / ');
       const dayCost   = daySpots.reduce((s, x) => s + (x.entry_fee || 0), 0);
 
+      // ── Travel arrival banner (for same-day Shinkansen travel) ──
+      let arrivalHtml = '';
+      if (day.travelNote) {
+        const tn        = day.travelNote;
+        const tnFrom    = PREF_LABEL[tn.from] || tn.from || '';
+        const tnTo      = PREF_LABEL[tn.to]   || tn.to   || '';
+        const tnIcon    = tn.flight ? '✈️' : '🚄';
+        const arrTime   = fmtTime(tn.travelMin);
+        const tnNote    = tn.flight
+          ? `~${tn.travelMin} min total · Depart 09:00 · Arrive ~${arrTime} (incl. airport transfers). Book flights in advance.`
+          : `~${tn.travelMin} min Shinkansen · Depart 09:00 · Arrive ~${arrTime} · Sightseeing starts after arrival.`;
+        const tnWarn    = tn.flight
+          ? `⚠️ Budget airlines (Peach, Jetstar) from ~¥8,000.`
+          : `💡 JR Pass holders ride Shinkansen free on most routes.`;
+        const tnSearch  = tn.flight
+          ? encodeURIComponent(tnFrom + ' to ' + tnTo + ' flight')
+          : encodeURIComponent(tnFrom + ' ' + tnTo + ' shinkansen');
+        const tnLink    = tn.flight
+          ? `<a class="pb-travel-day-link" href="https://www.google.com/search?q=${tnSearch}" target="_blank" rel="noopener">Search Flights →</a>`
+          : `<a class="pb-travel-day-link" href="https://www.jrpass.com/?a=jrpass" target="_blank" rel="noopener">JR Pass Info →</a>`;
+        arrivalHtml = `
+          <div style="background:linear-gradient(135deg,#e8f0ff,#d0e4ff);border-radius:10px;padding:.75rem 1rem;margin-bottom:1rem;display:flex;align-items:flex-start;gap:.8rem;">
+            <div style="font-size:1.4rem;flex-shrink:0">${tnIcon}</div>
+            <div>
+              <div style="font-size:.95rem;font-weight:800;color:#0a3a7a;">${tnFrom} → ${tnTo}</div>
+              <div style="font-size:.82rem;color:#555;margin:.25rem 0;">${tnNote}</div>
+              <span class="pb-travel-day-warning">${tnWarn}</span>
+              <div style="margin-top:.4rem;">${tnLink}</div>
+            </div>
+          </div>`;
+      }
+
       let tlHtml = '';
       daySpots.forEach((spot, i) => {
-        const startMinOfDay = daySpots.slice(0, i).reduce((acc, s, si) => {
-          return acc + (s.avg_duration_min || 60) + (si === 0 ? 0 : travelMin(daySpots[si-1], s));
-        }, 0) + (i === 0 ? 0 : travelMin(daySpots[i-1], spot));
+        // Start time = travel offset + accumulated spot durations + intra-spot travel
+        const startMinOfDay = offset
+          + daySpots.slice(0, i).reduce((acc, s, si) => {
+              return acc + (s.avg_duration_min || 60) + (si === 0 ? 0 : travelMin(daySpots[si-1], s));
+            }, 0)
+          + (i === 0 ? 0 : travelMin(daySpots[i-1], spot));
 
         const timeDisplay = fmtTime(startMinOfDay);
         const isLast = i === daySpots.length - 1;
@@ -657,13 +806,16 @@ document.getElementById('pb-generate-btn').addEventListener('click', function() 
       daysHtml += `
         <div class="pb-day-card">
           <div class="pb-day-hd">
-            <h3>📅 Day ${dayNum}${areaLabel ? ' — ' + areaLabel : ''}</h3>
+            <h3>📅 Day ${dayNum}${day.travelNote
+              ? ` — ${PREF_LABEL[day.travelNote.from]||day.travelNote.from} → ${PREF_LABEL[day.travelNote.to]||day.travelNote.to}${areaLabel ? ' · ' + areaLabel : ''}`
+              : (areaLabel ? ' — ' + areaLabel : '')}</h3>
             <div class="pb-day-chips">
+              ${day.travelNote ? `<span class="pb-day-chip">${day.travelNote.flight?'✈️':'🚄'} ${PREF_LABEL[day.travelNote.from]||day.travelNote.from} → ${PREF_LABEL[day.travelNote.to]||day.travelNote.to}</span>` : ''}
               <span class="pb-day-chip">${daySpots.length} spot${daySpots.length>1?'s':''}</span>
               <span class="pb-day-chip">💴 ${dayCost > 0 ? '¥'+dayCost.toLocaleString() : 'Free day'}</span>
             </div>
           </div>
-          <div class="pb-timeline">${tlHtml}</div>
+          <div class="pb-timeline">${arrivalHtml}${tlHtml}</div>
         </div>`;
     }
   });
