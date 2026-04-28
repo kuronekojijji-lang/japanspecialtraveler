@@ -22,7 +22,12 @@
 <meta name=google-site-verification content="GkWxp5q5fyxItUwyD56zjxm1ZkqUB3lqDfFZT4Edcyk">
 <meta name=agd-partner-manual-verification>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y10NJGDWGB"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','G-Y10NJGDWGB')</script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-Y10NJGDWGB');
+  </script>
 <link rel=canonical href=https://japanspecialtraveler.com/fr/explore/>
 <link rel=alternate hreflang=en href=https://japanspecialtraveler.com/explore/>
 <link rel=alternate hreflang=fr href=https://japanspecialtraveler.com/fr/explore/>
@@ -61,7 +66,23 @@
 </div>
 </header>
 <style>.lang-switcher{position:relative;margin-left:.8rem;flex-shrink:0}.lang-btn{display:flex;align-items:center;gap:.28rem;background:0 0;border:1.5px solid var(--border);border-radius:6px;padding:.22rem .55rem;font-size:.73rem;font-weight:700;color:var(--gray);cursor:pointer;font-family:inherit;transition:border-color .15s,color .15s}.lang-btn:hover,.lang-btn[aria-expanded=true]{border-color:var(--red);color:var(--red)}.lang-globe{font-size:.85rem;line-height:1}.lang-arrow{font-size:.68rem;transition:transform .15s;display:inline-block}.lang-btn[aria-expanded=true] .lang-arrow{transform:rotate(180deg)}.lang-dropdown{display:none;position:absolute;top:calc(100% + 5px);right:0;background:#fff;border:1.5px solid var(--border);border-radius:8px;box-shadow:0 4px 18px rgba(0,0,0,.11);list-style:none;margin:0;padding:.3rem 0;min-width:110px;z-index:9998}.lang-dropdown.open{display:block}.lang-opt{display:flex;align-items:center;justify-content:space-between;padding:.4rem .85rem;font-size:.78rem;font-weight:700;color:var(--gray);text-decoration:none;white-space:nowrap;gap:.4rem}a.lang-opt:hover{background:#fdf5f6;color:var(--red)}.lang-opt-active{color:var(--red);cursor:default}.lang-check{font-size:.75rem}</style>
-<script>(function(){var d=document.getElementById('langSwitcher'),b,a;if(!d)return;b=document.getElementById('langBtn'),a=document.getElementById('langDropdown');function c(){a.classList.remove('open'),b.setAttribute('aria-expanded','false')}function e(){a.classList.add('open'),b.setAttribute('aria-expanded','true')}b.addEventListener('click',function(b){b.stopPropagation(),a.classList.contains('open')?c():e()}),document.addEventListener('click',function(){c()}),a.addEventListener('click',function(a){a.stopPropagation()}),document.addEventListener('keydown',function(a){a.key==='Escape'&&c()})})()</script>
+<script>
+(function(){
+  var sw  = document.getElementById('langSwitcher');
+  if (!sw) return;
+  var btn = document.getElementById('langBtn');
+  var dd  = document.getElementById('langDropdown');
+  function close(){ dd.classList.remove('open'); btn.setAttribute('aria-expanded','false'); }
+  function open(){ dd.classList.add('open'); btn.setAttribute('aria-expanded','true'); }
+  btn.addEventListener('click', function(e){
+    e.stopPropagation();
+    dd.classList.contains('open') ? close() : open();
+  });
+  document.addEventListener('click', function(){ close(); });
+  dd.addEventListener('click', function(e){ e.stopPropagation(); });
+  document.addEventListener('keydown', function(e){ if(e.key==='Escape') close(); });
+})();
+</script>
 <style>.explore-hero{background:linear-gradient(135deg,var(--blue) 0%,#0f2560 100%);color:#fff;text-align:center;padding:3.5rem 1.5rem 3rem}.explore-hero h1{font-size:clamp(1.6rem,4vw,2.4rem);font-weight:800;margin-bottom:.6rem}.explore-hero p{font-size:1.05rem;opacity:.88;max-width:560px;margin:0 auto}.cat-section{background:#fff;padding:2rem 1.5rem 1.5rem;border-bottom:1px solid var(--border)}.cat-section h2{text-align:center;font-size:1.05rem;font-weight:600;color:var(--gray);margin-bottom:1.2rem;letter-spacing:.04em;text-transform:uppercase}.cat-buttons{display:flex;flex-wrap:wrap;justify-content:center;gap:.7rem;max-width:860px;margin:0 auto}.cat-btn{display:flex;flex-direction:column;align-items:center;gap:.25rem;padding:.75rem 1.4rem;border-radius:12px;border:2px solid var(--border);background:#fff;cursor:pointer;transition:all .18s;font-family:inherit;min-width:110px}.cat-btn .cat-icon{font-size:1.7rem;line-height:1}.cat-btn .cat-label{font-size:.82rem;font-weight:700;color:var(--dark)}.cat-btn .cat-sub{font-size:.7rem;color:var(--gray-light)}.cat-btn:hover{transform:translateY(-2px);box-shadow:0 4px 12px rgba(0,0,0,.1)}.cat-btn.active{border-color:var(--cat-color,var(--red));background:var(--cat-bg,#fff8f8);box-shadow:0 0 0 3px color-mix(in srgb,var(--cat-color,var(--red)) 20%,transparent)}.cat-btn.active .cat-label{color:var(--cat-color,var(--red))}.explore-map-section{max-width:var(--max-w);margin:0 auto;padding:2rem 1.5rem}.explore-map-wrap{position:relative}#exploreMapContainer{width:100%}#exploreMapContainer svg{width:100%;height:auto;display:block}#exploreMapContainer .pref{fill:#f0f4f8!important;stroke:#c8d4e0!important;stroke-width:.6;cursor:pointer;transition:fill .1s}#exploreMapContainer .pref:hover{fill:#dce8f0!important}.pref-icon{pointer-events:none;font-family:apple color emoji,segoe ui emoji,noto color emoji,sans-serif}#exploreTooltip{position:fixed;pointer-events:none;z-index:999;background:#fff;border-radius:12px;box-shadow:0 8px 32px rgba(0,0,0,.22);min-width:240px;max-width:260px;overflow:hidden;opacity:0;transition:opacity .15s}#exploreTooltip.visible{opacity:1}.tt-img-wrap{width:100%;height:140px;position:relative;overflow:hidden;background:linear-gradient(135deg,#dce8f4,#b4cce0)}.tt-img-wrap img{width:100%;height:100%;object-fit:cover;display:block;transition:opacity .2s;opacity:0}.tt-img-wrap img.loaded{opacity:1}.tt-img-overlay{position:absolute;inset:0;background:linear-gradient(to bottom,transparent 40%,rgba(0,0,0,.55) 100%)}.tt-img-label{position:absolute;bottom:.55rem;left:.75rem;color:#fff;font-size:.72rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;opacity:.9}.tt-body{padding:.7rem .85rem .85rem;border-top:3px solid var(--tt-color,#BC002D)}.tt-name{font-weight:800;font-size:1rem;margin-bottom:.35rem}.tt-icon-row{display:flex;align-items:center;gap:.4rem;margin-bottom:.35rem}.tt-cat-icon{font-size:1.2rem}.tt-click-hint{font-size:.72rem;color:var(--gray-light);margin-top:.4rem}.tt-tags{display:flex;flex-wrap:wrap;gap:.3rem}.tt-tag{background:var(--tt-bg,#fff0f0);color:var(--tt-color,#BC002D);border-radius:6px;padding:.15rem .5rem;font-size:.73rem;font-weight:600}#prefOverlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.45);z-index:800}#prefOverlay.open{display:block}#prefPanel{position:fixed;top:0;right:0;height:100%;width:min(420px,100vw);background:#fff;z-index:900;box-shadow:-4px 0 32px rgba(0,0,0,.18);display:flex;flex-direction:column;overflow:hidden;transform:translateX(100%);transition:transform .28s cubic-bezier(.4,0,.2,1)}#prefPanel.open{transform:translateX(0)}.pp-hero{position:relative;height:200px;flex-shrink:0;overflow:hidden;background:#cdd8e4}.pp-hero img{width:100%;height:100%;object-fit:cover;transition:opacity .2s;opacity:0}.pp-hero img.loaded{opacity:1}.pp-hero-overlay{position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,.1) 0%,rgba(0,0,0,.6) 100%)}.pp-close{position:absolute;top:.7rem;right:.75rem;width:2rem;height:2rem;border-radius:50%;border:none;background:rgba(255,255,255,.22);color:#fff;font-size:1.1rem;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:background .15s;z-index:1}.pp-close:hover{background:rgba(255,255,255,.4)}.pp-hero-title{position:absolute;bottom:.9rem;left:1rem;z-index:1}.pp-hero-name{font-size:1.5rem;font-weight:900;color:#fff;line-height:1.1}.pp-hero-ja{font-size:.88rem;color:rgba(255,255,255,.8);margin-top:.15rem}.pp-cats{display:flex;border-bottom:2px solid var(--border);flex-shrink:0;overflow-x:auto}.pp-cat-btn{flex:none;padding:.65rem 1rem;border:none;background:0 0;cursor:pointer;font-size:.82rem;font-weight:600;color:var(--gray);font-family:inherit;border-bottom:3px solid transparent;white-space:nowrap;transition:all .15s}.pp-cat-btn.active{color:var(--pp-color,var(--red));border-bottom-color:var(--pp-color,var(--red))}.pp-body{flex:1;overflow-y:auto;padding:1.1rem 1.1rem .5rem}.pp-cat-section{display:none}.pp-cat-section.active{display:block}.pp-score{display:flex;gap:.2rem;margin-bottom:.7rem}.pp-star{color:#f5a623;font-size:.9rem}.pp-star.off{color:#ddd}.pp-highlights{display:flex;flex-wrap:wrap;gap:.4rem;margin-bottom:1rem}.pp-hl-tag{padding:.3rem .75rem;border-radius:20px;font-size:.82rem;font-weight:600;background:var(--pp-bg,#fff0f0);color:var(--pp-color,#BC002D)}.pp-sec-title{font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--gray);margin:.8rem 0 .4rem}.pp-footer{padding:.9rem 1.1rem 1.1rem;border-top:1px solid var(--border);flex-shrink:0}.pp-region-link{display:block;padding:.7rem 1rem;border-radius:10px;text-align:center;background:var(--red);color:#fff;font-weight:700;font-size:.9rem;text-decoration:none;transition:opacity .15s}.pp-region-link:hover{opacity:.88}.top-picks{background:var(--bg-soft);border-top:1px solid var(--border);padding:2.5rem 1.5rem 3rem}.top-picks .container{max-width:var(--max-w);margin:0 auto}.top-picks h2{font-size:1.4rem;font-weight:800;margin-bottom:.4rem}.top-picks .sub{color:var(--gray);font-size:.9rem;margin-bottom:1.5rem}.picks-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:1rem}.pick-card{background:#fff;border-radius:12px;padding:1.1rem 1.1rem .9rem;border:2px solid var(--border);box-shadow:0 2px 8px rgba(0,0,0,5%);transition:transform .15s,box-shadow .15s}.pick-card:hover{transform:translateY(-3px);box-shadow:0 6px 18px rgba(0,0,0,.1)}.pick-rank{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--gray-light);margin-bottom:.3rem}.pick-name{font-size:1.1rem;font-weight:800;color:var(--dark);margin-bottom:.35rem}.pick-icon{font-size:1.5rem;margin-bottom:.35rem}.pick-tags{display:flex;flex-wrap:wrap;gap:.25rem;margin-bottom:.7rem}.pick-tag{font-size:.7rem;font-weight:600;padding:.1rem .4rem;border-radius:5px}.pick-link{font-size:.78rem;font-weight:700}</style>
 <section class=explore-hero>
 <h1>🗾 Explorer le Japon par Thème</h1>
@@ -130,24 +151,789 @@
 <div class=picks-grid id=picksGrid></div>
 </div>
 </section><script type=application/json id=explore-img-data>{"aichi":{"events":"https://commons.wikimedia.org/wiki/Special:FilePath/Makiwara_boat_of_Owari_Tsushima_Tenno_Festival%2CTsushima_city%2CJapan.jpg?width=400","gourmet":"https://commons.wikimedia.org/wiki/Special:FilePath/Aichi_Ama_Karaageeeee_20250119_120214.jpg?width=400","leisure":"https://commons.wikimedia.org/wiki/Special:FilePath/Building_of_Kasugaishi_Sh%C5%8Dnen_Shizen_no_Ie.jpg?width=400","nature":"https://commons.wikimedia.org/wiki/Special:FilePath/Aichi_Prefectural_Ceramic_Museum_%2862%29.jpg?width=400","sightseeing":"https://commons.wikimedia.org/wiki/Special:FilePath/Atsuta-jing%C5%AB_%28Atsuta-ku%2C_Nagoya%29_VLux5_hdsr_ka04.jpg?width=400"},"akita":{"events":"https://images.unsplash.com/photo-1588686729787-e83de7713607?crop=entropy\u0026cs=tinysrgb\u0026fit=max\u0026fm=jpg\u0026ixid=M3w5MTAzNjJ8MHwxfHNlYXJjaHwxfHxha2l0YSUyMGphcGFuJTIwZmVzdGl2YWx8ZW58MHwwfHx8MTc3NDg4MDk0OXww\u0026ixlib=rb-4.1.0\u0026q=80\u0026w=400","gourmet":"https://images.unsplash.com/photo-1707090061553-680c972069fb?crop=entropy\u0026cs=tinysrgb\u0026fit=max\u0026fm=jpg\u0026ixid=M3w5MTAzNjJ8MHwxfHNlYXJjaHwxfHxha2l0YSUyMGphcGFufGVufDB8MHx8fDE3NzQ4ODA5NDV8MA\u0026ixlib=rb-4.1.0\u0026q=80\u0026w=400","leisure":"https://images.unsplash.com/photo-1707090061553-680c972069fb?crop=entropy\u0026cs=tinysrgb\u0026fit=max\u0026fm=jpg\u0026ixid=M3w5MTAzNjJ8MHwxfHNlYXJjaHwyfHxha2l0YSUyMGphcGFuJTIwb3V0ZG9vciUyMGFjdGl2aXR5fGVufDB8MHx8fDE3NzQ4ODA5NDh8MA\u0026ixlib=rb-4.1.0\u0026q=80\u0026w=400","nature":"https://images.unsplash.com/photo-1707090061553-680c972069fb?crop=entropy\u0026cs=tinysrgb\u0026fit=max\u0026fm=jpg\u0026ixid=M3w5MTAzNjJ8MHwxfHNlYXJjaHwxfHxha2l0YSUyMGphcGFufGVufDB8MHx8fDE3NzQ4ODA5NDV8MA\u0026ixlib=rb-4.1.0\u0026q=80\u0026w=400","sightseeing":"https://images.unsplash.com/photo-1707090061553-680c972069fb?crop=entropy\u0026cs=tinysrgb\u0026fit=max\u0026fm=jpg\u0026ixid=M3w5MTAzNjJ8MHwxfHNlYXJjaHwxfHxha2l0YSUyMGphcGFuJTIwdGVtcGxlJTIwc2hyaW5lJTIwbGFuZG1hcmt8ZW58MHwwfHx8MTc3NDg4MDk0N3ww\u0026ixlib=rb-4.1.0\u0026q=80\u0026w=400"},"aomori":{"events":"https://images.unsplash.com/photo-1757220306281-b3efa2fe7080?crop=entropy\u0026cs=tinysrgb\u0026fit=max\u0026fm=jpg\u0026ixid=M3w5MTAzNjJ8MHwxfHNlYXJjaHwyfHxhb21vcmklMjBqYXBhbiUyMGZlc3RpdmFsfGVufDB8MHx8fDE3NzQ4ODA5MzR8MA\u0026ixlib=rb-4.1.0\u0026q=80\u0026w=400","gourmet":"https://images.unsplash.com/photo-1693129361452-f9a777fe625e?crop=entropy\u0026cs=tinysrgb\u0026fit=max\u0026fm=jpg\u0026ixid=M3w5MTAzNjJ8MHwxfHNlYXJjaHwyfHxhb21vcmklMjBqYXBhbiUyMGZvb2QlMjBjdWlzaW5lfGVufDB8MHx8fDE3NzQ4ODA5MzB8MA\u0026ixlib=rb-4.1.0\u0026q=80\u0026w=400","leisure":"https://images.unsplash.com/photo-1714835996717-be631df5f696?crop=entropy\u0026cs=tinysrgb\u0026fit=max\u0026fm=jpg\u0026ixid=M3w5MTAzNjJ8MHwxfHNlYXJjaHwyfHxhb21vcmklMjBqYXBhbiUyMG91dGRvb3IlMjBhY3Rpdml0eXxlbnwwfDB8fHwxNzc0ODgwOTMzfDA\u0026ixlib=rb-4.1.0\u0026q=80\u0026w=400","nature":"https://images.unsplash.com/photo-1762178906337-1caa44ac407c?crop=entropy\u0026cs=tinysrgb\u0026fit=max\u0026fm=jpg\u0026ixid=M3w5MTAzNjJ8MHwxfHNlYXJjaHwyfHxhb21vcmklMjBqYXBhbiUyMG5hdHVyZSUyMGxhbmRzY2FwZSUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3NDg4MDkzMXww\u0026ixlib=rb-4.1.0\u0026q=80\u0026w=400","sightseeing":"https://images.unsplash.com/photo-1752338644784-8badb518eefb?crop=entropy\u0026cs=tinysrgb\u0026fit=max\u0026fm=jpg\u0026ixid=M3w5MTAzNjJ8MHwxfHNlYXJjaHwyfHxhb21vcmklMjBqYXBhbiUyMHRlbXBsZSUyMHNocmluZSUyMGxhbmRtYXJrfGVufDB8MHx8fDE3NzQ4ODA5MzJ8MA\u0026ixlib=rb-4.1.0\u0026q=80\u0026w=400"},"chiba":{"events":"https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Japan_in_festival%2Ckatori-city%2Cjapan.jpg?width=400","gourmet":"https://commons.wikimedia.org/wiki/Special:FilePath/Chiba_Yakult_Factory%2C_Yotsukaido.jpg?width=400","leisure":"https://commons.wikimedia.org/wiki/Special:FilePath/Awa_Farmhouse_%28Boso_no_mura%29_01.JPG?width=400","nature":"https://commons.wikimedia.org/wiki/Special:FilePath/Camelia_japonica_Yukumi_guruma_2006-04-8_197.jpg?width=400","sightseeing":"https://commons.wikimedia.org/wiki/Special:FilePath/Bell_of_Hatori_mitama_shrine%2CFujisawa_city%2CJapan.jpg?width=400"},"ehime":{"events":"https://commons.wikimedia.org/wiki/Special:FilePath/Ainan-Ehime-AkiMatsuri.jpg?width=400","gourmet":"https://commons.wikimedia.org/wiki/Special:FilePath/Autumn_food_%286453989029%29.jpg?width=400","leisure":"https://commons.wikimedia.org/wiki/Special:FilePath/Higashiyama_Kofun_Park_20240614_%287%29.jpg?width=400","nature":"https://commons.wikimedia.org/wiki/Special:FilePath/Dragon_%282050526956%29.jpg?width=400","sightseeing":"https://commons.wikimedia.org/wiki/Special:FilePath/Honshoji_and_Takaoshihime-jinja_20241006.jpg?width=400"},"fukui":{"events":"https://commons.wikimedia.org/wiki/Special:FilePath/Mikuni_festival_2022.jpg?width=400","gourmet":"https://commons.wikimedia.org/wiki/Special:FilePath/Box_lunch_%28bento%29_in_rural_Sabae_city%2C_Japan_in_January_1985.jpg?width=400","leisure":"https://commons.wikimedia.org/wiki/Special:FilePath/500px_photo_%28189849527%29.jpeg?width=400","nature":"https://commons.wikimedia.org/wiki/Special:FilePath/Bonsai_exhibition_in_rural_Japan_in_early_November_2018.jpg?width=400","sightseeing":"https://commons.wikimedia.org/wiki/Special:FilePath/Myotsuji_IMG_20161018_140637.jpg?width=400"},"fukuoka":{"events":"https://commons.wikimedia.org/wiki/Special:FilePath/A_young_Japanese_girl_in_traditional_outfit_playingg_flute_during_festival._Fukuoka%2C_Japan%2C_East_Asia.jpg?width=400","gourmet":"https://commons.wikimedia.org/wiki/Special:FilePath/Kitakyushu_%28%E5%8C%97%E4%B9%9D%E5%B7%9E%29%2C_Fukuoka_Prefecture%2C_Japan_%F0%9F%87%AF%F0%9F%87%B5_-_55076242929.jpg?width=400","leisure":"https://commons.wikimedia.org/wiki/Special:FilePath/El_G%C3%A2la_the_benches_on_the_NW_stairs_Tenjin_1-ch%C5%8Dme_Ch%C5%AB%C5%8D-ku_Fukuoka_20251107.jpg?width=400","nature":"https://commons.wikimedia.org/wiki/Special:FilePath/Gokusho_Public_Hall_2-27_Kami-gofukumachi_Hakata-ku_Fukuoka_20240129.jpg?width=400","sightseeing":"https://commons.wikimedia.org/wiki/Special:FilePath/4_Chome-7_Saifu%2C_Dazaifu-shi%2C_Fukuoka-ken_818-0117%2C_Japan_-_panoramio.jpg?width=400"},"fukushima":{"events":"https://images.unsplash.com/photo-1757220306281-b3efa2fe7080?crop=entropy\u0026cs=tinysrgb\u0026fit=max\u0026fm=jpg\u0026ixid=M3w5MTAzNjJ8MHwxfHNlYXJjaHwyfHxmdWt1c2hpbWElMjBqYXBhbiUyMGZlc3RpdmFsfGVufDB8MHx8fDE3NzQ4ODA5NjB8MA\u0026ixlib=rb-4.1.0\u0026q=80\u0026w=400","gourmet":"https://images.unsplash.com/photo-1693129361452-f9a777fe625e?crop=entropy\u0026cs=tinysrgb\u0026fit=max\u0026fm=jpg\u0026ixid=M3w5MTAzNjJ8MHwxfHNlYXJjaHwyfHxmdWt1c2hpbWElMjBqYXBhbiUyMGZvb2QlMjBjdWlzaW5lfGVufDB8MHx8fDE3NzQ4ODA5NTV8MA\u0026ixlib=rb-4.1.0\u0026q=80\u0026w=400","leisure":"https://images.unsplash.com/photo-1649903583090-53dc80eb74b9?crop=entropy\u0026cs=tinysrgb\u0026fit=max\u0026fm=jpg\u0026ixid=M3w5MTAzNjJ8MHwxfHNlYXJjaHwyfHxmdWt1c2hpbWElMjBqYXBhbiUyMG91dGRvb3IlMjBhY3Rpdml0eXxlbnwwfDB8fHwxNzc0ODgwOTU5fDA\u0026ixlib=rb-4.1.0\u0026q=80\u0026w=400","nature":"https://images.unsplash.com/photo-1655698077978-e8564e462645?crop=entropy\u0026cs=tinysrgb\u0026fit=max\u0026fm=jpg\u0026ixid=M3w5MTAzNjJ8MHwxfHNlYXJjaHwxfHxmdWt1c2hpbWElMjBqYXBhbnxlbnwwfDB8fHwxNzc0ODgwOTU3fDA\u0026ixlib=rb-4.1.0\u0026q=80\u0026w=400","sightseeing":"https://images.unsplash.com/photo-1695240332881-ee81cace4c78?crop=entropy\u0026cs=tinysrgb\u0026fit=max\u0026fm=jpg\u0026ixid=M3w5MTAzNjJ8MHwxfHNlYXJjaHwyfHxmdWt1c2hpbWElMjBqYXBhbiUyMHRlbXBsZSUyMHNocmluZSUyMGxhbmRtYXJrfGVufDB8MHx8fDE3NzQ4ODA5NTh8MA\u0026ixlib=rb-4.1.0\u0026q=80\u0026w=400"},"gifu":{"events":"https://commons.wikimedia.org/wiki/Special:FilePath/Drawing_2_-_Takayama_Festival_Float_Exhibition_Hall_-_Takayama%2C_Gifu%2C_Japan_-_DSC06598.jpg?width=400","gourmet":"https://commons.wikimedia.org/wiki/Special:FilePath/Funamiso%2C_Local_food_in_Gifu.jpg?width=400","leisure":"https://commons.wikimedia.org/wiki/Special:FilePath/Gifu_Media_Cosmos_outdoor_ac_%281%29.jpg?width=400","nature":"https://commons.wikimedia.org/wiki/Special:FilePath/Landscape_of_the_Maze_district%2CGero_city%2CGifu_prefecture.Japan.jpg?width=400","sightseeing":"https://commons.wikimedia.org/wiki/Special:FilePath/Annkoku-ji_temple%2C_Kumano_shrine_in%2C_Takayama%2C_2022.jpg?width=400"},"gunma":{"events":"https://commons.wikimedia.org/wiki/Special:FilePath/Children_at_the_Nakanojo_Festival_by_nyaa_birdies_perch_in_Gunma.jpg?width=400","gourmet":"https://commons.wikimedia.org/wiki/Special:FilePath/A_girl_eating_ice_cream%2C_Gunma%2C_Japan%3B_October_2011.jpg?width=400","leisure":"https://commons.wikimedia.org/wiki/Special:FilePath/JNR_189_%28JR_East%29_at_Usui_Pass_Railway_Heritage_Park_01.jpg?width=400","nature":"https://commons.wikimedia.org/wiki/Special:FilePath/Landscape1_%28MOMA_Gunma%29.jpg?width=400"},"hiroshima":{"events":"https://commons.wikimedia.org/wiki/Special:FilePath/Flower_Festival_2009_-_panoramio.jpg?width=400","gourmet":"https://commons.wikimedia.org/wiki/Special:FilePath/71-1303a_Japan_1971_%2851382352108%29.jpg?width=400","leisure":"https://commons.wikimedia.org/wiki/Special:FilePath/Area_only_for_a_party_of_tourists_who_can_enjoy_a_barbecue.JPG?width=400","nature":"https://commons.wikimedia.org/wiki/Special:FilePath/Jean-Fran%C3%A7ois_Millet_-_Le_Ramasseur_des_fagots_%28Hiroshima_Museum_of_Art%29.jpg?width=400","sightseeing":"https://commons.wikimedia.org/wiki/Special:FilePath/20181111_Itsukushima_Shrine_temple-1.jpg?width=400"},"hokkaido":{"events":"https://images.unsplash.com/photo-1749907611986-de822952234e?crop=entropy\u0026cs=tinysrgb\u0026fit=max\u0026fm=jpg\u0026ixid=M3w5MTAzNjJ8MHwxfHNlYXJjaHwyfHxob2trYWlkbyUyMGphcGFuJTIwZmVzdGl2YWx8ZW58MHwwfHx8MTc3NDg4MDkzMHww\u0026ixlib=rb-4.1.0\u0026q=80\u0026w=400","gourmet":"https://images.unsplash.com/photo-1569336213674-b8af45011f41?crop=entropy\u0026cs=tinysrgb\u0026fit=max\u0026fm=jpg\u0026ixid=M3w5MTAzNjJ8MHwxfHNlYXJjaHwyfHxob2trYWlkbyUyMGphcGFuJTIwZm9vZCUyMGN1aXNpbmV8ZW58MHwwfHx8MTc3NDg4MDkxMHww\u0026ixlib=rb-4.1.0\u0026q=80\u0026w=400","leisure":"https://images.unsplash.com/photo-1559213637-f1cbe7c58143?crop=entropy\u0026cs=tinysrgb\u0026fit=max\u0026fm=jpg\u0026ixid=M3w5MTAzNjJ8MHwxfHNlYXJjaHwyfHxob2trYWlkbyUyMGphcGFuJTIwb3V0ZG9vciUyMGFjdGl2aXR5fGVufDB8MHx8fDE3NzQ4ODA5Mjh8MA\u0026ixlib=rb-4.1.0\u0026q=80\u0026w=400","nature":"https://images.unsplash.com/photo-1627797343911-a7409282726e?crop=entropy\u0026cs=tinysrgb\u0026fit=max\u0026fm=jpg\u0026ixid=M3w5MTAzNjJ8MHwxfHNlYXJjaHwyfHxob2trYWlkbyUyMGphcGFuJTIwbmF0dXJlJTIwbGFuZHNjYXBlJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc0ODgwOTI3fDA\u0026ixlib=rb-4.1.0\u0026q=80\u0026w=400","sightseeing":"https://images.unsplash.com/photo-1695240332881-ee81cace4c78?crop=entropy\u0026cs=tinysrgb\u0026fit=max\u0026fm=jpg\u0026ixid=M3w5MTAzNjJ8MHwxfHNlYXJjaHwyfHxob2trYWlkbyUyMGphcGFuJTIwdGVtcGxlJTIwc2hyaW5lJTIwbGFuZG1hcmt8ZW58MHwwfHx8MTc3NDg4MDkyOHww\u0026ixlib=rb-4.1.0\u0026q=80\u0026w=400"},"hyogo":{"events":"https://commons.wikimedia.org/wiki/Special:FilePath/2015-07-31Minazuki-Festival_Kokuryo%2CTamba%2CHyogo-Japan_%E5%9B%BD%E9%A0%98%E6%B0%B4%E7%84%A1%E6%9C%88%E7%A5%AD%E3%82%8A_8581.JPG?width=400","gourmet":"https://commons.wikimedia.org/wiki/Special:FilePath/140621_QBB_Rokko_Butter_Kobe_Japan01s5.jpg?width=400","leisure":"https://commons.wikimedia.org/wiki/Special:FilePath/Abiki_Station_J9_02.jpg?width=400","nature":"https://commons.wikimedia.org/wiki/Special:FilePath/Amagasaki_dejima_randfill_site_2021.jpg?width=400","sightseeing":"https://commons.wikimedia.org/wiki/Special:FilePath/Gezicht_op_een_tempelcomplex_in_Hyogo%2C_Japan%2C_RP-F-2003-147-54.jpg?width=400"},"ibaraki":{"events":"https://images.unsplash.com/photo-1753544997965-e818436616e3?crop=entropy\u0026cs=tinysrgb\u0026fit=max\u0026fm=jpg\u0026ixid=M3w5MTAzNjJ8MHwxfHNlYXJjaHwxfHxpYmFyYWtpJTIwamFwYW58ZW58MHwwfHx8MTc3NDg4MDk2MXww\u0026ixlib=rb-4.1.0\u0026q=80\u0026w=400","gourmet":"https://images.unsplash.com/photo-1753544997965-e818436616e3?crop=entropy\u0026cs=tinysrgb\u0026fit=max\u0026fm=jpg\u0026ixid=M3w5MTAzNjJ8MHwxfHNlYXJjaHwxfHxpYmFyYWtpJTIwamFwYW58ZW58MHwwfHx8MTc3NDg4MDk2MXww\u0026ixlib=rb-4.1.0\u0026q=80\u0026w=400","leisure":"https://images.unsplash.com/photo-1753544997965-e818436616e3?crop=entropy\u0026cs=tinysrgb\u0026fit=max\u0026fm=jpg\u0026ixid=M3w5MTAzNjJ8MHwxfHNlYXJjaHwxfHxpYmFyYWtpJTIwamFwYW58ZW58MHwwfHx8MTc3NDg4MDk2MXww\u0026ixlib=rb-4.1.0\u0026q=80\u0026w=400","nature":"https://images.unsplash.com/photo-1586529859858-39b6d5d8e7e6?crop=entropy\u0026cs=tinysrgb\u0026fit=max\u0026fm=jpg\u0026ixid=M3w5MTAzNjJ8MHwxfHNlYXJjaHwyfHxpYmFyYWtpJTIwamFwYW4lMjBuYXR1cmUlMjBsYW5kc2NhcGUlMjBzY2VuZXJ5fGVufDB8MHx8fDE3NzQ4ODA5NjJ8MA\u0026ixlib=rb-4.1.0\u0026q=80\u0026w=400","sightseeing":"https://images.unsplash.com/photo-1695240332881-ee81cace4c78?crop=entropy\u0026cs=tinysrgb\u0026fit=max\u0026fm=jpg\u0026ixid=M3w5MTAzNjJ8MHwxfHNlYXJjaHwyfHxpYmFyYWtpJTIwamFwYW4lMjB0ZW1wbGUlMjBzaHJpbmUlMjBsYW5kbWFya3xlbnwwfDB8fHwxNzc0ODgwOTYzfDA\u0026ixlib=rb-4.1.0\u0026q=80\u0026w=400"},"ishikawa":{"events":"https://commons.wikimedia.org/wiki/Special:FilePath/Cherry_blossom_viewing_in_the_third_month%2C_from_the_Five_Seasonal_Festivals%2C_by_Utagawa_Sadahide%2C_Edo_period%2C_1800s_AD-_Ishikawa_Prefectural_Museum_of_Traditional_Arts_and_Crafts_-_Kanazawa%2C_Japan_-_DSC09563.jpg?width=400","gourmet":"https://commons.wikimedia.org/wiki/Special:FilePath/Kanazawa%2C_Ishikawa_%2850762130826%29.jpg?width=400","leisure":"https://commons.wikimedia.org/wiki/Special:FilePath/%22Echigo%27s_Michelangelo%22%2C_Uncho_Ishikawa_%40_Saifukuji_Temple.jpg?width=400","nature":"https://commons.wikimedia.org/wiki/Special:FilePath/1_Chome-31_Ishikawach%C5%8D%2C_%C5%8Cta-ku%2C_T%C5%8Dky%C5%8D-to_145-0061%2C_Japan_-_panoramio_%281%29.jpg?width=400","sightseeing":"https://commons.wikimedia.org/wiki/Special:FilePath/Tamuke_Shrine_Approach.jpg?width=400"},"iwate":{"events":"https://images.unsplash.com/photo-1654659832606-91de0dacc52d?crop=entropy\u0026cs=tinysrgb\u0026fit=max\u0026fm=jpg\u0026ixid=M3w5MTAzNjJ8MHwxfHNlYXJjaHwyfHxpd2F0ZSUyMGphcGFuJTIwZmVzdGl2YWx8ZW58MHwwfHx8MTc3NDg4MDkzOHww\u0026ixlib=rb-4.1.0\u0026q=80\u0026w=400","gourmet":"https://images.unsplash.com/photo-1698027180803-a46e7a918c45?crop=entropy\u0026cs=tinysrgb\u0026fit=max\u0026fm=jpg\u0026ixid=M3w5MTAzNjJ8MHwxfHNlYXJjaHwyfHxpd2F0ZSUyMGphcGFuJTIwZm9vZCUyMGN1aXNpbmV8ZW58MHwwfHx8MTc3NDg4MDkzNXww\u0026ixlib=rb-4.1.0\u0026q=80\u0026w=400","leisure":"https://images.unsplash.com/photo-1773724631660-53b902253651?crop=entropy\u0026cs=tinysrgb\u0026fit=max\u0026fm=jpg\u0026ixid=M3w5MTAzNjJ8MHwxfHNlYXJjaHwyfHxpd2F0ZSUyMGphcGFuJTIwb3V0ZG9vciUyMGFjdGl2aXR5fGVufDB8MHx8fDE3NzQ4ODA5Mzd8MA\u0026ixlib=rb-4.1.0\u0026q=80\u0026w=400","nature":"https://images.unsplash.com/photo-1699444118154-2a0ef876a6bf?crop=entropy\u0026cs=tinysrgb\u0026fit=max\u0026fm=jpg\u0026ixid=M3w5MTAzNjJ8MHwxfHNlYXJjaHwyfHxpd2F0ZSUyMGphcGFuJTIwbmF0dXJlJTIwbGFuZHNjYXBlJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc0ODgwOTM2fDA\u0026ixlib=rb-4.1.0\u0026q=80\u0026w=400","sightseeing":"https://images.unsplash.com/photo-1695240332881-ee81cace4c78?crop=entropy\u0026cs=tinysrgb\u0026fit=max\u0026fm=jpg\u0026ixid=M3w5MTAzNjJ8MHwxfHNlYXJjaHwyfHxpd2F0ZSUyMGphcGFuJTIwdGVtcGxlJTIwc2hyaW5lJTIwbGFuZG1hcmt8ZW58MHwwfHx8MTc3NDg4MDkzN3ww\u0026ixlib=rb-4.1.0\u0026q=80\u0026w=400"},"kagawa":{"events":"https://commons.wikimedia.org/wiki/Special:FilePath/2013_setouchi_art_festival_syami_shima_-_panoramio.jpg?width=400","gourmet":"https://commons.wikimedia.org/wiki/Special:FilePath/%22Kagawa_style%22_bone-in_roasted_chicken_thigh%2C_steamed_cabbage%2C_red_bell_pepper%2C_and_snow_peas_with_brown_rice_and_wakame_seaweed_soup_%E9%A6%99%E5%B7%9D%E9%AA%A8%E4%BB%98%E3%81%8D%E9%B6%8F%E3%81%AB%E8%92%B8%E3%81%97%E3%82%AD%E3%83%A3%E3%83%99%E3%83%84%E3%80%81%E3%83%91%E3%83%97%E3%83%AA%E3%82%AB%E3%80%81%E3%82%B5%E3%83%A4%E3%82%A8%E3%83%B3%E3%83%89%E3%82%A6%E3%80%81%E7%8E%84%E7%B1%B3%E3%83%AF%E3%82%AB%E3%83%A1%E3%82%B9%E3%83%BC%E3%83%97.jpg?width=400","leisure":"https://commons.wikimedia.org/wiki/Special:FilePath/An_alley_in_Yoshima_island_%2822120765944%29.jpg?width=400","nature":"https://commons.wikimedia.org/wiki/Special:FilePath/Great_Seto_Bridge_-_panoramio_%283%29.jpg?width=400","sightseeing":"https://commons.wikimedia.org/wiki/Special:FilePath/Fumonzan_Matsuo-ji_Temple_20210907_02.jpg?width=400"},"kagoshima":{"events":"https://commons.wikimedia.org/wiki/Special:FilePath/Hana-densha_Ohara_Festival_2024.jpg?width=400","gourmet":"https://commons.wikimedia.org/wiki/Special:FilePath/Kanoya_%E9%B9%BF%E5%B1%8B%2C_Kagoshima_Prefecture%2C_Kyushu%2C_Japan_%2855149701085%29.jpg?width=400","leisure":"https://commons.wikimedia.org/wiki/Special:FilePath/KKB_Kagoshima_Broadcasting_Head_2017_01.JPG?width=400","nature":"https://commons.wikimedia.org/wiki/Special:FilePath/A_landscape_of_a_detached_island%2C_Takeshima_port_in_Kagoshima_prefecture_of_Japan.jpg?width=400","sightseeing":"https://commons.wikimedia.org/wiki/Special:FilePath/A_traditional_Japanese_buddhist_temple_hidden_in_the_woods_near_Kagoshima%2C_Japan%2C_East_Asia.jpg?width=400"},"kanagawa":{"events":"https://commons.wikimedia.org/wiki/Special:FilePath/Bon_festival_items_for_sale_in_Kanagawa_2022_Jul_11_07-21PM.jpeg?width=400","gourmet":"https://commons.wikimedia.org/wiki/Special:FilePath/1_Chome_Komachi%2C_Kamakura-shi%2C_Kanagawa-ken_248-0006%2C_Japan_-_panoramio_%282%29.jpg?width=400","leisure":"https://commons.wikimedia.org/wiki/Special:FilePath/1_Chome_%C5%8Cfuna%2C_Kamakura-shi%2C_Kanagawa-ken_247-0056%2C_Japan_-_panoramio_%28122%29.jpg?width=400","nature":"https://commons.wikimedia.org/wiki/Special:FilePath/1_Chome_Hinodech%C5%8D%2C_Naka-ku%2C_Yokohama-shi%2C_Kanagawa-ken_231-0066%2C_Japan_-_panoramio.jpg?width=400","sightseeing":"https://commons.wikimedia.org/wiki/Special:FilePath/K%C5%8Dsoku-ji_J%C5%ABniso_Kamakura%2C_Main_hall_%282016-10-15%29.jpg?width=400"},"kochi":{"events":"https://commons.wikimedia.org/wiki/Special:FilePath/Ryoko_Hirosue_at_Kochi_Yosakoi_Matsuri_1_cropped.jpg?width=400","gourmet":"https://commons.wikimedia.org/wiki/Special:FilePath/Good_food%2C_beer%2C_wine_and_sake_%286453643351%29.jpg?width=400","leisure":"https://commons.wikimedia.org/wiki/Special:FilePath/Haitaka_jinja_shrine_steps.jpg?width=400","nature":"https://commons.wikimedia.org/wiki/Special:FilePath/Imanoyama_01.jpg?width=400","sightseeing":"https://commons.wikimedia.org/wiki/Special:FilePath/Kongou_fukuji_temple_-_%E9%87%91%E5%89%9B%E7%A6%8F%E5%AF%BA_-_panoramio_%2810%29.jpg?width=400"},"kumamoto":{"events":"https://commons.wikimedia.org/wiki/Special:FilePath/III_Marine_Expeditionary_Force_Band_Performs_at_the_2026_Western_Army_Marching_Festival_in_Kumamoto_%289528114%29.jpg?width=400","gourmet":"https://commons.wikimedia.org/wiki/Special:FilePath/2013_Japan_-_Takamori_Dengaku_Hozonaki_%2811148675595%29.jpg?width=400","leisure":"https://commons.wikimedia.org/wiki/Special:FilePath/71-1322_Kumamotoi%2C_Japan_1971_%2851385159349%29.jpg?width=400","nature":"https://commons.wikimedia.org/wiki/Special:FilePath/1230-22_Misumimachi_Misumiura%2C_Uki-shi%2C_Kumamoto-ken_869-3207%2C_Japan_-_panoramio.jpg?width=400","sightseeing":"https://commons.wikimedia.org/wiki/Special:FilePath/Manganji%2C_Minamioguni%2C_Aso_District%2C_Kumamoto_Prefecture_869-2402%2C_Japan_-_panoramio.jpg?width=400"},"kyoto":{"events":"https://commons.wikimedia.org/wiki/Special:FilePath/Gion-matsuri_in_Kyoto%3B_July_2010_%2804%29.jpg?width=400","gourmet":"https://commons.wikimedia.org/wiki/Special:FilePath/Breakfast_at_Tamahan_Ryokan%2C_Kyoto.jpg?width=400","leisure":"https://commons.wikimedia.org/wiki/Special:FilePath/Fountain_in_Higashi_Hongan-ji_in_Kyoto%2C_Japan_%282019%29_-_048.jpg?width=400","nature":"https://commons.wikimedia.org/wiki/Special:FilePath/Dry-sand_Zen_garden_made_of_beige_stripes_a_sunny_day_at_Higashiyama_Jisho-ji_Buddhist_temple_Ginkaku-ji_Kyoto_Japan.jpg?width=400","sightseeing":"https://commons.wikimedia.org/wiki/Special:FilePath/Double_torii_path_at_Fushimi_Inari_Taisha_Shrine%2C_Kyoto%2C_Japan.jpg?width=400"},"mie":{"events":"https://commons.wikimedia.org/wiki/Special:FilePath/Drum_of_Ishidori_matsuri%27s_float.jpg?width=400","gourmet":"https://commons.wikimedia.org/wiki/Special:FilePath/Futaba_Foods_Kansai_Factory.jpg?width=400","leisure":"https://commons.wikimedia.org/wiki/Special:FilePath/Kamehachi_Shokudo.jpg?width=400","nature":"https://commons.wikimedia.org/wiki/Special:FilePath/150103-0806_Neve_Em_Kameyama%2C_Seki%2C_Mie_-_panoramio.jpg?width=400","sightseeing":"https://commons.wikimedia.org/wiki/Special:FilePath/Jingu_Saisyu_Syokusya01.jpg?width=400"},"miyagi":{"events":"https://images.unsplash.com/photo-1593582929394-eee7f02a3248?crop=entropy\u0026cs=tinysrgb\u0026fit=max\u0026fm=jpg\u0026ixid=M3w5MTAzNjJ8MHwxfHNlYXJjaHwyfHxtaXlhZ2klMjBqYXBhbiUyMGZlc3RpdmFsfGVufDB8MHx8fDE3NzQ4ODA5NDN8MA\u0026ixlib=rb-4.1.0\u0026q=80\u0026w=400","gourmet":"https://images.unsplash.com/photo-1734018959721-54f156b1ace8?crop=entropy\u0026cs=tinysrgb\u0026fit=max\u0026fm=jpg\u0026ixid=M3w5MTAzNjJ8MHwxfHNlYXJjaHwyfHxtaXlhZ2klMjBqYXBhbiUyMGZvb2QlMjBjdWlzaW5lfGVufDB8MHx8fDE3NzQ4ODA5Mzl8MA\u0026ixlib=rb-4.1.0\u0026q=80\u0026w=400","leisure":"https://images.unsplash.com/photo-1734018959048-513f36c740a6?crop=entropy\u0026cs=tinysrgb\u0026fit=max\u0026fm=jpg\u0026ixid=M3w5MTAzNjJ8MHwxfHNlYXJjaHwxfHxtaXlhZ2klMjBqYXBhbiUyMG91dGRvb3IlMjBhY3Rpdml0eXxlbnwwfDB8fHwxNzc0ODgwOTQyfDA\u0026ixlib=rb-4.1.0\u0026q=80\u0026w=400","nature":"https://images.unsplash.com/photo-1734018960038-abf4bdc156aa?crop=entropy\u0026cs=tinysrgb\u0026fit=max\u0026fm=jpg\u0026ixid=M3w5MTAzNjJ8MHwxfHNlYXJjaHwyfHxtaXlhZ2klMjBqYXBhbiUyMG5hdHVyZSUyMGxhbmRzY2FwZSUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3NDg4MDk0MHww\u0026ixlib=rb-4.1.0\u0026q=80\u0026w=400","sightseeing":"https://images.unsplash.com/photo-1727698285403-0f7fd3022a68?crop=entropy\u0026cs=tinysrgb\u0026fit=max\u0026fm=jpg\u0026ixid=M3w5MTAzNjJ8MHwxfHNlYXJjaHwyfHxtaXlhZ2klMjBqYXBhbiUyMHRlbXBsZSUyMHNocmluZSUyMGxhbmRtYXJrfGVufDB8MHx8fDE3NzQ4ODA5NDF8MA\u0026ixlib=rb-4.1.0\u0026q=80\u0026w=400"},"miyazaki":{"events":"https://commons.wikimedia.org/wiki/Special:FilePath/Hayao_Miyazaki.jpg?width=400","gourmet":"https://commons.wikimedia.org/wiki/Special:FilePath/Kurose_Amberjack_Sushi.jpg?width=400","leisure":"https://commons.wikimedia.org/wiki/Special:FilePath/Aeonmall_Miyazaki_Parking_2007_12.jpg?width=400","nature":"https://commons.wikimedia.org/wiki/Special:FilePath/Aquaculture_in_Gokase.jpg?width=400","sightseeing":"https://commons.wikimedia.org/wiki/Special:FilePath/Amanoiwato_Shrine_%2830722535953%29.jpg?width=400"},"nagano":{"events":"https://commons.wikimedia.org/wiki/Special:FilePath/Japan_-_Flickr_-_GregTheBusker_%2832%29.jpg?width=400","gourmet":"https://commons.wikimedia.org/wiki/Special:FilePath/Food_insects_at_a_grocery_store_in_Nagano_Pref.%2C_Japan..jpg?width=400","leisure":"https://commons.wikimedia.org/wiki/Special:FilePath/Outdoor_scenery_during_train_riding_from_Yamanashi_to_Nagano%3B_May_2019_%2808%29.jpg?width=400","nature":"https://commons.wikimedia.org/wiki/Special:FilePath/Landscapes_seen_from_JR%E6%A2%9D%E4%BA%95%E7%B7%9A_between_Matsumoto_and_%E5%B0%8F%E6%B7%B5%E6%B2%A2_%2862367%29.jpg?width=400","sightseeing":"https://commons.wikimedia.org/wiki/Special:FilePath/71-1434_Zenkoji_Temple_Nagano%2C_Japan_1971_%2851404683807%29.jpg?width=400"},"nagasaki":{"events":"https://commons.wikimedia.org/wiki/Special:FilePath/Dozamachi%2C_Nagasaki%2C_Nagasaki_Prefecture_850-0841%2C_Japan_-_panoramio.jpg?width=400","gourmet":"https://commons.wikimedia.org/wiki/Special:FilePath/140321_Azumaen_Unzen_Nagasaki_pref_Japan08ss.jpg?width=400","leisure":"https://commons.wikimedia.org/wiki/Special:FilePath/Ebisu_Shrine_near_Tabira_Port.jpg?width=400","nature":"https://commons.wikimedia.org/wiki/Special:FilePath/Minamiyamatemachi%2C_Nagasaki%2C_Nagasaki_Prefecture_850-0931%2C_Japan_-_panoramio.jpg?width=400","sightseeing":"https://commons.wikimedia.org/wiki/Special:FilePath/Confucius_Shrine_in_Nagasaki%2C_Japan%2C_20240814_0939_3262.jpg?width=400"},"nara":{"events":"https://commons.wikimedia.org/wiki/Special:FilePath/Nara%2C_Japan_%E5%A5%88%E8%89%AF_27-07-13_-_panoramio_%281%29.jpg?width=400","gourmet":"https://commons.wikimedia.org/wiki/Special:FilePath/Deer_cookies_at_Nara%2C_Japan.jpg?width=400","leisure":"https://commons.wikimedia.org/wiki/Special:FilePath/Book_off.jpg?width=400","nature":"https://commons.wikimedia.org/wiki/Special:FilePath/Nara_Temple_2017_Japan_%28233828635%29.jpeg?width=400","sightseeing":"https://commons.wikimedia.org/wiki/Special:FilePath/Yoshino_Mikumari_Shrine_Main_Hall_001.jpg?width=400"},"niigata":{"events":"https://commons.wikimedia.org/wiki/Special:FilePath/2007_Nagaoka_Festival_004_Edit.jpg?width=400","gourmet":"https://commons.wikimedia.org/wiki/Special:FilePath/Hikozen_%28Local_cuisine%29%2C_Sanjo%2C_Niigata%2C_Japan.jpg?width=400","leisure":"https://commons.wikimedia.org/wiki/Special:FilePath/Kamoyama_Park_Outdoor_Stage_Sep2021.jpg?width=400","nature":"https://commons.wikimedia.org/wiki/Special:FilePath/Landscape_of_Hazaki_%28Niigata_City%2C_a_row_of_Hazaki_trees_in_Manganji%29_%2851556156427%29.jpg?width=400"},"oita":{"events":"https://commons.wikimedia.org/wiki/Special:FilePath/Gion_fesutebaru_Hita_Oita_Japan_1.jpeg?width=400","gourmet":"https://commons.wikimedia.org/wiki/Special:FilePath/Oita_Station_%E5%A4%A7%E5%88%86%E9%A7%85%2C_Oita_City%2C_Kyushu%2C_Japan_%F0%9F%87%AF%F0%9F%87%B5_-_55117890542.jpg?width=400","leisure":"https://commons.wikimedia.org/wiki/Special:FilePath/Itogahama_Seaside_Park_coast_and_pool_2005-08-19.jpg?width=400","nature":"https://commons.wikimedia.org/wiki/Special:FilePath/Peach_Blossoms_and_Running_Waters_by_Tanomura_Chikuden_%28Oita_City_Art_Museum%29.jpg?width=400","sightseeing":"https://commons.wikimedia.org/wiki/Special:FilePath/Usa_shrine_%2C_%E5%AE%87%E4%BD%90%E7%A5%9E%E5%AE%AE_-_panoramio_%2817%29.jpg?width=400"},"okayama":{"events":"https://commons.wikimedia.org/wiki/Special:FilePath/A_young_female_drummer_seen_during_Hadaka_Matsuri_%28-Naked_Festival-%29_festivities_in_Bitchu_Kokubunji_temple._Okayama%2C_Okayama_Prefecture%2C_Ch%C5%ABgoku_region%2C_Japan.jpg?width=400","gourmet":"https://commons.wikimedia.org/wiki/Special:FilePath/Okayama_20190904064927_%2849844059753%29.jpg?width=400","leisure":"https://commons.wikimedia.org/wiki/Special:FilePath/Ekimotomachi_-_panoramio_%283%29.jpg?width=400","nature":"https://commons.wikimedia.org/wiki/Special:FilePath/Landscape_by_Sesshu_%28Okayama_Prefectural_Museum_of_Art%29.jpeg?width=400","sightseeing":"https://commons.wikimedia.org/wiki/Special:FilePath/A_deserted_temple_performed_in_a_style_traditional_for_Okayama%2C_Okayama_Prefecture%2C_Ch%C5%ABgoku_region%2C_Japan.jpg?width=400"},"okinawa":{"events":"https://commons.wikimedia.org/wiki/Special:FilePath/1st_Okinawa_International_Movie_Festival_001.jpg?width=400","gourmet":"https://commons.wikimedia.org/wiki/Special:FilePath/JP_%E6%97%A5%E6%9C%AC_Japan_%E6%B2%96%E7%B9%A9_OKINAWA_Keisatsusho_Street_restaurant_food_January_2025_R12S_05.jpg?width=400","leisure":"https://commons.wikimedia.org/wiki/Special:FilePath/JP_%E6%97%A5%E6%9C%AC_Japan_%E6%B2%96%E7%B9%A9_OKINAWA_Route_%E6%B5%A6%E8%A5%BF_Chome_Urasoe_outdoor_carpark_February_2026_N13P_02.jpg?width=400","nature":"https://commons.wikimedia.org/wiki/Special:FilePath/Eye_of_Typhoon_Khanun_near_Okinawa%2C_Japan_-_2_August_2023_%2853089048018%29.jpg?width=400","sightseeing":"https://commons.wikimedia.org/wiki/Special:FilePath/Bell_of_the_Tenson-by%C5%8D_Shrine_at_the_Okinawa_Prefectural_Museum.jpg?width=400"},"osaka":{"events":"https://commons.wikimedia.org/wiki/Special:FilePath/Festival_Hall_%28Osaka%29_02.JPG?width=400","gourmet":"https://commons.wikimedia.org/wiki/Special:FilePath/024_Gyudon_beef_bowl_%E7%89%9B%E4%B8%BC_in_Japan_-_food_in_Yoshinoya_restaurant_in_Osaka%2C_Japan.jpg?width=400","leisure":"https://commons.wikimedia.org/wiki/Special:FilePath/Osaka_Auto_Messe_2023_%2877%29_-_Toyota_CROWN_OUTDOOR_CONCEPT.jpg?width=400","nature":"https://commons.wikimedia.org/wiki/Special:FilePath/Japanese_garden_at_Daisen_Park_in_Sakai%2C_October_2018_-_662.jpg?width=400","sightseeing":"https://commons.wikimedia.org/wiki/Special:FilePath/Gezicht_op_de_Shitenno-ji_tempel_in_Osaka%2C_Japan%2C_RP-F-2003-147-56.jpg?width=400"},"saga":{"events":"https://commons.wikimedia.org/wiki/Special:FilePath/Saga_Balloon_Fiesta_2004_1.JPG?width=400","gourmet":"https://commons.wikimedia.org/wiki/Special:FilePath/Food_vendors_near_Osaka_Castle_%2826808116321%29.jpg?width=400","leisure":"https://commons.wikimedia.org/wiki/Special:FilePath/Kashima_Asahigaoka_Park_stone_wall_and_steps.jpg?width=400","nature":"https://commons.wikimedia.org/wiki/Special:FilePath/Landscape_fusuma_by_Tani_Bunch%C5%8D_%28Saga_Prefectural_Museum%29.jpg?width=400","sightseeing":"https://commons.wikimedia.org/wiki/Special:FilePath/Guardian_lions_and_stairs_of_Atago_Shrine_in_Yobuko%2C_Karatsu.JPG?width=400"},"saitama":{"events":"https://commons.wikimedia.org/wiki/Special:FilePath/1_Chome_Shintomich%C5%8D%2C_Kawagoe-shi%2C_Saitama-ken_350-0043%2C_Japan_-_panoramio.jpg?width=400","gourmet":"https://commons.wikimedia.org/wiki/Special:FilePath/Food_shown_at_Japan_Ground_Self-Defense_Force_Public_Information_Center.jpg?width=400","leisure":"https://commons.wikimedia.org/wiki/Special:FilePath/Outdoor_Clock_and_Digital_Thermometer%2C_Kumagaya_-_Dec_13%2C_2024.jpg?width=400","nature":"https://commons.wikimedia.org/wiki/Special:FilePath/Ageo_Saitama_Landscape_Of_Asamadai_201912.jpg?width=400","sightseeing":"https://commons.wikimedia.org/wiki/Special:FilePath/Kangi-in_Kisoumon_201810.jpg?width=400"},"shiga":{"events":"https://commons.wikimedia.org/wiki/Special:FilePath/Hibarino_Hino_ac_%281%29.jpg?width=400","gourmet":"https://commons.wikimedia.org/wiki/Special:FilePath/Funazushi_%E9%AE%92%E5%AF%BF%E5%8F%B8_Maibara_City_Shiga_Japan_2022-10-06.jpg?width=400","leisure":"https://commons.wikimedia.org/wiki/Special:FilePath/BBQ_Grill_at_Minakuchi_Sports_no_Mori%2C_Koka%2C_Shiga%2C_Japan.jpg?width=400","nature":"https://commons.wikimedia.org/wiki/Special:FilePath/Villaga_landscape%28Umegahara%2CMaibara%2CShiga%2920250323_1.jpg?width=400","sightseeing":"https://commons.wikimedia.org/wiki/Special:FilePath/Akiba_Shrine_%28Nakagawara%29_20220522_01.jpg?width=400"},"shimane":{"events":"https://commons.wikimedia.org/wiki/Special:FilePath/Dougyouretsu_%E3%81%A9%E3%81%86%E8%A1%8C%E5%88%97_-_Drum_Parade_of_Matsue_City_Japan.jpg?width=400","gourmet":"https://commons.wikimedia.org/wiki/Special:FilePath/Akaten_Sep_26_2020_07PM.jpeg?width=400","leisure":"https://commons.wikimedia.org/wiki/Special:FilePath/%22Be_careful_of_children_jumping_out%22_sign_at_a_carpark_near_Izumo_Taisha_2014-09-03.jpg?width=400","nature":"https://commons.wikimedia.org/wiki/Special:FilePath/180504_Rakan-ji_of_Iwami_Ginzan_Silver_Mine_Oda_Shimane_pref_Japan02bs.jpg?width=400","sightseeing":"https://commons.wikimedia.org/wiki/Special:FilePath/Izumo_Grand_Shrine_%2C_Chozuya.jpg?width=400"},"shizuoka":{"events":"https://commons.wikimedia.org/wiki/Special:FilePath/Mikumano_Jinja_Taisai_2009_20090404.jpg?width=400","gourmet":"https://commons.wikimedia.org/wiki/Special:FilePath/Oden_street_by_Kossy%40FINEDAYS_in_Shizuoka.jpg?width=400","leisure":"https://commons.wikimedia.org/wiki/Special:FilePath/Kawana-Outdoor-Activity-Center-1.jpg?width=400","nature":"https://commons.wikimedia.org/wiki/Special:FilePath/Berg_Fuji_gezien_vanaf_de_Ka-Aibashibrug_in_Japan_Fuji_from_Sudzukawa_%28Ka-Aibashi%29_Bridge_Name_%28titel_op_object%29%2C_RP-F-F01174-S.jpg?width=400","sightseeing":"https://commons.wikimedia.org/wiki/Special:FilePath/Kanzanji_atagojinja_torii_20210102.jpg?width=400"},"tochigi":{"events":"https://commons.wikimedia.org/wiki/Special:FilePath/A_doll_of_a_festival_of_Tochigi%2Ckan-u-uncyo%2Ctochigi-city%2Cjapan.jpg?width=400","gourmet":"https://images.unsplash.com/photo-1677853989017-6d45d7d2a1a8?crop=entropy\u0026cs=tinysrgb\u0026fit=max\u0026fm=jpg\u0026ixid=M3w5MTAzNjJ8MHwxfHNlYXJjaHwxfHx0b2NoaWdpJTIwamFwYW58ZW58MHwwfHx8MTc3NDg4MDk2N3ww\u0026ixlib=rb-4.1.0\u0026q=80\u0026w=400","leisure":"https://commons.wikimedia.org/wiki/Special:FilePath/Gym_Annex%2C_Tochigi_Sports_Park.jpg?width=400","nature":"https://commons.wikimedia.org/wiki/Special:FilePath/Japan%2C_Tochigi%2C_Nikko_-_Odashirogahara_2013_1.jpg?width=400","sightseeing":"https://commons.wikimedia.org/wiki/Special:FilePath/Hoofdtempel_en_Gomado-tempel_in_Nikko_The_Main_Temple_and_%28Gomado%29_Shinto_Temple_Nikko_%28titel_op_object%29%2C_RP-F-F01102-BZ.jpg?width=400"},"tokushima":{"events":"https://commons.wikimedia.org/wiki/Special:FilePath/Japan_-_Bon_AwaOdori_Festival_-_Tokushima_02.jpg?width=400","gourmet":"https://commons.wikimedia.org/wiki/Special:FilePath/Freshly_caught_ayu_%28sweetfish%29_roasting_on_sticks%2C_Nishiiyayama%2C_Tokushima_Prefecture%2C_Shikoku%2C_Japan.jpg?width=400","leisure":"https://commons.wikimedia.org/wiki/Special:FilePath/Naruto_20230909174255_%2853476231777%29.jpg?width=400","nature":"https://commons.wikimedia.org/wiki/Special:FilePath/Iya-yama_emaki_%28Tokushima_Prefectural_Museum%29.jpg?width=400","sightseeing":"https://commons.wikimedia.org/wiki/Special:FilePath/Omiwa_Shrine%2C_Tokushima%2C_entrance_sculpture_2023.jpg?width=400"},"tokyo":{"events":"https://commons.wikimedia.org/wiki/Special:FilePath/Day_bfefore_Tokyo_International_Film_festival%2C_at_EX_Theater_Roppongi.jpg?width=400","gourmet":"https://commons.wikimedia.org/wiki/Special:FilePath/Illuminated_facade_of_a_restaurant_serving_traditional_food_with_fresh_vegetables_in_Chiyoda%2C_Tokyo.jpg?width=400","leisure":"https://commons.wikimedia.org/wiki/Special:FilePath/Hibiya_Open-Air_Concert_Hall.JPG?width=400","nature":"https://commons.wikimedia.org/wiki/Special:FilePath/Footbridge_over_a_pond_in_Shinjuku_Gyoen_National_Garden_and_NTT_DoCoMo_Yoyogi_Building%2C_Tokyo%2C_Japan.jpg?width=400","sightseeing":"https://commons.wikimedia.org/wiki/Special:FilePath/Golden_gate_of_Ueno_T%C5%8Dsh%C5%8D-g%C5%AB_Shinto_shrine%2C_Tokyo%2C_Japan.jpg?width=400"},"tottori":{"events":"https://commons.wikimedia.org/wiki/Special:FilePath/Kasa-odori_Parade.jpg?width=400","gourmet":"https://commons.wikimedia.org/wiki/Special:FilePath/Iwami_squid_drying_DSC01868.jpg?width=400","leisure":"https://commons.wikimedia.org/wiki/Special:FilePath/Futao_Fujii_Sekigane_Monument%282%29.jpg?width=400","nature":"https://commons.wikimedia.org/wiki/Special:FilePath/150425_Ishitani_Residence_Chizu_Tottori_pref_Japan06n.jpg?width=400"},"toyama":{"events":"https://commons.wikimedia.org/wiki/Special:FilePath/Fukuno_Yotaka_Festival_Andon_01.jpg?width=400","gourmet":"https://commons.wikimedia.org/wiki/Special:FilePath/Coffee_station_BLUE_TRAIN_in_Toyama.jpg?width=400","leisure":"https://commons.wikimedia.org/wiki/Special:FilePath/Honmarumachi%2C_Takaoka%2C_Toyama_Prefecture_933-0045%2C_Japan_-_panoramio_%283%29.jpg?width=400","nature":"https://commons.wikimedia.org/wiki/Special:FilePath/Furusawa%2C_Toyama%2C_Toyama_Prefecture_930-0151%2C_Japan_-_panoramio.jpg?width=400"},"wakayama":{"events":"https://commons.wikimedia.org/wiki/Special:FilePath/Tanabe_festival_20170724.jpg?width=400","gourmet":"https://commons.wikimedia.org/wiki/Special:FilePath/131221_Restaurant_BARREY_Shirahama_Wakayama_pref_Japan05s3.jpg?width=400","leisure":"https://commons.wikimedia.org/wiki/Special:FilePath/Benches%2C_Hinomisaki_Park.jpg?width=400","nature":"https://commons.wikimedia.org/wiki/Special:FilePath/Autumn_leaves_at_Jabaramichi_in_Danjogaran_of_Mount_K%C5%8Dya_%282021.11%29_001.jpg?width=400","sightseeing":"https://commons.wikimedia.org/wiki/Special:FilePath/Entrance_of_Sand%C5%8D%2C_Nachi%2C_Wakayama_%281%29_Oct_26%2C_2019.jpg?width=400"},"yamagata":{"events":"https://images.unsplash.com/photo-1739609718564-6b01cc6442b5?crop=entropy\u0026cs=tinysrgb\u0026fit=max\u0026fm=jpg\u0026ixid=M3w5MTAzNjJ8MHwxfHNlYXJjaHwxfHx5YW1hZ2F0YSUyMGphcGFuJTIwZmVzdGl2YWx8ZW58MHwwfHx8MTc3NDg4MDk1NHww\u0026ixlib=rb-4.1.0\u0026q=80\u0026w=400","gourmet":"https://images.unsplash.com/photo-1736893308774-30e668614200?crop=entropy\u0026cs=tinysrgb\u0026fit=max\u0026fm=jpg\u0026ixid=M3w5MTAzNjJ8MHwxfHNlYXJjaHwxfHx5YW1hZ2F0YSUyMGphcGFuJTIwZm9vZCUyMGN1aXNpbmV8ZW58MHwwfHx8MTc3NDg4MDk1MHww\u0026ixlib=rb-4.1.0\u0026q=80\u0026w=400","leisure":"https://images.unsplash.com/photo-1736893309724-f8e6fd6004b2?crop=entropy\u0026cs=tinysrgb\u0026fit=max\u0026fm=jpg\u0026ixid=M3w5MTAzNjJ8MHwxfHNlYXJjaHwxfHx5YW1hZ2F0YSUyMGphcGFufGVufDB8MHx8fDE3NzQ4ODA5NTN8MA\u0026ixlib=rb-4.1.0\u0026q=80\u0026w=400","nature":"https://images.unsplash.com/photo-1690907877357-8b5a41e08815?crop=entropy\u0026cs=tinysrgb\u0026fit=max\u0026fm=jpg\u0026ixid=M3w5MTAzNjJ8MHwxfHNlYXJjaHwyfHx5YW1hZ2F0YSUyMGphcGFuJTIwbmF0dXJlJTIwbGFuZHNjYXBlJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc0ODgwOTUxfDA\u0026ixlib=rb-4.1.0\u0026q=80\u0026w=400","sightseeing":"https://images.unsplash.com/photo-1763366582764-d310e0f01a5d?crop=entropy\u0026cs=tinysrgb\u0026fit=max\u0026fm=jpg\u0026ixid=M3w5MTAzNjJ8MHwxfHNlYXJjaHwyfHx5YW1hZ2F0YSUyMGphcGFuJTIwdGVtcGxlJTIwc2hyaW5lJTIwbGFuZG1hcmt8ZW58MHwwfHx8MTc3NDg4MDk1Mnww\u0026ixlib=rb-4.1.0\u0026q=80\u0026w=400"},"yamaguchi":{"events":"https://commons.wikimedia.org/wiki/Special:FilePath/%22Yamaguchi%22_written_in_Japanese_using_paper_lanterns.jpg?width=400","gourmet":"https://commons.wikimedia.org/wiki/Special:FilePath/Alphax_Food_System_Head_office.JPG?width=400","leisure":"https://commons.wikimedia.org/wiki/Special:FilePath/1_Chome_Hikoshima_Enourach%C5%8D%2C_Shimonoseki-shi%2C_Yamaguchi-ken_750-0075%2C_Japan_-_panoramio.jpg?width=400","nature":"https://commons.wikimedia.org/wiki/Special:FilePath/KDDI_Yamaguchi_satellite_communications_center._KDDI_%E5%B1%B1%E5%8F%A3%E8%A1%9B%E6%98%9F%E9%80%9A%E4%BF%A1%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC_-_panoramio_%281%29.jpg?width=400","sightseeing":"https://commons.wikimedia.org/wiki/Special:FilePath/Kitsukou_shrine_%2C_%E5%90%89%E9%A6%99%E7%A5%9E%E7%A4%BE_-_panoramio_%283%29.jpg?width=400"},"yamanashi":{"events":"https://commons.wikimedia.org/wiki/Special:FilePath/Shingen-ko_Festival_201904a.jpg?width=400","gourmet":"https://commons.wikimedia.org/wiki/Special:FilePath/150720_M-1_Hokuto_Yamanashi_pref_Japan01n.jpg?width=400","leisure":"https://commons.wikimedia.org/wiki/Special:FilePath/Outdoor_scenery_during_train_riding_from_Yamanashi_to_Nagano%3B_May_2019_%2801%29.jpg?width=400","nature":"https://commons.wikimedia.org/wiki/Special:FilePath/Larvivora_akahige%2C_Yamanashi%2C_Japan_1.jpg?width=400","sightseeing":"https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Fuji%2C_Japan_ESA19484504.jpeg?width=400"}}</script>
-<script>(function(){"use strict";const A="http://www.w3.org/2000/svg",z="fr",m=z==='fr',n=z==='ko';function a(a,b,c){return m?b:n?c:a}const f={viewGuide:a('View Full Region Guide','Voir le guide complet','지역 완전 가이드 보기'),comingSoon:a('Regional guide coming soon','Guide de la région à venir','지역 가이드 준비 중'),highlights:a('Highlights','Points forts','하이라이트'),allCats:a('All Categories','Toutes les catégories','전체 카테고리'),explore:a('→ Explore','→ Voir','→ 탐색'),noData:a('No data for this category.','Pas de données pour cette catégorie.','이 카테고리에 데이터가 없습니다.')},b={gourmet:{label:a("Gourmet","Gastronomie","미식"),icon:"🍜",color:"#D64000",bg:"#fff5f0",desc:a("Regional cuisine, ramen, seafood and local food culture","Cuisine régionale, ramen, fruits de mer et culture gastronomique","지역 요리, 라멘, 해산물 및 로컬 음식 문화")},nature:{label:a("Nature","Nature","자연"),icon:"🏔️",color:"#1a7a34",bg:"#f0faf2",desc:a("Mountains, coastlines, lakes, forests and seasonal scenery","Montagnes, côtes, lacs, forêts et paysages saisonniers","산, 해안, 호수, 숲 및 계절 풍경")},sightseeing:{label:a("Sightseeing","Tourisme","관광"),icon:"⛩️",color:"#1a45a8",bg:"#f0f4ff",desc:a("Shrines, temples, castles, UNESCO sites and museums","Sanctuaires, temples, châteaux, sites UNESCO et musées","신사, 사찰, 성, 유네스코 유산 및 박물관")},leisure:{label:a("Leisure","Loisirs","레저"),icon:"🎿",color:"#b35c00",bg:"#fff8ee",desc:a("Skiing, diving, theme parks and outdoor adventures","Ski, plongée, parcs d'attractions et aventures en plein air","스키, 다이빙, 테마파크 및 야외 어드벤처")},events:{label:a("Events","Événements","이벤트"),icon:"🎆",color:"#b5006e",bg:"#fff0f8",desc:a("Festivals, fireworks, traditional ceremonies and seasonal events","Festivals, feux d'artifice, cérémonies traditionnelles","축제, 불꽃놀이, 전통 의식 및 계절 행사")}},e={gourmet:{hokkaido:"🦀",aomori:"🍎",iwate:"🍜",miyagi:"🐄",akita:"🍲",yamagata:"🍒",fukushima:"🍑",ibaraki:"🥬",tochigi:"🥟",gunma:"🍜",saitama:"🍡",chiba:"🥜",tokyo:"🍣",kanagawa:"🥟",niigata:"🍶",toyama:"🦐",ishikawa:"🐟",fukui:"🦀",yamanashi:"🍇",nagano:"🍜",gifu:"🐄",shizuoka:"🍵",aichi:"🍛",mie:"🦞",shiga:"🐟",kyoto:"🍱",osaka:"🐙",hyogo:"🥩",nara:"🍡",wakayama:"🍊",tottori:"🦀",shimane:"🍜",okayama:"🍑",hiroshima:"🦪",yamaguchi:"🐡",tokushima:"🍊",kagawa:"🍜",ehime:"🍊",kochi:"🐟",fukuoka:"🍜",saga:"🦑",nagasaki:"🍜",kumamoto:"🐴",oita:"🐟",miyazaki:"🍗",kagoshima:"🐷",okinawa:"🌺"},nature:{hokkaido:"🌸",aomori:"🌲",iwate:"🏔️",miyagi:"🌊",akita:"🍁",yamagata:"🌿",fukushima:"🏞️",ibaraki:"🌸",tochigi:"🌊",gunma:"🏕️",saitama:"🌿",chiba:"🌊",tokyo:"🏔️",kanagawa:"🏔️",niigata:"🌊",toyama:"🏔️",ishikawa:"🏖️",fukui:"🌊",yamanashi:"🗻",nagano:"🏔️",gifu:"🏔️",shizuoka:"🗻",aichi:"🌿",mie:"🌲",shiga:"🏞️",kyoto:"🍁",osaka:"🌸",hyogo:"🌿",nara:"🌸",wakayama:"🌊",tottori:"🏜️",shimane:"🏝️",okayama:"🌿",hiroshima:"🌊",yamaguchi:"🦢",tokushima:"🏞️",kagawa:"🌊",ehime:"🏔️",kochi:"🌊",fukuoka:"🌊",saga:"🌊",nagasaki:"🏝️",kumamoto:"🌋",oita:"🏞️",miyazaki:"🏞️",kagoshima:"🌋",okinawa:"🏖️"},sightseeing:{hokkaido:"🏙️",aomori:"🏯",iwate:"⛩️",miyagi:"🌅",akita:"🏯",yamagata:"⛩️",fukushima:"🏯",ibaraki:"🌸",tochigi:"⛩️",gunma:"🏭",saitama:"🏯",chiba:"⛩️",tokyo:"🗼",kanagawa:"🗿",niigata:"⛏️",toyama:"🏯",ishikawa:"🏯",fukui:"⛩️",yamanashi:"🗻",nagano:"🏯",gifu:"🏘️",shizuoka:"🗻",aichi:"🏯",mie:"⛩️",shiga:"🏯",kyoto:"⛩️",osaka:"🏯",hyogo:"🏯",nara:"🦌",wakayama:"⛩️",tottori:"🏜️",shimane:"⛩️",okayama:"🏯",hiroshima:"🕊️",yamaguchi:"🌉",tokushima:"🌀",kagawa:"⛩️",ehime:"♨️",kochi:"🏯",fukuoka:"⛩️",saga:"🏯",nagasaki:"🔔",kumamoto:"🏯",oita:"♨️",miyazaki:"⛩️",kagoshima:"🌋",okinawa:"🏯"},leisure:{hokkaido:"⛷️",aomori:"🚣",iwate:"⛷️",miyagi:"⛷️",akita:"⛷️",yamagata:"⛷️",fukushima:"⛷️",ibaraki:"🏄",tochigi:"🎢",gunma:"🏕️",saitama:"🚣",chiba:"🎡",tokyo:"🎢",kanagawa:"🏄",niigata:"⛷️",toyama:"🧗",ishikawa:"🚴",fukui:"🏕️",yamanashi:"🎢",nagano:"⛷️",gifu:"🥾",shizuoka:"🏄",aichi:"🎡",mie:"🏄",shiga:"🚣",kyoto:"🎭",osaka:"🎢",hyogo:"🏖️",nara:"🚴",wakayama:"🏖️",tottori:"🏄",shimane:"🚣",okayama:"🚣",hiroshima:"🚴",yamaguchi:"🚴",tokushima:"🧗",kagawa:"🎨",ehime:"🚴",kochi:"🚣",fukuoka:"🏖️",saga:"🎈",nagasaki:"🚢",kumamoto:"🐬",oita:"🧗",miyazaki:"🏄",kagoshima:"🥾",okinawa:"🤿"},events:{hokkaido:"⛄",aomori:"🏮",iwate:"🐎",miyagi:"🎋",akita:"🎑",yamagata:"💃",fukushima:"🎠",ibaraki:"🌸",tochigi:"🎊",gunma:"🎵",saitama:"🎠",chiba:"⛩️",tokyo:"🎆",kanagawa:"🎆",niigata:"💃",toyama:"💃",ishikawa:"🎉",fukui:"🎉",yamanashi:"🎉",nagano:"🎭",gifu:"🎪",shizuoka:"🎆",aichi:"🎠",mie:"⛩️",shiga:"🎠",kyoto:"🎎",osaka:"🏮",hyogo:"🎉",nara:"🔥",wakayama:"🔥",tottori:"💃",shimane:"⛩️",okayama:"🎉",hiroshima:"🕊️",yamaguchi:"🎉",tokushima:"💃",kagawa:"🎨",ehime:"🥁",kochi:"💃",fukuoka:"🏮",saga:"🎈",nagasaki:"🏮",kumamoto:"🔥",oita:"🎉",miyazaki:"🎭",kagoshima:"🎉",okinawa:"🥁"}},T={hokkaido:[716.1,149.4],aomori:[562,288.1],iwate:[595.9,357.6],miyagi:[578.8,423],akita:[547.5,352.6],yamagata:[540.4,418.2],fukushima:[540.8,477.2],ibaraki:[548,533.7],tochigi:[528,515.4],gunma:[494.1,523.8],saitama:[505.8,551],chiba:[549.6,579.2],tokyo:[523,568],kanagawa:[508,584.4],niigata:[482.4,463.2],toyama:[416.8,518.2],ishikawa:[396.5,500],fukui:[367.8,561.4],yamanashi:[477.4,574.9],nagano:[450,545.8],gifu:[403.4,562.9],shizuoka:[463.2,599.5],aichi:[416.4,606],mie:[379.9,633.5],shiga:[366.2,592.8],kyoto:[337.6,592.9],osaka:[336.1,624.5],hyogo:[311.7,610.7],nara:[356.4,642.7],wakayama:[340.1,664.8],tottori:[266.5,587.8],shimane:[209.8,564.2],okayama:[267.1,615.5],hiroshima:[219.7,629.5],yamaguchi:[170.8,646.2],tokushima:[284.7,665.7],kagawa:[271.8,644.5],ehime:[223.8,681.8],kochi:[247.8,698.6],fukuoka:[125.9,680.2],saga:[105.4,698.7],nagasaki:[66.2,694.8],kumamoto:[127.6,733.5],oita:[162.9,702],miyazaki:[155.9,762.6],kagoshima:[126,790],okinawa:[104.5,818]},d={hokkaido:{ja:"北海道",url:"/destinations/hokkaido/",gourmet:{score:5,tags:["Seafood Rice Bowl","Miso Ramen","Soup Curry"]},nature:{score:5,tags:["Furano Lavender","Shiretoko","Sounkyo Gorge"]},sightseeing:{score:4,tags:["Otaru Canal","Hakodate Night View","Sapporo Clock Tower"]},onsen:{score:4,tags:["Noboribetsu Onsen","Jozankei Onsen","Toya Lake Onsen"]},leisure:{score:5,tags:["Niseko Skiing","Drift Ice Tour","Shiretoko Cruise"]},events:{score:3,tags:["Sapporo Snow Festival","Yosakoi Soran"]}},aomori:{ja:"青森県",url:"/prefectures/aomori/",gourmet:{score:3,tags:["Oma Tuna","Towada Bara-yaki","Senbei-jiru Soup"]},nature:{score:4,tags:["Oirase Stream","Lake Towada","Shirakami Sanchi"]},sightseeing:{score:4,tags:["Hirosaki Castle","Sannai-Maruyama Site","Nebuta Museum"]},onsen:{score:4,tags:["Sukayu Onsen","Asamushi Onsen","Furofushi Onsen"]},leisure:{score:2,tags:["Lake Towada Canoeing","Skiing"]},events:{score:5,tags:["Aomori Nebuta Festival","Hirosaki Neputa","Hachinohe Festival"]}},iwate:{ja:"岩手県",url:"/destinations/iwate/",gourmet:{score:3,tags:["Wanko Soba","Morioka Cold Noodles","Maesawa Beef"]},nature:{score:4,tags:["Ryusendo Cave","Mt. Hayachine","Sanriku Coast"]},sightseeing:{score:4,tags:["Hiraizumi Chuson-ji","Motsu-ji Temple","Tono Village"]},onsen:{score:3,tags:["Hanamaki Onsen","Tsunagi Onsen","Namari Onsen"]},leisure:{score:2,tags:["Appi Highland Skiing","Sanriku Surfing"]},events:{score:3,tags:["Chagu Chagu Umakko","Morioka Sansa Dance"]}},miyagi:{ja:"宮城県",url:"/destinations/miyagi/",gourmet:{score:4,tags:["Grilled Beef Tongue","Matsushima Oysters","Zunda Mochi"]},nature:{score:3,tags:["Matsushima Bay","Mt. Zao","Sanriku Coast Park"]},sightseeing:{score:4,tags:["Matsushima","Sendai Castle Ruins","Zuihoden Mausoleum"]},onsen:{score:3,tags:["Naruko Onsen","Akiu Onsen","Sakunami Onsen"]},leisure:{score:3,tags:["Zao Skiing","Matsushima Cruise"]},events:{score:4,tags:["Sendai Tanabata Festival","Sendai Aoba Festival"]}},akita:{ja:"秋田県",url:"/destinations/akita/",gourmet:{score:3,tags:["Kiritanpo Hot Pot","Inaniwa Udon","Yokote Yakisoba"]},nature:{score:4,tags:["Lake Tazawa","Shirakami Sanchi","Dakigaeri Gorge"]},sightseeing:{score:3,tags:["Kakunodate Samurai District","Oga Namahage","Akita City"]},onsen:{score:4,tags:["Nyuto Onsen Village","Tamagawa Onsen","Doroyu Onsen"]},leisure:{score:2,tags:["Lake Tazawa Skiing","Kakunodate Sightseeing"]},events:{score:4,tags:["Akita Kanto Festival","Namahage Ritual","Omagari Fireworks"]}},yamagata:{ja:"山形県",url:"/destinations/yamagata/",gourmet:{score:3,tags:["Imoni Taro Stew","Cold Ramen","Dashi Relish"]},nature:{score:4,tags:["Mt. Zao","Dewa Sanzan Mountains","Mogami Gorge"]},sightseeing:{score:4,tags:["Yamadera Temple","Dewa Sanzan Shrine","Sakata City"]},onsen:{score:5,tags:["Ginzan Onsen","Zao Onsen","Tendo Onsen"]},leisure:{score:3,tags:["Zao Skiing","Mogami River Rafting"]},events:{score:3,tags:["Yamagata Hanagasa Festival","Shinjo Matsuri"]}},fukushima:{ja:"福島県",url:"/destinations/fukushima/",gourmet:{score:3,tags:["Kitakata Ramen","Shirakawa Ramen","Disc Gyoza"]},nature:{score:4,tags:["Mt. Bandai","Lake Inawashiro","Goshikinuma Ponds"]},sightseeing:{score:3,tags:["Tsuruga Castle","Ouchi-juku Post Town","Iimoriyama Hill"]},onsen:{score:4,tags:["Higashiyama Onsen","Ashinomaki Onsen","Bandai Atami Onsen"]},leisure:{score:3,tags:["Inawashiro Skiing","Urabandai Hiking"]},events:{score:2,tags:["Fukushima Waraji Festival","Soma Nomaoi"]}},ibaraki:{ja:"茨城県",url:"/destinations/ibaraki/",gourmet:{score:3,tags:["Hitachi Beef","Monkfish Hot Pot","Mito Natto"]},nature:{score:3,tags:["Mt. Tsukuba","Fukuroda Falls","Kairakuen Garden"]},sightseeing:{score:3,tags:["Kairakuen Garden","Hitachi Seaside Park","Mito City"]},onsen:{score:2,tags:["Oarai Onsen","Fukuroda Onsen"]},leisure:{score:3,tags:["Oarai Surfing","Tsukuba Ropeway"]},events:{score:3,tags:["Mito Plum Festival","Tsuchiura Fireworks"]}},tochigi:{ja:"栃木県",url:"/destinations/tochigi/",gourmet:{score:3,tags:["Utsunomiya Gyoza","Nikko Yuba Tofu","Strawberries"]},nature:{score:3,tags:["Nikko National Park","Nasu Highlands","Kegon Falls"]},sightseeing:{score:5,tags:["Nikko Toshogu Shrine","Lake Chuzenji","Nasu"]},onsen:{score:4,tags:["Nasu Onsen","Shiobara Onsen","Nikko Yunoto Onsen"]},leisure:{score:3,tags:["Nasu Highland Park","Nikko Cycling"]},events:{score:2,tags:["Nikko Toshogu Autumn Festival","Utsunomiya Gyoza Festival"]}},gunma:{ja:"群馬県",url:"/destinations/gunma/",gourmet:{score:3,tags:["Joshu Beef","Mizusawa Udon","Grilled Manju Buns"]},nature:{score:3,tags:["Oze Marshland","Mt. Akagi","Mt. Myogi"]},sightseeing:{score:3,tags:["Tomioka Silk Mill","Takasaki Kannon","Ikaho"]},onsen:{score:5,tags:["Kusatsu Onsen","Ikaho Onsen","Shima Onsen"]},leisure:{score:3,tags:["Oze Trekking","Skiing"]},events:{score:2,tags:["Ikaho Festival","Kusatsu Music Festival"]}},saitama:{ja:"埼玉県",url:"/destinations/saitama/",gourmet:{score:2,tags:["Fukaya Green Onion","Kawagoe Sweet Potato","Udon Noodles"]},nature:{score:2,tags:["Chichibu Mountains","Nagatoro"]},sightseeing:{score:3,tags:["Kawagoe (Little Edo)","Chichibu Shrine","Railway Museum"]},onsen:{score:2,tags:["Chichibu Onsen","Tokorozawa Onsen"]},leisure:{score:3,tags:["Nagatoro Rafting","Moomin Valley Park"]},events:{score:2,tags:["Kawagoe Festival","Chichibu Night Festival"]}},chiba:{ja:"千葉県",url:"/destinations/chiba/",gourmet:{score:3,tags:["Choshi Seafood","Peanuts","Bonito"]},nature:{score:3,tags:["Cape Inubosaki","Kujukuri Beach","Mt. Nokogiri"]},sightseeing:{score:3,tags:["Naritasan Shinshoji Temple","Sawara Canal Town","Choshi"]},onsen:{score:2,tags:["Katsuura Onsen","Kamogawa Onsen"]},leisure:{score:5,tags:["Tokyo Disney Resort","Mother Farm","Surfing"]},events:{score:3,tags:["Narita Gion Festival","Sawara Grand Festival"]}},tokyo:{ja:"東京都",url:"/destinations/tokyo/",gourmet:{score:5,tags:["Sushi","Ramen","Monjayaki"]},nature:{score:2,tags:["Mt. Takao","Okutama"]},sightseeing:{score:5,tags:["Senso-ji Temple","Tokyo Skytree","Shinjuku Gyoen"]},onsen:{score:2,tags:["Odaiba Onsen","Okutama Onsen"]},leisure:{score:5,tags:["Tokyo Disneyland","Roppongi","Anime Pilgrimage"]},events:{score:5,tags:["Sumida Fireworks","Tokyo Marathon","Comiket"]}},kanagawa:{ja:"神奈川県",url:"/destinations/kanagawa/",gourmet:{score:4,tags:["Yokohama Chinatown","Yokohama Ramen","Shonan Whitebait"]},nature:{score:3,tags:["Hakone","Tanzawa Mountains","Enoshima Island"]},sightseeing:{score:4,tags:["Kamakura Great Buddha","Hakone","Yokohama Minato Mirai"]},onsen:{score:4,tags:["Hakone Onsen","Yugawara Onsen","Tsurumaki Onsen"]},leisure:{score:4,tags:["Enoshima Surfing","Hakone Resort","Hakkeijima Sea Paradise"]},events:{score:3,tags:["Kamakura Festival","Yokohama Fireworks"]}},niigata:{ja:"新潟県",url:"/destinations/niigata/",gourmet:{score:4,tags:["Niigata Rice","Niigata Ramen","Sake (Nihonshu)"]},nature:{score:4,tags:["Sado Island","Mt. Naeba","Oku-Tadami"]},sightseeing:{score:3,tags:["Sado Gold Mine","Uesugi Mausoleum","Niigata City"]},onsen:{score:3,tags:["Tsukioka Onsen","Senami Onsen","Matsunoyama Onsen"]},leisure:{score:4,tags:["Naeba Skiing","GALA Yuzawa","Sado Trekking"]},events:{score:3,tags:["Niigata Festival","Sado Okesa Dance"]}},toyama:{ja:"富山県",url:"/destinations/toyama/",gourmet:{score:4,tags:["White Shrimp","Firefly Squid","Toyama Black Ramen"]},nature:{score:5,tags:["Tateyama-Kurobe Alpine Route","Shomyo Falls","Kurobe Gorge"]},sightseeing:{score:3,tags:["Takaoka Buddha","Zuiryuji Temple","Toyama Glass Art Museum"]},onsen:{score:3,tags:["Unazuki Onsen","Toyama Onsen"]},leisure:{score:3,tags:["Tateyama Hiking","Kurobe Dam Tour"]},events:{score:2,tags:["Owara Kaze no Bon","Takaoka Mikurumayama"]}},ishikawa:{ja:"石川県",url:"/destinations/ishikawa/",gourmet:{score:5,tags:["Nodoguro Rockfish","Kaga Cuisine","Kanazawa Curry"]},nature:{score:3,tags:["Noto Peninsula","Mt. Hakusan","Kenroku-en Garden"]},sightseeing:{score:5,tags:["Kenroku-en Garden","21st Century Museum","Higashi Chaya District"]},onsen:{score:4,tags:["Kaga Onsen","Wakura Onsen","Yamanaka Onsen"]},leisure:{score:3,tags:["Noto Cycling","Mt. Hakusan Hiking"]},events:{score:3,tags:["Kanazawa Hyakumangoku Festival","Wajima Grand Festival"]}},fukui:{ja:"福井県",url:"/destinations/fukui/",gourmet:{score:3,tags:["Echizen Crab","Echizen Soba","Oroshi Soba"]},nature:{score:3,tags:["Tojinbo Cliffs","Mikata Five Lakes","Dinosaur Fossils"]},sightseeing:{score:3,tags:["Eiheiji Temple","Tojinbo Cliffs","Dinosaur Museum"]},onsen:{score:3,tags:["Awara Onsen","Mikuni Onsen"]},leisure:{score:2,tags:["Kuzuryu Skiing","Mikata Lake Canoeing"]},events:{score:2,tags:["Fukui Phoenix Festival"]}},yamanashi:{ja:"山梨県",url:"/destinations/yamanashi/",gourmet:{score:3,tags:["Hoto Noodles","Koshu Wine","Peaches"]},nature:{score:5,tags:["Mt. Fuji","Fuji Five Lakes","Southern Alps"]},sightseeing:{score:4,tags:["Mt. Fuji","Shosenkyo Gorge","Oshino Hakkai"]},onsen:{score:3,tags:["Isawa Onsen","Shimobe Onsen","Fuji Onsen"]},leisure:{score:4,tags:["Mt. Fuji Climbing","Kawaguchiko Cycling","Fuji-Q Highland"]},events:{score:3,tags:["Mt. Fuji Festival","Kofu Shingen Festival"]}},nagano:{ja:"長野県",url:"/destinations/nagano/",gourmet:{score:4,tags:["Shinshu Soba","Nozawana Pickles","Oyaki Dumplings"]},nature:{score:5,tags:["Northern Alps","Kamikochi Valley","Hakuba"]},sightseeing:{score:4,tags:["Matsumoto Castle","Zenkoji Temple","Karuizawa"]},onsen:{score:5,tags:["Jigokudani (Snow Monkeys)","Nozawa Onsen","Hakuba Onsen"]},leisure:{score:5,tags:["Hakuba Skiing","Kamikochi Trekking","Karuizawa Resort"]},events:{score:3,tags:["Matsumoto Castle Noh","Zenkoji Pilgrimage"]}},gifu:{ja:"岐阜県",url:"/prefectures/gifu/",gourmet:{score:3,tags:["Hida Beef","Keichan Chicken","Mitarashi Dango"]},nature:{score:4,tags:["Shirakawa-go","Hida Mountains","Gujo Hachiman"]},sightseeing:{score:4,tags:["Shirakawa-go Village","Gifu Castle","Hida Takayama"]},onsen:{score:4,tags:["Gero Onsen","Okuhida Onsen"]},leisure:{score:3,tags:["Mt. Hakusan Hiking","Gujo Hiking"]},events:{score:3,tags:["Takayama Festival","Gujo Odori Dance"]}},shizuoka:{ja:"静岡県",url:"/destinations/shizuoka/",gourmet:{score:4,tags:["Shizuoka Oden","Sakura Shrimp","Grilled Eel"]},nature:{score:5,tags:["Mt. Fuji","Izu Peninsula","Lake Hamana"]},sightseeing:{score:4,tags:["Mt. Fuji","Kunozan Toshogu","Miho no Matsubara"]},onsen:{score:4,tags:["Atami Onsen","Izu Onsen Resorts","Shuzenji Onsen"]},leisure:{score:4,tags:["Fuji Safari Park","Izu Diving","Mt. Fuji Climbing"]},events:{score:3,tags:["Hamamatsu Festival","Atami Fireworks"]}},aichi:{ja:"愛知県",url:"/destinations/aichi/",gourmet:{score:5,tags:["Miso Katsu","Hitsumabushi Eel","Nagoya Chicken Wings"]},nature:{score:2,tags:["Shitaragahara","Oku-Mikawa Mountains"]},sightseeing:{score:4,tags:["Nagoya Castle","Atsuta Shrine","Inuyama Castle"]},onsen:{score:2,tags:["Gamagori Onsen","Nishiura Onsen"]},leisure:{score:4,tags:["LEGOLAND Nagoya","Scmaglev Railway Museum","Inuyama Resort"]},events:{score:4,tags:["Nagoya Festival","Owari Tsushima Tenno Festival"]}},mie:{ja:"三重県",url:"/prefectures/mie/",gourmet:{score:4,tags:["Ise Lobster","Matsusaka Beef","Tekone Sushi"]},nature:{score:3,tags:["Kumano Kodo Trail","Onigajo Rocks","Akame Falls"]},sightseeing:{score:5,tags:["Ise Grand Shrine","Kumano Kodo","Toba Aquarium"]},onsen:{score:3,tags:["Yunoyama Onsen","Futami Onsen"]},leisure:{score:3,tags:["Toba Sea Kayaking","Kumano Kodo Hiking"]},events:{score:3,tags:["Ise Shrine Sengu","Kumano Fireworks"]}},shiga:{ja:"滋賀県",url:"/prefectures/shiga/",gourmet:{score:3,tags:["Omi Beef","Funazushi (Fermented Carp)","Clove-shaped Fu"]},nature:{score:3,tags:["Lake Biwa","Hira Mountains","Mt. Ibuki"]},sightseeing:{score:3,tags:["Hikone Castle","Omihachiman","Enryakuji Temple"]},onsen:{score:2,tags:["Ogoto Onsen","Hira Onsen"]},leisure:{score:3,tags:["Lake Biwa Canoeing","Makino Highland Skiing"]},events:{score:2,tags:["Hikone Castle Festival","Nagahama Hikiyama Festival"]}},kyoto:{ja:"京都府",url:"/destinations/kyoto/",gourmet:{score:5,tags:["Kaiseki Cuisine","Kyoto Vegetables","Yudofu Tofu"]},nature:{score:4,tags:["Arashiyama","Amanohashidate","Mt. Kurama"]},sightseeing:{score:5,tags:["Fushimi Inari Shrine","Kinkakuji Temple","Arashiyama"]},onsen:{score:3,tags:["Kibune Onsen","Kinosaki Onsen","Kyoto Ryokan"]},leisure:{score:3,tags:["Kimono Rental","Cycling","Tea Ceremony"]},events:{score:5,tags:["Gion Matsuri","Aoi Matsuri","Jidai Matsuri"]}},osaka:{ja:"大阪府",url:"/destinations/osaka/",gourmet:{score:5,tags:["Takoyaki","Okonomiyaki","Kushikatsu Skewers"]},nature:{score:1,tags:["Osaka Castle Park","Expo Commemoration Park"]},sightseeing:{score:5,tags:["Dotonbori","Osaka Castle","Tsutenkaku Tower"]},onsen:{score:2,tags:["Spa World","Natural Hot Spring Spas"]},leisure:{score:5,tags:["Universal Studios Japan","Osaka Aquarium","Namba District"]},events:{score:4,tags:["Tenjin Festival","Kishiwada Danjiri Festival","Osaka Marathon"]}},hyogo:{ja:"兵庫県",url:"/destinations/hyogo/",gourmet:{score:4,tags:["Kobe Beef","Akashi Sea Bream","Awaji Onion"]},nature:{score:3,tags:["Mt. Rokko","Awaji Island","Tajima Mountains"]},sightseeing:{score:4,tags:["Himeji Castle","Kobe Kitano Ijinkan","Arima Onsen Town"]},onsen:{score:4,tags:["Arima Onsen","Kinosaki Onsen","Yumura Onsen"]},leisure:{score:3,tags:["Awaji Island Resort","Kobe Port Tower"]},events:{score:3,tags:["Kobe Festival","Kinosaki Crab Festival"]}},nara:{ja:"奈良県",url:"/prefectures/nara/",gourmet:{score:3,tags:["Yoshino Kudzu","Miwa Somen Noodles","Kakiha Sushi"]},nature:{score:4,tags:["Yoshino Mountains","Odaigahara","Mt. Wakakusa"]},sightseeing:{score:5,tags:["Todaiji Temple","Kasuga Taisha Shrine","Deer in Nara Park"]},onsen:{score:2,tags:["Dorogawa Onsen","Totsukawa Onsen"]},leisure:{score:3,tags:["Yoshino Hiking","Nara Cycling"]},events:{score:4,tags:["Wakakusayama Burning","Kasuga Lantern Festival","Nara Touka-e"]}},wakayama:{ja:"和歌山県",url:"/destinations/wakayama/",gourmet:{score:3,tags:["Kumano Beef","Mehari Sushi","Nachi Black Candy"]},nature:{score:4,tags:["Kumano Kodo Trail","Shirahama Beach","Nachi Falls"]},sightseeing:{score:4,tags:["Koyasan","Kumano Sanzan Shrines","Nachi Falls"]},onsen:{score:4,tags:["Shirahama Onsen","Ryujin Onsen","Kawayu Onsen"]},leisure:{score:3,tags:["Shirahama Beach","Kumano Kodo Trekking"]},events:{score:2,tags:["Nachi Fire Festival","Kumano Hayatama Grand Festival"]}},tottori:{ja:"鳥取県",url:"/destinations/tottori/",gourmet:{score:4,tags:["Matsuba Crab","Twentieth Century Pear","Beef Bone Ramen"]},nature:{score:4,tags:["Tottori Sand Dunes","Mt. Daisen","Mt. Mitoku"]},sightseeing:{score:4,tags:["Tottori Sand Dunes","Nageiredo Hall","Mizuki Shigeru Road"]},onsen:{score:3,tags:["Kaike Onsen","Misasa Onsen"]},leisure:{score:3,tags:["Sand Dune Surfing","Daisen Skiing","Yokai Spots"]},events:{score:2,tags:["Tottori Shanshanmatsuri"]}},shimane:{ja:"島根県",url:"/destinations/shimane/",gourmet:{score:4,tags:["Nodoguro Rockfish","Izumo Soba","Shijimi Clam Soup"]},nature:{score:4,tags:["Oku-Izumo","Oki Islands","Mt. Sanbe"]},sightseeing:{score:4,tags:["Izumo Taisha Shrine","Iwami Ginzan Mine","Matsue Castle"]},onsen:{score:4,tags:["Tamatsukuri Onsen","Yunotsu Onsen","Yunokawa Onsen"]},leisure:{score:2,tags:["Oki Island Kayaking","Mt. Sanbe Hiking"]},events:{score:3,tags:["Izumo Kamiari Month","Oki Sumo"]}},okayama:{ja:"岡山県",url:"/prefectures/okayama/",gourmet:{score:3,tags:["Mamakari Sushi","Bara Sushi","Hiruzen Yakisoba"]},nature:{score:3,tags:["Hiruzen Highland","Kibi Plateau","Mt. Washuzan"]},sightseeing:{score:4,tags:["Korakuen Garden","Okayama Castle","Kurashiki Bikan District"]},onsen:{score:3,tags:["Yubara Onsen","Okutsu Onsen"]},leisure:{score:2,tags:["Hiruzen Skiing","Setouchi Kayaking"]},events:{score:2,tags:["Saidaiji Eyo Festival","Okayama Marathon"]}},hiroshima:{ja:"広島県",url:"/prefectures/hiroshima/",gourmet:{score:4,tags:["Hiroshima Okonomiyaki","Oysters","Anago Eel Rice"]},nature:{score:3,tags:["Miyajima (Itsukushima)","Taishakukyo Gorge","Sandankyo Gorge"]},sightseeing:{score:5,tags:["Atomic Bomb Dome","Itsukushima Shrine","Hiroshima Castle"]},onsen:{score:2,tags:["Yuki Onsen","Miyahama Onsen"]},leisure:{score:3,tags:["Miyajima Hiking","Shimanami Kaido Cycling"]},events:{score:3,tags:["Hiroshima Peace Ceremony","Hatsukaichi Cherry Festival"]}},yamaguchi:{ja:"山口県",url:"/destinations/yamaguchi/",gourmet:{score:4,tags:["Fugu Pufferfish","Iwakuni Lotus Root","Kawara Soba"]},nature:{score:3,tags:["Akiyoshidai Plateau","Akiyoshido Cave","Tsunoshima Bridge"]},sightseeing:{score:3,tags:["Kintaikyo Bridge","Hagi Samurai Town","Tsunoshima Bridge"]},onsen:{score:3,tags:["Yuda Onsen","Tawaruyama Onsen"]},leisure:{score:2,tags:["Akiyoshidai Cycling","Tsunoshima Drive"]},events:{score:2,tags:["Yamaguchi Gion Festival","Hagi Summer Fireworks"]}},tokushima:{ja:"徳島県",url:"/prefectures/tokushima/",gourmet:{score:3,tags:["Tokushima Ramen","Sudachi Citrus","Naruto Sea Bream"]},nature:{score:3,tags:["Iya Valley","Naruto Whirlpools","Mt. Tsurugi"]},sightseeing:{score:3,tags:["Naruto Whirlpools","Iya Vine Bridge","Otsuka Museum"]},onsen:{score:2,tags:["Iya Onsen","Yunoura Onsen"]},leisure:{score:3,tags:["Naruto Kayaking","Mt. Tsurugi Hiking"]},events:{score:5,tags:["Awa Odori Dance","Naruto Whirlpool Tour"]}},kagawa:{ja:"香川県",url:"/prefectures/kagawa/",gourmet:{score:5,tags:["Sanuki Udon","Olive Cuisine","Bone-in Chicken"]},nature:{score:3,tags:["Seto Inland Sea","Shodoshima Island","Goshikidai Plateau"]},sightseeing:{score:4,tags:["Kotohiragu Shrine","Naoshima Art Island","Shodoshima Olive Park"]},onsen:{score:2,tags:["Kotohira Onsen","Konpira Onsen"]},leisure:{score:4,tags:["Naoshima Art Island","Shimanami Kaido","Setouchi Triennale"]},events:{score:3,tags:["Setouchi Triennale","Kotohiragu Grand Festival"]}},ehime:{ja:"愛媛県",url:"/prefectures/ehime/",gourmet:{score:4,tags:["Jakoten Fish Cakes","Sea Bream Rice","Mandarin Oranges"]},nature:{score:3,tags:["Mt. Ishizuchi","Uwa Sea","Shikoku Karst Plateau"]},sightseeing:{score:4,tags:["Dogo Onsen","Matsuyama Castle","Shikoku 88 Pilgrimage"]},onsen:{score:5,tags:["Dogo Onsen","Oku-Dogo Onsen"]},leisure:{score:3,tags:["Shimanami Kaido Cycling","Mt. Ishizuchi Hiking"]},events:{score:3,tags:["Matsuyama Festival","Niihama Taiko Festival"]}},kochi:{ja:"高知県",url:"/prefectures/kochi/",gourmet:{score:4,tags:["Katsuo Tataki (Bonito)","Tosa Cuisine","Sweet Potato Tempura"]},nature:{score:4,tags:["Shimanto River","Cape Muroto","Kashiwajima Island"]},sightseeing:{score:3,tags:["Kochi Castle","Katsurahama Beach","Shikoku Pilgrimage"]},onsen:{score:2,tags:["Tosa Ryoma Onsen","Shimanto Onsen"]},leisure:{score:3,tags:["Shimanto River Canoeing","Muroto Diving"]},events:{score:4,tags:["Yosakoi Festival","Tosa Ryoma Festival"]}},fukuoka:{ja:"福岡県",url:"/prefectures/fukuoka/",gourmet:{score:5,tags:["Hakata Ramen","Motsunabe Offal Hot Pot","Mentaiko"]},nature:{score:2,tags:["Itoshima Peninsula","Mt. Seburi"]},sightseeing:{score:4,tags:["Dazaifu Tenmangu Shrine","Hakata Gion Yamakasa","Yanagawa Canal"]},onsen:{score:2,tags:["Harazuru Onsen","Futsukaichi Onsen"]},leisure:{score:4,tags:["Itoshima Beach","Hakata Riverwalk"]},events:{score:5,tags:["Hakata Gion Yamakasa","Hakata Dontaku Festival","Fukuoka Marathon"]}},saga:{ja:"佐賀県",url:"/destinations/saga/",gourmet:{score:3,tags:["Yobuko Squid","Arita Ware Cuisine","Karatsu Burger"]},nature:{score:2,tags:["Rainbow Pine Forest","Ariake Sea"]},sightseeing:{score:3,tags:["Karatsu Castle","Arita Porcelain Fair","Yoshinogari Site"]},onsen:{score:3,tags:["Ureshino Onsen","Takeo Onsen"]},leisure:{score:2,tags:["Ariake Mudflat Experience","Karatsu Surfing"]},events:{score:3,tags:["Karatsu Kunchi Festival","Saga Balloon Festival"]}},nagasaki:{ja:"長崎県",url:"/destinations/nagasaki/",gourmet:{score:4,tags:["Champon Noodles","Sara Udon","Kakuni Manju Buns"]},nature:{score:3,tags:["Goto Islands","Mt. Unzen","Saikai National Park"]},sightseeing:{score:4,tags:["Glover Garden","Peace Memorial Park","Hashima Island"]},onsen:{score:3,tags:["Unzen Onsen","Obama Onsen"]},leisure:{score:3,tags:["Goto Islands Diving","Hashima Island Tour"]},events:{score:3,tags:["Nagasaki Lantern Festival","Nagasaki Kunchi Festival"]}},kumamoto:{ja:"熊本県",url:"/destinations/kumamoto/",gourmet:{score:4,tags:["Basashi (Horse Sashimi)","Kumamoto Ramen","Karashi Renkon"]},nature:{score:5,tags:["Mt. Aso Volcano","Amakusa Islands","Kuma River"]},sightseeing:{score:4,tags:["Kumamoto Castle","Mt. Aso","Amakusa Five Bridges"]},onsen:{score:3,tags:["Kurokawa Onsen","Hitoyoshi Onsen","Yamaga Onsen"]},leisure:{score:3,tags:["Mt. Aso Hiking","Amakusa Dolphin Watching"]},events:{score:3,tags:["Hi no Kuni Festival","Kumamoto Spring Plant Fair"]}},oita:{ja:"大分県",url:"/destinations/oita/",gourmet:{score:4,tags:["Seki Aji & Saba (Premium Fish)","Tori-ten Chicken Tempura","Bungo Beef"]},nature:{score:4,tags:["Kokonoe Yume Bridge","Yabakei Gorge","Kuju Highland"]},sightseeing:{score:4,tags:["Beppu Hells","Yufuin","Kunisaki Peninsula"]},onsen:{score:5,tags:["Beppu Onsen","Yufuin Onsen","Nagayu Onsen"]},leisure:{score:3,tags:["Kuju Trekking","Beppu Onsen Hopping"]},events:{score:2,tags:["Beppu Eight Hells Festival","Oita Tanabata Festival"]}},miyazaki:{ja:"宮崎県",url:"/destinations/miyazaki/",gourmet:{score:4,tags:["Miyazaki Free-range Chicken","Hiyajiru Cold Soup","Hyuganatsu Citrus"]},nature:{score:4,tags:["Takachiho Gorge","Nichinan Coast","Kirishima Mountains"]},sightseeing:{score:3,tags:["Takachiho Gorge","Aoshima Shrine","Amano Iwato Shrine"]},onsen:{score:3,tags:["Aoshima Onsen","Nichinan Onsen","Ebino Kogen Onsen"]},leisure:{score:3,tags:["Takachiho Rowing","Surfing","Sea Kayaking"]},events:{score:2,tags:["Takachiho Yokagura Night Dance","Miyazaki Shrine Festival"]}},kagoshima:{ja:"鹿児島県",url:"/destinations/kagoshima/",gourmet:{score:4,tags:["Kagoshima Black Pork","Kuroge Wagyu Beef","Satsuma Age Fish Cake"]},nature:{score:5,tags:["Yakushima Island","Sakurajima Volcano","Amami Oshima"]},sightseeing:{score:4,tags:["Yakushima Jomon Cedar","Sakurajima","Sengan-en Garden"]},onsen:{score:3,tags:["Ibusuki Sand Bath Onsen","Kirishima Onsen","Sakurajima Onsen"]},leisure:{score:4,tags:["Yakushima Trekking","Amami Diving","Sakurajima Cycling"]},events:{score:2,tags:["Ohara Festival","Sakurajima Fire Island Festival"]}},okinawa:{ja:"沖縄県",url:"/destinations/okinawa/",gourmet:{score:4,tags:["Okinawa Soba","Goya Champuru","Steak"]},nature:{score:5,tags:["Kerama Islands","Iriomote Island","Miyakojima Beaches"]},sightseeing:{score:4,tags:["Shuri Castle","Churaumi Aquarium","Seifa Utaki"]},onsen:{score:1,tags:["Naha Spa Resort"]},leisure:{score:5,tags:["Scuba Diving","Snorkeling","Water Sports"]},events:{score:3,tags:["Naha Tug-of-War","Eisa Dance","Ryukyu Kingdom Festival"]}}};function W(a){const b=parseInt(a.slice(1,3),16),c=parseInt(a.slice(3,5),16),d=parseInt(a.slice(5,7),16);return`rgb(${Math.round(255+(b-255)*.1)},${Math.round(255+(c-255)*.1)},${Math.round(255+(d-255)*.1)})`}const h=function(){const b=document.getElementById('explore-img-data').textContent,a=JSON.parse(b);return typeof a=='object'&&a!==null?a:JSON.parse(a)}();let c='gourmet';function r(a){return a.charAt(0).toUpperCase()+a.slice(1)}const o={hokkaido:'/prefectures/hokkaido/',aomori:'/regions/tohoku/',akita:'/prefectures/akita/',iwate:'/prefectures/iwate/',miyagi:'/prefectures/miyagi/',yamagata:'/prefectures/yamagata/',fukushima:'/prefectures/fukushima/',ibaraki:'/prefectures/ibaraki/',tochigi:'/prefectures/tochigi/',gunma:'/prefectures/gunma/',saitama:'/prefectures/saitama/',chiba:'/prefectures/chiba/',tokyo:'/prefectures/tokyo/',kanagawa:'/prefectures/kanagawa/',niigata:'/prefectures/niigata/',toyama:'/prefectures/toyama/',ishikawa:'/prefectures/ishikawa/',fukui:'/regions/chubu/',yamanashi:'/prefectures/yamanashi/',nagano:'/prefectures/nagano/',gifu:'/prefectures/gifu/',shizuoka:'/prefectures/shizuoka/',aichi:'/prefectures/aichi/',mie:'/prefectures/mie/',shiga:'/prefectures/shiga/',hyogo:'/regions/kansai/',nara:'/prefectures/nara/',wakayama:'/regions/kansai/',kyoto:'/prefectures/kyoto/',osaka:'/prefectures/osaka/',tottori:'/regions/chugoku/',shimane:'/regions/chugoku/',okayama:'/prefectures/okayama/',hiroshima:'/regions/chugoku/',yamaguchi:'/regions/chugoku/',tokushima:'/prefectures/tokushima/',kagawa:'/prefectures/kagawa/',ehime:'/prefectures/ehime/',kochi:'/prefectures/kochi/',fukuoka:'/regions/kyushu/',saga:'/regions/kyushu/',nagasaki:'/regions/kyushu/',kumamoto:'/regions/kyushu/',oita:'/regions/kyushu/',miyazaki:'/regions/kyushu/',kagoshima:'/prefectures/kagoshima/',okinawa:'/prefectures/okinawa/'},S={tokyo:a('Tokyo Prefecture Guide','Guide Complet de Tokyo','도쿄 가이드')};m&&(d.tokyo.url='/fr/prefectures/tokyo/',o.tokyo='/fr/prefectures/tokyo/'),n&&(d.tokyo.url='/ko/prefectures/tokyo/',o.tokyo='/ko/prefectures/tokyo/');const g=document.getElementById('exploreTooltip'),Q=document.getElementById('ttImgWrap'),E=document.getElementById('ttImg'),P=document.getElementById('ttCatLabel'),O=document.getElementById('ttName'),N=document.getElementById('ttIcon'),D=document.getElementById('ttTags'),J=document.getElementById('topPicksTitle'),t=document.getElementById('prefPanel'),p=document.getElementById('prefOverlay'),j=document.getElementById('ppImg'),M=document.getElementById('ppName'),V=document.getElementById('ppJa'),s=document.getElementById('ppCats'),B=document.getElementById('ppBody'),F=document.getElementById('ppFooter');document.getElementById('ppClose').addEventListener('click',x),p.addEventListener('click',x);const G=document.getElementById('topPicksSub'),H=document.getElementById('picksGrid');function I(c){const d=document.querySelector('#exploreMapContainer svg');if(!d)return;let a=document.getElementById('iconLayer');a||(a=document.createElementNS(A,'g'),a.id='iconLayer',d.appendChild(a));const f=d.viewBox.baseVal,g=f.width>0?f.width/832:1;a.innerHTML='',Object.entries(T).forEach(([f,[h,i]])=>{const j=e[c]&&e[c][f]||b[c].icon,d=document.createElementNS(A,'text');d.setAttribute('x',h),d.setAttribute('y',i),d.setAttribute('font-size',Math.round(18*g)),d.setAttribute('text-anchor','middle'),d.setAttribute('dominant-baseline','middle'),d.setAttribute('pointer-events','none'),d.setAttribute('class','pref-icon'),d.textContent=j,a.appendChild(d)})}function q(a,b){if(!b){a.classList.remove('loaded');return}a.classList.remove('loaded'),a.onload=()=>a.classList.add('loaded'),a.onerror=()=>a.classList.remove('loaded'),a.src=b,a.complete&&a.naturalWidth>0&&a.classList.add('loaded')}function C(b,c){const a=h[b];return a?a[c]||a.sightseeing||a.nature||a.gourmet||a.leisure||a.events||'':''}function L(l,a){const j=d[a];if(!j)return;const f=b[c],k=j[c],i=h[a]&&h[a][c];Q.style.display=i?'block':'none',i&&q(E,i),P.textContent=f.label,g.style.setProperty('--tt-color',f.color),O.textContent=r(a),N.textContent=e[c]&&e[c][a]||f.icon,D.innerHTML=(k?k.tags:[]).map(a=>`<span class="tt-tag" style="background:${f.bg};color:${f.color};">${a}</span>`).join(''),w(l),g.classList.add('visible')}function w(c){const a=c.clientX+16,b=c.clientY+16,d=265,e=300,f=window.innerWidth,h=window.innerHeight;g.style.left=(a+d>f?a-d-32:a)+'px',g.style.top=(b+e>h?b-e-32:b)+'px'}function v(){g.classList.remove('visible')}let i=null,k=null;function K(a){const e=d[a];if(!e)return;i=a,k=c,v();const h=C(a,c);j.parentElement.style.background=b[c]?b[c].color+'33':'#cdd8e4',q(j,h),M.textContent=r(a),V.textContent=e.ja,s.innerHTML=Object.entries(b).map(([b,a])=>{const c=b===k?' active':'';return`<button class="pp-cat-btn${c}" data-pcat="${b}"
-      style="${c?`--pp-color:${a.color}`:''}">${a.icon} ${a.label}</button>`}).join(''),s.querySelectorAll('.pp-cat-btn').forEach(a=>a.addEventListener('click',()=>R(a.dataset.pcat))),u(a,k);const g=o[a],l=S[a]||f.viewGuide;F.innerHTML=g?`<a class="pp-region-link" href="${g}">${l} →</a>`:`<p style="font-size:.8rem;color:var(--gray);text-align:center;margin:0;">${f.comingSoon}</p>`,p.classList.add('open'),t.classList.add('open'),document.body.style.overflow='hidden',document.body.classList.add('panel-open')}function R(a){if(!i)return;k=a;const c=b[a],d=C(i,a);j.parentElement.style.background=c.color+'33',q(j,d),s.querySelectorAll('.pp-cat-btn').forEach(b=>{const d=b.dataset.pcat===a;b.classList.toggle('active',d),b.style.setProperty('--pp-color',d?c.color:'')}),u(i,a)}function u(a,e){const i=d[a],g=b[e],c=i[e];if(!c){B.innerHTML=`<p style="color:var(--gray);font-size:.9rem;">${f.noData}</p>`;return}const j=Array.from({length:5},(b,a)=>`<span class="pp-star${a<c.score?'':' off'}">★</span>`).join(''),k=c.tags.map(a=>`<span class="pp-hl-tag" style="--pp-bg:${g.bg};--pp-color:${g.color};">${a}</span>`).join(''),l=Object.entries(b).map(([c,d])=>{const b=h[a]&&h[a][c];return b?`<div style="position:relative;border-radius:8px;overflow:hidden;flex:1;min-width:80px;height:80px;background:#ddd;">
-      <img src="${b}" style="width:100%;height:100%;object-fit:cover;display:block;" loading="lazy">
-      <div style="position:absolute;bottom:2px;left:0;right:0;text-align:center;font-size:.65rem;font-weight:700;color:#fff;text-shadow:0 1px 3px rgba(0,0,0,.7);">${d.icon}</div>
-    </div>`:''}).filter(Boolean).join('');B.innerHTML=`
-    <div class="pp-score">${j}</div>
-    <div class="pp-sec-title">${f.highlights}</div>
-    <div class="pp-highlights">${k}</div>
-    <div class="pp-sec-title">${f.allCats}</div>
-    <div style="display:flex;gap:.4rem;flex-wrap:wrap;margin-bottom:.5rem;">${l}</div>
-  `}function x(){t.classList.remove('open'),p.classList.remove('open'),document.body.style.overflow='',document.body.classList.remove('panel-open'),i=null}function U(c){const a=b[c];J.textContent=`${a.icon} ${a.label} — ${n?'Top 5':m?'Top 5':'Top 5 Picks'}`,G.textContent=a.desc;const g=Object.entries(d).filter(([,a])=>a[c]).sort((a,b)=>b[1][c].score-a[1][c].score).slice(0,5);H.innerHTML=g.map(([b,d],g)=>{const h=d[c],i=e[c]&&e[c][b]||a.icon,j=h.tags.map(b=>`<span class="pick-tag" style="background:${a.bg};color:${a.color};">${b}</span>`).join('');return`
-      <div class="pick-card" style="border-color:${a.color}22;">
-        <div class="pick-rank">No.${g+1}</div>
-        <div class="pick-name">${r(b)}</div>
-        <div class="pick-icon">${i}</div>
-        <div class="pick-tags">${j}</div>
-        <a class="pick-link" href="${d.url}" style="color:${a.color};">${f.explore}</a>
-      </div>`}).join('')}function y(a){c=a,document.querySelectorAll('.cat-btn').forEach(a=>a.classList.remove('active'));const b=document.querySelector(`.cat-btn[data-cat="${a}"]`);b&&b.classList.add('active'),I(a),U(a),history.replaceState(null,'','#'+a)}document.getElementById('catButtons').addEventListener('click',b=>{const a=b.target.closest('.cat-btn');a&&y(a.dataset.cat)});const l=document.getElementById('exploreMapContainer');l.addEventListener('mouseover',a=>{const b=a.target.closest('.pref');b&&L(a,b.dataset.pref)}),l.addEventListener('mousemove',a=>{g.classList.contains('visible')&&w(a)}),l.addEventListener('mouseout',a=>{(!a.relatedTarget||!a.relatedTarget.closest('.pref'))&&v()}),l.addEventListener('click',b=>{const a=b.target.closest('.pref');a&&d[a.dataset.pref]&&K(a.dataset.pref)}),function(){const a=location.hash.replace('#','');y(b[a]?a:'gourmet')}()})()</script>
+<script>
+(function(){
+"use strict";
+
+const NS = "http://www.w3.org/2000/svg";
+
+ 
+const SITE_LANG = "fr";
+const LANG_FR   = SITE_LANG === 'fr';
+const LANG_KO   = SITE_LANG === 'ko';
+
+ 
+function s(en, fr, ko) { return LANG_FR ? fr : LANG_KO ? ko : en; }
+
+ 
+const STR = {
+  viewGuide:   s('View Full Region Guide',               'Voir le guide complet',                   '지역 완전 가이드 보기'),
+  comingSoon:  s('Regional guide coming soon',           'Guide de la région à venir',               '지역 가이드 준비 중'),
+  highlights:  s('Highlights',                           'Points forts',                             '하이라이트'),
+  allCats:     s('All Categories',                       'Toutes les catégories',                    '전체 카테고리'),
+  explore:     s('→ Explore',                            '→ Voir',                                   '→ 탐색'),
+  noData:      s('No data for this category.',           'Pas de données pour cette catégorie.',     '이 카테고리에 데이터가 없습니다.')
+};
+
+ 
+const CATS = {
+  gourmet:     {label: s("Gourmet",     "Gastronomie",  "미식"),   icon:"🍜", color:"#D64000", bg:"#fff5f0", desc: s("Regional cuisine, ramen, seafood and local food culture",              "Cuisine régionale, ramen, fruits de mer et culture gastronomique",  "지역 요리, 라멘, 해산물 및 로컬 음식 문화")},
+  nature:      {label: s("Nature",      "Nature",       "자연"),   icon:"🏔️", color:"#1a7a34", bg:"#f0faf2", desc: s("Mountains, coastlines, lakes, forests and seasonal scenery",           "Montagnes, côtes, lacs, forêts et paysages saisonniers",            "산, 해안, 호수, 숲 및 계절 풍경")},
+  sightseeing: {label: s("Sightseeing", "Tourisme",     "관광"),   icon:"⛩️", color:"#1a45a8", bg:"#f0f4ff", desc: s("Shrines, temples, castles, UNESCO sites and museums",                  "Sanctuaires, temples, châteaux, sites UNESCO et musées",            "신사, 사찰, 성, 유네스코 유산 및 박물관")},
+  leisure:     {label: s("Leisure",     "Loisirs",      "레저"),   icon:"🎿", color:"#b35c00", bg:"#fff8ee", desc: s("Skiing, diving, theme parks and outdoor adventures",                   "Ski, plongée, parcs d'attractions et aventures en plein air",       "스키, 다이빙, 테마파크 및 야외 어드벤처")},
+  events:      {label: s("Events",      "Événements",   "이벤트"), icon:"🎆", color:"#b5006e", bg:"#fff0f8", desc: s("Festivals, fireworks, traditional ceremonies and seasonal events",      "Festivals, feux d'artifice, cérémonies traditionnelles",            "축제, 불꽃놀이, 전통 의식 및 계절 행사")}
+};
+
+ 
+const ICONS = {
+  gourmet: {
+    hokkaido:"🦀", aomori:"🍎", iwate:"🍜", miyagi:"🐄", akita:"🍲",
+    yamagata:"🍒", fukushima:"🍑", ibaraki:"🥬", tochigi:"🥟", gunma:"🍜",
+    saitama:"🍡", chiba:"🥜", tokyo:"🍣", kanagawa:"🥟", niigata:"🍶",
+    toyama:"🦐", ishikawa:"🐟", fukui:"🦀", yamanashi:"🍇", nagano:"🍜",
+    gifu:"🐄", shizuoka:"🍵", aichi:"🍛", mie:"🦞", shiga:"🐟",
+    kyoto:"🍱", osaka:"🐙", hyogo:"🥩", nara:"🍡", wakayama:"🍊",
+    tottori:"🦀", shimane:"🍜", okayama:"🍑", hiroshima:"🦪", yamaguchi:"🐡",
+    tokushima:"🍊", kagawa:"🍜", ehime:"🍊", kochi:"🐟", fukuoka:"🍜",
+    saga:"🦑", nagasaki:"🍜", kumamoto:"🐴", oita:"🐟", miyazaki:"🍗",
+    kagoshima:"🐷", okinawa:"🌺"
+  },
+  nature: {
+    hokkaido:"🌸", aomori:"🌲", iwate:"🏔️", miyagi:"🌊", akita:"🍁",
+    yamagata:"🌿", fukushima:"🏞️", ibaraki:"🌸", tochigi:"🌊", gunma:"🏕️",
+    saitama:"🌿", chiba:"🌊", tokyo:"🏔️", kanagawa:"🏔️", niigata:"🌊",
+    toyama:"🏔️", ishikawa:"🏖️", fukui:"🌊", yamanashi:"🗻", nagano:"🏔️",
+    gifu:"🏔️", shizuoka:"🗻", aichi:"🌿", mie:"🌲", shiga:"🏞️",
+    kyoto:"🍁", osaka:"🌸", hyogo:"🌿", nara:"🌸", wakayama:"🌊",
+    tottori:"🏜️", shimane:"🏝️", okayama:"🌿", hiroshima:"🌊", yamaguchi:"🦢",
+    tokushima:"🏞️", kagawa:"🌊", ehime:"🏔️", kochi:"🌊", fukuoka:"🌊",
+    saga:"🌊", nagasaki:"🏝️", kumamoto:"🌋", oita:"🏞️", miyazaki:"🏞️",
+    kagoshima:"🌋", okinawa:"🏖️"
+  },
+  sightseeing: {
+    hokkaido:"🏙️", aomori:"🏯", iwate:"⛩️", miyagi:"🌅", akita:"🏯",
+    yamagata:"⛩️", fukushima:"🏯", ibaraki:"🌸", tochigi:"⛩️", gunma:"🏭",
+    saitama:"🏯", chiba:"⛩️", tokyo:"🗼", kanagawa:"🗿", niigata:"⛏️",
+    toyama:"🏯", ishikawa:"🏯", fukui:"⛩️", yamanashi:"🗻", nagano:"🏯",
+    gifu:"🏘️", shizuoka:"🗻", aichi:"🏯", mie:"⛩️", shiga:"🏯",
+    kyoto:"⛩️", osaka:"🏯", hyogo:"🏯", nara:"🦌", wakayama:"⛩️",
+    tottori:"🏜️", shimane:"⛩️", okayama:"🏯", hiroshima:"🕊️", yamaguchi:"🌉",
+    tokushima:"🌀", kagawa:"⛩️", ehime:"♨️", kochi:"🏯", fukuoka:"⛩️",
+    saga:"🏯", nagasaki:"🔔", kumamoto:"🏯", oita:"♨️", miyazaki:"⛩️",
+    kagoshima:"🌋", okinawa:"🏯"
+  },
+  leisure: {
+    hokkaido:"⛷️", aomori:"🚣", iwate:"⛷️", miyagi:"⛷️", akita:"⛷️",
+    yamagata:"⛷️", fukushima:"⛷️", ibaraki:"🏄", tochigi:"🎢", gunma:"🏕️",
+    saitama:"🚣", chiba:"🎡", tokyo:"🎢", kanagawa:"🏄", niigata:"⛷️",
+    toyama:"🧗", ishikawa:"🚴", fukui:"🏕️", yamanashi:"🎢", nagano:"⛷️",
+    gifu:"🥾", shizuoka:"🏄", aichi:"🎡", mie:"🏄", shiga:"🚣",
+    kyoto:"🎭", osaka:"🎢", hyogo:"🏖️", nara:"🚴", wakayama:"🏖️",
+    tottori:"🏄", shimane:"🚣", okayama:"🚣", hiroshima:"🚴", yamaguchi:"🚴",
+    tokushima:"🧗", kagawa:"🎨", ehime:"🚴", kochi:"🚣", fukuoka:"🏖️",
+    saga:"🎈", nagasaki:"🚢", kumamoto:"🐬", oita:"🧗", miyazaki:"🏄",
+    kagoshima:"🥾", okinawa:"🤿"
+  },
+  events: {
+    hokkaido:"⛄", aomori:"🏮", iwate:"🐎", miyagi:"🎋", akita:"🎑",
+    yamagata:"💃", fukushima:"🎠", ibaraki:"🌸", tochigi:"🎊", gunma:"🎵",
+    saitama:"🎠", chiba:"⛩️", tokyo:"🎆", kanagawa:"🎆", niigata:"💃",
+    toyama:"💃", ishikawa:"🎉", fukui:"🎉", yamanashi:"🎉", nagano:"🎭",
+    gifu:"🎪", shizuoka:"🎆", aichi:"🎠", mie:"⛩️", shiga:"🎠",
+    kyoto:"🎎", osaka:"🏮", hyogo:"🎉", nara:"🔥", wakayama:"🔥",
+    tottori:"💃", shimane:"⛩️", okayama:"🎉", hiroshima:"🕊️", yamaguchi:"🎉",
+    tokushima:"💃", kagawa:"🎨", ehime:"🥁", kochi:"💃", fukuoka:"🏮",
+    saga:"🎈", nagasaki:"🏮", kumamoto:"🔥", oita:"🎉", miyazaki:"🎭",
+    kagoshima:"🎉", okinawa:"🥁"
+  }
+};
+
+ 
+const CENTROIDS = {
+  hokkaido:[716.1,149.4], aomori:[562.0,288.1], iwate:[595.9,357.6],
+  miyagi:[578.8,423.0],   akita:[547.5,352.6],  yamagata:[540.4,418.2],
+  fukushima:[540.8,477.2],ibaraki:[548.0,533.7], tochigi:[528.0,515.4],
+  gunma:[494.1,523.8],    saitama:[505.8,551.0], chiba:[549.6,579.2],
+  tokyo:[523.0,568.0],    kanagawa:[508.0,584.4],niigata:[482.4,463.2],
+  toyama:[416.8,518.2],   ishikawa:[396.5,500.0],fukui:[367.8,561.4],
+  yamanashi:[477.4,574.9],nagano:[450.0,545.8],  gifu:[403.4,562.9],
+  shizuoka:[463.2,599.5], aichi:[416.4,606.0],   mie:[379.9,633.5],
+  shiga:[366.2,592.8],    kyoto:[337.6,592.9],   osaka:[336.1,624.5],
+  hyogo:[311.7,610.7],    nara:[356.4,642.7],    wakayama:[340.1,664.8],
+  tottori:[266.5,587.8],  shimane:[209.8,564.2], okayama:[267.1,615.5],
+  hiroshima:[219.7,629.5],yamaguchi:[170.8,646.2],tokushima:[284.7,665.7],
+  kagawa:[271.8,644.5],   ehime:[223.8,681.8],   kochi:[247.8,698.6],
+  fukuoka:[125.9,680.2],  saga:[105.4,698.7],    nagasaki:[66.2,694.8],
+  kumamoto:[127.6,733.5], oita:[162.9,702.0],    miyazaki:[155.9,762.6],
+  kagoshima:[126.0,790.0],okinawa:[104.5,818.0]
+};
+
+ 
+const PREFS = {
+  hokkaido:    {ja:"北海道",  url:"/destinations/hokkaido/",
+    gourmet:{score:5,tags:["Seafood Rice Bowl","Miso Ramen","Soup Curry"]},
+    nature:{score:5,tags:["Furano Lavender","Shiretoko","Sounkyo Gorge"]},
+    sightseeing:{score:4,tags:["Otaru Canal","Hakodate Night View","Sapporo Clock Tower"]},
+    onsen:{score:4,tags:["Noboribetsu Onsen","Jozankei Onsen","Toya Lake Onsen"]},
+    leisure:{score:5,tags:["Niseko Skiing","Drift Ice Tour","Shiretoko Cruise"]},
+    events:{score:3,tags:["Sapporo Snow Festival","Yosakoi Soran"]}},
+  aomori:      {ja:"青森県",  url:"/prefectures/aomori/",
+    gourmet:{score:3,tags:["Oma Tuna","Towada Bara-yaki","Senbei-jiru Soup"]},
+    nature:{score:4,tags:["Oirase Stream","Lake Towada","Shirakami Sanchi"]},
+    sightseeing:{score:4,tags:["Hirosaki Castle","Sannai-Maruyama Site","Nebuta Museum"]},
+    onsen:{score:4,tags:["Sukayu Onsen","Asamushi Onsen","Furofushi Onsen"]},
+    leisure:{score:2,tags:["Lake Towada Canoeing","Skiing"]},
+    events:{score:5,tags:["Aomori Nebuta Festival","Hirosaki Neputa","Hachinohe Festival"]}},
+  iwate:       {ja:"岩手県",  url:"/destinations/iwate/",
+    gourmet:{score:3,tags:["Wanko Soba","Morioka Cold Noodles","Maesawa Beef"]},
+    nature:{score:4,tags:["Ryusendo Cave","Mt. Hayachine","Sanriku Coast"]},
+    sightseeing:{score:4,tags:["Hiraizumi Chuson-ji","Motsu-ji Temple","Tono Village"]},
+    onsen:{score:3,tags:["Hanamaki Onsen","Tsunagi Onsen","Namari Onsen"]},
+    leisure:{score:2,tags:["Appi Highland Skiing","Sanriku Surfing"]},
+    events:{score:3,tags:["Chagu Chagu Umakko","Morioka Sansa Dance"]}},
+  miyagi:      {ja:"宮城県",  url:"/destinations/miyagi/",
+    gourmet:{score:4,tags:["Grilled Beef Tongue","Matsushima Oysters","Zunda Mochi"]},
+    nature:{score:3,tags:["Matsushima Bay","Mt. Zao","Sanriku Coast Park"]},
+    sightseeing:{score:4,tags:["Matsushima","Sendai Castle Ruins","Zuihoden Mausoleum"]},
+    onsen:{score:3,tags:["Naruko Onsen","Akiu Onsen","Sakunami Onsen"]},
+    leisure:{score:3,tags:["Zao Skiing","Matsushima Cruise"]},
+    events:{score:4,tags:["Sendai Tanabata Festival","Sendai Aoba Festival"]}},
+  akita:       {ja:"秋田県",  url:"/destinations/akita/",
+    gourmet:{score:3,tags:["Kiritanpo Hot Pot","Inaniwa Udon","Yokote Yakisoba"]},
+    nature:{score:4,tags:["Lake Tazawa","Shirakami Sanchi","Dakigaeri Gorge"]},
+    sightseeing:{score:3,tags:["Kakunodate Samurai District","Oga Namahage","Akita City"]},
+    onsen:{score:4,tags:["Nyuto Onsen Village","Tamagawa Onsen","Doroyu Onsen"]},
+    leisure:{score:2,tags:["Lake Tazawa Skiing","Kakunodate Sightseeing"]},
+    events:{score:4,tags:["Akita Kanto Festival","Namahage Ritual","Omagari Fireworks"]}},
+  yamagata:    {ja:"山形県",  url:"/destinations/yamagata/",
+    gourmet:{score:3,tags:["Imoni Taro Stew","Cold Ramen","Dashi Relish"]},
+    nature:{score:4,tags:["Mt. Zao","Dewa Sanzan Mountains","Mogami Gorge"]},
+    sightseeing:{score:4,tags:["Yamadera Temple","Dewa Sanzan Shrine","Sakata City"]},
+    onsen:{score:5,tags:["Ginzan Onsen","Zao Onsen","Tendo Onsen"]},
+    leisure:{score:3,tags:["Zao Skiing","Mogami River Rafting"]},
+    events:{score:3,tags:["Yamagata Hanagasa Festival","Shinjo Matsuri"]}},
+  fukushima:   {ja:"福島県",  url:"/destinations/fukushima/",
+    gourmet:{score:3,tags:["Kitakata Ramen","Shirakawa Ramen","Disc Gyoza"]},
+    nature:{score:4,tags:["Mt. Bandai","Lake Inawashiro","Goshikinuma Ponds"]},
+    sightseeing:{score:3,tags:["Tsuruga Castle","Ouchi-juku Post Town","Iimoriyama Hill"]},
+    onsen:{score:4,tags:["Higashiyama Onsen","Ashinomaki Onsen","Bandai Atami Onsen"]},
+    leisure:{score:3,tags:["Inawashiro Skiing","Urabandai Hiking"]},
+    events:{score:2,tags:["Fukushima Waraji Festival","Soma Nomaoi"]}},
+  ibaraki:     {ja:"茨城県",  url:"/destinations/ibaraki/",
+    gourmet:{score:3,tags:["Hitachi Beef","Monkfish Hot Pot","Mito Natto"]},
+    nature:{score:3,tags:["Mt. Tsukuba","Fukuroda Falls","Kairakuen Garden"]},
+    sightseeing:{score:3,tags:["Kairakuen Garden","Hitachi Seaside Park","Mito City"]},
+    onsen:{score:2,tags:["Oarai Onsen","Fukuroda Onsen"]},
+    leisure:{score:3,tags:["Oarai Surfing","Tsukuba Ropeway"]},
+    events:{score:3,tags:["Mito Plum Festival","Tsuchiura Fireworks"]}},
+  tochigi:     {ja:"栃木県",  url:"/destinations/tochigi/",
+    gourmet:{score:3,tags:["Utsunomiya Gyoza","Nikko Yuba Tofu","Strawberries"]},
+    nature:{score:3,tags:["Nikko National Park","Nasu Highlands","Kegon Falls"]},
+    sightseeing:{score:5,tags:["Nikko Toshogu Shrine","Lake Chuzenji","Nasu"]},
+    onsen:{score:4,tags:["Nasu Onsen","Shiobara Onsen","Nikko Yunoto Onsen"]},
+    leisure:{score:3,tags:["Nasu Highland Park","Nikko Cycling"]},
+    events:{score:2,tags:["Nikko Toshogu Autumn Festival","Utsunomiya Gyoza Festival"]}},
+  gunma:       {ja:"群馬県",  url:"/destinations/gunma/",
+    gourmet:{score:3,tags:["Joshu Beef","Mizusawa Udon","Grilled Manju Buns"]},
+    nature:{score:3,tags:["Oze Marshland","Mt. Akagi","Mt. Myogi"]},
+    sightseeing:{score:3,tags:["Tomioka Silk Mill","Takasaki Kannon","Ikaho"]},
+    onsen:{score:5,tags:["Kusatsu Onsen","Ikaho Onsen","Shima Onsen"]},
+    leisure:{score:3,tags:["Oze Trekking","Skiing"]},
+    events:{score:2,tags:["Ikaho Festival","Kusatsu Music Festival"]}},
+  saitama:     {ja:"埼玉県",  url:"/destinations/saitama/",
+    gourmet:{score:2,tags:["Fukaya Green Onion","Kawagoe Sweet Potato","Udon Noodles"]},
+    nature:{score:2,tags:["Chichibu Mountains","Nagatoro"]},
+    sightseeing:{score:3,tags:["Kawagoe (Little Edo)","Chichibu Shrine","Railway Museum"]},
+    onsen:{score:2,tags:["Chichibu Onsen","Tokorozawa Onsen"]},
+    leisure:{score:3,tags:["Nagatoro Rafting","Moomin Valley Park"]},
+    events:{score:2,tags:["Kawagoe Festival","Chichibu Night Festival"]}},
+  chiba:       {ja:"千葉県",  url:"/destinations/chiba/",
+    gourmet:{score:3,tags:["Choshi Seafood","Peanuts","Bonito"]},
+    nature:{score:3,tags:["Cape Inubosaki","Kujukuri Beach","Mt. Nokogiri"]},
+    sightseeing:{score:3,tags:["Naritasan Shinshoji Temple","Sawara Canal Town","Choshi"]},
+    onsen:{score:2,tags:["Katsuura Onsen","Kamogawa Onsen"]},
+    leisure:{score:5,tags:["Tokyo Disney Resort","Mother Farm","Surfing"]},
+    events:{score:3,tags:["Narita Gion Festival","Sawara Grand Festival"]}},
+  tokyo:       {ja:"東京都",  url:"/destinations/tokyo/",
+    gourmet:{score:5,tags:["Sushi","Ramen","Monjayaki"]},
+    nature:{score:2,tags:["Mt. Takao","Okutama"]},
+    sightseeing:{score:5,tags:["Senso-ji Temple","Tokyo Skytree","Shinjuku Gyoen"]},
+    onsen:{score:2,tags:["Odaiba Onsen","Okutama Onsen"]},
+    leisure:{score:5,tags:["Tokyo Disneyland","Roppongi","Anime Pilgrimage"]},
+    events:{score:5,tags:["Sumida Fireworks","Tokyo Marathon","Comiket"]}},
+  kanagawa:    {ja:"神奈川県", url:"/destinations/kanagawa/",
+    gourmet:{score:4,tags:["Yokohama Chinatown","Yokohama Ramen","Shonan Whitebait"]},
+    nature:{score:3,tags:["Hakone","Tanzawa Mountains","Enoshima Island"]},
+    sightseeing:{score:4,tags:["Kamakura Great Buddha","Hakone","Yokohama Minato Mirai"]},
+    onsen:{score:4,tags:["Hakone Onsen","Yugawara Onsen","Tsurumaki Onsen"]},
+    leisure:{score:4,tags:["Enoshima Surfing","Hakone Resort","Hakkeijima Sea Paradise"]},
+    events:{score:3,tags:["Kamakura Festival","Yokohama Fireworks"]}},
+  niigata:     {ja:"新潟県",  url:"/destinations/niigata/",
+    gourmet:{score:4,tags:["Niigata Rice","Niigata Ramen","Sake (Nihonshu)"]},
+    nature:{score:4,tags:["Sado Island","Mt. Naeba","Oku-Tadami"]},
+    sightseeing:{score:3,tags:["Sado Gold Mine","Uesugi Mausoleum","Niigata City"]},
+    onsen:{score:3,tags:["Tsukioka Onsen","Senami Onsen","Matsunoyama Onsen"]},
+    leisure:{score:4,tags:["Naeba Skiing","GALA Yuzawa","Sado Trekking"]},
+    events:{score:3,tags:["Niigata Festival","Sado Okesa Dance"]}},
+  toyama:      {ja:"富山県",  url:"/destinations/toyama/",
+    gourmet:{score:4,tags:["White Shrimp","Firefly Squid","Toyama Black Ramen"]},
+    nature:{score:5,tags:["Tateyama-Kurobe Alpine Route","Shomyo Falls","Kurobe Gorge"]},
+    sightseeing:{score:3,tags:["Takaoka Buddha","Zuiryuji Temple","Toyama Glass Art Museum"]},
+    onsen:{score:3,tags:["Unazuki Onsen","Toyama Onsen"]},
+    leisure:{score:3,tags:["Tateyama Hiking","Kurobe Dam Tour"]},
+    events:{score:2,tags:["Owara Kaze no Bon","Takaoka Mikurumayama"]}},
+  ishikawa:    {ja:"石川県",  url:"/destinations/ishikawa/",
+    gourmet:{score:5,tags:["Nodoguro Rockfish","Kaga Cuisine","Kanazawa Curry"]},
+    nature:{score:3,tags:["Noto Peninsula","Mt. Hakusan","Kenroku-en Garden"]},
+    sightseeing:{score:5,tags:["Kenroku-en Garden","21st Century Museum","Higashi Chaya District"]},
+    onsen:{score:4,tags:["Kaga Onsen","Wakura Onsen","Yamanaka Onsen"]},
+    leisure:{score:3,tags:["Noto Cycling","Mt. Hakusan Hiking"]},
+    events:{score:3,tags:["Kanazawa Hyakumangoku Festival","Wajima Grand Festival"]}},
+  fukui:       {ja:"福井県",  url:"/destinations/fukui/",
+    gourmet:{score:3,tags:["Echizen Crab","Echizen Soba","Oroshi Soba"]},
+    nature:{score:3,tags:["Tojinbo Cliffs","Mikata Five Lakes","Dinosaur Fossils"]},
+    sightseeing:{score:3,tags:["Eiheiji Temple","Tojinbo Cliffs","Dinosaur Museum"]},
+    onsen:{score:3,tags:["Awara Onsen","Mikuni Onsen"]},
+    leisure:{score:2,tags:["Kuzuryu Skiing","Mikata Lake Canoeing"]},
+    events:{score:2,tags:["Fukui Phoenix Festival"]}},
+  yamanashi:   {ja:"山梨県",  url:"/destinations/yamanashi/",
+    gourmet:{score:3,tags:["Hoto Noodles","Koshu Wine","Peaches"]},
+    nature:{score:5,tags:["Mt. Fuji","Fuji Five Lakes","Southern Alps"]},
+    sightseeing:{score:4,tags:["Mt. Fuji","Shosenkyo Gorge","Oshino Hakkai"]},
+    onsen:{score:3,tags:["Isawa Onsen","Shimobe Onsen","Fuji Onsen"]},
+    leisure:{score:4,tags:["Mt. Fuji Climbing","Kawaguchiko Cycling","Fuji-Q Highland"]},
+    events:{score:3,tags:["Mt. Fuji Festival","Kofu Shingen Festival"]}},
+  nagano:      {ja:"長野県",  url:"/destinations/nagano/",
+    gourmet:{score:4,tags:["Shinshu Soba","Nozawana Pickles","Oyaki Dumplings"]},
+    nature:{score:5,tags:["Northern Alps","Kamikochi Valley","Hakuba"]},
+    sightseeing:{score:4,tags:["Matsumoto Castle","Zenkoji Temple","Karuizawa"]},
+    onsen:{score:5,tags:["Jigokudani (Snow Monkeys)","Nozawa Onsen","Hakuba Onsen"]},
+    leisure:{score:5,tags:["Hakuba Skiing","Kamikochi Trekking","Karuizawa Resort"]},
+    events:{score:3,tags:["Matsumoto Castle Noh","Zenkoji Pilgrimage"]}},
+  gifu:        {ja:"岐阜県",  url:"/prefectures/gifu/",
+    gourmet:{score:3,tags:["Hida Beef","Keichan Chicken","Mitarashi Dango"]},
+    nature:{score:4,tags:["Shirakawa-go","Hida Mountains","Gujo Hachiman"]},
+    sightseeing:{score:4,tags:["Shirakawa-go Village","Gifu Castle","Hida Takayama"]},
+    onsen:{score:4,tags:["Gero Onsen","Okuhida Onsen"]},
+    leisure:{score:3,tags:["Mt. Hakusan Hiking","Gujo Hiking"]},
+    events:{score:3,tags:["Takayama Festival","Gujo Odori Dance"]}},
+  shizuoka:    {ja:"静岡県",  url:"/destinations/shizuoka/",
+    gourmet:{score:4,tags:["Shizuoka Oden","Sakura Shrimp","Grilled Eel"]},
+    nature:{score:5,tags:["Mt. Fuji","Izu Peninsula","Lake Hamana"]},
+    sightseeing:{score:4,tags:["Mt. Fuji","Kunozan Toshogu","Miho no Matsubara"]},
+    onsen:{score:4,tags:["Atami Onsen","Izu Onsen Resorts","Shuzenji Onsen"]},
+    leisure:{score:4,tags:["Fuji Safari Park","Izu Diving","Mt. Fuji Climbing"]},
+    events:{score:3,tags:["Hamamatsu Festival","Atami Fireworks"]}},
+  aichi:       {ja:"愛知県",  url:"/destinations/aichi/",
+    gourmet:{score:5,tags:["Miso Katsu","Hitsumabushi Eel","Nagoya Chicken Wings"]},
+    nature:{score:2,tags:["Shitaragahara","Oku-Mikawa Mountains"]},
+    sightseeing:{score:4,tags:["Nagoya Castle","Atsuta Shrine","Inuyama Castle"]},
+    onsen:{score:2,tags:["Gamagori Onsen","Nishiura Onsen"]},
+    leisure:{score:4,tags:["LEGOLAND Nagoya","Scmaglev Railway Museum","Inuyama Resort"]},
+    events:{score:4,tags:["Nagoya Festival","Owari Tsushima Tenno Festival"]}},
+  mie:         {ja:"三重県",  url:"/prefectures/mie/",
+    gourmet:{score:4,tags:["Ise Lobster","Matsusaka Beef","Tekone Sushi"]},
+    nature:{score:3,tags:["Kumano Kodo Trail","Onigajo Rocks","Akame Falls"]},
+    sightseeing:{score:5,tags:["Ise Grand Shrine","Kumano Kodo","Toba Aquarium"]},
+    onsen:{score:3,tags:["Yunoyama Onsen","Futami Onsen"]},
+    leisure:{score:3,tags:["Toba Sea Kayaking","Kumano Kodo Hiking"]},
+    events:{score:3,tags:["Ise Shrine Sengu","Kumano Fireworks"]}},
+  shiga:       {ja:"滋賀県",  url:"/prefectures/shiga/",
+    gourmet:{score:3,tags:["Omi Beef","Funazushi (Fermented Carp)","Clove-shaped Fu"]},
+    nature:{score:3,tags:["Lake Biwa","Hira Mountains","Mt. Ibuki"]},
+    sightseeing:{score:3,tags:["Hikone Castle","Omihachiman","Enryakuji Temple"]},
+    onsen:{score:2,tags:["Ogoto Onsen","Hira Onsen"]},
+    leisure:{score:3,tags:["Lake Biwa Canoeing","Makino Highland Skiing"]},
+    events:{score:2,tags:["Hikone Castle Festival","Nagahama Hikiyama Festival"]}},
+  kyoto:       {ja:"京都府",  url:"/destinations/kyoto/",
+    gourmet:{score:5,tags:["Kaiseki Cuisine","Kyoto Vegetables","Yudofu Tofu"]},
+    nature:{score:4,tags:["Arashiyama","Amanohashidate","Mt. Kurama"]},
+    sightseeing:{score:5,tags:["Fushimi Inari Shrine","Kinkakuji Temple","Arashiyama"]},
+    onsen:{score:3,tags:["Kibune Onsen","Kinosaki Onsen","Kyoto Ryokan"]},
+    leisure:{score:3,tags:["Kimono Rental","Cycling","Tea Ceremony"]},
+    events:{score:5,tags:["Gion Matsuri","Aoi Matsuri","Jidai Matsuri"]}},
+  osaka:       {ja:"大阪府",  url:"/destinations/osaka/",
+    gourmet:{score:5,tags:["Takoyaki","Okonomiyaki","Kushikatsu Skewers"]},
+    nature:{score:1,tags:["Osaka Castle Park","Expo Commemoration Park"]},
+    sightseeing:{score:5,tags:["Dotonbori","Osaka Castle","Tsutenkaku Tower"]},
+    onsen:{score:2,tags:["Spa World","Natural Hot Spring Spas"]},
+    leisure:{score:5,tags:["Universal Studios Japan","Osaka Aquarium","Namba District"]},
+    events:{score:4,tags:["Tenjin Festival","Kishiwada Danjiri Festival","Osaka Marathon"]}},
+  hyogo:       {ja:"兵庫県",  url:"/destinations/hyogo/",
+    gourmet:{score:4,tags:["Kobe Beef","Akashi Sea Bream","Awaji Onion"]},
+    nature:{score:3,tags:["Mt. Rokko","Awaji Island","Tajima Mountains"]},
+    sightseeing:{score:4,tags:["Himeji Castle","Kobe Kitano Ijinkan","Arima Onsen Town"]},
+    onsen:{score:4,tags:["Arima Onsen","Kinosaki Onsen","Yumura Onsen"]},
+    leisure:{score:3,tags:["Awaji Island Resort","Kobe Port Tower"]},
+    events:{score:3,tags:["Kobe Festival","Kinosaki Crab Festival"]}},
+  nara:        {ja:"奈良県",  url:"/prefectures/nara/",
+    gourmet:{score:3,tags:["Yoshino Kudzu","Miwa Somen Noodles","Kakiha Sushi"]},
+    nature:{score:4,tags:["Yoshino Mountains","Odaigahara","Mt. Wakakusa"]},
+    sightseeing:{score:5,tags:["Todaiji Temple","Kasuga Taisha Shrine","Deer in Nara Park"]},
+    onsen:{score:2,tags:["Dorogawa Onsen","Totsukawa Onsen"]},
+    leisure:{score:3,tags:["Yoshino Hiking","Nara Cycling"]},
+    events:{score:4,tags:["Wakakusayama Burning","Kasuga Lantern Festival","Nara Touka-e"]}},
+  wakayama:    {ja:"和歌山県", url:"/destinations/wakayama/",
+    gourmet:{score:3,tags:["Kumano Beef","Mehari Sushi","Nachi Black Candy"]},
+    nature:{score:4,tags:["Kumano Kodo Trail","Shirahama Beach","Nachi Falls"]},
+    sightseeing:{score:4,tags:["Koyasan","Kumano Sanzan Shrines","Nachi Falls"]},
+    onsen:{score:4,tags:["Shirahama Onsen","Ryujin Onsen","Kawayu Onsen"]},
+    leisure:{score:3,tags:["Shirahama Beach","Kumano Kodo Trekking"]},
+    events:{score:2,tags:["Nachi Fire Festival","Kumano Hayatama Grand Festival"]}},
+  tottori:     {ja:"鳥取県",  url:"/destinations/tottori/",
+    gourmet:{score:4,tags:["Matsuba Crab","Twentieth Century Pear","Beef Bone Ramen"]},
+    nature:{score:4,tags:["Tottori Sand Dunes","Mt. Daisen","Mt. Mitoku"]},
+    sightseeing:{score:4,tags:["Tottori Sand Dunes","Nageiredo Hall","Mizuki Shigeru Road"]},
+    onsen:{score:3,tags:["Kaike Onsen","Misasa Onsen"]},
+    leisure:{score:3,tags:["Sand Dune Surfing","Daisen Skiing","Yokai Spots"]},
+    events:{score:2,tags:["Tottori Shanshanmatsuri"]}},
+  shimane:     {ja:"島根県",  url:"/destinations/shimane/",
+    gourmet:{score:4,tags:["Nodoguro Rockfish","Izumo Soba","Shijimi Clam Soup"]},
+    nature:{score:4,tags:["Oku-Izumo","Oki Islands","Mt. Sanbe"]},
+    sightseeing:{score:4,tags:["Izumo Taisha Shrine","Iwami Ginzan Mine","Matsue Castle"]},
+    onsen:{score:4,tags:["Tamatsukuri Onsen","Yunotsu Onsen","Yunokawa Onsen"]},
+    leisure:{score:2,tags:["Oki Island Kayaking","Mt. Sanbe Hiking"]},
+    events:{score:3,tags:["Izumo Kamiari Month","Oki Sumo"]}},
+  okayama:     {ja:"岡山県",  url:"/prefectures/okayama/",
+    gourmet:{score:3,tags:["Mamakari Sushi","Bara Sushi","Hiruzen Yakisoba"]},
+    nature:{score:3,tags:["Hiruzen Highland","Kibi Plateau","Mt. Washuzan"]},
+    sightseeing:{score:4,tags:["Korakuen Garden","Okayama Castle","Kurashiki Bikan District"]},
+    onsen:{score:3,tags:["Yubara Onsen","Okutsu Onsen"]},
+    leisure:{score:2,tags:["Hiruzen Skiing","Setouchi Kayaking"]},
+    events:{score:2,tags:["Saidaiji Eyo Festival","Okayama Marathon"]}},
+  hiroshima:   {ja:"広島県",  url:"/prefectures/hiroshima/",
+    gourmet:{score:4,tags:["Hiroshima Okonomiyaki","Oysters","Anago Eel Rice"]},
+    nature:{score:3,tags:["Miyajima (Itsukushima)","Taishakukyo Gorge","Sandankyo Gorge"]},
+    sightseeing:{score:5,tags:["Atomic Bomb Dome","Itsukushima Shrine","Hiroshima Castle"]},
+    onsen:{score:2,tags:["Yuki Onsen","Miyahama Onsen"]},
+    leisure:{score:3,tags:["Miyajima Hiking","Shimanami Kaido Cycling"]},
+    events:{score:3,tags:["Hiroshima Peace Ceremony","Hatsukaichi Cherry Festival"]}},
+  yamaguchi:   {ja:"山口県",  url:"/destinations/yamaguchi/",
+    gourmet:{score:4,tags:["Fugu Pufferfish","Iwakuni Lotus Root","Kawara Soba"]},
+    nature:{score:3,tags:["Akiyoshidai Plateau","Akiyoshido Cave","Tsunoshima Bridge"]},
+    sightseeing:{score:3,tags:["Kintaikyo Bridge","Hagi Samurai Town","Tsunoshima Bridge"]},
+    onsen:{score:3,tags:["Yuda Onsen","Tawaruyama Onsen"]},
+    leisure:{score:2,tags:["Akiyoshidai Cycling","Tsunoshima Drive"]},
+    events:{score:2,tags:["Yamaguchi Gion Festival","Hagi Summer Fireworks"]}},
+  tokushima:   {ja:"徳島県",  url:"/prefectures/tokushima/",
+    gourmet:{score:3,tags:["Tokushima Ramen","Sudachi Citrus","Naruto Sea Bream"]},
+    nature:{score:3,tags:["Iya Valley","Naruto Whirlpools","Mt. Tsurugi"]},
+    sightseeing:{score:3,tags:["Naruto Whirlpools","Iya Vine Bridge","Otsuka Museum"]},
+    onsen:{score:2,tags:["Iya Onsen","Yunoura Onsen"]},
+    leisure:{score:3,tags:["Naruto Kayaking","Mt. Tsurugi Hiking"]},
+    events:{score:5,tags:["Awa Odori Dance","Naruto Whirlpool Tour"]}},
+  kagawa:      {ja:"香川県",  url:"/prefectures/kagawa/",
+    gourmet:{score:5,tags:["Sanuki Udon","Olive Cuisine","Bone-in Chicken"]},
+    nature:{score:3,tags:["Seto Inland Sea","Shodoshima Island","Goshikidai Plateau"]},
+    sightseeing:{score:4,tags:["Kotohiragu Shrine","Naoshima Art Island","Shodoshima Olive Park"]},
+    onsen:{score:2,tags:["Kotohira Onsen","Konpira Onsen"]},
+    leisure:{score:4,tags:["Naoshima Art Island","Shimanami Kaido","Setouchi Triennale"]},
+    events:{score:3,tags:["Setouchi Triennale","Kotohiragu Grand Festival"]}},
+  ehime:       {ja:"愛媛県",  url:"/prefectures/ehime/",
+    gourmet:{score:4,tags:["Jakoten Fish Cakes","Sea Bream Rice","Mandarin Oranges"]},
+    nature:{score:3,tags:["Mt. Ishizuchi","Uwa Sea","Shikoku Karst Plateau"]},
+    sightseeing:{score:4,tags:["Dogo Onsen","Matsuyama Castle","Shikoku 88 Pilgrimage"]},
+    onsen:{score:5,tags:["Dogo Onsen","Oku-Dogo Onsen"]},
+    leisure:{score:3,tags:["Shimanami Kaido Cycling","Mt. Ishizuchi Hiking"]},
+    events:{score:3,tags:["Matsuyama Festival","Niihama Taiko Festival"]}},
+  kochi:       {ja:"高知県",  url:"/prefectures/kochi/",
+    gourmet:{score:4,tags:["Katsuo Tataki (Bonito)","Tosa Cuisine","Sweet Potato Tempura"]},
+    nature:{score:4,tags:["Shimanto River","Cape Muroto","Kashiwajima Island"]},
+    sightseeing:{score:3,tags:["Kochi Castle","Katsurahama Beach","Shikoku Pilgrimage"]},
+    onsen:{score:2,tags:["Tosa Ryoma Onsen","Shimanto Onsen"]},
+    leisure:{score:3,tags:["Shimanto River Canoeing","Muroto Diving"]},
+    events:{score:4,tags:["Yosakoi Festival","Tosa Ryoma Festival"]}},
+  fukuoka:     {ja:"福岡県",  url:"/prefectures/fukuoka/",
+    gourmet:{score:5,tags:["Hakata Ramen","Motsunabe Offal Hot Pot","Mentaiko"]},
+    nature:{score:2,tags:["Itoshima Peninsula","Mt. Seburi"]},
+    sightseeing:{score:4,tags:["Dazaifu Tenmangu Shrine","Hakata Gion Yamakasa","Yanagawa Canal"]},
+    onsen:{score:2,tags:["Harazuru Onsen","Futsukaichi Onsen"]},
+    leisure:{score:4,tags:["Itoshima Beach","Hakata Riverwalk"]},
+    events:{score:5,tags:["Hakata Gion Yamakasa","Hakata Dontaku Festival","Fukuoka Marathon"]}},
+  saga:        {ja:"佐賀県",  url:"/destinations/saga/",
+    gourmet:{score:3,tags:["Yobuko Squid","Arita Ware Cuisine","Karatsu Burger"]},
+    nature:{score:2,tags:["Rainbow Pine Forest","Ariake Sea"]},
+    sightseeing:{score:3,tags:["Karatsu Castle","Arita Porcelain Fair","Yoshinogari Site"]},
+    onsen:{score:3,tags:["Ureshino Onsen","Takeo Onsen"]},
+    leisure:{score:2,tags:["Ariake Mudflat Experience","Karatsu Surfing"]},
+    events:{score:3,tags:["Karatsu Kunchi Festival","Saga Balloon Festival"]}},
+  nagasaki:    {ja:"長崎県",  url:"/destinations/nagasaki/",
+    gourmet:{score:4,tags:["Champon Noodles","Sara Udon","Kakuni Manju Buns"]},
+    nature:{score:3,tags:["Goto Islands","Mt. Unzen","Saikai National Park"]},
+    sightseeing:{score:4,tags:["Glover Garden","Peace Memorial Park","Hashima Island"]},
+    onsen:{score:3,tags:["Unzen Onsen","Obama Onsen"]},
+    leisure:{score:3,tags:["Goto Islands Diving","Hashima Island Tour"]},
+    events:{score:3,tags:["Nagasaki Lantern Festival","Nagasaki Kunchi Festival"]}},
+  kumamoto:    {ja:"熊本県",  url:"/destinations/kumamoto/",
+    gourmet:{score:4,tags:["Basashi (Horse Sashimi)","Kumamoto Ramen","Karashi Renkon"]},
+    nature:{score:5,tags:["Mt. Aso Volcano","Amakusa Islands","Kuma River"]},
+    sightseeing:{score:4,tags:["Kumamoto Castle","Mt. Aso","Amakusa Five Bridges"]},
+    onsen:{score:3,tags:["Kurokawa Onsen","Hitoyoshi Onsen","Yamaga Onsen"]},
+    leisure:{score:3,tags:["Mt. Aso Hiking","Amakusa Dolphin Watching"]},
+    events:{score:3,tags:["Hi no Kuni Festival","Kumamoto Spring Plant Fair"]}},
+  oita:        {ja:"大分県",  url:"/destinations/oita/",
+    gourmet:{score:4,tags:["Seki Aji & Saba (Premium Fish)","Tori-ten Chicken Tempura","Bungo Beef"]},
+    nature:{score:4,tags:["Kokonoe Yume Bridge","Yabakei Gorge","Kuju Highland"]},
+    sightseeing:{score:4,tags:["Beppu Hells","Yufuin","Kunisaki Peninsula"]},
+    onsen:{score:5,tags:["Beppu Onsen","Yufuin Onsen","Nagayu Onsen"]},
+    leisure:{score:3,tags:["Kuju Trekking","Beppu Onsen Hopping"]},
+    events:{score:2,tags:["Beppu Eight Hells Festival","Oita Tanabata Festival"]}},
+  miyazaki:    {ja:"宮崎県",  url:"/destinations/miyazaki/",
+    gourmet:{score:4,tags:["Miyazaki Free-range Chicken","Hiyajiru Cold Soup","Hyuganatsu Citrus"]},
+    nature:{score:4,tags:["Takachiho Gorge","Nichinan Coast","Kirishima Mountains"]},
+    sightseeing:{score:3,tags:["Takachiho Gorge","Aoshima Shrine","Amano Iwato Shrine"]},
+    onsen:{score:3,tags:["Aoshima Onsen","Nichinan Onsen","Ebino Kogen Onsen"]},
+    leisure:{score:3,tags:["Takachiho Rowing","Surfing","Sea Kayaking"]},
+    events:{score:2,tags:["Takachiho Yokagura Night Dance","Miyazaki Shrine Festival"]}},
+  kagoshima:   {ja:"鹿児島県", url:"/destinations/kagoshima/",
+    gourmet:{score:4,tags:["Kagoshima Black Pork","Kuroge Wagyu Beef","Satsuma Age Fish Cake"]},
+    nature:{score:5,tags:["Yakushima Island","Sakurajima Volcano","Amami Oshima"]},
+    sightseeing:{score:4,tags:["Yakushima Jomon Cedar","Sakurajima","Sengan-en Garden"]},
+    onsen:{score:3,tags:["Ibusuki Sand Bath Onsen","Kirishima Onsen","Sakurajima Onsen"]},
+    leisure:{score:4,tags:["Yakushima Trekking","Amami Diving","Sakurajima Cycling"]},
+    events:{score:2,tags:["Ohara Festival","Sakurajima Fire Island Festival"]}},
+  okinawa:     {ja:"沖縄県",  url:"/destinations/okinawa/",
+    gourmet:{score:4,tags:["Okinawa Soba","Goya Champuru","Steak"]},
+    nature:{score:5,tags:["Kerama Islands","Iriomote Island","Miyakojima Beaches"]},
+    sightseeing:{score:4,tags:["Shuri Castle","Churaumi Aquarium","Seifa Utaki"]},
+    onsen:{score:1,tags:["Naha Spa Resort"]},
+    leisure:{score:5,tags:["Scuba Diving","Snorkeling","Water Sports"]},
+    events:{score:3,tags:["Naha Tug-of-War","Eisa Dance","Ryukyu Kingdom Festival"]}}
+};
+
+ 
+function bgLight(hex) {
+  const r=parseInt(hex.slice(1,3),16), g=parseInt(hex.slice(3,5),16), b=parseInt(hex.slice(5,7),16);
+  return `rgb(${Math.round(255+(r-255)*.1)},${Math.round(255+(g-255)*.1)},${Math.round(255+(b-255)*.1)})`;
+}
+
+ 
+const IMG = (function(){
+  const s = document.getElementById('explore-img-data').textContent;
+  const v = JSON.parse(s);
+  return typeof v === 'object' && v !== null ? v : JSON.parse(v);
+}());
+
+ 
+let activeCat = 'gourmet';
+
+ 
+function prefName(pref) { return pref.charAt(0).toUpperCase() + pref.slice(1); }
+
+ 
+const REGION_URL = {
+  hokkaido:'/prefectures/hokkaido/',
+  aomori:'/regions/tohoku/',
+  akita:'/prefectures/akita/',
+  iwate:'/prefectures/iwate/',
+  miyagi:'/prefectures/miyagi/',
+  yamagata:'/prefectures/yamagata/',
+  fukushima:'/prefectures/fukushima/',
+  ibaraki:'/prefectures/ibaraki/', tochigi:'/prefectures/tochigi/', gunma:'/prefectures/gunma/',
+  saitama:'/prefectures/saitama/', chiba:'/prefectures/chiba/', tokyo:'/prefectures/tokyo/',
+  kanagawa:'/prefectures/kanagawa/',
+  niigata:'/prefectures/niigata/', toyama:'/prefectures/toyama/', ishikawa:'/prefectures/ishikawa/',
+  fukui:'/regions/chubu/', yamanashi:'/prefectures/yamanashi/', nagano:'/prefectures/nagano/',
+  gifu:'/prefectures/gifu/', shizuoka:'/prefectures/shizuoka/',
+  aichi:'/prefectures/aichi/',
+  mie:'/prefectures/mie/', shiga:'/prefectures/shiga/', hyogo:'/regions/kansai/',
+  nara:'/prefectures/nara/', wakayama:'/regions/kansai/',
+  kyoto:'/prefectures/kyoto/',
+  osaka:'/prefectures/osaka/',
+  tottori:'/regions/chugoku/', shimane:'/regions/chugoku/', okayama:'/prefectures/okayama/',
+  hiroshima:'/regions/chugoku/', yamaguchi:'/regions/chugoku/',
+  tokushima:'/prefectures/tokushima/', kagawa:'/prefectures/kagawa/',
+  ehime:'/prefectures/ehime/', kochi:'/prefectures/kochi/',
+  fukuoka:'/regions/kyushu/', saga:'/regions/kyushu/', nagasaki:'/regions/kyushu/',
+  kumamoto:'/regions/kyushu/', oita:'/regions/kyushu/', miyazaki:'/regions/kyushu/',
+  kagoshima:'/prefectures/kagoshima/',
+  okinawa:'/prefectures/okinawa/'
+};
+
+const REGION_LABEL = {
+  tokyo: s('Tokyo Prefecture Guide', 'Guide Complet de Tokyo', '도쿄 가이드')
+};
+
+ 
+if (LANG_FR) {
+  PREFS.tokyo.url   = '/fr/prefectures/tokyo/';
+  REGION_URL.tokyo  = '/fr/prefectures/tokyo/';
+}
+if (LANG_KO) {
+  PREFS.tokyo.url   = '/ko/prefectures/tokyo/';
+  REGION_URL.tokyo  = '/ko/prefectures/tokyo/';
+}
+
+ 
+const tooltip    = document.getElementById('exploreTooltip');
+const ttImgWrap  = document.getElementById('ttImgWrap');
+const ttImgEl    = document.getElementById('ttImg');
+const ttCatLabel = document.getElementById('ttCatLabel');
+const ttName     = document.getElementById('ttName');
+const ttIcon     = document.getElementById('ttIcon');
+const ttTags     = document.getElementById('ttTags');
+const topTitle   = document.getElementById('topPicksTitle');
+
+ 
+const prefPanel   = document.getElementById('prefPanel');
+const prefOverlay = document.getElementById('prefOverlay');
+const ppImg       = document.getElementById('ppImg');
+const ppName      = document.getElementById('ppName');
+const ppJa        = document.getElementById('ppJa');
+const ppCats      = document.getElementById('ppCats');
+const ppBody      = document.getElementById('ppBody');
+const ppFooter    = document.getElementById('ppFooter');
+document.getElementById('ppClose').addEventListener('click', closePanel);
+prefOverlay.addEventListener('click', closePanel);
+const topSub   = document.getElementById('topPicksSub');
+const picksGrid= document.getElementById('picksGrid');
+
+ 
+function updateIcons(cat) {
+  const svg = document.querySelector('#exploreMapContainer svg');
+  if (!svg) return;
+  let layer = document.getElementById('iconLayer');
+  if (!layer) {
+    layer = document.createElementNS(NS, 'g');
+    layer.id = 'iconLayer';
+    svg.appendChild(layer);
+  }
+  
+  const vb = svg.viewBox.baseVal;
+  const scale = vb.width > 0 ? vb.width / 832 : 1; 
+  layer.innerHTML = '';
+
+  Object.entries(CENTROIDS).forEach(([pref, [cx, cy]]) => {
+    const icon = (ICONS[cat] && ICONS[cat][pref]) || CATS[cat].icon;
+    const t = document.createElementNS(NS, 'text');
+    t.setAttribute('x', cx);
+    t.setAttribute('y', cy);
+    t.setAttribute('font-size', Math.round(18 * scale));
+    t.setAttribute('text-anchor', 'middle');
+    t.setAttribute('dominant-baseline', 'middle');
+    t.setAttribute('pointer-events', 'none');
+    t.setAttribute('class', 'pref-icon');
+    t.textContent = icon;
+    layer.appendChild(t);
+  });
+}
+
+ 
+function loadImg(imgEl, url) {
+  if (!url) { imgEl.classList.remove('loaded'); return; }
+  imgEl.classList.remove('loaded');
+  imgEl.onload  = () => imgEl.classList.add('loaded');
+  imgEl.onerror = () => imgEl.classList.remove('loaded');
+  imgEl.src = url;
+  
+  if (imgEl.complete && imgEl.naturalWidth > 0) imgEl.classList.add('loaded');
+}
+
+ 
+function panelHeroUrl(pref, cat) {
+  const d = IMG[pref];
+  if (!d) return '';
+  return d[cat] || d['sightseeing'] || d['nature'] || d['gourmet'] || d['leisure'] || d['events'] || '';
+}
+
+function showTooltip(e, pref) {
+  const d = PREFS[pref];
+  if (!d) return;
+  const c   = CATS[activeCat];
+  const cat = d[activeCat];
+
+  
+  const imgUrl = IMG[pref] && IMG[pref][activeCat];
+  ttImgWrap.style.display = imgUrl ? 'block' : 'none';
+  if (imgUrl) loadImg(ttImgEl, imgUrl);
+  ttCatLabel.textContent = c.label;
+
+  
+  tooltip.style.setProperty('--tt-color', c.color);
+  ttName.textContent = prefName(pref);
+  ttIcon.textContent = (ICONS[activeCat] && ICONS[activeCat][pref]) || c.icon;
+  ttTags.innerHTML   = (cat ? cat.tags : []).map(t =>
+    `<span class="tt-tag" style="background:${c.bg};color:${c.color};">${t}</span>`).join('');
+
+  posTooltip(e);
+  tooltip.classList.add('visible');
+}
+function posTooltip(e) {
+  const x = e.clientX + 16, y = e.clientY + 16;
+  const tw = 265, th = 300, vw = window.innerWidth, vh = window.innerHeight;
+  tooltip.style.left = (x + tw > vw ? x - tw - 32 : x) + 'px';
+  tooltip.style.top  = (y + th > vh ? y - th - 32 : y) + 'px';
+}
+function hideTooltip() { tooltip.classList.remove('visible'); }
+
+/* ── Prefecture detail panel ── */
+let panelPref = null;
+let panelCat  = null;
+
+function openPanel(pref) {
+  const d = PREFS[pref];
+  if (!d) return;
+  panelPref = pref;
+  panelCat  = activeCat;
+  hideTooltip();
+
+  // Hero image — fallback chain: activeCat → sightseeing → nature → gourmet
+  const heroUrl = panelHeroUrl(pref, activeCat);
+  ppImg.parentElement.style.background = CATS[activeCat] ? CATS[activeCat].color + '33' : '#cdd8e4';
+  loadImg(ppImg, heroUrl);
+
+  ppName.textContent = prefName(pref);
+  ppJa.textContent   = d.ja;
+
+  
+  ppCats.innerHTML = Object.entries(CATS).map(([id, c]) => {
+    const active = id === panelCat ? ' active' : '';
+    return `<button class="pp-cat-btn${active}" data-pcat="${id}"
+      style="${active ? `--pp-color:${c.color}` : ''}">${c.icon} ${c.label}</button>`;
+  }).join('');
+  ppCats.querySelectorAll('.pp-cat-btn').forEach(b =>
+    b.addEventListener('click', () => switchPanelCat(b.dataset.pcat))
+  );
+
+  renderPanelBody(pref, panelCat);
+
+  // Footer: region link
+  const rUrl = REGION_URL[pref];
+  const rLabel = REGION_LABEL[pref] || STR.viewGuide;
+  ppFooter.innerHTML = rUrl
+    ? `<a class="pp-region-link" href="${rUrl}">${rLabel} →</a>`
+    : `<p style="font-size:.8rem;color:var(--gray);text-align:center;margin:0;">${STR.comingSoon}</p>`;
+
+  prefOverlay.classList.add('open');
+  prefPanel.classList.add('open');
+  document.body.style.overflow = 'hidden';
+  document.body.classList.add('panel-open');
+}
+
+function switchPanelCat(cat) {
+  if (!panelPref) return;
+  panelCat = cat;
+  const c = CATS[cat];
+  
+  const heroUrl = panelHeroUrl(panelPref, cat);
+  ppImg.parentElement.style.background = c.color + '33';
+  loadImg(ppImg, heroUrl);
+  
+  ppCats.querySelectorAll('.pp-cat-btn').forEach(b => {
+    const active = b.dataset.pcat === cat;
+    b.classList.toggle('active', active);
+    b.style.setProperty('--pp-color', active ? c.color : '');
+  });
+  renderPanelBody(panelPref, cat);
+}
+
+function renderPanelBody(pref, cat) {
+  const d  = PREFS[pref];
+  const c  = CATS[cat];
+  const cd = d[cat];
+  if (!cd) { ppBody.innerHTML = `<p style="color:var(--gray);font-size:.9rem;">${STR.noData}</p>`; return; }
+
+  const stars = Array.from({length:5},(_,i) =>
+    `<span class="pp-star${i < cd.score ? '' : ' off'}">★</span>`).join('');
+
+  const tags = cd.tags.map(t =>
+    `<span class="pp-hl-tag" style="--pp-bg:${c.bg};--pp-color:${c.color};">${t}</span>`
+  ).join('');
+
+  // Show images for each category (small grid)
+  const imgs = Object.entries(CATS).map(([id, cc]) => {
+    const url = IMG[pref] && IMG[pref][id];
+    if (!url) return '';
+    return `<div style="position:relative;border-radius:8px;overflow:hidden;flex:1;min-width:80px;height:80px;background:#ddd;">
+      <img src="${url}" style="width:100%;height:100%;object-fit:cover;display:block;" loading="lazy">
+      <div style="position:absolute;bottom:2px;left:0;right:0;text-align:center;font-size:.65rem;font-weight:700;color:#fff;text-shadow:0 1px 3px rgba(0,0,0,.7);">${cc.icon}</div>
+    </div>`;
+  }).filter(Boolean).join('');
+
+  ppBody.innerHTML = `
+    <div class="pp-score">${stars}</div>
+    <div class="pp-sec-title">${STR.highlights}</div>
+    <div class="pp-highlights">${tags}</div>
+    <div class="pp-sec-title">${STR.allCats}</div>
+    <div style="display:flex;gap:.4rem;flex-wrap:wrap;margin-bottom:.5rem;">${imgs}</div>
+  `;
+}
+
+function closePanel() {
+  prefPanel.classList.remove('open');
+  prefOverlay.classList.remove('open');
+  document.body.style.overflow = '';
+  document.body.classList.remove('panel-open');
+  panelPref = null;
+}
+
+/* ── Top picks ── */
+function updateTopPicks(cat) {
+  const c = CATS[cat];
+  topTitle.textContent = `${c.icon} ${c.label} — ${LANG_KO ? 'Top 5' : LANG_FR ? 'Top 5' : 'Top 5 Picks'}`;
+  topSub.textContent   = c.desc;
+  const sorted = Object.entries(PREFS)
+    .filter(([,d]) => d[cat])
+    .sort((a,b) => b[1][cat].score - a[1][cat].score)
+    .slice(0,5);
+
+  picksGrid.innerHTML = sorted.map(([pref, d], i) => {
+    const cd   = d[cat];
+    const icon = (ICONS[cat] && ICONS[cat][pref]) || c.icon;
+    const tags = cd.tags.map(t =>
+      `<span class="pick-tag" style="background:${c.bg};color:${c.color};">${t}</span>`).join('');
+    return `
+      <div class="pick-card" style="border-color:${c.color}22;">
+        <div class="pick-rank">No.${i+1}</div>
+        <div class="pick-name">${prefName(pref)}</div>
+        <div class="pick-icon">${icon}</div>
+        <div class="pick-tags">${tags}</div>
+        <a class="pick-link" href="${d.url}" style="color:${c.color};">${STR.explore}</a>
+      </div>`;
+  }).join('');
+}
+
+ 
+function selectCat(cat) {
+  activeCat = cat;
+  document.querySelectorAll('.cat-btn').forEach(b => b.classList.remove('active'));
+  const btn = document.querySelector(`.cat-btn[data-cat="${cat}"]`);
+  if (btn) btn.classList.add('active');
+  updateIcons(cat);
+  updateTopPicks(cat);
+  history.replaceState(null,'','#'+cat);
+}
+
+ 
+document.getElementById('catButtons').addEventListener('click', e => {
+  const btn = e.target.closest('.cat-btn');
+  if (btn) selectCat(btn.dataset.cat);
+});
+
+const mapCont = document.getElementById('exploreMapContainer');
+mapCont.addEventListener('mouseover', e => {
+  const p = e.target.closest('.pref');
+  if (p) showTooltip(e, p.dataset.pref);
+});
+mapCont.addEventListener('mousemove', e => {
+  if (tooltip.classList.contains('visible')) posTooltip(e);
+});
+mapCont.addEventListener('mouseout', e => {
+  if (!e.relatedTarget || !e.relatedTarget.closest('.pref')) hideTooltip();
+});
+mapCont.addEventListener('click', e => {
+  const p = e.target.closest('.pref');
+  if (p && PREFS[p.dataset.pref]) openPanel(p.dataset.pref);
+});
+
+ 
+(function(){
+  const hash = location.hash.replace('#','');
+  selectCat(CATS[hash] ? hash : 'gourmet');
+})();
+
+})();
+</script>
 <div id=affWidget class=aff-widget aria-label="Book travel services">
 <div class=aff-popup id=affPopup role=complementary aria-label="Hotel search">
 <div class=aff-popup-header>
@@ -193,13 +979,120 @@ Rechercher →
 </div>
 </div>
 <style>@keyframes aff-bounce-in{0%{transform:translateY(20px);opacity:0}70%{transform:translateY(-4px);opacity:1}100%{transform:translateY(0);opacity:1}}.aff-widget{position:fixed;bottom:1.5rem;right:1.5rem;z-index:9999}.aff-widget.aff-visible{animation:aff-bounce-in .4s cubic-bezier(.34,1.4,.64,1)forwards}.aff-popup{background:#fff;border-radius:14px;box-shadow:0 8px 40px rgba(0,0,0,.18);width:292px;max-height:calc(100vh - 8rem);overflow-y:auto;overflow-x:hidden}.aff-popup-header{display:flex;align-items:center;justify-content:space-between;padding:.75rem 1rem;background:linear-gradient(135deg,#fde8ed,#f8f0f2);font-weight:700;font-size:.88rem;color:#333;border-bottom:1px solid #eedde0;border-radius:14px 14px 0 0}.aff-close{background:0 0;border:none;cursor:pointer;font-size:.95rem;color:#888;padding:0 .2rem;line-height:1}.aff-close:hover{color:#333}.aff-form{padding:.9rem 1rem .7rem;display:flex;flex-direction:column;gap:.55rem}.aff-field{display:flex;flex-direction:column;gap:.2rem}.aff-field label{font-size:.7rem;font-weight:700;color:#888;text-transform:uppercase;letter-spacing:.05em}.aff-field input[type=text],.aff-field input[type=date],.aff-field select{width:100%;padding:.44rem .62rem;border:1.5px solid #e0e0e0;border-radius:7px;font-size:.85rem;color:#222;background:#fafafa;font-family:inherit;box-sizing:border-box;transition:border-color .15s,background .15s}.aff-field input[type=text]:focus,.aff-field input[type=date]:focus,.aff-field select:focus{outline:none;border-color:#e0003a;background:#fff}.aff-field-row{display:flex;gap:.5rem}.aff-field-row .aff-field{flex:1;min-width:0}.aff-search-btn{width:100%;padding:.65rem 1rem;background:linear-gradient(135deg,#e0003a 0%,#9a0024 100%);color:#fff;border:none;border-radius:8px;font-size:.92rem;font-weight:800;cursor:pointer;font-family:inherit;letter-spacing:.02em;margin-top:.15rem;transition:filter .15s,transform .1s}.aff-search-btn:hover{filter:brightness(1.1);transform:translateY(-1px)}.aff-divider{display:flex;align-items:center;gap:.5rem;padding:.45rem 1rem .25rem}.aff-divider::before,.aff-divider::after{content:'';flex:1;height:1px;background:#eee}.aff-divider span{font-size:.68rem;color:#bbb;white-space:nowrap;text-transform:uppercase;letter-spacing:.06em;font-weight:600}.aff-link{display:flex;align-items:center;gap:.7rem;padding:.65rem 1rem;text-decoration:none;border-bottom:1px solid #f4f4f4;transition:background .12s}.aff-link:last-child{border-bottom:none}.aff-link:hover{background:#fdf5f6}.aff-link-icon{font-size:1.2rem;flex-shrink:0}.aff-link-body{display:flex;flex-direction:column}.aff-link-body strong{font-size:.83rem;color:#1a1a1a;font-weight:700}.aff-link-body small{font-size:.72rem;color:#999;margin-top:.04rem}@media(max-width:480px){.aff-widget{display:none}}@media(min-width:481px) and (max-width:600px){.aff-popup{width:260px}}body.panel-open .aff-widget{display:none!important}</style>
-<script>(function(){var a=document.getElementById('affWidget'),c=document.getElementById('affClose'),d=document.getElementById('affForm'),b;(function(){var a=new Date,c=new Date(a),f,b,d,e;c.setDate(a.getDate()+1),f=new Date(a),f.setDate(a.getDate()+4),b=function(a){return a.toISOString().slice(0,10)},d=document.getElementById('affCheckin'),e=document.getElementById('affCheckout'),d&&(d.value=b(c),d.min=b(a)),e&&(e.value=b(f),e.min=b(c))})(),b=!1,a.style.opacity='0',a.style.pointerEvents='none',window.addEventListener('scroll',function(){window.scrollY>150?(b||(b=!0,a.classList.add('aff-visible')),a.style.opacity='1',a.style.pointerEvents='auto'):(a.style.opacity='0',a.style.pointerEvents='none')},{passive:!0}),c.addEventListener('click',function(){a.style.display='none'}),d.addEventListener('submit',function(g){var e,a,b,f,c,d;g.preventDefault(),e=(document.getElementById('affDest').value||'').trim()||'Japan',a=document.getElementById('affCheckin').value,b=document.getElementById('affCheckout').value,f=document.getElementById('affGuests').value,c=(document.querySelector('.aff-search-btn')||{}).getAttribute('data-aid')||'',d='https://www.booking.com/searchresults.html?ss='+encodeURIComponent(e)+(a?'&checkin='+a:'')+(b?'&checkout='+b:'')+'&group_adults='+f+'&no_rooms=1'+(c?'&aid='+c:''),window.open(d,'_blank','noopener')}),document.getElementById('affCheckin').addEventListener('change',function(){var a=document.getElementById('affCheckout'),b;this.value&&(a.min=this.value,a.value&&a.value<=this.value&&(b=new Date(this.value),b.setDate(b.getDate()+1),a.value=b.toISOString().slice(0,10)))})})()</script>
+<script>
+(function(){
+  var widget   = document.getElementById('affWidget');
+  var closeBtn = document.getElementById('affClose');
+  var form     = document.getElementById('affForm');
+
+  
+  (function(){
+    var today = new Date();
+    var ci = new Date(today); ci.setDate(today.getDate() + 1);
+    var co = new Date(today); co.setDate(today.getDate() + 4);
+    var fmt = function(d){ return d.toISOString().slice(0,10); };
+    var cinEl  = document.getElementById('affCheckin');
+    var coutEl = document.getElementById('affCheckout');
+    if(cinEl)  { cinEl.value  = fmt(ci);  cinEl.min  = fmt(today); }
+    if(coutEl) { coutEl.value = fmt(co);  coutEl.min = fmt(ci); }
+  })();
+
+  
+  var shown = false;
+  widget.style.opacity = '0';
+  widget.style.pointerEvents = 'none';
+  window.addEventListener('scroll', function(){
+    if (window.scrollY > 150) {
+      if (!shown) { shown = true; widget.classList.add('aff-visible'); }
+      widget.style.opacity = '1';
+      widget.style.pointerEvents = 'auto';
+    } else {
+      widget.style.opacity = '0';
+      widget.style.pointerEvents = 'none';
+    }
+  }, { passive: true });
+
+  
+  closeBtn.addEventListener('click', function(){
+    widget.style.display = 'none';
+  });
+
+  
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    var dest     = (document.getElementById('affDest').value || '').trim() || 'Japan';
+    var checkin  = document.getElementById('affCheckin').value;
+    var checkout = document.getElementById('affCheckout').value;
+    var guests   = document.getElementById('affGuests').value;
+    var aid      = (document.querySelector('.aff-search-btn') || {}).getAttribute('data-aid') || '';
+    var url = 'https://www.booking.com/searchresults.html'
+            + '?ss=' + encodeURIComponent(dest)
+            + (checkin  ? '&checkin='  + checkin  : '')
+            + (checkout ? '&checkout=' + checkout : '')
+            + '&group_adults=' + guests
+            + '&no_rooms=1'
+            + (aid ? '&aid=' + aid : '');
+    window.open(url, '_blank', 'noopener');
+  });
+
+  
+  document.getElementById('affCheckin').addEventListener('change', function(){
+    var coutEl = document.getElementById('affCheckout');
+    if(this.value) {
+      coutEl.min = this.value;
+      if(coutEl.value && coutEl.value <= this.value) {
+        var d = new Date(this.value); d.setDate(d.getDate() + 1);
+        coutEl.value = d.toISOString().slice(0,10);
+      }
+    }
+  });
+})();
+</script>
 <a href=/plan-builder/ class=jst-plan-float id=jst-plan-float aria-label="View your travel plan">
 <span class=jst-plan-float-icon>🗺️</span>
 <span class=jst-plan-float-text>Plan</span>
 <span class=jst-plan-float-badge id=jst-plan-float-count></span>
 </a>
-<script>(function(){var b='jst_plan_v1';function c(){var a,c;try{return a=localStorage.getItem(b),!a?0:(c=JSON.parse(a),!Array.isArray(c))?0:c.length}catch(a){return 0}}function a(){var b=document.getElementById('jst-plan-float'),a=document.getElementById('jst-plan-float-count'),d;if(!b)return;d=c(),d>0?(b.classList.add('has-items'),a&&(a.textContent=d)):(b.classList.remove('has-items'),a&&(a.textContent=''))}a(),window.addEventListener('storage',function(c){c.key===b&&a()}),window.updateNavPlanBadge=a,window.syncPlanFloat=a})()</script>
+<script>
+ 
+(function(){
+  var STORAGE_KEY = 'jst_plan_v1';
+
+  function getCartCount() {
+    try {
+      var raw = localStorage.getItem(STORAGE_KEY);
+      if (!raw) return 0;
+      var arr = JSON.parse(raw);
+      if (!Array.isArray(arr)) return 0;
+      return arr.length;
+    } catch(e) { return 0; }
+  }
+
+  function syncPlanFloat() {
+    var btn   = document.getElementById('jst-plan-float');
+    var badge = document.getElementById('jst-plan-float-count');
+    if (!btn) return;
+    var n = getCartCount();
+    if (n > 0) {
+      btn.classList.add('has-items');
+      if (badge) badge.textContent = n;
+    } else {
+      btn.classList.remove('has-items');
+      if (badge) badge.textContent = '';
+    }
+  }
+
+  syncPlanFloat();
+
+  window.addEventListener('storage', function(e) {
+    if (e.key === STORAGE_KEY) syncPlanFloat();
+  });
+
+   
+  window.updateNavPlanBadge = syncPlanFloat;
+  window.syncPlanFloat      = syncPlanFloat;
+})();
+</script>
 <footer class=site-footer>
 <p class=affiliate-disclosure>
 Mention légale : Ce site contient des liens affiliés. Si vous réservez via nos liens, nous pouvons percevoir une petite commission sans coût supplémentaire pour vous. Merci pour votre soutien !
