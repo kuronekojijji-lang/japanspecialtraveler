@@ -863,5 +863,31 @@ Mention légale : Ce site contient des liens affiliés. Si vous réservez via no
 </p>
 <p>&copy; 2026 Japan Specialty Traveler — Guide de Voyage au Japon. Tous droits réservés.</p>
 </footer>
+<script>
+
+
+(function(){
+  var m = location.pathname.match(/^\/(fr|ko)(\/|$)/);
+  if (!m) return;                          
+  var pfx = '/' + m[1];                   
+
+  function rewrite() {
+    document.querySelectorAll('a[href]').forEach(function(a) {
+      var h = a.getAttribute('href');
+      if (!h || h.charAt(0) === '#') return;                          
+      if (/^(https?:|\/\/|mailto:|tel:)/.test(h)) return;            
+      if (h.indexOf('/fr/') === 0 || h.indexOf('/ko/') === 0) return; 
+      if (h === '/fr' || h === '/ko') return;
+      if (h.charAt(0) === '/') a.setAttribute('href', pfx + h);
+    });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', rewrite);
+  } else {
+    rewrite();
+  }
+})();
+</script>
 </body>
 </html>
