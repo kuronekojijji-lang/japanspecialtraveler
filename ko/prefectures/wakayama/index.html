@@ -85,7 +85,7 @@
   document.addEventListener('keydown', function(e){ if(e.key==='Escape') close(); });
 })();
 </script>
-<style>.pref-breadcrumb{background:#f8f9fa;border-bottom:1px solid var(--border);padding:.6rem 1.5rem;font-size:.82rem;color:var(--gray)}.pref-breadcrumb a{color:var(--red);text-decoration:none}.pref-breadcrumb a:hover{text-decoration:underline}.pref-breadcrumb span{margin:0 .4rem}.pref-hero{position:relative;min-height:440px;display:flex;align-items:flex-end;background:#1a0a2a 50%/cover no-repeat;background-image:url(https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=1600&q=80)}.pref-hero::after{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,.15) 0%,rgba(0,0,0,.7) 100%)}.pref-hero-body{position:relative;z-index:1;padding:2.5rem 1.5rem 2rem;max-width:var(--max-w);margin:0 auto;width:100%}.pref-hero-eyebrow{color:rgba(255,255,255,.75);font-size:.82rem;font-weight:600;text-transform:uppercase;letter-spacing:.1em;margin-bottom:.5rem}.pref-hero h1{color:#fff;font-size:clamp(2.2rem,5.5vw,3.4rem);font-weight:900;margin:0 0 .5rem;line-height:1.1}.pref-hero .pref-sub{color:rgba(255,255,255,.88);font-size:1.05rem;max-width:560px;margin-bottom:1rem}.pref-stats{display:flex;flex-wrap:wrap;gap:.6rem}.pref-stat{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);border-radius:20px;padding:.3rem .85rem;color:#fff;font-size:.8rem;font-weight:600}.pref-section{padding:2.5rem 1.5rem}.pref-section+.pref-section{padding-top:0}.pref-container{max-width:var(--max-w);margin:0 auto}.pref-section-title{font-size:1.55rem;font-weight:900;margin:0 0 .4rem;display:flex;align-items:center;gap:.5rem}.pref-section-lead{font-size:1rem;color:#555;line-height:1.7;max-width:680px;margin-bottom:1.5rem}.ponko-guide{display:flex;align-items:flex-end;gap:0;margin-bottom:1.6rem}.ponko-bubble{flex:1;min-width:0;background:linear-gradient(135deg,#fff9f0,#fff3e0);border:2px solid #f5a623;border-radius:18px 18px 18px 4px;padding:1.2rem 1.5rem;position:relative;box-shadow:0 4px 14px rgba(245,166,35,.13)}.ponko-bubble::after{content:'';position:absolute;right:-18px;bottom:22px;border:9px solid transparent;border-left-color:#f5a623}.ponko-bubble::before{content:'';position:absolute;right:-13px;bottom:23px;z-index:1;border:8px solid transparent;border-left-color:#fff9f0}.ponko-bubble p{font-size:.97rem;line-height:1.8;color:#333;margin:0}.ponko-figure{flex-shrink:0;width:170px;margin-left:4px;animation:ponko-float 3s ease-in-out infinite}.ponko-figure img{width:100%;height:auto;display:block;filter:drop-shadow(0 6px 10px rgba(0,0,0,.18))}@keyframes ponko-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}@media(max-width:640px){.ponko-guide{flex-direction:column;align-items:center}.ponko-bubble{border-radius:18px;order:2;width:100%}.ponko-bubble::after,.ponko-bubble::before{display:none}.ponko-figure{order:1;width:130px;margin-left:0;margin-bottom:.5rem;animation:none}}.quick-facts{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.8rem;margin-top:1.4rem}.qf-card{background:#f8f9fb;border:1px solid var(--border);border-radius:12px;padding:1rem 1.1rem;display:flex;align-items:flex-start;gap:.7rem}.qf-icon{font-size:1.4rem;flex-shrink:0}.qf-label{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--gray);margin-bottom:.15rem}.qf-value{font-size:.9rem;font-weight:600;color:var(--dark)}.access-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}.access-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 8px rgba(0,0,0,5%)}.access-card-hd{display:flex;align-items:center;gap:.5rem;margin-bottom:.8rem}.access-card-icon{font-size:1.5rem}.access-card-title{font-size:1rem;font-weight:800;color:var(--dark)}.access-card ul{margin:0;padding-left:1.1rem}.access-card li{font-size:.875rem;line-height:1.65;color:#444;margin-bottom:.3rem}.access-card li strong{color:var(--dark)}.access-tip{margin-top:1.2rem;background:#fff8e6;border:1px solid #ffe0a0;border-radius:10px;padding:.9rem 1.1rem;font-size:.85rem;line-height:1.6;color:#5a3e00}.access-tip strong{display:block;margin-bottom:.2rem;font-size:.88rem}.guide-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem}.guide-card{background:#fff;border-radius:14px;overflow:hidden;border:1px solid var(--border);box-shadow:0 2px 8px rgba(0,0,0,5%);transition:transform .15s,box-shadow .15s;position:relative;display:flex;flex-direction:column}.guide-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.guide-card-img{width:100%;height:150px;object-fit:cover;background:#e8eef4;display:block}.guide-card-img-ph{width:100%;height:150px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:2.5rem}.guide-card-body{padding:.9rem 1rem 1rem;flex:1}.guide-cat-badge{display:inline-block;font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;padding:.15rem .55rem;border-radius:8px;background:var(--red);color:#fff;margin-bottom:.4rem}.guide-card-title{font-size:.92rem;font-weight:800;color:var(--dark);line-height:1.4}.guide-coming-soon{position:absolute;top:.6rem;right:.6rem;background:rgba(0,0,0,.55);color:#fff;font-size:.65rem;font-weight:700;padding:.2rem .5rem;border-radius:6px;text-transform:uppercase;letter-spacing:.05em}.guide-card-link{text-decoration:none;color:inherit;display:flex;flex-direction:column;height:100%}.pref-toc{background:#fff;border-bottom:2px solid var(--border);position:sticky;top:0;z-index:100;overflow-x:auto}.pref-toc-inner{display:flex;gap:0;max-width:var(--max-w);margin:0 auto}.pref-toc-btn{flex:none;display:flex;align-items:center;gap:.4rem;padding:.8rem 1.2rem;border:none;background:0 0;cursor:pointer;font-family:inherit;font-size:.88rem;font-weight:600;color:var(--gray);border-bottom:3px solid transparent;transition:all .18s;white-space:nowrap}.pref-toc-btn .toc-icon{font-size:1.1rem}.pref-toc-btn:hover{color:var(--dark);background:#f8f8f8}.pref-toc-btn.active{color:var(--toc-color,var(--red));border-bottom-color:var(--toc-color,var(--red))}.spot-section{padding:2rem 1.5rem 2.5rem}.spot-section.hidden{display:none}.spot-section-inner{max-width:var(--max-w);margin:0 auto}.section-hd{display:flex;align-items:center;gap:.6rem;margin-bottom:1.4rem;padding-bottom:.7rem;border-bottom:2px solid var(--border)}.section-hd .s-icon{font-size:1.6rem}.section-hd h2{font-size:1.35rem;font-weight:800;margin:0}.section-hd .s-count{margin-left:auto;background:var(--sec-color,var(--red));color:#fff;border-radius:20px;padding:.15rem .65rem;font-size:.78rem;font-weight:700}.spot-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.25rem}.spot-card{border-radius:14px;overflow:hidden;border:1px solid var(--border);background:#fff;box-shadow:0 2px 8px rgba(0,0,0,6%);transition:transform .15s,box-shadow .15s;display:flex;flex-direction:column}.spot-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.spot-img{width:100%;height:200px;object-fit:cover;background:#e8eef4;display:block}.spot-img-ph{width:100%;height:200px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:3rem}.spot-body{padding:1rem 1.1rem 1.1rem;flex:1;display:flex;flex-direction:column}.spot-meta{display:flex;align-items:center;gap:.5rem;margin-bottom:.5rem}.spot-location{font-size:.78rem;color:var(--gray);font-weight:500}.spot-season-badge{margin-left:auto;font-size:.7rem;font-weight:700;padding:.1rem .5rem;border-radius:10px;background:#f0f4f8;color:#555;white-space:nowrap}.spot-name{font-size:1.08rem;font-weight:800;color:var(--dark);margin:0 0 .45rem;line-height:1.3}.spot-desc{font-size:.86rem;line-height:1.65;color:#555;flex:1;margin-bottom:.75rem}.spot-tags{display:flex;flex-wrap:wrap;gap:.3rem}.spot-tag{font-size:.7rem;font-weight:600;padding:.15rem .5rem;border-radius:6px;background:var(--tag-bg,#f0f4f8);color:var(--tag-color,#445)}.tips-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem}.tip-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 6px rgba(0,0,0,4%)}.tip-card-icon{font-size:1.8rem;margin-bottom:.6rem}.tip-card-title{font-size:.95rem;font-weight:800;color:var(--dark);margin-bottom:.5rem}.tip-card-body{font-size:.85rem;line-height:1.65;color:#555}.tip-card-body ul{margin:.3rem 0 0;padding-left:1.1rem}.tip-card-body li{margin-bottom:.2rem}.pref-cta{background:var(--bg-soft);padding:2.5rem 1.5rem 3rem;border-top:1px solid var(--border)}.pref-cta .pref-container{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}@media(max-width:600px){.pref-hero{min-height:320px}.quick-facts{grid-template-columns:repeat(2,1fr)}.pref-toc-btn{padding:.7rem .9rem;font-size:.82rem}}.btn-add-plan{display:inline-flex;align-items:center;gap:.35rem;margin-top:.75rem;padding:.45rem .9rem;border:1.5px solid #2d5be3;border-radius:8px;background:#fff;color:#2d5be3;font-size:.78rem;font-weight:700;font-family:inherit;cursor:pointer;transition:background .15s,color .15s,transform .1s;width:100%;justify-content:center}.btn-add-plan:hover{background:#2d5be3;color:#fff;transform:translateY(-1px)}.btn-add-plan.in-plan{background:#e8f0ff;color:#1a45a8;border-color:#1a45a8}.btn-add-plan.in-plan:hover{background:#c0003a;color:#fff;border-color:#c0003a}</style>
+<style>.pref-breadcrumb{background:#f8f9fa;border-bottom:1px solid var(--border);padding:.6rem 1.5rem;font-size:.82rem;color:var(--gray)}.pref-breadcrumb a{color:var(--red);text-decoration:none}.pref-breadcrumb a:hover{text-decoration:underline}.pref-breadcrumb span{margin:0 .4rem}.pref-hero{position:relative;min-height:440px;display:flex;align-items:flex-end;background:#1a0a2a 50%/cover no-repeat;background-image:url(https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=1600&q=80)}.pref-hero::after{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,.15) 0%,rgba(0,0,0,.7) 100%)}.pref-hero-body{position:relative;z-index:1;padding:2.5rem 1.5rem 2rem;max-width:var(--max-w);margin:0 auto;width:100%}.pref-hero-eyebrow{color:rgba(255,255,255,.75);font-size:.82rem;font-weight:600;text-transform:uppercase;letter-spacing:.1em;margin-bottom:.5rem}.pref-hero h1{color:#fff;font-size:clamp(2.2rem,5.5vw,3.4rem);font-weight:900;margin:0 0 .5rem;line-height:1.1}.pref-hero .pref-sub{color:rgba(255,255,255,.88);font-size:1.05rem;max-width:560px;margin-bottom:1rem}.pref-stats{display:flex;flex-wrap:wrap;gap:.6rem}.pref-stat{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);border-radius:20px;padding:.3rem .85rem;color:#fff;font-size:.8rem;font-weight:600}.pref-section{padding:2.5rem 1.5rem}.pref-section+.pref-section{padding-top:0}.pref-container{max-width:var(--max-w);margin:0 auto}.pref-section-title{font-size:1.55rem;font-weight:900;margin:0 0 .4rem;display:flex;align-items:center;gap:.5rem}.pref-section-lead{font-size:1rem;color:#555;line-height:1.7;max-width:680px;margin-bottom:1.5rem}.ponko-guide{display:flex;align-items:flex-end;gap:0;margin-bottom:1.6rem}.ponko-bubble{flex:1;min-width:0;background:linear-gradient(135deg,#fff9f0,#fff3e0);border:2px solid #f5a623;border-radius:18px 18px 18px 4px;padding:1.2rem 1.5rem;position:relative;box-shadow:0 4px 14px rgba(245,166,35,.13)}.ponko-bubble::after{content:'';position:absolute;right:-18px;bottom:22px;border:9px solid transparent;border-left-color:#f5a623}.ponko-bubble::before{content:'';position:absolute;right:-13px;bottom:23px;z-index:1;border:8px solid transparent;border-left-color:#fff9f0}.ponko-bubble p{font-size:.97rem;line-height:1.8;color:#333;margin:0}.ponko-figure{flex-shrink:0;width:170px;margin-left:4px;animation:ponko-float 3s ease-in-out infinite}.ponko-figure img{width:100%;height:auto;display:block;filter:drop-shadow(0 6px 10px rgba(0,0,0,.18))}@keyframes ponko-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}@media(max-width:640px){.ponko-guide{flex-direction:column;align-items:center}.ponko-bubble{border-radius:18px;order:2;width:100%}.ponko-bubble::after,.ponko-bubble::before{display:none}.ponko-figure{order:1;width:130px;margin-left:0;margin-bottom:.5rem;animation:none}}.quick-facts{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.8rem;margin-top:1.4rem}.qf-card{background:#f8f9fb;border:1px solid var(--border);border-radius:12px;padding:1rem 1.1rem;display:flex;align-items:flex-start;gap:.7rem}.qf-icon{font-size:1.4rem;flex-shrink:0}.qf-label{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--gray);margin-bottom:.15rem}.qf-value{font-size:.9rem;font-weight:600;color:var(--dark)}.access-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}.access-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 8px rgba(0,0,0,5%)}.access-card-hd{display:flex;align-items:center;gap:.5rem;margin-bottom:.8rem}.access-card-icon{font-size:1.5rem}.access-card-title{font-size:1rem;font-weight:800;color:var(--dark)}.access-card ul{margin:0;padding-left:1.1rem}.access-card li{font-size:.875rem;line-height:1.65;color:#444;margin-bottom:.3rem}.access-card li strong{color:var(--dark)}.access-tip{margin-top:1.2rem;background:#fff8e6;border:1px solid #ffe0a0;border-radius:10px;padding:.9rem 1.1rem;font-size:.85rem;line-height:1.6;color:#5a3e00}.access-tip strong{display:block;margin-bottom:.2rem;font-size:.88rem}.guide-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem}.guide-card{background:#fff;border-radius:14px;overflow:hidden;border:1px solid var(--border);box-shadow:0 2px 8px rgba(0,0,0,5%);transition:transform .15s,box-shadow .15s;position:relative;display:flex;flex-direction:column}.guide-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.guide-card-img{width:100%;height:150px;object-fit:cover;background:#e8eef4;display:block}.guide-card-img-ph{width:100%;height:150px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:2.5rem}.guide-card-body{padding:.9rem 1rem 1rem;flex:1}.guide-cat-badge{display:inline-block;font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;padding:.15rem .55rem;border-radius:8px;background:var(--red);color:#fff;margin-bottom:.4rem}.guide-card-title{font-size:.92rem;font-weight:800;color:var(--dark);line-height:1.4}.guide-coming-soon{position:absolute;top:.6rem;right:.6rem;background:rgba(0,0,0,.55);color:#fff;font-size:.65rem;font-weight:700;padding:.2rem .5rem;border-radius:6px;text-transform:uppercase;letter-spacing:.05em}.guide-card-link{text-decoration:none;color:inherit;display:flex;flex-direction:column;height:100%}.pref-toc{background:#fff;border-bottom:2px solid var(--border);position:sticky;top:0;z-index:100;overflow-x:auto}.pref-toc-inner{display:flex;gap:0;max-width:var(--max-w);margin:0 auto}.pref-toc-btn{flex:none;display:flex;align-items:center;gap:.4rem;padding:.8rem 1.2rem;border:none;background:0 0;cursor:pointer;font-family:inherit;font-size:.88rem;font-weight:600;color:var(--gray);border-bottom:3px solid transparent;transition:all .18s;white-space:nowrap}.pref-toc-btn .toc-icon{font-size:1.1rem}.pref-toc-btn:hover{color:var(--dark);background:#f8f8f8}.pref-toc-btn.active{color:var(--toc-color,var(--red));border-bottom-color:var(--toc-color,var(--red))}.spot-section{padding:2rem 1.5rem 2.5rem}.spot-section.hidden{display:none}.spot-section-inner{max-width:var(--max-w);margin:0 auto}.section-hd{display:flex;align-items:center;gap:.6rem;margin-bottom:1.4rem;padding-bottom:.7rem;border-bottom:2px solid var(--border)}.section-hd .s-icon{font-size:1.6rem}.section-hd h2{font-size:1.35rem;font-weight:800;margin:0}.section-hd .s-count{margin-left:auto;background:var(--sec-color,var(--red));color:#fff;border-radius:20px;padding:.15rem .65rem;font-size:.78rem;font-weight:700}.spot-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.25rem}.spot-card{border-radius:14px;overflow:hidden;border:1px solid var(--border);background:#fff;box-shadow:0 2px 8px rgba(0,0,0,6%);transition:transform .15s,box-shadow .15s;display:flex;flex-direction:column}.spot-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.spot-img{width:100%;height:200px;object-fit:cover;background:#e8eef4;display:block}.spot-img-ph{width:100%;height:200px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:3rem}.spot-body{padding:1rem 1.1rem 1.1rem;flex:1;display:flex;flex-direction:column}.spot-meta{display:flex;align-items:center;gap:.5rem;margin-bottom:.5rem}.spot-location{font-size:.78rem;color:var(--gray);font-weight:500}.spot-season-badge{margin-left:auto;font-size:.7rem;font-weight:700;padding:.1rem .5rem;border-radius:10px;background:#f0f4f8;color:#555;white-space:nowrap}.spot-name{font-size:1.08rem;font-weight:800;color:var(--dark);margin:0 0 .45rem;line-height:1.3}.spot-desc{font-size:.86rem;line-height:1.65;color:#555;flex:1;margin-bottom:.75rem}.spot-tags{display:flex;flex-wrap:wrap;gap:.3rem}.spot-tag{font-size:.7rem;font-weight:600;padding:.15rem .5rem;border-radius:6px;background:var(--tag-bg,#f0f4f8);color:var(--tag-color,#445)}.tips-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem}.tip-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 6px rgba(0,0,0,4%)}.tip-card-icon{font-size:1.8rem;margin-bottom:.6rem}.tip-card-title{font-size:.95rem;font-weight:800;color:var(--dark);margin-bottom:.5rem}.tip-card-body{font-size:.85rem;line-height:1.65;color:#555}.tip-card-body ul{margin:.3rem 0 0;padding-left:1.1rem}.tip-card-body li{margin-bottom:.2rem}.pref-cta{background:var(--bg-soft);padding:2.5rem 1.5rem 3rem;border-top:1px solid var(--border)}.pref-cta .pref-container{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}@media(max-width:600px){.pref-hero{min-height:320px}.quick-facts{grid-template-columns:repeat(2,1fr)}.pref-toc-btn{padding:.7rem .9rem;font-size:.82rem}}.btn-add-plan{display:inline-flex;align-items:center;gap:.35rem;margin-top:.75rem;padding:.45rem .9rem;border:1.5px solid #2d5be3;border-radius:8px;background:#fff;color:#2d5be3;font-size:.78rem;font-weight:700;font-family:inherit;cursor:pointer;transition:background .15s,color .15s,transform .1s;width:100%;justify-content:center}.btn-add-plan:hover{background:#2d5be3;color:#fff;transform:translateY(-1px)}.btn-add-plan.in-plan{background:#e8f0ff;color:#1a45a8;border-color:#1a45a8}.btn-add-plan.in-plan:hover{background:#c0003a;color:#fff;border-color:#c0003a}.see-all-wrap{text-align:center;margin-top:1.5rem;padding-top:1rem;border-top:1px dashed var(--border)}.see-all-btn{display:inline-flex;align-items:center;gap:.4rem;padding:.55rem 1.5rem;border:2px solid;border-radius:10px;font-size:.88rem;font-weight:700;text-decoration:none;transition:all .15s}.see-all-btn:hover{opacity:.8;text-decoration:none}</style>
 <nav class=pref-breadcrumb aria-label=breadcrumb>
 <a href=/>홈</a><span>›</span>
 <a href=/explore/>일본 탐색</a><span>›</span>
@@ -398,8 +398,7 @@
 <span class=toc-icon>🎆</span> 이벤트
 </button>
 </div>
-</nav>
-<section class=spot-section id=section-sightseeing data-cat=sightseeing>
+</nav><section class=spot-section id=section-sightseeing data-cat=sightseeing>
 <div class=spot-section-inner>
 <div class=section-hd style=--sec-color:#1a45a8>
 <span class=s-icon>⛩️</span>
@@ -427,80 +426,20 @@
 </button>
 </div>
 </article>
-<article class=spot-card data-spot-id=nachi-falls data-spot-name="Nachi Falls (Nachi no Otaki)" data-spot-pref=wakayama data-spot-fee=0 data-spot-dur=90 data-spot-lat=33.6743 data-spot-lng=135.9859 data-spot-area=kumano-region data-spot-rating=4.6 data-spot-reviews=2400 data-spot-img="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" data-spot-cats=nature,sightseeing>
-<img class=spot-img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" alt="Nachi Falls (Nachi no Otaki)" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<article class=spot-card data-spot-id=kumano-nachi-taisha data-spot-name="Kumano Nachi Taisha Shrine" data-spot-pref=wakayama data-spot-fee=0 data-spot-dur=90 data-spot-lat=33.6754 data-spot-lng=135.9851 data-spot-area=kumano-region data-spot-rating=4.7 data-spot-reviews=2000 data-spot-img="https://images.unsplash.com/photo-1522383507612-3efd266ce8b0?w=800&q=80" data-spot-cats=culture,sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1522383507612-3efd266ce8b0?w=800&q=80" alt="Kumano Nachi Taisha Shrine" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>⛩️</div>
 <div class=spot-body>
 <div class=spot-meta>
 <span class=spot-location>📍 Nachi, Wakayama</span>
 <span class=spot-season-badge></span>
 </div>
-<h3 class=spot-name>Nachi Falls (Nachi no Otaki)</h3>
-<p class=spot-desc>Japan's tallest single-drop waterfall at 133 meters, Nachi Falls is a breathtaking natural monument and sacred Shinto site surrounded by lush forest. The waterfall is especially stunning in spring with snowmelt and autumn when framed by crimson foliage.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Waterfall</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Sacred Site</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Photography Spot</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=wakayama-castle data-spot-name="Wakayama Castle" data-spot-pref=wakayama data-spot-fee=410 data-spot-dur=120 data-spot-lat=34.2261 data-spot-lng=135.1673 data-spot-area=central-wakayama data-spot-rating=4.2 data-spot-reviews=1800 data-spot-img="https://images.unsplash.com/photo-1522383507612-3efd266ce8b0?w=800&q=80" data-spot-cats=sightseeing,culture>
-<img class=spot-img src="https://images.unsplash.com/photo-1522383507612-3efd266ce8b0?w=800&q=80" alt="Wakayama Castle" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>⛩️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Central Wakayama, Wakayama</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Wakayama Castle</h3>
-<p class=spot-desc>This imposing hilltop castle, originally built in 1585, offers stunning panoramic views of Wakayama city and the Pacific Ocean. The reconstructed main keep contains historical artifacts, and the grounds are famous for hundreds of cherry trees that bloom spectacularly in spring.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Historic Castle</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>City Views</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Cherry Blossoms</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=kumano-hayatama-shrine data-spot-name="Kumano Hayatama Taisha Shrine" data-spot-pref=wakayama data-spot-fee=0 data-spot-dur=75 data-spot-lat=33.6804 data-spot-lng=135.9763 data-spot-area=kumano-region data-spot-rating=4.5 data-spot-reviews=1600 data-spot-img="https://images.unsplash.com/photo-1522383507612-3efd266ce8b0?w=800&q=80" data-spot-cats=culture,sightseeing>
-<img class=spot-img src="https://images.unsplash.com/photo-1522383507612-3efd266ce8b0?w=800&q=80" alt="Kumano Hayatama Taisha Shrine" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>⛩️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Shingu, Wakayama</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Kumano Hayatama Taisha Shrine</h3>
-<p class=spot-desc>One of the three grand Kumano shrines, this ancient Shinto sanctuary sits dramatically on a forested mountain overlooking the Kumano River. The shrine's vermillion torii gates and peaceful atmosphere make it a sacred highlight of the Kumano pilgrimage route.</p>
+<h3 class=spot-name>Kumano Nachi Taisha Shrine</h3>
+<p class=spot-desc>This magnificent shrine sits perched above Nachi Falls, offering a stunning perspective of the waterfall and surrounding forest. The combination of sacred architecture and natural beauty creates one of Japan's most iconic pilgrimage destinations.</p>
 <div class=spot-tags>
 <span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Sacred Shrine</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Pilgrimage Site</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Historic Temple</span>
 <span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Mountain Sanctuary</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=kishu-ume-plum-village data-spot-name="Kishu Ume Plum Village" data-spot-pref=wakayama data-spot-fee=0 data-spot-dur=100 data-spot-lat=33.9745 data-spot-lng=135.3456 data-spot-area=minabe data-spot-rating=4.4 data-spot-reviews=1100 data-spot-img="https://images.unsplash.com/photo-1599599810694-cd5b16d4a67d?w=800&q=80" data-spot-cats=food,sightseeing>
-<img class=spot-img src="https://images.unsplash.com/photo-1599599810694-cd5b16d4a67d?w=800&q=80" alt="Kishu Ume Plum Village" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>⛩️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Minabe, Wakayama</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Kishu Ume Plum Village</h3>
-<p class=spot-desc>The heart of Japan's ume (plum) production, this picturesque village showcases traditional plum farming and production facilities. Visit during spring plum blossoms (January-February) or summer harvest, sample umeboshi (pickled plums), ume juice, and plum-flavored snacks.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Plum Products</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Traditional Farming</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Tasting Tours</span>
 </div>
 <button class=btn-add-plan onclick=prefTogglePlan(this)>
 🗺️ Add to Plan
@@ -527,40 +466,20 @@
 </button>
 </div>
 </article>
-<article class=spot-card data-spot-id=kumano-nachi-taisha data-spot-name="Kumano Nachi Taisha Shrine" data-spot-pref=wakayama data-spot-fee=0 data-spot-dur=90 data-spot-lat=33.6754 data-spot-lng=135.9851 data-spot-area=kumano-region data-spot-rating=4.7 data-spot-reviews=2000 data-spot-img="https://images.unsplash.com/photo-1522383507612-3efd266ce8b0?w=800&q=80" data-spot-cats=culture,sightseeing>
-<img class=spot-img src="https://images.unsplash.com/photo-1522383507612-3efd266ce8b0?w=800&q=80" alt="Kumano Nachi Taisha Shrine" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<article class=spot-card data-spot-id=nachi-falls data-spot-name="Nachi Falls (Nachi no Otaki)" data-spot-pref=wakayama data-spot-fee=0 data-spot-dur=90 data-spot-lat=33.6743 data-spot-lng=135.9859 data-spot-area=kumano-region data-spot-rating=4.6 data-spot-reviews=2400 data-spot-img="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" data-spot-cats=nature,sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" alt="Nachi Falls (Nachi no Otaki)" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>⛩️</div>
 <div class=spot-body>
 <div class=spot-meta>
 <span class=spot-location>📍 Nachi, Wakayama</span>
 <span class=spot-season-badge></span>
 </div>
-<h3 class=spot-name>Kumano Nachi Taisha Shrine</h3>
-<p class=spot-desc>This magnificent shrine sits perched above Nachi Falls, offering a stunning perspective of the waterfall and surrounding forest. The combination of sacred architecture and natural beauty creates one of Japan's most iconic pilgrimage destinations.</p>
+<h3 class=spot-name>Nachi Falls (Nachi no Otaki)</h3>
+<p class=spot-desc>Japan's tallest single-drop waterfall at 133 meters, Nachi Falls is a breathtaking natural monument and sacred Shinto site surrounded by lush forest. The waterfall is especially stunning in spring with snowmelt and autumn when framed by crimson foliage.</p>
 <div class=spot-tags>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Sacred Shrine</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Historic Temple</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Mountain Sanctuary</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=kongobu-ji-temple data-spot-name="Kongobu-ji Main Temple (Koyasan)" data-spot-pref=wakayama data-spot-fee=600 data-spot-dur=75 data-spot-lat=34.2158 data-spot-lng=135.5932 data-spot-area=koyasan data-spot-rating=4.5 data-spot-reviews=1300 data-spot-img="https://images.unsplash.com/photo-1522383507612-3efd266ce8b0?w=800&q=80" data-spot-cats=culture,sightseeing>
-<img class=spot-img src="https://images.unsplash.com/photo-1522383507612-3efd266ce8b0?w=800&q=80" alt="Kongobu-ji Main Temple (Koyasan)" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>⛩️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Koyasan, Wakayama</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Kongobu-ji Main Temple (Koyasan)</h3>
-<p class=spot-desc>The administrative headquarters of Koyasan's Buddhist community, this impressive temple features one of Japan's largest rock gardens (Banryutei) and stunning architectural details. The ornate halls showcase Buddhist art and sacred relics spanning centuries.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Buddhist Temple</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Sand Garden</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Architecture</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Waterfall</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Sacred Site</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Photography Spot</span>
 </div>
 <button class=btn-add-plan onclick=prefTogglePlan(this)>
 🗺️ Add to Plan
@@ -581,146 +500,6 @@
 <span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Historic Cemetery</span>
 <span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Spiritual Site</span>
 <span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Atmospheric Walk</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=katsuura-tuna-market data-spot-name="Katsuura Tuna Market" data-spot-pref=wakayama data-spot-fee=0 data-spot-dur=90 data-spot-lat=33.5628 data-spot-lng=135.7256 data-spot-area=katsuura data-spot-rating=4.4 data-spot-reviews=1100 data-spot-img="https://images.unsplash.com/photo-1579521620464-78f50142d842?w=800&q=80" data-spot-cats=food,sightseeing>
-<img class=spot-img src="https://images.unsplash.com/photo-1579521620464-78f50142d842?w=800&q=80" alt="Katsuura Tuna Market" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>⛩️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Katsuura, Wakayama</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Katsuura Tuna Market</h3>
-<p class=spot-desc>This bustling early-morning fish market offers an authentic glimpse into Japan's fishing heritage, with fresh tuna and other Kuroshio Current catches displayed at sunrise. Eat ultra-fresh sushi at stalls overlooking the harbor while observing traditional fish auction procedures.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Seafood Market</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Fresh Fish</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Local Culture</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=tanabe-castle-ruins data-spot-name="Tanabe Castle Ruins Park" data-spot-pref=wakayama data-spot-fee=0 data-spot-dur=75 data-spot-lat=33.7456 data-spot-lng=135.3834 data-spot-area=tanabe data-spot-rating=4.1 data-spot-reviews=680 data-spot-img="https://images.unsplash.com/photo-1522383507612-3efd266ce8b0?w=800&q=80" data-spot-cats=sightseeing,culture>
-<img class=spot-img src="https://images.unsplash.com/photo-1522383507612-3efd266ce8b0?w=800&q=80" alt="Tanabe Castle Ruins Park" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>⛩️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Tanabe, Wakayama</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Tanabe Castle Ruins Park</h3>
-<p class=spot-desc>The atmospheric ruins of this 16th-century castle sit within a scenic park that's popular for cherry blossoms and azaleas. Though only foundations remain, the site offers peaceful woodland walks and views over Tanabe's historic town.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Historic Castle</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Park</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Cherry Blossoms</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=shirahama-beach data-spot-name="Shirahama Beach and Hot Spring" data-spot-pref=wakayama data-spot-fee=0 data-spot-dur=180 data-spot-lat=33.6845 data-spot-lng=135.3567 data-spot-area=shirahama data-spot-rating=4.3 data-spot-reviews=1700 data-spot-img="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80" data-spot-cats=leisure,sightseeing>
-<img class=spot-img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80" alt="Shirahama Beach and Hot Spring" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>⛩️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Shirahama, Wakayama</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Shirahama Beach and Hot Spring</h3>
-<p class=spot-desc>This famous white-sand beach resort combines ocean bathing with beachside hot springs, where you can soak in natural mineral waters with your feet in the sand. The dramatic rocky formations and seaside cliffs create stunning views, especially at sunset.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Sandy Beach</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Onsen Resort</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Coastal Views</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=hashigui-rocks data-spot-name="Hashigui Rocks (Hanging Pillar Rock Formation)" data-spot-pref=wakayama data-spot-fee=0 data-spot-dur=60 data-spot-lat=33.5289 data-spot-lng=135.6423 data-spot-area=kushimoto data-spot-rating=4.5 data-spot-reviews=1200 data-spot-img="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80" data-spot-cats=nature,sightseeing>
-<img class=spot-img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80" alt="Hashigui Rocks (Hanging Pillar Rock Formation)" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>⛩️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Kushimoto, Wakayama</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Hashigui Rocks (Hanging Pillar Rock Formation)</h3>
-<p class=spot-desc>These dramatic rock pillars rise dramatically from the ocean along Wakayama's southern coast, creating one of Japan's most striking geological formations. Visit at sunset when golden light illuminates the 40-meter-high stones for spectacular photography.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Geological Formation</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Scenic Coastline</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Photography</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=shoro-shrine-arashiyama data-spot-name="Yoro Shrine (Hydrangea Sanctuary)" data-spot-pref=wakayama data-spot-fee=0 data-spot-dur=90 data-spot-lat=33.7634 data-spot-lng=135.4256 data-spot-area=tanabe data-spot-rating=4.4 data-spot-reviews=1050 data-spot-img="https://images.unsplash.com/photo-1522383507612-3efd266ce8b0?w=800&q=80" data-spot-cats=culture,sightseeing>
-<img class=spot-img src="https://images.unsplash.com/photo-1522383507612-3efd266ce8b0?w=800&q=80" alt="Yoro Shrine (Hydrangea Sanctuary)" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>⛩️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Tanabe, Wakayama</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Yoro Shrine (Hydrangea Sanctuary)</h3>
-<p class=spot-desc>This atmospheric shrine is famous for its stunning hydrangea garden that blooms in June with over 15,000 flowers in various colors. The peaceful forest setting and traditional torii gates create a magical environment during peak bloom season.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Flower Sanctuary</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Historic Shrine</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Seasonal Beauty</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=wakayama-marine-museum data-spot-name="Wakayama Marine Museum" data-spot-pref=wakayama data-spot-fee=1200 data-spot-dur=120 data-spot-lat=34.2134 data-spot-lng=135.1456 data-spot-area=central-wakayama data-spot-rating=4.2 data-spot-reviews=780 data-spot-img="https://images.unsplash.com/photo-1511884642898-4c92249e20b6?w=800&q=80" data-spot-cats=sightseeing,culture>
-<img class=spot-img src="https://images.unsplash.com/photo-1511884642898-4c92249e20b6?w=800&q=80" alt="Wakayama Marine Museum" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>⛩️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Central Wakayama, Wakayama</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Wakayama Marine Museum</h3>
-<p class=spot-desc>This engaging museum showcases marine biodiversity from the Kuroshio Current, with interactive tanks featuring dolphins and sea turtles. Learn about Wakayama's fishing heritage and ocean conservation efforts through creative displays and live animal demonstrations.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Marine Life</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Educational</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Interactive Exhibits</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=taiji-whale-museum data-spot-name="Taiji Whale Museum" data-spot-pref=wakayama data-spot-fee=1000 data-spot-dur=90 data-spot-lat=33.6245 data-spot-lng=135.6512 data-spot-area=taiji data-spot-rating=4.1 data-spot-reviews=420 data-spot-img="https://images.unsplash.com/photo-1511884642898-4c92249e20b6?w=800&q=80" data-spot-cats=culture,sightseeing>
-<img class=spot-img src="https://images.unsplash.com/photo-1511884642898-4c92249e20b6?w=800&q=80" alt="Taiji Whale Museum" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>⛩️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Taiji, Wakayama</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Taiji Whale Museum</h3>
-<p class=spot-desc>This museum presents the complex history of whaling in Taiji through exhibits spanning 400 years of maritime tradition. Despite controversial subject matter, the museum offers insight into local culture and Japan's relationship with the sea.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Marine History</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Whaling Heritage</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Educational</span>
 </div>
 <button class=btn-add-plan onclick=prefTogglePlan(this)>
 🗺️ Add to Plan
@@ -748,9 +527,13 @@
 </div>
 </article>
 </div>
+<div class=see-all-wrap>
+<a class=see-all-btn style=color:#1a45a8 href=/prefectures/wakayama/spots/#sightseeing>
+See all 17 관광명소 spots →
+</a>
 </div>
-</section>
-<section class=spot-section id=section-gourmet data-cat=gourmet>
+</div>
+</section><section class=spot-section id=section-gourmet data-cat=gourmet>
 <div class=spot-section-inner>
 <div class=section-hd style=--sec-color:#D64000>
 <span class=s-icon>🍜</span>
@@ -760,8 +543,7 @@
 <div class=spot-grid>
 </div>
 </div>
-</section>
-<section class=spot-section id=section-nature data-cat=nature>
+</section><section class=spot-section id=section-nature data-cat=nature>
 <div class=spot-section-inner>
 <div class=section-hd style=--sec-color:#1a7a34>
 <span class=s-icon>🏔️</span>
@@ -809,46 +591,6 @@
 </button>
 </div>
 </article>
-<article class=spot-card data-spot-id=taiji-whale-watching data-spot-name="Taiji Whale Watching" data-spot-pref=wakayama data-spot-fee=3000 data-spot-dur=180 data-spot-lat=33.6211 data-spot-lng=135.6533 data-spot-area=taiji data-spot-rating=4.4 data-spot-reviews=1200 data-spot-img="https://images.unsplash.com/photo-1511884642898-4c92249e20b6?w=800&q=80" data-spot-cats=nature,leisure>
-<img class=spot-img src="https://images.unsplash.com/photo-1511884642898-4c92249e20b6?w=800&q=80" alt="Taiji Whale Watching" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>🏔️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Taiji, Wakayama</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Taiji Whale Watching</h3>
-<p class=spot-desc>Experience guided boat tours searching for dolphins and whales in the rich waters around Taiji, a traditional whaling town. Tours operate year-round with different species visible seasonally—pilot whales, sperm whales, and bottlenose dolphins are commonly sighted.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Marine Life</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Seasonal Tour</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Ocean Adventure</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=mikan-orange-orchards data-spot-name="Wakayama Mikan Orange Orchards" data-spot-pref=wakayama data-spot-fee=800 data-spot-dur=120 data-spot-lat=34.0567 data-spot-lng=135.2345 data-spot-area=arida data-spot-rating=4.3 data-spot-reviews=950 data-spot-img="https://images.unsplash.com/photo-1599599810694-cd5b16d4a67d?w=800&q=80" data-spot-cats=nature,food>
-<img class=spot-img src="https://images.unsplash.com/photo-1599599810694-cd5b16d4a67d?w=800&q=80" alt="Wakayama Mikan Orange Orchards" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>🏔️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Arida, Wakayama</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Wakayama Mikan Orange Orchards</h3>
-<p class=spot-desc>Wakayama produces some of Japan's sweetest citrus fruits. Visit family-run mikan orchards where you can pick your own fruit in autumn, taste fresh juice, and learn about cultivation from friendly farmers who represent generations of citrus expertise.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Citrus Farm</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Harvest Experience</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Local Produce</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
 <article class=spot-card data-spot-id=hidaka-river-rafting data-spot-name="Hidaka River Rafting Adventure" data-spot-pref=wakayama data-spot-fee=5000 data-spot-dur=150 data-spot-lat=33.8934 data-spot-lng=135.2567 data-spot-area=hidaka data-spot-rating=4.5 data-spot-reviews=750 data-spot-img="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" data-spot-cats=leisure,nature>
 <img class=spot-img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" alt="Hidaka River Rafting Adventure" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>🏔️</div>
@@ -889,60 +631,9 @@
 </button>
 </div>
 </article>
-<article class=spot-card data-spot-id=kii-peninsula-cave-exploring data-spot-name="Kii Peninsula Cave System Tours" data-spot-pref=wakayama data-spot-fee=800 data-spot-dur=100 data-spot-lat=33.7234 data-spot-lng=135.6789 data-spot-area=kii-peninsula data-spot-rating=4.3 data-spot-reviews=550 data-spot-img="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" data-spot-cats=nature,leisure>
-<img class=spot-img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" alt="Kii Peninsula Cave System Tours" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>🏔️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Kii Peninsula, Wakayama</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Kii Peninsula Cave System Tours</h3>
-<p class=spot-desc>Explore mysterious underground cave systems carved by water through limestone over millions of years. Guided tours reveal stalactites, underground rivers, and hidden chambers while explaining the geological processes that created these natural wonders.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Underground Adventure</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Geological Marvel</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Guided Tour</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=namikaze-trail-hidden-shrine data-spot-name="Namikaze Trail Hidden Shrine (Tenjin Shrine)" data-spot-pref=wakayama data-spot-fee=0 data-spot-dur=75 data-spot-lat=33.8012 data-spot-lng=135.2834 data-spot-area=arida data-spot-rating=4.3 data-spot-reviews=340 data-spot-img="https://images.unsplash.com/photo-1522383507612-3efd266ce8b0?w=800&q=80" data-spot-cats=culture,nature>
-<img class=spot-img src="https://images.unsplash.com/photo-1522383507612-3efd266ce8b0?w=800&q=80" alt="Namikaze Trail Hidden Shrine (Tenjin Shrine)" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>🏔️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Arida, Wakayama</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Namikaze Trail Hidden Shrine (Tenjin Shrine)</h3>
-<p class=spot-desc>This lesser-known shrine nestled in a quiet forest along the Namikaze coastal trail is a peaceful retreat popular with local pilgrims but rarely visited by tourists. The atmospheric setting among ancient trees and ocean views makes it a perfect hidden discovery.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Hidden Gem</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Forest Hiking</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Local Worship</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-</div>
-</div>
-</section>
-<section class=spot-section id=section-leisure data-cat=leisure>
-<div class=spot-section-inner>
-<div class=section-hd style=--sec-color:#b35c00>
-<span class=s-icon>🎿</span>
-<h2>레저</h2>
-<span class=s-count>6 곳</span>
-</div>
-<div class=spot-grid>
 <article class=spot-card data-spot-id=taiji-whale-watching data-spot-name="Taiji Whale Watching" data-spot-pref=wakayama data-spot-fee=3000 data-spot-dur=180 data-spot-lat=33.6211 data-spot-lng=135.6533 data-spot-area=taiji data-spot-rating=4.4 data-spot-reviews=1200 data-spot-img="https://images.unsplash.com/photo-1511884642898-4c92249e20b6?w=800&q=80" data-spot-cats=nature,leisure>
 <img class=spot-img src="https://images.unsplash.com/photo-1511884642898-4c92249e20b6?w=800&q=80" alt="Taiji Whale Watching" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>🎿</div>
+<div class=spot-img-ph style=display:none>🏔️</div>
 <div class=spot-body>
 <div class=spot-meta>
 <span class=spot-location>📍 Taiji, Wakayama</span>
@@ -951,9 +642,64 @@
 <h3 class=spot-name>Taiji Whale Watching</h3>
 <p class=spot-desc>Experience guided boat tours searching for dolphins and whales in the rich waters around Taiji, a traditional whaling town. Tours operate year-round with different species visible seasonally—pilot whales, sperm whales, and bottlenose dolphins are commonly sighted.</p>
 <div class=spot-tags>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Marine Life</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Seasonal Tour</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Ocean Adventure</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Marine Life</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Seasonal Tour</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Ocean Adventure</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class=spot-card data-spot-id=mikan-orange-orchards data-spot-name="Wakayama Mikan Orange Orchards" data-spot-pref=wakayama data-spot-fee=800 data-spot-dur=120 data-spot-lat=34.0567 data-spot-lng=135.2345 data-spot-area=arida data-spot-rating=4.3 data-spot-reviews=950 data-spot-img="https://images.unsplash.com/photo-1599599810694-cd5b16d4a67d?w=800&q=80" data-spot-cats=nature,food>
+<img class=spot-img src="https://images.unsplash.com/photo-1599599810694-cd5b16d4a67d?w=800&q=80" alt="Wakayama Mikan Orange Orchards" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🏔️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Arida, Wakayama</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Wakayama Mikan Orange Orchards</h3>
+<p class=spot-desc>Wakayama produces some of Japan's sweetest citrus fruits. Visit family-run mikan orchards where you can pick your own fruit in autumn, taste fresh juice, and learn about cultivation from friendly farmers who represent generations of citrus expertise.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Citrus Farm</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Harvest Experience</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Local Produce</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+</div>
+<div class=see-all-wrap>
+<a class=see-all-btn style=color:#1a7a34 href=/prefectures/wakayama/spots/#nature>
+See all 8 자연 spots →
+</a>
+</div>
+</div>
+</section><section class=spot-section id=section-leisure data-cat=leisure>
+<div class=spot-section-inner>
+<div class=section-hd style=--sec-color:#b35c00>
+<span class=s-icon>🎿</span>
+<h2>레저</h2>
+<span class=s-count>6 곳</span>
+</div>
+<div class=spot-grid>
+<article class=spot-card data-spot-id=aventura-world data-spot-name="Adventure World Zoo and Marine Park" data-spot-pref=wakayama data-spot-fee=4500 data-spot-dur=240 data-spot-lat=34.0628 data-spot-lng=135.2834 data-spot-area=wakayama-south data-spot-rating=4.6 data-spot-reviews=2200 data-spot-img="https://images.unsplash.com/photo-1602491453631-e2a5ad21e2c5?w=800&q=80" data-spot-cats=leisure,sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1602491453631-e2a5ad21e2c5?w=800&q=80" alt="Adventure World Zoo and Marine Park" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎿</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Southern Wakayama, Wakayama</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Adventure World Zoo and Marine Park</h3>
+<p class=spot-desc>This sprawling animal park is famous for its panda breeding program and diverse collection of wildlife from around the world. Experience thrilling shows, safari-style tours, and marine animal performances in a beautifully landscaped setting.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Wildlife Park</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Panda Sanctuary</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Family Friendly</span>
 </div>
 <button class=btn-add-plan onclick=prefTogglePlan(this)>
 🗺️ Add to Plan
@@ -980,20 +726,40 @@
 </button>
 </div>
 </article>
-<article class=spot-card data-spot-id=aventura-world data-spot-name="Adventure World Zoo and Marine Park" data-spot-pref=wakayama data-spot-fee=4500 data-spot-dur=240 data-spot-lat=34.0628 data-spot-lng=135.2834 data-spot-area=wakayama-south data-spot-rating=4.6 data-spot-reviews=2200 data-spot-img="https://images.unsplash.com/photo-1602491453631-e2a5ad21e2c5?w=800&q=80" data-spot-cats=leisure,sightseeing>
-<img class=spot-img src="https://images.unsplash.com/photo-1602491453631-e2a5ad21e2c5?w=800&q=80" alt="Adventure World Zoo and Marine Park" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<article class=spot-card data-spot-id=hidaka-river-rafting data-spot-name="Hidaka River Rafting Adventure" data-spot-pref=wakayama data-spot-fee=5000 data-spot-dur=150 data-spot-lat=33.8934 data-spot-lng=135.2567 data-spot-area=hidaka data-spot-rating=4.5 data-spot-reviews=750 data-spot-img="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" data-spot-cats=leisure,nature>
+<img class=spot-img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" alt="Hidaka River Rafting Adventure" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>🎿</div>
 <div class=spot-body>
 <div class=spot-meta>
-<span class=spot-location>📍 Southern Wakayama, Wakayama</span>
+<span class=spot-location>📍 Hidaka, Wakayama</span>
 <span class=spot-season-badge></span>
 </div>
-<h3 class=spot-name>Adventure World Zoo and Marine Park</h3>
-<p class=spot-desc>This sprawling animal park is famous for its panda breeding program and diverse collection of wildlife from around the world. Experience thrilling shows, safari-style tours, and marine animal performances in a beautifully landscaped setting.</p>
+<h3 class=spot-name>Hidaka River Rafting Adventure</h3>
+<p class=spot-desc>Navigate the exciting rapids of the Hidaka River through lush forested canyons on guided rafting tours suitable for various skill levels. The pristine waters and dramatic canyon walls provide an adrenaline-pumping way to experience Wakayama's natural landscape.</p>
 <div class=spot-tags>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Wildlife Park</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Panda Sanctuary</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Family Friendly</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Water Sports</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Mountain River</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Thrill Ride</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class=spot-card data-spot-id=taiji-whale-watching data-spot-name="Taiji Whale Watching" data-spot-pref=wakayama data-spot-fee=3000 data-spot-dur=180 data-spot-lat=33.6211 data-spot-lng=135.6533 data-spot-area=taiji data-spot-rating=4.4 data-spot-reviews=1200 data-spot-img="https://images.unsplash.com/photo-1511884642898-4c92249e20b6?w=800&q=80" data-spot-cats=nature,leisure>
+<img class=spot-img src="https://images.unsplash.com/photo-1511884642898-4c92249e20b6?w=800&q=80" alt="Taiji Whale Watching" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎿</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Taiji, Wakayama</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Taiji Whale Watching</h3>
+<p class=spot-desc>Experience guided boat tours searching for dolphins and whales in the rich waters around Taiji, a traditional whaling town. Tours operate year-round with different species visible seasonally—pilot whales, sperm whales, and bottlenose dolphins are commonly sighted.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Marine Life</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Seasonal Tour</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Ocean Adventure</span>
 </div>
 <button class=btn-add-plan onclick=prefTogglePlan(this)>
 🗺️ Add to Plan
@@ -1014,26 +780,6 @@
 <span class=spot-tag style=background:#fff3e0;color:#7a3f00>Sandy Beach</span>
 <span class=spot-tag style=background:#fff3e0;color:#7a3f00>Onsen Resort</span>
 <span class=spot-tag style=background:#fff3e0;color:#7a3f00>Coastal Views</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=hidaka-river-rafting data-spot-name="Hidaka River Rafting Adventure" data-spot-pref=wakayama data-spot-fee=5000 data-spot-dur=150 data-spot-lat=33.8934 data-spot-lng=135.2567 data-spot-area=hidaka data-spot-rating=4.5 data-spot-reviews=750 data-spot-img="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" data-spot-cats=leisure,nature>
-<img class=spot-img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" alt="Hidaka River Rafting Adventure" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>🎿</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Hidaka, Wakayama</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Hidaka River Rafting Adventure</h3>
-<p class=spot-desc>Navigate the exciting rapids of the Hidaka River through lush forested canyons on guided rafting tours suitable for various skill levels. The pristine waters and dramatic canyon walls provide an adrenaline-pumping way to experience Wakayama's natural landscape.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Water Sports</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Mountain River</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Thrill Ride</span>
 </div>
 <button class=btn-add-plan onclick=prefTogglePlan(this)>
 🗺️ Add to Plan
@@ -1062,8 +808,7 @@
 </article>
 </div>
 </div>
-</section>
-<section class=spot-section id=section-events data-cat=events>
+</section><section class=spot-section id=section-events data-cat=events>
 <div class=spot-section-inner>
 <div class=section-hd style=--sec-color:#b5006e>
 <span class=s-icon>🎆</span>

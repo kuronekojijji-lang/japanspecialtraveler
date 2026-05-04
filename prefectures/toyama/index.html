@@ -83,7 +83,7 @@
   document.addEventListener('keydown', function(e){ if(e.key==='Escape') close(); });
 })();
 </script>
-<style>.pref-breadcrumb{background:#f8f9fa;border-bottom:1px solid var(--border);padding:.6rem 1.5rem;font-size:.82rem;color:var(--gray)}.pref-breadcrumb a{color:var(--red);text-decoration:none}.pref-breadcrumb a:hover{text-decoration:underline}.pref-breadcrumb span{margin:0 .4rem}.pref-hero{position:relative;min-height:440px;display:flex;align-items:flex-end;background:#0a1830 50%/cover no-repeat;background-image:url(https://images.unsplash.com/photo-1548013146-72479768bada?w=1600&q=80)}.pref-hero::after{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,.15) 0%,rgba(0,0,0,.7) 100%)}.pref-hero-body{position:relative;z-index:1;padding:2.5rem 1.5rem 2rem;max-width:var(--max-w);margin:0 auto;width:100%}.pref-hero-eyebrow{color:rgba(255,255,255,.75);font-size:.82rem;font-weight:600;text-transform:uppercase;letter-spacing:.1em;margin-bottom:.5rem}.pref-hero h1{color:#fff;font-size:clamp(2.2rem,5.5vw,3.4rem);font-weight:900;margin:0 0 .5rem;line-height:1.1}.pref-hero .pref-sub{color:rgba(255,255,255,.88);font-size:1.05rem;max-width:560px;margin-bottom:1rem}.pref-stats{display:flex;flex-wrap:wrap;gap:.6rem}.pref-stat{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);border-radius:20px;padding:.3rem .85rem;color:#fff;font-size:.8rem;font-weight:600}.pref-section{padding:2.5rem 1.5rem}.pref-section+.pref-section{padding-top:0}.pref-container{max-width:var(--max-w);margin:0 auto}.pref-section-title{font-size:1.55rem;font-weight:900;margin:0 0 .4rem;display:flex;align-items:center;gap:.5rem}.pref-section-lead{font-size:1rem;color:#555;line-height:1.7;max-width:680px;margin-bottom:1.5rem}.ponko-guide{display:flex;align-items:flex-end;gap:0;margin-bottom:1.6rem}.ponko-bubble{flex:1;min-width:0;background:linear-gradient(135deg,#fff9f0,#fff3e0);border:2px solid #f5a623;border-radius:18px 18px 18px 4px;padding:1.2rem 1.5rem;position:relative;box-shadow:0 4px 14px rgba(245,166,35,.13)}.ponko-bubble::after{content:'';position:absolute;right:-18px;bottom:22px;border:9px solid transparent;border-left-color:#f5a623}.ponko-bubble::before{content:'';position:absolute;right:-13px;bottom:23px;z-index:1;border:8px solid transparent;border-left-color:#fff9f0}.ponko-bubble p{font-size:.97rem;line-height:1.8;color:#333;margin:0}.ponko-figure{flex-shrink:0;width:170px;margin-left:4px;animation:ponko-float 3s ease-in-out infinite}.ponko-figure img{width:100%;height:auto;display:block;filter:drop-shadow(0 6px 10px rgba(0,0,0,.18))}@keyframes ponko-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}@media(max-width:640px){.ponko-guide{flex-direction:column;align-items:center}.ponko-bubble{border-radius:18px;order:2;width:100%}.ponko-bubble::after,.ponko-bubble::before{display:none}.ponko-figure{order:1;width:130px;margin-left:0;margin-bottom:.5rem;animation:none}}.quick-facts{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.8rem;margin-top:1.4rem}.qf-card{background:#f8f9fb;border:1px solid var(--border);border-radius:12px;padding:1rem 1.1rem;display:flex;align-items:flex-start;gap:.7rem}.qf-icon{font-size:1.4rem;flex-shrink:0}.qf-label{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--gray);margin-bottom:.15rem}.qf-value{font-size:.9rem;font-weight:600;color:var(--dark)}.access-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}.access-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 8px rgba(0,0,0,5%)}.access-card-hd{display:flex;align-items:center;gap:.5rem;margin-bottom:.8rem}.access-card-icon{font-size:1.5rem}.access-card-title{font-size:1rem;font-weight:800;color:var(--dark)}.access-card ul{margin:0;padding-left:1.1rem}.access-card li{font-size:.875rem;line-height:1.65;color:#444;margin-bottom:.3rem}.access-card li strong{color:var(--dark)}.access-tip{margin-top:1.2rem;background:#fff8e6;border:1px solid #ffe0a0;border-radius:10px;padding:.9rem 1.1rem;font-size:.85rem;line-height:1.6;color:#5a3e00}.access-tip strong{display:block;margin-bottom:.2rem;font-size:.88rem}.guide-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem}.guide-card{background:#fff;border-radius:14px;overflow:hidden;border:1px solid var(--border);box-shadow:0 2px 8px rgba(0,0,0,5%);transition:transform .15s,box-shadow .15s;position:relative;display:flex;flex-direction:column}.guide-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.guide-card-img{width:100%;height:150px;object-fit:cover;background:#e8eef4;display:block}.guide-card-img-ph{width:100%;height:150px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:2.5rem}.guide-card-body{padding:.9rem 1rem 1rem;flex:1}.guide-cat-badge{display:inline-block;font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;padding:.15rem .55rem;border-radius:8px;background:var(--red);color:#fff;margin-bottom:.4rem}.guide-card-title{font-size:.92rem;font-weight:800;color:var(--dark);line-height:1.4}.guide-coming-soon{position:absolute;top:.6rem;right:.6rem;background:rgba(0,0,0,.55);color:#fff;font-size:.65rem;font-weight:700;padding:.2rem .5rem;border-radius:6px;text-transform:uppercase;letter-spacing:.05em}.guide-card-link{text-decoration:none;color:inherit;display:flex;flex-direction:column;height:100%}.pref-toc{background:#fff;border-bottom:2px solid var(--border);position:sticky;top:0;z-index:100;overflow-x:auto}.pref-toc-inner{display:flex;gap:0;max-width:var(--max-w);margin:0 auto}.pref-toc-btn{flex:none;display:flex;align-items:center;gap:.4rem;padding:.8rem 1.2rem;border:none;background:0 0;cursor:pointer;font-family:inherit;font-size:.88rem;font-weight:600;color:var(--gray);border-bottom:3px solid transparent;transition:all .18s;white-space:nowrap}.pref-toc-btn .toc-icon{font-size:1.1rem}.pref-toc-btn:hover{color:var(--dark);background:#f8f8f8}.pref-toc-btn.active{color:var(--toc-color,var(--red));border-bottom-color:var(--toc-color,var(--red))}.spot-section{padding:2rem 1.5rem 2.5rem}.spot-section.hidden{display:none}.spot-section-inner{max-width:var(--max-w);margin:0 auto}.section-hd{display:flex;align-items:center;gap:.6rem;margin-bottom:1.4rem;padding-bottom:.7rem;border-bottom:2px solid var(--border)}.section-hd .s-icon{font-size:1.6rem}.section-hd h2{font-size:1.35rem;font-weight:800;margin:0}.section-hd .s-count{margin-left:auto;background:var(--sec-color,var(--red));color:#fff;border-radius:20px;padding:.15rem .65rem;font-size:.78rem;font-weight:700}.spot-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.25rem}.spot-card{border-radius:14px;overflow:hidden;border:1px solid var(--border);background:#fff;box-shadow:0 2px 8px rgba(0,0,0,6%);transition:transform .15s,box-shadow .15s;display:flex;flex-direction:column}.spot-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.spot-img{width:100%;height:200px;object-fit:cover;background:#e8eef4;display:block}.spot-img-ph{width:100%;height:200px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:3rem}.spot-body{padding:1rem 1.1rem 1.1rem;flex:1;display:flex;flex-direction:column}.spot-meta{display:flex;align-items:center;gap:.5rem;margin-bottom:.5rem}.spot-location{font-size:.78rem;color:var(--gray);font-weight:500}.spot-season-badge{margin-left:auto;font-size:.7rem;font-weight:700;padding:.1rem .5rem;border-radius:10px;background:#f0f4f8;color:#555;white-space:nowrap}.spot-name{font-size:1.08rem;font-weight:800;color:var(--dark);margin:0 0 .45rem;line-height:1.3}.spot-desc{font-size:.86rem;line-height:1.65;color:#555;flex:1;margin-bottom:.75rem}.spot-tags{display:flex;flex-wrap:wrap;gap:.3rem}.spot-tag{font-size:.7rem;font-weight:600;padding:.15rem .5rem;border-radius:6px;background:var(--tag-bg,#f0f4f8);color:var(--tag-color,#445)}.tips-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem}.tip-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 6px rgba(0,0,0,4%)}.tip-card-icon{font-size:1.8rem;margin-bottom:.6rem}.tip-card-title{font-size:.95rem;font-weight:800;color:var(--dark);margin-bottom:.5rem}.tip-card-body{font-size:.85rem;line-height:1.65;color:#555}.tip-card-body ul{margin:.3rem 0 0;padding-left:1.1rem}.tip-card-body li{margin-bottom:.2rem}.pref-cta{background:var(--bg-soft);padding:2.5rem 1.5rem 3rem;border-top:1px solid var(--border)}.pref-cta .pref-container{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}@media(max-width:600px){.pref-hero{min-height:320px}.quick-facts{grid-template-columns:repeat(2,1fr)}.pref-toc-btn{padding:.7rem .9rem;font-size:.82rem}}.btn-add-plan{display:inline-flex;align-items:center;gap:.35rem;margin-top:.75rem;padding:.45rem .9rem;border:1.5px solid #2d5be3;border-radius:8px;background:#fff;color:#2d5be3;font-size:.78rem;font-weight:700;font-family:inherit;cursor:pointer;transition:background .15s,color .15s,transform .1s;width:100%;justify-content:center}.btn-add-plan:hover{background:#2d5be3;color:#fff;transform:translateY(-1px)}.btn-add-plan.in-plan{background:#e8f0ff;color:#1a45a8;border-color:#1a45a8}.btn-add-plan.in-plan:hover{background:#c0003a;color:#fff;border-color:#c0003a}</style>
+<style>.pref-breadcrumb{background:#f8f9fa;border-bottom:1px solid var(--border);padding:.6rem 1.5rem;font-size:.82rem;color:var(--gray)}.pref-breadcrumb a{color:var(--red);text-decoration:none}.pref-breadcrumb a:hover{text-decoration:underline}.pref-breadcrumb span{margin:0 .4rem}.pref-hero{position:relative;min-height:440px;display:flex;align-items:flex-end;background:#0a1830 50%/cover no-repeat;background-image:url(https://images.unsplash.com/photo-1548013146-72479768bada?w=1600&q=80)}.pref-hero::after{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,.15) 0%,rgba(0,0,0,.7) 100%)}.pref-hero-body{position:relative;z-index:1;padding:2.5rem 1.5rem 2rem;max-width:var(--max-w);margin:0 auto;width:100%}.pref-hero-eyebrow{color:rgba(255,255,255,.75);font-size:.82rem;font-weight:600;text-transform:uppercase;letter-spacing:.1em;margin-bottom:.5rem}.pref-hero h1{color:#fff;font-size:clamp(2.2rem,5.5vw,3.4rem);font-weight:900;margin:0 0 .5rem;line-height:1.1}.pref-hero .pref-sub{color:rgba(255,255,255,.88);font-size:1.05rem;max-width:560px;margin-bottom:1rem}.pref-stats{display:flex;flex-wrap:wrap;gap:.6rem}.pref-stat{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);border-radius:20px;padding:.3rem .85rem;color:#fff;font-size:.8rem;font-weight:600}.pref-section{padding:2.5rem 1.5rem}.pref-section+.pref-section{padding-top:0}.pref-container{max-width:var(--max-w);margin:0 auto}.pref-section-title{font-size:1.55rem;font-weight:900;margin:0 0 .4rem;display:flex;align-items:center;gap:.5rem}.pref-section-lead{font-size:1rem;color:#555;line-height:1.7;max-width:680px;margin-bottom:1.5rem}.ponko-guide{display:flex;align-items:flex-end;gap:0;margin-bottom:1.6rem}.ponko-bubble{flex:1;min-width:0;background:linear-gradient(135deg,#fff9f0,#fff3e0);border:2px solid #f5a623;border-radius:18px 18px 18px 4px;padding:1.2rem 1.5rem;position:relative;box-shadow:0 4px 14px rgba(245,166,35,.13)}.ponko-bubble::after{content:'';position:absolute;right:-18px;bottom:22px;border:9px solid transparent;border-left-color:#f5a623}.ponko-bubble::before{content:'';position:absolute;right:-13px;bottom:23px;z-index:1;border:8px solid transparent;border-left-color:#fff9f0}.ponko-bubble p{font-size:.97rem;line-height:1.8;color:#333;margin:0}.ponko-figure{flex-shrink:0;width:170px;margin-left:4px;animation:ponko-float 3s ease-in-out infinite}.ponko-figure img{width:100%;height:auto;display:block;filter:drop-shadow(0 6px 10px rgba(0,0,0,.18))}@keyframes ponko-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}@media(max-width:640px){.ponko-guide{flex-direction:column;align-items:center}.ponko-bubble{border-radius:18px;order:2;width:100%}.ponko-bubble::after,.ponko-bubble::before{display:none}.ponko-figure{order:1;width:130px;margin-left:0;margin-bottom:.5rem;animation:none}}.quick-facts{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.8rem;margin-top:1.4rem}.qf-card{background:#f8f9fb;border:1px solid var(--border);border-radius:12px;padding:1rem 1.1rem;display:flex;align-items:flex-start;gap:.7rem}.qf-icon{font-size:1.4rem;flex-shrink:0}.qf-label{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--gray);margin-bottom:.15rem}.qf-value{font-size:.9rem;font-weight:600;color:var(--dark)}.access-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}.access-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 8px rgba(0,0,0,5%)}.access-card-hd{display:flex;align-items:center;gap:.5rem;margin-bottom:.8rem}.access-card-icon{font-size:1.5rem}.access-card-title{font-size:1rem;font-weight:800;color:var(--dark)}.access-card ul{margin:0;padding-left:1.1rem}.access-card li{font-size:.875rem;line-height:1.65;color:#444;margin-bottom:.3rem}.access-card li strong{color:var(--dark)}.access-tip{margin-top:1.2rem;background:#fff8e6;border:1px solid #ffe0a0;border-radius:10px;padding:.9rem 1.1rem;font-size:.85rem;line-height:1.6;color:#5a3e00}.access-tip strong{display:block;margin-bottom:.2rem;font-size:.88rem}.guide-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem}.guide-card{background:#fff;border-radius:14px;overflow:hidden;border:1px solid var(--border);box-shadow:0 2px 8px rgba(0,0,0,5%);transition:transform .15s,box-shadow .15s;position:relative;display:flex;flex-direction:column}.guide-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.guide-card-img{width:100%;height:150px;object-fit:cover;background:#e8eef4;display:block}.guide-card-img-ph{width:100%;height:150px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:2.5rem}.guide-card-body{padding:.9rem 1rem 1rem;flex:1}.guide-cat-badge{display:inline-block;font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;padding:.15rem .55rem;border-radius:8px;background:var(--red);color:#fff;margin-bottom:.4rem}.guide-card-title{font-size:.92rem;font-weight:800;color:var(--dark);line-height:1.4}.guide-coming-soon{position:absolute;top:.6rem;right:.6rem;background:rgba(0,0,0,.55);color:#fff;font-size:.65rem;font-weight:700;padding:.2rem .5rem;border-radius:6px;text-transform:uppercase;letter-spacing:.05em}.guide-card-link{text-decoration:none;color:inherit;display:flex;flex-direction:column;height:100%}.pref-toc{background:#fff;border-bottom:2px solid var(--border);position:sticky;top:0;z-index:100;overflow-x:auto}.pref-toc-inner{display:flex;gap:0;max-width:var(--max-w);margin:0 auto}.pref-toc-btn{flex:none;display:flex;align-items:center;gap:.4rem;padding:.8rem 1.2rem;border:none;background:0 0;cursor:pointer;font-family:inherit;font-size:.88rem;font-weight:600;color:var(--gray);border-bottom:3px solid transparent;transition:all .18s;white-space:nowrap}.pref-toc-btn .toc-icon{font-size:1.1rem}.pref-toc-btn:hover{color:var(--dark);background:#f8f8f8}.pref-toc-btn.active{color:var(--toc-color,var(--red));border-bottom-color:var(--toc-color,var(--red))}.spot-section{padding:2rem 1.5rem 2.5rem}.spot-section.hidden{display:none}.spot-section-inner{max-width:var(--max-w);margin:0 auto}.section-hd{display:flex;align-items:center;gap:.6rem;margin-bottom:1.4rem;padding-bottom:.7rem;border-bottom:2px solid var(--border)}.section-hd .s-icon{font-size:1.6rem}.section-hd h2{font-size:1.35rem;font-weight:800;margin:0}.section-hd .s-count{margin-left:auto;background:var(--sec-color,var(--red));color:#fff;border-radius:20px;padding:.15rem .65rem;font-size:.78rem;font-weight:700}.spot-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.25rem}.spot-card{border-radius:14px;overflow:hidden;border:1px solid var(--border);background:#fff;box-shadow:0 2px 8px rgba(0,0,0,6%);transition:transform .15s,box-shadow .15s;display:flex;flex-direction:column}.spot-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.spot-img{width:100%;height:200px;object-fit:cover;background:#e8eef4;display:block}.spot-img-ph{width:100%;height:200px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:3rem}.spot-body{padding:1rem 1.1rem 1.1rem;flex:1;display:flex;flex-direction:column}.spot-meta{display:flex;align-items:center;gap:.5rem;margin-bottom:.5rem}.spot-location{font-size:.78rem;color:var(--gray);font-weight:500}.spot-season-badge{margin-left:auto;font-size:.7rem;font-weight:700;padding:.1rem .5rem;border-radius:10px;background:#f0f4f8;color:#555;white-space:nowrap}.spot-name{font-size:1.08rem;font-weight:800;color:var(--dark);margin:0 0 .45rem;line-height:1.3}.spot-desc{font-size:.86rem;line-height:1.65;color:#555;flex:1;margin-bottom:.75rem}.spot-tags{display:flex;flex-wrap:wrap;gap:.3rem}.spot-tag{font-size:.7rem;font-weight:600;padding:.15rem .5rem;border-radius:6px;background:var(--tag-bg,#f0f4f8);color:var(--tag-color,#445)}.tips-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem}.tip-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 6px rgba(0,0,0,4%)}.tip-card-icon{font-size:1.8rem;margin-bottom:.6rem}.tip-card-title{font-size:.95rem;font-weight:800;color:var(--dark);margin-bottom:.5rem}.tip-card-body{font-size:.85rem;line-height:1.65;color:#555}.tip-card-body ul{margin:.3rem 0 0;padding-left:1.1rem}.tip-card-body li{margin-bottom:.2rem}.pref-cta{background:var(--bg-soft);padding:2.5rem 1.5rem 3rem;border-top:1px solid var(--border)}.pref-cta .pref-container{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}@media(max-width:600px){.pref-hero{min-height:320px}.quick-facts{grid-template-columns:repeat(2,1fr)}.pref-toc-btn{padding:.7rem .9rem;font-size:.82rem}}.btn-add-plan{display:inline-flex;align-items:center;gap:.35rem;margin-top:.75rem;padding:.45rem .9rem;border:1.5px solid #2d5be3;border-radius:8px;background:#fff;color:#2d5be3;font-size:.78rem;font-weight:700;font-family:inherit;cursor:pointer;transition:background .15s,color .15s,transform .1s;width:100%;justify-content:center}.btn-add-plan:hover{background:#2d5be3;color:#fff;transform:translateY(-1px)}.btn-add-plan.in-plan{background:#e8f0ff;color:#1a45a8;border-color:#1a45a8}.btn-add-plan.in-plan:hover{background:#c0003a;color:#fff;border-color:#c0003a}.see-all-wrap{text-align:center;margin-top:1.5rem;padding-top:1rem;border-top:1px dashed var(--border)}.see-all-btn{display:inline-flex;align-items:center;gap:.4rem;padding:.55rem 1.5rem;border:2px solid;border-radius:10px;font-size:.88rem;font-weight:700;text-decoration:none;transition:all .15s}.see-all-btn:hover{opacity:.8;text-decoration:none}</style>
 <nav class=pref-breadcrumb aria-label=breadcrumb>
 <a href=/>Home</a><span>›</span>
 <a href=/explore/>Explore Japan</a><span>›</span>
@@ -388,8 +388,7 @@
 <span class=toc-icon>🎆</span> Events
 </button>
 </div>
-</nav>
-<section class=spot-section id=section-sightseeing data-cat=sightseeing>
+</nav><section class=spot-section id=section-sightseeing data-cat=sightseeing>
 <div class=spot-section-inner>
 <div class=section-hd style=--sec-color:#1a45a8>
 <span class=s-icon>⛩️</span>
@@ -412,6 +411,69 @@
 <span class=spot-tag style=background:#e8eeff;color:#1a3a9a>snow corridor</span>
 <span class=spot-tag style=background:#e8eeff;color:#1a3a9a>mountain crossing</span>
 <span class=spot-tag style=background:#e8eeff;color:#1a3a9a>cable car</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class=spot-card data-spot-id=shirakawa-go-gateway data-spot-name="Shirakawa-go (via Toyama Gateway)" data-spot-pref=toyama data-spot-fee=0 data-spot-dur=180 data-spot-lat=36.35 data-spot-lng=137.3 data-spot-area=shirakawa-go data-spot-rating=4.7 data-spot-reviews=3500 data-spot-img="https://images.unsplash.com/photo-1542051841857-5f90071e7989?w=800&q=80" data-spot-cats=sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1542051841857-5f90071e7989?w=800&q=80" alt="Shirakawa-go (via Toyama Gateway)" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Shirakawa-go, Gifu (via Toyama)</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Shirakawa-go (via Toyama Gateway)</h3>
+<p class=spot-desc>While Shirakawa-go sits technically in Gifu Prefecture, Toyama is its most convenient gateway via the Tateyama Kurobe Alpine Route or direct buses from Toyama City and Takaoka. The UNESCO village is the most famous collection of gassho-zukuri farmhouses in Japan, best visited in the early morning before tour buses arrive or in winter when the rooftops are buried under snow. Pairing Shirakawa-go with Gokayama on the Toyama side makes for a full day in Japan's most extraordinary rural landscape.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>UNESCO</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>gassho-zukuri</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>thatched village</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>day trip</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class=spot-card data-spot-id=zuiryuji-temple data-spot-name="Zuiryuji Temple" data-spot-pref=toyama data-spot-fee=700 data-spot-dur=60 data-spot-lat=36.78 data-spot-lng=137.02 data-spot-area=takaoka data-spot-rating=4.6 data-spot-reviews=980 data-spot-img="https://images.unsplash.com/photo-1547234935-80c7145ec969?w=800&q=80" data-spot-cats=sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1547234935-80c7145ec969?w=800&q=80" alt="Zuiryuji Temple" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Takaoka, Toyama</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Zuiryuji Temple</h3>
+<p class=spot-desc>Built in 1663 for the Kaga domain lord Maeda Toshitsune, Zuiryuji is widely regarded as one of the finest Zen temple complexes in Japan, its perfectly proportioned main gate, Buddha hall, and garden aligned on a single sacred axis. The complex is a designated national treasure, its austere Soto Zen structures framed by ancient cedars and a raked gravel garden that stills the mind. Takaoka's quieter pace makes a visit here feel like genuine pilgrimage.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>zen temple</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>national treasure</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Takaoka</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>architecture</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class=spot-card data-spot-id=toyama-glass-art-museum data-spot-name="Toyama Glass Art Museum" data-spot-pref=toyama data-spot-fee=1000 data-spot-dur=120 data-spot-lat=36.68 data-spot-lng=137.2 data-spot-area=toyama-central data-spot-rating=4.6 data-spot-reviews=1750 data-spot-img="https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=800&q=80" data-spot-cats=leisure,sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=800&q=80" alt="Toyama Glass Art Museum" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Toyama City, Toyama</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Toyama Glass Art Museum</h3>
+<p class=spot-desc>Designed by Pritzker Prize-winning architects SANAA and opened in 2015, Toyama Glass Art Museum is itself a work of art — six levels of interlocking glass floors inside a glittering facade that refracts the city outside. The permanent collection features major installations by international glass artists including Dale Chihuly, whose immense chandelier cascades through the central atrium. The museum is integrated with the city library, making it one of Japan's most visited civic cultural spaces.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>contemporary art</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>SANAA</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>glass art</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>architecture</span>
 </div>
 <button class=btn-add-plan onclick=prefTogglePlan(this)>
 🗺️ Add to Plan
@@ -460,115 +522,14 @@
 </button>
 </div>
 </article>
-<article class=spot-card data-spot-id=zuiryuji-temple data-spot-name="Zuiryuji Temple" data-spot-pref=toyama data-spot-fee=700 data-spot-dur=60 data-spot-lat=36.78 data-spot-lng=137.02 data-spot-area=takaoka data-spot-rating=4.6 data-spot-reviews=980 data-spot-img="https://images.unsplash.com/photo-1547234935-80c7145ec969?w=800&q=80" data-spot-cats=sightseeing>
-<img class=spot-img src="https://images.unsplash.com/photo-1547234935-80c7145ec969?w=800&q=80" alt="Zuiryuji Temple" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>⛩️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Takaoka, Toyama</span>
-<span class=spot-season-badge></span>
 </div>
-<h3 class=spot-name>Zuiryuji Temple</h3>
-<p class=spot-desc>Built in 1663 for the Kaga domain lord Maeda Toshitsune, Zuiryuji is widely regarded as one of the finest Zen temple complexes in Japan, its perfectly proportioned main gate, Buddha hall, and garden aligned on a single sacred axis. The complex is a designated national treasure, its austere Soto Zen structures framed by ancient cedars and a raked gravel garden that stills the mind. Takaoka's quieter pace makes a visit here feel like genuine pilgrimage.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>zen temple</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>national treasure</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Takaoka</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>architecture</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=takaoka-great-buddha data-spot-name="Takaoka Great Buddha" data-spot-pref=toyama data-spot-fee=500 data-spot-dur=45 data-spot-lat=36.78 data-spot-lng=137.02 data-spot-area=takaoka data-spot-rating=4.5 data-spot-reviews=1450 data-spot-img="https://images.unsplash.com/photo-1547234935-80c7145ec969?w=800&q=80" data-spot-cats=sightseeing>
-<img class=spot-img src="https://images.unsplash.com/photo-1547234935-80c7145ec969?w=800&q=80" alt="Takaoka Great Buddha" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>⛩️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Takaoka, Toyama</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Takaoka Great Buddha</h3>
-<p class=spot-desc>Standing 16 metres tall and cast entirely in bronze, the Takaoka Daibutsu is counted among Japan's three great Buddhas alongside Nara and Kamakura. The present statue, completed in 1933 after a century of rebuilding, sits in serene meditation and wears a remarkable detail — a miniature temple hidden beneath the hem of its robe. The surrounding Takaoka city centre is compact and walkable, with the Great Buddha just minutes from Zuiryuji Temple.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>great buddha</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>bronze</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Takaoka</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>landmark</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=toyama-castle data-spot-name="Toyama Castle" data-spot-pref=toyama data-spot-fee=600 data-spot-dur=75 data-spot-lat=36.7 data-spot-lng=137.21 data-spot-area=toyama-central data-spot-rating=4.3 data-spot-reviews=1100 data-spot-img="https://images.unsplash.com/photo-1547234935-80c7145ec969?w=800&q=80" data-spot-cats=sightseeing>
-<img class=spot-img src="https://images.unsplash.com/photo-1547234935-80c7145ec969?w=800&q=80" alt="Toyama Castle" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>⛩️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Toyama City, Toyama</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Toyama Castle</h3>
-<p class=spot-desc>Toyama Castle's white three-tiered keep rises from a forested island park in the heart of the city, its moat reflecting the tower against the backdrop of the Northern Alps on a clear day. The reconstructed castle dates to 1954 and houses a local history museum tracing the castle town's development under the Maeda clan. The surrounding Shiroyama Park is one of Toyama's finest cherry blossom spots every April.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>castle</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>city park</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>history</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Toyama City</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=toyama-glass-art-museum data-spot-name="Toyama Glass Art Museum" data-spot-pref=toyama data-spot-fee=1000 data-spot-dur=120 data-spot-lat=36.68 data-spot-lng=137.2 data-spot-area=toyama-central data-spot-rating=4.6 data-spot-reviews=1750 data-spot-img="https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=800&q=80" data-spot-cats=leisure,sightseeing>
-<img class=spot-img src="https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=800&q=80" alt="Toyama Glass Art Museum" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>⛩️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Toyama City, Toyama</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Toyama Glass Art Museum</h3>
-<p class=spot-desc>Designed by Pritzker Prize-winning architects SANAA and opened in 2015, Toyama Glass Art Museum is itself a work of art — six levels of interlocking glass floors inside a glittering facade that refracts the city outside. The permanent collection features major installations by international glass artists including Dale Chihuly, whose immense chandelier cascades through the central atrium. The museum is integrated with the city library, making it one of Japan's most visited civic cultural spaces.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>contemporary art</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>SANAA</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>glass art</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>architecture</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=shirakawa-go-gateway data-spot-name="Shirakawa-go (via Toyama Gateway)" data-spot-pref=toyama data-spot-fee=0 data-spot-dur=180 data-spot-lat=36.35 data-spot-lng=137.3 data-spot-area=shirakawa-go data-spot-rating=4.7 data-spot-reviews=3500 data-spot-img="https://images.unsplash.com/photo-1542051841857-5f90071e7989?w=800&q=80" data-spot-cats=sightseeing>
-<img class=spot-img src="https://images.unsplash.com/photo-1542051841857-5f90071e7989?w=800&q=80" alt="Shirakawa-go (via Toyama Gateway)" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>⛩️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Shirakawa-go, Gifu (via Toyama)</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Shirakawa-go (via Toyama Gateway)</h3>
-<p class=spot-desc>While Shirakawa-go sits technically in Gifu Prefecture, Toyama is its most convenient gateway via the Tateyama Kurobe Alpine Route or direct buses from Toyama City and Takaoka. The UNESCO village is the most famous collection of gassho-zukuri farmhouses in Japan, best visited in the early morning before tour buses arrive or in winter when the rooftops are buried under snow. Pairing Shirakawa-go with Gokayama on the Toyama side makes for a full day in Japan's most extraordinary rural landscape.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>UNESCO</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>gassho-zukuri</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>thatched village</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>day trip</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
+<div class=see-all-wrap>
+<a class=see-all-btn style=color:#1a45a8 href=/prefectures/toyama/spots/#sightseeing>
+See all 8 Sightseeing spots →
+</a>
 </div>
 </div>
-</section>
-<section class=spot-section id=section-gourmet data-cat=gourmet>
+</section><section class=spot-section id=section-gourmet data-cat=gourmet>
 <div class=spot-section-inner>
 <div class=section-hd style=--sec-color:#D64000>
 <span class=s-icon>🍜</span>
@@ -597,27 +558,6 @@
 </button>
 </div>
 </article>
-<article class=spot-card data-spot-id=shiro-ebi-white-shrimp data-spot-name="Shiro-ebi (White Shrimp)" data-spot-pref=toyama data-spot-fee=0 data-spot-dur=60 data-spot-lat=36.68 data-spot-lng=137.21 data-spot-area=toyama-central data-spot-rating=4.6 data-spot-reviews=1800 data-spot-img="https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?w=800&q=80" data-spot-cats=gourmet>
-<img class=spot-img src="https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?w=800&q=80" alt="Shiro-ebi (White Shrimp)" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>🍜</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Toyama City, Toyama</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Shiro-ebi (White Shrimp)</h3>
-<p class=spot-desc>Translucent and barely an inch long, the shiro-ebi or white shrimp is found in commercial quantities only in Toyama Bay, hauled from depths of 200–300 metres and brought to market within hours. Their flavour is delicate and sweet, best showcased as kakiage tempura — a golden fritter in which dozens of tiny shrimp cluster together — or draped over a finger of pressed rice as nigiri. Every sushi counter in Toyama lists them as the signature item.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#fff0ea;color:#9a3000>white shrimp</span>
-<span class=spot-tag style=background:#fff0ea;color:#9a3000>Toyama Bay exclusive</span>
-<span class=spot-tag style=background:#fff0ea;color:#9a3000>tempura</span>
-<span class=spot-tag style=background:#fff0ea;color:#9a3000>sushi</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
 <article class=spot-card data-spot-id=hotaru-ika-firefly-squid data-spot-name="Hotaru-ika (Firefly Squid)" data-spot-pref=toyama data-spot-fee=0 data-spot-dur=60 data-spot-lat=36.75 data-spot-lng=137.37 data-spot-area=namerikawa data-spot-rating=4.7 data-spot-reviews=1650 data-spot-img="https://images.unsplash.com/photo-1519984388953-d2406bc725e1?w=800&q=80" data-spot-cats=gourmet,nature>
 <img class=spot-img src="https://images.unsplash.com/photo-1519984388953-d2406bc725e1?w=800&q=80" alt="Hotaru-ika (Firefly Squid)" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>🍜</div>
@@ -639,42 +579,21 @@
 </button>
 </div>
 </article>
-<article class=spot-card data-spot-id=masuzushi-trout-sushi data-spot-name="Masuzushi (Trout Pressed Sushi)" data-spot-pref=toyama data-spot-fee=0 data-spot-dur=30 data-spot-lat=36.68 data-spot-lng=137.21 data-spot-area=toyama-central data-spot-rating=4.5 data-spot-reviews=1200 data-spot-img="https://images.unsplash.com/photo-1519984388953-d2406bc725e1?w=800&q=80" data-spot-cats=gourmet>
-<img class=spot-img src="https://images.unsplash.com/photo-1519984388953-d2406bc725e1?w=800&q=80" alt="Masuzushi (Trout Pressed Sushi)" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<article class=spot-card data-spot-id=shiro-ebi-white-shrimp data-spot-name="Shiro-ebi (White Shrimp)" data-spot-pref=toyama data-spot-fee=0 data-spot-dur=60 data-spot-lat=36.68 data-spot-lng=137.21 data-spot-area=toyama-central data-spot-rating=4.6 data-spot-reviews=1800 data-spot-img="https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?w=800&q=80" data-spot-cats=gourmet>
+<img class=spot-img src="https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?w=800&q=80" alt="Shiro-ebi (White Shrimp)" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>🍜</div>
 <div class=spot-body>
 <div class=spot-meta>
 <span class=spot-location>📍 Toyama City, Toyama</span>
 <span class=spot-season-badge></span>
 </div>
-<h3 class=spot-name>Masuzushi (Trout Pressed Sushi)</h3>
-<p class=spot-desc>Masuzushi is Toyama's most beloved food souvenir — salted masu trout laid over vinegared rice, pressed into a round cedar box lined with bamboo leaves, and wrapped in a way that is as beautiful as it is delicious. The trout cures gently in the acid of the rice, turning a vivid pink and developing a silky texture that keeps for a day without refrigeration. Sold at Toyama Station and in wooden boxes at department stores, it is the edible emblem of the prefecture.</p>
+<h3 class=spot-name>Shiro-ebi (White Shrimp)</h3>
+<p class=spot-desc>Translucent and barely an inch long, the shiro-ebi or white shrimp is found in commercial quantities only in Toyama Bay, hauled from depths of 200–300 metres and brought to market within hours. Their flavour is delicate and sweet, best showcased as kakiage tempura — a golden fritter in which dozens of tiny shrimp cluster together — or draped over a finger of pressed rice as nigiri. Every sushi counter in Toyama lists them as the signature item.</p>
 <div class=spot-tags>
-<span class=spot-tag style=background:#fff0ea;color:#9a3000>masuzushi</span>
-<span class=spot-tag style=background:#fff0ea;color:#9a3000>trout sushi</span>
-<span class=spot-tag style=background:#fff0ea;color:#9a3000>pressed sushi</span>
-<span class=spot-tag style=background:#fff0ea;color:#9a3000>Toyama souvenir</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=toyama-black-ramen data-spot-name="Toyama Black Ramen" data-spot-pref=toyama data-spot-fee=0 data-spot-dur=45 data-spot-lat=36.68 data-spot-lng=137.21 data-spot-area=toyama-central data-spot-rating=4.4 data-spot-reviews=950 data-spot-img="https://images.unsplash.com/photo-1557872943-16a5ac26437e?w=800&q=80" data-spot-cats=gourmet>
-<img class=spot-img src="https://images.unsplash.com/photo-1557872943-16a5ac26437e?w=800&q=80" alt="Toyama Black Ramen" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>🍜</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Toyama City, Toyama</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Toyama Black Ramen</h3>
-<p class=spot-desc>Toyama Black is Japan's most intensely coloured ramen — the broth is almost opaque from charred soy sauce layered over a rich chicken and pork stock, with a boldness born from fuelling the heavy manual workers of postwar Toyama. Thick noodles, a seasoned soft-boiled egg, and a heavy dusting of black pepper complete the bowl. The flavour is punishingly savoury and deeply satisfying, best experienced at the original shops clustered near Toyama Station.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#fff0ea;color:#9a3000>black ramen</span>
-<span class=spot-tag style=background:#fff0ea;color:#9a3000>soy sauce broth</span>
-<span class=spot-tag style=background:#fff0ea;color:#9a3000>local ramen</span>
-<span class=spot-tag style=background:#fff0ea;color:#9a3000>Toyama City</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>white shrimp</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>Toyama Bay exclusive</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>tempura</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>sushi</span>
 </div>
 <button class=btn-add-plan onclick=prefTogglePlan(this)>
 🗺️ Add to Plan
@@ -723,10 +642,35 @@
 </button>
 </div>
 </article>
+<article class=spot-card data-spot-id=masuzushi-trout-sushi data-spot-name="Masuzushi (Trout Pressed Sushi)" data-spot-pref=toyama data-spot-fee=0 data-spot-dur=30 data-spot-lat=36.68 data-spot-lng=137.21 data-spot-area=toyama-central data-spot-rating=4.5 data-spot-reviews=1200 data-spot-img="https://images.unsplash.com/photo-1519984388953-d2406bc725e1?w=800&q=80" data-spot-cats=gourmet>
+<img class=spot-img src="https://images.unsplash.com/photo-1519984388953-d2406bc725e1?w=800&q=80" alt="Masuzushi (Trout Pressed Sushi)" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🍜</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Toyama City, Toyama</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Masuzushi (Trout Pressed Sushi)</h3>
+<p class=spot-desc>Masuzushi is Toyama's most beloved food souvenir — salted masu trout laid over vinegared rice, pressed into a round cedar box lined with bamboo leaves, and wrapped in a way that is as beautiful as it is delicious. The trout cures gently in the acid of the rice, turning a vivid pink and developing a silky texture that keeps for a day without refrigeration. Sold at Toyama Station and in wooden boxes at department stores, it is the edible emblem of the prefecture.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>masuzushi</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>trout sushi</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>pressed sushi</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>Toyama souvenir</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+</div>
+<div class=see-all-wrap>
+<a class=see-all-btn style=color:#d64000 href=/prefectures/toyama/spots/#gourmet>
+See all 7 Gourmet spots →
+</a>
 </div>
 </div>
-</section>
-<section class=spot-section id=section-nature data-cat=nature>
+</section><section class=spot-section id=section-nature data-cat=nature>
 <div class=spot-section-inner>
 <div class=section-hd style=--sec-color:#1a7a34>
 <span class=s-icon>🏔️</span>
@@ -734,21 +678,21 @@
 <span class=s-count>9 spots</span>
 </div>
 <div class=spot-grid>
-<article class=spot-card data-spot-id=tateyama-kurobe-alpine-route data-spot-name="Tateyama Kurobe Alpine Route" data-spot-pref=toyama data-spot-fee=0 data-spot-dur=480 data-spot-lat=36.82 data-spot-lng=137.6 data-spot-area=tateyama data-spot-rating=4.7 data-spot-reviews=2800 data-spot-img="https://images.unsplash.com/photo-1548013146-72479768bada?w=800&q=80" data-spot-cats=sightseeing,nature>
-<img class=spot-img src="https://images.unsplash.com/photo-1548013146-72479768bada?w=800&q=80" alt="Tateyama Kurobe Alpine Route" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<article class=spot-card data-spot-id=firefly-squid-namerikawa-coast data-spot-name="Firefly Squid Season — Namerikawa Coast" data-spot-pref=toyama data-spot-fee=2500 data-spot-dur=120 data-spot-lat=36.75 data-spot-lng=137.37 data-spot-area=namerikawa data-spot-rating=4.8 data-spot-reviews=2400 data-spot-img="https://images.unsplash.com/photo-1548013146-72479768bada?w=800&q=80" data-spot-cats=nature,events>
+<img class=spot-img src="https://images.unsplash.com/photo-1548013146-72479768bada?w=800&q=80" alt="Firefly Squid Season — Namerikawa Coast" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>🏔️</div>
 <div class=spot-body>
 <div class=spot-meta>
-<span class=spot-location>📍 Tateyama, Toyama</span>
+<span class=spot-location>📍 Namerikawa, Toyama</span>
 <span class=spot-season-badge></span>
 </div>
-<h3 class=spot-name>Tateyama Kurobe Alpine Route</h3>
-<p class=spot-desc>One of Japan's great mountain crossings, the Tateyama Kurobe Alpine Route threads through the Northern Alps via cable cars, trolley buses, and ropeways. From mid-April to late June, the famous Yuki no Otani snow corridor rises up to 20 metres on either side of the walking path. The full crossing from Toyama to Nagano is a single unforgettable day.</p>
+<h3 class=spot-name>Firefly Squid Season — Namerikawa Coast</h3>
+<p class=spot-desc>The Namerikawa coastline becomes one of Japan's most magical natural spectacles from March to May, when firefly squid rise to the surface at night in their millions and turn the sea electric blue. Fishing boats use traditional net-scooping methods unchanged for generations, and the Hotaruika Museum in Namerikawa runs boat tours that put you in the middle of the action before dawn. On a calm spring night the glow can be seen from the shore even without boarding a boat.</p>
 <div class=spot-tags>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>alps</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>snow corridor</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>mountain crossing</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>cable car</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>bioluminescence</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Namerikawa</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>night tour</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>spring</span>
 </div>
 <button class=btn-add-plan onclick=prefTogglePlan(this)>
 🗺️ Add to Plan
@@ -776,21 +720,21 @@
 </button>
 </div>
 </article>
-<article class=spot-card data-spot-id=kurobe-dam data-spot-name="Kurobe Dam" data-spot-pref=toyama data-spot-fee=0 data-spot-dur=120 data-spot-lat=36.67 data-spot-lng=137.51 data-spot-area=kurobe data-spot-rating=4.6 data-spot-reviews=1900 data-spot-img="https://images.unsplash.com/photo-1490806843957-31f4c9a91c65?w=800&q=80" data-spot-cats=sightseeing,nature>
-<img class=spot-img src="https://images.unsplash.com/photo-1490806843957-31f4c9a91c65?w=800&q=80" alt="Kurobe Dam" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<article class=spot-card data-spot-id=kurobe-gorge-railway data-spot-name="Kurobe Gorge Railway" data-spot-pref=toyama data-spot-fee=8000 data-spot-dur=160 data-spot-lat=36.62 data-spot-lng=137.45 data-spot-area=kurobe data-spot-rating=4.7 data-spot-reviews=2200 data-spot-img="https://images.unsplash.com/photo-1566464963286-a7d55db80f53?w=800&q=80" data-spot-cats=leisure,nature>
+<img class=spot-img src="https://images.unsplash.com/photo-1566464963286-a7d55db80f53?w=800&q=80" alt="Kurobe Gorge Railway" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>🏔️</div>
 <div class=spot-body>
 <div class=spot-meta>
 <span class=spot-location>📍 Kurobe, Toyama</span>
 <span class=spot-season-badge></span>
 </div>
-<h3 class=spot-name>Kurobe Dam</h3>
-<p class=spot-desc>Japan's largest arch dam stands 186 metres tall and holds back the brilliant turquoise waters of Lake Kurobe, ringed by the jagged peaks of the Northern Alps. The dam's discharge fountains put on a dramatic show from late June through October, and the surrounding ridgelines explode in crimson and gold foliage every autumn. Getting here is half the adventure, reached via the Alpine Route's trolley bus tunnel bored straight through the mountain.</p>
+<h3 class=spot-name>Kurobe Gorge Railway</h3>
+<p class=spot-desc>Japan's most dramatic narrow-gauge railway squeezes through the sheer walls of Kurobe Gorge in open-air carriages, hugging cliffsides and crossing delicate bridges above turquoise water. The 20-kilometre route from Unazuki to Keyakidaira takes about 80 minutes each way through tunnel after tunnel and soaring viaduct after viaduct. October transforms the gorge walls into a cathedral of crimson maples and gold larches, making autumn the single most spectacular time to ride.</p>
 <div class=spot-tags>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>dam</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>alps</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>gorge railway</span>
 <span class=spot-tag style=background:#e4f4e8;color:#155a28>autumn foliage</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>engineering</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>miniature train</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>open-air</span>
 </div>
 <button class=btn-add-plan onclick=prefTogglePlan(this)>
 🗺️ Add to Plan
@@ -818,27 +762,6 @@
 </button>
 </div>
 </article>
-<article class=spot-card data-spot-id=gokayama-gassho-village data-spot-name="Gokayama UNESCO Gassho Village" data-spot-pref=toyama data-spot-fee=0 data-spot-dur=150 data-spot-lat=36.45 data-spot-lng=137.35 data-spot-area=gokayama data-spot-rating=4.5 data-spot-reviews=1200 data-spot-img="https://images.unsplash.com/photo-1542051841857-5f90071e7989?w=800&q=80" data-spot-cats=sightseeing,nature>
-<img class=spot-img src="https://images.unsplash.com/photo-1542051841857-5f90071e7989?w=800&q=80" alt="Gokayama UNESCO Gassho Village" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>🏔️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Gokayama, Toyama</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Gokayama UNESCO Gassho Village</h3>
-<p class=spot-desc>Tucked deep in the Shogawa River valley on Toyama's Gifu border, Gokayama preserves clusters of gassho-zukuri farmhouses whose steep thatched roofs were engineered to shed the heaviest snowfall in Japan. Far quieter than the more famous Shirakawa-go next door, Gokayama lets you wander its lanes with almost no crowds and stay overnight in working farmhouses. In winter, the snow-capped rooftops glow orange in the lantern light of the Doburoku Festival.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>UNESCO</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>gassho-zukuri</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>thatched roof</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>historic village</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
 <article class=spot-card data-spot-id=hotaru-ika-firefly-squid data-spot-name="Hotaru-ika (Firefly Squid)" data-spot-pref=toyama data-spot-fee=0 data-spot-dur=60 data-spot-lat=36.75 data-spot-lng=137.37 data-spot-area=namerikawa data-spot-rating=4.7 data-spot-reviews=1650 data-spot-img="https://images.unsplash.com/photo-1519984388953-d2406bc725e1?w=800&q=80" data-spot-cats=gourmet,nature>
 <img class=spot-img src="https://images.unsplash.com/photo-1519984388953-d2406bc725e1?w=800&q=80" alt="Hotaru-ika (Firefly Squid)" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>🏔️</div>
@@ -860,63 +783,21 @@
 </button>
 </div>
 </article>
-<article class=spot-card data-spot-id=firefly-squid-namerikawa-coast data-spot-name="Firefly Squid Season — Namerikawa Coast" data-spot-pref=toyama data-spot-fee=2500 data-spot-dur=120 data-spot-lat=36.75 data-spot-lng=137.37 data-spot-area=namerikawa data-spot-rating=4.8 data-spot-reviews=2400 data-spot-img="https://images.unsplash.com/photo-1548013146-72479768bada?w=800&q=80" data-spot-cats=nature,events>
-<img class=spot-img src="https://images.unsplash.com/photo-1548013146-72479768bada?w=800&q=80" alt="Firefly Squid Season — Namerikawa Coast" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<article class=spot-card data-spot-id=tateyama-kurobe-alpine-route data-spot-name="Tateyama Kurobe Alpine Route" data-spot-pref=toyama data-spot-fee=0 data-spot-dur=480 data-spot-lat=36.82 data-spot-lng=137.6 data-spot-area=tateyama data-spot-rating=4.7 data-spot-reviews=2800 data-spot-img="https://images.unsplash.com/photo-1548013146-72479768bada?w=800&q=80" data-spot-cats=sightseeing,nature>
+<img class=spot-img src="https://images.unsplash.com/photo-1548013146-72479768bada?w=800&q=80" alt="Tateyama Kurobe Alpine Route" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>🏔️</div>
 <div class=spot-body>
 <div class=spot-meta>
-<span class=spot-location>📍 Namerikawa, Toyama</span>
+<span class=spot-location>📍 Tateyama, Toyama</span>
 <span class=spot-season-badge></span>
 </div>
-<h3 class=spot-name>Firefly Squid Season — Namerikawa Coast</h3>
-<p class=spot-desc>The Namerikawa coastline becomes one of Japan's most magical natural spectacles from March to May, when firefly squid rise to the surface at night in their millions and turn the sea electric blue. Fishing boats use traditional net-scooping methods unchanged for generations, and the Hotaruika Museum in Namerikawa runs boat tours that put you in the middle of the action before dawn. On a calm spring night the glow can be seen from the shore even without boarding a boat.</p>
+<h3 class=spot-name>Tateyama Kurobe Alpine Route</h3>
+<p class=spot-desc>One of Japan's great mountain crossings, the Tateyama Kurobe Alpine Route threads through the Northern Alps via cable cars, trolley buses, and ropeways. From mid-April to late June, the famous Yuki no Otani snow corridor rises up to 20 metres on either side of the walking path. The full crossing from Toyama to Nagano is a single unforgettable day.</p>
 <div class=spot-tags>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>bioluminescence</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Namerikawa</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>night tour</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>spring</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=toyama-bay data-spot-name="Toyama Bay" data-spot-pref=toyama data-spot-fee=0 data-spot-dur=90 data-spot-lat=36.72 data-spot-lng=137.25 data-spot-area=toyama-central data-spot-rating=4.5 data-spot-reviews=800 data-spot-img="https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=800&q=80" data-spot-cats=nature>
-<img class=spot-img src="https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=800&q=80" alt="Toyama Bay" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>🏔️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Toyama Bay, Toyama</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Toyama Bay</h3>
-<p class=spot-desc>Toyama Bay plunges to depths of over 1,000 metres just kilometres from shore, creating one of the most biologically productive bays in Japan — cold nutrient-rich currents well up from the deep and feed an astonishing diversity of marine life year-round. The panorama from the Toyama coast on a clear winter day is extraordinary, the snow-capped Northern Alps rising almost directly behind the city and reflecting in the Bay. This mountain-to-sea geography in miniature is what makes Toyama unique in Japan.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>bay</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>seafood</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>mountains to sea</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>depth gradient</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=kurobe-gorge-railway data-spot-name="Kurobe Gorge Railway" data-spot-pref=toyama data-spot-fee=8000 data-spot-dur=160 data-spot-lat=36.62 data-spot-lng=137.45 data-spot-area=kurobe data-spot-rating=4.7 data-spot-reviews=2200 data-spot-img="https://images.unsplash.com/photo-1566464963286-a7d55db80f53?w=800&q=80" data-spot-cats=leisure,nature>
-<img class=spot-img src="https://images.unsplash.com/photo-1566464963286-a7d55db80f53?w=800&q=80" alt="Kurobe Gorge Railway" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>🏔️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Kurobe, Toyama</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Kurobe Gorge Railway</h3>
-<p class=spot-desc>Japan's most dramatic narrow-gauge railway squeezes through the sheer walls of Kurobe Gorge in open-air carriages, hugging cliffsides and crossing delicate bridges above turquoise water. The 20-kilometre route from Unazuki to Keyakidaira takes about 80 minutes each way through tunnel after tunnel and soaring viaduct after viaduct. October transforms the gorge walls into a cathedral of crimson maples and gold larches, making autumn the single most spectacular time to ride.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>gorge railway</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>autumn foliage</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>miniature train</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>open-air</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>alps</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>snow corridor</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>mountain crossing</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>cable car</span>
 </div>
 <button class=btn-add-plan onclick=prefTogglePlan(this)>
 🗺️ Add to Plan
@@ -924,9 +805,13 @@
 </div>
 </article>
 </div>
+<div class=see-all-wrap>
+<a class=see-all-btn style=color:#1a7a34 href=/prefectures/toyama/spots/#nature>
+See all 9 Nature spots →
+</a>
 </div>
-</section>
-<section class=spot-section id=section-leisure data-cat=leisure>
+</div>
+</section><section class=spot-section id=section-leisure data-cat=leisure>
 <div class=spot-section-inner>
 <div class=section-hd style=--sec-color:#b35c00>
 <span class=s-icon>🎿</span>
@@ -934,27 +819,6 @@
 <span class=s-count>5 spots</span>
 </div>
 <div class=spot-grid>
-<article class=spot-card data-spot-id=tateyama-alpine-resort-skiing data-spot-name="Tateyama Alpine Resort Skiing" data-spot-pref=toyama data-spot-fee=4500 data-spot-dur=240 data-spot-lat=36.82 data-spot-lng=137.6 data-spot-area=tateyama data-spot-rating=4.4 data-spot-reviews=650 data-spot-img="https://images.unsplash.com/photo-1548013146-72479768bada?w=800&q=80" data-spot-cats=leisure>
-<img class=spot-img src="https://images.unsplash.com/photo-1548013146-72479768bada?w=800&q=80" alt="Tateyama Alpine Resort Skiing" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>🎿</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Tateyama, Toyama</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Tateyama Alpine Resort Skiing</h3>
-<p class=spot-desc>With skiing available above 2,000 metres until late April and sometimes into May, Tateyama offers some of the latest-season alpine runs accessible in Japan. The combination of deep mountain snowpack and relatively easy access via the Alpine Route makes it a favourite for skiers and snowboarders seeking spring powder long after other resorts have closed. The panoramic views of the entire Northern Alps range from the upper slopes add a scenery dimension that lower-altitude resorts cannot match.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>skiing</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>above 2000m</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>late season</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>tateyama</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
 <article class=spot-card data-spot-id=kurobe-gorge-railway data-spot-name="Kurobe Gorge Railway" data-spot-pref=toyama data-spot-fee=8000 data-spot-dur=160 data-spot-lat=36.62 data-spot-lng=137.45 data-spot-area=kurobe data-spot-rating=4.7 data-spot-reviews=2200 data-spot-img="https://images.unsplash.com/photo-1566464963286-a7d55db80f53?w=800&q=80" data-spot-cats=leisure,nature>
 <img class=spot-img src="https://images.unsplash.com/photo-1566464963286-a7d55db80f53?w=800&q=80" alt="Kurobe Gorge Railway" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>🎿</div>
@@ -997,27 +861,6 @@
 </button>
 </div>
 </article>
-<article class=spot-card data-spot-id=takaoka-copperware-workshop data-spot-name="Takaoka Copperware Workshop" data-spot-pref=toyama data-spot-fee=500 data-spot-dur=90 data-spot-lat=36.78 data-spot-lng=137.02 data-spot-area=takaoka data-spot-rating=4.3 data-spot-reviews=420 data-spot-img="https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=800&q=80" data-spot-cats=leisure>
-<img class=spot-img src="https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=800&q=80" alt="Takaoka Copperware Workshop" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>🎿</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Takaoka, Toyama</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Takaoka Copperware Workshop</h3>
-<p class=spot-desc>Takaoka has produced 90 percent of Japan's bronze Buddhist altar fittings for over 400 years, and a handful of workshops in the old casting district still welcome visitors to see molten metal poured into sand moulds and finished by hand. The craft tradition that cast the Takaoka Great Buddha is alive in the small workshops around Sotokanaya-cho, where artisans make everything from temple bells to tea ceremony kettles. Finished pieces — vases, cups, incense burners — make among the most distinctive souvenirs in Toyama.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>copperware</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>traditional craft</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>workshop</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Takaoka</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
 <article class=spot-card data-spot-id=toyama-bay-seafood-market data-spot-name="Toyama Bay Seafood Market (Shinminato)" data-spot-pref=toyama data-spot-fee=0 data-spot-dur=90 data-spot-lat=36.78 data-spot-lng=137.31 data-spot-area=shinminato data-spot-rating=4.6 data-spot-reviews=1350 data-spot-img="https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?w=800&q=80" data-spot-cats=gourmet,leisure>
 <img class=spot-img src="https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?w=800&q=80" alt="Toyama Bay Seafood Market (Shinminato)" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>🎿</div>
@@ -1039,10 +882,51 @@
 </button>
 </div>
 </article>
+<article class=spot-card data-spot-id=tateyama-alpine-resort-skiing data-spot-name="Tateyama Alpine Resort Skiing" data-spot-pref=toyama data-spot-fee=4500 data-spot-dur=240 data-spot-lat=36.82 data-spot-lng=137.6 data-spot-area=tateyama data-spot-rating=4.4 data-spot-reviews=650 data-spot-img="https://images.unsplash.com/photo-1548013146-72479768bada?w=800&q=80" data-spot-cats=leisure>
+<img class=spot-img src="https://images.unsplash.com/photo-1548013146-72479768bada?w=800&q=80" alt="Tateyama Alpine Resort Skiing" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎿</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Tateyama, Toyama</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Tateyama Alpine Resort Skiing</h3>
+<p class=spot-desc>With skiing available above 2,000 metres until late April and sometimes into May, Tateyama offers some of the latest-season alpine runs accessible in Japan. The combination of deep mountain snowpack and relatively easy access via the Alpine Route makes it a favourite for skiers and snowboarders seeking spring powder long after other resorts have closed. The panoramic views of the entire Northern Alps range from the upper slopes add a scenery dimension that lower-altitude resorts cannot match.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>skiing</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>above 2000m</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>late season</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>tateyama</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class=spot-card data-spot-id=takaoka-copperware-workshop data-spot-name="Takaoka Copperware Workshop" data-spot-pref=toyama data-spot-fee=500 data-spot-dur=90 data-spot-lat=36.78 data-spot-lng=137.02 data-spot-area=takaoka data-spot-rating=4.3 data-spot-reviews=420 data-spot-img="https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=800&q=80" data-spot-cats=leisure>
+<img class=spot-img src="https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=800&q=80" alt="Takaoka Copperware Workshop" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎿</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Takaoka, Toyama</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Takaoka Copperware Workshop</h3>
+<p class=spot-desc>Takaoka has produced 90 percent of Japan's bronze Buddhist altar fittings for over 400 years, and a handful of workshops in the old casting district still welcome visitors to see molten metal poured into sand moulds and finished by hand. The craft tradition that cast the Takaoka Great Buddha is alive in the small workshops around Sotokanaya-cho, where artisans make everything from temple bells to tea ceremony kettles. Finished pieces — vases, cups, incense burners — make among the most distinctive souvenirs in Toyama.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>copperware</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>traditional craft</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>workshop</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Takaoka</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 </div>
 </div>
-</section>
-<section class=spot-section id=section-events data-cat=events>
+</section><section class=spot-section id=section-events data-cat=events>
 <div class=spot-section-inner>
 <div class=section-hd style=--sec-color:#b5006e>
 <span class=s-icon>🎆</span>
@@ -1113,6 +997,27 @@
 </button>
 </div>
 </article>
+<article class=spot-card data-spot-id=gokayama-doburoku-festival data-spot-name="Gokayama Doburoku Festival" data-spot-pref=toyama data-spot-fee=0 data-spot-dur=240 data-spot-lat=36.45 data-spot-lng=137.35 data-spot-area=gokayama data-spot-rating=4.7 data-spot-reviews=950 data-spot-img="https://images.unsplash.com/photo-1542051841857-5f90071e7989?w=800&q=80" data-spot-cats=events>
+<img class=spot-img src="https://images.unsplash.com/photo-1542051841857-5f90071e7989?w=800&q=80" alt="Gokayama Doburoku Festival" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎆</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Gokayama, Toyama</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Gokayama Doburoku Festival</h3>
+<p class=spot-desc>Every October the UNESCO-listed gassho villages of Gokayama celebrate the autumn harvest with the Doburoku Festival, at which a thick unfiltered sake called doburoku — brewed using a rare shrine licence granted nowhere else in Japan — is offered to the gods and shared with visitors. The festival unfolds inside thatched farmhouses and the village shrine to the sound of lion dances and ancient chants, the autumn foliage blazing on the hillside above. Staying overnight in a gassho farmhouse for the festival is one of Toyama's most immersive cultural experiences.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>doburoku sake</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>UNESCO village</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>October</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>harvest festival</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 <article class=spot-card data-spot-id=hotaru-ika-squid-festival data-spot-name="Hotaru-ika Squid Festival" data-spot-pref=toyama data-spot-fee=0 data-spot-dur=180 data-spot-lat=36.75 data-spot-lng=137.37 data-spot-area=namerikawa data-spot-rating=4.6 data-spot-reviews=1100 data-spot-img="https://images.unsplash.com/photo-1519984388953-d2406bc725e1?w=800&q=80" data-spot-cats=events,gourmet>
 <img class=spot-img src="https://images.unsplash.com/photo-1519984388953-d2406bc725e1?w=800&q=80" alt="Hotaru-ika Squid Festival" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>🎆</div>
@@ -1149,27 +1054,6 @@
 <span class=spot-tag style=background:#ffe8f4;color:#88004e>fireworks</span>
 <span class=spot-tag style=background:#ffe8f4;color:#88004e>August</span>
 <span class=spot-tag style=background:#ffe8f4;color:#88004e>Toyama City</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=gokayama-doburoku-festival data-spot-name="Gokayama Doburoku Festival" data-spot-pref=toyama data-spot-fee=0 data-spot-dur=240 data-spot-lat=36.45 data-spot-lng=137.35 data-spot-area=gokayama data-spot-rating=4.7 data-spot-reviews=950 data-spot-img="https://images.unsplash.com/photo-1542051841857-5f90071e7989?w=800&q=80" data-spot-cats=events>
-<img class=spot-img src="https://images.unsplash.com/photo-1542051841857-5f90071e7989?w=800&q=80" alt="Gokayama Doburoku Festival" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>🎆</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Gokayama, Toyama</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Gokayama Doburoku Festival</h3>
-<p class=spot-desc>Every October the UNESCO-listed gassho villages of Gokayama celebrate the autumn harvest with the Doburoku Festival, at which a thick unfiltered sake called doburoku — brewed using a rare shrine licence granted nowhere else in Japan — is offered to the gods and shared with visitors. The festival unfolds inside thatched farmhouses and the village shrine to the sound of lion dances and ancient chants, the autumn foliage blazing on the hillside above. Staying overnight in a gassho farmhouse for the festival is one of Toyama's most immersive cultural experiences.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#ffe8f4;color:#88004e>doburoku sake</span>
-<span class=spot-tag style=background:#ffe8f4;color:#88004e>UNESCO village</span>
-<span class=spot-tag style=background:#ffe8f4;color:#88004e>October</span>
-<span class=spot-tag style=background:#ffe8f4;color:#88004e>harvest festival</span>
 </div>
 <button class=btn-add-plan onclick=prefTogglePlan(this)>
 🗺️ Add to Plan

@@ -83,7 +83,7 @@
   document.addEventListener('keydown', function(e){ if(e.key==='Escape') close(); });
 })();
 </script>
-<style>.pref-breadcrumb{background:#f8f9fa;border-bottom:1px solid var(--border);padding:.6rem 1.5rem;font-size:.82rem;color:var(--gray)}.pref-breadcrumb a{color:var(--red);text-decoration:none}.pref-breadcrumb a:hover{text-decoration:underline}.pref-breadcrumb span{margin:0 .4rem}.pref-hero{position:relative;min-height:440px;display:flex;align-items:flex-end;background:#0a1a2e 50%/cover no-repeat;background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Namahage_comes_up_now.jpg/960px-Namahage_comes_up_now.jpg)}.pref-hero::after{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,.15) 0%,rgba(0,0,0,.7) 100%)}.pref-hero-body{position:relative;z-index:1;padding:2.5rem 1.5rem 2rem;max-width:var(--max-w);margin:0 auto;width:100%}.pref-hero-eyebrow{color:rgba(255,255,255,.75);font-size:.82rem;font-weight:600;text-transform:uppercase;letter-spacing:.1em;margin-bottom:.5rem}.pref-hero h1{color:#fff;font-size:clamp(2.2rem,5.5vw,3.4rem);font-weight:900;margin:0 0 .5rem;line-height:1.1}.pref-hero .pref-sub{color:rgba(255,255,255,.88);font-size:1.05rem;max-width:560px;margin-bottom:1rem}.pref-stats{display:flex;flex-wrap:wrap;gap:.6rem}.pref-stat{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);border-radius:20px;padding:.3rem .85rem;color:#fff;font-size:.8rem;font-weight:600}.pref-section{padding:2.5rem 1.5rem}.pref-section+.pref-section{padding-top:0}.pref-container{max-width:var(--max-w);margin:0 auto}.pref-section-title{font-size:1.55rem;font-weight:900;margin:0 0 .4rem;display:flex;align-items:center;gap:.5rem}.pref-section-lead{font-size:1rem;color:#555;line-height:1.7;max-width:680px;margin-bottom:1.5rem}.ponko-guide{display:flex;align-items:flex-end;gap:0;margin-bottom:1.6rem}.ponko-bubble{flex:1;min-width:0;background:linear-gradient(135deg,#fff9f0,#fff3e0);border:2px solid #f5a623;border-radius:18px 18px 18px 4px;padding:1.2rem 1.5rem;position:relative;box-shadow:0 4px 14px rgba(245,166,35,.13)}.ponko-bubble::after{content:'';position:absolute;right:-18px;bottom:22px;border:9px solid transparent;border-left-color:#f5a623}.ponko-bubble::before{content:'';position:absolute;right:-13px;bottom:23px;z-index:1;border:8px solid transparent;border-left-color:#fff9f0}.ponko-bubble p{font-size:.97rem;line-height:1.8;color:#333;margin:0}.ponko-figure{flex-shrink:0;width:170px;margin-left:4px;animation:ponko-float 3s ease-in-out infinite}.ponko-figure img{width:100%;height:auto;display:block;filter:drop-shadow(0 6px 10px rgba(0,0,0,.18))}@keyframes ponko-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}@media(max-width:640px){.ponko-guide{flex-direction:column;align-items:center}.ponko-bubble{border-radius:18px;order:2;width:100%}.ponko-bubble::after,.ponko-bubble::before{display:none}.ponko-figure{order:1;width:130px;margin-left:0;margin-bottom:.5rem;animation:none}}.quick-facts{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.8rem;margin-top:1.4rem}.qf-card{background:#f8f9fb;border:1px solid var(--border);border-radius:12px;padding:1rem 1.1rem;display:flex;align-items:flex-start;gap:.7rem}.qf-icon{font-size:1.4rem;flex-shrink:0}.qf-label{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--gray);margin-bottom:.15rem}.qf-value{font-size:.9rem;font-weight:600;color:var(--dark)}.access-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}.access-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 8px rgba(0,0,0,5%)}.access-card-hd{display:flex;align-items:center;gap:.5rem;margin-bottom:.8rem}.access-card-icon{font-size:1.5rem}.access-card-title{font-size:1rem;font-weight:800;color:var(--dark)}.access-card ul{margin:0;padding-left:1.1rem}.access-card li{font-size:.875rem;line-height:1.65;color:#444;margin-bottom:.3rem}.access-card li strong{color:var(--dark)}.access-tip{margin-top:1.2rem;background:#fff8e6;border:1px solid #ffe0a0;border-radius:10px;padding:.9rem 1.1rem;font-size:.85rem;line-height:1.6;color:#5a3e00}.access-tip strong{display:block;margin-bottom:.2rem;font-size:.88rem}.guide-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem}.guide-card{background:#fff;border-radius:14px;overflow:hidden;border:1px solid var(--border);box-shadow:0 2px 8px rgba(0,0,0,5%);transition:transform .15s,box-shadow .15s;position:relative;display:flex;flex-direction:column}.guide-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.guide-card-img{width:100%;height:150px;object-fit:cover;background:#e8eef4;display:block}.guide-card-img-ph{width:100%;height:150px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:2.5rem}.guide-card-body{padding:.9rem 1rem 1rem;flex:1}.guide-cat-badge{display:inline-block;font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;padding:.15rem .55rem;border-radius:8px;background:var(--red);color:#fff;margin-bottom:.4rem}.guide-card-title{font-size:.92rem;font-weight:800;color:var(--dark);line-height:1.4}.guide-coming-soon{position:absolute;top:.6rem;right:.6rem;background:rgba(0,0,0,.55);color:#fff;font-size:.65rem;font-weight:700;padding:.2rem .5rem;border-radius:6px;text-transform:uppercase;letter-spacing:.05em}.guide-card-link{text-decoration:none;color:inherit;display:flex;flex-direction:column;height:100%}.pref-toc{background:#fff;border-bottom:2px solid var(--border);position:sticky;top:0;z-index:100;overflow-x:auto}.pref-toc-inner{display:flex;gap:0;max-width:var(--max-w);margin:0 auto}.pref-toc-btn{flex:none;display:flex;align-items:center;gap:.4rem;padding:.8rem 1.2rem;border:none;background:0 0;cursor:pointer;font-family:inherit;font-size:.88rem;font-weight:600;color:var(--gray);border-bottom:3px solid transparent;transition:all .18s;white-space:nowrap}.pref-toc-btn .toc-icon{font-size:1.1rem}.pref-toc-btn:hover{color:var(--dark);background:#f8f8f8}.pref-toc-btn.active{color:var(--toc-color,var(--red));border-bottom-color:var(--toc-color,var(--red))}.spot-section{padding:2rem 1.5rem 2.5rem}.spot-section.hidden{display:none}.spot-section-inner{max-width:var(--max-w);margin:0 auto}.section-hd{display:flex;align-items:center;gap:.6rem;margin-bottom:1.4rem;padding-bottom:.7rem;border-bottom:2px solid var(--border)}.section-hd .s-icon{font-size:1.6rem}.section-hd h2{font-size:1.35rem;font-weight:800;margin:0}.section-hd .s-count{margin-left:auto;background:var(--sec-color,var(--red));color:#fff;border-radius:20px;padding:.15rem .65rem;font-size:.78rem;font-weight:700}.spot-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.25rem}.spot-card{border-radius:14px;overflow:hidden;border:1px solid var(--border);background:#fff;box-shadow:0 2px 8px rgba(0,0,0,6%);transition:transform .15s,box-shadow .15s;display:flex;flex-direction:column}.spot-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.spot-img{width:100%;height:200px;object-fit:cover;background:#e8eef4;display:block}.spot-img-ph{width:100%;height:200px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:3rem}.spot-body{padding:1rem 1.1rem 1.1rem;flex:1;display:flex;flex-direction:column}.spot-meta{display:flex;align-items:center;gap:.5rem;margin-bottom:.5rem}.spot-location{font-size:.78rem;color:var(--gray);font-weight:500}.spot-season-badge{margin-left:auto;font-size:.7rem;font-weight:700;padding:.1rem .5rem;border-radius:10px;background:#f0f4f8;color:#555;white-space:nowrap}.spot-name{font-size:1.08rem;font-weight:800;color:var(--dark);margin:0 0 .45rem;line-height:1.3}.spot-desc{font-size:.86rem;line-height:1.65;color:#555;flex:1;margin-bottom:.75rem}.spot-tags{display:flex;flex-wrap:wrap;gap:.3rem}.spot-tag{font-size:.7rem;font-weight:600;padding:.15rem .5rem;border-radius:6px;background:var(--tag-bg,#f0f4f8);color:var(--tag-color,#445)}.tips-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem}.tip-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 6px rgba(0,0,0,4%)}.tip-card-icon{font-size:1.8rem;margin-bottom:.6rem}.tip-card-title{font-size:.95rem;font-weight:800;color:var(--dark);margin-bottom:.5rem}.tip-card-body{font-size:.85rem;line-height:1.65;color:#555}.tip-card-body ul{margin:.3rem 0 0;padding-left:1.1rem}.tip-card-body li{margin-bottom:.2rem}.pref-cta{background:var(--bg-soft);padding:2.5rem 1.5rem 3rem;border-top:1px solid var(--border)}.pref-cta .pref-container{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}@media(max-width:600px){.pref-hero{min-height:320px}.quick-facts{grid-template-columns:repeat(2,1fr)}.pref-toc-btn{padding:.7rem .9rem;font-size:.82rem}}.btn-add-plan{display:inline-flex;align-items:center;gap:.35rem;margin-top:.75rem;padding:.45rem .9rem;border:1.5px solid #2d5be3;border-radius:8px;background:#fff;color:#2d5be3;font-size:.78rem;font-weight:700;font-family:inherit;cursor:pointer;transition:background .15s,color .15s,transform .1s;width:100%;justify-content:center}.btn-add-plan:hover{background:#2d5be3;color:#fff;transform:translateY(-1px)}.btn-add-plan.in-plan{background:#e8f0ff;color:#1a45a8;border-color:#1a45a8}.btn-add-plan.in-plan:hover{background:#c0003a;color:#fff;border-color:#c0003a}</style>
+<style>.pref-breadcrumb{background:#f8f9fa;border-bottom:1px solid var(--border);padding:.6rem 1.5rem;font-size:.82rem;color:var(--gray)}.pref-breadcrumb a{color:var(--red);text-decoration:none}.pref-breadcrumb a:hover{text-decoration:underline}.pref-breadcrumb span{margin:0 .4rem}.pref-hero{position:relative;min-height:440px;display:flex;align-items:flex-end;background:#0a1a2e 50%/cover no-repeat;background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Namahage_comes_up_now.jpg/960px-Namahage_comes_up_now.jpg)}.pref-hero::after{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,.15) 0%,rgba(0,0,0,.7) 100%)}.pref-hero-body{position:relative;z-index:1;padding:2.5rem 1.5rem 2rem;max-width:var(--max-w);margin:0 auto;width:100%}.pref-hero-eyebrow{color:rgba(255,255,255,.75);font-size:.82rem;font-weight:600;text-transform:uppercase;letter-spacing:.1em;margin-bottom:.5rem}.pref-hero h1{color:#fff;font-size:clamp(2.2rem,5.5vw,3.4rem);font-weight:900;margin:0 0 .5rem;line-height:1.1}.pref-hero .pref-sub{color:rgba(255,255,255,.88);font-size:1.05rem;max-width:560px;margin-bottom:1rem}.pref-stats{display:flex;flex-wrap:wrap;gap:.6rem}.pref-stat{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);border-radius:20px;padding:.3rem .85rem;color:#fff;font-size:.8rem;font-weight:600}.pref-section{padding:2.5rem 1.5rem}.pref-section+.pref-section{padding-top:0}.pref-container{max-width:var(--max-w);margin:0 auto}.pref-section-title{font-size:1.55rem;font-weight:900;margin:0 0 .4rem;display:flex;align-items:center;gap:.5rem}.pref-section-lead{font-size:1rem;color:#555;line-height:1.7;max-width:680px;margin-bottom:1.5rem}.ponko-guide{display:flex;align-items:flex-end;gap:0;margin-bottom:1.6rem}.ponko-bubble{flex:1;min-width:0;background:linear-gradient(135deg,#fff9f0,#fff3e0);border:2px solid #f5a623;border-radius:18px 18px 18px 4px;padding:1.2rem 1.5rem;position:relative;box-shadow:0 4px 14px rgba(245,166,35,.13)}.ponko-bubble::after{content:'';position:absolute;right:-18px;bottom:22px;border:9px solid transparent;border-left-color:#f5a623}.ponko-bubble::before{content:'';position:absolute;right:-13px;bottom:23px;z-index:1;border:8px solid transparent;border-left-color:#fff9f0}.ponko-bubble p{font-size:.97rem;line-height:1.8;color:#333;margin:0}.ponko-figure{flex-shrink:0;width:170px;margin-left:4px;animation:ponko-float 3s ease-in-out infinite}.ponko-figure img{width:100%;height:auto;display:block;filter:drop-shadow(0 6px 10px rgba(0,0,0,.18))}@keyframes ponko-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}@media(max-width:640px){.ponko-guide{flex-direction:column;align-items:center}.ponko-bubble{border-radius:18px;order:2;width:100%}.ponko-bubble::after,.ponko-bubble::before{display:none}.ponko-figure{order:1;width:130px;margin-left:0;margin-bottom:.5rem;animation:none}}.quick-facts{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.8rem;margin-top:1.4rem}.qf-card{background:#f8f9fb;border:1px solid var(--border);border-radius:12px;padding:1rem 1.1rem;display:flex;align-items:flex-start;gap:.7rem}.qf-icon{font-size:1.4rem;flex-shrink:0}.qf-label{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--gray);margin-bottom:.15rem}.qf-value{font-size:.9rem;font-weight:600;color:var(--dark)}.access-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}.access-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 8px rgba(0,0,0,5%)}.access-card-hd{display:flex;align-items:center;gap:.5rem;margin-bottom:.8rem}.access-card-icon{font-size:1.5rem}.access-card-title{font-size:1rem;font-weight:800;color:var(--dark)}.access-card ul{margin:0;padding-left:1.1rem}.access-card li{font-size:.875rem;line-height:1.65;color:#444;margin-bottom:.3rem}.access-card li strong{color:var(--dark)}.access-tip{margin-top:1.2rem;background:#fff8e6;border:1px solid #ffe0a0;border-radius:10px;padding:.9rem 1.1rem;font-size:.85rem;line-height:1.6;color:#5a3e00}.access-tip strong{display:block;margin-bottom:.2rem;font-size:.88rem}.guide-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem}.guide-card{background:#fff;border-radius:14px;overflow:hidden;border:1px solid var(--border);box-shadow:0 2px 8px rgba(0,0,0,5%);transition:transform .15s,box-shadow .15s;position:relative;display:flex;flex-direction:column}.guide-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.guide-card-img{width:100%;height:150px;object-fit:cover;background:#e8eef4;display:block}.guide-card-img-ph{width:100%;height:150px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:2.5rem}.guide-card-body{padding:.9rem 1rem 1rem;flex:1}.guide-cat-badge{display:inline-block;font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;padding:.15rem .55rem;border-radius:8px;background:var(--red);color:#fff;margin-bottom:.4rem}.guide-card-title{font-size:.92rem;font-weight:800;color:var(--dark);line-height:1.4}.guide-coming-soon{position:absolute;top:.6rem;right:.6rem;background:rgba(0,0,0,.55);color:#fff;font-size:.65rem;font-weight:700;padding:.2rem .5rem;border-radius:6px;text-transform:uppercase;letter-spacing:.05em}.guide-card-link{text-decoration:none;color:inherit;display:flex;flex-direction:column;height:100%}.pref-toc{background:#fff;border-bottom:2px solid var(--border);position:sticky;top:0;z-index:100;overflow-x:auto}.pref-toc-inner{display:flex;gap:0;max-width:var(--max-w);margin:0 auto}.pref-toc-btn{flex:none;display:flex;align-items:center;gap:.4rem;padding:.8rem 1.2rem;border:none;background:0 0;cursor:pointer;font-family:inherit;font-size:.88rem;font-weight:600;color:var(--gray);border-bottom:3px solid transparent;transition:all .18s;white-space:nowrap}.pref-toc-btn .toc-icon{font-size:1.1rem}.pref-toc-btn:hover{color:var(--dark);background:#f8f8f8}.pref-toc-btn.active{color:var(--toc-color,var(--red));border-bottom-color:var(--toc-color,var(--red))}.spot-section{padding:2rem 1.5rem 2.5rem}.spot-section.hidden{display:none}.spot-section-inner{max-width:var(--max-w);margin:0 auto}.section-hd{display:flex;align-items:center;gap:.6rem;margin-bottom:1.4rem;padding-bottom:.7rem;border-bottom:2px solid var(--border)}.section-hd .s-icon{font-size:1.6rem}.section-hd h2{font-size:1.35rem;font-weight:800;margin:0}.section-hd .s-count{margin-left:auto;background:var(--sec-color,var(--red));color:#fff;border-radius:20px;padding:.15rem .65rem;font-size:.78rem;font-weight:700}.spot-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.25rem}.spot-card{border-radius:14px;overflow:hidden;border:1px solid var(--border);background:#fff;box-shadow:0 2px 8px rgba(0,0,0,6%);transition:transform .15s,box-shadow .15s;display:flex;flex-direction:column}.spot-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.spot-img{width:100%;height:200px;object-fit:cover;background:#e8eef4;display:block}.spot-img-ph{width:100%;height:200px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:3rem}.spot-body{padding:1rem 1.1rem 1.1rem;flex:1;display:flex;flex-direction:column}.spot-meta{display:flex;align-items:center;gap:.5rem;margin-bottom:.5rem}.spot-location{font-size:.78rem;color:var(--gray);font-weight:500}.spot-season-badge{margin-left:auto;font-size:.7rem;font-weight:700;padding:.1rem .5rem;border-radius:10px;background:#f0f4f8;color:#555;white-space:nowrap}.spot-name{font-size:1.08rem;font-weight:800;color:var(--dark);margin:0 0 .45rem;line-height:1.3}.spot-desc{font-size:.86rem;line-height:1.65;color:#555;flex:1;margin-bottom:.75rem}.spot-tags{display:flex;flex-wrap:wrap;gap:.3rem}.spot-tag{font-size:.7rem;font-weight:600;padding:.15rem .5rem;border-radius:6px;background:var(--tag-bg,#f0f4f8);color:var(--tag-color,#445)}.tips-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem}.tip-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 6px rgba(0,0,0,4%)}.tip-card-icon{font-size:1.8rem;margin-bottom:.6rem}.tip-card-title{font-size:.95rem;font-weight:800;color:var(--dark);margin-bottom:.5rem}.tip-card-body{font-size:.85rem;line-height:1.65;color:#555}.tip-card-body ul{margin:.3rem 0 0;padding-left:1.1rem}.tip-card-body li{margin-bottom:.2rem}.pref-cta{background:var(--bg-soft);padding:2.5rem 1.5rem 3rem;border-top:1px solid var(--border)}.pref-cta .pref-container{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}@media(max-width:600px){.pref-hero{min-height:320px}.quick-facts{grid-template-columns:repeat(2,1fr)}.pref-toc-btn{padding:.7rem .9rem;font-size:.82rem}}.btn-add-plan{display:inline-flex;align-items:center;gap:.35rem;margin-top:.75rem;padding:.45rem .9rem;border:1.5px solid #2d5be3;border-radius:8px;background:#fff;color:#2d5be3;font-size:.78rem;font-weight:700;font-family:inherit;cursor:pointer;transition:background .15s,color .15s,transform .1s;width:100%;justify-content:center}.btn-add-plan:hover{background:#2d5be3;color:#fff;transform:translateY(-1px)}.btn-add-plan.in-plan{background:#e8f0ff;color:#1a45a8;border-color:#1a45a8}.btn-add-plan.in-plan:hover{background:#c0003a;color:#fff;border-color:#c0003a}.see-all-wrap{text-align:center;margin-top:1.5rem;padding-top:1rem;border-top:1px dashed var(--border)}.see-all-btn{display:inline-flex;align-items:center;gap:.4rem;padding:.55rem 1.5rem;border:2px solid;border-radius:10px;font-size:.88rem;font-weight:700;text-decoration:none;transition:all .15s}.see-all-btn:hover{opacity:.8;text-decoration:none}</style>
 <nav class=pref-breadcrumb aria-label=breadcrumb>
 <a href=/>Home</a><span>›</span>
 <a href=/explore/>Explore Japan</a><span>›</span>
@@ -386,8 +386,7 @@
 <span class=toc-icon>🎆</span> Events
 </button>
 </div>
-</nav>
-<section class=spot-section id=section-sightseeing data-cat=sightseeing>
+</nav><section class=spot-section id=section-sightseeing data-cat=sightseeing>
 <div class=spot-section-inner>
 <div class=section-hd style=--sec-color:#1a45a8>
 <span class=s-icon>⛩️</span>
@@ -395,6 +394,27 @@
 <span class=s-count>5 spots</span>
 </div>
 <div class=spot-grid>
+<article class=spot-card data-spot-id=shirakami-sanchi data-spot-name="Shirakami Sanchi (UNESCO)" data-spot-pref=akita data-spot-fee=0 data-spot-dur=150 data-spot-lat=40.43 data-spot-lng=140.35 data-spot-area=shirakami data-spot-rating=4.7 data-spot-reviews=2410 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Sirakami_santi.JPG/960px-Sirakami_santi.JPG data-spot-cats=sightseeing,nature>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Sirakami_santi.JPG/960px-Sirakami_santi.JPG alt="Shirakami Sanchi (UNESCO)" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Shirakami Sanchi, Nishimeya, Aomori / Akita</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Shirakami Sanchi (UNESCO)</h3>
+<p class=spot-desc>A vast UNESCO World Natural Heritage primeval beech forest straddling Akita and Aomori prefectures — the last great untouched virgin beech forest in East Asia. The Aoike (Blue Pond) within Shirakami glows a supernatural turquoise fed by mineral springs. Strictly limited visitor access preserves its extraordinary integrity.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>UNESCO</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Beech Forest</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Wilderness</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Primeval</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 <article class=spot-card data-spot-id=kakunodate-samurai data-spot-name="Kakunodate Samurai District" data-spot-pref=akita data-spot-fee=400 data-spot-dur=90 data-spot-lat=39.95 data-spot-lng=140.77 data-spot-area=kakunodate data-spot-rating=4.6 data-spot-reviews=2840 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Akita-Kakunodate_in_Autumn-xl.jpg/960px-Akita-Kakunodate_in_Autumn-xl.jpg data-spot-cats=sightseeing>
 <img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Akita-Kakunodate_in_Autumn-xl.jpg/960px-Akita-Kakunodate_in_Autumn-xl.jpg alt="Kakunodate Samurai District" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>⛩️</div>
@@ -458,27 +478,6 @@
 </button>
 </div>
 </article>
-<article class=spot-card data-spot-id=shirakami-sanchi data-spot-name="Shirakami Sanchi (UNESCO)" data-spot-pref=akita data-spot-fee=0 data-spot-dur=150 data-spot-lat=40.43 data-spot-lng=140.35 data-spot-area=shirakami data-spot-rating=4.7 data-spot-reviews=2410 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Sirakami_santi.JPG/960px-Sirakami_santi.JPG data-spot-cats=sightseeing,nature>
-<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Sirakami_santi.JPG/960px-Sirakami_santi.JPG alt="Shirakami Sanchi (UNESCO)" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>⛩️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Shirakami Sanchi, Nishimeya, Aomori / Akita</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Shirakami Sanchi (UNESCO)</h3>
-<p class=spot-desc>A vast UNESCO World Natural Heritage primeval beech forest straddling Akita and Aomori prefectures — the last great untouched virgin beech forest in East Asia. The Aoike (Blue Pond) within Shirakami glows a supernatural turquoise fed by mineral springs. Strictly limited visitor access preserves its extraordinary integrity.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>UNESCO</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Beech Forest</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Wilderness</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Primeval</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
 <article class=spot-card data-spot-id=akita-castle data-spot-name="Kubota Castle &amp;amp; Senshu Park" data-spot-pref=akita data-spot-fee=0 data-spot-dur=90 data-spot-lat=39.73 data-spot-lng=140.11 data-spot-area=akita-central data-spot-rating=4.3 data-spot-reviews=1680 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/%E5%8D%83%E7%A7%8B%E5%85%AC%E5%9C%92%E3%81%AE%E7%B4%85%E8%91%8904.jpg/960px-%E5%8D%83%E7%A7%8B%E5%85%AC%E5%9C%92%E3%81%AE%E7%B4%85%E8%91%8904.jpg data-spot-cats=sightseeing>
 <img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/%E5%8D%83%E7%A7%8B%E5%85%AC%E5%9C%92%E3%81%AE%E7%B4%85%E8%91%8904.jpg/960px-%E5%8D%83%E7%A7%8B%E5%85%AC%E5%9C%92%E3%81%AE%E7%B4%85%E8%91%8904.jpg alt="Kubota Castle & Senshu Park" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>⛩️</div>
@@ -502,8 +501,7 @@
 </article>
 </div>
 </div>
-</section>
-<section class=spot-section id=section-gourmet data-cat=gourmet>
+</section><section class=spot-section id=section-gourmet data-cat=gourmet>
 <div class=spot-section-inner>
 <div class=section-hd style=--sec-color:#D64000>
 <span class=s-icon>🍜</span>
@@ -511,27 +509,6 @@
 <span class=s-count>5 spots</span>
 </div>
 <div class=spot-grid>
-<article class=spot-card data-spot-id=kiritanpo data-spot-name="Kiritanpo Nabe (Hot Pot)" data-spot-pref=akita data-spot-fee=0 data-spot-dur=60 data-spot-lat=39.73 data-spot-lng=140.11 data-spot-area=akita-central data-spot-rating=4.5 data-spot-reviews=1240 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/0/09/Kiritanpo.jpg data-spot-cats=gourmet>
-<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/0/09/Kiritanpo.jpg alt="Kiritanpo Nabe (Hot Pot)" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>🍜</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Akita City, Akita</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Kiritanpo Nabe (Hot Pot)</h3>
-<p class=spot-desc>Akita's most iconic dish — freshly pounded rice is moulded onto cedar skewers, grilled over charcoal, then simmered in a rich broth with Hinai-jidori chicken (one of Japan's three great chickens), burdock, Japanese parsley, and maitake mushrooms. The mochi-like kiritanpo absorbs the umami-rich broth beautifully.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#fff0ea;color:#9a3000>Kiritanpo</span>
-<span class=spot-tag style=background:#fff0ea;color:#9a3000>Hot Pot</span>
-<span class=spot-tag style=background:#fff0ea;color:#9a3000>Hinai Chicken</span>
-<span class=spot-tag style=background:#fff0ea;color:#9a3000>Akita Specialty</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
 <article class=spot-card data-spot-id=inaniwa-udon data-spot-name="Inaniwa Udon" data-spot-pref=akita data-spot-fee=0 data-spot-dur=45 data-spot-lat=39.18 data-spot-lng=140.55 data-spot-area=yuzawa data-spot-rating=4.6 data-spot-reviews=980 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/%E7%A8%B2%E5%BA%AD%E3%81%86%E3%81%A9%E3%82%93.jpg/960px-%E7%A8%B2%E5%BA%AD%E3%81%86%E3%81%A9%E3%82%93.jpg data-spot-cats=gourmet>
 <img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/%E7%A8%B2%E5%BA%AD%E3%81%86%E3%81%A9%E3%82%93.jpg/960px-%E7%A8%B2%E5%BA%AD%E3%81%86%E3%81%A9%E3%82%93.jpg alt="Inaniwa Udon" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>🍜</div>
@@ -553,21 +530,21 @@
 </button>
 </div>
 </article>
-<article class=spot-card data-spot-id=akita-sake data-spot-name="Akita Sake — Japan&amp;#39;s Finest Rice Wine Region" data-spot-pref=akita data-spot-fee=0 data-spot-dur=90 data-spot-lat=39.73 data-spot-lng=140.11 data-spot-area=akita-central data-spot-rating=4.4 data-spot-reviews=1560 data-spot-img="https://plus.unsplash.com/premium_photo-1668988895616-95f0ed8adba8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8JUU2JTk3JUE1JUU2JTlDJUFDJUU5JTg1JTkyfGVufDB8fDB8fHww" data-spot-cats=gourmet>
-<img class=spot-img src="https://plus.unsplash.com/premium_photo-1668988895616-95f0ed8adba8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8JUU2JTk3JUE1JUU2JTlDJUFDJUU5JTg1JTkyfGVufDB8fDB8fHww" alt="Akita Sake — Japan's Finest Rice Wine Region" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<article class=spot-card data-spot-id=kiritanpo data-spot-name="Kiritanpo Nabe (Hot Pot)" data-spot-pref=akita data-spot-fee=0 data-spot-dur=60 data-spot-lat=39.73 data-spot-lng=140.11 data-spot-area=akita-central data-spot-rating=4.5 data-spot-reviews=1240 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/0/09/Kiritanpo.jpg data-spot-cats=gourmet>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/0/09/Kiritanpo.jpg alt="Kiritanpo Nabe (Hot Pot)" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>🍜</div>
 <div class=spot-body>
 <div class=spot-meta>
 <span class=spot-location>📍 Akita City, Akita</span>
 <span class=spot-season-badge></span>
 </div>
-<h3 class=spot-name>Akita Sake — Japan's Finest Rice Wine Region</h3>
-<p class=spot-desc>Akita is one of Japan's most celebrated sake prefectures — the combination of pure snowmelt water, high-quality Akita Komachi rice, and the cold winters that allow slow fermentation produces sake of exceptional clarity and elegance. Over 40 breweries welcome visitors; the Yamamoto, Kariho, and Dewatsuru labels are internationally recognised.</p>
+<h3 class=spot-name>Kiritanpo Nabe (Hot Pot)</h3>
+<p class=spot-desc>Akita's most iconic dish — freshly pounded rice is moulded onto cedar skewers, grilled over charcoal, then simmered in a rich broth with Hinai-jidori chicken (one of Japan's three great chickens), burdock, Japanese parsley, and maitake mushrooms. The mochi-like kiritanpo absorbs the umami-rich broth beautifully.</p>
 <div class=spot-tags>
-<span class=spot-tag style=background:#fff0ea;color:#9a3000>Sake</span>
-<span class=spot-tag style=background:#fff0ea;color:#9a3000>Rice Wine</span>
-<span class=spot-tag style=background:#fff0ea;color:#9a3000>Brewery</span>
-<span class=spot-tag style=background:#fff0ea;color:#9a3000>Tohoku</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>Kiritanpo</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>Hot Pot</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>Hinai Chicken</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>Akita Specialty</span>
 </div>
 <button class=btn-add-plan onclick=prefTogglePlan(this)>
 🗺️ Add to Plan
@@ -589,6 +566,27 @@
 <span class=spot-tag style=background:#fff0ea;color:#9a3000>Free-Range</span>
 <span class=spot-tag style=background:#fff0ea;color:#9a3000>One of Japan's Three Great Chickens</span>
 <span class=spot-tag style=background:#fff0ea;color:#9a3000>Local</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class=spot-card data-spot-id=akita-sake data-spot-name="Akita Sake — Japan&amp;#39;s Finest Rice Wine Region" data-spot-pref=akita data-spot-fee=0 data-spot-dur=90 data-spot-lat=39.73 data-spot-lng=140.11 data-spot-area=akita-central data-spot-rating=4.4 data-spot-reviews=1560 data-spot-img="https://plus.unsplash.com/premium_photo-1668988895616-95f0ed8adba8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8JUU2JTk3JUE1JUU2JTlDJUFDJUU5JTg1JTkyfGVufDB8fDB8fHww" data-spot-cats=gourmet>
+<img class=spot-img src="https://plus.unsplash.com/premium_photo-1668988895616-95f0ed8adba8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8JUU2JTk3JUE1JUU2JTlDJUFDJUU5JTg1JTkyfGVufDB8fDB8fHww" alt="Akita Sake — Japan's Finest Rice Wine Region" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🍜</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Akita City, Akita</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Akita Sake — Japan's Finest Rice Wine Region</h3>
+<p class=spot-desc>Akita is one of Japan's most celebrated sake prefectures — the combination of pure snowmelt water, high-quality Akita Komachi rice, and the cold winters that allow slow fermentation produces sake of exceptional clarity and elegance. Over 40 breweries welcome visitors; the Yamamoto, Kariho, and Dewatsuru labels are internationally recognised.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>Sake</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>Rice Wine</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>Brewery</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>Tohoku</span>
 </div>
 <button class=btn-add-plan onclick=prefTogglePlan(this)>
 🗺️ Add to Plan
@@ -618,8 +616,7 @@
 </article>
 </div>
 </div>
-</section>
-<section class=spot-section id=section-nature data-cat=nature>
+</section><section class=spot-section id=section-nature data-cat=nature>
 <div class=spot-section-inner>
 <div class=section-hd style=--sec-color:#1a7a34>
 <span class=s-icon>🏔️</span>
@@ -627,21 +624,21 @@
 <span class=s-count>7 spots</span>
 </div>
 <div class=spot-grid>
-<article class=spot-card data-spot-id=lake-tazawa data-spot-name="Lake Tazawa (Japan&amp;#39;s Deepest Lake)" data-spot-pref=akita data-spot-fee=0 data-spot-dur=120 data-spot-lat=40.18 data-spot-lng=140.51 data-spot-area=tazawako data-spot-rating=4.5 data-spot-reviews=3120 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Lake_Tazawa_and_Kansa-g%C5%AB_20210213.jpg/960px-Lake_Tazawa_and_Kansa-g%C5%AB_20210213.jpg data-spot-cats=sightseeing,nature>
-<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Lake_Tazawa_and_Kansa-g%C5%AB_20210213.jpg/960px-Lake_Tazawa_and_Kansa-g%C5%AB_20210213.jpg alt="Lake Tazawa (Japan's Deepest Lake)" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<article class=spot-card data-spot-id=nyuto-onsen data-spot-name="Nyuto Onsen Village" data-spot-pref=akita data-spot-fee=1200 data-spot-dur=120 data-spot-lat=40.33 data-spot-lng=140.71 data-spot-area=nyuto data-spot-rating=4.8 data-spot-reviews=2680 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Tsurunoyu_Onsen_photographed_in_autumn_2022_%286%29.jpg/960px-Tsurunoyu_Onsen_photographed_in_autumn_2022_%286%29.jpg data-spot-cats=nature,leisure>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Tsurunoyu_Onsen_photographed_in_autumn_2022_%286%29.jpg/960px-Tsurunoyu_Onsen_photographed_in_autumn_2022_%286%29.jpg alt="Nyuto Onsen Village" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>🏔️</div>
 <div class=spot-body>
 <div class=spot-meta>
-<span class=spot-location>📍 Tazawako, Senboku, Akita</span>
+<span class=spot-location>📍 Nyuto, Senboku, Akita</span>
 <span class=spot-season-badge></span>
 </div>
-<h3 class=spot-name>Lake Tazawa (Japan's Deepest Lake)</h3>
-<p class=spot-desc>Japan's deepest lake (423 m) glows a vivid cobalt blue year-round thanks to its extraordinary depth — it never freezes in winter. The golden statue of Tatsuko, a legendary beauty said to have become the lake's goddess, stands on the western shore. The surrounding caldera provides panoramic views from hiking trails above the rim.</p>
+<h3 class=spot-name>Nyuto Onsen Village</h3>
+<p class=spot-desc>One of Japan's most celebrated onsen destinations — seven rustic ryokan lodges scattered through the snowy beech forests of the Nyuto mountains, each drawing from different spring sources with distinct mineral compositions and colours. The famous milky-white sulphurous spring at Tsuru-no-yu ryokan, operating since 1638, is among the most atmospheric outdoor baths in Japan.</p>
 <div class=spot-tags>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Lake</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Deepest in Japan</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Tatsuko</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Cobalt Blue</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Onsen</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Milky White Springs</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Forest Baths</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Remote</span>
 </div>
 <button class=btn-add-plan onclick=prefTogglePlan(this)>
 🗺️ Add to Plan
@@ -669,21 +666,21 @@
 </button>
 </div>
 </article>
-<article class=spot-card data-spot-id=nyuto-onsen data-spot-name="Nyuto Onsen Village" data-spot-pref=akita data-spot-fee=1200 data-spot-dur=120 data-spot-lat=40.33 data-spot-lng=140.71 data-spot-area=nyuto data-spot-rating=4.8 data-spot-reviews=2680 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Tsurunoyu_Onsen_photographed_in_autumn_2022_%286%29.jpg/960px-Tsurunoyu_Onsen_photographed_in_autumn_2022_%286%29.jpg data-spot-cats=nature,leisure>
-<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Tsurunoyu_Onsen_photographed_in_autumn_2022_%286%29.jpg/960px-Tsurunoyu_Onsen_photographed_in_autumn_2022_%286%29.jpg alt="Nyuto Onsen Village" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<article class=spot-card data-spot-id=shirakami-hiking data-spot-name="Shirakami Anmon Waterfall Hike" data-spot-pref=akita data-spot-fee=0 data-spot-dur=150 data-spot-lat=40.41 data-spot-lng=140.38 data-spot-area=shirakami data-spot-rating=4.6 data-spot-reviews=1740 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/MG_1642-3s.jpg/500px-MG_1642-3s.jpg data-spot-cats=nature>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/MG_1642-3s.jpg/500px-MG_1642-3s.jpg alt="Shirakami Anmon Waterfall Hike" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>🏔️</div>
 <div class=spot-body>
 <div class=spot-meta>
-<span class=spot-location>📍 Nyuto, Senboku, Akita</span>
+<span class=spot-location>📍 Shirakami Sanchi, Nishimeya, Aomori / Akita</span>
 <span class=spot-season-badge></span>
 </div>
-<h3 class=spot-name>Nyuto Onsen Village</h3>
-<p class=spot-desc>One of Japan's most celebrated onsen destinations — seven rustic ryokan lodges scattered through the snowy beech forests of the Nyuto mountains, each drawing from different spring sources with distinct mineral compositions and colours. The famous milky-white sulphurous spring at Tsuru-no-yu ryokan, operating since 1638, is among the most atmospheric outdoor baths in Japan.</p>
+<h3 class=spot-name>Shirakami Anmon Waterfall Hike</h3>
+<p class=spot-desc>The Anmon Waterfall trail in Shirakami Sanchi is the most accessible route into the UNESCO beech forest — a 3 km hike through ancient woodland leads to three cascading falls, the largest dropping 26 m through moss-covered rocks. Spring brings wildflowers; autumn transforms the canopy into a riot of gold and crimson.</p>
 <div class=spot-tags>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Onsen</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Milky White Springs</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Forest Baths</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Remote</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Waterfall</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Beech Forest</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>UNESCO</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Hiking</span>
 </div>
 <button class=btn-add-plan onclick=prefTogglePlan(this)>
 🗺️ Add to Plan
@@ -732,42 +729,21 @@
 </button>
 </div>
 </article>
-<article class=spot-card data-spot-id=oga-coastline data-spot-name="Oga Peninsula Volcanic Coastline" data-spot-pref=akita data-spot-fee=0 data-spot-dur=180 data-spot-lat=40.32 data-spot-lng=139.78 data-spot-area=oga data-spot-rating=4.4 data-spot-reviews=1310 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Nyudozaki.jpg/960px-Nyudozaki.jpg data-spot-cats=nature>
-<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Nyudozaki.jpg/960px-Nyudozaki.jpg alt="Oga Peninsula Volcanic Coastline" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<article class=spot-card data-spot-id=lake-tazawa data-spot-name="Lake Tazawa (Japan&amp;#39;s Deepest Lake)" data-spot-pref=akita data-spot-fee=0 data-spot-dur=120 data-spot-lat=40.18 data-spot-lng=140.51 data-spot-area=tazawako data-spot-rating=4.5 data-spot-reviews=3120 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Lake_Tazawa_and_Kansa-g%C5%AB_20210213.jpg/960px-Lake_Tazawa_and_Kansa-g%C5%AB_20210213.jpg data-spot-cats=sightseeing,nature>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Lake_Tazawa_and_Kansa-g%C5%AB_20210213.jpg/960px-Lake_Tazawa_and_Kansa-g%C5%AB_20210213.jpg alt="Lake Tazawa (Japan's Deepest Lake)" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>🏔️</div>
 <div class=spot-body>
 <div class=spot-meta>
-<span class=spot-location>📍 Oga, Akita</span>
+<span class=spot-location>📍 Tazawako, Senboku, Akita</span>
 <span class=spot-season-badge></span>
 </div>
-<h3 class=spot-name>Oga Peninsula Volcanic Coastline</h3>
-<p class=spot-desc>The Oga Peninsula is a globally significant geopark — its dramatic sea cliffs expose 50-million-year-old volcanic strata, and the famous Godzilla Rock formation at Kanpuzaki is a favourite for sunset photography. The 60 km coastal drive passes sea caves, tidal pools, and fishing villages largely untouched by tourism.</p>
+<h3 class=spot-name>Lake Tazawa (Japan's Deepest Lake)</h3>
+<p class=spot-desc>Japan's deepest lake (423 m) glows a vivid cobalt blue year-round thanks to its extraordinary depth — it never freezes in winter. The golden statue of Tatsuko, a legendary beauty said to have become the lake's goddess, stands on the western shore. The surrounding caldera provides panoramic views from hiking trails above the rim.</p>
 <div class=spot-tags>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Sea Cliffs</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Volcanic Rock</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Geopark</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Sunset</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=shirakami-hiking data-spot-name="Shirakami Anmon Waterfall Hike" data-spot-pref=akita data-spot-fee=0 data-spot-dur=150 data-spot-lat=40.41 data-spot-lng=140.38 data-spot-area=shirakami data-spot-rating=4.6 data-spot-reviews=1740 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/MG_1642-3s.jpg/500px-MG_1642-3s.jpg data-spot-cats=nature>
-<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/MG_1642-3s.jpg/500px-MG_1642-3s.jpg alt="Shirakami Anmon Waterfall Hike" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>🏔️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Shirakami Sanchi, Nishimeya, Aomori / Akita</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Shirakami Anmon Waterfall Hike</h3>
-<p class=spot-desc>The Anmon Waterfall trail in Shirakami Sanchi is the most accessible route into the UNESCO beech forest — a 3 km hike through ancient woodland leads to three cascading falls, the largest dropping 26 m through moss-covered rocks. Spring brings wildflowers; autumn transforms the canopy into a riot of gold and crimson.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Waterfall</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Beech Forest</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>UNESCO</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Hiking</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Lake</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Deepest in Japan</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Tatsuko</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Cobalt Blue</span>
 </div>
 <button class=btn-add-plan onclick=prefTogglePlan(this)>
 🗺️ Add to Plan
@@ -775,9 +751,13 @@
 </div>
 </article>
 </div>
+<div class=see-all-wrap>
+<a class=see-all-btn style=color:#1a7a34 href=/prefectures/akita/spots/#nature>
+See all 7 Nature spots →
+</a>
 </div>
-</section>
-<section class=spot-section id=section-leisure data-cat=leisure>
+</div>
+</section><section class=spot-section id=section-leisure data-cat=leisure>
 <div class=spot-section-inner>
 <div class=section-hd style=--sec-color:#b35c00>
 <span class=s-icon>🎿</span>
@@ -806,6 +786,27 @@
 </button>
 </div>
 </article>
+<article class=spot-card data-spot-id=nyuto-rotenburo data-spot-name="Nyuto Onsen Forest Bathing" data-spot-pref=akita data-spot-fee=1200 data-spot-dur=90 data-spot-lat=40.33 data-spot-lng=140.71 data-spot-area=nyuto data-spot-rating=4.8 data-spot-reviews=2340 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Beech_forest_in_Nyuto_Onsenkyo_%282%29.jpg/960px-Beech_forest_in_Nyuto_Onsenkyo_%282%29.jpg data-spot-cats=leisure>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Beech_forest_in_Nyuto_Onsenkyo_%282%29.jpg/960px-Beech_forest_in_Nyuto_Onsenkyo_%282%29.jpg alt="Nyuto Onsen Forest Bathing" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎿</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Nyuto, Senboku, Akita</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Nyuto Onsen Forest Bathing</h3>
+<p class=spot-desc>Bathing in Nyuto Onsen's outdoor pools while deep snow blankets the surrounding beech forest is one of Japan's most sought-after winter experiences. Tsuru-no-yu's mixed outdoor bath (konyoku rotenburo) open since 1638 is the most photographed onsen in Japan — arrive at dawn before tour groups for the full atmosphere.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Open-Air Bath</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Snow Bathing</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Forest</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Relaxation</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 <article class=spot-card data-spot-id=tazawako-skiing data-spot-name="Tazawako &amp;amp; Hachimantai Skiing" data-spot-pref=akita data-spot-fee=5000 data-spot-dur=240 data-spot-lat=40.19 data-spot-lng=140.56 data-spot-area=tazawako data-spot-rating=4.4 data-spot-reviews=950 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/APPI_Ski_Resort_jan_2023e.jpg/500px-APPI_Ski_Resort_jan_2023e.jpg data-spot-cats=leisure>
 <img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/APPI_Ski_Resort_jan_2023e.jpg/500px-APPI_Ski_Resort_jan_2023e.jpg alt="Tazawako & Hachimantai Skiing" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>🎿</div>
@@ -821,27 +822,6 @@
 <span class=spot-tag style=background:#fff3e0;color:#7a3f00>Powder Snow</span>
 <span class=spot-tag style=background:#fff3e0;color:#7a3f00>Lake Views</span>
 <span class=spot-tag style=background:#fff3e0;color:#7a3f00>Tohoku</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=akita-dog data-spot-name="Akita Inu — Japan&amp;#39;s National Dog" data-spot-pref=akita data-spot-fee=800 data-spot-dur=60 data-spot-lat=40.27 data-spot-lng=140.84 data-spot-area=odate data-spot-rating=4.3 data-spot-reviews=1180 data-spot-img="https://images.unsplash.com/photo-1616832212184-aeeb37024620?q=80&w=765&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" data-spot-cats=leisure>
-<img class=spot-img src="https://images.unsplash.com/photo-1616832212184-aeeb37024620?q=80&w=765&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Akita Inu — Japan's National Dog" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>🎿</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Odate, Akita</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Akita Inu — Japan's National Dog</h3>
-<p class=spot-desc>The Akita is Japan's most famous dog breed — designated a national natural monument in 1931. The Akita Inu Tourism Association in Odate city (breed's birthplace) runs an experience centre where visitors can meet and pet these powerful, loyal dogs. Odate also has a monument to Hachiko, the most famous Akita of all, who was born nearby.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Akita Dog</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Hachiko</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>National Monument</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Dog</span>
 </div>
 <button class=btn-add-plan onclick=prefTogglePlan(this)>
 🗺️ Add to Plan
@@ -869,21 +849,21 @@
 </button>
 </div>
 </article>
-<article class=spot-card data-spot-id=nyuto-rotenburo data-spot-name="Nyuto Onsen Forest Bathing" data-spot-pref=akita data-spot-fee=1200 data-spot-dur=90 data-spot-lat=40.33 data-spot-lng=140.71 data-spot-area=nyuto data-spot-rating=4.8 data-spot-reviews=2340 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Beech_forest_in_Nyuto_Onsenkyo_%282%29.jpg/960px-Beech_forest_in_Nyuto_Onsenkyo_%282%29.jpg data-spot-cats=leisure>
-<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Beech_forest_in_Nyuto_Onsenkyo_%282%29.jpg/960px-Beech_forest_in_Nyuto_Onsenkyo_%282%29.jpg alt="Nyuto Onsen Forest Bathing" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<article class=spot-card data-spot-id=akita-dog data-spot-name="Akita Inu — Japan&amp;#39;s National Dog" data-spot-pref=akita data-spot-fee=800 data-spot-dur=60 data-spot-lat=40.27 data-spot-lng=140.84 data-spot-area=odate data-spot-rating=4.3 data-spot-reviews=1180 data-spot-img="https://images.unsplash.com/photo-1616832212184-aeeb37024620?q=80&w=765&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" data-spot-cats=leisure>
+<img class=spot-img src="https://images.unsplash.com/photo-1616832212184-aeeb37024620?q=80&w=765&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Akita Inu — Japan's National Dog" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>🎿</div>
 <div class=spot-body>
 <div class=spot-meta>
-<span class=spot-location>📍 Nyuto, Senboku, Akita</span>
+<span class=spot-location>📍 Odate, Akita</span>
 <span class=spot-season-badge></span>
 </div>
-<h3 class=spot-name>Nyuto Onsen Forest Bathing</h3>
-<p class=spot-desc>Bathing in Nyuto Onsen's outdoor pools while deep snow blankets the surrounding beech forest is one of Japan's most sought-after winter experiences. Tsuru-no-yu's mixed outdoor bath (konyoku rotenburo) open since 1638 is the most photographed onsen in Japan — arrive at dawn before tour groups for the full atmosphere.</p>
+<h3 class=spot-name>Akita Inu — Japan's National Dog</h3>
+<p class=spot-desc>The Akita is Japan's most famous dog breed — designated a national natural monument in 1931. The Akita Inu Tourism Association in Odate city (breed's birthplace) runs an experience centre where visitors can meet and pet these powerful, loyal dogs. Odate also has a monument to Hachiko, the most famous Akita of all, who was born nearby.</p>
 <div class=spot-tags>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Open-Air Bath</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Snow Bathing</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Forest</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Relaxation</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Akita Dog</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Hachiko</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>National Monument</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Dog</span>
 </div>
 <button class=btn-add-plan onclick=prefTogglePlan(this)>
 🗺️ Add to Plan
@@ -892,8 +872,7 @@
 </article>
 </div>
 </div>
-</section>
-<section class=spot-section id=section-events data-cat=events>
+</section><section class=spot-section id=section-events data-cat=events>
 <div class=spot-section-inner>
 <div class=section-hd style=--sec-color:#b5006e>
 <span class=s-icon>🎆</span>
@@ -901,21 +880,21 @@
 <span class=s-count>6 spots</span>
 </div>
 <div class=spot-grid>
-<article class=spot-card data-spot-id=kanto-festival data-spot-name="Akita Kantō Festival (Aug)" data-spot-pref=akita data-spot-fee=0 data-spot-dur=120 data-spot-lat=39.73 data-spot-lng=140.11 data-spot-area=akita-central data-spot-rating=4.6 data-spot-reviews=1650 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Akita_Kanto_Festival_2023d.jpg/960px-Akita_Kanto_Festival_2023d.jpg data-spot-cats=events>
-<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Akita_Kanto_Festival_2023d.jpg/960px-Akita_Kanto_Festival_2023d.jpg alt="Akita Kantō Festival (Aug)" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<article class=spot-card data-spot-id=omagari-fireworks data-spot-name="Omagari All-Japan Fireworks Championship (Aug)" data-spot-pref=akita data-spot-fee=0 data-spot-dur=180 data-spot-lat=39.55 data-spot-lng=140.37 data-spot-area=daisen data-spot-rating=4.8 data-spot-reviews=3840 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/%E5%A4%A7%E4%BC%9A%E6%8F%90%E4%BE%9B%E8%8A%B1%E7%81%AB%EF%BC%882014%EF%BC%89.JPG/960px-%E5%A4%A7%E4%BC%9A%E6%8F%90%E4%BE%9B%E8%8A%B1%E7%81%AB%EF%BC%882014%EF%BC%89.JPG data-spot-cats=events>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/%E5%A4%A7%E4%BC%9A%E6%8F%90%E4%BE%9B%E8%8A%B1%E7%81%AB%EF%BC%882014%EF%BC%89.JPG/960px-%E5%A4%A7%E4%BC%9A%E6%8F%90%E4%BE%9B%E8%8A%B1%E7%81%AB%EF%BC%882014%EF%BC%89.JPG alt="Omagari All-Japan Fireworks Championship (Aug)" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>🎆</div>
 <div class=spot-body>
 <div class=spot-meta>
-<span class=spot-location>📍 Akita City, Akita</span>
+<span class=spot-location>📍 Daisen, Akita</span>
 <span class=spot-season-badge></span>
 </div>
-<h3 class=spot-name>Akita Kantō Festival (Aug)</h3>
-<p class=spot-desc>One of Tohoku's four great festivals and a UNESCO Intangible Cultural Heritage — the Akita Kantō Festival fills the city's main boulevard for four evenings in early August with performers balancing towering bamboo poles hung with up to 46 lit paper lanterns on their palms, foreheads, and shoulders. Each pole weighs 50 kg and stands 12 m tall.</p>
+<h3 class=spot-name>Omagari All-Japan Fireworks Championship (Aug)</h3>
+<p class=spot-desc>Japan's most prestigious fireworks competition — held in Daisen (formerly Omagari) on the last Saturday of August, this century-old competition draws 30 pyrotechnic teams from across Japan to display their finest original creations. Over 18,000 shells light up the night sky above the Omono River before 800,000 spectators.</p>
 <div class=spot-tags>
-<span class=spot-tag style=background:#ffe8f4;color:#88004e>Kantō Festival</span>
-<span class=spot-tag style=background:#ffe8f4;color:#88004e>Bamboo Poles</span>
-<span class=spot-tag style=background:#ffe8f4;color:#88004e>UNESCO</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>Fireworks</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>Competition</span>
 <span class=spot-tag style=background:#ffe8f4;color:#88004e>August</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>National Championship</span>
 </div>
 <button class=btn-add-plan onclick=prefTogglePlan(this)>
 🗺️ Add to Plan
@@ -964,21 +943,42 @@
 </button>
 </div>
 </article>
-<article class=spot-card data-spot-id=omagari-fireworks data-spot-name="Omagari All-Japan Fireworks Championship (Aug)" data-spot-pref=akita data-spot-fee=0 data-spot-dur=180 data-spot-lat=39.55 data-spot-lng=140.37 data-spot-area=daisen data-spot-rating=4.8 data-spot-reviews=3840 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/%E5%A4%A7%E4%BC%9A%E6%8F%90%E4%BE%9B%E8%8A%B1%E7%81%AB%EF%BC%882014%EF%BC%89.JPG/960px-%E5%A4%A7%E4%BC%9A%E6%8F%90%E4%BE%9B%E8%8A%B1%E7%81%AB%EF%BC%882014%EF%BC%89.JPG data-spot-cats=events>
-<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/%E5%A4%A7%E4%BC%9A%E6%8F%90%E4%BE%9B%E8%8A%B1%E7%81%AB%EF%BC%882014%EF%BC%89.JPG/960px-%E5%A4%A7%E4%BC%9A%E6%8F%90%E4%BE%9B%E8%8A%B1%E7%81%AB%EF%BC%882014%EF%BC%89.JPG alt="Omagari All-Japan Fireworks Championship (Aug)" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<article class=spot-card data-spot-id=akita-autumn-foliage data-spot-name="Towada-Hachimantai Autumn Foliage (Oct)" data-spot-pref=akita data-spot-fee=0 data-spot-dur=180 data-spot-lat=40.32 data-spot-lng=140.88 data-spot-area=hachimantai data-spot-rating=4.7 data-spot-reviews=1680 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/%D0%A5%D0%B0%D0%BA%D0%BA%D0%BE%D0%B4%D0%B0_%D1%81%D1%83%D0%B9%D1%80%D0%B5%D0%BD_%D0%BD%D1%83%D0%BC%D0%B0.jpg/960px-%D0%A5%D0%B0%D0%BA%D0%BA%D0%BE%D0%B4%D0%B0_%D1%81%D1%83%D0%B9%D1%80%D0%B5%D0%BD_%D0%BD%D1%83%D0%BC%D0%B0.jpg data-spot-cats=events>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/%D0%A5%D0%B0%D0%BA%D0%BA%D0%BE%D0%B4%D0%B0_%D1%81%D1%83%D0%B9%D1%80%D0%B5%D0%BD_%D0%BD%D1%83%D0%BC%D0%B0.jpg/960px-%D0%A5%D0%B0%D0%BA%D0%BA%D0%BE%D0%B4%D0%B0_%D1%81%D1%83%D0%B9%D1%80%D0%B5%D0%BD_%D0%BD%D1%83%D0%BC%D0%B0.jpg alt="Towada-Hachimantai Autumn Foliage (Oct)" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>🎆</div>
 <div class=spot-body>
 <div class=spot-meta>
-<span class=spot-location>📍 Daisen, Akita</span>
+<span class=spot-location>📍 Hachimantai, Kazuno, Akita</span>
 <span class=spot-season-badge></span>
 </div>
-<h3 class=spot-name>Omagari All-Japan Fireworks Championship (Aug)</h3>
-<p class=spot-desc>Japan's most prestigious fireworks competition — held in Daisen (formerly Omagari) on the last Saturday of August, this century-old competition draws 30 pyrotechnic teams from across Japan to display their finest original creations. Over 18,000 shells light up the night sky above the Omono River before 800,000 spectators.</p>
+<h3 class=spot-name>Towada-Hachimantai Autumn Foliage (Oct)</h3>
+<p class=spot-desc>The Hachimantai Aspite Line mountain road turns incandescent in mid-October — crimson and gold beech forest flanks both sides of the road as it crosses the volcanic plateau, and the Goshikinu marsh reflects the autumn canopy in perfect stillness. Widely regarded as one of Tohoku's finest autumn foliage experiences.</p>
 <div class=spot-tags>
-<span class=spot-tag style=background:#ffe8f4;color:#88004e>Fireworks</span>
-<span class=spot-tag style=background:#ffe8f4;color:#88004e>Competition</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>Autumn Foliage</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>Aspite Line</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>National Park</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>October</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class=spot-card data-spot-id=kanto-festival data-spot-name="Akita Kantō Festival (Aug)" data-spot-pref=akita data-spot-fee=0 data-spot-dur=120 data-spot-lat=39.73 data-spot-lng=140.11 data-spot-area=akita-central data-spot-rating=4.6 data-spot-reviews=1650 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Akita_Kanto_Festival_2023d.jpg/960px-Akita_Kanto_Festival_2023d.jpg data-spot-cats=events>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Akita_Kanto_Festival_2023d.jpg/960px-Akita_Kanto_Festival_2023d.jpg alt="Akita Kantō Festival (Aug)" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎆</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Akita City, Akita</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Akita Kantō Festival (Aug)</h3>
+<p class=spot-desc>One of Tohoku's four great festivals and a UNESCO Intangible Cultural Heritage — the Akita Kantō Festival fills the city's main boulevard for four evenings in early August with performers balancing towering bamboo poles hung with up to 46 lit paper lanterns on their palms, foreheads, and shoulders. Each pole weighs 50 kg and stands 12 m tall.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>Kantō Festival</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>Bamboo Poles</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>UNESCO</span>
 <span class=spot-tag style=background:#ffe8f4;color:#88004e>August</span>
-<span class=spot-tag style=background:#ffe8f4;color:#88004e>National Championship</span>
 </div>
 <button class=btn-add-plan onclick=prefTogglePlan(this)>
 🗺️ Add to Plan
@@ -1000,27 +1000,6 @@
 <span class=spot-tag style=background:#ffe8f4;color:#88004e>Snow Lanterns</span>
 <span class=spot-tag style=background:#ffe8f4;color:#88004e>Winter Festival</span>
 <span class=spot-tag style=background:#ffe8f4;color:#88004e>Unique</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=akita-autumn-foliage data-spot-name="Towada-Hachimantai Autumn Foliage (Oct)" data-spot-pref=akita data-spot-fee=0 data-spot-dur=180 data-spot-lat=40.32 data-spot-lng=140.88 data-spot-area=hachimantai data-spot-rating=4.7 data-spot-reviews=1680 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/%D0%A5%D0%B0%D0%BA%D0%BA%D0%BE%D0%B4%D0%B0_%D1%81%D1%83%D0%B9%D1%80%D0%B5%D0%BD_%D0%BD%D1%83%D0%BC%D0%B0.jpg/960px-%D0%A5%D0%B0%D0%BA%D0%BA%D0%BE%D0%B4%D0%B0_%D1%81%D1%83%D0%B9%D1%80%D0%B5%D0%BD_%D0%BD%D1%83%D0%BC%D0%B0.jpg data-spot-cats=events>
-<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/%D0%A5%D0%B0%D0%BA%D0%BA%D0%BE%D0%B4%D0%B0_%D1%81%D1%83%D0%B9%D1%80%D0%B5%D0%BD_%D0%BD%D1%83%D0%BC%D0%B0.jpg/960px-%D0%A5%D0%B0%D0%BA%D0%BA%D0%BE%D0%B4%D0%B0_%D1%81%D1%83%D0%B9%D1%80%D0%B5%D0%BD_%D0%BD%D1%83%D0%BC%D0%B0.jpg alt="Towada-Hachimantai Autumn Foliage (Oct)" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>🎆</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Hachimantai, Kazuno, Akita</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Towada-Hachimantai Autumn Foliage (Oct)</h3>
-<p class=spot-desc>The Hachimantai Aspite Line mountain road turns incandescent in mid-October — crimson and gold beech forest flanks both sides of the road as it crosses the volcanic plateau, and the Goshikinu marsh reflects the autumn canopy in perfect stillness. Widely regarded as one of Tohoku's finest autumn foliage experiences.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#ffe8f4;color:#88004e>Autumn Foliage</span>
-<span class=spot-tag style=background:#ffe8f4;color:#88004e>Aspite Line</span>
-<span class=spot-tag style=background:#ffe8f4;color:#88004e>National Park</span>
-<span class=spot-tag style=background:#ffe8f4;color:#88004e>October</span>
 </div>
 <button class=btn-add-plan onclick=prefTogglePlan(this)>
 🗺️ Add to Plan

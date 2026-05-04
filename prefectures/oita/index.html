@@ -85,7 +85,7 @@
   document.addEventListener('keydown', function(e){ if(e.key==='Escape') close(); });
 })();
 </script>
-<style>.pref-breadcrumb{background:#f8f9fa;border-bottom:1px solid var(--border);padding:.6rem 1.5rem;font-size:.82rem;color:var(--gray)}.pref-breadcrumb a{color:var(--red);text-decoration:none}.pref-breadcrumb a:hover{text-decoration:underline}.pref-breadcrumb span{margin:0 .4rem}.pref-hero{position:relative;min-height:440px;display:flex;align-items:flex-end;background:#2a0a00 50%/cover no-repeat;background-image:url(https://images.unsplash.com/photo-1590559899731-a382839e5549?w=1200&q=85)}.pref-hero::after{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,.15) 0%,rgba(0,0,0,.7) 100%)}.pref-hero-body{position:relative;z-index:1;padding:2.5rem 1.5rem 2rem;max-width:var(--max-w);margin:0 auto;width:100%}.pref-hero-eyebrow{color:rgba(255,255,255,.75);font-size:.82rem;font-weight:600;text-transform:uppercase;letter-spacing:.1em;margin-bottom:.5rem}.pref-hero h1{color:#fff;font-size:clamp(2.2rem,5.5vw,3.4rem);font-weight:900;margin:0 0 .5rem;line-height:1.1}.pref-hero .pref-sub{color:rgba(255,255,255,.88);font-size:1.05rem;max-width:560px;margin-bottom:1rem}.pref-stats{display:flex;flex-wrap:wrap;gap:.6rem}.pref-stat{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);border-radius:20px;padding:.3rem .85rem;color:#fff;font-size:.8rem;font-weight:600}.pref-section{padding:2.5rem 1.5rem}.pref-section+.pref-section{padding-top:0}.pref-container{max-width:var(--max-w);margin:0 auto}.pref-section-title{font-size:1.55rem;font-weight:900;margin:0 0 .4rem;display:flex;align-items:center;gap:.5rem}.pref-section-lead{font-size:1rem;color:#555;line-height:1.7;max-width:680px;margin-bottom:1.5rem}.ponko-guide{display:flex;align-items:flex-end;gap:0;margin-bottom:1.6rem}.ponko-bubble{flex:1;min-width:0;background:linear-gradient(135deg,#fff9f0,#fff3e0);border:2px solid #f5a623;border-radius:18px 18px 18px 4px;padding:1.2rem 1.5rem;position:relative;box-shadow:0 4px 14px rgba(245,166,35,.13)}.ponko-bubble::after{content:'';position:absolute;right:-18px;bottom:22px;border:9px solid transparent;border-left-color:#f5a623}.ponko-bubble::before{content:'';position:absolute;right:-13px;bottom:23px;z-index:1;border:8px solid transparent;border-left-color:#fff9f0}.ponko-bubble p{font-size:.97rem;line-height:1.8;color:#333;margin:0}.ponko-figure{flex-shrink:0;width:170px;margin-left:4px;animation:ponko-float 3s ease-in-out infinite}.ponko-figure img{width:100%;height:auto;display:block;filter:drop-shadow(0 6px 10px rgba(0,0,0,.18))}@keyframes ponko-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}@media(max-width:640px){.ponko-guide{flex-direction:column;align-items:center}.ponko-bubble{border-radius:18px;order:2;width:100%}.ponko-bubble::after,.ponko-bubble::before{display:none}.ponko-figure{order:1;width:130px;margin-left:0;margin-bottom:.5rem;animation:none}}.quick-facts{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.8rem;margin-top:1.4rem}.qf-card{background:#f8f9fb;border:1px solid var(--border);border-radius:12px;padding:1rem 1.1rem;display:flex;align-items:flex-start;gap:.7rem}.qf-icon{font-size:1.4rem;flex-shrink:0}.qf-label{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--gray);margin-bottom:.15rem}.qf-value{font-size:.9rem;font-weight:600;color:var(--dark)}.access-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}.access-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 8px rgba(0,0,0,5%)}.access-card-hd{display:flex;align-items:center;gap:.5rem;margin-bottom:.8rem}.access-card-icon{font-size:1.5rem}.access-card-title{font-size:1rem;font-weight:800;color:var(--dark)}.access-card ul{margin:0;padding-left:1.1rem}.access-card li{font-size:.875rem;line-height:1.65;color:#444;margin-bottom:.3rem}.access-card li strong{color:var(--dark)}.access-tip{margin-top:1.2rem;background:#fff8e6;border:1px solid #ffe0a0;border-radius:10px;padding:.9rem 1.1rem;font-size:.85rem;line-height:1.6;color:#5a3e00}.access-tip strong{display:block;margin-bottom:.2rem;font-size:.88rem}.guide-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem}.guide-card{background:#fff;border-radius:14px;overflow:hidden;border:1px solid var(--border);box-shadow:0 2px 8px rgba(0,0,0,5%);transition:transform .15s,box-shadow .15s;position:relative;display:flex;flex-direction:column}.guide-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.guide-card-img{width:100%;height:150px;object-fit:cover;background:#e8eef4;display:block}.guide-card-img-ph{width:100%;height:150px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:2.5rem}.guide-card-body{padding:.9rem 1rem 1rem;flex:1}.guide-cat-badge{display:inline-block;font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;padding:.15rem .55rem;border-radius:8px;background:var(--red);color:#fff;margin-bottom:.4rem}.guide-card-title{font-size:.92rem;font-weight:800;color:var(--dark);line-height:1.4}.guide-coming-soon{position:absolute;top:.6rem;right:.6rem;background:rgba(0,0,0,.55);color:#fff;font-size:.65rem;font-weight:700;padding:.2rem .5rem;border-radius:6px;text-transform:uppercase;letter-spacing:.05em}.guide-card-link{text-decoration:none;color:inherit;display:flex;flex-direction:column;height:100%}.pref-toc{background:#fff;border-bottom:2px solid var(--border);position:sticky;top:0;z-index:100;overflow-x:auto}.pref-toc-inner{display:flex;gap:0;max-width:var(--max-w);margin:0 auto}.pref-toc-btn{flex:none;display:flex;align-items:center;gap:.4rem;padding:.8rem 1.2rem;border:none;background:0 0;cursor:pointer;font-family:inherit;font-size:.88rem;font-weight:600;color:var(--gray);border-bottom:3px solid transparent;transition:all .18s;white-space:nowrap}.pref-toc-btn .toc-icon{font-size:1.1rem}.pref-toc-btn:hover{color:var(--dark);background:#f8f8f8}.pref-toc-btn.active{color:var(--toc-color,var(--red));border-bottom-color:var(--toc-color,var(--red))}.spot-section{padding:2rem 1.5rem 2.5rem}.spot-section.hidden{display:none}.spot-section-inner{max-width:var(--max-w);margin:0 auto}.section-hd{display:flex;align-items:center;gap:.6rem;margin-bottom:1.4rem;padding-bottom:.7rem;border-bottom:2px solid var(--border)}.section-hd .s-icon{font-size:1.6rem}.section-hd h2{font-size:1.35rem;font-weight:800;margin:0}.section-hd .s-count{margin-left:auto;background:var(--sec-color,var(--red));color:#fff;border-radius:20px;padding:.15rem .65rem;font-size:.78rem;font-weight:700}.spot-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.25rem}.spot-card{border-radius:14px;overflow:hidden;border:1px solid var(--border);background:#fff;box-shadow:0 2px 8px rgba(0,0,0,6%);transition:transform .15s,box-shadow .15s;display:flex;flex-direction:column}.spot-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.spot-img{width:100%;height:200px;object-fit:cover;background:#e8eef4;display:block}.spot-img-ph{width:100%;height:200px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:3rem}.spot-body{padding:1rem 1.1rem 1.1rem;flex:1;display:flex;flex-direction:column}.spot-meta{display:flex;align-items:center;gap:.5rem;margin-bottom:.5rem}.spot-location{font-size:.78rem;color:var(--gray);font-weight:500}.spot-season-badge{margin-left:auto;font-size:.7rem;font-weight:700;padding:.1rem .5rem;border-radius:10px;background:#f0f4f8;color:#555;white-space:nowrap}.spot-name{font-size:1.08rem;font-weight:800;color:var(--dark);margin:0 0 .45rem;line-height:1.3}.spot-desc{font-size:.86rem;line-height:1.65;color:#555;flex:1;margin-bottom:.75rem}.spot-tags{display:flex;flex-wrap:wrap;gap:.3rem}.spot-tag{font-size:.7rem;font-weight:600;padding:.15rem .5rem;border-radius:6px;background:var(--tag-bg,#f0f4f8);color:var(--tag-color,#445)}.tips-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem}.tip-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 6px rgba(0,0,0,4%)}.tip-card-icon{font-size:1.8rem;margin-bottom:.6rem}.tip-card-title{font-size:.95rem;font-weight:800;color:var(--dark);margin-bottom:.5rem}.tip-card-body{font-size:.85rem;line-height:1.65;color:#555}.tip-card-body ul{margin:.3rem 0 0;padding-left:1.1rem}.tip-card-body li{margin-bottom:.2rem}.pref-cta{background:var(--bg-soft);padding:2.5rem 1.5rem 3rem;border-top:1px solid var(--border)}.pref-cta .pref-container{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}@media(max-width:600px){.pref-hero{min-height:320px}.quick-facts{grid-template-columns:repeat(2,1fr)}.pref-toc-btn{padding:.7rem .9rem;font-size:.82rem}}.btn-add-plan{display:inline-flex;align-items:center;gap:.35rem;margin-top:.75rem;padding:.45rem .9rem;border:1.5px solid #2d5be3;border-radius:8px;background:#fff;color:#2d5be3;font-size:.78rem;font-weight:700;font-family:inherit;cursor:pointer;transition:background .15s,color .15s,transform .1s;width:100%;justify-content:center}.btn-add-plan:hover{background:#2d5be3;color:#fff;transform:translateY(-1px)}.btn-add-plan.in-plan{background:#e8f0ff;color:#1a45a8;border-color:#1a45a8}.btn-add-plan.in-plan:hover{background:#c0003a;color:#fff;border-color:#c0003a}</style>
+<style>.pref-breadcrumb{background:#f8f9fa;border-bottom:1px solid var(--border);padding:.6rem 1.5rem;font-size:.82rem;color:var(--gray)}.pref-breadcrumb a{color:var(--red);text-decoration:none}.pref-breadcrumb a:hover{text-decoration:underline}.pref-breadcrumb span{margin:0 .4rem}.pref-hero{position:relative;min-height:440px;display:flex;align-items:flex-end;background:#2a0a00 50%/cover no-repeat;background-image:url(https://images.unsplash.com/photo-1590559899731-a382839e5549?w=1200&q=85)}.pref-hero::after{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,.15) 0%,rgba(0,0,0,.7) 100%)}.pref-hero-body{position:relative;z-index:1;padding:2.5rem 1.5rem 2rem;max-width:var(--max-w);margin:0 auto;width:100%}.pref-hero-eyebrow{color:rgba(255,255,255,.75);font-size:.82rem;font-weight:600;text-transform:uppercase;letter-spacing:.1em;margin-bottom:.5rem}.pref-hero h1{color:#fff;font-size:clamp(2.2rem,5.5vw,3.4rem);font-weight:900;margin:0 0 .5rem;line-height:1.1}.pref-hero .pref-sub{color:rgba(255,255,255,.88);font-size:1.05rem;max-width:560px;margin-bottom:1rem}.pref-stats{display:flex;flex-wrap:wrap;gap:.6rem}.pref-stat{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);border-radius:20px;padding:.3rem .85rem;color:#fff;font-size:.8rem;font-weight:600}.pref-section{padding:2.5rem 1.5rem}.pref-section+.pref-section{padding-top:0}.pref-container{max-width:var(--max-w);margin:0 auto}.pref-section-title{font-size:1.55rem;font-weight:900;margin:0 0 .4rem;display:flex;align-items:center;gap:.5rem}.pref-section-lead{font-size:1rem;color:#555;line-height:1.7;max-width:680px;margin-bottom:1.5rem}.ponko-guide{display:flex;align-items:flex-end;gap:0;margin-bottom:1.6rem}.ponko-bubble{flex:1;min-width:0;background:linear-gradient(135deg,#fff9f0,#fff3e0);border:2px solid #f5a623;border-radius:18px 18px 18px 4px;padding:1.2rem 1.5rem;position:relative;box-shadow:0 4px 14px rgba(245,166,35,.13)}.ponko-bubble::after{content:'';position:absolute;right:-18px;bottom:22px;border:9px solid transparent;border-left-color:#f5a623}.ponko-bubble::before{content:'';position:absolute;right:-13px;bottom:23px;z-index:1;border:8px solid transparent;border-left-color:#fff9f0}.ponko-bubble p{font-size:.97rem;line-height:1.8;color:#333;margin:0}.ponko-figure{flex-shrink:0;width:170px;margin-left:4px;animation:ponko-float 3s ease-in-out infinite}.ponko-figure img{width:100%;height:auto;display:block;filter:drop-shadow(0 6px 10px rgba(0,0,0,.18))}@keyframes ponko-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}@media(max-width:640px){.ponko-guide{flex-direction:column;align-items:center}.ponko-bubble{border-radius:18px;order:2;width:100%}.ponko-bubble::after,.ponko-bubble::before{display:none}.ponko-figure{order:1;width:130px;margin-left:0;margin-bottom:.5rem;animation:none}}.quick-facts{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.8rem;margin-top:1.4rem}.qf-card{background:#f8f9fb;border:1px solid var(--border);border-radius:12px;padding:1rem 1.1rem;display:flex;align-items:flex-start;gap:.7rem}.qf-icon{font-size:1.4rem;flex-shrink:0}.qf-label{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--gray);margin-bottom:.15rem}.qf-value{font-size:.9rem;font-weight:600;color:var(--dark)}.access-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}.access-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 8px rgba(0,0,0,5%)}.access-card-hd{display:flex;align-items:center;gap:.5rem;margin-bottom:.8rem}.access-card-icon{font-size:1.5rem}.access-card-title{font-size:1rem;font-weight:800;color:var(--dark)}.access-card ul{margin:0;padding-left:1.1rem}.access-card li{font-size:.875rem;line-height:1.65;color:#444;margin-bottom:.3rem}.access-card li strong{color:var(--dark)}.access-tip{margin-top:1.2rem;background:#fff8e6;border:1px solid #ffe0a0;border-radius:10px;padding:.9rem 1.1rem;font-size:.85rem;line-height:1.6;color:#5a3e00}.access-tip strong{display:block;margin-bottom:.2rem;font-size:.88rem}.guide-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem}.guide-card{background:#fff;border-radius:14px;overflow:hidden;border:1px solid var(--border);box-shadow:0 2px 8px rgba(0,0,0,5%);transition:transform .15s,box-shadow .15s;position:relative;display:flex;flex-direction:column}.guide-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.guide-card-img{width:100%;height:150px;object-fit:cover;background:#e8eef4;display:block}.guide-card-img-ph{width:100%;height:150px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:2.5rem}.guide-card-body{padding:.9rem 1rem 1rem;flex:1}.guide-cat-badge{display:inline-block;font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;padding:.15rem .55rem;border-radius:8px;background:var(--red);color:#fff;margin-bottom:.4rem}.guide-card-title{font-size:.92rem;font-weight:800;color:var(--dark);line-height:1.4}.guide-coming-soon{position:absolute;top:.6rem;right:.6rem;background:rgba(0,0,0,.55);color:#fff;font-size:.65rem;font-weight:700;padding:.2rem .5rem;border-radius:6px;text-transform:uppercase;letter-spacing:.05em}.guide-card-link{text-decoration:none;color:inherit;display:flex;flex-direction:column;height:100%}.pref-toc{background:#fff;border-bottom:2px solid var(--border);position:sticky;top:0;z-index:100;overflow-x:auto}.pref-toc-inner{display:flex;gap:0;max-width:var(--max-w);margin:0 auto}.pref-toc-btn{flex:none;display:flex;align-items:center;gap:.4rem;padding:.8rem 1.2rem;border:none;background:0 0;cursor:pointer;font-family:inherit;font-size:.88rem;font-weight:600;color:var(--gray);border-bottom:3px solid transparent;transition:all .18s;white-space:nowrap}.pref-toc-btn .toc-icon{font-size:1.1rem}.pref-toc-btn:hover{color:var(--dark);background:#f8f8f8}.pref-toc-btn.active{color:var(--toc-color,var(--red));border-bottom-color:var(--toc-color,var(--red))}.spot-section{padding:2rem 1.5rem 2.5rem}.spot-section.hidden{display:none}.spot-section-inner{max-width:var(--max-w);margin:0 auto}.section-hd{display:flex;align-items:center;gap:.6rem;margin-bottom:1.4rem;padding-bottom:.7rem;border-bottom:2px solid var(--border)}.section-hd .s-icon{font-size:1.6rem}.section-hd h2{font-size:1.35rem;font-weight:800;margin:0}.section-hd .s-count{margin-left:auto;background:var(--sec-color,var(--red));color:#fff;border-radius:20px;padding:.15rem .65rem;font-size:.78rem;font-weight:700}.spot-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.25rem}.spot-card{border-radius:14px;overflow:hidden;border:1px solid var(--border);background:#fff;box-shadow:0 2px 8px rgba(0,0,0,6%);transition:transform .15s,box-shadow .15s;display:flex;flex-direction:column}.spot-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.spot-img{width:100%;height:200px;object-fit:cover;background:#e8eef4;display:block}.spot-img-ph{width:100%;height:200px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:3rem}.spot-body{padding:1rem 1.1rem 1.1rem;flex:1;display:flex;flex-direction:column}.spot-meta{display:flex;align-items:center;gap:.5rem;margin-bottom:.5rem}.spot-location{font-size:.78rem;color:var(--gray);font-weight:500}.spot-season-badge{margin-left:auto;font-size:.7rem;font-weight:700;padding:.1rem .5rem;border-radius:10px;background:#f0f4f8;color:#555;white-space:nowrap}.spot-name{font-size:1.08rem;font-weight:800;color:var(--dark);margin:0 0 .45rem;line-height:1.3}.spot-desc{font-size:.86rem;line-height:1.65;color:#555;flex:1;margin-bottom:.75rem}.spot-tags{display:flex;flex-wrap:wrap;gap:.3rem}.spot-tag{font-size:.7rem;font-weight:600;padding:.15rem .5rem;border-radius:6px;background:var(--tag-bg,#f0f4f8);color:var(--tag-color,#445)}.tips-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem}.tip-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 6px rgba(0,0,0,4%)}.tip-card-icon{font-size:1.8rem;margin-bottom:.6rem}.tip-card-title{font-size:.95rem;font-weight:800;color:var(--dark);margin-bottom:.5rem}.tip-card-body{font-size:.85rem;line-height:1.65;color:#555}.tip-card-body ul{margin:.3rem 0 0;padding-left:1.1rem}.tip-card-body li{margin-bottom:.2rem}.pref-cta{background:var(--bg-soft);padding:2.5rem 1.5rem 3rem;border-top:1px solid var(--border)}.pref-cta .pref-container{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}@media(max-width:600px){.pref-hero{min-height:320px}.quick-facts{grid-template-columns:repeat(2,1fr)}.pref-toc-btn{padding:.7rem .9rem;font-size:.82rem}}.btn-add-plan{display:inline-flex;align-items:center;gap:.35rem;margin-top:.75rem;padding:.45rem .9rem;border:1.5px solid #2d5be3;border-radius:8px;background:#fff;color:#2d5be3;font-size:.78rem;font-weight:700;font-family:inherit;cursor:pointer;transition:background .15s,color .15s,transform .1s;width:100%;justify-content:center}.btn-add-plan:hover{background:#2d5be3;color:#fff;transform:translateY(-1px)}.btn-add-plan.in-plan{background:#e8f0ff;color:#1a45a8;border-color:#1a45a8}.btn-add-plan.in-plan:hover{background:#c0003a;color:#fff;border-color:#c0003a}.see-all-wrap{text-align:center;margin-top:1.5rem;padding-top:1rem;border-top:1px dashed var(--border)}.see-all-btn{display:inline-flex;align-items:center;gap:.4rem;padding:.55rem 1.5rem;border:2px solid;border-radius:10px;font-size:.88rem;font-weight:700;text-decoration:none;transition:all .15s}.see-all-btn:hover{opacity:.8;text-decoration:none}</style>
 <nav class=pref-breadcrumb aria-label=breadcrumb>
 <a href=/>Home</a><span>›</span>
 <a href=/explore/>Explore Japan</a><span>›</span>
@@ -398,8 +398,7 @@ Oita feels like the Japan that locals escape to — unpretentious, steaming hot 
 <span class=toc-icon>🎆</span> Events
 </button>
 </div>
-</nav>
-<section class=spot-section id=section-sightseeing data-cat=sightseeing>
+</nav><section class=spot-section id=section-sightseeing data-cat=sightseeing>
 <div class=spot-section-inner>
 <div class=section-hd style=--sec-color:#1a45a8>
 <span class=s-icon>⛩️</span>
@@ -449,6 +448,27 @@ Oita feels like the Japan that locals escape to — unpretentious, steaming hot 
 </button>
 </div>
 </article>
+<article class=spot-card data-spot-id=kamado-jigoku data-spot-name="Kamado Hell (Furnace Hell)" data-spot-pref=oita data-spot-fee=600 data-spot-dur=45 data-spot-lat=33.287 data-spot-lng=131.502 data-spot-area=kannawa data-spot-rating=4.5 data-spot-reviews=1700 data-spot-img="https://images.unsplash.com/photo-1583259013994-41ef2d278e8d?w=800&q=80" data-spot-cats=sightseeing,nature>
+<img class=spot-img src="https://images.unsplash.com/photo-1583259013994-41ef2d278e8d?w=800&q=80" alt="Kamado Hell (Furnace Hell)" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Beppu, Oita</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Kamado Hell (Furnace Hell)</h3>
+<p class=spot-desc>One of Beppu's most visually striking hells, Kamado Hell features intense red-orange mineral-rich waters and dramatic volcanic landscape that resembles an ancient furnace. The vivid colors, powerful steam, and raw geothermal activity make it a photographer's paradise and a window into earth's raw power.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Geothermal</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Scenic</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Red-Hot Spring</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Iconic Beppu</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 <article class=spot-card data-spot-id=usa-shrine data-spot-name="Usa Shrine" data-spot-pref=oita data-spot-fee=0 data-spot-dur=60 data-spot-lat=33.57 data-spot-lng=131.1183 data-spot-area=usa data-spot-rating=4.4 data-spot-reviews=1600 data-spot-img="https://images.unsplash.com/photo-1545667519-e0db4814e88f?w=800&q=80" data-spot-cats=culture,sightseeing>
 <img class=spot-img src="https://images.unsplash.com/photo-1545667519-e0db4814e88f?w=800&q=80" alt="Usa Shrine" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>⛩️</div>
@@ -464,90 +484,6 @@ Oita feels like the Japan that locals escape to — unpretentious, steaming hot 
 <span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Historic</span>
 <span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Religious Site</span>
 <span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Kyushu Important</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=nakatsu-castle data-spot-name="Nakatsu Castle" data-spot-pref=oita data-spot-fee=500 data-spot-dur=75 data-spot-lat=33.5617 data-spot-lng=131.1842 data-spot-area=nakatsu data-spot-rating=4.2 data-spot-reviews=1200 data-spot-img="https://images.unsplash.com/photo-1516404883164-4e2ce2ad79a2?w=800&q=80" data-spot-cats=culture,sightseeing>
-<img class=spot-img src="https://images.unsplash.com/photo-1516404883164-4e2ce2ad79a2?w=800&q=80" alt="Nakatsu Castle" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>⛩️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Nakatsu, Oita</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Nakatsu Castle</h3>
-<p class=spot-desc>This well-preserved feudal castle overlooks the Yamakuni River and offers beautiful seasonal views, especially during cherry blossom season. The castle grounds have been converted into a peaceful park, making it an ideal spot to learn about samurai-era Oita while enjoying riverside scenery.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Samurai History</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Historic Castle</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>River Views</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Scenic Park</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=bungo-strait data-spot-name="Bungo Strait" data-spot-pref=oita data-spot-fee=0 data-spot-dur=120 data-spot-lat=33.205 data-spot-lng=131.92 data-spot-area=bungo-strait data-spot-rating=4.3 data-spot-reviews=900 data-spot-img="https://images.unsplash.com/photo-1505142468610-359e7d316be0?w=800&q=80" data-spot-cats=nature,sightseeing>
-<img class=spot-img src="https://images.unsplash.com/photo-1505142468610-359e7d316be0?w=800&q=80" alt="Bungo Strait" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>⛩️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Bungo Strait Region, Oita</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Bungo Strait</h3>
-<p class=spot-desc>The scenic waterway separating Kyushu from Shikoku offers stunning coastal views and is rich with marine biodiversity. Perfect for scenic drives, boat tours, or simply admiring the dramatic cliffs and pristine waters that have inspired poets and artists for centuries.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Coastal Views</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Marine Life</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Scenic Route</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Photography</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=suginoi-palace-aquarium data-spot-name="Suginoi Palace Aquarium" data-spot-pref=oita data-spot-fee=3300 data-spot-dur=150 data-spot-lat=33.2903 data-spot-lng=131.4923 data-spot-area=beppu-central data-spot-rating=4.1 data-spot-reviews=1800 data-spot-img="https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&q=80" data-spot-cats=leisure,sightseeing>
-<img class=spot-img src="https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&q=80" alt="Suginoi Palace Aquarium" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>⛩️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Beppu, Oita</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Suginoi Palace Aquarium</h3>
-<p class=spot-desc>This massive hotel-aquarium complex features an impressive collection of marine creatures in modern tanks and offers high-quality hot spring facilities. The combination of aquarium exhibits and resort amenities makes it an excellent full-day destination for families and onsen lovers.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Marine Life</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Family Friendly</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Entertainment</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Hot Spring Resort</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=kitsuki-castle-town data-spot-name="Kitsuki Castle Town" data-spot-pref=oita data-spot-fee=600 data-spot-dur=120 data-spot-lat=33.4033 data-spot-lng=131.6258 data-spot-area=kitsuki data-spot-rating=4.4 data-spot-reviews=1400 data-spot-img="https://images.unsplash.com/photo-1545667519-e0db4814e88f?w=800&q=80" data-spot-cats=culture,sightseeing>
-<img class=spot-img src="https://images.unsplash.com/photo-1545667519-e0db4814e88f?w=800&q=80" alt="Kitsuki Castle Town" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>⛩️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Kitsuki, Oita</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Kitsuki Castle Town</h3>
-<p class=spot-desc>One of Japan's best-preserved castle towns, Kitsuki features traditional samurai residences, narrow streets, and a fascinating castle. Stroll through streets frozen in time, explore the museum quarter, and experience authentic samurai-era town planning.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Historic Town</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Samurai District</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Architecture</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Traditional Japan</span>
 </div>
 <button class=btn-add-plan onclick=prefTogglePlan(this)>
 🗺️ Add to Plan
@@ -575,105 +511,21 @@ Oita feels like the Japan that locals escape to — unpretentious, steaming hot 
 </button>
 </div>
 </article>
-<article class=spot-card data-spot-id=beppu-tower data-spot-name="Beppu Tower" data-spot-pref=oita data-spot-fee=840 data-spot-dur=45 data-spot-lat=33.2849 data-spot-lng=131.495 data-spot-area=beppu-central data-spot-rating=4 data-spot-reviews=1100 data-spot-img="https://images.unsplash.com/photo-1582719522627-e4ea4a5ab9c0?w=800&q=80" data-spot-cats=sightseeing,leisure>
-<img class=spot-img src="https://images.unsplash.com/photo-1582719522627-e4ea4a5ab9c0?w=800&q=80" alt="Beppu Tower" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<article class=spot-card data-spot-id=kitsuki-castle-town data-spot-name="Kitsuki Castle Town" data-spot-pref=oita data-spot-fee=600 data-spot-dur=120 data-spot-lat=33.4033 data-spot-lng=131.6258 data-spot-area=kitsuki data-spot-rating=4.4 data-spot-reviews=1400 data-spot-img="https://images.unsplash.com/photo-1545667519-e0db4814e88f?w=800&q=80" data-spot-cats=culture,sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1545667519-e0db4814e88f?w=800&q=80" alt="Kitsuki Castle Town" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>⛩️</div>
 <div class=spot-body>
 <div class=spot-meta>
-<span class=spot-location>📍 Beppu, Oita</span>
+<span class=spot-location>📍 Kitsuki, Oita</span>
 <span class=spot-season-badge></span>
 </div>
-<h3 class=spot-name>Beppu Tower</h3>
-<p class=spot-desc>Rising 125 meters above the city, this iconic red tower offers panoramic views of Beppu, the surrounding mountains, and Beppu Bay. The observation deck provides an excellent overview of the geothermal landscape and is especially spectacular at sunset.</p>
+<h3 class=spot-name>Kitsuki Castle Town</h3>
+<p class=spot-desc>One of Japan's best-preserved castle towns, Kitsuki features traditional samurai residences, narrow streets, and a fascinating castle. Stroll through streets frozen in time, explore the museum quarter, and experience authentic samurai-era town planning.</p>
 <div class=spot-tags>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>City Views</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Panoramic</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Tourist Landmark</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Observation Deck</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=usuki-stone-buddhas data-spot-name="Usuki Stone Buddhas" data-spot-pref=oita data-spot-fee=600 data-spot-dur=75 data-spot-lat=32.9617 data-spot-lng=131.8183 data-spot-area=usuki data-spot-rating=4.3 data-spot-reviews=1100 data-spot-img="https://images.unsplash.com/photo-1595558922915-88f6d15da6b3?w=800&q=80" data-spot-cats=culture,sightseeing>
-<img class=spot-img src="https://images.unsplash.com/photo-1595558922915-88f6d15da6b3?w=800&q=80" alt="Usuki Stone Buddhas" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>⛩️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Usuki, Oita</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Usuki Stone Buddhas</h3>
-<p class=spot-desc>Sixty stone Buddha statues carved into a rocky cliff dating to the 12th-13th centuries represent Japan's finest Heian-period Buddhist rock carvings. These intricately detailed sculptures, mysteriously set against natural rock faces, offer a serene spiritual experience and artistic insight into medieval Japan.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Ancient Art</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Buddhist Sculptures</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Historic Site</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>UNESCO Candidate</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=himure-akahage-shrine data-spot-name="Himure Akahage Shrine" data-spot-pref=oita data-spot-fee=0 data-spot-dur=60 data-spot-lat=32.9283 data-spot-lng=131.685 data-spot-area=himure data-spot-rating=4.1 data-spot-reviews=550 data-spot-img="https://images.unsplash.com/photo-1516404883164-4e2ce2ad79a2?w=800&q=80" data-spot-cats=culture,sightseeing>
-<img class=spot-img src="https://images.unsplash.com/photo-1516404883164-4e2ce2ad79a2?w=800&q=80" alt="Himure Akahage Shrine" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>⛩️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Bungo-ono, Oita</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Himure Akahage Shrine</h3>
-<p class=spot-desc>Nestled deep in a mountain valley, this ancient shrine is dedicated to Emperor Sutoku and features impressive architecture set against forested cliffs. The peaceful atmosphere, dramatic surroundings, and well-preserved buildings make it a serene escape from busier tourist sites.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Ancient Shrine</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Scenic Setting</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Historic</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Hidden Gem</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=amanoseki-coastal-village data-spot-name="Amanoseki Fishing Village" data-spot-pref=oita data-spot-fee=0 data-spot-dur=120 data-spot-lat=33.095 data-spot-lng=131.995 data-spot-area=amanoseki data-spot-rating=4 data-spot-reviews=480 data-spot-img="https://images.unsplash.com/photo-1505142468610-359e7d316be0?w=800&q=80" data-spot-cats=sightseeing,food>
-<img class=spot-img src="https://images.unsplash.com/photo-1505142468610-359e7d316be0?w=800&q=80" alt="Amanoseki Fishing Village" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>⛩️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Usa, Oita</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Amanoseki Fishing Village</h3>
-<p class=spot-desc>This quiet fishing village on the Bungo Strait preserves traditional coastal Japanese life with working fishing boats and fresh seafood restaurants. Walk among local fishermen's homes, enjoy the unhurried pace, and sample ultra-fresh sashimi and grilled fish caught that morning.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Coastal Village</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Fishing Community</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Seafood</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Hidden Gem</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=kamado-jigoku data-spot-name="Kamado Hell (Furnace Hell)" data-spot-pref=oita data-spot-fee=600 data-spot-dur=45 data-spot-lat=33.287 data-spot-lng=131.502 data-spot-area=kannawa data-spot-rating=4.5 data-spot-reviews=1700 data-spot-img="https://images.unsplash.com/photo-1583259013994-41ef2d278e8d?w=800&q=80" data-spot-cats=sightseeing,nature>
-<img class=spot-img src="https://images.unsplash.com/photo-1583259013994-41ef2d278e8d?w=800&q=80" alt="Kamado Hell (Furnace Hell)" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>⛩️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Beppu, Oita</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Kamado Hell (Furnace Hell)</h3>
-<p class=spot-desc>One of Beppu's most visually striking hells, Kamado Hell features intense red-orange mineral-rich waters and dramatic volcanic landscape that resembles an ancient furnace. The vivid colors, powerful steam, and raw geothermal activity make it a photographer's paradise and a window into earth's raw power.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Geothermal</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Scenic</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Red-Hot Spring</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Iconic Beppu</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Historic Town</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Samurai District</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Architecture</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Traditional Japan</span>
 </div>
 <button class=btn-add-plan onclick=prefTogglePlan(this)>
 🗺️ Add to Plan
@@ -681,9 +533,13 @@ Oita feels like the Japan that locals escape to — unpretentious, steaming hot 
 </div>
 </article>
 </div>
+<div class=see-all-wrap>
+<a class=see-all-btn style=color:#1a45a8 href=/prefectures/oita/spots/#sightseeing>
+See all 13 Sightseeing spots →
+</a>
 </div>
-</section>
-<section class=spot-section id=section-gourmet data-cat=gourmet>
+</div>
+</section><section class=spot-section id=section-gourmet data-cat=gourmet>
 <div class=spot-section-inner>
 <div class=section-hd style=--sec-color:#D64000>
 <span class=s-icon>🍜</span>
@@ -693,8 +549,7 @@ Oita feels like the Japan that locals escape to — unpretentious, steaming hot 
 <div class=spot-grid>
 </div>
 </div>
-</section>
-<section class=spot-section id=section-nature data-cat=nature>
+</section><section class=spot-section id=section-nature data-cat=nature>
 <div class=spot-section-inner>
 <div class=section-hd style=--sec-color:#1a7a34>
 <span class=s-icon>🏔️</span>
@@ -744,63 +599,21 @@ Oita feels like the Japan that locals escape to — unpretentious, steaming hot 
 </button>
 </div>
 </article>
-<article class=spot-card data-spot-id=bungo-strait data-spot-name="Bungo Strait" data-spot-pref=oita data-spot-fee=0 data-spot-dur=120 data-spot-lat=33.205 data-spot-lng=131.92 data-spot-area=bungo-strait data-spot-rating=4.3 data-spot-reviews=900 data-spot-img="https://images.unsplash.com/photo-1505142468610-359e7d316be0?w=800&q=80" data-spot-cats=nature,sightseeing>
-<img class=spot-img src="https://images.unsplash.com/photo-1505142468610-359e7d316be0?w=800&q=80" alt="Bungo Strait" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<article class=spot-card data-spot-id=kamado-jigoku data-spot-name="Kamado Hell (Furnace Hell)" data-spot-pref=oita data-spot-fee=600 data-spot-dur=45 data-spot-lat=33.287 data-spot-lng=131.502 data-spot-area=kannawa data-spot-rating=4.5 data-spot-reviews=1700 data-spot-img="https://images.unsplash.com/photo-1583259013994-41ef2d278e8d?w=800&q=80" data-spot-cats=sightseeing,nature>
+<img class=spot-img src="https://images.unsplash.com/photo-1583259013994-41ef2d278e8d?w=800&q=80" alt="Kamado Hell (Furnace Hell)" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>🏔️</div>
 <div class=spot-body>
 <div class=spot-meta>
-<span class=spot-location>📍 Bungo Strait Region, Oita</span>
+<span class=spot-location>📍 Beppu, Oita</span>
 <span class=spot-season-badge></span>
 </div>
-<h3 class=spot-name>Bungo Strait</h3>
-<p class=spot-desc>The scenic waterway separating Kyushu from Shikoku offers stunning coastal views and is rich with marine biodiversity. Perfect for scenic drives, boat tours, or simply admiring the dramatic cliffs and pristine waters that have inspired poets and artists for centuries.</p>
+<h3 class=spot-name>Kamado Hell (Furnace Hell)</h3>
+<p class=spot-desc>One of Beppu's most visually striking hells, Kamado Hell features intense red-orange mineral-rich waters and dramatic volcanic landscape that resembles an ancient furnace. The vivid colors, powerful steam, and raw geothermal activity make it a photographer's paradise and a window into earth's raw power.</p>
 <div class=spot-tags>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Coastal Views</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Marine Life</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Scenic Route</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Photography</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=taketa-castle-ruins data-spot-name="Taketa Castle Ruins" data-spot-pref=oita data-spot-fee=0 data-spot-dur=100 data-spot-lat=32.7633 data-spot-lng=131.4142 data-spot-area=taketa data-spot-rating=4.3 data-spot-reviews=700 data-spot-img="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" data-spot-cats=culture,nature>
-<img class=spot-img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" alt="Taketa Castle Ruins" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>🏔️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Taketa, Oita</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Taketa Castle Ruins</h3>
-<p class=spot-desc>Perched high on a mountain with 360-degree views over Taketa town, these castle ruins are one of Kyushu's most scenic historical sites. The dramatic elevation and stunning panoramas make it a favorite among hikers and history enthusiasts seeking an off-the-beaten-path experience.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Historic</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Mountain Views</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Cherry Blossoms</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Hidden Gem</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=kunisaki-peninsula data-spot-name="Kunisaki Peninsula" data-spot-pref=oita data-spot-fee=0 data-spot-dur=180 data-spot-lat=33.5283 data-spot-lng=131.5083 data-spot-area=kunisaki data-spot-rating=4.2 data-spot-reviews=650 data-spot-img="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" data-spot-cats=nature,culture>
-<img class=spot-img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" alt="Kunisaki Peninsula" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>🏔️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Kunisaki, Oita</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Kunisaki Peninsula</h3>
-<p class=spot-desc>This dramatic peninsula jutting into the Seto Inland Sea combines stunning coastal scenery with numerous Buddhist temples and nature trails. The winding roads offer breathtaking views, and the peaceful villages provide insight into rural Kyushu life.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Scenic Peninsula</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Buddhist Temples</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Nature Trails</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Coastal Drive</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Geothermal</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Scenic</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Red-Hot Spring</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Iconic Beppu</span>
 </div>
 <button class=btn-add-plan onclick=prefTogglePlan(this)>
 🗺️ Add to Plan
@@ -849,42 +662,21 @@ Oita feels like the Japan that locals escape to — unpretentious, steaming hot 
 </button>
 </div>
 </article>
-<article class=spot-card data-spot-id=kamado-jigoku data-spot-name="Kamado Hell (Furnace Hell)" data-spot-pref=oita data-spot-fee=600 data-spot-dur=45 data-spot-lat=33.287 data-spot-lng=131.502 data-spot-area=kannawa data-spot-rating=4.5 data-spot-reviews=1700 data-spot-img="https://images.unsplash.com/photo-1583259013994-41ef2d278e8d?w=800&q=80" data-spot-cats=sightseeing,nature>
-<img class=spot-img src="https://images.unsplash.com/photo-1583259013994-41ef2d278e8d?w=800&q=80" alt="Kamado Hell (Furnace Hell)" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<article class=spot-card data-spot-id=bungo-strait data-spot-name="Bungo Strait" data-spot-pref=oita data-spot-fee=0 data-spot-dur=120 data-spot-lat=33.205 data-spot-lng=131.92 data-spot-area=bungo-strait data-spot-rating=4.3 data-spot-reviews=900 data-spot-img="https://images.unsplash.com/photo-1505142468610-359e7d316be0?w=800&q=80" data-spot-cats=nature,sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1505142468610-359e7d316be0?w=800&q=80" alt="Bungo Strait" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>🏔️</div>
 <div class=spot-body>
 <div class=spot-meta>
-<span class=spot-location>📍 Beppu, Oita</span>
+<span class=spot-location>📍 Bungo Strait Region, Oita</span>
 <span class=spot-season-badge></span>
 </div>
-<h3 class=spot-name>Kamado Hell (Furnace Hell)</h3>
-<p class=spot-desc>One of Beppu's most visually striking hells, Kamado Hell features intense red-orange mineral-rich waters and dramatic volcanic landscape that resembles an ancient furnace. The vivid colors, powerful steam, and raw geothermal activity make it a photographer's paradise and a window into earth's raw power.</p>
+<h3 class=spot-name>Bungo Strait</h3>
+<p class=spot-desc>The scenic waterway separating Kyushu from Shikoku offers stunning coastal views and is rich with marine biodiversity. Perfect for scenic drives, boat tours, or simply admiring the dramatic cliffs and pristine waters that have inspired poets and artists for centuries.</p>
 <div class=spot-tags>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Geothermal</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Scenic</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Red-Hot Spring</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Iconic Beppu</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=mitsuhama-hot-spring-beach data-spot-name="Mitsuhama Hot Spring Beach" data-spot-pref=oita data-spot-fee=0 data-spot-dur=90 data-spot-lat=33.0733 data-spot-lng=131.5967 data-spot-area=hayakawa data-spot-rating=4.2 data-spot-reviews=820 data-spot-img="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80" data-spot-cats=leisure,nature>
-<img class=spot-img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80" alt="Mitsuhama Hot Spring Beach" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>🏔️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Hayakawa, Oita</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Mitsuhama Hot Spring Beach</h3>
-<p class=spot-desc>A remarkable natural phenomenon where hot spring water emerges directly onto the beach, creating naturally heated sand and shallow warm-water pools. This rare geothermal beach is perfect for soaking in nature's own private bath while enjoying ocean breezes and coastal scenery.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Onsen Beach</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Geothermal Bath</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Unique Experience</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Scenic</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Coastal Views</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Marine Life</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Scenic Route</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Photography</span>
 </div>
 <button class=btn-add-plan onclick=prefTogglePlan(this)>
 🗺️ Add to Plan
@@ -892,9 +684,13 @@ Oita feels like the Japan that locals escape to — unpretentious, steaming hot 
 </div>
 </article>
 </div>
+<div class=see-all-wrap>
+<a class=see-all-btn style=color:#1a7a34 href=/prefectures/oita/spots/#nature>
+See all 9 Nature spots →
+</a>
 </div>
-</section>
-<section class=spot-section id=section-leisure data-cat=leisure>
+</div>
+</section><section class=spot-section id=section-leisure data-cat=leisure>
 <div class=spot-section-inner>
 <div class=section-hd style=--sec-color:#b35c00>
 <span class=s-icon>🎿</span>
@@ -944,27 +740,6 @@ Oita feels like the Japan that locals escape to — unpretentious, steaming hot 
 </button>
 </div>
 </article>
-<article class=spot-card data-spot-id=suginoi-palace-aquarium data-spot-name="Suginoi Palace Aquarium" data-spot-pref=oita data-spot-fee=3300 data-spot-dur=150 data-spot-lat=33.2903 data-spot-lng=131.4923 data-spot-area=beppu-central data-spot-rating=4.1 data-spot-reviews=1800 data-spot-img="https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&q=80" data-spot-cats=leisure,sightseeing>
-<img class=spot-img src="https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&q=80" alt="Suginoi Palace Aquarium" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>🎿</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Beppu, Oita</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Suginoi Palace Aquarium</h3>
-<p class=spot-desc>This massive hotel-aquarium complex features an impressive collection of marine creatures in modern tanks and offers high-quality hot spring facilities. The combination of aquarium exhibits and resort amenities makes it an excellent full-day destination for families and onsen lovers.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Marine Life</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Family Friendly</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Entertainment</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Hot Spring Resort</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
 <article class=spot-card data-spot-id=kannawaonsen-town data-spot-name="Kannawa Onsen Town" data-spot-pref=oita data-spot-fee=1200 data-spot-dur=120 data-spot-lat=33.3183 data-spot-lng=131.4833 data-spot-area=kannawa data-spot-rating=4.4 data-spot-reviews=1600 data-spot-img="https://images.unsplash.com/photo-1585518419759-13c0bfc8c775?w=800&q=80" data-spot-cats=leisure,sightseeing>
 <img class=spot-img src="https://images.unsplash.com/photo-1585518419759-13c0bfc8c775?w=800&q=80" alt="Kannawa Onsen Town" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>🎿</div>
@@ -980,27 +755,6 @@ Oita feels like the Japan that locals escape to — unpretentious, steaming hot 
 <span class=spot-tag style=background:#fff3e0;color:#7a3f00>Geothermal</span>
 <span class=spot-tag style=background:#fff3e0;color:#7a3f00>Traditional</span>
 <span class=spot-tag style=background:#fff3e0;color:#7a3f00>Day Spa</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=beppu-tower data-spot-name="Beppu Tower" data-spot-pref=oita data-spot-fee=840 data-spot-dur=45 data-spot-lat=33.2849 data-spot-lng=131.495 data-spot-area=beppu-central data-spot-rating=4 data-spot-reviews=1100 data-spot-img="https://images.unsplash.com/photo-1582719522627-e4ea4a5ab9c0?w=800&q=80" data-spot-cats=sightseeing,leisure>
-<img class=spot-img src="https://images.unsplash.com/photo-1582719522627-e4ea4a5ab9c0?w=800&q=80" alt="Beppu Tower" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>🎿</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Beppu, Oita</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Beppu Tower</h3>
-<p class=spot-desc>Rising 125 meters above the city, this iconic red tower offers panoramic views of Beppu, the surrounding mountains, and Beppu Bay. The observation deck provides an excellent overview of the geothermal landscape and is especially spectacular at sunset.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>City Views</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Panoramic</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Tourist Landmark</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Observation Deck</span>
 </div>
 <button class=btn-add-plan onclick=prefTogglePlan(this)>
 🗺️ Add to Plan
@@ -1028,27 +782,6 @@ Oita feels like the Japan that locals escape to — unpretentious, steaming hot 
 </button>
 </div>
 </article>
-<article class=spot-card data-spot-id=yufuin-art-museums data-spot-name="Yufuin Art Museums" data-spot-pref=oita data-spot-fee=1000 data-spot-dur=120 data-spot-lat=33.075 data-spot-lng=131.415 data-spot-area=yufuin data-spot-rating=4.3 data-spot-reviews=950 data-spot-img="https://images.unsplash.com/photo-1578303512414-52a28e10e4cf?w=800&q=80" data-spot-cats=culture,leisure>
-<img class=spot-img src="https://images.unsplash.com/photo-1578303512414-52a28e10e4cf?w=800&q=80" alt="Yufuin Art Museums" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>🎿</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Yufuin, Oita</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Yufuin Art Museums</h3>
-<p class=spot-desc>Yufuin hosts numerous art museums and galleries showcasing contemporary and traditional Japanese art in beautiful mountain settings. These cultural institutions range from modern art museums to intimate galleries, making the town a haven for art lovers seeking inspiration amid natural beauty.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Art Galleries</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Japanese Art</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Contemporary</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Cultural Hub</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
 <article class=spot-card data-spot-id=beppu-onsen-mist-walk data-spot-name="Beppu Onsen Mist Walk" data-spot-pref=oita data-spot-fee=0 data-spot-dur=90 data-spot-lat=33.29 data-spot-lng=131.49 data-spot-area=beppu-central data-spot-rating=4.4 data-spot-reviews=1400 data-spot-img="https://images.unsplash.com/photo-1585518419759-13c0bfc8c775?w=800&q=80" data-spot-cats=leisure,nature>
 <img class=spot-img src="https://images.unsplash.com/photo-1585518419759-13c0bfc8c775?w=800&q=80" alt="Beppu Onsen Mist Walk" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>🎿</div>
@@ -1070,63 +803,21 @@ Oita feels like the Japan that locals escape to — unpretentious, steaming hot 
 </button>
 </div>
 </article>
-<article class=spot-card data-spot-id=shiitake-mushroom-farms data-spot-name="Shiitake Mushroom Farms" data-spot-pref=oita data-spot-fee=800 data-spot-dur=120 data-spot-lat=33.22 data-spot-lng=131.43 data-spot-area=taketa-agriculture data-spot-rating=4.2 data-spot-reviews=680 data-spot-img="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&q=80" data-spot-cats=food,leisure>
-<img class=spot-img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&q=80" alt="Shiitake Mushroom Farms" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<article class=spot-card data-spot-id=yufuin-art-museums data-spot-name="Yufuin Art Museums" data-spot-pref=oita data-spot-fee=1000 data-spot-dur=120 data-spot-lat=33.075 data-spot-lng=131.415 data-spot-area=yufuin data-spot-rating=4.3 data-spot-reviews=950 data-spot-img="https://images.unsplash.com/photo-1578303512414-52a28e10e4cf?w=800&q=80" data-spot-cats=culture,leisure>
+<img class=spot-img src="https://images.unsplash.com/photo-1578303512414-52a28e10e4cf?w=800&q=80" alt="Yufuin Art Museums" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>🎿</div>
 <div class=spot-body>
 <div class=spot-meta>
-<span class=spot-location>📍 Oita Prefecture</span>
+<span class=spot-location>📍 Yufuin, Oita</span>
 <span class=spot-season-badge></span>
 </div>
-<h3 class=spot-name>Shiitake Mushroom Farms</h3>
-<p class=spot-desc>Oita is Japan's leading shiitake mushroom producer, and visitors can tour working farms to learn about cultivation methods and sample ultra-fresh mushrooms. Some farms offer hands-on experiences where you can harvest mushrooms and enjoy them freshly cooked with other local ingredients.</p>
+<h3 class=spot-name>Yufuin Art Museums</h3>
+<p class=spot-desc>Yufuin hosts numerous art museums and galleries showcasing contemporary and traditional Japanese art in beautiful mountain settings. These cultural institutions range from modern art museums to intimate galleries, making the town a haven for art lovers seeking inspiration amid natural beauty.</p>
 <div class=spot-tags>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Local Agriculture</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Farm Experience</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Culinary Tourism</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Educational</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=kabosu-citrus-gardens data-spot-name="Kabosu Citrus Gardens" data-spot-pref=oita data-spot-fee=500 data-spot-dur=75 data-spot-lat=33.3 data-spot-lng=131.35 data-spot-area=kabosu-region data-spot-rating=4.1 data-spot-reviews=750 data-spot-img="https://images.unsplash.com/photo-1599599810694-b5ac4dd64b73?w=800&q=80" data-spot-cats=food,leisure>
-<img class=spot-img src="https://images.unsplash.com/photo-1599599810694-b5ac4dd64b73?w=800&q=80" alt="Kabosu Citrus Gardens" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>🎿</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Yufuin Area, Oita</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Kabosu Citrus Gardens</h3>
-<p class=spot-desc>Visit working kabosu citrus orchards where the iconic green citrus fruit native to Oita is grown, especially spectacular during harvest season. Some gardens offer picking experiences and fresh juice tastings, allowing you to savor the unique tart flavor that characterizes Oita's culinary identity.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Local Fruit</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Agritourism</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Seasonal Harvest</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Farm Fresh</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=mitsuhama-hot-spring-beach data-spot-name="Mitsuhama Hot Spring Beach" data-spot-pref=oita data-spot-fee=0 data-spot-dur=90 data-spot-lat=33.0733 data-spot-lng=131.5967 data-spot-area=hayakawa data-spot-rating=4.2 data-spot-reviews=820 data-spot-img="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80" data-spot-cats=leisure,nature>
-<img class=spot-img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80" alt="Mitsuhama Hot Spring Beach" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>🎿</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Hayakawa, Oita</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Mitsuhama Hot Spring Beach</h3>
-<p class=spot-desc>A remarkable natural phenomenon where hot spring water emerges directly onto the beach, creating naturally heated sand and shallow warm-water pools. This rare geothermal beach is perfect for soaking in nature's own private bath while enjoying ocean breezes and coastal scenery.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Onsen Beach</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Geothermal Bath</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Unique Experience</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Scenic</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Art Galleries</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Japanese Art</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Contemporary</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Cultural Hub</span>
 </div>
 <button class=btn-add-plan onclick=prefTogglePlan(this)>
 🗺️ Add to Plan
@@ -1134,9 +825,13 @@ Oita feels like the Japan that locals escape to — unpretentious, steaming hot 
 </div>
 </article>
 </div>
+<div class=see-all-wrap>
+<a class=see-all-btn style=color:#b35c00 href=/prefectures/oita/spots/#leisure>
+See all 11 Leisure spots →
+</a>
 </div>
-</section>
-<section class=spot-section id=section-events data-cat=events>
+</div>
+</section><section class=spot-section id=section-events data-cat=events>
 <div class=spot-section-inner>
 <div class=section-hd style=--sec-color:#b5006e>
 <span class=s-icon>🎆</span>

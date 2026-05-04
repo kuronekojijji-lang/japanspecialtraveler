@@ -83,7 +83,7 @@
   document.addEventListener('keydown', function(e){ if(e.key==='Escape') close(); });
 })();
 </script>
-<style>.pref-breadcrumb{background:#f8f9fa;border-bottom:1px solid var(--border);padding:.6rem 1.5rem;font-size:.82rem;color:var(--gray)}.pref-breadcrumb a{color:var(--red);text-decoration:none}.pref-breadcrumb a:hover{text-decoration:underline}.pref-breadcrumb span{margin:0 .4rem}.pref-hero{position:relative;min-height:440px;display:flex;align-items:flex-end;background:#0a2a4a 50%/cover no-repeat;background-image:url(https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?w=1600&q=80)}.pref-hero::after{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,.15) 0%,rgba(0,0,0,.7) 100%)}.pref-hero-body{position:relative;z-index:1;padding:2.5rem 1.5rem 2rem;max-width:var(--max-w);margin:0 auto;width:100%}.pref-hero-eyebrow{color:rgba(255,255,255,.75);font-size:.82rem;font-weight:600;text-transform:uppercase;letter-spacing:.1em;margin-bottom:.5rem}.pref-hero h1{color:#fff;font-size:clamp(2.2rem,5.5vw,3.4rem);font-weight:900;margin:0 0 .5rem;line-height:1.1}.pref-hero .pref-sub{color:rgba(255,255,255,.88);font-size:1.05rem;max-width:560px;margin-bottom:1rem}.pref-stats{display:flex;flex-wrap:wrap;gap:.6rem}.pref-stat{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);border-radius:20px;padding:.3rem .85rem;color:#fff;font-size:.8rem;font-weight:600}.pref-section{padding:2.5rem 1.5rem}.pref-section+.pref-section{padding-top:0}.pref-container{max-width:var(--max-w);margin:0 auto}.pref-section-title{font-size:1.55rem;font-weight:900;margin:0 0 .4rem;display:flex;align-items:center;gap:.5rem}.pref-section-lead{font-size:1rem;color:#555;line-height:1.7;max-width:680px;margin-bottom:1.5rem}.ponko-guide{display:flex;align-items:flex-end;gap:0;margin-bottom:1.6rem}.ponko-bubble{flex:1;min-width:0;background:linear-gradient(135deg,#fff9f0,#fff3e0);border:2px solid #f5a623;border-radius:18px 18px 18px 4px;padding:1.2rem 1.5rem;position:relative;box-shadow:0 4px 14px rgba(245,166,35,.13)}.ponko-bubble::after{content:'';position:absolute;right:-18px;bottom:22px;border:9px solid transparent;border-left-color:#f5a623}.ponko-bubble::before{content:'';position:absolute;right:-13px;bottom:23px;z-index:1;border:8px solid transparent;border-left-color:#fff9f0}.ponko-bubble p{font-size:.97rem;line-height:1.8;color:#333;margin:0}.ponko-figure{flex-shrink:0;width:170px;margin-left:4px;animation:ponko-float 3s ease-in-out infinite}.ponko-figure img{width:100%;height:auto;display:block;filter:drop-shadow(0 6px 10px rgba(0,0,0,.18))}@keyframes ponko-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}@media(max-width:640px){.ponko-guide{flex-direction:column;align-items:center}.ponko-bubble{border-radius:18px;order:2;width:100%}.ponko-bubble::after,.ponko-bubble::before{display:none}.ponko-figure{order:1;width:130px;margin-left:0;margin-bottom:.5rem;animation:none}}.quick-facts{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.8rem;margin-top:1.4rem}.qf-card{background:#f8f9fb;border:1px solid var(--border);border-radius:12px;padding:1rem 1.1rem;display:flex;align-items:flex-start;gap:.7rem}.qf-icon{font-size:1.4rem;flex-shrink:0}.qf-label{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--gray);margin-bottom:.15rem}.qf-value{font-size:.9rem;font-weight:600;color:var(--dark)}.access-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}.access-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 8px rgba(0,0,0,5%)}.access-card-hd{display:flex;align-items:center;gap:.5rem;margin-bottom:.8rem}.access-card-icon{font-size:1.5rem}.access-card-title{font-size:1rem;font-weight:800;color:var(--dark)}.access-card ul{margin:0;padding-left:1.1rem}.access-card li{font-size:.875rem;line-height:1.65;color:#444;margin-bottom:.3rem}.access-card li strong{color:var(--dark)}.access-tip{margin-top:1.2rem;background:#fff8e6;border:1px solid #ffe0a0;border-radius:10px;padding:.9rem 1.1rem;font-size:.85rem;line-height:1.6;color:#5a3e00}.access-tip strong{display:block;margin-bottom:.2rem;font-size:.88rem}.guide-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem}.guide-card{background:#fff;border-radius:14px;overflow:hidden;border:1px solid var(--border);box-shadow:0 2px 8px rgba(0,0,0,5%);transition:transform .15s,box-shadow .15s;position:relative;display:flex;flex-direction:column}.guide-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.guide-card-img{width:100%;height:150px;object-fit:cover;background:#e8eef4;display:block}.guide-card-img-ph{width:100%;height:150px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:2.5rem}.guide-card-body{padding:.9rem 1rem 1rem;flex:1}.guide-cat-badge{display:inline-block;font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;padding:.15rem .55rem;border-radius:8px;background:var(--red);color:#fff;margin-bottom:.4rem}.guide-card-title{font-size:.92rem;font-weight:800;color:var(--dark);line-height:1.4}.guide-coming-soon{position:absolute;top:.6rem;right:.6rem;background:rgba(0,0,0,.55);color:#fff;font-size:.65rem;font-weight:700;padding:.2rem .5rem;border-radius:6px;text-transform:uppercase;letter-spacing:.05em}.guide-card-link{text-decoration:none;color:inherit;display:flex;flex-direction:column;height:100%}.pref-toc{background:#fff;border-bottom:2px solid var(--border);position:sticky;top:0;z-index:100;overflow-x:auto}.pref-toc-inner{display:flex;gap:0;max-width:var(--max-w);margin:0 auto}.pref-toc-btn{flex:none;display:flex;align-items:center;gap:.4rem;padding:.8rem 1.2rem;border:none;background:0 0;cursor:pointer;font-family:inherit;font-size:.88rem;font-weight:600;color:var(--gray);border-bottom:3px solid transparent;transition:all .18s;white-space:nowrap}.pref-toc-btn .toc-icon{font-size:1.1rem}.pref-toc-btn:hover{color:var(--dark);background:#f8f8f8}.pref-toc-btn.active{color:var(--toc-color,var(--red));border-bottom-color:var(--toc-color,var(--red))}.spot-section{padding:2rem 1.5rem 2.5rem}.spot-section.hidden{display:none}.spot-section-inner{max-width:var(--max-w);margin:0 auto}.section-hd{display:flex;align-items:center;gap:.6rem;margin-bottom:1.4rem;padding-bottom:.7rem;border-bottom:2px solid var(--border)}.section-hd .s-icon{font-size:1.6rem}.section-hd h2{font-size:1.35rem;font-weight:800;margin:0}.section-hd .s-count{margin-left:auto;background:var(--sec-color,var(--red));color:#fff;border-radius:20px;padding:.15rem .65rem;font-size:.78rem;font-weight:700}.spot-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.25rem}.spot-card{border-radius:14px;overflow:hidden;border:1px solid var(--border);background:#fff;box-shadow:0 2px 8px rgba(0,0,0,6%);transition:transform .15s,box-shadow .15s;display:flex;flex-direction:column}.spot-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.spot-img{width:100%;height:200px;object-fit:cover;background:#e8eef4;display:block}.spot-img-ph{width:100%;height:200px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:3rem}.spot-body{padding:1rem 1.1rem 1.1rem;flex:1;display:flex;flex-direction:column}.spot-meta{display:flex;align-items:center;gap:.5rem;margin-bottom:.5rem}.spot-location{font-size:.78rem;color:var(--gray);font-weight:500}.spot-season-badge{margin-left:auto;font-size:.7rem;font-weight:700;padding:.1rem .5rem;border-radius:10px;background:#f0f4f8;color:#555;white-space:nowrap}.spot-name{font-size:1.08rem;font-weight:800;color:var(--dark);margin:0 0 .45rem;line-height:1.3}.spot-desc{font-size:.86rem;line-height:1.65;color:#555;flex:1;margin-bottom:.75rem}.spot-tags{display:flex;flex-wrap:wrap;gap:.3rem}.spot-tag{font-size:.7rem;font-weight:600;padding:.15rem .5rem;border-radius:6px;background:var(--tag-bg,#f0f4f8);color:var(--tag-color,#445)}.tips-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem}.tip-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 6px rgba(0,0,0,4%)}.tip-card-icon{font-size:1.8rem;margin-bottom:.6rem}.tip-card-title{font-size:.95rem;font-weight:800;color:var(--dark);margin-bottom:.5rem}.tip-card-body{font-size:.85rem;line-height:1.65;color:#555}.tip-card-body ul{margin:.3rem 0 0;padding-left:1.1rem}.tip-card-body li{margin-bottom:.2rem}.pref-cta{background:var(--bg-soft);padding:2.5rem 1.5rem 3rem;border-top:1px solid var(--border)}.pref-cta .pref-container{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}@media(max-width:600px){.pref-hero{min-height:320px}.quick-facts{grid-template-columns:repeat(2,1fr)}.pref-toc-btn{padding:.7rem .9rem;font-size:.82rem}}.btn-add-plan{display:inline-flex;align-items:center;gap:.35rem;margin-top:.75rem;padding:.45rem .9rem;border:1.5px solid #2d5be3;border-radius:8px;background:#fff;color:#2d5be3;font-size:.78rem;font-weight:700;font-family:inherit;cursor:pointer;transition:background .15s,color .15s,transform .1s;width:100%;justify-content:center}.btn-add-plan:hover{background:#2d5be3;color:#fff;transform:translateY(-1px)}.btn-add-plan.in-plan{background:#e8f0ff;color:#1a45a8;border-color:#1a45a8}.btn-add-plan.in-plan:hover{background:#c0003a;color:#fff;border-color:#c0003a}</style>
+<style>.pref-breadcrumb{background:#f8f9fa;border-bottom:1px solid var(--border);padding:.6rem 1.5rem;font-size:.82rem;color:var(--gray)}.pref-breadcrumb a{color:var(--red);text-decoration:none}.pref-breadcrumb a:hover{text-decoration:underline}.pref-breadcrumb span{margin:0 .4rem}.pref-hero{position:relative;min-height:440px;display:flex;align-items:flex-end;background:#0a2a4a 50%/cover no-repeat;background-image:url(https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?w=1600&q=80)}.pref-hero::after{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,.15) 0%,rgba(0,0,0,.7) 100%)}.pref-hero-body{position:relative;z-index:1;padding:2.5rem 1.5rem 2rem;max-width:var(--max-w);margin:0 auto;width:100%}.pref-hero-eyebrow{color:rgba(255,255,255,.75);font-size:.82rem;font-weight:600;text-transform:uppercase;letter-spacing:.1em;margin-bottom:.5rem}.pref-hero h1{color:#fff;font-size:clamp(2.2rem,5.5vw,3.4rem);font-weight:900;margin:0 0 .5rem;line-height:1.1}.pref-hero .pref-sub{color:rgba(255,255,255,.88);font-size:1.05rem;max-width:560px;margin-bottom:1rem}.pref-stats{display:flex;flex-wrap:wrap;gap:.6rem}.pref-stat{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);border-radius:20px;padding:.3rem .85rem;color:#fff;font-size:.8rem;font-weight:600}.pref-section{padding:2.5rem 1.5rem}.pref-section+.pref-section{padding-top:0}.pref-container{max-width:var(--max-w);margin:0 auto}.pref-section-title{font-size:1.55rem;font-weight:900;margin:0 0 .4rem;display:flex;align-items:center;gap:.5rem}.pref-section-lead{font-size:1rem;color:#555;line-height:1.7;max-width:680px;margin-bottom:1.5rem}.ponko-guide{display:flex;align-items:flex-end;gap:0;margin-bottom:1.6rem}.ponko-bubble{flex:1;min-width:0;background:linear-gradient(135deg,#fff9f0,#fff3e0);border:2px solid #f5a623;border-radius:18px 18px 18px 4px;padding:1.2rem 1.5rem;position:relative;box-shadow:0 4px 14px rgba(245,166,35,.13)}.ponko-bubble::after{content:'';position:absolute;right:-18px;bottom:22px;border:9px solid transparent;border-left-color:#f5a623}.ponko-bubble::before{content:'';position:absolute;right:-13px;bottom:23px;z-index:1;border:8px solid transparent;border-left-color:#fff9f0}.ponko-bubble p{font-size:.97rem;line-height:1.8;color:#333;margin:0}.ponko-figure{flex-shrink:0;width:170px;margin-left:4px;animation:ponko-float 3s ease-in-out infinite}.ponko-figure img{width:100%;height:auto;display:block;filter:drop-shadow(0 6px 10px rgba(0,0,0,.18))}@keyframes ponko-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}@media(max-width:640px){.ponko-guide{flex-direction:column;align-items:center}.ponko-bubble{border-radius:18px;order:2;width:100%}.ponko-bubble::after,.ponko-bubble::before{display:none}.ponko-figure{order:1;width:130px;margin-left:0;margin-bottom:.5rem;animation:none}}.quick-facts{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.8rem;margin-top:1.4rem}.qf-card{background:#f8f9fb;border:1px solid var(--border);border-radius:12px;padding:1rem 1.1rem;display:flex;align-items:flex-start;gap:.7rem}.qf-icon{font-size:1.4rem;flex-shrink:0}.qf-label{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--gray);margin-bottom:.15rem}.qf-value{font-size:.9rem;font-weight:600;color:var(--dark)}.access-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}.access-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 8px rgba(0,0,0,5%)}.access-card-hd{display:flex;align-items:center;gap:.5rem;margin-bottom:.8rem}.access-card-icon{font-size:1.5rem}.access-card-title{font-size:1rem;font-weight:800;color:var(--dark)}.access-card ul{margin:0;padding-left:1.1rem}.access-card li{font-size:.875rem;line-height:1.65;color:#444;margin-bottom:.3rem}.access-card li strong{color:var(--dark)}.access-tip{margin-top:1.2rem;background:#fff8e6;border:1px solid #ffe0a0;border-radius:10px;padding:.9rem 1.1rem;font-size:.85rem;line-height:1.6;color:#5a3e00}.access-tip strong{display:block;margin-bottom:.2rem;font-size:.88rem}.guide-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem}.guide-card{background:#fff;border-radius:14px;overflow:hidden;border:1px solid var(--border);box-shadow:0 2px 8px rgba(0,0,0,5%);transition:transform .15s,box-shadow .15s;position:relative;display:flex;flex-direction:column}.guide-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.guide-card-img{width:100%;height:150px;object-fit:cover;background:#e8eef4;display:block}.guide-card-img-ph{width:100%;height:150px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:2.5rem}.guide-card-body{padding:.9rem 1rem 1rem;flex:1}.guide-cat-badge{display:inline-block;font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;padding:.15rem .55rem;border-radius:8px;background:var(--red);color:#fff;margin-bottom:.4rem}.guide-card-title{font-size:.92rem;font-weight:800;color:var(--dark);line-height:1.4}.guide-coming-soon{position:absolute;top:.6rem;right:.6rem;background:rgba(0,0,0,.55);color:#fff;font-size:.65rem;font-weight:700;padding:.2rem .5rem;border-radius:6px;text-transform:uppercase;letter-spacing:.05em}.guide-card-link{text-decoration:none;color:inherit;display:flex;flex-direction:column;height:100%}.pref-toc{background:#fff;border-bottom:2px solid var(--border);position:sticky;top:0;z-index:100;overflow-x:auto}.pref-toc-inner{display:flex;gap:0;max-width:var(--max-w);margin:0 auto}.pref-toc-btn{flex:none;display:flex;align-items:center;gap:.4rem;padding:.8rem 1.2rem;border:none;background:0 0;cursor:pointer;font-family:inherit;font-size:.88rem;font-weight:600;color:var(--gray);border-bottom:3px solid transparent;transition:all .18s;white-space:nowrap}.pref-toc-btn .toc-icon{font-size:1.1rem}.pref-toc-btn:hover{color:var(--dark);background:#f8f8f8}.pref-toc-btn.active{color:var(--toc-color,var(--red));border-bottom-color:var(--toc-color,var(--red))}.spot-section{padding:2rem 1.5rem 2.5rem}.spot-section.hidden{display:none}.spot-section-inner{max-width:var(--max-w);margin:0 auto}.section-hd{display:flex;align-items:center;gap:.6rem;margin-bottom:1.4rem;padding-bottom:.7rem;border-bottom:2px solid var(--border)}.section-hd .s-icon{font-size:1.6rem}.section-hd h2{font-size:1.35rem;font-weight:800;margin:0}.section-hd .s-count{margin-left:auto;background:var(--sec-color,var(--red));color:#fff;border-radius:20px;padding:.15rem .65rem;font-size:.78rem;font-weight:700}.spot-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.25rem}.spot-card{border-radius:14px;overflow:hidden;border:1px solid var(--border);background:#fff;box-shadow:0 2px 8px rgba(0,0,0,6%);transition:transform .15s,box-shadow .15s;display:flex;flex-direction:column}.spot-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.spot-img{width:100%;height:200px;object-fit:cover;background:#e8eef4;display:block}.spot-img-ph{width:100%;height:200px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:3rem}.spot-body{padding:1rem 1.1rem 1.1rem;flex:1;display:flex;flex-direction:column}.spot-meta{display:flex;align-items:center;gap:.5rem;margin-bottom:.5rem}.spot-location{font-size:.78rem;color:var(--gray);font-weight:500}.spot-season-badge{margin-left:auto;font-size:.7rem;font-weight:700;padding:.1rem .5rem;border-radius:10px;background:#f0f4f8;color:#555;white-space:nowrap}.spot-name{font-size:1.08rem;font-weight:800;color:var(--dark);margin:0 0 .45rem;line-height:1.3}.spot-desc{font-size:.86rem;line-height:1.65;color:#555;flex:1;margin-bottom:.75rem}.spot-tags{display:flex;flex-wrap:wrap;gap:.3rem}.spot-tag{font-size:.7rem;font-weight:600;padding:.15rem .5rem;border-radius:6px;background:var(--tag-bg,#f0f4f8);color:var(--tag-color,#445)}.tips-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem}.tip-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 6px rgba(0,0,0,4%)}.tip-card-icon{font-size:1.8rem;margin-bottom:.6rem}.tip-card-title{font-size:.95rem;font-weight:800;color:var(--dark);margin-bottom:.5rem}.tip-card-body{font-size:.85rem;line-height:1.65;color:#555}.tip-card-body ul{margin:.3rem 0 0;padding-left:1.1rem}.tip-card-body li{margin-bottom:.2rem}.pref-cta{background:var(--bg-soft);padding:2.5rem 1.5rem 3rem;border-top:1px solid var(--border)}.pref-cta .pref-container{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}@media(max-width:600px){.pref-hero{min-height:320px}.quick-facts{grid-template-columns:repeat(2,1fr)}.pref-toc-btn{padding:.7rem .9rem;font-size:.82rem}}.btn-add-plan{display:inline-flex;align-items:center;gap:.35rem;margin-top:.75rem;padding:.45rem .9rem;border:1.5px solid #2d5be3;border-radius:8px;background:#fff;color:#2d5be3;font-size:.78rem;font-weight:700;font-family:inherit;cursor:pointer;transition:background .15s,color .15s,transform .1s;width:100%;justify-content:center}.btn-add-plan:hover{background:#2d5be3;color:#fff;transform:translateY(-1px)}.btn-add-plan.in-plan{background:#e8f0ff;color:#1a45a8;border-color:#1a45a8}.btn-add-plan.in-plan:hover{background:#c0003a;color:#fff;border-color:#c0003a}.see-all-wrap{text-align:center;margin-top:1.5rem;padding-top:1rem;border-top:1px dashed var(--border)}.see-all-btn{display:inline-flex;align-items:center;gap:.4rem;padding:.55rem 1.5rem;border:2px solid;border-radius:10px;font-size:.88rem;font-weight:700;text-decoration:none;transition:all .15s}.see-all-btn:hover{opacity:.8;text-decoration:none}</style>
 <nav class=pref-breadcrumb aria-label=breadcrumb>
 <a href=/>Home</a><span>›</span>
 <a href=/explore/>Explore Japan</a><span>›</span>
@@ -379,8 +379,7 @@
 <span class=toc-icon>🎆</span> Events
 </button>
 </div>
-</nav>
-<section class=spot-section id=section-sightseeing data-cat=sightseeing>
+</nav><section class=spot-section id=section-sightseeing data-cat=sightseeing>
 <div class=spot-section-inner>
 <div class=section-hd style=--sec-color:#1a45a8>
 <span class=s-icon>⛩️</span>
@@ -388,6 +387,46 @@
 <span class=s-count>7 spots</span>
 </div>
 <div class=spot-grid>
+<article class=spot-card data-spot-id=teshima-art-museum data-spot-name="Teshima Art Museum" data-spot-pref=kagawa data-spot-fee=3100 data-spot-dur=90 data-spot-lat=34.41 data-spot-lng=134.15 data-spot-area=teshima data-spot-rating=4.8 data-spot-reviews=1850 data-spot-img="https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?w=800&q=80" data-spot-cats=sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?w=800&q=80" alt="Teshima Art Museum" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Teshima, Kagawa</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Teshima Art Museum</h3>
+<p class=spot-desc>The Teshima Art Museum is a shell of reinforced concrete containing no fixed artworks — instead, water seeps through hundreds of tiny holes in the floor and gathers into pools that shift and merge with air currents, while light enters through two oval openings in the ceiling. Designed by architect Ryue Nishizawa and artist Rei Naito, it is widely considered one of the most profound art experiences in Japan. The surrounding terraced rice fields of Teshima add to the contemplative setting.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>art</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>teshima</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>minimalist</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class=spot-card data-spot-id=naoshima-chichu-art-museum data-spot-name="Naoshima — Chichu Art Museum &amp;amp; Benesse Art Site" data-spot-pref=kagawa data-spot-fee=2100 data-spot-dur=120 data-spot-lat=34.37 data-spot-lng=134.32 data-spot-area=naoshima data-spot-rating=4.7 data-spot-reviews=2200 data-spot-img="https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?w=800&q=80" data-spot-cats=sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?w=800&q=80" alt="Naoshima — Chichu Art Museum & Benesse Art Site" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Naoshima, Kagawa</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Naoshima — Chichu Art Museum & Benesse Art Site</h3>
+<p class=spot-desc>Chichu Art Museum, designed by Tadao Ando and built entirely underground on the island of Naoshima, houses a small permanent collection including five of Monet's Water Lilies paintings in a room flooded with natural light. The broader Benesse Art Site encompasses multiple museums and the Art House Project, which transforms old buildings in Honmura village into permanent site-specific installations. Naoshima has become one of the world's most extraordinary intersections of contemporary art and natural landscape.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>art</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>naoshima</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>tadao-ando</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 <article class=spot-card data-spot-id=kotohiragu-shrine data-spot-name="Kotohiragu Shrine (Konpira-san)" data-spot-pref=kagawa data-spot-fee=0 data-spot-dur=120 data-spot-lat=34.18 data-spot-lng=133.78 data-spot-area=kotohira data-spot-rating=4.6 data-spot-reviews=2800 data-spot-img="https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=800&q=80" data-spot-cats=sightseeing>
 <img class=spot-img src="https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=800&q=80" alt="Kotohiragu Shrine (Konpira-san)" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>⛩️</div>
@@ -428,20 +467,20 @@
 </button>
 </div>
 </article>
-<article class=spot-card data-spot-id=naoshima-chichu-art-museum data-spot-name="Naoshima — Chichu Art Museum &amp;amp; Benesse Art Site" data-spot-pref=kagawa data-spot-fee=2100 data-spot-dur=120 data-spot-lat=34.37 data-spot-lng=134.32 data-spot-area=naoshima data-spot-rating=4.7 data-spot-reviews=2200 data-spot-img="https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?w=800&q=80" data-spot-cats=sightseeing>
-<img class=spot-img src="https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?w=800&q=80" alt="Naoshima — Chichu Art Museum & Benesse Art Site" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<article class=spot-card data-spot-id=yashima-cliff-plateau data-spot-name="Yashima Cliff Plateau" data-spot-pref=kagawa data-spot-fee=1500 data-spot-dur=100 data-spot-lat=34.35 data-spot-lng=134.19 data-spot-area=yashima data-spot-rating=4.5 data-spot-reviews=1620 data-spot-img="https://images.unsplash.com/photo-1504198458649-3128b932f49e?w=800&q=80" data-spot-cats=nature,sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1504198458649-3128b932f49e?w=800&q=80" alt="Yashima Cliff Plateau" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>⛩️</div>
 <div class=spot-body>
 <div class=spot-meta>
-<span class=spot-location>📍 Naoshima, Kagawa</span>
+<span class=spot-location>📍 Yashima, Takamatsu, Kagawa</span>
 <span class=spot-season-badge></span>
 </div>
-<h3 class=spot-name>Naoshima — Chichu Art Museum & Benesse Art Site</h3>
-<p class=spot-desc>Chichu Art Museum, designed by Tadao Ando and built entirely underground on the island of Naoshima, houses a small permanent collection including five of Monet's Water Lilies paintings in a room flooded with natural light. The broader Benesse Art Site encompasses multiple museums and the Art House Project, which transforms old buildings in Honmura village into permanent site-specific installations. Naoshima has become one of the world's most extraordinary intersections of contemporary art and natural landscape.</p>
+<h3 class=spot-name>Yashima Cliff Plateau</h3>
+<p class=spot-desc>Yashima is a flat-topped mesa rising abruptly from the sea just east of Takamatsu, its sheer cliff walls giving it the appearance of a natural fortress — which it became during the 1185 Battle of Yashima between the Taira and Minamoto clans. The Yashimaji temple on the plateau is Temple 84 of the Shikoku pilgrimage, and the views from the cliff edge over the islands of the Seto Inland Sea are outstanding. A ropeway connects the plateau to the highway below.</p>
 <div class=spot-tags>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>art</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>naoshima</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>tadao-ando</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>plateau</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>history</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>views</span>
 </div>
 <button class=btn-add-plan onclick=prefTogglePlan(this)>
 🗺️ Add to Plan
@@ -468,70 +507,14 @@
 </button>
 </div>
 </article>
-<article class=spot-card data-spot-id=takamatsu-castle-tamamo-park data-spot-name="Takamatsu Castle Ruins — Tamamo Park" data-spot-pref=kagawa data-spot-fee=200 data-spot-dur=60 data-spot-lat=34.34 data-spot-lng=134.07 data-spot-area=takamatsu-central data-spot-rating=4.2 data-spot-reviews=1200 data-spot-img="https://images.unsplash.com/photo-1504198458649-3128b932f49e?w=800&q=80" data-spot-cats=sightseeing>
-<img class=spot-img src="https://images.unsplash.com/photo-1504198458649-3128b932f49e?w=800&q=80" alt="Takamatsu Castle Ruins — Tamamo Park" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>⛩️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Takamatsu, Kagawa</span>
-<span class=spot-season-badge></span>
 </div>
-<h3 class=spot-name>Takamatsu Castle Ruins — Tamamo Park</h3>
-<p class=spot-desc>Takamatsu Castle was one of Japan's three great water castles, its moats connected directly to the sea so that warships could enter the castle grounds. The keep was demolished in the Meiji era but the remaining stone walls, gates, and turrets within Tamamo Park are impressive, and the sea views from the reconstructed turrets recall the castle's former strategic importance. Cherry blossoms in spring make this one of the city's most popular hanami spots.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>castle-ruins</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>seaside</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>takamatsu</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=teshima-art-museum data-spot-name="Teshima Art Museum" data-spot-pref=kagawa data-spot-fee=3100 data-spot-dur=90 data-spot-lat=34.41 data-spot-lng=134.15 data-spot-area=teshima data-spot-rating=4.8 data-spot-reviews=1850 data-spot-img="https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?w=800&q=80" data-spot-cats=sightseeing>
-<img class=spot-img src="https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?w=800&q=80" alt="Teshima Art Museum" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>⛩️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Teshima, Kagawa</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Teshima Art Museum</h3>
-<p class=spot-desc>The Teshima Art Museum is a shell of reinforced concrete containing no fixed artworks — instead, water seeps through hundreds of tiny holes in the floor and gathers into pools that shift and merge with air currents, while light enters through two oval openings in the ceiling. Designed by architect Ryue Nishizawa and artist Rei Naito, it is widely considered one of the most profound art experiences in Japan. The surrounding terraced rice fields of Teshima add to the contemplative setting.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>art</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>teshima</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>minimalist</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=yashima-cliff-plateau data-spot-name="Yashima Cliff Plateau" data-spot-pref=kagawa data-spot-fee=1500 data-spot-dur=100 data-spot-lat=34.35 data-spot-lng=134.19 data-spot-area=yashima data-spot-rating=4.5 data-spot-reviews=1620 data-spot-img="https://images.unsplash.com/photo-1504198458649-3128b932f49e?w=800&q=80" data-spot-cats=nature,sightseeing>
-<img class=spot-img src="https://images.unsplash.com/photo-1504198458649-3128b932f49e?w=800&q=80" alt="Yashima Cliff Plateau" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>⛩️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Yashima, Takamatsu, Kagawa</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Yashima Cliff Plateau</h3>
-<p class=spot-desc>Yashima is a flat-topped mesa rising abruptly from the sea just east of Takamatsu, its sheer cliff walls giving it the appearance of a natural fortress — which it became during the 1185 Battle of Yashima between the Taira and Minamoto clans. The Yashimaji temple on the plateau is Temple 84 of the Shikoku pilgrimage, and the views from the cliff edge over the islands of the Seto Inland Sea are outstanding. A ropeway connects the plateau to the highway below.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>plateau</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>history</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>views</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
+<div class=see-all-wrap>
+<a class=see-all-btn style=color:#1a45a8 href=/prefectures/kagawa/spots/#sightseeing>
+See all 7 Sightseeing spots →
+</a>
 </div>
 </div>
-</section>
-<section class=spot-section id=section-gourmet data-cat=gourmet>
+</section><section class=spot-section id=section-gourmet data-cat=gourmet>
 <div class=spot-section-inner>
 <div class=section-hd style=--sec-color:#D64000>
 <span class=s-icon>🍜</span>
@@ -539,6 +522,26 @@
 <span class=s-count>7 spots</span>
 </div>
 <div class=spot-grid>
+<article class=spot-card data-spot-id=udon-pilgrimage-tour data-spot-name="Sanuki Udon Pilgrimage Tour" data-spot-pref=kagawa data-spot-fee=0 data-spot-dur=240 data-spot-lat=34.34 data-spot-lng=134.04 data-spot-area=takamatsu data-spot-rating=4.7 data-spot-reviews=1750 data-spot-img="https://images.unsplash.com/photo-1569050467447-ce54b3bbc37d?w=800&q=80" data-spot-cats=leisure,gourmet>
+<img class=spot-img src="https://images.unsplash.com/photo-1569050467447-ce54b3bbc37d?w=800&q=80" alt="Sanuki Udon Pilgrimage Tour" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🍜</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Takamatsu, Kagawa</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Sanuki Udon Pilgrimage Tour</h3>
+<p class=spot-desc>The Sanuki udon pilgrimage is an informal tradition of visiting as many udon shops as possible in a single day, with each stop yielding a small bowl for ¥350–¥600. The classic circuit visits shops ranging from suburban factory canteens to farmhouse operations open only three mornings a week, requiring either a rental car, a specialist udon taxi service, or a guided bus tour. Kagawa tourism offices in Takamatsu stock detailed udon map booklets in English.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>udon</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>food-tour</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>self-service</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 <article class=spot-card data-spot-id=sanuki-udon data-spot-name="Sanuki Udon" data-spot-pref=kagawa data-spot-fee=0 data-spot-dur=45 data-spot-lat=34.34 data-spot-lng=134.04 data-spot-area=takamatsu data-spot-rating=4.6 data-spot-reviews=3200 data-spot-img="https://images.unsplash.com/photo-1569050467447-ce54b3bbc37d?w=800&q=80" data-spot-cats=gourmet>
 <img class=spot-img src="https://images.unsplash.com/photo-1569050467447-ce54b3bbc37d?w=800&q=80" alt="Sanuki Udon" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>🍜</div>
@@ -579,20 +582,20 @@
 </button>
 </div>
 </article>
-<article class=spot-card data-spot-id=shodoshima-olive-products data-spot-name="Shodoshima Olive Products" data-spot-pref=kagawa data-spot-fee=0 data-spot-dur=60 data-spot-lat=34.46 data-spot-lng=134.35 data-spot-area=shodoshima data-spot-rating=4.3 data-spot-reviews=650 data-spot-img="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=800&q=80" data-spot-cats=gourmet>
-<img class=spot-img src="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=800&q=80" alt="Shodoshima Olive Products" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<article class=spot-card data-spot-id=honetsuki-dori data-spot-name="Honetsuki Dori (Bone-in Chicken)" data-spot-pref=kagawa data-spot-fee=0 data-spot-dur=60 data-spot-lat=34.3 data-spot-lng=133.81 data-spot-area=marugame data-spot-rating=4.5 data-spot-reviews=1400 data-spot-img="https://images.unsplash.com/photo-1569050467447-ce54b3bbc37d?w=800&q=80" data-spot-cats=gourmet>
+<img class=spot-img src="https://images.unsplash.com/photo-1569050467447-ce54b3bbc37d?w=800&q=80" alt="Honetsuki Dori (Bone-in Chicken)" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>🍜</div>
 <div class=spot-body>
 <div class=spot-meta>
-<span class=spot-location>📍 Shodoshima, Kagawa</span>
+<span class=spot-location>📍 Marugame, Kagawa</span>
 <span class=spot-season-badge></span>
 </div>
-<h3 class=spot-name>Shodoshima Olive Products</h3>
-<p class=spot-desc>Shodoshima island is Japan's birthplace of olive cultivation, having grown olives since 1908 when the Meiji government selected it as one of three test sites for the crop. Today the island produces extra-virgin olive oil, olive-fed beef and pork, olive-leaf tea, and a wide range of cosmetics and food products. The annual Olive Festival in October celebrates the harvest with pressing demonstrations and farm tours across the island's terraced groves.</p>
+<h3 class=spot-name>Honetsuki Dori (Bone-in Chicken)</h3>
+<p class=spot-desc>Honetsuki dori is Kagawa's beloved bone-in chicken specialty — a half-chicken marinated in a savoury tare sauce and grilled over charcoal until the skin is crisp and caramelised. The dish is eaten by gnawing the meat directly off the bone, which locals consider the only correct way. Ippuku, the restaurant widely credited with originating the dish in Marugame, still draws queues of devotees despite having been open for decades.</p>
 <div class=spot-tags>
-<span class=spot-tag style=background:#fff0ea;color:#9a3000>olive-oil</span>
-<span class=spot-tag style=background:#fff0ea;color:#9a3000>shodoshima</span>
-<span class=spot-tag style=background:#fff0ea;color:#9a3000>local-produce</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>chicken</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>grilled</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>local-specialty</span>
 </div>
 <button class=btn-add-plan onclick=prefTogglePlan(this)>
 🗺️ Add to Plan
@@ -619,60 +622,20 @@
 </button>
 </div>
 </article>
-<article class=spot-card data-spot-id=honetsuki-dori data-spot-name="Honetsuki Dori (Bone-in Chicken)" data-spot-pref=kagawa data-spot-fee=0 data-spot-dur=60 data-spot-lat=34.3 data-spot-lng=133.81 data-spot-area=marugame data-spot-rating=4.5 data-spot-reviews=1400 data-spot-img="https://images.unsplash.com/photo-1569050467447-ce54b3bbc37d?w=800&q=80" data-spot-cats=gourmet>
-<img class=spot-img src="https://images.unsplash.com/photo-1569050467447-ce54b3bbc37d?w=800&q=80" alt="Honetsuki Dori (Bone-in Chicken)" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>🍜</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Marugame, Kagawa</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Honetsuki Dori (Bone-in Chicken)</h3>
-<p class=spot-desc>Honetsuki dori is Kagawa's beloved bone-in chicken specialty — a half-chicken marinated in a savoury tare sauce and grilled over charcoal until the skin is crisp and caramelised. The dish is eaten by gnawing the meat directly off the bone, which locals consider the only correct way. Ippuku, the restaurant widely credited with originating the dish in Marugame, still draws queues of devotees despite having been open for decades.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#fff0ea;color:#9a3000>chicken</span>
-<span class=spot-tag style=background:#fff0ea;color:#9a3000>grilled</span>
-<span class=spot-tag style=background:#fff0ea;color:#9a3000>local-specialty</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=shodoshima-wakame data-spot-name="Shodoshima Wakame Seaweed" data-spot-pref=kagawa data-spot-fee=0 data-spot-dur=45 data-spot-lat=34.46 data-spot-lng=134.35 data-spot-area=shodoshima data-spot-rating=4.2 data-spot-reviews=420 data-spot-img="https://images.unsplash.com/photo-1569050467447-ce54b3bbc37d?w=800&q=80" data-spot-cats=gourmet>
-<img class=spot-img src="https://images.unsplash.com/photo-1569050467447-ce54b3bbc37d?w=800&q=80" alt="Shodoshima Wakame Seaweed" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<article class=spot-card data-spot-id=shodoshima-olive-products data-spot-name="Shodoshima Olive Products" data-spot-pref=kagawa data-spot-fee=0 data-spot-dur=60 data-spot-lat=34.46 data-spot-lng=134.35 data-spot-area=shodoshima data-spot-rating=4.3 data-spot-reviews=650 data-spot-img="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=800&q=80" data-spot-cats=gourmet>
+<img class=spot-img src="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=800&q=80" alt="Shodoshima Olive Products" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>🍜</div>
 <div class=spot-body>
 <div class=spot-meta>
 <span class=spot-location>📍 Shodoshima, Kagawa</span>
 <span class=spot-season-badge></span>
 </div>
-<h3 class=spot-name>Shodoshima Wakame Seaweed</h3>
-<p class=spot-desc>The waters around Shodoshima produce some of Japan's finest wakame seaweed, harvested in winter and early spring when the fronds are at their most tender and flavourful. Fresh Shodoshima wakame has a vivid green colour and a delicate oceanic flavour quite different from the dried product used in most restaurants. It is eaten as a salad with sesame dressing, added to miso soup, or served simply blanched with ponzu — and is available at island markets and Takamatsu's Marché from January through March.</p>
+<h3 class=spot-name>Shodoshima Olive Products</h3>
+<p class=spot-desc>Shodoshima island is Japan's birthplace of olive cultivation, having grown olives since 1908 when the Meiji government selected it as one of three test sites for the crop. Today the island produces extra-virgin olive oil, olive-fed beef and pork, olive-leaf tea, and a wide range of cosmetics and food products. The annual Olive Festival in October celebrates the harvest with pressing demonstrations and farm tours across the island's terraced groves.</p>
 <div class=spot-tags>
-<span class=spot-tag style=background:#fff0ea;color:#9a3000>seaweed</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>olive-oil</span>
 <span class=spot-tag style=background:#fff0ea;color:#9a3000>shodoshima</span>
-<span class=spot-tag style=background:#fff0ea;color:#9a3000>umami</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=udon-pilgrimage-tour data-spot-name="Sanuki Udon Pilgrimage Tour" data-spot-pref=kagawa data-spot-fee=0 data-spot-dur=240 data-spot-lat=34.34 data-spot-lng=134.04 data-spot-area=takamatsu data-spot-rating=4.7 data-spot-reviews=1750 data-spot-img="https://images.unsplash.com/photo-1569050467447-ce54b3bbc37d?w=800&q=80" data-spot-cats=leisure,gourmet>
-<img class=spot-img src="https://images.unsplash.com/photo-1569050467447-ce54b3bbc37d?w=800&q=80" alt="Sanuki Udon Pilgrimage Tour" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>🍜</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Takamatsu, Kagawa</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Sanuki Udon Pilgrimage Tour</h3>
-<p class=spot-desc>The Sanuki udon pilgrimage is an informal tradition of visiting as many udon shops as possible in a single day, with each stop yielding a small bowl for ¥350–¥600. The classic circuit visits shops ranging from suburban factory canteens to farmhouse operations open only three mornings a week, requiring either a rental car, a specialist udon taxi service, or a guided bus tour. Kagawa tourism offices in Takamatsu stock detailed udon map booklets in English.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#fff0ea;color:#9a3000>udon</span>
-<span class=spot-tag style=background:#fff0ea;color:#9a3000>food-tour</span>
-<span class=spot-tag style=background:#fff0ea;color:#9a3000>self-service</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>local-produce</span>
 </div>
 <button class=btn-add-plan onclick=prefTogglePlan(this)>
 🗺️ Add to Plan
@@ -680,9 +643,13 @@
 </div>
 </article>
 </div>
+<div class=see-all-wrap>
+<a class=see-all-btn style=color:#d64000 href=/prefectures/kagawa/spots/#gourmet>
+See all 7 Gourmet spots →
+</a>
 </div>
-</section>
-<section class=spot-section id=section-nature data-cat=nature>
+</div>
+</section><section class=spot-section id=section-nature data-cat=nature>
 <div class=spot-section-inner>
 <div class=section-hd style=--sec-color:#1a7a34>
 <span class=s-icon>🏔️</span>
@@ -690,6 +657,26 @@
 <span class=s-count>5 spots</span>
 </div>
 <div class=spot-grid>
+<article class=spot-card data-spot-id=seto-inland-sea-landscape data-spot-name="Seto Inland Sea Island Landscape" data-spot-pref=kagawa data-spot-fee=0 data-spot-dur=120 data-spot-lat=34.35 data-spot-lng=134.1 data-spot-area=seto-inland-sea data-spot-rating=4.7 data-spot-reviews=2100 data-spot-img="https://images.unsplash.com/photo-1542640244-7e672d6cef4e?w=800&q=80" data-spot-cats=nature>
+<img class=spot-img src="https://images.unsplash.com/photo-1542640244-7e672d6cef4e?w=800&q=80" alt="Seto Inland Sea Island Landscape" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🏔️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Seto Inland Sea, Kagawa</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Seto Inland Sea Island Landscape</h3>
+<p class=spot-desc>The Seto Inland Sea scattered between Kagawa and Hiroshima contains more than 700 islands of varying sizes, their pine-covered profiles rising from remarkably calm, luminous water. The light across the Seto Inland Sea has a quality that has attracted artists and photographers for centuries — flat, silver at dawn, golden at dusk, the islands receding in layers to the horizon. The view from the ferry deck between Takamatsu and Naoshima is one of the finest sea journeys in Japan.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>islands</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>sea-views</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>photography</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 <article class=spot-card data-spot-id=ritsurin-garden data-spot-name="Ritsurin Garden" data-spot-pref=kagawa data-spot-fee=800 data-spot-dur=90 data-spot-lat=34.34 data-spot-lng=134.06 data-spot-area=takamatsu data-spot-rating=4.5 data-spot-reviews=1950 data-spot-img="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=800&q=80" data-spot-cats=sightseeing,nature>
 <img class=spot-img src="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=800&q=80" alt="Ritsurin Garden" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>🏔️</div>
@@ -710,20 +697,20 @@
 </button>
 </div>
 </article>
-<article class=spot-card data-spot-id=seto-inland-sea-landscape data-spot-name="Seto Inland Sea Island Landscape" data-spot-pref=kagawa data-spot-fee=0 data-spot-dur=120 data-spot-lat=34.35 data-spot-lng=134.1 data-spot-area=seto-inland-sea data-spot-rating=4.7 data-spot-reviews=2100 data-spot-img="https://images.unsplash.com/photo-1542640244-7e672d6cef4e?w=800&q=80" data-spot-cats=nature>
-<img class=spot-img src="https://images.unsplash.com/photo-1542640244-7e672d6cef4e?w=800&q=80" alt="Seto Inland Sea Island Landscape" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<article class=spot-card data-spot-id=yashima-cliff-plateau data-spot-name="Yashima Cliff Plateau" data-spot-pref=kagawa data-spot-fee=1500 data-spot-dur=100 data-spot-lat=34.35 data-spot-lng=134.19 data-spot-area=yashima data-spot-rating=4.5 data-spot-reviews=1620 data-spot-img="https://images.unsplash.com/photo-1504198458649-3128b932f49e?w=800&q=80" data-spot-cats=nature,sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1504198458649-3128b932f49e?w=800&q=80" alt="Yashima Cliff Plateau" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>🏔️</div>
 <div class=spot-body>
 <div class=spot-meta>
-<span class=spot-location>📍 Seto Inland Sea, Kagawa</span>
+<span class=spot-location>📍 Yashima, Takamatsu, Kagawa</span>
 <span class=spot-season-badge></span>
 </div>
-<h3 class=spot-name>Seto Inland Sea Island Landscape</h3>
-<p class=spot-desc>The Seto Inland Sea scattered between Kagawa and Hiroshima contains more than 700 islands of varying sizes, their pine-covered profiles rising from remarkably calm, luminous water. The light across the Seto Inland Sea has a quality that has attracted artists and photographers for centuries — flat, silver at dawn, golden at dusk, the islands receding in layers to the horizon. The view from the ferry deck between Takamatsu and Naoshima is one of the finest sea journeys in Japan.</p>
+<h3 class=spot-name>Yashima Cliff Plateau</h3>
+<p class=spot-desc>Yashima is a flat-topped mesa rising abruptly from the sea just east of Takamatsu, its sheer cliff walls giving it the appearance of a natural fortress — which it became during the 1185 Battle of Yashima between the Taira and Minamoto clans. The Yashimaji temple on the plateau is Temple 84 of the Shikoku pilgrimage, and the views from the cliff edge over the islands of the Seto Inland Sea are outstanding. A ropeway connects the plateau to the highway below.</p>
 <div class=spot-tags>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>islands</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>sea-views</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>photography</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>plateau</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>history</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>views</span>
 </div>
 <button class=btn-add-plan onclick=prefTogglePlan(this)>
 🗺️ Add to Plan
@@ -770,30 +757,9 @@
 </button>
 </div>
 </article>
-<article class=spot-card data-spot-id=yashima-cliff-plateau data-spot-name="Yashima Cliff Plateau" data-spot-pref=kagawa data-spot-fee=1500 data-spot-dur=100 data-spot-lat=34.35 data-spot-lng=134.19 data-spot-area=yashima data-spot-rating=4.5 data-spot-reviews=1620 data-spot-img="https://images.unsplash.com/photo-1504198458649-3128b932f49e?w=800&q=80" data-spot-cats=nature,sightseeing>
-<img class=spot-img src="https://images.unsplash.com/photo-1504198458649-3128b932f49e?w=800&q=80" alt="Yashima Cliff Plateau" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>🏔️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Yashima, Takamatsu, Kagawa</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Yashima Cliff Plateau</h3>
-<p class=spot-desc>Yashima is a flat-topped mesa rising abruptly from the sea just east of Takamatsu, its sheer cliff walls giving it the appearance of a natural fortress — which it became during the 1185 Battle of Yashima between the Taira and Minamoto clans. The Yashimaji temple on the plateau is Temple 84 of the Shikoku pilgrimage, and the views from the cliff edge over the islands of the Seto Inland Sea are outstanding. A ropeway connects the plateau to the highway below.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>plateau</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>history</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>views</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
 </div>
 </div>
-</section>
-<section class=spot-section id=section-leisure data-cat=leisure>
+</section><section class=spot-section id=section-leisure data-cat=leisure>
 <div class=spot-section-inner>
 <div class=section-hd style=--sec-color:#b35c00>
 <span class=s-icon>🎿</span>
@@ -801,26 +767,6 @@
 <span class=s-count>4 spots</span>
 </div>
 <div class=spot-grid>
-<article class=spot-card data-spot-id=naoshima-cycling data-spot-name="Naoshima Island Cycling" data-spot-pref=kagawa data-spot-fee=0 data-spot-dur=150 data-spot-lat=34.37 data-spot-lng=134.33 data-spot-area=naoshima data-spot-rating=4.6 data-spot-reviews=1480 data-spot-img="https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=800&q=80" data-spot-cats=leisure>
-<img class=spot-img src="https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=800&q=80" alt="Naoshima Island Cycling" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>🎿</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Naoshima, Kagawa</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Naoshima Island Cycling</h3>
-<p class=spot-desc>Naoshima is small enough to circumnavigate by bicycle in two to three hours, making cycling the perfect way to move between the island's museums, art installations, and beach viewpoints. Rental bicycles are available from both the Miyaura and Honmura ferry terminals, with e-bikes offered at several locations for the hillier routes. The combination of sea breezes, art encounters around every bend, and a bowl of udon at the harbour on the return makes for an ideal day.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>cycling</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>naoshima</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>art-island</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
 <article class=spot-card data-spot-id=setouchi-triennale-island-hopping data-spot-name="Setouchi Triennale Art Island Hopping" data-spot-pref=kagawa data-spot-fee=4000 data-spot-dur=240 data-spot-lat=34.39 data-spot-lng=134.25 data-spot-area=seto-inland-sea data-spot-rating=4.7 data-spot-reviews=2300 data-spot-img="https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?w=800&q=80" data-spot-cats=leisure>
 <img class=spot-img src="https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?w=800&q=80" alt="Setouchi Triennale Art Island Hopping" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>🎿</div>
@@ -835,26 +781,6 @@
 <span class=spot-tag style=background:#fff3e0;color:#7a3f00>triennale</span>
 <span class=spot-tag style=background:#fff3e0;color:#7a3f00>art</span>
 <span class=spot-tag style=background:#fff3e0;color:#7a3f00>island-hopping</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=shimanami-kaido-sakaide data-spot-name="Shimanami Kaido Access from Sakaide" data-spot-pref=kagawa data-spot-fee=0 data-spot-dur=180 data-spot-lat=34.31 data-spot-lng=133.87 data-spot-area=sakaide data-spot-rating=4.4 data-spot-reviews=620 data-spot-img="https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=800&q=80" data-spot-cats=leisure>
-<img class=spot-img src="https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=800&q=80" alt="Shimanami Kaido Access from Sakaide" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>🎿</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Sakaide, Kagawa</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Shimanami Kaido Access from Sakaide</h3>
-<p class=spot-desc>Kagawa's Sakaide city sits at the western end of the Seto Ohashi Bridge and is a lesser-known access point for cyclists tackling the Shimanami Kaido bridge cycle route across the Seto Inland Sea. The route from Sakaide connects to the broader island-hopping cycling network and offers views of the remarkable engineering of the Seto Ohashi's double-decker bridge structure carrying both rail and road. Local cycle rental shops in Sakaide cater to day-trippers and multi-day riders.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>cycling</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>shimanami</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>bridge-crossing</span>
 </div>
 <button class=btn-add-plan onclick=prefTogglePlan(this)>
 🗺️ Add to Plan
@@ -881,10 +807,49 @@
 </button>
 </div>
 </article>
+<article class=spot-card data-spot-id=naoshima-cycling data-spot-name="Naoshima Island Cycling" data-spot-pref=kagawa data-spot-fee=0 data-spot-dur=150 data-spot-lat=34.37 data-spot-lng=134.33 data-spot-area=naoshima data-spot-rating=4.6 data-spot-reviews=1480 data-spot-img="https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=800&q=80" data-spot-cats=leisure>
+<img class=spot-img src="https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=800&q=80" alt="Naoshima Island Cycling" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎿</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Naoshima, Kagawa</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Naoshima Island Cycling</h3>
+<p class=spot-desc>Naoshima is small enough to circumnavigate by bicycle in two to three hours, making cycling the perfect way to move between the island's museums, art installations, and beach viewpoints. Rental bicycles are available from both the Miyaura and Honmura ferry terminals, with e-bikes offered at several locations for the hillier routes. The combination of sea breezes, art encounters around every bend, and a bowl of udon at the harbour on the return makes for an ideal day.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>cycling</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>naoshima</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>art-island</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class=spot-card data-spot-id=shimanami-kaido-sakaide data-spot-name="Shimanami Kaido Access from Sakaide" data-spot-pref=kagawa data-spot-fee=0 data-spot-dur=180 data-spot-lat=34.31 data-spot-lng=133.87 data-spot-area=sakaide data-spot-rating=4.4 data-spot-reviews=620 data-spot-img="https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=800&q=80" data-spot-cats=leisure>
+<img class=spot-img src="https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=800&q=80" alt="Shimanami Kaido Access from Sakaide" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎿</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Sakaide, Kagawa</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Shimanami Kaido Access from Sakaide</h3>
+<p class=spot-desc>Kagawa's Sakaide city sits at the western end of the Seto Ohashi Bridge and is a lesser-known access point for cyclists tackling the Shimanami Kaido bridge cycle route across the Seto Inland Sea. The route from Sakaide connects to the broader island-hopping cycling network and offers views of the remarkable engineering of the Seto Ohashi's double-decker bridge structure carrying both rail and road. Local cycle rental shops in Sakaide cater to day-trippers and multi-day riders.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>cycling</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>shimanami</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>bridge-crossing</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 </div>
 </div>
-</section>
-<section class=spot-section id=section-events data-cat=events>
+</section><section class=spot-section id=section-events data-cat=events>
 <div class=spot-section-inner>
 <div class=section-hd style=--sec-color:#b5006e>
 <span class=s-icon>🎆</span>

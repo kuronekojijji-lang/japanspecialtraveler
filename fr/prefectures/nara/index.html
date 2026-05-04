@@ -85,7 +85,7 @@
   document.addEventListener('keydown', function(e){ if(e.key==='Escape') close(); });
 })();
 </script>
-<style>.pref-breadcrumb{background:#f8f9fa;border-bottom:1px solid var(--border);padding:.6rem 1.5rem;font-size:.82rem;color:var(--gray)}.pref-breadcrumb a{color:var(--red);text-decoration:none}.pref-breadcrumb a:hover{text-decoration:underline}.pref-breadcrumb span{margin:0 .4rem}.pref-hero{position:relative;min-height:440px;display:flex;align-items:flex-end;background:#0f1a0a 50%/cover no-repeat;background-image:url(https://images.unsplash.com/photo-1524413840807-0c3cb6fa808d?w=1600&q=80)}.pref-hero::after{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,.15) 0%,rgba(0,0,0,.7) 100%)}.pref-hero-body{position:relative;z-index:1;padding:2.5rem 1.5rem 2rem;max-width:var(--max-w);margin:0 auto;width:100%}.pref-hero-eyebrow{color:rgba(255,255,255,.75);font-size:.82rem;font-weight:600;text-transform:uppercase;letter-spacing:.1em;margin-bottom:.5rem}.pref-hero h1{color:#fff;font-size:clamp(2.2rem,5.5vw,3.4rem);font-weight:900;margin:0 0 .5rem;line-height:1.1}.pref-hero .pref-sub{color:rgba(255,255,255,.88);font-size:1.05rem;max-width:560px;margin-bottom:1rem}.pref-stats{display:flex;flex-wrap:wrap;gap:.6rem}.pref-stat{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);border-radius:20px;padding:.3rem .85rem;color:#fff;font-size:.8rem;font-weight:600}.pref-section{padding:2.5rem 1.5rem}.pref-section+.pref-section{padding-top:0}.pref-container{max-width:var(--max-w);margin:0 auto}.pref-section-title{font-size:1.55rem;font-weight:900;margin:0 0 .4rem;display:flex;align-items:center;gap:.5rem}.pref-section-lead{font-size:1rem;color:#555;line-height:1.7;max-width:680px;margin-bottom:1.5rem}.ponko-guide{display:flex;align-items:flex-end;gap:0;margin-bottom:1.6rem}.ponko-bubble{flex:1;min-width:0;background:linear-gradient(135deg,#fff9f0,#fff3e0);border:2px solid #f5a623;border-radius:18px 18px 18px 4px;padding:1.2rem 1.5rem;position:relative;box-shadow:0 4px 14px rgba(245,166,35,.13)}.ponko-bubble::after{content:'';position:absolute;right:-18px;bottom:22px;border:9px solid transparent;border-left-color:#f5a623}.ponko-bubble::before{content:'';position:absolute;right:-13px;bottom:23px;z-index:1;border:8px solid transparent;border-left-color:#fff9f0}.ponko-bubble p{font-size:.97rem;line-height:1.8;color:#333;margin:0}.ponko-figure{flex-shrink:0;width:170px;margin-left:4px;animation:ponko-float 3s ease-in-out infinite}.ponko-figure img{width:100%;height:auto;display:block;filter:drop-shadow(0 6px 10px rgba(0,0,0,.18))}@keyframes ponko-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}@media(max-width:640px){.ponko-guide{flex-direction:column;align-items:center}.ponko-bubble{border-radius:18px;order:2;width:100%}.ponko-bubble::after,.ponko-bubble::before{display:none}.ponko-figure{order:1;width:130px;margin-left:0;margin-bottom:.5rem;animation:none}}.quick-facts{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.8rem;margin-top:1.4rem}.qf-card{background:#f8f9fb;border:1px solid var(--border);border-radius:12px;padding:1rem 1.1rem;display:flex;align-items:flex-start;gap:.7rem}.qf-icon{font-size:1.4rem;flex-shrink:0}.qf-label{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--gray);margin-bottom:.15rem}.qf-value{font-size:.9rem;font-weight:600;color:var(--dark)}.access-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}.access-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 8px rgba(0,0,0,5%)}.access-card-hd{display:flex;align-items:center;gap:.5rem;margin-bottom:.8rem}.access-card-icon{font-size:1.5rem}.access-card-title{font-size:1rem;font-weight:800;color:var(--dark)}.access-card ul{margin:0;padding-left:1.1rem}.access-card li{font-size:.875rem;line-height:1.65;color:#444;margin-bottom:.3rem}.access-card li strong{color:var(--dark)}.access-tip{margin-top:1.2rem;background:#fff8e6;border:1px solid #ffe0a0;border-radius:10px;padding:.9rem 1.1rem;font-size:.85rem;line-height:1.6;color:#5a3e00}.access-tip strong{display:block;margin-bottom:.2rem;font-size:.88rem}.guide-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem}.guide-card{background:#fff;border-radius:14px;overflow:hidden;border:1px solid var(--border);box-shadow:0 2px 8px rgba(0,0,0,5%);transition:transform .15s,box-shadow .15s;position:relative;display:flex;flex-direction:column}.guide-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.guide-card-img{width:100%;height:150px;object-fit:cover;background:#e8eef4;display:block}.guide-card-img-ph{width:100%;height:150px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:2.5rem}.guide-card-body{padding:.9rem 1rem 1rem;flex:1}.guide-cat-badge{display:inline-block;font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;padding:.15rem .55rem;border-radius:8px;background:var(--red);color:#fff;margin-bottom:.4rem}.guide-card-title{font-size:.92rem;font-weight:800;color:var(--dark);line-height:1.4}.guide-coming-soon{position:absolute;top:.6rem;right:.6rem;background:rgba(0,0,0,.55);color:#fff;font-size:.65rem;font-weight:700;padding:.2rem .5rem;border-radius:6px;text-transform:uppercase;letter-spacing:.05em}.guide-card-link{text-decoration:none;color:inherit;display:flex;flex-direction:column;height:100%}.pref-toc{background:#fff;border-bottom:2px solid var(--border);position:sticky;top:0;z-index:100;overflow-x:auto}.pref-toc-inner{display:flex;gap:0;max-width:var(--max-w);margin:0 auto}.pref-toc-btn{flex:none;display:flex;align-items:center;gap:.4rem;padding:.8rem 1.2rem;border:none;background:0 0;cursor:pointer;font-family:inherit;font-size:.88rem;font-weight:600;color:var(--gray);border-bottom:3px solid transparent;transition:all .18s;white-space:nowrap}.pref-toc-btn .toc-icon{font-size:1.1rem}.pref-toc-btn:hover{color:var(--dark);background:#f8f8f8}.pref-toc-btn.active{color:var(--toc-color,var(--red));border-bottom-color:var(--toc-color,var(--red))}.spot-section{padding:2rem 1.5rem 2.5rem}.spot-section.hidden{display:none}.spot-section-inner{max-width:var(--max-w);margin:0 auto}.section-hd{display:flex;align-items:center;gap:.6rem;margin-bottom:1.4rem;padding-bottom:.7rem;border-bottom:2px solid var(--border)}.section-hd .s-icon{font-size:1.6rem}.section-hd h2{font-size:1.35rem;font-weight:800;margin:0}.section-hd .s-count{margin-left:auto;background:var(--sec-color,var(--red));color:#fff;border-radius:20px;padding:.15rem .65rem;font-size:.78rem;font-weight:700}.spot-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.25rem}.spot-card{border-radius:14px;overflow:hidden;border:1px solid var(--border);background:#fff;box-shadow:0 2px 8px rgba(0,0,0,6%);transition:transform .15s,box-shadow .15s;display:flex;flex-direction:column}.spot-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.spot-img{width:100%;height:200px;object-fit:cover;background:#e8eef4;display:block}.spot-img-ph{width:100%;height:200px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:3rem}.spot-body{padding:1rem 1.1rem 1.1rem;flex:1;display:flex;flex-direction:column}.spot-meta{display:flex;align-items:center;gap:.5rem;margin-bottom:.5rem}.spot-location{font-size:.78rem;color:var(--gray);font-weight:500}.spot-season-badge{margin-left:auto;font-size:.7rem;font-weight:700;padding:.1rem .5rem;border-radius:10px;background:#f0f4f8;color:#555;white-space:nowrap}.spot-name{font-size:1.08rem;font-weight:800;color:var(--dark);margin:0 0 .45rem;line-height:1.3}.spot-desc{font-size:.86rem;line-height:1.65;color:#555;flex:1;margin-bottom:.75rem}.spot-tags{display:flex;flex-wrap:wrap;gap:.3rem}.spot-tag{font-size:.7rem;font-weight:600;padding:.15rem .5rem;border-radius:6px;background:var(--tag-bg,#f0f4f8);color:var(--tag-color,#445)}.tips-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem}.tip-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 6px rgba(0,0,0,4%)}.tip-card-icon{font-size:1.8rem;margin-bottom:.6rem}.tip-card-title{font-size:.95rem;font-weight:800;color:var(--dark);margin-bottom:.5rem}.tip-card-body{font-size:.85rem;line-height:1.65;color:#555}.tip-card-body ul{margin:.3rem 0 0;padding-left:1.1rem}.tip-card-body li{margin-bottom:.2rem}.pref-cta{background:var(--bg-soft);padding:2.5rem 1.5rem 3rem;border-top:1px solid var(--border)}.pref-cta .pref-container{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}@media(max-width:600px){.pref-hero{min-height:320px}.quick-facts{grid-template-columns:repeat(2,1fr)}.pref-toc-btn{padding:.7rem .9rem;font-size:.82rem}}.btn-add-plan{display:inline-flex;align-items:center;gap:.35rem;margin-top:.75rem;padding:.45rem .9rem;border:1.5px solid #2d5be3;border-radius:8px;background:#fff;color:#2d5be3;font-size:.78rem;font-weight:700;font-family:inherit;cursor:pointer;transition:background .15s,color .15s,transform .1s;width:100%;justify-content:center}.btn-add-plan:hover{background:#2d5be3;color:#fff;transform:translateY(-1px)}.btn-add-plan.in-plan{background:#e8f0ff;color:#1a45a8;border-color:#1a45a8}.btn-add-plan.in-plan:hover{background:#c0003a;color:#fff;border-color:#c0003a}</style>
+<style>.pref-breadcrumb{background:#f8f9fa;border-bottom:1px solid var(--border);padding:.6rem 1.5rem;font-size:.82rem;color:var(--gray)}.pref-breadcrumb a{color:var(--red);text-decoration:none}.pref-breadcrumb a:hover{text-decoration:underline}.pref-breadcrumb span{margin:0 .4rem}.pref-hero{position:relative;min-height:440px;display:flex;align-items:flex-end;background:#0f1a0a 50%/cover no-repeat;background-image:url(https://images.unsplash.com/photo-1524413840807-0c3cb6fa808d?w=1600&q=80)}.pref-hero::after{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,.15) 0%,rgba(0,0,0,.7) 100%)}.pref-hero-body{position:relative;z-index:1;padding:2.5rem 1.5rem 2rem;max-width:var(--max-w);margin:0 auto;width:100%}.pref-hero-eyebrow{color:rgba(255,255,255,.75);font-size:.82rem;font-weight:600;text-transform:uppercase;letter-spacing:.1em;margin-bottom:.5rem}.pref-hero h1{color:#fff;font-size:clamp(2.2rem,5.5vw,3.4rem);font-weight:900;margin:0 0 .5rem;line-height:1.1}.pref-hero .pref-sub{color:rgba(255,255,255,.88);font-size:1.05rem;max-width:560px;margin-bottom:1rem}.pref-stats{display:flex;flex-wrap:wrap;gap:.6rem}.pref-stat{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);border-radius:20px;padding:.3rem .85rem;color:#fff;font-size:.8rem;font-weight:600}.pref-section{padding:2.5rem 1.5rem}.pref-section+.pref-section{padding-top:0}.pref-container{max-width:var(--max-w);margin:0 auto}.pref-section-title{font-size:1.55rem;font-weight:900;margin:0 0 .4rem;display:flex;align-items:center;gap:.5rem}.pref-section-lead{font-size:1rem;color:#555;line-height:1.7;max-width:680px;margin-bottom:1.5rem}.ponko-guide{display:flex;align-items:flex-end;gap:0;margin-bottom:1.6rem}.ponko-bubble{flex:1;min-width:0;background:linear-gradient(135deg,#fff9f0,#fff3e0);border:2px solid #f5a623;border-radius:18px 18px 18px 4px;padding:1.2rem 1.5rem;position:relative;box-shadow:0 4px 14px rgba(245,166,35,.13)}.ponko-bubble::after{content:'';position:absolute;right:-18px;bottom:22px;border:9px solid transparent;border-left-color:#f5a623}.ponko-bubble::before{content:'';position:absolute;right:-13px;bottom:23px;z-index:1;border:8px solid transparent;border-left-color:#fff9f0}.ponko-bubble p{font-size:.97rem;line-height:1.8;color:#333;margin:0}.ponko-figure{flex-shrink:0;width:170px;margin-left:4px;animation:ponko-float 3s ease-in-out infinite}.ponko-figure img{width:100%;height:auto;display:block;filter:drop-shadow(0 6px 10px rgba(0,0,0,.18))}@keyframes ponko-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}@media(max-width:640px){.ponko-guide{flex-direction:column;align-items:center}.ponko-bubble{border-radius:18px;order:2;width:100%}.ponko-bubble::after,.ponko-bubble::before{display:none}.ponko-figure{order:1;width:130px;margin-left:0;margin-bottom:.5rem;animation:none}}.quick-facts{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.8rem;margin-top:1.4rem}.qf-card{background:#f8f9fb;border:1px solid var(--border);border-radius:12px;padding:1rem 1.1rem;display:flex;align-items:flex-start;gap:.7rem}.qf-icon{font-size:1.4rem;flex-shrink:0}.qf-label{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--gray);margin-bottom:.15rem}.qf-value{font-size:.9rem;font-weight:600;color:var(--dark)}.access-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}.access-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 8px rgba(0,0,0,5%)}.access-card-hd{display:flex;align-items:center;gap:.5rem;margin-bottom:.8rem}.access-card-icon{font-size:1.5rem}.access-card-title{font-size:1rem;font-weight:800;color:var(--dark)}.access-card ul{margin:0;padding-left:1.1rem}.access-card li{font-size:.875rem;line-height:1.65;color:#444;margin-bottom:.3rem}.access-card li strong{color:var(--dark)}.access-tip{margin-top:1.2rem;background:#fff8e6;border:1px solid #ffe0a0;border-radius:10px;padding:.9rem 1.1rem;font-size:.85rem;line-height:1.6;color:#5a3e00}.access-tip strong{display:block;margin-bottom:.2rem;font-size:.88rem}.guide-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem}.guide-card{background:#fff;border-radius:14px;overflow:hidden;border:1px solid var(--border);box-shadow:0 2px 8px rgba(0,0,0,5%);transition:transform .15s,box-shadow .15s;position:relative;display:flex;flex-direction:column}.guide-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.guide-card-img{width:100%;height:150px;object-fit:cover;background:#e8eef4;display:block}.guide-card-img-ph{width:100%;height:150px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:2.5rem}.guide-card-body{padding:.9rem 1rem 1rem;flex:1}.guide-cat-badge{display:inline-block;font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;padding:.15rem .55rem;border-radius:8px;background:var(--red);color:#fff;margin-bottom:.4rem}.guide-card-title{font-size:.92rem;font-weight:800;color:var(--dark);line-height:1.4}.guide-coming-soon{position:absolute;top:.6rem;right:.6rem;background:rgba(0,0,0,.55);color:#fff;font-size:.65rem;font-weight:700;padding:.2rem .5rem;border-radius:6px;text-transform:uppercase;letter-spacing:.05em}.guide-card-link{text-decoration:none;color:inherit;display:flex;flex-direction:column;height:100%}.pref-toc{background:#fff;border-bottom:2px solid var(--border);position:sticky;top:0;z-index:100;overflow-x:auto}.pref-toc-inner{display:flex;gap:0;max-width:var(--max-w);margin:0 auto}.pref-toc-btn{flex:none;display:flex;align-items:center;gap:.4rem;padding:.8rem 1.2rem;border:none;background:0 0;cursor:pointer;font-family:inherit;font-size:.88rem;font-weight:600;color:var(--gray);border-bottom:3px solid transparent;transition:all .18s;white-space:nowrap}.pref-toc-btn .toc-icon{font-size:1.1rem}.pref-toc-btn:hover{color:var(--dark);background:#f8f8f8}.pref-toc-btn.active{color:var(--toc-color,var(--red));border-bottom-color:var(--toc-color,var(--red))}.spot-section{padding:2rem 1.5rem 2.5rem}.spot-section.hidden{display:none}.spot-section-inner{max-width:var(--max-w);margin:0 auto}.section-hd{display:flex;align-items:center;gap:.6rem;margin-bottom:1.4rem;padding-bottom:.7rem;border-bottom:2px solid var(--border)}.section-hd .s-icon{font-size:1.6rem}.section-hd h2{font-size:1.35rem;font-weight:800;margin:0}.section-hd .s-count{margin-left:auto;background:var(--sec-color,var(--red));color:#fff;border-radius:20px;padding:.15rem .65rem;font-size:.78rem;font-weight:700}.spot-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.25rem}.spot-card{border-radius:14px;overflow:hidden;border:1px solid var(--border);background:#fff;box-shadow:0 2px 8px rgba(0,0,0,6%);transition:transform .15s,box-shadow .15s;display:flex;flex-direction:column}.spot-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.spot-img{width:100%;height:200px;object-fit:cover;background:#e8eef4;display:block}.spot-img-ph{width:100%;height:200px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:3rem}.spot-body{padding:1rem 1.1rem 1.1rem;flex:1;display:flex;flex-direction:column}.spot-meta{display:flex;align-items:center;gap:.5rem;margin-bottom:.5rem}.spot-location{font-size:.78rem;color:var(--gray);font-weight:500}.spot-season-badge{margin-left:auto;font-size:.7rem;font-weight:700;padding:.1rem .5rem;border-radius:10px;background:#f0f4f8;color:#555;white-space:nowrap}.spot-name{font-size:1.08rem;font-weight:800;color:var(--dark);margin:0 0 .45rem;line-height:1.3}.spot-desc{font-size:.86rem;line-height:1.65;color:#555;flex:1;margin-bottom:.75rem}.spot-tags{display:flex;flex-wrap:wrap;gap:.3rem}.spot-tag{font-size:.7rem;font-weight:600;padding:.15rem .5rem;border-radius:6px;background:var(--tag-bg,#f0f4f8);color:var(--tag-color,#445)}.tips-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem}.tip-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 6px rgba(0,0,0,4%)}.tip-card-icon{font-size:1.8rem;margin-bottom:.6rem}.tip-card-title{font-size:.95rem;font-weight:800;color:var(--dark);margin-bottom:.5rem}.tip-card-body{font-size:.85rem;line-height:1.65;color:#555}.tip-card-body ul{margin:.3rem 0 0;padding-left:1.1rem}.tip-card-body li{margin-bottom:.2rem}.pref-cta{background:var(--bg-soft);padding:2.5rem 1.5rem 3rem;border-top:1px solid var(--border)}.pref-cta .pref-container{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}@media(max-width:600px){.pref-hero{min-height:320px}.quick-facts{grid-template-columns:repeat(2,1fr)}.pref-toc-btn{padding:.7rem .9rem;font-size:.82rem}}.btn-add-plan{display:inline-flex;align-items:center;gap:.35rem;margin-top:.75rem;padding:.45rem .9rem;border:1.5px solid #2d5be3;border-radius:8px;background:#fff;color:#2d5be3;font-size:.78rem;font-weight:700;font-family:inherit;cursor:pointer;transition:background .15s,color .15s,transform .1s;width:100%;justify-content:center}.btn-add-plan:hover{background:#2d5be3;color:#fff;transform:translateY(-1px)}.btn-add-plan.in-plan{background:#e8f0ff;color:#1a45a8;border-color:#1a45a8}.btn-add-plan.in-plan:hover{background:#c0003a;color:#fff;border-color:#c0003a}.see-all-wrap{text-align:center;margin-top:1.5rem;padding-top:1rem;border-top:1px dashed var(--border)}.see-all-btn{display:inline-flex;align-items:center;gap:.4rem;padding:.55rem 1.5rem;border:2px solid;border-radius:10px;font-size:.88rem;font-weight:700;text-decoration:none;transition:all .15s}.see-all-btn:hover{opacity:.8;text-decoration:none}</style>
 <nav class=pref-breadcrumb aria-label=breadcrumb>
 <a href=/>Accueil</a><span>›</span>
 <a href=/explore/>Explorer le Japon</a><span>›</span>
@@ -381,8 +381,7 @@
 <span class=toc-icon>🎆</span> Événements
 </button>
 </div>
-</nav>
-<section class=spot-section id=section-sightseeing data-cat=sightseeing>
+</nav><section class=spot-section id=section-sightseeing data-cat=sightseeing>
 <div class=spot-section-inner>
 <div class=section-hd style=--sec-color:#1a45a8>
 <span class=s-icon>⛩️</span>
@@ -404,6 +403,27 @@
 <span class=spot-tag style=background:#e8eeff;color:#1a3a9a>UNESCO</span>
 <span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Great Buddha</span>
 <span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Wooden Hall</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>National Treasure</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class=spot-card data-spot-id=horyuji data-spot-name="Hōryū-ji Temple" data-spot-pref=nara data-spot-fee=1000 data-spot-dur=120 data-spot-lat=34.6015 data-spot-lng=135.7463 data-spot-area=ikaruga data-spot-rating=4.8 data-spot-reviews=7500 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Horyu-ji08s3200.jpg/960px-Horyu-ji08s3200.jpg data-spot-cats=sightseeing>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Horyu-ji08s3200.jpg/960px-Horyu-ji08s3200.jpg alt="Hōryū-ji Temple" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Ikaruga, Nara Prefecture</span>
+<span class=spot-season-badge>Year-round</span>
+</div>
+<h3 class=spot-name>Hōryū-ji Temple</h3>
+<p class=spot-desc>Founded by Prince Shotoku in 607 AD, Horyu-ji contains the world's oldest surviving wooden structures — the Western Precinct's pagoda and kondo have stood for over 1,400 years. Allow a full half-day for this UNESCO World Heritage site.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>UNESCO</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>World's Oldest Wooden Buildings</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>7th Century</span>
 <span class=spot-tag style=background:#e8eeff;color:#1a3a9a>National Treasure</span>
 </div>
 <button class=btn-add-plan onclick=prefTogglePlan(this)>
@@ -446,27 +466,6 @@
 <span class=spot-tag style=background:#e8eeff;color:#1a3a9a>UNESCO</span>
 <span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Five-Storey Pagoda</span>
 <span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Reflection</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>National Treasure</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=horyuji data-spot-name="Hōryū-ji Temple" data-spot-pref=nara data-spot-fee=1000 data-spot-dur=120 data-spot-lat=34.6015 data-spot-lng=135.7463 data-spot-area=ikaruga data-spot-rating=4.8 data-spot-reviews=7500 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Horyu-ji08s3200.jpg/960px-Horyu-ji08s3200.jpg data-spot-cats=sightseeing>
-<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Horyu-ji08s3200.jpg/960px-Horyu-ji08s3200.jpg alt="Hōryū-ji Temple" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>⛩️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Ikaruga, Nara Prefecture</span>
-<span class=spot-season-badge>Year-round</span>
-</div>
-<h3 class=spot-name>Hōryū-ji Temple</h3>
-<p class=spot-desc>Founded by Prince Shotoku in 607 AD, Horyu-ji contains the world's oldest surviving wooden structures — the Western Precinct's pagoda and kondo have stood for over 1,400 years. Allow a full half-day for this UNESCO World Heritage site.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>UNESCO</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>World's Oldest Wooden Buildings</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>7th Century</span>
 <span class=spot-tag style=background:#e8eeff;color:#1a3a9a>National Treasure</span>
 </div>
 <button class=btn-add-plan onclick=prefTogglePlan(this)>
@@ -518,8 +517,7 @@
 </article>
 </div>
 </div>
-</section>
-<section class=spot-section id=section-gourmet data-cat=gourmet>
+</section><section class=spot-section id=section-gourmet data-cat=gourmet>
 <div class=spot-section-inner>
 <div class=section-hd style=--sec-color:#D64000>
 <span class=s-icon>🍜</span>
@@ -527,6 +525,26 @@
 <span class=s-count>4 lieux</span>
 </div>
 <div class=spot-grid>
+<article class=spot-card data-spot-id=miwa-somen data-spot-name="Miwa Sōmen Noodles" data-spot-pref=nara data-spot-fee=0 data-spot-dur=60 data-spot-lat=34.5165 data-spot-lng=136.0942 data-spot-area=miwa data-spot-rating=4.5 data-spot-reviews=2800 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Soumen_001.jpg/640px-Soumen_001.jpg data-spot-cats=gourmet>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Soumen_001.jpg/640px-Soumen_001.jpg alt="Miwa Sōmen Noodles" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🍜</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Sakurai / Miwa Area, Nara</span>
+<span class=spot-season-badge>Spring–Autumn</span>
+</div>
+<h3 class=spot-name>Miwa Sōmen Noodles</h3>
+<p class=spot-desc>Japan's oldest noodle tradition, produced in the Miwa area of Nara for over 1,300 years. Ultra-fine white wheat noodles served cold with a dipping broth and accompaniments. Best eaten at a roadside restaurant in Miwa village, a 30-minute train ride from Nara.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>Oldest Noodle Tradition</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>Somen</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>Day Trip</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 <article class=spot-card data-spot-id=kakinoha-zushi data-spot-name=Kakinoha-zushi data-spot-pref=nara data-spot-fee=0 data-spot-dur=15 data-spot-lat=34.6843 data-spot-lng=135.8205 data-spot-area=nara-central data-spot-rating=4.4 data-spot-reviews=3200 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Kakinohazushi.jpg/640px-Kakinohazushi.jpg data-spot-cats=gourmet>
 <img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Kakinohazushi.jpg/640px-Kakinohazushi.jpg alt=Kakinoha-zushi loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>🍜</div>
@@ -542,26 +560,6 @@
 <span class=spot-tag style=background:#fff0ea;color:#9a3000>Sushi</span>
 <span class=spot-tag style=background:#fff0ea;color:#9a3000>Persimmon Leaf</span>
 <span class=spot-tag style=background:#fff0ea;color:#9a3000>Takeaway</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=miwa-somen data-spot-name="Miwa Sōmen Noodles" data-spot-pref=nara data-spot-fee=0 data-spot-dur=60 data-spot-lat=34.5165 data-spot-lng=136.0942 data-spot-area=miwa data-spot-rating=4.5 data-spot-reviews=2800 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Soumen_001.jpg/640px-Soumen_001.jpg data-spot-cats=gourmet>
-<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Soumen_001.jpg/640px-Soumen_001.jpg alt="Miwa Sōmen Noodles" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>🍜</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Sakurai / Miwa Area, Nara</span>
-<span class=spot-season-badge>Spring–Autumn</span>
-</div>
-<h3 class=spot-name>Miwa Sōmen Noodles</h3>
-<p class=spot-desc>Japan's oldest noodle tradition, produced in the Miwa area of Nara for over 1,300 years. Ultra-fine white wheat noodles served cold with a dipping broth and accompaniments. Best eaten at a roadside restaurant in Miwa village, a 30-minute train ride from Nara.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#fff0ea;color:#9a3000>Oldest Noodle Tradition</span>
-<span class=spot-tag style=background:#fff0ea;color:#9a3000>Somen</span>
-<span class=spot-tag style=background:#fff0ea;color:#9a3000>Day Trip</span>
 </div>
 <button class=btn-add-plan onclick=prefTogglePlan(this)>
 🗺️ Add to Plan
@@ -612,8 +610,7 @@
 </article>
 </div>
 </div>
-</section>
-<section class=spot-section id=section-nature data-cat=nature>
+</section><section class=spot-section id=section-nature data-cat=nature>
 <div class=spot-section-inner>
 <div class=section-hd style=--sec-color:#1a7a34>
 <span class=s-icon>🏔️</span>
@@ -621,27 +618,6 @@
 <span class=s-count>5 lieux</span>
 </div>
 <div class=spot-grid>
-<article class=spot-card data-spot-id=isuien-garden data-spot-name="Isuien Garden" data-spot-pref=nara data-spot-fee=650 data-spot-dur=75 data-spot-lat=34.6845 data-spot-lng=135.8525 data-spot-area=nara-central data-spot-rating=4.6 data-spot-reviews=3100 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Isuien_Garden%2C_Nara_2014-05-23.jpg/960px-Isuien_Garden%2C_Nara_2014-05-23.jpg data-spot-cats=nature>
-<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Isuien_Garden%2C_Nara_2014-05-23.jpg/960px-Isuien_Garden%2C_Nara_2014-05-23.jpg alt="Isuien Garden" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>🏔️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Nara Park, Nara</span>
-<span class=spot-season-badge>Spring & Autumn</span>
-</div>
-<h3 class=spot-name>Isuien Garden</h3>
-<p class=spot-desc>One of the finest Japanese gardens in the country — two distinct garden sections from the 17th and 19th centuries use Todai-ji's roof and the Wakakusa hillside as 'borrowed scenery'. Particularly beautiful in maple season (mid-November).</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Japanese Garden</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Two Eras</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Borrowed Scenery</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Quiet</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
 <article class=spot-card data-spot-id=yoshino-sakura data-spot-name="Mt. Yoshino Cherry Blossoms" data-spot-pref=nara data-spot-fee=0 data-spot-dur=120 data-spot-lat=34.3625 data-spot-lng=135.8755 data-spot-area=yoshino data-spot-rating=4.9 data-spot-reviews=6200 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Yoshino_cherry_blossoms.jpg/960px-Yoshino_cherry_blossoms.jpg data-spot-cats=nature>
 <img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Yoshino_cherry_blossoms.jpg/960px-Yoshino_cherry_blossoms.jpg alt="Mt. Yoshino Cherry Blossoms" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>🏔️</div>
@@ -657,6 +633,27 @@
 <span class=spot-tag style=background:#e4f4e8;color:#155a28>30,000 Trees</span>
 <span class=spot-tag style=background:#e4f4e8;color:#155a28>UNESCO</span>
 <span class=spot-tag style=background:#e4f4e8;color:#155a28>Spring</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class=spot-card data-spot-id=isuien-garden data-spot-name="Isuien Garden" data-spot-pref=nara data-spot-fee=650 data-spot-dur=75 data-spot-lat=34.6845 data-spot-lng=135.8525 data-spot-area=nara-central data-spot-rating=4.6 data-spot-reviews=3100 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Isuien_Garden%2C_Nara_2014-05-23.jpg/960px-Isuien_Garden%2C_Nara_2014-05-23.jpg data-spot-cats=nature>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Isuien_Garden%2C_Nara_2014-05-23.jpg/960px-Isuien_Garden%2C_Nara_2014-05-23.jpg alt="Isuien Garden" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🏔️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Nara Park, Nara</span>
+<span class=spot-season-badge>Spring & Autumn</span>
+</div>
+<h3 class=spot-name>Isuien Garden</h3>
+<p class=spot-desc>One of the finest Japanese gardens in the country — two distinct garden sections from the 17th and 19th centuries use Todai-ji's roof and the Wakakusa hillside as 'borrowed scenery'. Particularly beautiful in maple season (mid-November).</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Japanese Garden</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Two Eras</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Borrowed Scenery</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Quiet</span>
 </div>
 <button class=btn-add-plan onclick=prefTogglePlan(this)>
 🗺️ Add to Plan
@@ -728,8 +725,7 @@
 </article>
 </div>
 </div>
-</section>
-<section class=spot-section id=section-leisure data-cat=leisure>
+</section><section class=spot-section id=section-leisure data-cat=leisure>
 <div class=spot-section-inner>
 <div class=section-hd style=--sec-color:#b35c00>
 <span class=s-icon>🎿</span>
@@ -758,27 +754,6 @@
 </button>
 </div>
 </article>
-<article class=spot-card data-spot-id=ink-making-workshop data-spot-name="Traditional Ink &amp;amp; Calligraphy Workshop" data-spot-pref=nara data-spot-fee=2500 data-spot-dur=90 data-spot-lat=34.6665 data-spot-lng=135.8305 data-spot-area=naramachi data-spot-rating=4.5 data-spot-reviews=890 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Inkstick.jpg/640px-Inkstick.jpg data-spot-cats=leisure>
-<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Inkstick.jpg/640px-Inkstick.jpg alt="Traditional Ink & Calligraphy Workshop" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>🎿</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Naramachi, Nara</span>
-<span class=spot-season-badge>Year-round</span>
-</div>
-<h3 class=spot-name>Traditional Ink & Calligraphy Workshop</h3>
-<p class=spot-desc>Nara has been Japan's premier producer of traditional India ink (sumi) for over 1,000 years. Several workshops in Naramachi offer hands-on sessions: grind an ink stick, practice brush calligraphy, or stamp a goshuin seal. Kobaien, founded in 1577, is the most prestigious.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Workshop</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Calligraphy</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Ink Making</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Cultural Experience</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
 <article class=spot-card data-spot-id=muroji-temple data-spot-name="Muro-ji Temple" data-spot-pref=nara data-spot-fee=600 data-spot-dur=90 data-spot-lat=34.4525 data-spot-lng=136.0595 data-spot-area=uda data-spot-rating=4.6 data-spot-reviews=2100 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/MuroujiPagoda.jpg/800px-MuroujiPagoda.jpg data-spot-cats=leisure>
 <img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/MuroujiPagoda.jpg/800px-MuroujiPagoda.jpg alt="Muro-ji Temple" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>🎿</div>
@@ -800,21 +775,21 @@
 </button>
 </div>
 </article>
-<article class=spot-card data-spot-id=asuka-kofun data-spot-name="Asuka Village &amp;amp; Burial Mounds" data-spot-pref=nara data-spot-fee=0 data-spot-dur=120 data-spot-lat=34.4185 data-spot-lng=135.7925 data-spot-area=asuka data-spot-rating=4.3 data-spot-reviews=1400 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Ishibutai_Kofun.jpg/960px-Ishibutai_Kofun.jpg data-spot-cats=leisure>
-<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Ishibutai_Kofun.jpg/960px-Ishibutai_Kofun.jpg alt="Asuka Village & Burial Mounds" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<article class=spot-card data-spot-id=ink-making-workshop data-spot-name="Traditional Ink &amp;amp; Calligraphy Workshop" data-spot-pref=nara data-spot-fee=2500 data-spot-dur=90 data-spot-lat=34.6665 data-spot-lng=135.8305 data-spot-area=naramachi data-spot-rating=4.5 data-spot-reviews=890 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Inkstick.jpg/640px-Inkstick.jpg data-spot-cats=leisure>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Inkstick.jpg/640px-Inkstick.jpg alt="Traditional Ink & Calligraphy Workshop" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>🎿</div>
 <div class=spot-body>
 <div class=spot-meta>
-<span class=spot-location>📍 Asuka Village, Nara Prefecture</span>
-<span class=spot-season-badge>Spring & Autumn</span>
+<span class=spot-location>📍 Naramachi, Nara</span>
+<span class=spot-season-badge>Year-round</span>
 </div>
-<h3 class=spot-name>Asuka Village & Burial Mounds</h3>
-<p class=spot-desc>Japan's earliest imperial capital, scattered with keyhole-shaped kofun burial mounds, mysterious stone carvings (the Kame-ishi turtle and Masuda-no-Iwafune), and early Buddhist temple ruins. Rent a bicycle from Asuka Station and explore at your own pace across the rice-paddy landscape.</p>
+<h3 class=spot-name>Traditional Ink & Calligraphy Workshop</h3>
+<p class=spot-desc>Nara has been Japan's premier producer of traditional India ink (sumi) for over 1,000 years. Several workshops in Naramachi offer hands-on sessions: grind an ink stick, practice brush calligraphy, or stamp a goshuin seal. Kobaien, founded in 1577, is the most prestigious.</p>
 <div class=spot-tags>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Ancient History</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Burial Mounds</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Cycling</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>7th Century</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Workshop</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Calligraphy</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Ink Making</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Cultural Experience</span>
 </div>
 <button class=btn-add-plan onclick=prefTogglePlan(this)>
 🗺️ Add to Plan
@@ -842,10 +817,30 @@
 </button>
 </div>
 </article>
+<article class=spot-card data-spot-id=asuka-kofun data-spot-name="Asuka Village &amp;amp; Burial Mounds" data-spot-pref=nara data-spot-fee=0 data-spot-dur=120 data-spot-lat=34.4185 data-spot-lng=135.7925 data-spot-area=asuka data-spot-rating=4.3 data-spot-reviews=1400 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Ishibutai_Kofun.jpg/960px-Ishibutai_Kofun.jpg data-spot-cats=leisure>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Ishibutai_Kofun.jpg/960px-Ishibutai_Kofun.jpg alt="Asuka Village & Burial Mounds" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎿</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Asuka Village, Nara Prefecture</span>
+<span class=spot-season-badge>Spring & Autumn</span>
+</div>
+<h3 class=spot-name>Asuka Village & Burial Mounds</h3>
+<p class=spot-desc>Japan's earliest imperial capital, scattered with keyhole-shaped kofun burial mounds, mysterious stone carvings (the Kame-ishi turtle and Masuda-no-Iwafune), and early Buddhist temple ruins. Rent a bicycle from Asuka Station and explore at your own pace across the rice-paddy landscape.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Ancient History</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Burial Mounds</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Cycling</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>7th Century</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 </div>
 </div>
-</section>
-<section class=spot-section id=section-events data-cat=events>
+</section><section class=spot-section id=section-events data-cat=events>
 <div class=spot-section-inner>
 <div class=section-hd style=--sec-color:#b5006e>
 <span class=s-icon>🎆</span>
@@ -853,21 +848,21 @@
 <span class=s-count>5 lieux</span>
 </div>
 <div class=spot-grid>
-<article class=spot-card data-spot-id=omizutori data-spot-name="Omizutori — Shuni-e at Tōdai-ji" data-spot-pref=nara data-spot-fee=500 data-spot-dur=120 data-spot-lat=34.6895 data-spot-lng=135.8425 data-spot-area=nara-central data-spot-rating=4.7 data-spot-reviews=4200 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Omizutori_at_Nigatsudo_in_Todaiji.jpg/960px-Omizutori_at_Nigatsudo_in_Todaiji.jpg data-spot-cats=events>
-<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Omizutori_at_Nigatsudo_in_Todaiji.jpg/960px-Omizutori_at_Nigatsudo_in_Todaiji.jpg alt="Omizutori — Shuni-e at Tōdai-ji" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<article class=spot-card data-spot-id=yoshino-hanami data-spot-name="Yoshino Hanami Cherry Blossom Viewing" data-spot-pref=nara data-spot-fee=0 data-spot-dur=180 data-spot-lat=34.3625 data-spot-lng=135.8755 data-spot-area=yoshino data-spot-rating=4.9 data-spot-reviews=5800 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Yoshino_cherry_blossoms_2.jpg/960px-Yoshino_cherry_blossoms_2.jpg data-spot-cats=events>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Yoshino_cherry_blossoms_2.jpg/960px-Yoshino_cherry_blossoms_2.jpg alt="Yoshino Hanami Cherry Blossom Viewing" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>🎆</div>
 <div class=spot-body>
 <div class=spot-meta>
-<span class=spot-location>📍 Tōdai-ji, Nara</span>
-<span class=spot-season-badge>1–14 March</span>
+<span class=spot-location>📍 Yoshino Town, Nara Prefecture</span>
+<span class=spot-season-badge>Late March – mid April</span>
 </div>
-<h3 class=spot-name>Omizutori — Shuni-e at Tōdai-ji</h3>
-<p class=spot-desc>Japan's most ancient continuous ritual, performed annually at Tōdai-ji's Nigatsu-do hall since 752 AD without interruption. Monks carry enormous burning torches around the upper gallery each evening, scattering sparks over the crowd below — contact with the embers is said to bring good fortune for the year.</p>
+<h3 class=spot-name>Yoshino Hanami Cherry Blossom Viewing</h3>
+<p class=spot-desc>The hanami experience at Yoshino is unlike anywhere else in Japan — cherry trees line the mountain paths for kilometres, and ryokan terraces overlooking the valley serve bento boxes and local sake under blossom-heavy branches. Book accommodation in December for peak-season nights; day-trippers should arrive by 9am.</p>
 <div class=spot-tags>
-<span class=spot-tag style=background:#ffe8f4;color:#88004e>Fire Festival</span>
-<span class=spot-tag style=background:#ffe8f4;color:#88004e>Nigatsu-do</span>
-<span class=spot-tag style=background:#ffe8f4;color:#88004e>March</span>
-<span class=spot-tag style=background:#ffe8f4;color:#88004e>1,270 Years</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>Cherry Blossoms</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>Hanami</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>April</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>Mountain Picnic</span>
 </div>
 <button class=btn-add-plan onclick=prefTogglePlan(this)>
 🗺️ Add to Plan
@@ -895,21 +890,21 @@
 </button>
 </div>
 </article>
-<article class=spot-card data-spot-id=shika-no-tsunokiri data-spot-name="Shika-no-Tsunokiri Deer Antler Cutting" data-spot-pref=nara data-spot-fee=0 data-spot-dur=45 data-spot-lat=34.6815 data-spot-lng=135.8295 data-spot-area=nara-central data-spot-rating=4.2 data-spot-reviews=620 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Shika_no_Tsunokiri%2C_Nara_2011.jpg/960px-Shika_no_Tsunokiri%2C_Nara_2011.jpg data-spot-cats=events>
-<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Shika_no_Tsunokiri%2C_Nara_2011.jpg/960px-Shika_no_Tsunokiri%2C_Nara_2011.jpg alt="Shika-no-Tsunokiri Deer Antler Cutting" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<article class=spot-card data-spot-id=omizutori data-spot-name="Omizutori — Shuni-e at Tōdai-ji" data-spot-pref=nara data-spot-fee=500 data-spot-dur=120 data-spot-lat=34.6895 data-spot-lng=135.8425 data-spot-area=nara-central data-spot-rating=4.7 data-spot-reviews=4200 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Omizutori_at_Nigatsudo_in_Todaiji.jpg/960px-Omizutori_at_Nigatsudo_in_Todaiji.jpg data-spot-cats=events>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Omizutori_at_Nigatsudo_in_Todaiji.jpg/960px-Omizutori_at_Nigatsudo_in_Todaiji.jpg alt="Omizutori — Shuni-e at Tōdai-ji" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>🎆</div>
 <div class=spot-body>
 <div class=spot-meta>
-<span class=spot-location>📍 Rokuen Deer Sanctuary, Nara Park</span>
-<span class=spot-season-badge>Early October</span>
+<span class=spot-location>📍 Tōdai-ji, Nara</span>
+<span class=spot-season-badge>1–14 March</span>
 </div>
-<h3 class=spot-name>Shika-no-Tsunokiri Deer Antler Cutting</h3>
-<p class=spot-desc>A centuries-old ceremony held each October in the Rokuen deer enclosure: shrine priests in traditional dress ceremonially cut the antlers of Nara's sacred deer to prevent injuries during the autumn rutting season. Tickets are required — apply through the Nara Deer Preservation Foundation.</p>
+<h3 class=spot-name>Omizutori — Shuni-e at Tōdai-ji</h3>
+<p class=spot-desc>Japan's most ancient continuous ritual, performed annually at Tōdai-ji's Nigatsu-do hall since 752 AD without interruption. Monks carry enormous burning torches around the upper gallery each evening, scattering sparks over the crowd below — contact with the embers is said to bring good fortune for the year.</p>
 <div class=spot-tags>
-<span class=spot-tag style=background:#ffe8f4;color:#88004e>Unique Event</span>
-<span class=spot-tag style=background:#ffe8f4;color:#88004e>October</span>
-<span class=spot-tag style=background:#ffe8f4;color:#88004e>Traditional Ceremony</span>
-<span class=spot-tag style=background:#ffe8f4;color:#88004e>Deer</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>Fire Festival</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>Nigatsu-do</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>March</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>1,270 Years</span>
 </div>
 <button class=btn-add-plan onclick=prefTogglePlan(this)>
 🗺️ Add to Plan
@@ -937,21 +932,21 @@
 </button>
 </div>
 </article>
-<article class=spot-card data-spot-id=yoshino-hanami data-spot-name="Yoshino Hanami Cherry Blossom Viewing" data-spot-pref=nara data-spot-fee=0 data-spot-dur=180 data-spot-lat=34.3625 data-spot-lng=135.8755 data-spot-area=yoshino data-spot-rating=4.9 data-spot-reviews=5800 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Yoshino_cherry_blossoms_2.jpg/960px-Yoshino_cherry_blossoms_2.jpg data-spot-cats=events>
-<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Yoshino_cherry_blossoms_2.jpg/960px-Yoshino_cherry_blossoms_2.jpg alt="Yoshino Hanami Cherry Blossom Viewing" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<article class=spot-card data-spot-id=shika-no-tsunokiri data-spot-name="Shika-no-Tsunokiri Deer Antler Cutting" data-spot-pref=nara data-spot-fee=0 data-spot-dur=45 data-spot-lat=34.6815 data-spot-lng=135.8295 data-spot-area=nara-central data-spot-rating=4.2 data-spot-reviews=620 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Shika_no_Tsunokiri%2C_Nara_2011.jpg/960px-Shika_no_Tsunokiri%2C_Nara_2011.jpg data-spot-cats=events>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Shika_no_Tsunokiri%2C_Nara_2011.jpg/960px-Shika_no_Tsunokiri%2C_Nara_2011.jpg alt="Shika-no-Tsunokiri Deer Antler Cutting" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>🎆</div>
 <div class=spot-body>
 <div class=spot-meta>
-<span class=spot-location>📍 Yoshino Town, Nara Prefecture</span>
-<span class=spot-season-badge>Late March – mid April</span>
+<span class=spot-location>📍 Rokuen Deer Sanctuary, Nara Park</span>
+<span class=spot-season-badge>Early October</span>
 </div>
-<h3 class=spot-name>Yoshino Hanami Cherry Blossom Viewing</h3>
-<p class=spot-desc>The hanami experience at Yoshino is unlike anywhere else in Japan — cherry trees line the mountain paths for kilometres, and ryokan terraces overlooking the valley serve bento boxes and local sake under blossom-heavy branches. Book accommodation in December for peak-season nights; day-trippers should arrive by 9am.</p>
+<h3 class=spot-name>Shika-no-Tsunokiri Deer Antler Cutting</h3>
+<p class=spot-desc>A centuries-old ceremony held each October in the Rokuen deer enclosure: shrine priests in traditional dress ceremonially cut the antlers of Nara's sacred deer to prevent injuries during the autumn rutting season. Tickets are required — apply through the Nara Deer Preservation Foundation.</p>
 <div class=spot-tags>
-<span class=spot-tag style=background:#ffe8f4;color:#88004e>Cherry Blossoms</span>
-<span class=spot-tag style=background:#ffe8f4;color:#88004e>Hanami</span>
-<span class=spot-tag style=background:#ffe8f4;color:#88004e>April</span>
-<span class=spot-tag style=background:#ffe8f4;color:#88004e>Mountain Picnic</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>Unique Event</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>October</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>Traditional Ceremony</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>Deer</span>
 </div>
 <button class=btn-add-plan onclick=prefTogglePlan(this)>
 🗺️ Add to Plan

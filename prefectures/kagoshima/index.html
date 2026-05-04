@@ -83,7 +83,7 @@
   document.addEventListener('keydown', function(e){ if(e.key==='Escape') close(); });
 })();
 </script>
-<style>.pref-breadcrumb{background:#f8f9fa;border-bottom:1px solid var(--border);padding:.6rem 1.5rem;font-size:.82rem;color:var(--gray)}.pref-breadcrumb a{color:var(--red);text-decoration:none}.pref-breadcrumb a:hover{text-decoration:underline}.pref-breadcrumb span{margin:0 .4rem}.pref-hero{position:relative;min-height:440px;display:flex;align-items:flex-end;background:#1a0a00 50%/cover no-repeat;background-image:url(https://images.unsplash.com/photo-1570459027562-4a916cc6113f?w=1600&q=80)}.pref-hero::after{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,.15) 0%,rgba(0,0,0,.7) 100%)}.pref-hero-body{position:relative;z-index:1;padding:2.5rem 1.5rem 2rem;max-width:var(--max-w);margin:0 auto;width:100%}.pref-hero-eyebrow{color:rgba(255,255,255,.75);font-size:.82rem;font-weight:600;text-transform:uppercase;letter-spacing:.1em;margin-bottom:.5rem}.pref-hero h1{color:#fff;font-size:clamp(2.2rem,5.5vw,3.4rem);font-weight:900;margin:0 0 .5rem;line-height:1.1}.pref-hero .pref-sub{color:rgba(255,255,255,.88);font-size:1.05rem;max-width:560px;margin-bottom:1rem}.pref-stats{display:flex;flex-wrap:wrap;gap:.6rem}.pref-stat{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);border-radius:20px;padding:.3rem .85rem;color:#fff;font-size:.8rem;font-weight:600}.pref-section{padding:2.5rem 1.5rem}.pref-section+.pref-section{padding-top:0}.pref-container{max-width:var(--max-w);margin:0 auto}.pref-section-title{font-size:1.55rem;font-weight:900;margin:0 0 .4rem;display:flex;align-items:center;gap:.5rem}.pref-section-lead{font-size:1rem;color:#555;line-height:1.7;max-width:680px;margin-bottom:1.5rem}.ponko-guide{display:flex;align-items:flex-end;gap:0;margin-bottom:1.6rem}.ponko-bubble{flex:1;min-width:0;background:linear-gradient(135deg,#fff9f0,#fff3e0);border:2px solid #f5a623;border-radius:18px 18px 18px 4px;padding:1.2rem 1.5rem;position:relative;box-shadow:0 4px 14px rgba(245,166,35,.13)}.ponko-bubble::after{content:'';position:absolute;right:-18px;bottom:22px;border:9px solid transparent;border-left-color:#f5a623}.ponko-bubble::before{content:'';position:absolute;right:-13px;bottom:23px;z-index:1;border:8px solid transparent;border-left-color:#fff9f0}.ponko-bubble p{font-size:.97rem;line-height:1.8;color:#333;margin:0}.ponko-figure{flex-shrink:0;width:170px;margin-left:4px;animation:ponko-float 3s ease-in-out infinite}.ponko-figure img{width:100%;height:auto;display:block;filter:drop-shadow(0 6px 10px rgba(0,0,0,.18))}@keyframes ponko-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}@media(max-width:640px){.ponko-guide{flex-direction:column;align-items:center}.ponko-bubble{border-radius:18px;order:2;width:100%}.ponko-bubble::after,.ponko-bubble::before{display:none}.ponko-figure{order:1;width:130px;margin-left:0;margin-bottom:.5rem;animation:none}}.quick-facts{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.8rem;margin-top:1.4rem}.qf-card{background:#f8f9fb;border:1px solid var(--border);border-radius:12px;padding:1rem 1.1rem;display:flex;align-items:flex-start;gap:.7rem}.qf-icon{font-size:1.4rem;flex-shrink:0}.qf-label{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--gray);margin-bottom:.15rem}.qf-value{font-size:.9rem;font-weight:600;color:var(--dark)}.access-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}.access-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 8px rgba(0,0,0,5%)}.access-card-hd{display:flex;align-items:center;gap:.5rem;margin-bottom:.8rem}.access-card-icon{font-size:1.5rem}.access-card-title{font-size:1rem;font-weight:800;color:var(--dark)}.access-card ul{margin:0;padding-left:1.1rem}.access-card li{font-size:.875rem;line-height:1.65;color:#444;margin-bottom:.3rem}.access-card li strong{color:var(--dark)}.access-tip{margin-top:1.2rem;background:#fff8e6;border:1px solid #ffe0a0;border-radius:10px;padding:.9rem 1.1rem;font-size:.85rem;line-height:1.6;color:#5a3e00}.access-tip strong{display:block;margin-bottom:.2rem;font-size:.88rem}.guide-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem}.guide-card{background:#fff;border-radius:14px;overflow:hidden;border:1px solid var(--border);box-shadow:0 2px 8px rgba(0,0,0,5%);transition:transform .15s,box-shadow .15s;position:relative;display:flex;flex-direction:column}.guide-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.guide-card-img{width:100%;height:150px;object-fit:cover;background:#e8eef4;display:block}.guide-card-img-ph{width:100%;height:150px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:2.5rem}.guide-card-body{padding:.9rem 1rem 1rem;flex:1}.guide-cat-badge{display:inline-block;font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;padding:.15rem .55rem;border-radius:8px;background:var(--red);color:#fff;margin-bottom:.4rem}.guide-card-title{font-size:.92rem;font-weight:800;color:var(--dark);line-height:1.4}.guide-coming-soon{position:absolute;top:.6rem;right:.6rem;background:rgba(0,0,0,.55);color:#fff;font-size:.65rem;font-weight:700;padding:.2rem .5rem;border-radius:6px;text-transform:uppercase;letter-spacing:.05em}.guide-card-link{text-decoration:none;color:inherit;display:flex;flex-direction:column;height:100%}.pref-toc{background:#fff;border-bottom:2px solid var(--border);position:sticky;top:0;z-index:100;overflow-x:auto}.pref-toc-inner{display:flex;gap:0;max-width:var(--max-w);margin:0 auto}.pref-toc-btn{flex:none;display:flex;align-items:center;gap:.4rem;padding:.8rem 1.2rem;border:none;background:0 0;cursor:pointer;font-family:inherit;font-size:.88rem;font-weight:600;color:var(--gray);border-bottom:3px solid transparent;transition:all .18s;white-space:nowrap}.pref-toc-btn .toc-icon{font-size:1.1rem}.pref-toc-btn:hover{color:var(--dark);background:#f8f8f8}.pref-toc-btn.active{color:var(--toc-color,var(--red));border-bottom-color:var(--toc-color,var(--red))}.spot-section{padding:2rem 1.5rem 2.5rem}.spot-section.hidden{display:none}.spot-section-inner{max-width:var(--max-w);margin:0 auto}.section-hd{display:flex;align-items:center;gap:.6rem;margin-bottom:1.4rem;padding-bottom:.7rem;border-bottom:2px solid var(--border)}.section-hd .s-icon{font-size:1.6rem}.section-hd h2{font-size:1.35rem;font-weight:800;margin:0}.section-hd .s-count{margin-left:auto;background:var(--sec-color,var(--red));color:#fff;border-radius:20px;padding:.15rem .65rem;font-size:.78rem;font-weight:700}.spot-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.25rem}.spot-card{border-radius:14px;overflow:hidden;border:1px solid var(--border);background:#fff;box-shadow:0 2px 8px rgba(0,0,0,6%);transition:transform .15s,box-shadow .15s;display:flex;flex-direction:column}.spot-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.spot-img{width:100%;height:200px;object-fit:cover;background:#e8eef4;display:block}.spot-img-ph{width:100%;height:200px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:3rem}.spot-body{padding:1rem 1.1rem 1.1rem;flex:1;display:flex;flex-direction:column}.spot-meta{display:flex;align-items:center;gap:.5rem;margin-bottom:.5rem}.spot-location{font-size:.78rem;color:var(--gray);font-weight:500}.spot-season-badge{margin-left:auto;font-size:.7rem;font-weight:700;padding:.1rem .5rem;border-radius:10px;background:#f0f4f8;color:#555;white-space:nowrap}.spot-name{font-size:1.08rem;font-weight:800;color:var(--dark);margin:0 0 .45rem;line-height:1.3}.spot-desc{font-size:.86rem;line-height:1.65;color:#555;flex:1;margin-bottom:.75rem}.spot-tags{display:flex;flex-wrap:wrap;gap:.3rem}.spot-tag{font-size:.7rem;font-weight:600;padding:.15rem .5rem;border-radius:6px;background:var(--tag-bg,#f0f4f8);color:var(--tag-color,#445)}.tips-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem}.tip-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 6px rgba(0,0,0,4%)}.tip-card-icon{font-size:1.8rem;margin-bottom:.6rem}.tip-card-title{font-size:.95rem;font-weight:800;color:var(--dark);margin-bottom:.5rem}.tip-card-body{font-size:.85rem;line-height:1.65;color:#555}.tip-card-body ul{margin:.3rem 0 0;padding-left:1.1rem}.tip-card-body li{margin-bottom:.2rem}.pref-cta{background:var(--bg-soft);padding:2.5rem 1.5rem 3rem;border-top:1px solid var(--border)}.pref-cta .pref-container{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}@media(max-width:600px){.pref-hero{min-height:320px}.quick-facts{grid-template-columns:repeat(2,1fr)}.pref-toc-btn{padding:.7rem .9rem;font-size:.82rem}}.btn-add-plan{display:inline-flex;align-items:center;gap:.35rem;margin-top:.75rem;padding:.45rem .9rem;border:1.5px solid #2d5be3;border-radius:8px;background:#fff;color:#2d5be3;font-size:.78rem;font-weight:700;font-family:inherit;cursor:pointer;transition:background .15s,color .15s,transform .1s;width:100%;justify-content:center}.btn-add-plan:hover{background:#2d5be3;color:#fff;transform:translateY(-1px)}.btn-add-plan.in-plan{background:#e8f0ff;color:#1a45a8;border-color:#1a45a8}.btn-add-plan.in-plan:hover{background:#c0003a;color:#fff;border-color:#c0003a}</style>
+<style>.pref-breadcrumb{background:#f8f9fa;border-bottom:1px solid var(--border);padding:.6rem 1.5rem;font-size:.82rem;color:var(--gray)}.pref-breadcrumb a{color:var(--red);text-decoration:none}.pref-breadcrumb a:hover{text-decoration:underline}.pref-breadcrumb span{margin:0 .4rem}.pref-hero{position:relative;min-height:440px;display:flex;align-items:flex-end;background:#1a0a00 50%/cover no-repeat;background-image:url(https://images.unsplash.com/photo-1570459027562-4a916cc6113f?w=1600&q=80)}.pref-hero::after{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,.15) 0%,rgba(0,0,0,.7) 100%)}.pref-hero-body{position:relative;z-index:1;padding:2.5rem 1.5rem 2rem;max-width:var(--max-w);margin:0 auto;width:100%}.pref-hero-eyebrow{color:rgba(255,255,255,.75);font-size:.82rem;font-weight:600;text-transform:uppercase;letter-spacing:.1em;margin-bottom:.5rem}.pref-hero h1{color:#fff;font-size:clamp(2.2rem,5.5vw,3.4rem);font-weight:900;margin:0 0 .5rem;line-height:1.1}.pref-hero .pref-sub{color:rgba(255,255,255,.88);font-size:1.05rem;max-width:560px;margin-bottom:1rem}.pref-stats{display:flex;flex-wrap:wrap;gap:.6rem}.pref-stat{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);border-radius:20px;padding:.3rem .85rem;color:#fff;font-size:.8rem;font-weight:600}.pref-section{padding:2.5rem 1.5rem}.pref-section+.pref-section{padding-top:0}.pref-container{max-width:var(--max-w);margin:0 auto}.pref-section-title{font-size:1.55rem;font-weight:900;margin:0 0 .4rem;display:flex;align-items:center;gap:.5rem}.pref-section-lead{font-size:1rem;color:#555;line-height:1.7;max-width:680px;margin-bottom:1.5rem}.ponko-guide{display:flex;align-items:flex-end;gap:0;margin-bottom:1.6rem}.ponko-bubble{flex:1;min-width:0;background:linear-gradient(135deg,#fff9f0,#fff3e0);border:2px solid #f5a623;border-radius:18px 18px 18px 4px;padding:1.2rem 1.5rem;position:relative;box-shadow:0 4px 14px rgba(245,166,35,.13)}.ponko-bubble::after{content:'';position:absolute;right:-18px;bottom:22px;border:9px solid transparent;border-left-color:#f5a623}.ponko-bubble::before{content:'';position:absolute;right:-13px;bottom:23px;z-index:1;border:8px solid transparent;border-left-color:#fff9f0}.ponko-bubble p{font-size:.97rem;line-height:1.8;color:#333;margin:0}.ponko-figure{flex-shrink:0;width:170px;margin-left:4px;animation:ponko-float 3s ease-in-out infinite}.ponko-figure img{width:100%;height:auto;display:block;filter:drop-shadow(0 6px 10px rgba(0,0,0,.18))}@keyframes ponko-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}@media(max-width:640px){.ponko-guide{flex-direction:column;align-items:center}.ponko-bubble{border-radius:18px;order:2;width:100%}.ponko-bubble::after,.ponko-bubble::before{display:none}.ponko-figure{order:1;width:130px;margin-left:0;margin-bottom:.5rem;animation:none}}.quick-facts{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.8rem;margin-top:1.4rem}.qf-card{background:#f8f9fb;border:1px solid var(--border);border-radius:12px;padding:1rem 1.1rem;display:flex;align-items:flex-start;gap:.7rem}.qf-icon{font-size:1.4rem;flex-shrink:0}.qf-label{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--gray);margin-bottom:.15rem}.qf-value{font-size:.9rem;font-weight:600;color:var(--dark)}.access-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}.access-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 8px rgba(0,0,0,5%)}.access-card-hd{display:flex;align-items:center;gap:.5rem;margin-bottom:.8rem}.access-card-icon{font-size:1.5rem}.access-card-title{font-size:1rem;font-weight:800;color:var(--dark)}.access-card ul{margin:0;padding-left:1.1rem}.access-card li{font-size:.875rem;line-height:1.65;color:#444;margin-bottom:.3rem}.access-card li strong{color:var(--dark)}.access-tip{margin-top:1.2rem;background:#fff8e6;border:1px solid #ffe0a0;border-radius:10px;padding:.9rem 1.1rem;font-size:.85rem;line-height:1.6;color:#5a3e00}.access-tip strong{display:block;margin-bottom:.2rem;font-size:.88rem}.guide-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem}.guide-card{background:#fff;border-radius:14px;overflow:hidden;border:1px solid var(--border);box-shadow:0 2px 8px rgba(0,0,0,5%);transition:transform .15s,box-shadow .15s;position:relative;display:flex;flex-direction:column}.guide-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.guide-card-img{width:100%;height:150px;object-fit:cover;background:#e8eef4;display:block}.guide-card-img-ph{width:100%;height:150px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:2.5rem}.guide-card-body{padding:.9rem 1rem 1rem;flex:1}.guide-cat-badge{display:inline-block;font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;padding:.15rem .55rem;border-radius:8px;background:var(--red);color:#fff;margin-bottom:.4rem}.guide-card-title{font-size:.92rem;font-weight:800;color:var(--dark);line-height:1.4}.guide-coming-soon{position:absolute;top:.6rem;right:.6rem;background:rgba(0,0,0,.55);color:#fff;font-size:.65rem;font-weight:700;padding:.2rem .5rem;border-radius:6px;text-transform:uppercase;letter-spacing:.05em}.guide-card-link{text-decoration:none;color:inherit;display:flex;flex-direction:column;height:100%}.pref-toc{background:#fff;border-bottom:2px solid var(--border);position:sticky;top:0;z-index:100;overflow-x:auto}.pref-toc-inner{display:flex;gap:0;max-width:var(--max-w);margin:0 auto}.pref-toc-btn{flex:none;display:flex;align-items:center;gap:.4rem;padding:.8rem 1.2rem;border:none;background:0 0;cursor:pointer;font-family:inherit;font-size:.88rem;font-weight:600;color:var(--gray);border-bottom:3px solid transparent;transition:all .18s;white-space:nowrap}.pref-toc-btn .toc-icon{font-size:1.1rem}.pref-toc-btn:hover{color:var(--dark);background:#f8f8f8}.pref-toc-btn.active{color:var(--toc-color,var(--red));border-bottom-color:var(--toc-color,var(--red))}.spot-section{padding:2rem 1.5rem 2.5rem}.spot-section.hidden{display:none}.spot-section-inner{max-width:var(--max-w);margin:0 auto}.section-hd{display:flex;align-items:center;gap:.6rem;margin-bottom:1.4rem;padding-bottom:.7rem;border-bottom:2px solid var(--border)}.section-hd .s-icon{font-size:1.6rem}.section-hd h2{font-size:1.35rem;font-weight:800;margin:0}.section-hd .s-count{margin-left:auto;background:var(--sec-color,var(--red));color:#fff;border-radius:20px;padding:.15rem .65rem;font-size:.78rem;font-weight:700}.spot-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.25rem}.spot-card{border-radius:14px;overflow:hidden;border:1px solid var(--border);background:#fff;box-shadow:0 2px 8px rgba(0,0,0,6%);transition:transform .15s,box-shadow .15s;display:flex;flex-direction:column}.spot-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.spot-img{width:100%;height:200px;object-fit:cover;background:#e8eef4;display:block}.spot-img-ph{width:100%;height:200px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:3rem}.spot-body{padding:1rem 1.1rem 1.1rem;flex:1;display:flex;flex-direction:column}.spot-meta{display:flex;align-items:center;gap:.5rem;margin-bottom:.5rem}.spot-location{font-size:.78rem;color:var(--gray);font-weight:500}.spot-season-badge{margin-left:auto;font-size:.7rem;font-weight:700;padding:.1rem .5rem;border-radius:10px;background:#f0f4f8;color:#555;white-space:nowrap}.spot-name{font-size:1.08rem;font-weight:800;color:var(--dark);margin:0 0 .45rem;line-height:1.3}.spot-desc{font-size:.86rem;line-height:1.65;color:#555;flex:1;margin-bottom:.75rem}.spot-tags{display:flex;flex-wrap:wrap;gap:.3rem}.spot-tag{font-size:.7rem;font-weight:600;padding:.15rem .5rem;border-radius:6px;background:var(--tag-bg,#f0f4f8);color:var(--tag-color,#445)}.tips-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem}.tip-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 6px rgba(0,0,0,4%)}.tip-card-icon{font-size:1.8rem;margin-bottom:.6rem}.tip-card-title{font-size:.95rem;font-weight:800;color:var(--dark);margin-bottom:.5rem}.tip-card-body{font-size:.85rem;line-height:1.65;color:#555}.tip-card-body ul{margin:.3rem 0 0;padding-left:1.1rem}.tip-card-body li{margin-bottom:.2rem}.pref-cta{background:var(--bg-soft);padding:2.5rem 1.5rem 3rem;border-top:1px solid var(--border)}.pref-cta .pref-container{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}@media(max-width:600px){.pref-hero{min-height:320px}.quick-facts{grid-template-columns:repeat(2,1fr)}.pref-toc-btn{padding:.7rem .9rem;font-size:.82rem}}.btn-add-plan{display:inline-flex;align-items:center;gap:.35rem;margin-top:.75rem;padding:.45rem .9rem;border:1.5px solid #2d5be3;border-radius:8px;background:#fff;color:#2d5be3;font-size:.78rem;font-weight:700;font-family:inherit;cursor:pointer;transition:background .15s,color .15s,transform .1s;width:100%;justify-content:center}.btn-add-plan:hover{background:#2d5be3;color:#fff;transform:translateY(-1px)}.btn-add-plan.in-plan{background:#e8f0ff;color:#1a45a8;border-color:#1a45a8}.btn-add-plan.in-plan:hover{background:#c0003a;color:#fff;border-color:#c0003a}.see-all-wrap{text-align:center;margin-top:1.5rem;padding-top:1rem;border-top:1px dashed var(--border)}.see-all-btn{display:inline-flex;align-items:center;gap:.4rem;padding:.55rem 1.5rem;border:2px solid;border-radius:10px;font-size:.88rem;font-weight:700;text-decoration:none;transition:all .15s}.see-all-btn:hover{opacity:.8;text-decoration:none}</style>
 <nav class=pref-breadcrumb aria-label=breadcrumb>
 <a href=/>Home</a><span>›</span>
 <a href=/explore/>Explore Japan</a><span>›</span>
@@ -304,8 +304,7 @@
 <span class=toc-icon>🎆</span> Events
 </button>
 </div>
-</nav>
-<section class=spot-section id=section-sightseeing data-cat=sightseeing>
+</nav><section class=spot-section id=section-sightseeing data-cat=sightseeing>
 <div class=spot-section-inner>
 <div class=section-hd style=--sec-color:#1a45a8>
 <span class=s-icon>⛩️</span>
@@ -313,46 +312,6 @@
 <span class=s-count>5 spots</span>
 </div>
 <div class=spot-grid>
-<article class=spot-card data-spot-id=sakurajima data-spot-name="Sakurajima Volcano" data-spot-pref=kagoshima data-spot-fee=0 data-spot-dur=120 data-spot-lat=31.5731 data-spot-lng=130.6704 data-spot-area=sakurajima data-spot-rating=4.6 data-spot-reviews=2850 data-spot-img="https://images.unsplash.com/photo-1570459027562-4a916cc6113f?w=800&q=80" data-spot-cats=sightseeing,nature>
-<img class=spot-img src="https://images.unsplash.com/photo-1570459027562-4a916cc6113f?w=800&q=80" alt="Sakurajima Volcano" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>⛩️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Sakurajima, Kagoshima</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Sakurajima Volcano</h3>
-<p class=spot-desc>One of the world's most active volcanoes — Sakurajima erupts dozens of times a year, visible from Kagoshima city across the bay. A short ferry from downtown leads to lava fields, observation decks, and footbaths on the volcano's flanks.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Volcano</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Active</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Icon</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=sengan-en data-spot-name="Sengan-en Garden (UNESCO)" data-spot-pref=kagoshima data-spot-fee=1300 data-spot-dur=90 data-spot-lat=31.5941 data-spot-lng=130.5549 data-spot-area=Kinko data-spot-rating=4.5 data-spot-reviews=2100 data-spot-img="https://images.unsplash.com/photo-1601823984263-b87b59798b70?w=800&q=80" data-spot-cats=sightseeing>
-<img class=spot-img src="https://images.unsplash.com/photo-1601823984263-b87b59798b70?w=800&q=80" alt="Sengan-en Garden (UNESCO)" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>⛩️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Kinko, Kagoshima</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Sengan-en Garden (UNESCO)</h3>
-<p class=spot-desc>A spectacular feudal garden built in 1658 by the Shimadzu clan, with Sakurajima volcano used as a 'borrowed scenery' backdrop — a UNESCO World Heritage component. The adjacent Shoko Shuseikan factory museum tells the story of the Meiji industrial revolution.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>UNESCO</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Garden</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Shimadzu Clan</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
 <article class=spot-card data-spot-id=yakushima data-spot-name="Yakushima Island (UNESCO)" data-spot-pref=kagoshima data-spot-fee=0 data-spot-dur=180 data-spot-lat=30.3472 data-spot-lng=130.585 data-spot-area=yakushima data-spot-rating=4.8 data-spot-reviews=3200 data-spot-img="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=800&q=80" data-spot-cats=sightseeing,nature>
 <img class=spot-img src="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=800&q=80" alt="Yakushima Island (UNESCO)" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>⛩️</div>
@@ -373,6 +332,26 @@
 </button>
 </div>
 </article>
+<article class=spot-card data-spot-id=sakurajima data-spot-name="Sakurajima Volcano" data-spot-pref=kagoshima data-spot-fee=0 data-spot-dur=120 data-spot-lat=31.5731 data-spot-lng=130.6704 data-spot-area=sakurajima data-spot-rating=4.6 data-spot-reviews=2850 data-spot-img="https://images.unsplash.com/photo-1570459027562-4a916cc6113f?w=800&q=80" data-spot-cats=sightseeing,nature>
+<img class=spot-img src="https://images.unsplash.com/photo-1570459027562-4a916cc6113f?w=800&q=80" alt="Sakurajima Volcano" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Sakurajima, Kagoshima</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Sakurajima Volcano</h3>
+<p class=spot-desc>One of the world's most active volcanoes — Sakurajima erupts dozens of times a year, visible from Kagoshima city across the bay. A short ferry from downtown leads to lava fields, observation decks, and footbaths on the volcano's flanks.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Volcano</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Active</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Icon</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 <article class=spot-card data-spot-id=chiran data-spot-name="Chiran Kamikaze Peace Museum" data-spot-pref=kagoshima data-spot-fee=600 data-spot-dur=90 data-spot-lat=31.3783 data-spot-lng=130.3667 data-spot-area=chiran data-spot-rating=4.6 data-spot-reviews=1850 data-spot-img="https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=800&q=80" data-spot-cats=sightseeing>
 <img class=spot-img src="https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=800&q=80" alt="Chiran Kamikaze Peace Museum" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>⛩️</div>
@@ -387,6 +366,26 @@
 <span class=spot-tag style=background:#e8eeff;color:#1a3a9a>WWII</span>
 <span class=spot-tag style=background:#e8eeff;color:#1a3a9a>History</span>
 <span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Memorial</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class=spot-card data-spot-id=sengan-en data-spot-name="Sengan-en Garden (UNESCO)" data-spot-pref=kagoshima data-spot-fee=1300 data-spot-dur=90 data-spot-lat=31.5941 data-spot-lng=130.5549 data-spot-area=Kinko data-spot-rating=4.5 data-spot-reviews=2100 data-spot-img="https://images.unsplash.com/photo-1601823984263-b87b59798b70?w=800&q=80" data-spot-cats=sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1601823984263-b87b59798b70?w=800&q=80" alt="Sengan-en Garden (UNESCO)" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Kinko, Kagoshima</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Sengan-en Garden (UNESCO)</h3>
+<p class=spot-desc>A spectacular feudal garden built in 1658 by the Shimadzu clan, with Sakurajima volcano used as a 'borrowed scenery' backdrop — a UNESCO World Heritage component. The adjacent Shoko Shuseikan factory museum tells the story of the Meiji industrial revolution.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>UNESCO</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Garden</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Shimadzu Clan</span>
 </div>
 <button class=btn-add-plan onclick=prefTogglePlan(this)>
 🗺️ Add to Plan
@@ -415,8 +414,7 @@
 </article>
 </div>
 </div>
-</section>
-<section class=spot-section id=section-gourmet data-cat=gourmet>
+</section><section class=spot-section id=section-gourmet data-cat=gourmet>
 <div class=spot-section-inner>
 <div class=section-hd style=--sec-color:#D64000>
 <span class=s-icon>🍜</span>
@@ -484,26 +482,6 @@
 </button>
 </div>
 </article>
-<article class=spot-card data-spot-id=kibinago data-spot-name="Kibinago Sashimi &amp;amp; Island Seafood" data-spot-pref=kagoshima data-spot-fee=0 data-spot-dur=60 data-spot-lat=31.5944 data-spot-lng=130.5434 data-spot-area=kagoshima-central data-spot-rating=0 data-spot-reviews=1340 data-spot-img="https://images.unsplash.com/photo-1617196034183-421b4040ed20?w=800&q=80" data-spot-cats=gourmet>
-<img class=spot-img src="https://images.unsplash.com/photo-1617196034183-421b4040ed20?w=800&q=80" alt="Kibinago Sashimi & Island Seafood" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>🍜</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Kagoshima City, Kagoshima</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Kibinago Sashimi & Island Seafood</h3>
-<p class=spot-desc>Kagoshima's signature fish — tiny silver-blue kibinago herrings arranged in chrysanthemum patterns on ice and eaten raw with miso dipping sauce. Combined with Amami's tuna sashimi and grilled flying fish, Kagoshima's seafood is among Japan's finest.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#fff0ea;color:#9a3000>Kibinago</span>
-<span class=spot-tag style=background:#fff0ea;color:#9a3000>Sashimi</span>
-<span class=spot-tag style=background:#fff0ea;color:#9a3000>Seafood</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
 <article class=spot-card data-spot-id=satsuma-age data-spot-name="Satsuma-age Fish Cake" data-spot-pref=kagoshima data-spot-fee=0 data-spot-dur=30 data-spot-lat=31.5962 data-spot-lng=130.5425 data-spot-area=kagoshima-central data-spot-rating=4.3 data-spot-reviews=1100 data-spot-img="https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?w=800&q=80" data-spot-cats=gourmet>
 <img class=spot-img src="https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?w=800&q=80" alt="Satsuma-age Fish Cake" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>🍜</div>
@@ -524,10 +502,29 @@
 </button>
 </div>
 </article>
+<article class=spot-card data-spot-id=kibinago data-spot-name="Kibinago Sashimi &amp;amp; Island Seafood" data-spot-pref=kagoshima data-spot-fee=0 data-spot-dur=60 data-spot-lat=31.5944 data-spot-lng=130.5434 data-spot-area=kagoshima-central data-spot-rating=0 data-spot-reviews=1340 data-spot-img="https://images.unsplash.com/photo-1617196034183-421b4040ed20?w=800&q=80" data-spot-cats=gourmet>
+<img class=spot-img src="https://images.unsplash.com/photo-1617196034183-421b4040ed20?w=800&q=80" alt="Kibinago Sashimi & Island Seafood" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🍜</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Kagoshima City, Kagoshima</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Kibinago Sashimi & Island Seafood</h3>
+<p class=spot-desc>Kagoshima's signature fish — tiny silver-blue kibinago herrings arranged in chrysanthemum patterns on ice and eaten raw with miso dipping sauce. Combined with Amami's tuna sashimi and grilled flying fish, Kagoshima's seafood is among Japan's finest.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>Kibinago</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>Sashimi</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>Seafood</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 </div>
 </div>
-</section>
-<section class=spot-section id=section-nature data-cat=nature>
+</section><section class=spot-section id=section-nature data-cat=nature>
 <div class=spot-section-inner>
 <div class=section-hd style=--sec-color:#1a7a34>
 <span class=s-icon>🏔️</span>
@@ -535,20 +532,20 @@
 <span class=s-count>8 spots</span>
 </div>
 <div class=spot-grid>
-<article class=spot-card data-spot-id=sakurajima data-spot-name="Sakurajima Volcano" data-spot-pref=kagoshima data-spot-fee=0 data-spot-dur=120 data-spot-lat=31.5731 data-spot-lng=130.6704 data-spot-area=sakurajima data-spot-rating=4.6 data-spot-reviews=2850 data-spot-img="https://images.unsplash.com/photo-1570459027562-4a916cc6113f?w=800&q=80" data-spot-cats=sightseeing,nature>
-<img class=spot-img src="https://images.unsplash.com/photo-1570459027562-4a916cc6113f?w=800&q=80" alt="Sakurajima Volcano" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<article class=spot-card data-spot-id=amami-sea-turtle data-spot-name="Amami Sea Turtle Nesting Season (May–Aug)" data-spot-pref=kagoshima data-spot-fee=3000 data-spot-dur=120 data-spot-lat=28.375 data-spot-lng=129.3083 data-spot-area=amami-oshima data-spot-rating=4.8 data-spot-reviews=1350 data-spot-img="https://images.unsplash.com/photo-1519046904884-53103b34b206?w=800&q=80" data-spot-cats=events,nature>
+<img class=spot-img src="https://images.unsplash.com/photo-1519046904884-53103b34b206?w=800&q=80" alt="Amami Sea Turtle Nesting Season (May–Aug)" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>🏔️</div>
 <div class=spot-body>
 <div class=spot-meta>
-<span class=spot-location>📍 Sakurajima, Kagoshima</span>
+<span class=spot-location>📍 Amami Oshima, Kagoshima</span>
 <span class=spot-season-badge></span>
 </div>
-<h3 class=spot-name>Sakurajima Volcano</h3>
-<p class=spot-desc>One of the world's most active volcanoes — Sakurajima erupts dozens of times a year, visible from Kagoshima city across the bay. A short ferry from downtown leads to lava fields, observation decks, and footbaths on the volcano's flanks.</p>
+<h3 class=spot-name>Amami Sea Turtle Nesting Season (May–Aug)</h3>
+<p class=spot-desc>Amami Oshima and Yakushima are Japan's most important nesting sites for loggerhead sea turtles — from May through August, guided night tours observe mother turtles laying eggs on moonlit beaches, and hatchling releases draw wildlife lovers from around Japan.</p>
 <div class=spot-tags>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Volcano</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Active</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Icon</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Sea Turtle</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Conservation</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Night Tour</span>
 </div>
 <button class=btn-add-plan onclick=prefTogglePlan(this)>
 🗺️ Add to Plan
@@ -575,26 +572,6 @@
 </button>
 </div>
 </article>
-<article class=spot-card data-spot-id=kirishima data-spot-name="Kirishima Mountains &amp;amp; Onsen" data-spot-pref=kagoshima data-spot-fee=0 data-spot-dur=150 data-spot-lat=31.9333 data-spot-lng=130.8667 data-spot-area=kirishima data-spot-rating=4.5 data-spot-reviews=2200 data-spot-img="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80" data-spot-cats=nature>
-<img class=spot-img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80" alt="Kirishima Mountains & Onsen" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>🏔️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Kirishima, Kagoshima</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Kirishima Mountains & Onsen</h3>
-<p class=spot-desc>The Kirishima mountain chain in northern Kagoshima is a volcanic highland of crater lakes, steaming vents, and panoramic ridges. The Ebino Kogen plateau at 1,200 m is the base for hikes across the caldera and to Karakuni-dake (1,700 m).</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Volcano</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Hiking</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Onsen</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
 <article class=spot-card data-spot-id=amami-oshima data-spot-name="Amami Oshima (UNESCO)" data-spot-pref=kagoshima data-spot-fee=0 data-spot-dur=180 data-spot-lat=28.375 data-spot-lng=129.3083 data-spot-area=amami-oshima data-spot-rating=4.7 data-spot-reviews=1700 data-spot-img="https://images.unsplash.com/photo-1519046904884-53103b34b206?w=800&q=80" data-spot-cats=nature>
 <img class=spot-img src="https://images.unsplash.com/photo-1519046904884-53103b34b206?w=800&q=80" alt="Amami Oshima (UNESCO)" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>🏔️</div>
@@ -609,66 +586,6 @@
 <span class=spot-tag style=background:#e4f4e8;color:#155a28>UNESCO</span>
 <span class=spot-tag style=background:#e4f4e8;color:#155a28>Subtropical</span>
 <span class=spot-tag style=background:#e4f4e8;color:#155a28>Endemic Wildlife</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=cape-sata data-spot-name="Cape Sata — Japan&amp;#39;s Southern Tip" data-spot-pref=kagoshima data-spot-fee=0 data-spot-dur=120 data-spot-lat=30.8167 data-spot-lng=131.1333 data-spot-area=osumi data-spot-rating=4.5 data-spot-reviews=1450 data-spot-img="https://images.unsplash.com/photo-1570459027562-4a916cc6113f?w=800&q=80" data-spot-cats=nature>
-<img class=spot-img src="https://images.unsplash.com/photo-1570459027562-4a916cc6113f?w=800&q=80" alt="Cape Sata — Japan's Southern Tip" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>🏔️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Sata, Kagoshima</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Cape Sata — Japan's Southern Tip</h3>
-<p class=spot-desc>The southernmost point of Kyushu — a wild headland of subtropical forest, Pacific swells, and a lighthouse above towering cliffs. The drive through the Osumi Peninsula's fishing villages and sea-view roads is one of southern Japan's most dramatic journeys.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Cape</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Remote</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Scenic</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=tanegashima data-spot-name="Tanegashima Space Center" data-spot-pref=kagoshima data-spot-fee=600 data-spot-dur=120 data-spot-lat=30.3847 data-spot-lng=131.0147 data-spot-area=tanegashima data-spot-rating=4.3 data-spot-reviews=1250 data-spot-img="https://images.unsplash.com/photo-1540979388789-6cee28a1cdc9?w=800&q=80" data-spot-cats=nature,leisure>
-<img class=spot-img src="https://images.unsplash.com/photo-1540979388789-6cee28a1cdc9?w=800&q=80" alt="Tanegashima Space Center" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>🏔️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Tanegashima, Kagoshima</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Tanegashima Space Center</h3>
-<p class=spot-desc>Japan's primary rocket launch facility on a spectacular Pacific island — the JAXA Tanegashima Space Center has a public museum, and launch viewing events open the island to thousands of excited spectators. The island also has pristine surf beaches.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Space</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Rocket Launch</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Island</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=amami-sea-turtle data-spot-name="Amami Sea Turtle Nesting Season (May–Aug)" data-spot-pref=kagoshima data-spot-fee=3000 data-spot-dur=120 data-spot-lat=28.375 data-spot-lng=129.3083 data-spot-area=amami-oshima data-spot-rating=4.8 data-spot-reviews=1350 data-spot-img="https://images.unsplash.com/photo-1519046904884-53103b34b206?w=800&q=80" data-spot-cats=events,nature>
-<img class=spot-img src="https://images.unsplash.com/photo-1519046904884-53103b34b206?w=800&q=80" alt="Amami Sea Turtle Nesting Season (May–Aug)" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>🏔️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Amami Oshima, Kagoshima</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Amami Sea Turtle Nesting Season (May–Aug)</h3>
-<p class=spot-desc>Amami Oshima and Yakushima are Japan's most important nesting sites for loggerhead sea turtles — from May through August, guided night tours observe mother turtles laying eggs on moonlit beaches, and hatchling releases draw wildlife lovers from around Japan.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Sea Turtle</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Conservation</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Night Tour</span>
 </div>
 <button class=btn-add-plan onclick=prefTogglePlan(this)>
 🗺️ Add to Plan
@@ -695,10 +612,54 @@
 </button>
 </div>
 </article>
+<article class=spot-card data-spot-id=sakurajima data-spot-name="Sakurajima Volcano" data-spot-pref=kagoshima data-spot-fee=0 data-spot-dur=120 data-spot-lat=31.5731 data-spot-lng=130.6704 data-spot-area=sakurajima data-spot-rating=4.6 data-spot-reviews=2850 data-spot-img="https://images.unsplash.com/photo-1570459027562-4a916cc6113f?w=800&q=80" data-spot-cats=sightseeing,nature>
+<img class=spot-img src="https://images.unsplash.com/photo-1570459027562-4a916cc6113f?w=800&q=80" alt="Sakurajima Volcano" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🏔️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Sakurajima, Kagoshima</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Sakurajima Volcano</h3>
+<p class=spot-desc>One of the world's most active volcanoes — Sakurajima erupts dozens of times a year, visible from Kagoshima city across the bay. A short ferry from downtown leads to lava fields, observation decks, and footbaths on the volcano's flanks.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Volcano</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Active</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Icon</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class=spot-card data-spot-id=kirishima data-spot-name="Kirishima Mountains &amp;amp; Onsen" data-spot-pref=kagoshima data-spot-fee=0 data-spot-dur=150 data-spot-lat=31.9333 data-spot-lng=130.8667 data-spot-area=kirishima data-spot-rating=4.5 data-spot-reviews=2200 data-spot-img="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80" data-spot-cats=nature>
+<img class=spot-img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80" alt="Kirishima Mountains & Onsen" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🏔️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Kirishima, Kagoshima</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Kirishima Mountains & Onsen</h3>
+<p class=spot-desc>The Kirishima mountain chain in northern Kagoshima is a volcanic highland of crater lakes, steaming vents, and panoramic ridges. The Ebino Kogen plateau at 1,200 m is the base for hikes across the caldera and to Karakuni-dake (1,700 m).</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Volcano</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Hiking</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Onsen</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+</div>
+<div class=see-all-wrap>
+<a class=see-all-btn style=color:#1a7a34 href=/prefectures/kagoshima/spots/#nature>
+See all 8 Nature spots →
+</a>
 </div>
 </div>
-</section>
-<section class=spot-section id=section-leisure data-cat=leisure>
+</section><section class=spot-section id=section-leisure data-cat=leisure>
 <div class=spot-section-inner>
 <div class=section-hd style=--sec-color:#b35c00>
 <span class=s-icon>🎿</span>
@@ -706,66 +667,6 @@
 <span class=s-count>6 spots</span>
 </div>
 <div class=spot-grid>
-<article class=spot-card data-spot-id=ibusuki-sunamushi data-spot-name="Ibusuki Sand Bath Onsen" data-spot-pref=kagoshima data-spot-fee=1050 data-spot-dur=45 data-spot-lat=31.2631 data-spot-lng=130.6358 data-spot-area=ibusuki data-spot-rating=4.4 data-spot-reviews=2450 data-spot-img="https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=800&q=80" data-spot-cats=sightseeing,leisure>
-<img class=spot-img src="https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=800&q=80" alt="Ibusuki Sand Bath Onsen" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>🎿</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Ibusuki, Kagoshima</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Ibusuki Sand Bath Onsen</h3>
-<p class=spot-desc>Japan's famous natural sand bath — lie buried up to your neck in geothermally heated black sand on Ibusuki beach, letting natural volcanic warmth permeate your body. A uniquely Kagoshima experience at the southern tip of Kyushu.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Sand Bath</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Onsen</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Unique</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=tanegashima data-spot-name="Tanegashima Space Center" data-spot-pref=kagoshima data-spot-fee=600 data-spot-dur=120 data-spot-lat=30.3847 data-spot-lng=131.0147 data-spot-area=tanegashima data-spot-rating=4.3 data-spot-reviews=1250 data-spot-img="https://images.unsplash.com/photo-1540979388789-6cee28a1cdc9?w=800&q=80" data-spot-cats=nature,leisure>
-<img class=spot-img src="https://images.unsplash.com/photo-1540979388789-6cee28a1cdc9?w=800&q=80" alt="Tanegashima Space Center" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>🎿</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Tanegashima, Kagoshima</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Tanegashima Space Center</h3>
-<p class=spot-desc>Japan's primary rocket launch facility on a spectacular Pacific island — the JAXA Tanegashima Space Center has a public museum, and launch viewing events open the island to thousands of excited spectators. The island also has pristine surf beaches.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Space</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Rocket Launch</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Island</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=kagoshima-cycling data-spot-name="Sakurajima &amp;amp; Osumi Cycling" data-spot-pref=kagoshima data-spot-fee=0 data-spot-dur=180 data-spot-lat=31.5731 data-spot-lng=130.6704 data-spot-area=sakurajima data-spot-rating=4.4 data-spot-reviews=1100 data-spot-img="https://images.unsplash.com/photo-1541625602330-2277a4c46182?w=800&q=80" data-spot-cats=leisure>
-<img class=spot-img src="https://images.unsplash.com/photo-1541625602330-2277a4c46182?w=800&q=80" alt="Sakurajima & Osumi Cycling" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>🎿</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Sakurajima, Kagoshima</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Sakurajima & Osumi Cycling</h3>
-<p class=spot-desc>Cycling the 36 km circumference of Sakurajima on roads flanked by black lava fields is one of southern Japan's most dramatic rides — daily ferries from Kagoshima city make it a perfect day trip. The lava fields route passes steaming crevices and buried torii gates.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Cycling</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Volcano</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Scenic</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
 <article class=spot-card data-spot-id=yakushima-diving data-spot-name="Yakushima &amp;amp; Amami Diving" data-spot-pref=kagoshima data-spot-fee=12000 data-spot-dur=120 data-spot-lat=30.3472 data-spot-lng=130.585 data-spot-area=yakushima data-spot-rating=4.7 data-spot-reviews=1580 data-spot-img="https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=800&q=80" data-spot-cats=leisure>
 <img class=spot-img src="https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=800&q=80" alt="Yakushima & Amami Diving" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>🎿</div>
@@ -806,6 +707,46 @@
 </button>
 </div>
 </article>
+<article class=spot-card data-spot-id=ibusuki-sunamushi data-spot-name="Ibusuki Sand Bath Onsen" data-spot-pref=kagoshima data-spot-fee=1050 data-spot-dur=45 data-spot-lat=31.2631 data-spot-lng=130.6358 data-spot-area=ibusuki data-spot-rating=4.4 data-spot-reviews=2450 data-spot-img="https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=800&q=80" data-spot-cats=sightseeing,leisure>
+<img class=spot-img src="https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=800&q=80" alt="Ibusuki Sand Bath Onsen" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎿</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Ibusuki, Kagoshima</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Ibusuki Sand Bath Onsen</h3>
+<p class=spot-desc>Japan's famous natural sand bath — lie buried up to your neck in geothermally heated black sand on Ibusuki beach, letting natural volcanic warmth permeate your body. A uniquely Kagoshima experience at the southern tip of Kyushu.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Sand Bath</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Onsen</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Unique</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class=spot-card data-spot-id=kagoshima-cycling data-spot-name="Sakurajima &amp;amp; Osumi Cycling" data-spot-pref=kagoshima data-spot-fee=0 data-spot-dur=180 data-spot-lat=31.5731 data-spot-lng=130.6704 data-spot-area=sakurajima data-spot-rating=4.4 data-spot-reviews=1100 data-spot-img="https://images.unsplash.com/photo-1541625602330-2277a4c46182?w=800&q=80" data-spot-cats=leisure>
+<img class=spot-img src="https://images.unsplash.com/photo-1541625602330-2277a4c46182?w=800&q=80" alt="Sakurajima & Osumi Cycling" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎿</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Sakurajima, Kagoshima</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Sakurajima & Osumi Cycling</h3>
+<p class=spot-desc>Cycling the 36 km circumference of Sakurajima on roads flanked by black lava fields is one of southern Japan's most dramatic rides — daily ferries from Kagoshima city make it a perfect day trip. The lava fields route passes steaming crevices and buried torii gates.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Cycling</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Volcano</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Scenic</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 <article class=spot-card data-spot-id=ibusuki-onsen-resort data-spot-name="Ibusuki Onsen Town" data-spot-pref=kagoshima data-spot-fee=400 data-spot-dur=120 data-spot-lat=31.2631 data-spot-lng=130.6358 data-spot-area=ibusuki data-spot-rating=4.4 data-spot-reviews=1920 data-spot-img="https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=800&q=80" data-spot-cats=leisure>
 <img class=spot-img src="https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=800&q=80" alt="Ibusuki Onsen Town" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>🎿</div>
@@ -826,10 +767,29 @@
 </button>
 </div>
 </article>
+<article class=spot-card data-spot-id=tanegashima data-spot-name="Tanegashima Space Center" data-spot-pref=kagoshima data-spot-fee=600 data-spot-dur=120 data-spot-lat=30.3847 data-spot-lng=131.0147 data-spot-area=tanegashima data-spot-rating=4.3 data-spot-reviews=1250 data-spot-img="https://images.unsplash.com/photo-1540979388789-6cee28a1cdc9?w=800&q=80" data-spot-cats=nature,leisure>
+<img class=spot-img src="https://images.unsplash.com/photo-1540979388789-6cee28a1cdc9?w=800&q=80" alt="Tanegashima Space Center" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎿</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Tanegashima, Kagoshima</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Tanegashima Space Center</h3>
+<p class=spot-desc>Japan's primary rocket launch facility on a spectacular Pacific island — the JAXA Tanegashima Space Center has a public museum, and launch viewing events open the island to thousands of excited spectators. The island also has pristine surf beaches.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Space</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Rocket Launch</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Island</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 </div>
 </div>
-</section>
-<section class=spot-section id=section-events data-cat=events>
+</section><section class=spot-section id=section-events data-cat=events>
 <div class=spot-section-inner>
 <div class=section-hd style=--sec-color:#b5006e>
 <span class=s-icon>🎆</span>
@@ -837,6 +797,66 @@
 <span class=s-count>7 spots</span>
 </div>
 <div class=spot-grid>
+<article class=spot-card data-spot-id=amami-sea-turtle data-spot-name="Amami Sea Turtle Nesting Season (May–Aug)" data-spot-pref=kagoshima data-spot-fee=3000 data-spot-dur=120 data-spot-lat=28.375 data-spot-lng=129.3083 data-spot-area=amami-oshima data-spot-rating=4.8 data-spot-reviews=1350 data-spot-img="https://images.unsplash.com/photo-1519046904884-53103b34b206?w=800&q=80" data-spot-cats=events,nature>
+<img class=spot-img src="https://images.unsplash.com/photo-1519046904884-53103b34b206?w=800&q=80" alt="Amami Sea Turtle Nesting Season (May–Aug)" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎆</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Amami Oshima, Kagoshima</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Amami Sea Turtle Nesting Season (May–Aug)</h3>
+<p class=spot-desc>Amami Oshima and Yakushima are Japan's most important nesting sites for loggerhead sea turtles — from May through August, guided night tours observe mother turtles laying eggs on moonlit beaches, and hatchling releases draw wildlife lovers from around Japan.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>Sea Turtle</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>Conservation</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>Night Tour</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class=spot-card data-spot-id=yakushima-whale data-spot-name="Yakushima Whale &amp;amp; Dolphin Watching (Jan–Apr)" data-spot-pref=kagoshima data-spot-fee=8500 data-spot-dur=150 data-spot-lat=30.3472 data-spot-lng=130.585 data-spot-area=yakushima data-spot-rating=4.7 data-spot-reviews=1420 data-spot-img="https://images.unsplash.com/photo-1573770200393-d28efec99581?w=800&q=80" data-spot-cats=events,nature>
+<img class=spot-img src="https://images.unsplash.com/photo-1573770200393-d28efec99581?w=800&q=80" alt="Yakushima Whale & Dolphin Watching (Jan–Apr)" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎆</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Yakushima, Kagoshima</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Yakushima Whale & Dolphin Watching (Jan–Apr)</h3>
+<p class=spot-desc>Humpback whales migrate through the warm waters around Yakushima from January to April — charter boats offer half-day tours with near-guaranteed sightings during peak season. Year-round pods of bottlenose and spotted dolphins also circle the island.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>Humpback Whale</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>Dolphins</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>Ocean</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class=spot-card data-spot-id=senganen-illumination data-spot-name="Sengan-en Winter Illumination (Dec–Jan)" data-spot-pref=kagoshima data-spot-fee=1300 data-spot-dur=75 data-spot-lat=31.5941 data-spot-lng=130.5549 data-spot-area=kinko data-spot-rating=4.6 data-spot-reviews=1650 data-spot-img="https://images.unsplash.com/photo-1527525443983-6e60c75fff46?w=800&q=80" data-spot-cats=events>
+<img class=spot-img src="https://images.unsplash.com/photo-1527525443983-6e60c75fff46?w=800&q=80" alt="Sengan-en Winter Illumination (Dec–Jan)" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎆</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Kinko, Kagoshima</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Sengan-en Winter Illumination (Dec–Jan)</h3>
+<p class=spot-desc>The historic Sengan-en garden transforms each winter with thousands of lights reflecting on the ponds and cascading through the trees — Sakurajima glowing in the distance creates one of Kagoshima's most magical night scenes.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>Illumination</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>Winter</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>Garden</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 <article class=spot-card data-spot-id=ohara-matsuri data-spot-name="Ohara Festival (Nov)" data-spot-pref=kagoshima data-spot-fee=0 data-spot-dur=120 data-spot-lat=31.5962 data-spot-lng=130.5425 data-spot-area=kagoshima-central data-spot-rating=4.6 data-spot-reviews=2800 data-spot-img="https://images.unsplash.com/photo-1509316785289-025f5b846b35?w=800&q=80" data-spot-cats=events>
 <img class=spot-img src="https://images.unsplash.com/photo-1509316785289-025f5b846b35?w=800&q=80" alt="Ohara Festival (Nov)" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>🎆</div>
@@ -897,86 +917,11 @@
 </button>
 </div>
 </article>
-<article class=spot-card data-spot-id=ibusuki-na-no-hana data-spot-name="Ibusuki Nanohana Festival (Jan–Feb)" data-spot-pref=kagoshima data-spot-fee=0 data-spot-dur=120 data-spot-lat=31.2631 data-spot-lng=130.6358 data-spot-area=ibusuki data-spot-rating=4.3 data-spot-reviews=1200 data-spot-img="https://images.unsplash.com/photo-1566464963286-a7d55db80f53?w=800&q=80" data-spot-cats=events>
-<img class=spot-img src="https://images.unsplash.com/photo-1566464963286-a7d55db80f53?w=800&q=80" alt="Ibusuki Nanohana Festival (Jan–Feb)" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>🎆</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Ibusuki, Kagoshima</span>
-<span class=spot-season-badge></span>
 </div>
-<h3 class=spot-name>Ibusuki Nanohana Festival (Jan–Feb)</h3>
-<p class=spot-desc>While mainland Japan is deep in winter, Ibusuki's mild climate brings golden rapeseed (nanohana) fields into full bloom from January — the famous flower cycling route along the Satsuma Peninsula coastline is lined with yellow blooms.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#ffe8f4;color:#88004e>Rapeseed</span>
-<span class=spot-tag style=background:#ffe8f4;color:#88004e>Winter Flowers</span>
-<span class=spot-tag style=background:#ffe8f4;color:#88004e>Cycling</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=senganen-illumination data-spot-name="Sengan-en Winter Illumination (Dec–Jan)" data-spot-pref=kagoshima data-spot-fee=1300 data-spot-dur=75 data-spot-lat=31.5941 data-spot-lng=130.5549 data-spot-area=kinko data-spot-rating=4.6 data-spot-reviews=1650 data-spot-img="https://images.unsplash.com/photo-1527525443983-6e60c75fff46?w=800&q=80" data-spot-cats=events>
-<img class=spot-img src="https://images.unsplash.com/photo-1527525443983-6e60c75fff46?w=800&q=80" alt="Sengan-en Winter Illumination (Dec–Jan)" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>🎆</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Kinko, Kagoshima</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Sengan-en Winter Illumination (Dec–Jan)</h3>
-<p class=spot-desc>The historic Sengan-en garden transforms each winter with thousands of lights reflecting on the ponds and cascading through the trees — Sakurajima glowing in the distance creates one of Kagoshima's most magical night scenes.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#ffe8f4;color:#88004e>Illumination</span>
-<span class=spot-tag style=background:#ffe8f4;color:#88004e>Winter</span>
-<span class=spot-tag style=background:#ffe8f4;color:#88004e>Garden</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=amami-sea-turtle data-spot-name="Amami Sea Turtle Nesting Season (May–Aug)" data-spot-pref=kagoshima data-spot-fee=3000 data-spot-dur=120 data-spot-lat=28.375 data-spot-lng=129.3083 data-spot-area=amami-oshima data-spot-rating=4.8 data-spot-reviews=1350 data-spot-img="https://images.unsplash.com/photo-1519046904884-53103b34b206?w=800&q=80" data-spot-cats=events,nature>
-<img class=spot-img src="https://images.unsplash.com/photo-1519046904884-53103b34b206?w=800&q=80" alt="Amami Sea Turtle Nesting Season (May–Aug)" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>🎆</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Amami Oshima, Kagoshima</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Amami Sea Turtle Nesting Season (May–Aug)</h3>
-<p class=spot-desc>Amami Oshima and Yakushima are Japan's most important nesting sites for loggerhead sea turtles — from May through August, guided night tours observe mother turtles laying eggs on moonlit beaches, and hatchling releases draw wildlife lovers from around Japan.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#ffe8f4;color:#88004e>Sea Turtle</span>
-<span class=spot-tag style=background:#ffe8f4;color:#88004e>Conservation</span>
-<span class=spot-tag style=background:#ffe8f4;color:#88004e>Night Tour</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=yakushima-whale data-spot-name="Yakushima Whale &amp;amp; Dolphin Watching (Jan–Apr)" data-spot-pref=kagoshima data-spot-fee=8500 data-spot-dur=150 data-spot-lat=30.3472 data-spot-lng=130.585 data-spot-area=yakushima data-spot-rating=4.7 data-spot-reviews=1420 data-spot-img="https://images.unsplash.com/photo-1573770200393-d28efec99581?w=800&q=80" data-spot-cats=events,nature>
-<img class=spot-img src="https://images.unsplash.com/photo-1573770200393-d28efec99581?w=800&q=80" alt="Yakushima Whale & Dolphin Watching (Jan–Apr)" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>🎆</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Yakushima, Kagoshima</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Yakushima Whale & Dolphin Watching (Jan–Apr)</h3>
-<p class=spot-desc>Humpback whales migrate through the warm waters around Yakushima from January to April — charter boats offer half-day tours with near-guaranteed sightings during peak season. Year-round pods of bottlenose and spotted dolphins also circle the island.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#ffe8f4;color:#88004e>Humpback Whale</span>
-<span class=spot-tag style=background:#ffe8f4;color:#88004e>Dolphins</span>
-<span class=spot-tag style=background:#ffe8f4;color:#88004e>Ocean</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
+<div class=see-all-wrap>
+<a class=see-all-btn style=color:#b5006e href=/prefectures/kagoshima/spots/#events>
+See all 7 Events spots →
+</a>
 </div>
 </div>
 </section>

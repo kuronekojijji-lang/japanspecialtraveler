@@ -85,7 +85,7 @@
   document.addEventListener('keydown', function(e){ if(e.key==='Escape') close(); });
 })();
 </script>
-<style>.pref-breadcrumb{background:#f8f9fa;border-bottom:1px solid var(--border);padding:.6rem 1.5rem;font-size:.82rem;color:var(--gray)}.pref-breadcrumb a{color:var(--red);text-decoration:none}.pref-breadcrumb a:hover{text-decoration:underline}.pref-breadcrumb span{margin:0 .4rem}.pref-hero{position:relative;min-height:440px;display:flex;align-items:flex-end;background:#0a1a00 50%/cover no-repeat;background-image:url(https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=1600&q=80)}.pref-hero::after{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,.15) 0%,rgba(0,0,0,.7) 100%)}.pref-hero-body{position:relative;z-index:1;padding:2.5rem 1.5rem 2rem;max-width:var(--max-w);margin:0 auto;width:100%}.pref-hero-eyebrow{color:rgba(255,255,255,.75);font-size:.82rem;font-weight:600;text-transform:uppercase;letter-spacing:.1em;margin-bottom:.5rem}.pref-hero h1{color:#fff;font-size:clamp(2.2rem,5.5vw,3.4rem);font-weight:900;margin:0 0 .5rem;line-height:1.1}.pref-hero .pref-sub{color:rgba(255,255,255,.88);font-size:1.05rem;max-width:560px;margin-bottom:1rem}.pref-stats{display:flex;flex-wrap:wrap;gap:.6rem}.pref-stat{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);border-radius:20px;padding:.3rem .85rem;color:#fff;font-size:.8rem;font-weight:600}.pref-section{padding:2.5rem 1.5rem}.pref-section+.pref-section{padding-top:0}.pref-container{max-width:var(--max-w);margin:0 auto}.pref-section-title{font-size:1.55rem;font-weight:900;margin:0 0 .4rem;display:flex;align-items:center;gap:.5rem}.pref-section-lead{font-size:1rem;color:#555;line-height:1.7;max-width:680px;margin-bottom:1.5rem}.ponko-guide{display:flex;align-items:flex-end;gap:0;margin-bottom:1.6rem}.ponko-bubble{flex:1;min-width:0;background:linear-gradient(135deg,#fff9f0,#fff3e0);border:2px solid #f5a623;border-radius:18px 18px 18px 4px;padding:1.2rem 1.5rem;position:relative;box-shadow:0 4px 14px rgba(245,166,35,.13)}.ponko-bubble::after{content:'';position:absolute;right:-18px;bottom:22px;border:9px solid transparent;border-left-color:#f5a623}.ponko-bubble::before{content:'';position:absolute;right:-13px;bottom:23px;z-index:1;border:8px solid transparent;border-left-color:#fff9f0}.ponko-bubble p{font-size:.97rem;line-height:1.8;color:#333;margin:0}.ponko-figure{flex-shrink:0;width:170px;margin-left:4px;animation:ponko-float 3s ease-in-out infinite}.ponko-figure img{width:100%;height:auto;display:block;filter:drop-shadow(0 6px 10px rgba(0,0,0,.18))}@keyframes ponko-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}@media(max-width:640px){.ponko-guide{flex-direction:column;align-items:center}.ponko-bubble{border-radius:18px;order:2;width:100%}.ponko-bubble::after,.ponko-bubble::before{display:none}.ponko-figure{order:1;width:130px;margin-left:0;margin-bottom:.5rem;animation:none}}.quick-facts{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.8rem;margin-top:1.4rem}.qf-card{background:#f8f9fb;border:1px solid var(--border);border-radius:12px;padding:1rem 1.1rem;display:flex;align-items:flex-start;gap:.7rem}.qf-icon{font-size:1.4rem;flex-shrink:0}.qf-label{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--gray);margin-bottom:.15rem}.qf-value{font-size:.9rem;font-weight:600;color:var(--dark)}.access-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}.access-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 8px rgba(0,0,0,5%)}.access-card-hd{display:flex;align-items:center;gap:.5rem;margin-bottom:.8rem}.access-card-icon{font-size:1.5rem}.access-card-title{font-size:1rem;font-weight:800;color:var(--dark)}.access-card ul{margin:0;padding-left:1.1rem}.access-card li{font-size:.875rem;line-height:1.65;color:#444;margin-bottom:.3rem}.access-card li strong{color:var(--dark)}.access-tip{margin-top:1.2rem;background:#fff8e6;border:1px solid #ffe0a0;border-radius:10px;padding:.9rem 1.1rem;font-size:.85rem;line-height:1.6;color:#5a3e00}.access-tip strong{display:block;margin-bottom:.2rem;font-size:.88rem}.guide-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem}.guide-card{background:#fff;border-radius:14px;overflow:hidden;border:1px solid var(--border);box-shadow:0 2px 8px rgba(0,0,0,5%);transition:transform .15s,box-shadow .15s;position:relative;display:flex;flex-direction:column}.guide-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.guide-card-img{width:100%;height:150px;object-fit:cover;background:#e8eef4;display:block}.guide-card-img-ph{width:100%;height:150px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:2.5rem}.guide-card-body{padding:.9rem 1rem 1rem;flex:1}.guide-cat-badge{display:inline-block;font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;padding:.15rem .55rem;border-radius:8px;background:var(--red);color:#fff;margin-bottom:.4rem}.guide-card-title{font-size:.92rem;font-weight:800;color:var(--dark);line-height:1.4}.guide-coming-soon{position:absolute;top:.6rem;right:.6rem;background:rgba(0,0,0,.55);color:#fff;font-size:.65rem;font-weight:700;padding:.2rem .5rem;border-radius:6px;text-transform:uppercase;letter-spacing:.05em}.guide-card-link{text-decoration:none;color:inherit;display:flex;flex-direction:column;height:100%}.pref-toc{background:#fff;border-bottom:2px solid var(--border);position:sticky;top:0;z-index:100;overflow-x:auto}.pref-toc-inner{display:flex;gap:0;max-width:var(--max-w);margin:0 auto}.pref-toc-btn{flex:none;display:flex;align-items:center;gap:.4rem;padding:.8rem 1.2rem;border:none;background:0 0;cursor:pointer;font-family:inherit;font-size:.88rem;font-weight:600;color:var(--gray);border-bottom:3px solid transparent;transition:all .18s;white-space:nowrap}.pref-toc-btn .toc-icon{font-size:1.1rem}.pref-toc-btn:hover{color:var(--dark);background:#f8f8f8}.pref-toc-btn.active{color:var(--toc-color,var(--red));border-bottom-color:var(--toc-color,var(--red))}.spot-section{padding:2rem 1.5rem 2.5rem}.spot-section.hidden{display:none}.spot-section-inner{max-width:var(--max-w);margin:0 auto}.section-hd{display:flex;align-items:center;gap:.6rem;margin-bottom:1.4rem;padding-bottom:.7rem;border-bottom:2px solid var(--border)}.section-hd .s-icon{font-size:1.6rem}.section-hd h2{font-size:1.35rem;font-weight:800;margin:0}.section-hd .s-count{margin-left:auto;background:var(--sec-color,var(--red));color:#fff;border-radius:20px;padding:.15rem .65rem;font-size:.78rem;font-weight:700}.spot-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.25rem}.spot-card{border-radius:14px;overflow:hidden;border:1px solid var(--border);background:#fff;box-shadow:0 2px 8px rgba(0,0,0,6%);transition:transform .15s,box-shadow .15s;display:flex;flex-direction:column}.spot-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.spot-img{width:100%;height:200px;object-fit:cover;background:#e8eef4;display:block}.spot-img-ph{width:100%;height:200px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:3rem}.spot-body{padding:1rem 1.1rem 1.1rem;flex:1;display:flex;flex-direction:column}.spot-meta{display:flex;align-items:center;gap:.5rem;margin-bottom:.5rem}.spot-location{font-size:.78rem;color:var(--gray);font-weight:500}.spot-season-badge{margin-left:auto;font-size:.7rem;font-weight:700;padding:.1rem .5rem;border-radius:10px;background:#f0f4f8;color:#555;white-space:nowrap}.spot-name{font-size:1.08rem;font-weight:800;color:var(--dark);margin:0 0 .45rem;line-height:1.3}.spot-desc{font-size:.86rem;line-height:1.65;color:#555;flex:1;margin-bottom:.75rem}.spot-tags{display:flex;flex-wrap:wrap;gap:.3rem}.spot-tag{font-size:.7rem;font-weight:600;padding:.15rem .5rem;border-radius:6px;background:var(--tag-bg,#f0f4f8);color:var(--tag-color,#445)}.tips-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem}.tip-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 6px rgba(0,0,0,4%)}.tip-card-icon{font-size:1.8rem;margin-bottom:.6rem}.tip-card-title{font-size:.95rem;font-weight:800;color:var(--dark);margin-bottom:.5rem}.tip-card-body{font-size:.85rem;line-height:1.65;color:#555}.tip-card-body ul{margin:.3rem 0 0;padding-left:1.1rem}.tip-card-body li{margin-bottom:.2rem}.pref-cta{background:var(--bg-soft);padding:2.5rem 1.5rem 3rem;border-top:1px solid var(--border)}.pref-cta .pref-container{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}@media(max-width:600px){.pref-hero{min-height:320px}.quick-facts{grid-template-columns:repeat(2,1fr)}.pref-toc-btn{padding:.7rem .9rem;font-size:.82rem}}.btn-add-plan{display:inline-flex;align-items:center;gap:.35rem;margin-top:.75rem;padding:.45rem .9rem;border:1.5px solid #2d5be3;border-radius:8px;background:#fff;color:#2d5be3;font-size:.78rem;font-weight:700;font-family:inherit;cursor:pointer;transition:background .15s,color .15s,transform .1s;width:100%;justify-content:center}.btn-add-plan:hover{background:#2d5be3;color:#fff;transform:translateY(-1px)}.btn-add-plan.in-plan{background:#e8f0ff;color:#1a45a8;border-color:#1a45a8}.btn-add-plan.in-plan:hover{background:#c0003a;color:#fff;border-color:#c0003a}</style>
+<style>.pref-breadcrumb{background:#f8f9fa;border-bottom:1px solid var(--border);padding:.6rem 1.5rem;font-size:.82rem;color:var(--gray)}.pref-breadcrumb a{color:var(--red);text-decoration:none}.pref-breadcrumb a:hover{text-decoration:underline}.pref-breadcrumb span{margin:0 .4rem}.pref-hero{position:relative;min-height:440px;display:flex;align-items:flex-end;background:#0a1a00 50%/cover no-repeat;background-image:url(https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=1600&q=80)}.pref-hero::after{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,.15) 0%,rgba(0,0,0,.7) 100%)}.pref-hero-body{position:relative;z-index:1;padding:2.5rem 1.5rem 2rem;max-width:var(--max-w);margin:0 auto;width:100%}.pref-hero-eyebrow{color:rgba(255,255,255,.75);font-size:.82rem;font-weight:600;text-transform:uppercase;letter-spacing:.1em;margin-bottom:.5rem}.pref-hero h1{color:#fff;font-size:clamp(2.2rem,5.5vw,3.4rem);font-weight:900;margin:0 0 .5rem;line-height:1.1}.pref-hero .pref-sub{color:rgba(255,255,255,.88);font-size:1.05rem;max-width:560px;margin-bottom:1rem}.pref-stats{display:flex;flex-wrap:wrap;gap:.6rem}.pref-stat{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);border-radius:20px;padding:.3rem .85rem;color:#fff;font-size:.8rem;font-weight:600}.pref-section{padding:2.5rem 1.5rem}.pref-section+.pref-section{padding-top:0}.pref-container{max-width:var(--max-w);margin:0 auto}.pref-section-title{font-size:1.55rem;font-weight:900;margin:0 0 .4rem;display:flex;align-items:center;gap:.5rem}.pref-section-lead{font-size:1rem;color:#555;line-height:1.7;max-width:680px;margin-bottom:1.5rem}.ponko-guide{display:flex;align-items:flex-end;gap:0;margin-bottom:1.6rem}.ponko-bubble{flex:1;min-width:0;background:linear-gradient(135deg,#fff9f0,#fff3e0);border:2px solid #f5a623;border-radius:18px 18px 18px 4px;padding:1.2rem 1.5rem;position:relative;box-shadow:0 4px 14px rgba(245,166,35,.13)}.ponko-bubble::after{content:'';position:absolute;right:-18px;bottom:22px;border:9px solid transparent;border-left-color:#f5a623}.ponko-bubble::before{content:'';position:absolute;right:-13px;bottom:23px;z-index:1;border:8px solid transparent;border-left-color:#fff9f0}.ponko-bubble p{font-size:.97rem;line-height:1.8;color:#333;margin:0}.ponko-figure{flex-shrink:0;width:170px;margin-left:4px;animation:ponko-float 3s ease-in-out infinite}.ponko-figure img{width:100%;height:auto;display:block;filter:drop-shadow(0 6px 10px rgba(0,0,0,.18))}@keyframes ponko-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}@media(max-width:640px){.ponko-guide{flex-direction:column;align-items:center}.ponko-bubble{border-radius:18px;order:2;width:100%}.ponko-bubble::after,.ponko-bubble::before{display:none}.ponko-figure{order:1;width:130px;margin-left:0;margin-bottom:.5rem;animation:none}}.quick-facts{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.8rem;margin-top:1.4rem}.qf-card{background:#f8f9fb;border:1px solid var(--border);border-radius:12px;padding:1rem 1.1rem;display:flex;align-items:flex-start;gap:.7rem}.qf-icon{font-size:1.4rem;flex-shrink:0}.qf-label{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--gray);margin-bottom:.15rem}.qf-value{font-size:.9rem;font-weight:600;color:var(--dark)}.access-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}.access-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 8px rgba(0,0,0,5%)}.access-card-hd{display:flex;align-items:center;gap:.5rem;margin-bottom:.8rem}.access-card-icon{font-size:1.5rem}.access-card-title{font-size:1rem;font-weight:800;color:var(--dark)}.access-card ul{margin:0;padding-left:1.1rem}.access-card li{font-size:.875rem;line-height:1.65;color:#444;margin-bottom:.3rem}.access-card li strong{color:var(--dark)}.access-tip{margin-top:1.2rem;background:#fff8e6;border:1px solid #ffe0a0;border-radius:10px;padding:.9rem 1.1rem;font-size:.85rem;line-height:1.6;color:#5a3e00}.access-tip strong{display:block;margin-bottom:.2rem;font-size:.88rem}.guide-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem}.guide-card{background:#fff;border-radius:14px;overflow:hidden;border:1px solid var(--border);box-shadow:0 2px 8px rgba(0,0,0,5%);transition:transform .15s,box-shadow .15s;position:relative;display:flex;flex-direction:column}.guide-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.guide-card-img{width:100%;height:150px;object-fit:cover;background:#e8eef4;display:block}.guide-card-img-ph{width:100%;height:150px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:2.5rem}.guide-card-body{padding:.9rem 1rem 1rem;flex:1}.guide-cat-badge{display:inline-block;font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;padding:.15rem .55rem;border-radius:8px;background:var(--red);color:#fff;margin-bottom:.4rem}.guide-card-title{font-size:.92rem;font-weight:800;color:var(--dark);line-height:1.4}.guide-coming-soon{position:absolute;top:.6rem;right:.6rem;background:rgba(0,0,0,.55);color:#fff;font-size:.65rem;font-weight:700;padding:.2rem .5rem;border-radius:6px;text-transform:uppercase;letter-spacing:.05em}.guide-card-link{text-decoration:none;color:inherit;display:flex;flex-direction:column;height:100%}.pref-toc{background:#fff;border-bottom:2px solid var(--border);position:sticky;top:0;z-index:100;overflow-x:auto}.pref-toc-inner{display:flex;gap:0;max-width:var(--max-w);margin:0 auto}.pref-toc-btn{flex:none;display:flex;align-items:center;gap:.4rem;padding:.8rem 1.2rem;border:none;background:0 0;cursor:pointer;font-family:inherit;font-size:.88rem;font-weight:600;color:var(--gray);border-bottom:3px solid transparent;transition:all .18s;white-space:nowrap}.pref-toc-btn .toc-icon{font-size:1.1rem}.pref-toc-btn:hover{color:var(--dark);background:#f8f8f8}.pref-toc-btn.active{color:var(--toc-color,var(--red));border-bottom-color:var(--toc-color,var(--red))}.spot-section{padding:2rem 1.5rem 2.5rem}.spot-section.hidden{display:none}.spot-section-inner{max-width:var(--max-w);margin:0 auto}.section-hd{display:flex;align-items:center;gap:.6rem;margin-bottom:1.4rem;padding-bottom:.7rem;border-bottom:2px solid var(--border)}.section-hd .s-icon{font-size:1.6rem}.section-hd h2{font-size:1.35rem;font-weight:800;margin:0}.section-hd .s-count{margin-left:auto;background:var(--sec-color,var(--red));color:#fff;border-radius:20px;padding:.15rem .65rem;font-size:.78rem;font-weight:700}.spot-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.25rem}.spot-card{border-radius:14px;overflow:hidden;border:1px solid var(--border);background:#fff;box-shadow:0 2px 8px rgba(0,0,0,6%);transition:transform .15s,box-shadow .15s;display:flex;flex-direction:column}.spot-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.spot-img{width:100%;height:200px;object-fit:cover;background:#e8eef4;display:block}.spot-img-ph{width:100%;height:200px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:3rem}.spot-body{padding:1rem 1.1rem 1.1rem;flex:1;display:flex;flex-direction:column}.spot-meta{display:flex;align-items:center;gap:.5rem;margin-bottom:.5rem}.spot-location{font-size:.78rem;color:var(--gray);font-weight:500}.spot-season-badge{margin-left:auto;font-size:.7rem;font-weight:700;padding:.1rem .5rem;border-radius:10px;background:#f0f4f8;color:#555;white-space:nowrap}.spot-name{font-size:1.08rem;font-weight:800;color:var(--dark);margin:0 0 .45rem;line-height:1.3}.spot-desc{font-size:.86rem;line-height:1.65;color:#555;flex:1;margin-bottom:.75rem}.spot-tags{display:flex;flex-wrap:wrap;gap:.3rem}.spot-tag{font-size:.7rem;font-weight:600;padding:.15rem .5rem;border-radius:6px;background:var(--tag-bg,#f0f4f8);color:var(--tag-color,#445)}.tips-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem}.tip-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 6px rgba(0,0,0,4%)}.tip-card-icon{font-size:1.8rem;margin-bottom:.6rem}.tip-card-title{font-size:.95rem;font-weight:800;color:var(--dark);margin-bottom:.5rem}.tip-card-body{font-size:.85rem;line-height:1.65;color:#555}.tip-card-body ul{margin:.3rem 0 0;padding-left:1.1rem}.tip-card-body li{margin-bottom:.2rem}.pref-cta{background:var(--bg-soft);padding:2.5rem 1.5rem 3rem;border-top:1px solid var(--border)}.pref-cta .pref-container{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}@media(max-width:600px){.pref-hero{min-height:320px}.quick-facts{grid-template-columns:repeat(2,1fr)}.pref-toc-btn{padding:.7rem .9rem;font-size:.82rem}}.btn-add-plan{display:inline-flex;align-items:center;gap:.35rem;margin-top:.75rem;padding:.45rem .9rem;border:1.5px solid #2d5be3;border-radius:8px;background:#fff;color:#2d5be3;font-size:.78rem;font-weight:700;font-family:inherit;cursor:pointer;transition:background .15s,color .15s,transform .1s;width:100%;justify-content:center}.btn-add-plan:hover{background:#2d5be3;color:#fff;transform:translateY(-1px)}.btn-add-plan.in-plan{background:#e8f0ff;color:#1a45a8;border-color:#1a45a8}.btn-add-plan.in-plan:hover{background:#c0003a;color:#fff;border-color:#c0003a}.see-all-wrap{text-align:center;margin-top:1.5rem;padding-top:1rem;border-top:1px dashed var(--border)}.see-all-btn{display:inline-flex;align-items:center;gap:.4rem;padding:.55rem 1.5rem;border:2px solid;border-radius:10px;font-size:.88rem;font-weight:700;text-decoration:none;transition:all .15s}.see-all-btn:hover{opacity:.8;text-decoration:none}</style>
 <nav class=pref-breadcrumb aria-label=breadcrumb>
 <a href=/>홈</a><span>›</span>
 <a href=/explore/>일본 탐색</a><span>›</span>
@@ -398,8 +398,7 @@
 <span class=toc-icon>🎆</span> 이벤트
 </button>
 </div>
-</nav>
-<section class=spot-section id=section-sightseeing data-cat=sightseeing>
+</nav><section class=spot-section id=section-sightseeing data-cat=sightseeing>
 <div class=spot-section-inner>
 <div class=section-hd style=--sec-color:#1a45a8>
 <span class=s-icon>⛩️</span>
@@ -449,27 +448,6 @@
 </button>
 </div>
 </article>
-<article class=spot-card data-spot-id=udo-shrine data-spot-name="Udo Shrine" data-spot-pref=miyazaki data-spot-fee=0 data-spot-dur=60 data-spot-lat=31.8567 data-spot-lng=131.7889 data-spot-area=nichinan-coast data-spot-rating=4.5 data-spot-reviews=2400 data-spot-img="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" data-spot-cats=sightseeing,culture>
-<img class=spot-img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" alt="Udo Shrine" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>⛩️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Nichinan, Miyazaki</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Udo Shrine</h3>
-<p class=spot-desc>Nestled into a sea cave at the base of dramatic cliffs, Udo Shrine is one of Japan's most uniquely positioned shrines dedicated to safe childbirth and fertility. The natural cave setting combined with the roaring ocean creates an unforgettable atmosphere of spiritual and natural power.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Sea Cave</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Ancient Shrine</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Fertility Blessing</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Scenic Cliffs</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
 <article class=spot-card data-spot-id=nichinan-coast data-spot-name="Nichinan Coast" data-spot-pref=miyazaki data-spot-fee=0 data-spot-dur=180 data-spot-lat=31.8944 data-spot-lng=131.7333 data-spot-area=nichinan-coast data-spot-rating=4.6 data-spot-reviews=1900 data-spot-img="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" data-spot-cats=sightseeing,nature>
 <img class=spot-img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" alt="Nichinan Coast" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>⛩️</div>
@@ -485,6 +463,27 @@
 <span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Scenic Views</span>
 <span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Photography</span>
 <span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Hiking Trails</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class=spot-card data-spot-id=udo-shrine data-spot-name="Udo Shrine" data-spot-pref=miyazaki data-spot-fee=0 data-spot-dur=60 data-spot-lat=31.8567 data-spot-lng=131.7889 data-spot-area=nichinan-coast data-spot-rating=4.5 data-spot-reviews=2400 data-spot-img="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" data-spot-cats=sightseeing,culture>
+<img class=spot-img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" alt="Udo Shrine" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Nichinan, Miyazaki</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Udo Shrine</h3>
+<p class=spot-desc>Nestled into a sea cave at the base of dramatic cliffs, Udo Shrine is one of Japan's most uniquely positioned shrines dedicated to safe childbirth and fertility. The natural cave setting combined with the roaring ocean creates an unforgettable atmosphere of spiritual and natural power.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Sea Cave</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Ancient Shrine</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Fertility Blessing</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Scenic Cliffs</span>
 </div>
 <button class=btn-add-plan onclick=prefTogglePlan(this)>
 🗺️ Add to Plan
@@ -512,111 +511,6 @@
 </button>
 </div>
 </article>
-<article class=spot-card data-spot-id=miyazaki-prefectural-museum data-spot-name="Miyazaki Prefectural Museum" data-spot-pref=miyazaki data-spot-fee=700 data-spot-dur=90 data-spot-lat=31.9208 data-spot-lng=131.4361 data-spot-area=miyazaki-city data-spot-rating=4.1 data-spot-reviews=650 data-spot-img="https://images.unsplash.com/photo-1564399579883-451a5d44ec08?w=800&q=80" data-spot-cats=culture,sightseeing>
-<img class=spot-img src="https://images.unsplash.com/photo-1564399579883-451a5d44ec08?w=800&q=80" alt="Miyazaki Prefectural Museum" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>⛩️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Miyazaki City, Miyazaki</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Miyazaki Prefectural Museum</h3>
-<p class=spot-desc>This comprehensive museum showcases Miyazaki's natural history, cultural heritage, and local art through well-curated exhibits. It provides excellent context for understanding the region's mythology, geography, and unique cultural identity.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>History</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Art</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Local Culture</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Indoor Activity</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=tonokuchi-cave data-spot-name="Tonokuchi Cave" data-spot-pref=miyazaki data-spot-fee=500 data-spot-dur=75 data-spot-lat=32.5667 data-spot-lng=131.0833 data-spot-area=takachiho data-spot-rating=4.3 data-spot-reviews=720 data-spot-img="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" data-spot-cats=nature,sightseeing>
-<img class=spot-img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" alt="Tonokuchi Cave" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>⛩️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Takachiho, Miyazaki</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Tonokuchi Cave</h3>
-<p class=spot-desc>This impressive limestone cave features stunning stalactite and stalagmite formations illuminated by atmospheric lighting. The cave pathway winds through chambers of varying sizes, offering a cool and refreshing experience even on hot days.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Cave Exploration</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Stalactites</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Underground</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Hidden Gem</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=aburatsu-fishing-port data-spot-name="Aburatsu Fishing Port" data-spot-pref=miyazaki data-spot-fee=0 data-spot-dur=90 data-spot-lat=31.5667 data-spot-lng=131.5833 data-spot-area=aburatsu data-spot-rating=4.3 data-spot-reviews=850 data-spot-img="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80" data-spot-cats=food,sightseeing>
-<img class=spot-img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80" alt="Aburatsu Fishing Port" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>⛩️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Aburatsu, Miyazaki</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Aburatsu Fishing Port</h3>
-<p class=spot-desc>This working fishing port offers authentic glimpses of Japanese maritime life with daily fish auctions and fresh seafood restaurants. Visiting early morning captures the bustling activity and allows you to enjoy incredibly fresh sashimi and grilled fish.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Fresh Seafood</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Working Port</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Local Experience</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Photography</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=tsuwano-mountain-temple data-spot-name="Itsuki Shrine &amp;amp; Mountain Temple Complex" data-spot-pref=miyazaki data-spot-fee=300 data-spot-dur=75 data-spot-lat=32.3389 data-spot-lng=130.75 data-spot-area=inland-miyazaki data-spot-rating=4.2 data-spot-reviews=580 data-spot-img="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" data-spot-cats=culture,sightseeing>
-<img class=spot-img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" alt="Itsuki Shrine & Mountain Temple Complex" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>⛩️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Inland Miyazaki, Miyazaki</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Itsuki Shrine & Mountain Temple Complex</h3>
-<p class=spot-desc>Perched on a mountain in the inland region, this shrine complex combines Shinto and Buddhist elements in a serene forested setting. The mountain approach offers scenic vistas and the complex itself features centuries-old wooden structures and artifacts.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Mountain Shrine</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Historic Temple</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Hiking</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Spiritual Site</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=sadao-park data-spot-name="Sadao Park &amp;amp; Ancient Burial Mounds" data-spot-pref=miyazaki data-spot-fee=400 data-spot-dur=60 data-spot-lat=32.0583 data-spot-lng=131.125 data-spot-area=miyazaki-region data-spot-rating=3.9 data-spot-reviews=450 data-spot-img="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" data-spot-cats=sightseeing,culture>
-<img class=spot-img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" alt="Sadao Park & Ancient Burial Mounds" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>⛩️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Miyazaki Region, Miyazaki</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Sadao Park & Ancient Burial Mounds</h3>
-<p class=spot-desc>This historical park protects ancient Yayoi period burial mounds and reveals Miyazaki's deep archaeological heritage. Walking trails connect multiple mounds while an adjacent museum explains their historical significance.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Archaeological Site</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Ancient History</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Park</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Educational</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
 <article class=spot-card data-spot-id=himuka-coast-scenic-drive data-spot-name="Himuka Coast Scenic Drive" data-spot-pref=miyazaki data-spot-fee=0 data-spot-dur=120 data-spot-lat=31.6333 data-spot-lng=131.6167 data-spot-area=southern-coast data-spot-rating=4.4 data-spot-reviews=680 data-spot-img="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" data-spot-cats=sightseeing,nature>
 <img class=spot-img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" alt="Himuka Coast Scenic Drive" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>⛩️</div>
@@ -638,31 +532,14 @@
 </button>
 </div>
 </article>
-<article class=spot-card data-spot-id=tateba-shrine data-spot-name="Tateba Shrine - Mythological Landmark" data-spot-pref=miyazaki data-spot-fee=0 data-spot-dur=40 data-spot-lat=31.925 data-spot-lng=131.65 data-spot-area=nichinan-coast data-spot-rating=4.1 data-spot-reviews=420 data-spot-img="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" data-spot-cats=culture,sightseeing>
-<img class=spot-img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" alt="Tateba Shrine - Mythological Landmark" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>⛩️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Nichinan, Miyazaki</span>
-<span class=spot-season-badge></span>
 </div>
-<h3 class=spot-name>Tateba Shrine - Mythological Landmark</h3>
-<p class=spot-desc>This small but spiritually significant shrine is mentioned in ancient Japanese mythology texts and overlooks the coastal landscape. The peaceful setting and connection to Shinto mythology make it a meaningful pilgrimage site for culturally interested visitors.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Shinto Shrine</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Mythology</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Ancient Site</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Spiritual Experience</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
+<div class=see-all-wrap>
+<a class=see-all-btn style=color:#1a45a8 href=/prefectures/miyazaki/spots/#sightseeing>
+See all 12 관광명소 spots →
+</a>
 </div>
 </div>
-</section>
-<section class=spot-section id=section-gourmet data-cat=gourmet>
+</section><section class=spot-section id=section-gourmet data-cat=gourmet>
 <div class=spot-section-inner>
 <div class=section-hd style=--sec-color:#D64000>
 <span class=s-icon>🍜</span>
@@ -672,8 +549,7 @@
 <div class=spot-grid>
 </div>
 </div>
-</section>
-<section class=spot-section id=section-nature data-cat=nature>
+</section><section class=spot-section id=section-nature data-cat=nature>
 <div class=spot-section-inner>
 <div class=section-hd style=--sec-color:#1a7a34>
 <span class=s-icon>🏔️</span>
@@ -765,21 +641,21 @@
 </button>
 </div>
 </article>
-<article class=spot-card data-spot-id=tonokuchi-cave data-spot-name="Tonokuchi Cave" data-spot-pref=miyazaki data-spot-fee=500 data-spot-dur=75 data-spot-lat=32.5667 data-spot-lng=131.0833 data-spot-area=takachiho data-spot-rating=4.3 data-spot-reviews=720 data-spot-img="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" data-spot-cats=nature,sightseeing>
-<img class=spot-img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" alt="Tonokuchi Cave" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<article class=spot-card data-spot-id=yodo-river-kayaking data-spot-name="Yodo River Kayaking &amp;amp; Adventure" data-spot-pref=miyazaki data-spot-fee=6000 data-spot-dur=150 data-spot-lat=32.3667 data-spot-lng=131.15 data-spot-area=inland-waterways data-spot-rating=4.5 data-spot-reviews=520 data-spot-img="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" data-spot-cats=leisure,nature>
+<img class=spot-img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" alt="Yodo River Kayaking & Adventure" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>🏔️</div>
 <div class=spot-body>
 <div class=spot-meta>
-<span class=spot-location>📍 Takachiho, Miyazaki</span>
+<span class=spot-location>📍 Inland Miyazaki, Miyazaki</span>
 <span class=spot-season-badge></span>
 </div>
-<h3 class=spot-name>Tonokuchi Cave</h3>
-<p class=spot-desc>This impressive limestone cave features stunning stalactite and stalagmite formations illuminated by atmospheric lighting. The cave pathway winds through chambers of varying sizes, offering a cool and refreshing experience even on hot days.</p>
+<h3 class=spot-name>Yodo River Kayaking & Adventure</h3>
+<p class=spot-desc>Experience Miyazaki's interior waterways by kayaking through scenic river gorges surrounded by verdant mountains and forests. Professional guides ensure safety while providing opportunities to spot local wildlife and experience pristine nature.</p>
 <div class=spot-tags>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Cave Exploration</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Stalactites</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Underground</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Hidden Gem</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Water Sports</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Adventure</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Nature Activity</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Scenic River</span>
 </div>
 <button class=btn-add-plan onclick=prefTogglePlan(this)>
 🗺️ Add to Plan
@@ -807,31 +683,14 @@
 </button>
 </div>
 </article>
-<article class=spot-card data-spot-id=yodo-river-kayaking data-spot-name="Yodo River Kayaking &amp;amp; Adventure" data-spot-pref=miyazaki data-spot-fee=6000 data-spot-dur=150 data-spot-lat=32.3667 data-spot-lng=131.15 data-spot-area=inland-waterways data-spot-rating=4.5 data-spot-reviews=520 data-spot-img="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" data-spot-cats=leisure,nature>
-<img class=spot-img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" alt="Yodo River Kayaking & Adventure" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>🏔️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Inland Miyazaki, Miyazaki</span>
-<span class=spot-season-badge></span>
 </div>
-<h3 class=spot-name>Yodo River Kayaking & Adventure</h3>
-<p class=spot-desc>Experience Miyazaki's interior waterways by kayaking through scenic river gorges surrounded by verdant mountains and forests. Professional guides ensure safety while providing opportunities to spot local wildlife and experience pristine nature.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Water Sports</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Adventure</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Nature Activity</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Scenic River</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
+<div class=see-all-wrap>
+<a class=see-all-btn style=color:#1a7a34 href=/prefectures/miyazaki/spots/#nature>
+See all 7 자연 spots →
+</a>
 </div>
 </div>
-</section>
-<section class=spot-section id=section-leisure data-cat=leisure>
+</section><section class=spot-section id=section-leisure data-cat=leisure>
 <div class=spot-section-inner>
 <div class=section-hd style=--sec-color:#b35c00>
 <span class=s-icon>🎿</span>
@@ -839,6 +698,27 @@
 <span class=s-count>7 곳</span>
 </div>
 <div class=spot-grid>
+<article class=spot-card data-spot-id=beppu-hot-spring-day-trip data-spot-name="Beppu Hot Spring Day Trip" data-spot-pref=miyazaki data-spot-fee=1500 data-spot-dur=120 data-spot-lat=33.2848 data-spot-lng=131.4917 data-spot-area=beppu-area data-spot-rating=4.6 data-spot-reviews=2600 data-spot-img="https://images.unsplash.com/photo-1571863533956-7522c3c1d533?w=800&q=80" data-spot-cats=leisure>
+<img class=spot-img src="https://images.unsplash.com/photo-1571863533956-7522c3c1d533?w=800&q=80" alt="Beppu Hot Spring Day Trip" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎿</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Beppu, Oita (near Miyazaki)</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Beppu Hot Spring Day Trip</h3>
+<p class=spot-desc>Just outside Miyazaki, the famous Beppu hot spring region offers world-class thermal bath experiences with various water temperatures and mineral compositions. A day trip here provides authentic onsen culture with multiple facilities ranging from traditional public baths to luxury resorts.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Onsen</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Relaxation</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Nearby Destination</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Traditional Bathing</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 <article class=spot-card data-spot-id=kirishima-mountains data-spot-name="Kirishima Mountains" data-spot-pref=miyazaki data-spot-fee=0 data-spot-dur=150 data-spot-lat=31.9342 data-spot-lng=130.8167 data-spot-area=kirishima data-spot-rating=4.5 data-spot-reviews=2100 data-spot-img="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" data-spot-cats=nature,leisure>
 <img class=spot-img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" alt="Kirishima Mountains" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>🎿</div>
@@ -854,27 +734,6 @@
 <span class=spot-tag style=background:#fff3e0;color:#7a3f00>Hiking</span>
 <span class=spot-tag style=background:#fff3e0;color:#7a3f00>Hot Springs</span>
 <span class=spot-tag style=background:#fff3e0;color:#7a3f00>Alpine Views</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=hyuga-natsu-citrus data-spot-name="Hyuga Natsu Citrus Farm &amp;amp; Market" data-spot-pref=miyazaki data-spot-fee=0 data-spot-dur=60 data-spot-lat=32.2833 data-spot-lng=131.65 data-spot-area=hyuga-city data-spot-rating=4.3 data-spot-reviews=890 data-spot-img="https://images.unsplash.com/photo-1557804506-669714d2e9d8?w=800&q=80" data-spot-cats=food,leisure>
-<img class=spot-img src="https://images.unsplash.com/photo-1557804506-669714d2e9d8?w=800&q=80" alt="Hyuga Natsu Citrus Farm & Market" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>🎿</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Hyuga, Miyazaki</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Hyuga Natsu Citrus Farm & Market</h3>
-<p class=spot-desc>Hyuga natsu is a premium citrus fruit native to Miyazaki prefecture known for its sweet flavor and fragrant aroma. Visit local farms and markets to taste this seasonal delicacy fresh, or purchase premium fruits and juices to take home as souvenirs.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Citrus Fruit</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Farm Fresh</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Local Produce</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Seasonal Pick</span>
 </div>
 <button class=btn-add-plan onclick=prefTogglePlan(this)>
 🗺️ Add to Plan
@@ -902,21 +761,21 @@
 </button>
 </div>
 </article>
-<article class=spot-card data-spot-id=beppu-hot-spring-day-trip data-spot-name="Beppu Hot Spring Day Trip" data-spot-pref=miyazaki data-spot-fee=1500 data-spot-dur=120 data-spot-lat=33.2848 data-spot-lng=131.4917 data-spot-area=beppu-area data-spot-rating=4.6 data-spot-reviews=2600 data-spot-img="https://images.unsplash.com/photo-1571863533956-7522c3c1d533?w=800&q=80" data-spot-cats=leisure>
-<img class=spot-img src="https://images.unsplash.com/photo-1571863533956-7522c3c1d533?w=800&q=80" alt="Beppu Hot Spring Day Trip" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<article class=spot-card data-spot-id=yodo-river-kayaking data-spot-name="Yodo River Kayaking &amp;amp; Adventure" data-spot-pref=miyazaki data-spot-fee=6000 data-spot-dur=150 data-spot-lat=32.3667 data-spot-lng=131.15 data-spot-area=inland-waterways data-spot-rating=4.5 data-spot-reviews=520 data-spot-img="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" data-spot-cats=leisure,nature>
+<img class=spot-img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" alt="Yodo River Kayaking & Adventure" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>🎿</div>
 <div class=spot-body>
 <div class=spot-meta>
-<span class=spot-location>📍 Beppu, Oita (near Miyazaki)</span>
+<span class=spot-location>📍 Inland Miyazaki, Miyazaki</span>
 <span class=spot-season-badge></span>
 </div>
-<h3 class=spot-name>Beppu Hot Spring Day Trip</h3>
-<p class=spot-desc>Just outside Miyazaki, the famous Beppu hot spring region offers world-class thermal bath experiences with various water temperatures and mineral compositions. A day trip here provides authentic onsen culture with multiple facilities ranging from traditional public baths to luxury resorts.</p>
+<h3 class=spot-name>Yodo River Kayaking & Adventure</h3>
+<p class=spot-desc>Experience Miyazaki's interior waterways by kayaking through scenic river gorges surrounded by verdant mountains and forests. Professional guides ensure safety while providing opportunities to spot local wildlife and experience pristine nature.</p>
 <div class=spot-tags>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Onsen</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Relaxation</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Nearby Destination</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Traditional Bathing</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Water Sports</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Adventure</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Nature Activity</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Scenic River</span>
 </div>
 <button class=btn-add-plan onclick=prefTogglePlan(this)>
 🗺️ Add to Plan
@@ -944,42 +803,21 @@
 </button>
 </div>
 </article>
-<article class=spot-card data-spot-id=seagaia-resort data-spot-name="Seagaia Resort &amp;amp; Ocean Dome" data-spot-pref=miyazaki data-spot-fee=2500 data-spot-dur=180 data-spot-lat=31.9042 data-spot-lng=131.2814 data-spot-area=miyazaki-city data-spot-rating=4.2 data-spot-reviews=1450 data-spot-img="https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&q=80" data-spot-cats=leisure>
-<img class=spot-img src="https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&q=80" alt="Seagaia Resort & Ocean Dome" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<article class=spot-card data-spot-id=hyuga-natsu-citrus data-spot-name="Hyuga Natsu Citrus Farm &amp;amp; Market" data-spot-pref=miyazaki data-spot-fee=0 data-spot-dur=60 data-spot-lat=32.2833 data-spot-lng=131.65 data-spot-area=hyuga-city data-spot-rating=4.3 data-spot-reviews=890 data-spot-img="https://images.unsplash.com/photo-1557804506-669714d2e9d8?w=800&q=80" data-spot-cats=food,leisure>
+<img class=spot-img src="https://images.unsplash.com/photo-1557804506-669714d2e9d8?w=800&q=80" alt="Hyuga Natsu Citrus Farm & Market" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>🎿</div>
 <div class=spot-body>
 <div class=spot-meta>
-<span class=spot-location>📍 Miyazaki City, Miyazaki</span>
+<span class=spot-location>📍 Hyuga, Miyazaki</span>
 <span class=spot-season-badge></span>
 </div>
-<h3 class=spot-name>Seagaia Resort & Ocean Dome</h3>
-<p class=spot-desc>This sprawling beach resort complex features an indoor ocean dome with year-round swimming, water slides, and beach activities. It's an ideal destination for families seeking entertainment and relaxation combined with beautiful ocean views.</p>
+<h3 class=spot-name>Hyuga Natsu Citrus Farm & Market</h3>
+<p class=spot-desc>Hyuga natsu is a premium citrus fruit native to Miyazaki prefecture known for its sweet flavor and fragrant aroma. Visit local farms and markets to taste this seasonal delicacy fresh, or purchase premium fruits and juices to take home as souvenirs.</p>
 <div class=spot-tags>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Water Park</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Beach Resort</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Family Friendly</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Entertainment</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=yodo-river-kayaking data-spot-name="Yodo River Kayaking &amp;amp; Adventure" data-spot-pref=miyazaki data-spot-fee=6000 data-spot-dur=150 data-spot-lat=32.3667 data-spot-lng=131.15 data-spot-area=inland-waterways data-spot-rating=4.5 data-spot-reviews=520 data-spot-img="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" data-spot-cats=leisure,nature>
-<img class=spot-img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" alt="Yodo River Kayaking & Adventure" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>🎿</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Inland Miyazaki, Miyazaki</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Yodo River Kayaking & Adventure</h3>
-<p class=spot-desc>Experience Miyazaki's interior waterways by kayaking through scenic river gorges surrounded by verdant mountains and forests. Professional guides ensure safety while providing opportunities to spot local wildlife and experience pristine nature.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Water Sports</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Adventure</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Nature Activity</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Scenic River</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Citrus Fruit</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Farm Fresh</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Local Produce</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Seasonal Pick</span>
 </div>
 <button class=btn-add-plan onclick=prefTogglePlan(this)>
 🗺️ Add to Plan
@@ -987,9 +825,13 @@
 </div>
 </article>
 </div>
+<div class=see-all-wrap>
+<a class=see-all-btn style=color:#b35c00 href=/prefectures/miyazaki/spots/#leisure>
+See all 7 레저 spots →
+</a>
 </div>
-</section>
-<section class=spot-section id=section-events data-cat=events>
+</div>
+</section><section class=spot-section id=section-events data-cat=events>
 <div class=spot-section-inner>
 <div class=section-hd style=--sec-color:#b5006e>
 <span class=s-icon>🎆</span>

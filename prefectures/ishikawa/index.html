@@ -83,7 +83,7 @@
   document.addEventListener('keydown', function(e){ if(e.key==='Escape') close(); });
 })();
 </script>
-<style>.pref-breadcrumb{background:#f8f9fa;border-bottom:1px solid var(--border);padding:.6rem 1.5rem;font-size:.82rem;color:var(--gray)}.pref-breadcrumb a{color:var(--red);text-decoration:none}.pref-breadcrumb a:hover{text-decoration:underline}.pref-breadcrumb span{margin:0 .4rem}.pref-hero{position:relative;min-height:440px;display:flex;align-items:flex-end;background:#0a1a1a 50%/cover no-repeat;background-image:url(https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=1600&q=80)}.pref-hero::after{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,.15) 0%,rgba(0,0,0,.7) 100%)}.pref-hero-body{position:relative;z-index:1;padding:2.5rem 1.5rem 2rem;max-width:var(--max-w);margin:0 auto;width:100%}.pref-hero-eyebrow{color:rgba(255,255,255,.75);font-size:.82rem;font-weight:600;text-transform:uppercase;letter-spacing:.1em;margin-bottom:.5rem}.pref-hero h1{color:#fff;font-size:clamp(2.2rem,5.5vw,3.4rem);font-weight:900;margin:0 0 .5rem;line-height:1.1}.pref-hero .pref-sub{color:rgba(255,255,255,.88);font-size:1.05rem;max-width:560px;margin-bottom:1rem}.pref-stats{display:flex;flex-wrap:wrap;gap:.6rem}.pref-stat{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);border-radius:20px;padding:.3rem .85rem;color:#fff;font-size:.8rem;font-weight:600}.pref-section{padding:2.5rem 1.5rem}.pref-section+.pref-section{padding-top:0}.pref-container{max-width:var(--max-w);margin:0 auto}.pref-section-title{font-size:1.55rem;font-weight:900;margin:0 0 .4rem;display:flex;align-items:center;gap:.5rem}.pref-section-lead{font-size:1rem;color:#555;line-height:1.7;max-width:680px;margin-bottom:1.5rem}.ponko-guide{display:flex;align-items:flex-end;gap:0;margin-bottom:1.6rem}.ponko-bubble{flex:1;min-width:0;background:linear-gradient(135deg,#fff9f0,#fff3e0);border:2px solid #f5a623;border-radius:18px 18px 18px 4px;padding:1.2rem 1.5rem;position:relative;box-shadow:0 4px 14px rgba(245,166,35,.13)}.ponko-bubble::after{content:'';position:absolute;right:-18px;bottom:22px;border:9px solid transparent;border-left-color:#f5a623}.ponko-bubble::before{content:'';position:absolute;right:-13px;bottom:23px;z-index:1;border:8px solid transparent;border-left-color:#fff9f0}.ponko-bubble p{font-size:.97rem;line-height:1.8;color:#333;margin:0}.ponko-figure{flex-shrink:0;width:170px;margin-left:4px;animation:ponko-float 3s ease-in-out infinite}.ponko-figure img{width:100%;height:auto;display:block;filter:drop-shadow(0 6px 10px rgba(0,0,0,.18))}@keyframes ponko-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}@media(max-width:640px){.ponko-guide{flex-direction:column;align-items:center}.ponko-bubble{border-radius:18px;order:2;width:100%}.ponko-bubble::after,.ponko-bubble::before{display:none}.ponko-figure{order:1;width:130px;margin-left:0;margin-bottom:.5rem;animation:none}}.quick-facts{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.8rem;margin-top:1.4rem}.qf-card{background:#f8f9fb;border:1px solid var(--border);border-radius:12px;padding:1rem 1.1rem;display:flex;align-items:flex-start;gap:.7rem}.qf-icon{font-size:1.4rem;flex-shrink:0}.qf-label{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--gray);margin-bottom:.15rem}.qf-value{font-size:.9rem;font-weight:600;color:var(--dark)}.access-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}.access-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 8px rgba(0,0,0,5%)}.access-card-hd{display:flex;align-items:center;gap:.5rem;margin-bottom:.8rem}.access-card-icon{font-size:1.5rem}.access-card-title{font-size:1rem;font-weight:800;color:var(--dark)}.access-card ul{margin:0;padding-left:1.1rem}.access-card li{font-size:.875rem;line-height:1.65;color:#444;margin-bottom:.3rem}.access-card li strong{color:var(--dark)}.access-tip{margin-top:1.2rem;background:#fff8e6;border:1px solid #ffe0a0;border-radius:10px;padding:.9rem 1.1rem;font-size:.85rem;line-height:1.6;color:#5a3e00}.access-tip strong{display:block;margin-bottom:.2rem;font-size:.88rem}.guide-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem}.guide-card{background:#fff;border-radius:14px;overflow:hidden;border:1px solid var(--border);box-shadow:0 2px 8px rgba(0,0,0,5%);transition:transform .15s,box-shadow .15s;position:relative;display:flex;flex-direction:column}.guide-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.guide-card-img{width:100%;height:150px;object-fit:cover;background:#e8eef4;display:block}.guide-card-img-ph{width:100%;height:150px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:2.5rem}.guide-card-body{padding:.9rem 1rem 1rem;flex:1}.guide-cat-badge{display:inline-block;font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;padding:.15rem .55rem;border-radius:8px;background:var(--red);color:#fff;margin-bottom:.4rem}.guide-card-title{font-size:.92rem;font-weight:800;color:var(--dark);line-height:1.4}.guide-coming-soon{position:absolute;top:.6rem;right:.6rem;background:rgba(0,0,0,.55);color:#fff;font-size:.65rem;font-weight:700;padding:.2rem .5rem;border-radius:6px;text-transform:uppercase;letter-spacing:.05em}.guide-card-link{text-decoration:none;color:inherit;display:flex;flex-direction:column;height:100%}.pref-toc{background:#fff;border-bottom:2px solid var(--border);position:sticky;top:0;z-index:100;overflow-x:auto}.pref-toc-inner{display:flex;gap:0;max-width:var(--max-w);margin:0 auto}.pref-toc-btn{flex:none;display:flex;align-items:center;gap:.4rem;padding:.8rem 1.2rem;border:none;background:0 0;cursor:pointer;font-family:inherit;font-size:.88rem;font-weight:600;color:var(--gray);border-bottom:3px solid transparent;transition:all .18s;white-space:nowrap}.pref-toc-btn .toc-icon{font-size:1.1rem}.pref-toc-btn:hover{color:var(--dark);background:#f8f8f8}.pref-toc-btn.active{color:var(--toc-color,var(--red));border-bottom-color:var(--toc-color,var(--red))}.spot-section{padding:2rem 1.5rem 2.5rem}.spot-section.hidden{display:none}.spot-section-inner{max-width:var(--max-w);margin:0 auto}.section-hd{display:flex;align-items:center;gap:.6rem;margin-bottom:1.4rem;padding-bottom:.7rem;border-bottom:2px solid var(--border)}.section-hd .s-icon{font-size:1.6rem}.section-hd h2{font-size:1.35rem;font-weight:800;margin:0}.section-hd .s-count{margin-left:auto;background:var(--sec-color,var(--red));color:#fff;border-radius:20px;padding:.15rem .65rem;font-size:.78rem;font-weight:700}.spot-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.25rem}.spot-card{border-radius:14px;overflow:hidden;border:1px solid var(--border);background:#fff;box-shadow:0 2px 8px rgba(0,0,0,6%);transition:transform .15s,box-shadow .15s;display:flex;flex-direction:column}.spot-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.spot-img{width:100%;height:200px;object-fit:cover;background:#e8eef4;display:block}.spot-img-ph{width:100%;height:200px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:3rem}.spot-body{padding:1rem 1.1rem 1.1rem;flex:1;display:flex;flex-direction:column}.spot-meta{display:flex;align-items:center;gap:.5rem;margin-bottom:.5rem}.spot-location{font-size:.78rem;color:var(--gray);font-weight:500}.spot-season-badge{margin-left:auto;font-size:.7rem;font-weight:700;padding:.1rem .5rem;border-radius:10px;background:#f0f4f8;color:#555;white-space:nowrap}.spot-name{font-size:1.08rem;font-weight:800;color:var(--dark);margin:0 0 .45rem;line-height:1.3}.spot-desc{font-size:.86rem;line-height:1.65;color:#555;flex:1;margin-bottom:.75rem}.spot-tags{display:flex;flex-wrap:wrap;gap:.3rem}.spot-tag{font-size:.7rem;font-weight:600;padding:.15rem .5rem;border-radius:6px;background:var(--tag-bg,#f0f4f8);color:var(--tag-color,#445)}.tips-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem}.tip-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 6px rgba(0,0,0,4%)}.tip-card-icon{font-size:1.8rem;margin-bottom:.6rem}.tip-card-title{font-size:.95rem;font-weight:800;color:var(--dark);margin-bottom:.5rem}.tip-card-body{font-size:.85rem;line-height:1.65;color:#555}.tip-card-body ul{margin:.3rem 0 0;padding-left:1.1rem}.tip-card-body li{margin-bottom:.2rem}.pref-cta{background:var(--bg-soft);padding:2.5rem 1.5rem 3rem;border-top:1px solid var(--border)}.pref-cta .pref-container{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}@media(max-width:600px){.pref-hero{min-height:320px}.quick-facts{grid-template-columns:repeat(2,1fr)}.pref-toc-btn{padding:.7rem .9rem;font-size:.82rem}}.btn-add-plan{display:inline-flex;align-items:center;gap:.35rem;margin-top:.75rem;padding:.45rem .9rem;border:1.5px solid #2d5be3;border-radius:8px;background:#fff;color:#2d5be3;font-size:.78rem;font-weight:700;font-family:inherit;cursor:pointer;transition:background .15s,color .15s,transform .1s;width:100%;justify-content:center}.btn-add-plan:hover{background:#2d5be3;color:#fff;transform:translateY(-1px)}.btn-add-plan.in-plan{background:#e8f0ff;color:#1a45a8;border-color:#1a45a8}.btn-add-plan.in-plan:hover{background:#c0003a;color:#fff;border-color:#c0003a}</style>
+<style>.pref-breadcrumb{background:#f8f9fa;border-bottom:1px solid var(--border);padding:.6rem 1.5rem;font-size:.82rem;color:var(--gray)}.pref-breadcrumb a{color:var(--red);text-decoration:none}.pref-breadcrumb a:hover{text-decoration:underline}.pref-breadcrumb span{margin:0 .4rem}.pref-hero{position:relative;min-height:440px;display:flex;align-items:flex-end;background:#0a1a1a 50%/cover no-repeat;background-image:url(https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=1600&q=80)}.pref-hero::after{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,.15) 0%,rgba(0,0,0,.7) 100%)}.pref-hero-body{position:relative;z-index:1;padding:2.5rem 1.5rem 2rem;max-width:var(--max-w);margin:0 auto;width:100%}.pref-hero-eyebrow{color:rgba(255,255,255,.75);font-size:.82rem;font-weight:600;text-transform:uppercase;letter-spacing:.1em;margin-bottom:.5rem}.pref-hero h1{color:#fff;font-size:clamp(2.2rem,5.5vw,3.4rem);font-weight:900;margin:0 0 .5rem;line-height:1.1}.pref-hero .pref-sub{color:rgba(255,255,255,.88);font-size:1.05rem;max-width:560px;margin-bottom:1rem}.pref-stats{display:flex;flex-wrap:wrap;gap:.6rem}.pref-stat{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);border-radius:20px;padding:.3rem .85rem;color:#fff;font-size:.8rem;font-weight:600}.pref-section{padding:2.5rem 1.5rem}.pref-section+.pref-section{padding-top:0}.pref-container{max-width:var(--max-w);margin:0 auto}.pref-section-title{font-size:1.55rem;font-weight:900;margin:0 0 .4rem;display:flex;align-items:center;gap:.5rem}.pref-section-lead{font-size:1rem;color:#555;line-height:1.7;max-width:680px;margin-bottom:1.5rem}.ponko-guide{display:flex;align-items:flex-end;gap:0;margin-bottom:1.6rem}.ponko-bubble{flex:1;min-width:0;background:linear-gradient(135deg,#fff9f0,#fff3e0);border:2px solid #f5a623;border-radius:18px 18px 18px 4px;padding:1.2rem 1.5rem;position:relative;box-shadow:0 4px 14px rgba(245,166,35,.13)}.ponko-bubble::after{content:'';position:absolute;right:-18px;bottom:22px;border:9px solid transparent;border-left-color:#f5a623}.ponko-bubble::before{content:'';position:absolute;right:-13px;bottom:23px;z-index:1;border:8px solid transparent;border-left-color:#fff9f0}.ponko-bubble p{font-size:.97rem;line-height:1.8;color:#333;margin:0}.ponko-figure{flex-shrink:0;width:170px;margin-left:4px;animation:ponko-float 3s ease-in-out infinite}.ponko-figure img{width:100%;height:auto;display:block;filter:drop-shadow(0 6px 10px rgba(0,0,0,.18))}@keyframes ponko-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}@media(max-width:640px){.ponko-guide{flex-direction:column;align-items:center}.ponko-bubble{border-radius:18px;order:2;width:100%}.ponko-bubble::after,.ponko-bubble::before{display:none}.ponko-figure{order:1;width:130px;margin-left:0;margin-bottom:.5rem;animation:none}}.quick-facts{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.8rem;margin-top:1.4rem}.qf-card{background:#f8f9fb;border:1px solid var(--border);border-radius:12px;padding:1rem 1.1rem;display:flex;align-items:flex-start;gap:.7rem}.qf-icon{font-size:1.4rem;flex-shrink:0}.qf-label{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--gray);margin-bottom:.15rem}.qf-value{font-size:.9rem;font-weight:600;color:var(--dark)}.access-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}.access-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 8px rgba(0,0,0,5%)}.access-card-hd{display:flex;align-items:center;gap:.5rem;margin-bottom:.8rem}.access-card-icon{font-size:1.5rem}.access-card-title{font-size:1rem;font-weight:800;color:var(--dark)}.access-card ul{margin:0;padding-left:1.1rem}.access-card li{font-size:.875rem;line-height:1.65;color:#444;margin-bottom:.3rem}.access-card li strong{color:var(--dark)}.access-tip{margin-top:1.2rem;background:#fff8e6;border:1px solid #ffe0a0;border-radius:10px;padding:.9rem 1.1rem;font-size:.85rem;line-height:1.6;color:#5a3e00}.access-tip strong{display:block;margin-bottom:.2rem;font-size:.88rem}.guide-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem}.guide-card{background:#fff;border-radius:14px;overflow:hidden;border:1px solid var(--border);box-shadow:0 2px 8px rgba(0,0,0,5%);transition:transform .15s,box-shadow .15s;position:relative;display:flex;flex-direction:column}.guide-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.guide-card-img{width:100%;height:150px;object-fit:cover;background:#e8eef4;display:block}.guide-card-img-ph{width:100%;height:150px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:2.5rem}.guide-card-body{padding:.9rem 1rem 1rem;flex:1}.guide-cat-badge{display:inline-block;font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;padding:.15rem .55rem;border-radius:8px;background:var(--red);color:#fff;margin-bottom:.4rem}.guide-card-title{font-size:.92rem;font-weight:800;color:var(--dark);line-height:1.4}.guide-coming-soon{position:absolute;top:.6rem;right:.6rem;background:rgba(0,0,0,.55);color:#fff;font-size:.65rem;font-weight:700;padding:.2rem .5rem;border-radius:6px;text-transform:uppercase;letter-spacing:.05em}.guide-card-link{text-decoration:none;color:inherit;display:flex;flex-direction:column;height:100%}.pref-toc{background:#fff;border-bottom:2px solid var(--border);position:sticky;top:0;z-index:100;overflow-x:auto}.pref-toc-inner{display:flex;gap:0;max-width:var(--max-w);margin:0 auto}.pref-toc-btn{flex:none;display:flex;align-items:center;gap:.4rem;padding:.8rem 1.2rem;border:none;background:0 0;cursor:pointer;font-family:inherit;font-size:.88rem;font-weight:600;color:var(--gray);border-bottom:3px solid transparent;transition:all .18s;white-space:nowrap}.pref-toc-btn .toc-icon{font-size:1.1rem}.pref-toc-btn:hover{color:var(--dark);background:#f8f8f8}.pref-toc-btn.active{color:var(--toc-color,var(--red));border-bottom-color:var(--toc-color,var(--red))}.spot-section{padding:2rem 1.5rem 2.5rem}.spot-section.hidden{display:none}.spot-section-inner{max-width:var(--max-w);margin:0 auto}.section-hd{display:flex;align-items:center;gap:.6rem;margin-bottom:1.4rem;padding-bottom:.7rem;border-bottom:2px solid var(--border)}.section-hd .s-icon{font-size:1.6rem}.section-hd h2{font-size:1.35rem;font-weight:800;margin:0}.section-hd .s-count{margin-left:auto;background:var(--sec-color,var(--red));color:#fff;border-radius:20px;padding:.15rem .65rem;font-size:.78rem;font-weight:700}.spot-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.25rem}.spot-card{border-radius:14px;overflow:hidden;border:1px solid var(--border);background:#fff;box-shadow:0 2px 8px rgba(0,0,0,6%);transition:transform .15s,box-shadow .15s;display:flex;flex-direction:column}.spot-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.spot-img{width:100%;height:200px;object-fit:cover;background:#e8eef4;display:block}.spot-img-ph{width:100%;height:200px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:3rem}.spot-body{padding:1rem 1.1rem 1.1rem;flex:1;display:flex;flex-direction:column}.spot-meta{display:flex;align-items:center;gap:.5rem;margin-bottom:.5rem}.spot-location{font-size:.78rem;color:var(--gray);font-weight:500}.spot-season-badge{margin-left:auto;font-size:.7rem;font-weight:700;padding:.1rem .5rem;border-radius:10px;background:#f0f4f8;color:#555;white-space:nowrap}.spot-name{font-size:1.08rem;font-weight:800;color:var(--dark);margin:0 0 .45rem;line-height:1.3}.spot-desc{font-size:.86rem;line-height:1.65;color:#555;flex:1;margin-bottom:.75rem}.spot-tags{display:flex;flex-wrap:wrap;gap:.3rem}.spot-tag{font-size:.7rem;font-weight:600;padding:.15rem .5rem;border-radius:6px;background:var(--tag-bg,#f0f4f8);color:var(--tag-color,#445)}.tips-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem}.tip-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 6px rgba(0,0,0,4%)}.tip-card-icon{font-size:1.8rem;margin-bottom:.6rem}.tip-card-title{font-size:.95rem;font-weight:800;color:var(--dark);margin-bottom:.5rem}.tip-card-body{font-size:.85rem;line-height:1.65;color:#555}.tip-card-body ul{margin:.3rem 0 0;padding-left:1.1rem}.tip-card-body li{margin-bottom:.2rem}.pref-cta{background:var(--bg-soft);padding:2.5rem 1.5rem 3rem;border-top:1px solid var(--border)}.pref-cta .pref-container{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}@media(max-width:600px){.pref-hero{min-height:320px}.quick-facts{grid-template-columns:repeat(2,1fr)}.pref-toc-btn{padding:.7rem .9rem;font-size:.82rem}}.btn-add-plan{display:inline-flex;align-items:center;gap:.35rem;margin-top:.75rem;padding:.45rem .9rem;border:1.5px solid #2d5be3;border-radius:8px;background:#fff;color:#2d5be3;font-size:.78rem;font-weight:700;font-family:inherit;cursor:pointer;transition:background .15s,color .15s,transform .1s;width:100%;justify-content:center}.btn-add-plan:hover{background:#2d5be3;color:#fff;transform:translateY(-1px)}.btn-add-plan.in-plan{background:#e8f0ff;color:#1a45a8;border-color:#1a45a8}.btn-add-plan.in-plan:hover{background:#c0003a;color:#fff;border-color:#c0003a}.see-all-wrap{text-align:center;margin-top:1.5rem;padding-top:1rem;border-top:1px dashed var(--border)}.see-all-btn{display:inline-flex;align-items:center;gap:.4rem;padding:.55rem 1.5rem;border:2px solid;border-radius:10px;font-size:.88rem;font-weight:700;text-decoration:none;transition:all .15s}.see-all-btn:hover{opacity:.8;text-decoration:none}</style>
 <nav class=pref-breadcrumb aria-label=breadcrumb>
 <a href=/>Home</a><span>›</span>
 <a href=/explore/>Explore Japan</a><span>›</span>
@@ -299,8 +299,7 @@
 <span class=toc-icon>🎆</span> Events
 </button>
 </div>
-</nav>
-<section class=spot-section id=section-sightseeing data-cat=sightseeing>
+</nav><section class=spot-section id=section-sightseeing data-cat=sightseeing>
 <div class=spot-section-inner>
 <div class=section-hd style=--sec-color:#1a45a8>
 <span class=s-icon>⛩️</span>
@@ -352,44 +351,22 @@
 </button>
 </div>
 </article>
-<article class=spot-card data-spot-id=nishi-chaya-kazuemachi data-spot-name="Nishi Chaya &amp;amp; Kazuemachi Districts" data-spot-pref=ishikawa data-spot-fee=0 data-spot-dur=60 data-spot-lat=36.5582 data-spot-lng=136.6421 data-spot-area=kanazawa-central data-spot-rating=4.5 data-spot-reviews=1200 data-spot-img="https://images.unsplash.com/photo-1542051841857-5f90071e7989?w=800&q=80" data-spot-cats=sightseeing>
-<img class=spot-img src="https://images.unsplash.com/photo-1542051841857-5f90071e7989?w=800&q=80" alt="Nishi Chaya & Kazuemachi Districts" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<article class=spot-card data-spot-id=noto-peninsula data-spot-name="Noto Peninsula" data-spot-pref=ishikawa data-spot-fee=0 data-spot-dur=240 data-spot-lat=37.32 data-spot-lng=136.85 data-spot-area=noto data-spot-rating=4.6 data-spot-reviews=2200 data-spot-img="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80" data-spot-cats=nature,sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80" alt="Noto Peninsula" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>⛩️</div>
 <div class=spot-body>
 <div class=spot-meta>
-<span class=spot-location>📍 Kanazawa, Ishikawa</span>
+<span class=spot-location>📍 Noto Peninsula, Ishikawa</span>
 <span class=spot-season-badge></span>
 </div>
-<h3 class=spot-name>Nishi Chaya & Kazuemachi Districts</h3>
-<p class=spot-desc>Kanazawa's two smaller geisha districts offer a quieter, less-touristed alternative to Higashi Chaya — Nishi Chaya sits near a wooded hillside while Kazuemachi lines a narrow canal hemmed by willows. Both retain original teahouse architecture and the calm, unhurried atmosphere of old castle-town Japan.</p>
+<h3 class=spot-name>Noto Peninsula</h3>
+<p class=spot-desc>Noto Peninsula juts into the Sea of Japan like a crooked finger, offering some of Japan's most dramatic and least-visited coastal scenery — pounded cliffs, quiet fishing villages, and the Senmaida terraced rice paddies that cascade down hillsides directly into the ocean. The Noto satoyama and satoumi landscape was designated a UNESCO Globally Important Agricultural Heritage System, recognising centuries of sustainable farming and fishing culture still practiced today.</p>
 <div class=spot-tags>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>geisha</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>chaya</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>kanazawa</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>edo-period</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>quiet</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=21st-century-museum data-spot-name="21st Century Museum of Contemporary Art" data-spot-pref=ishikawa data-spot-fee=1200 data-spot-dur=120 data-spot-lat=36.5605 data-spot-lng=136.6488 data-spot-area=kanazawa-central data-spot-rating=4.5 data-spot-reviews=2100 data-spot-img="https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=800&q=80" data-spot-cats=sightseeing,leisure>
-<img class=spot-img src="https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=800&q=80" alt="21st Century Museum of Contemporary Art" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>⛩️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Kanazawa, Ishikawa</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>21st Century Museum of Contemporary Art</h3>
-<p class=spot-desc>Designed by the Pritzker Prize-winning firm SANAA, this striking circular glass building has a freely accessible outer ring that draws locals and tourists alike even without a ticket. The museum's most iconic installation is Leandro Erlich's swimming pool illusion — viewed from above you see people standing beneath rippling water, and from below you look up through the surface.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>modern-art</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>kanazawa</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>SANAA</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>architecture</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>swimming-pool</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>noto</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>coastline</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>senmaida</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>UNESCO</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>sea-of-japan</span>
 </div>
 <button class=btn-add-plan onclick=prefTogglePlan(this)>
 🗺️ Add to Plan
@@ -418,44 +395,22 @@
 </button>
 </div>
 </article>
-<article class=spot-card data-spot-id=wajima-morning-market data-spot-name="Wajima Morning Market" data-spot-pref=ishikawa data-spot-fee=0 data-spot-dur=45 data-spot-lat=37.3895 data-spot-lng=136.8975 data-spot-area=wajima data-spot-rating=4.4 data-spot-reviews=980 data-spot-img="https://images.unsplash.com/photo-1519984388953-d2406bc725e1?w=800&q=80" data-spot-cats=sightseeing,gourmet>
-<img class=spot-img src="https://images.unsplash.com/photo-1519984388953-d2406bc725e1?w=800&q=80" alt="Wajima Morning Market" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>⛩️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Wajima, Noto Peninsula, Ishikawa</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Wajima Morning Market</h3>
-<p class=spot-desc>Stretching for 360 metres along Asaichi-dori, Wajima's morning market has operated for over 1,000 years and remains one of the most authentic in Japan — local women sell fresh seafood, pickled vegetables, and handmade lacquerware directly from their own stalls. Arrive before 9am for the fullest market and the most vivid atmosphere before tour groups arrive.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>market</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>noto</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>fish</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>craft</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>thousand-years</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=kanazawa-castle data-spot-name="Kanazawa Castle &amp;amp; Gyokusen-inmaru Garden" data-spot-pref=ishikawa data-spot-fee=300 data-spot-dur=75 data-spot-lat=36.5634 data-spot-lng=136.652 data-spot-area=kanazawa-central data-spot-rating=4.4 data-spot-reviews=1650 data-spot-img="https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=800&q=80" data-spot-cats=sightseeing>
-<img class=spot-img src="https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=800&q=80" alt="Kanazawa Castle & Gyokusen-inmaru Garden" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<article class=spot-card data-spot-id=21st-century-museum data-spot-name="21st Century Museum of Contemporary Art" data-spot-pref=ishikawa data-spot-fee=1200 data-spot-dur=120 data-spot-lat=36.5605 data-spot-lng=136.6488 data-spot-area=kanazawa-central data-spot-rating=4.5 data-spot-reviews=2100 data-spot-img="https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=800&q=80" data-spot-cats=sightseeing,leisure>
+<img class=spot-img src="https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=800&q=80" alt="21st Century Museum of Contemporary Art" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>⛩️</div>
 <div class=spot-body>
 <div class=spot-meta>
 <span class=spot-location>📍 Kanazawa, Ishikawa</span>
 <span class=spot-season-badge></span>
 </div>
-<h3 class=spot-name>Kanazawa Castle & Gyokusen-inmaru Garden</h3>
-<p class=spot-desc>The reconstructed Kahoku Gate and stone-walled turrets of Kanazawa Castle dominate the centre of the city, reflecting the wealth of the Maeda clan who made Kanazawa the richest domain outside Edo. Adjacent Gyokusen-inmaru garden — recently restored after 400 years of neglect — is a gem of pond-garden design with a brilliant view of the castle walls reflected in still water.</p>
+<h3 class=spot-name>21st Century Museum of Contemporary Art</h3>
+<p class=spot-desc>Designed by the Pritzker Prize-winning firm SANAA, this striking circular glass building has a freely accessible outer ring that draws locals and tourists alike even without a ticket. The museum's most iconic installation is Leandro Erlich's swimming pool illusion — viewed from above you see people standing beneath rippling water, and from below you look up through the surface.</p>
 <div class=spot-tags>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>castle</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>modern-art</span>
 <span class=spot-tag style=background:#e8eeff;color:#1a3a9a>kanazawa</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>maeda</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>garden</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>history</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>SANAA</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>architecture</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>swimming-pool</span>
 </div>
 <button class=btn-add-plan onclick=prefTogglePlan(this)>
 🗺️ Add to Plan
@@ -484,54 +439,14 @@
 </button>
 </div>
 </article>
-<article class=spot-card data-spot-id=noto-peninsula data-spot-name="Noto Peninsula" data-spot-pref=ishikawa data-spot-fee=0 data-spot-dur=240 data-spot-lat=37.32 data-spot-lng=136.85 data-spot-area=noto data-spot-rating=4.6 data-spot-reviews=2200 data-spot-img="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80" data-spot-cats=nature,sightseeing>
-<img class=spot-img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80" alt="Noto Peninsula" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>⛩️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Noto Peninsula, Ishikawa</span>
-<span class=spot-season-badge></span>
 </div>
-<h3 class=spot-name>Noto Peninsula</h3>
-<p class=spot-desc>Noto Peninsula juts into the Sea of Japan like a crooked finger, offering some of Japan's most dramatic and least-visited coastal scenery — pounded cliffs, quiet fishing villages, and the Senmaida terraced rice paddies that cascade down hillsides directly into the ocean. The Noto satoyama and satoumi landscape was designated a UNESCO Globally Important Agricultural Heritage System, recognising centuries of sustainable farming and fishing culture still practiced today.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>noto</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>coastline</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>senmaida</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>UNESCO</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>sea-of-japan</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=wajima-lacquerware-workshop data-spot-name="Wajima Lacquerware Workshop" data-spot-pref=ishikawa data-spot-fee=800 data-spot-dur=90 data-spot-lat=37.388 data-spot-lng=136.901 data-spot-area=wajima data-spot-rating=4.5 data-spot-reviews=720 data-spot-img="https://images.unsplash.com/photo-1536164261979-8a28e23c61c8?w=800&q=80" data-spot-cats=leisure,sightseeing>
-<img class=spot-img src="https://images.unsplash.com/photo-1536164261979-8a28e23c61c8?w=800&q=80" alt="Wajima Lacquerware Workshop" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>⛩️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Wajima, Noto Peninsula, Ishikawa</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Wajima Lacquerware Workshop</h3>
-<p class=spot-desc>Wajima-nuri is widely regarded as the finest urushi lacquerware in Japan, produced through a painstaking 124-step process that creates pieces of extraordinary depth, lustre, and durability. Visitors can tour the Wajima Lacquerware Museum or join hands-on workshops where artisans guide you through applying layers of lacquer, practicing the techniques that have been refined on the Noto Peninsula for over 600 years.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>lacquerware</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>urushi</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>craft</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>wajima</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>hands-on</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
+<div class=see-all-wrap>
+<a class=see-all-btn style=color:#1a45a8 href=/prefectures/ishikawa/spots/#sightseeing>
+See all 10 Sightseeing spots →
+</a>
 </div>
 </div>
-</section>
-<section class=spot-section id=section-gourmet data-cat=gourmet>
+</section><section class=spot-section id=section-gourmet data-cat=gourmet>
 <div class=spot-section-inner>
 <div class=section-hd style=--sec-color:#D64000>
 <span class=s-icon>🍜</span>
@@ -539,50 +454,6 @@
 <span class=s-count>6 spots</span>
 </div>
 <div class=spot-grid>
-<article class=spot-card data-spot-id=wajima-morning-market data-spot-name="Wajima Morning Market" data-spot-pref=ishikawa data-spot-fee=0 data-spot-dur=45 data-spot-lat=37.3895 data-spot-lng=136.8975 data-spot-area=wajima data-spot-rating=4.4 data-spot-reviews=980 data-spot-img="https://images.unsplash.com/photo-1519984388953-d2406bc725e1?w=800&q=80" data-spot-cats=sightseeing,gourmet>
-<img class=spot-img src="https://images.unsplash.com/photo-1519984388953-d2406bc725e1?w=800&q=80" alt="Wajima Morning Market" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>🍜</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Wajima, Noto Peninsula, Ishikawa</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Wajima Morning Market</h3>
-<p class=spot-desc>Stretching for 360 metres along Asaichi-dori, Wajima's morning market has operated for over 1,000 years and remains one of the most authentic in Japan — local women sell fresh seafood, pickled vegetables, and handmade lacquerware directly from their own stalls. Arrive before 9am for the fullest market and the most vivid atmosphere before tour groups arrive.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#fff0ea;color:#9a3000>market</span>
-<span class=spot-tag style=background:#fff0ea;color:#9a3000>noto</span>
-<span class=spot-tag style=background:#fff0ea;color:#9a3000>fish</span>
-<span class=spot-tag style=background:#fff0ea;color:#9a3000>craft</span>
-<span class=spot-tag style=background:#fff0ea;color:#9a3000>thousand-years</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=omicho-market data-spot-name="Kanazawa Omicho Market" data-spot-pref=ishikawa data-spot-fee=0 data-spot-dur=60 data-spot-lat=36.5613 data-spot-lng=136.66 data-spot-area=kanazawa-central data-spot-rating=4.5 data-spot-reviews=1400 data-spot-img="https://images.unsplash.com/photo-1519984388953-d2406bc725e1?w=800&q=80" data-spot-cats=gourmet,sightseeing>
-<img class=spot-img src="https://images.unsplash.com/photo-1519984388953-d2406bc725e1?w=800&q=80" alt="Kanazawa Omicho Market" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>🍜</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Kanazawa, Ishikawa</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Kanazawa Omicho Market</h3>
-<p class=spot-desc>Kanazawa's covered Omicho market has been feeding the city for nearly 300 years and today houses around 170 stalls heaped with snow crab, fat yellowtail buri, and the prized nodoguro blackthroat seaperch unique to this coast. It is Japan's most underrated fish market — a fraction of the crowds of Tsukiji yet with produce that arguably rivals it.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#fff0ea;color:#9a3000>seafood</span>
-<span class=spot-tag style=background:#fff0ea;color:#9a3000>market</span>
-<span class=spot-tag style=background:#fff0ea;color:#9a3000>snow-crab</span>
-<span class=spot-tag style=background:#fff0ea;color:#9a3000>kanazawa</span>
-<span class=spot-tag style=background:#fff0ea;color:#9a3000>buri</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
 <article class=spot-card data-spot-id=kaga-cuisine-kaiseki data-spot-name="Kaga Cuisine &amp;amp; Kaiseki Ryori" data-spot-pref=ishikawa data-spot-fee=0 data-spot-dur=120 data-spot-lat=36.56 data-spot-lng=136.655 data-spot-area=kanazawa-central data-spot-rating=4.7 data-spot-reviews=850 data-spot-img="https://images.unsplash.com/photo-1547592180-85f173990554?w=800&q=80" data-spot-cats=gourmet>
 <img class=spot-img src="https://images.unsplash.com/photo-1547592180-85f173990554?w=800&q=80" alt="Kaga Cuisine & Kaiseki Ryori" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>🍜</div>
@@ -627,28 +498,6 @@
 </button>
 </div>
 </article>
-<article class=spot-card data-spot-id=gold-leaf-food-culture data-spot-name="Gold Leaf Food &amp;amp; Culture" data-spot-pref=ishikawa data-spot-fee=0 data-spot-dur=75 data-spot-lat=36.5608 data-spot-lng=136.6768 data-spot-area=kanazawa-central data-spot-rating=4.5 data-spot-reviews=1100 data-spot-img="https://images.unsplash.com/photo-1536164261979-8a28e23c61c8?w=800&q=80" data-spot-cats=gourmet,leisure>
-<img class=spot-img src="https://images.unsplash.com/photo-1536164261979-8a28e23c61c8?w=800&q=80" alt="Gold Leaf Food & Culture" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>🍜</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Kanazawa, Ishikawa</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Gold Leaf Food & Culture</h3>
-<p class=spot-desc>Kanazawa produces an astonishing 99 percent of all gold leaf made in Japan, and the city celebrates this heritage by applying it to almost everything edible — soft-serve ice cream cloaked in shimmering sheets, matcha lattes with floating gold, sake bottles glazed in gold, and kaiseki dishes garnished with edible leaf. The Higashi Chaya district is the best place to taste your way through the gold leaf tradition.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#fff0ea;color:#9a3000>gold-leaf</span>
-<span class=spot-tag style=background:#fff0ea;color:#9a3000>kanazawa</span>
-<span class=spot-tag style=background:#fff0ea;color:#9a3000>ice-cream</span>
-<span class=spot-tag style=background:#fff0ea;color:#9a3000>matcha</span>
-<span class=spot-tag style=background:#fff0ea;color:#9a3000>craft</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
 <article class=spot-card data-spot-id=jibu-ni-duck-stew data-spot-name="Jibu-ni — Kanazawa&amp;#39;s Signature Stew" data-spot-pref=ishikawa data-spot-fee=0 data-spot-dur=60 data-spot-lat=36.56 data-spot-lng=136.655 data-spot-area=kanazawa-central data-spot-rating=4.6 data-spot-reviews=650 data-spot-img="https://images.unsplash.com/photo-1547592180-85f173990554?w=800&q=80" data-spot-cats=gourmet>
 <img class=spot-img src="https://images.unsplash.com/photo-1547592180-85f173990554?w=800&q=80" alt="Jibu-ni — Kanazawa's Signature Stew" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>🍜</div>
@@ -671,10 +520,75 @@
 </button>
 </div>
 </article>
+<article class=spot-card data-spot-id=omicho-market data-spot-name="Kanazawa Omicho Market" data-spot-pref=ishikawa data-spot-fee=0 data-spot-dur=60 data-spot-lat=36.5613 data-spot-lng=136.66 data-spot-area=kanazawa-central data-spot-rating=4.5 data-spot-reviews=1400 data-spot-img="https://images.unsplash.com/photo-1519984388953-d2406bc725e1?w=800&q=80" data-spot-cats=gourmet,sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1519984388953-d2406bc725e1?w=800&q=80" alt="Kanazawa Omicho Market" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🍜</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Kanazawa, Ishikawa</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Kanazawa Omicho Market</h3>
+<p class=spot-desc>Kanazawa's covered Omicho market has been feeding the city for nearly 300 years and today houses around 170 stalls heaped with snow crab, fat yellowtail buri, and the prized nodoguro blackthroat seaperch unique to this coast. It is Japan's most underrated fish market — a fraction of the crowds of Tsukiji yet with produce that arguably rivals it.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>seafood</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>market</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>snow-crab</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>kanazawa</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>buri</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class=spot-card data-spot-id=gold-leaf-food-culture data-spot-name="Gold Leaf Food &amp;amp; Culture" data-spot-pref=ishikawa data-spot-fee=0 data-spot-dur=75 data-spot-lat=36.5608 data-spot-lng=136.6768 data-spot-area=kanazawa-central data-spot-rating=4.5 data-spot-reviews=1100 data-spot-img="https://images.unsplash.com/photo-1536164261979-8a28e23c61c8?w=800&q=80" data-spot-cats=gourmet,leisure>
+<img class=spot-img src="https://images.unsplash.com/photo-1536164261979-8a28e23c61c8?w=800&q=80" alt="Gold Leaf Food & Culture" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🍜</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Kanazawa, Ishikawa</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Gold Leaf Food & Culture</h3>
+<p class=spot-desc>Kanazawa produces an astonishing 99 percent of all gold leaf made in Japan, and the city celebrates this heritage by applying it to almost everything edible — soft-serve ice cream cloaked in shimmering sheets, matcha lattes with floating gold, sake bottles glazed in gold, and kaiseki dishes garnished with edible leaf. The Higashi Chaya district is the best place to taste your way through the gold leaf tradition.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>gold-leaf</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>kanazawa</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>ice-cream</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>matcha</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>craft</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class=spot-card data-spot-id=wajima-morning-market data-spot-name="Wajima Morning Market" data-spot-pref=ishikawa data-spot-fee=0 data-spot-dur=45 data-spot-lat=37.3895 data-spot-lng=136.8975 data-spot-area=wajima data-spot-rating=4.4 data-spot-reviews=980 data-spot-img="https://images.unsplash.com/photo-1519984388953-d2406bc725e1?w=800&q=80" data-spot-cats=sightseeing,gourmet>
+<img class=spot-img src="https://images.unsplash.com/photo-1519984388953-d2406bc725e1?w=800&q=80" alt="Wajima Morning Market" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🍜</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Wajima, Noto Peninsula, Ishikawa</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Wajima Morning Market</h3>
+<p class=spot-desc>Stretching for 360 metres along Asaichi-dori, Wajima's morning market has operated for over 1,000 years and remains one of the most authentic in Japan — local women sell fresh seafood, pickled vegetables, and handmade lacquerware directly from their own stalls. Arrive before 9am for the fullest market and the most vivid atmosphere before tour groups arrive.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>market</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>noto</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>fish</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>craft</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>thousand-years</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 </div>
 </div>
-</section>
-<section class=spot-section id=section-nature data-cat=nature>
+</section><section class=spot-section id=section-nature data-cat=nature>
 <div class=spot-section-inner>
 <div class=section-hd style=--sec-color:#1a7a34>
 <span class=s-icon>🏔️</span>
@@ -682,6 +596,50 @@
 <span class=s-count>7 spots</span>
 </div>
 <div class=spot-grid>
+<article class=spot-card data-spot-id=kenrokuen-snow-viewing data-spot-name="Kenrokuen Snow Viewing Season" data-spot-pref=ishikawa data-spot-fee=320 data-spot-dur=90 data-spot-lat=36.564 data-spot-lng=136.6613 data-spot-area=kanazawa-central data-spot-rating=4.8 data-spot-reviews=2100 data-spot-img="https://images.unsplash.com/photo-1548013146-72479768bada?w=800&q=80" data-spot-cats=events,nature>
+<img class=spot-img src="https://images.unsplash.com/photo-1548013146-72479768bada?w=800&q=80" alt="Kenrokuen Snow Viewing Season" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🏔️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Kanazawa, Ishikawa</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Kenrokuen Snow Viewing Season</h3>
+<p class=spot-desc>Each November Kenrokuen's gardeners begin erecting the yukitsuri snow-protection ropes — hundreds of elegant hemp cords fanned from tall poles to cradle pine and cherry branches against the weight of Hokuriku snow — transforming the garden into one of Japan's most iconic winter scenes. The combination of fresh snowfall on rope-protected trees and the frozen kotoji lantern reflected in the iced pond is a vision that appears on a thousand Japanese calendars.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>yukitsuri</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>snow-ropes</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>winter</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>kenrokuen</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>seasonal</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class=spot-card data-spot-id=hakusan-national-park data-spot-name="Hakusan National Park" data-spot-pref=ishikawa data-spot-fee=0 data-spot-dur=180 data-spot-lat=36.23 data-spot-lng=137.62 data-spot-area=hakusan data-spot-rating=4.7 data-spot-reviews=1500 data-spot-img="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80" data-spot-cats=nature>
+<img class=spot-img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80" alt="Hakusan National Park" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🏔️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Hakusan, Ishikawa-Gifu Border</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Hakusan National Park</h3>
+<p class=spot-desc>Mount Hakusan rises to 2,702 metres on the border of Ishikawa and Gifu, one of Japan's three sacred mountains and the centrepiece of a national park renowned for alpine wildflower meadows, ancient beech forests, and secretive wildlife including Asian black bears and golden eagles. The summit crater lakes are among the most atmospheric in Japan, and the shrine at the top has been a pilgrimage destination for over 1,300 years.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>mountain</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>hakusan</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>alpine</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>sacred-peak</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>hiking</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 <article class=spot-card data-spot-id=kenrokuen-garden data-spot-name="Kenrokuen Garden" data-spot-pref=ishikawa data-spot-fee=320 data-spot-dur=90 data-spot-lat=36.564 data-spot-lng=136.6613 data-spot-area=kanazawa-central data-spot-rating=4.7 data-spot-reviews=3200 data-spot-img="https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=800&q=80" data-spot-cats=sightseeing,nature>
 <img class=spot-img src="https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=800&q=80" alt="Kenrokuen Garden" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>🏔️</div>
@@ -726,28 +684,6 @@
 </button>
 </div>
 </article>
-<article class=spot-card data-spot-id=hakusan-national-park data-spot-name="Hakusan National Park" data-spot-pref=ishikawa data-spot-fee=0 data-spot-dur=180 data-spot-lat=36.23 data-spot-lng=137.62 data-spot-area=hakusan data-spot-rating=4.7 data-spot-reviews=1500 data-spot-img="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80" data-spot-cats=nature>
-<img class=spot-img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80" alt="Hakusan National Park" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>🏔️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Hakusan, Ishikawa-Gifu Border</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Hakusan National Park</h3>
-<p class=spot-desc>Mount Hakusan rises to 2,702 metres on the border of Ishikawa and Gifu, one of Japan's three sacred mountains and the centrepiece of a national park renowned for alpine wildflower meadows, ancient beech forests, and secretive wildlife including Asian black bears and golden eagles. The summit crater lakes are among the most atmospheric in Japan, and the shrine at the top has been a pilgrimage destination for over 1,300 years.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>mountain</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>hakusan</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>alpine</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>sacred-peak</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>hiking</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
 <article class=spot-card data-spot-id=chirihama-nagisa-drive data-spot-name="Chirihama Nagisa Drive" data-spot-pref=ishikawa data-spot-fee=0 data-spot-dur=90 data-spot-lat=37.505 data-spot-lng=136.52 data-spot-area=noto-western data-spot-rating=4.5 data-spot-reviews=1800 data-spot-img="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80" data-spot-cats=nature,leisure>
 <img class=spot-img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80" alt="Chirihama Nagisa Drive" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>🏔️</div>
@@ -764,28 +700,6 @@
 <span class=spot-tag style=background:#e4f4e8;color:#155a28>noto</span>
 <span class=spot-tag style=background:#e4f4e8;color:#155a28>sea-of-japan</span>
 <span class=spot-tag style=background:#e4f4e8;color:#155a28>unique</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=yanagida-satoyama data-spot-name="Yanagida Village Satoyama" data-spot-pref=ishikawa data-spot-fee=0 data-spot-dur=120 data-spot-lat=37.265 data-spot-lng=136.945 data-spot-area=noto-inland data-spot-rating=4.4 data-spot-reviews=550 data-spot-img="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80" data-spot-cats=nature,leisure>
-<img class=spot-img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80" alt="Yanagida Village Satoyama" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>🏔️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Yanagida, Noto Peninsula, Ishikawa</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Yanagida Village Satoyama</h3>
-<p class=spot-desc>Yanagida in inland Noto is one of the finest surviving examples of satoyama — the traditional Japanese cultural landscape of village, farmland, secondary woodland, and stream managed in harmony for centuries. In early summer the valleys fill with fireflies, and the terraced fields and thatched barns create a vision of rural Japan that feels entirely removed from the modern world.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>satoyama</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>rural</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>fireflies</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>noto</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>traditional</span>
 </div>
 <button class=btn-add-plan onclick=prefTogglePlan(this)>
 🗺️ Add to Plan
@@ -814,32 +728,14 @@
 </button>
 </div>
 </article>
-<article class=spot-card data-spot-id=kenrokuen-snow-viewing data-spot-name="Kenrokuen Snow Viewing Season" data-spot-pref=ishikawa data-spot-fee=320 data-spot-dur=90 data-spot-lat=36.564 data-spot-lng=136.6613 data-spot-area=kanazawa-central data-spot-rating=4.8 data-spot-reviews=2100 data-spot-img="https://images.unsplash.com/photo-1548013146-72479768bada?w=800&q=80" data-spot-cats=events,nature>
-<img class=spot-img src="https://images.unsplash.com/photo-1548013146-72479768bada?w=800&q=80" alt="Kenrokuen Snow Viewing Season" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>🏔️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Kanazawa, Ishikawa</span>
-<span class=spot-season-badge></span>
 </div>
-<h3 class=spot-name>Kenrokuen Snow Viewing Season</h3>
-<p class=spot-desc>Each November Kenrokuen's gardeners begin erecting the yukitsuri snow-protection ropes — hundreds of elegant hemp cords fanned from tall poles to cradle pine and cherry branches against the weight of Hokuriku snow — transforming the garden into one of Japan's most iconic winter scenes. The combination of fresh snowfall on rope-protected trees and the frozen kotoji lantern reflected in the iced pond is a vision that appears on a thousand Japanese calendars.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>yukitsuri</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>snow-ropes</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>winter</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>kenrokuen</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>seasonal</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
+<div class=see-all-wrap>
+<a class=see-all-btn style=color:#1a7a34 href=/prefectures/ishikawa/spots/#nature>
+See all 7 Nature spots →
+</a>
 </div>
 </div>
-</section>
-<section class=spot-section id=section-leisure data-cat=leisure>
+</section><section class=spot-section id=section-leisure data-cat=leisure>
 <div class=spot-section-inner>
 <div class=section-hd style=--sec-color:#b35c00>
 <span class=s-icon>🎿</span>
@@ -847,6 +743,72 @@
 <span class=s-count>10 spots</span>
 </div>
 <div class=spot-grid>
+<article class=spot-card data-spot-id=yamanaka-onsen data-spot-name="Yamanaka Onsen" data-spot-pref=ishikawa data-spot-fee=0 data-spot-dur=150 data-spot-lat=36.143 data-spot-lng=136.53 data-spot-area=kaga-onsen data-spot-rating=4.7 data-spot-reviews=1400 data-spot-img="https://images.unsplash.com/photo-1576675784432-b668acc7cc1f?w=800&q=80" data-spot-cats=leisure>
+<img class=spot-img src="https://images.unsplash.com/photo-1576675784432-b668acc7cc1f?w=800&q=80" alt="Yamanaka Onsen" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎿</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Yamanaka, Kaga, Ishikawa</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Yamanaka Onsen</h3>
+<p class=spot-desc>Perched above a dramatic river gorge carved through volcanic rock, Yamanaka Onsen was famously praised by the haiku master Matsuo Basho on his journey through Japan and is still considered one of the three great Kaga Onsen. A suspension bridge offers vertiginous views of the Kakusenkei gorge below, while the town's streets offer lacquerware shops, sake breweries, and traditional ryokan with private open-air baths over the rushing water.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>onsen</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>gorge</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>basho</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>kaga</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>ryokan</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class=spot-card data-spot-id=kanazawa-gold-leaf-experience data-spot-name="Kanazawa Gold Leaf Experience" data-spot-pref=ishikawa data-spot-fee=1500 data-spot-dur=75 data-spot-lat=36.5608 data-spot-lng=136.6768 data-spot-area=kanazawa-central data-spot-rating=4.6 data-spot-reviews=950 data-spot-img="https://images.unsplash.com/photo-1536164261979-8a28e23c61c8?w=800&q=80" data-spot-cats=leisure>
+<img class=spot-img src="https://images.unsplash.com/photo-1536164261979-8a28e23c61c8?w=800&q=80" alt="Kanazawa Gold Leaf Experience" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎿</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Kanazawa, Ishikawa</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Kanazawa Gold Leaf Experience</h3>
+<p class=spot-desc>The workshops clustered around Kanazawa's Higashi Chaya district offer hands-on sessions where visitors learn to apply real gold leaf to ceramics, lacquerware, chopsticks, or frames — a surprisingly meditative craft that reveals why Kanazawa goldsmiths have dominated Japan's gold leaf industry for four centuries. A finished piece makes for one of the most distinctive and lightweight souvenirs you can carry home from Japan.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>gold-leaf</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>workshop</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>kanazawa</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>craft</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>higashi-chaya</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class=spot-card data-spot-id=yamashiro-onsen data-spot-name="Yamashiro Onsen" data-spot-pref=ishikawa data-spot-fee=0 data-spot-dur=180 data-spot-lat=36.155 data-spot-lng=136.585 data-spot-area=kaga-onsen data-spot-rating=4.6 data-spot-reviews=1200 data-spot-img="https://images.unsplash.com/photo-1576675784432-b668acc7cc1f?w=800&q=80" data-spot-cats=leisure>
+<img class=spot-img src="https://images.unsplash.com/photo-1576675784432-b668acc7cc1f?w=800&q=80" alt="Yamashiro Onsen" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎿</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Yamashiro, Kaga, Ishikawa</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Yamashiro Onsen</h3>
+<p class=spot-desc>Yamashiro Onsen is one of Japan's oldest hot spring resorts, with 1,300 years of history and a refined atmosphere built around grand ryokan, a beautiful public bathhouse, and the tradition of tea ceremony in tranquil garden settings. The milky-white sulfurous waters are renowned for skin-softening properties, and the elegant main street of preserved Meiji-era buildings creates one of the most atmospheric onsen towns in Japan.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>onsen</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>ryokan</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>tea-ceremony</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>kaga</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>historic</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 <article class=spot-card data-spot-id=higashi-chaya-district data-spot-name="Higashi Chaya Geisha District" data-spot-pref=ishikawa data-spot-fee=0 data-spot-dur=75 data-spot-lat=36.5608 data-spot-lng=136.6768 data-spot-area=kanazawa-central data-spot-rating=4.6 data-spot-reviews=2800 data-spot-img="https://images.unsplash.com/photo-1542051841857-5f90071e7989?w=800&q=80" data-spot-cats=sightseeing,leisure>
 <img class=spot-img src="https://images.unsplash.com/photo-1542051841857-5f90071e7989?w=800&q=80" alt="Higashi Chaya Geisha District" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>🎿</div>
@@ -891,28 +853,6 @@
 </button>
 </div>
 </article>
-<article class=spot-card data-spot-id=gold-leaf-food-culture data-spot-name="Gold Leaf Food &amp;amp; Culture" data-spot-pref=ishikawa data-spot-fee=0 data-spot-dur=75 data-spot-lat=36.5608 data-spot-lng=136.6768 data-spot-area=kanazawa-central data-spot-rating=4.5 data-spot-reviews=1100 data-spot-img="https://images.unsplash.com/photo-1536164261979-8a28e23c61c8?w=800&q=80" data-spot-cats=gourmet,leisure>
-<img class=spot-img src="https://images.unsplash.com/photo-1536164261979-8a28e23c61c8?w=800&q=80" alt="Gold Leaf Food & Culture" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>🎿</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Kanazawa, Ishikawa</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Gold Leaf Food & Culture</h3>
-<p class=spot-desc>Kanazawa produces an astonishing 99 percent of all gold leaf made in Japan, and the city celebrates this heritage by applying it to almost everything edible — soft-serve ice cream cloaked in shimmering sheets, matcha lattes with floating gold, sake bottles glazed in gold, and kaiseki dishes garnished with edible leaf. The Higashi Chaya district is the best place to taste your way through the gold leaf tradition.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>gold-leaf</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>kanazawa</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>ice-cream</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>matcha</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>craft</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
 <article class=spot-card data-spot-id=chirihama-nagisa-drive data-spot-name="Chirihama Nagisa Drive" data-spot-pref=ishikawa data-spot-fee=0 data-spot-dur=90 data-spot-lat=37.505 data-spot-lng=136.52 data-spot-area=noto-western data-spot-rating=4.5 data-spot-reviews=1800 data-spot-img="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80" data-spot-cats=nature,leisure>
 <img class=spot-img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80" alt="Chirihama Nagisa Drive" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>🎿</div>
@@ -935,142 +875,14 @@
 </button>
 </div>
 </article>
-<article class=spot-card data-spot-id=yanagida-satoyama data-spot-name="Yanagida Village Satoyama" data-spot-pref=ishikawa data-spot-fee=0 data-spot-dur=120 data-spot-lat=37.265 data-spot-lng=136.945 data-spot-area=noto-inland data-spot-rating=4.4 data-spot-reviews=550 data-spot-img="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80" data-spot-cats=nature,leisure>
-<img class=spot-img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80" alt="Yanagida Village Satoyama" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>🎿</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Yanagida, Noto Peninsula, Ishikawa</span>
-<span class=spot-season-badge></span>
 </div>
-<h3 class=spot-name>Yanagida Village Satoyama</h3>
-<p class=spot-desc>Yanagida in inland Noto is one of the finest surviving examples of satoyama — the traditional Japanese cultural landscape of village, farmland, secondary woodland, and stream managed in harmony for centuries. In early summer the valleys fill with fireflies, and the terraced fields and thatched barns create a vision of rural Japan that feels entirely removed from the modern world.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>satoyama</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>rural</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>fireflies</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>noto</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>traditional</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=yamashiro-onsen data-spot-name="Yamashiro Onsen" data-spot-pref=ishikawa data-spot-fee=0 data-spot-dur=180 data-spot-lat=36.155 data-spot-lng=136.585 data-spot-area=kaga-onsen data-spot-rating=4.6 data-spot-reviews=1200 data-spot-img="https://images.unsplash.com/photo-1576675784432-b668acc7cc1f?w=800&q=80" data-spot-cats=leisure>
-<img class=spot-img src="https://images.unsplash.com/photo-1576675784432-b668acc7cc1f?w=800&q=80" alt="Yamashiro Onsen" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>🎿</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Yamashiro, Kaga, Ishikawa</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Yamashiro Onsen</h3>
-<p class=spot-desc>Yamashiro Onsen is one of Japan's oldest hot spring resorts, with 1,300 years of history and a refined atmosphere built around grand ryokan, a beautiful public bathhouse, and the tradition of tea ceremony in tranquil garden settings. The milky-white sulfurous waters are renowned for skin-softening properties, and the elegant main street of preserved Meiji-era buildings creates one of the most atmospheric onsen towns in Japan.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>onsen</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>ryokan</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>tea-ceremony</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>kaga</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>historic</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=yamanaka-onsen data-spot-name="Yamanaka Onsen" data-spot-pref=ishikawa data-spot-fee=0 data-spot-dur=150 data-spot-lat=36.143 data-spot-lng=136.53 data-spot-area=kaga-onsen data-spot-rating=4.7 data-spot-reviews=1400 data-spot-img="https://images.unsplash.com/photo-1576675784432-b668acc7cc1f?w=800&q=80" data-spot-cats=leisure>
-<img class=spot-img src="https://images.unsplash.com/photo-1576675784432-b668acc7cc1f?w=800&q=80" alt="Yamanaka Onsen" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>🎿</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Yamanaka, Kaga, Ishikawa</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Yamanaka Onsen</h3>
-<p class=spot-desc>Perched above a dramatic river gorge carved through volcanic rock, Yamanaka Onsen was famously praised by the haiku master Matsuo Basho on his journey through Japan and is still considered one of the three great Kaga Onsen. A suspension bridge offers vertiginous views of the Kakusenkei gorge below, while the town's streets offer lacquerware shops, sake breweries, and traditional ryokan with private open-air baths over the rushing water.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>onsen</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>gorge</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>basho</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>kaga</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>ryokan</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=wajima-lacquerware-workshop data-spot-name="Wajima Lacquerware Workshop" data-spot-pref=ishikawa data-spot-fee=800 data-spot-dur=90 data-spot-lat=37.388 data-spot-lng=136.901 data-spot-area=wajima data-spot-rating=4.5 data-spot-reviews=720 data-spot-img="https://images.unsplash.com/photo-1536164261979-8a28e23c61c8?w=800&q=80" data-spot-cats=leisure,sightseeing>
-<img class=spot-img src="https://images.unsplash.com/photo-1536164261979-8a28e23c61c8?w=800&q=80" alt="Wajima Lacquerware Workshop" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>🎿</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Wajima, Noto Peninsula, Ishikawa</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Wajima Lacquerware Workshop</h3>
-<p class=spot-desc>Wajima-nuri is widely regarded as the finest urushi lacquerware in Japan, produced through a painstaking 124-step process that creates pieces of extraordinary depth, lustre, and durability. Visitors can tour the Wajima Lacquerware Museum or join hands-on workshops where artisans guide you through applying layers of lacquer, practicing the techniques that have been refined on the Noto Peninsula for over 600 years.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>lacquerware</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>urushi</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>craft</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>wajima</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>hands-on</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=kanazawa-gold-leaf-experience data-spot-name="Kanazawa Gold Leaf Experience" data-spot-pref=ishikawa data-spot-fee=1500 data-spot-dur=75 data-spot-lat=36.5608 data-spot-lng=136.6768 data-spot-area=kanazawa-central data-spot-rating=4.6 data-spot-reviews=950 data-spot-img="https://images.unsplash.com/photo-1536164261979-8a28e23c61c8?w=800&q=80" data-spot-cats=leisure>
-<img class=spot-img src="https://images.unsplash.com/photo-1536164261979-8a28e23c61c8?w=800&q=80" alt="Kanazawa Gold Leaf Experience" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>🎿</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Kanazawa, Ishikawa</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Kanazawa Gold Leaf Experience</h3>
-<p class=spot-desc>The workshops clustered around Kanazawa's Higashi Chaya district offer hands-on sessions where visitors learn to apply real gold leaf to ceramics, lacquerware, chopsticks, or frames — a surprisingly meditative craft that reveals why Kanazawa goldsmiths have dominated Japan's gold leaf industry for four centuries. A finished piece makes for one of the most distinctive and lightweight souvenirs you can carry home from Japan.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>gold-leaf</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>workshop</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>kanazawa</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>craft</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>higashi-chaya</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=noto-satoyama-cycling data-spot-name="Noto Satoyama Cycling" data-spot-pref=ishikawa data-spot-fee=0 data-spot-dur=180 data-spot-lat=37.32 data-spot-lng=136.85 data-spot-area=noto data-spot-rating=4.5 data-spot-reviews=640 data-spot-img="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80" data-spot-cats=leisure,nature>
-<img class=spot-img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80" alt="Noto Satoyama Cycling" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>🎿</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Noto Peninsula, Ishikawa</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Noto Satoyama Cycling</h3>
-<p class=spot-desc>Dedicated cycling routes thread through Noto Peninsula's UNESCO-designated satoyama landscape, passing terraced rice fields, traditional farmhouses, coastal fishing hamlets, and ancient cedar groves at a pace that lets you absorb the extraordinary quietness of rural Japan. Several routes link to shuttle services that handle luggage, making multi-day cycling tours accessible even for casual riders.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>cycling</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>noto</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>rural</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>satoyama</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>heritage</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
+<div class=see-all-wrap>
+<a class=see-all-btn style=color:#b35c00 href=/prefectures/ishikawa/spots/#leisure>
+See all 10 Leisure spots →
+</a>
 </div>
 </div>
-</section>
-<section class=spot-section id=section-events data-cat=events>
+</section><section class=spot-section id=section-events data-cat=events>
 <div class=spot-section-inner>
 <div class=section-hd style=--sec-color:#b5006e>
 <span class=s-icon>🎆</span>
@@ -1078,28 +890,6 @@
 <span class=s-count>4 spots</span>
 </div>
 <div class=spot-grid>
-<article class=spot-card data-spot-id=hyakumangoku-matsuri data-spot-name="Hyakumangoku Matsuri" data-spot-pref=ishikawa data-spot-fee=0 data-spot-dur=120 data-spot-lat=36.56 data-spot-lng=136.655 data-spot-area=kanazawa-central data-spot-rating=4.6 data-spot-reviews=1100 data-spot-img="https://images.unsplash.com/photo-1467189741299-5db09e00a1ac?w=800&q=80" data-spot-cats=events>
-<img class=spot-img src="https://images.unsplash.com/photo-1467189741299-5db09e00a1ac?w=800&q=80" alt="Hyakumangoku Matsuri" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>🎆</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Kanazawa, Ishikawa</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Hyakumangoku Matsuri</h3>
-<p class=spot-desc>Kanazawa's largest festival commemorates the 1583 entry of Lord Maeda Toshiie into the city, and the three-day celebration in early June features a stunning procession of 13,000 participants in full Edo-period costume — samurai, court ladies, geisha, musicians, and retainers — winding through streets that feel genuinely transported to another era. Book accommodation months in advance as the city fills to capacity for this extraordinary spectacle.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#ffe8f4;color:#88004e>festival</span>
-<span class=spot-tag style=background:#ffe8f4;color:#88004e>kanazawa</span>
-<span class=spot-tag style=background:#ffe8f4;color:#88004e>procession</span>
-<span class=spot-tag style=background:#ffe8f4;color:#88004e>maeda</span>
-<span class=spot-tag style=background:#ffe8f4;color:#88004e>june</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
 <article class=spot-card data-spot-id=kenrokuen-snow-viewing data-spot-name="Kenrokuen Snow Viewing Season" data-spot-pref=ishikawa data-spot-fee=320 data-spot-dur=90 data-spot-lat=36.564 data-spot-lng=136.6613 data-spot-area=kanazawa-central data-spot-rating=4.8 data-spot-reviews=2100 data-spot-img="https://images.unsplash.com/photo-1548013146-72479768bada?w=800&q=80" data-spot-cats=events,nature>
 <img class=spot-img src="https://images.unsplash.com/photo-1548013146-72479768bada?w=800&q=80" alt="Kenrokuen Snow Viewing Season" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>🎆</div>
@@ -1160,6 +950,28 @@
 <span class=spot-tag style=background:#ffe8f4;color:#88004e>noto</span>
 <span class=spot-tag style=background:#ffe8f4;color:#88004e>summer</span>
 <span class=spot-tag style=background:#ffe8f4;color:#88004e>autumn</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class=spot-card data-spot-id=hyakumangoku-matsuri data-spot-name="Hyakumangoku Matsuri" data-spot-pref=ishikawa data-spot-fee=0 data-spot-dur=120 data-spot-lat=36.56 data-spot-lng=136.655 data-spot-area=kanazawa-central data-spot-rating=4.6 data-spot-reviews=1100 data-spot-img="https://images.unsplash.com/photo-1467189741299-5db09e00a1ac?w=800&q=80" data-spot-cats=events>
+<img class=spot-img src="https://images.unsplash.com/photo-1467189741299-5db09e00a1ac?w=800&q=80" alt="Hyakumangoku Matsuri" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎆</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Kanazawa, Ishikawa</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Hyakumangoku Matsuri</h3>
+<p class=spot-desc>Kanazawa's largest festival commemorates the 1583 entry of Lord Maeda Toshiie into the city, and the three-day celebration in early June features a stunning procession of 13,000 participants in full Edo-period costume — samurai, court ladies, geisha, musicians, and retainers — winding through streets that feel genuinely transported to another era. Book accommodation months in advance as the city fills to capacity for this extraordinary spectacle.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>festival</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>kanazawa</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>procession</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>maeda</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>june</span>
 </div>
 <button class=btn-add-plan onclick=prefTogglePlan(this)>
 🗺️ Add to Plan

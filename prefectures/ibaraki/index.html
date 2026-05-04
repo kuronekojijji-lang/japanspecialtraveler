@@ -83,7 +83,7 @@
   document.addEventListener('keydown', function(e){ if(e.key==='Escape') close(); });
 })();
 </script>
-<style>.pref-breadcrumb{background:#f8f9fa;border-bottom:1px solid var(--border);padding:.6rem 1.5rem;font-size:.82rem;color:var(--gray)}.pref-breadcrumb a{color:var(--red);text-decoration:none}.pref-breadcrumb a:hover{text-decoration:underline}.pref-breadcrumb span{margin:0 .4rem}.pref-hero{position:relative;min-height:440px;display:flex;align-items:flex-end;background:#0a1a3e 50%/cover no-repeat;background-image:url(https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1600&q=80)}.pref-hero::after{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,.15) 0%,rgba(0,0,0,.7) 100%)}.pref-hero-body{position:relative;z-index:1;padding:2.5rem 1.5rem 2rem;max-width:var(--max-w);margin:0 auto;width:100%}.pref-hero-eyebrow{color:rgba(255,255,255,.75);font-size:.82rem;font-weight:600;text-transform:uppercase;letter-spacing:.1em;margin-bottom:.5rem}.pref-hero h1{color:#fff;font-size:clamp(2.2rem,5.5vw,3.4rem);font-weight:900;margin:0 0 .5rem;line-height:1.1}.pref-hero .pref-sub{color:rgba(255,255,255,.88);font-size:1.05rem;max-width:560px;margin-bottom:1rem}.pref-stats{display:flex;flex-wrap:wrap;gap:.6rem}.pref-stat{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);border-radius:20px;padding:.3rem .85rem;color:#fff;font-size:.8rem;font-weight:600}.pref-section{padding:2.5rem 1.5rem}.pref-section+.pref-section{padding-top:0}.pref-container{max-width:var(--max-w);margin:0 auto}.pref-section-title{font-size:1.55rem;font-weight:900;margin:0 0 .4rem;display:flex;align-items:center;gap:.5rem}.pref-section-lead{font-size:1rem;color:#555;line-height:1.7;max-width:680px;margin-bottom:1.5rem}.ponko-guide{display:flex;align-items:flex-end;gap:0;margin-bottom:1.6rem}.ponko-bubble{flex:1;min-width:0;background:linear-gradient(135deg,#fff9f0,#fff3e0);border:2px solid #f5a623;border-radius:18px 18px 18px 4px;padding:1.2rem 1.5rem;position:relative;box-shadow:0 4px 14px rgba(245,166,35,.13)}.ponko-bubble::after{content:'';position:absolute;right:-18px;bottom:22px;border:9px solid transparent;border-left-color:#f5a623}.ponko-bubble::before{content:'';position:absolute;right:-13px;bottom:23px;z-index:1;border:8px solid transparent;border-left-color:#fff9f0}.ponko-bubble p{font-size:.97rem;line-height:1.8;color:#333;margin:0}.ponko-figure{flex-shrink:0;width:170px;margin-left:4px;animation:ponko-float 3s ease-in-out infinite}.ponko-figure img{width:100%;height:auto;display:block;filter:drop-shadow(0 6px 10px rgba(0,0,0,.18))}@keyframes ponko-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}@media(max-width:640px){.ponko-guide{flex-direction:column;align-items:center}.ponko-bubble{border-radius:18px;order:2;width:100%}.ponko-bubble::after,.ponko-bubble::before{display:none}.ponko-figure{order:1;width:130px;margin-left:0;margin-bottom:.5rem;animation:none}}.quick-facts{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.8rem;margin-top:1.4rem}.qf-card{background:#f8f9fb;border:1px solid var(--border);border-radius:12px;padding:1rem 1.1rem;display:flex;align-items:flex-start;gap:.7rem}.qf-icon{font-size:1.4rem;flex-shrink:0}.qf-label{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--gray);margin-bottom:.15rem}.qf-value{font-size:.9rem;font-weight:600;color:var(--dark)}.access-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}.access-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 8px rgba(0,0,0,5%)}.access-card-hd{display:flex;align-items:center;gap:.5rem;margin-bottom:.8rem}.access-card-icon{font-size:1.5rem}.access-card-title{font-size:1rem;font-weight:800;color:var(--dark)}.access-card ul{margin:0;padding-left:1.1rem}.access-card li{font-size:.875rem;line-height:1.65;color:#444;margin-bottom:.3rem}.access-card li strong{color:var(--dark)}.access-tip{margin-top:1.2rem;background:#fff8e6;border:1px solid #ffe0a0;border-radius:10px;padding:.9rem 1.1rem;font-size:.85rem;line-height:1.6;color:#5a3e00}.access-tip strong{display:block;margin-bottom:.2rem;font-size:.88rem}.guide-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem}.guide-card{background:#fff;border-radius:14px;overflow:hidden;border:1px solid var(--border);box-shadow:0 2px 8px rgba(0,0,0,5%);transition:transform .15s,box-shadow .15s;position:relative;display:flex;flex-direction:column}.guide-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.guide-card-img{width:100%;height:150px;object-fit:cover;background:#e8eef4;display:block}.guide-card-img-ph{width:100%;height:150px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:2.5rem}.guide-card-body{padding:.9rem 1rem 1rem;flex:1}.guide-cat-badge{display:inline-block;font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;padding:.15rem .55rem;border-radius:8px;background:var(--red);color:#fff;margin-bottom:.4rem}.guide-card-title{font-size:.92rem;font-weight:800;color:var(--dark);line-height:1.4}.guide-coming-soon{position:absolute;top:.6rem;right:.6rem;background:rgba(0,0,0,.55);color:#fff;font-size:.65rem;font-weight:700;padding:.2rem .5rem;border-radius:6px;text-transform:uppercase;letter-spacing:.05em}.guide-card-link{text-decoration:none;color:inherit;display:flex;flex-direction:column;height:100%}.pref-toc{background:#fff;border-bottom:2px solid var(--border);position:sticky;top:0;z-index:100;overflow-x:auto}.pref-toc-inner{display:flex;gap:0;max-width:var(--max-w);margin:0 auto}.pref-toc-btn{flex:none;display:flex;align-items:center;gap:.4rem;padding:.8rem 1.2rem;border:none;background:0 0;cursor:pointer;font-family:inherit;font-size:.88rem;font-weight:600;color:var(--gray);border-bottom:3px solid transparent;transition:all .18s;white-space:nowrap}.pref-toc-btn .toc-icon{font-size:1.1rem}.pref-toc-btn:hover{color:var(--dark);background:#f8f8f8}.pref-toc-btn.active{color:var(--toc-color,var(--red));border-bottom-color:var(--toc-color,var(--red))}.spot-section{padding:2rem 1.5rem 2.5rem}.spot-section.hidden{display:none}.spot-section-inner{max-width:var(--max-w);margin:0 auto}.section-hd{display:flex;align-items:center;gap:.6rem;margin-bottom:1.4rem;padding-bottom:.7rem;border-bottom:2px solid var(--border)}.section-hd .s-icon{font-size:1.6rem}.section-hd h2{font-size:1.35rem;font-weight:800;margin:0}.section-hd .s-count{margin-left:auto;background:var(--sec-color,var(--red));color:#fff;border-radius:20px;padding:.15rem .65rem;font-size:.78rem;font-weight:700}.spot-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.25rem}.spot-card{border-radius:14px;overflow:hidden;border:1px solid var(--border);background:#fff;box-shadow:0 2px 8px rgba(0,0,0,6%);transition:transform .15s,box-shadow .15s;display:flex;flex-direction:column}.spot-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.spot-img{width:100%;height:200px;object-fit:cover;background:#e8eef4;display:block}.spot-img-ph{width:100%;height:200px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:3rem}.spot-body{padding:1rem 1.1rem 1.1rem;flex:1;display:flex;flex-direction:column}.spot-meta{display:flex;align-items:center;gap:.5rem;margin-bottom:.5rem}.spot-location{font-size:.78rem;color:var(--gray);font-weight:500}.spot-season-badge{margin-left:auto;font-size:.7rem;font-weight:700;padding:.1rem .5rem;border-radius:10px;background:#f0f4f8;color:#555;white-space:nowrap}.spot-name{font-size:1.08rem;font-weight:800;color:var(--dark);margin:0 0 .45rem;line-height:1.3}.spot-desc{font-size:.86rem;line-height:1.65;color:#555;flex:1;margin-bottom:.75rem}.spot-tags{display:flex;flex-wrap:wrap;gap:.3rem}.spot-tag{font-size:.7rem;font-weight:600;padding:.15rem .5rem;border-radius:6px;background:var(--tag-bg,#f0f4f8);color:var(--tag-color,#445)}.tips-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem}.tip-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 6px rgba(0,0,0,4%)}.tip-card-icon{font-size:1.8rem;margin-bottom:.6rem}.tip-card-title{font-size:.95rem;font-weight:800;color:var(--dark);margin-bottom:.5rem}.tip-card-body{font-size:.85rem;line-height:1.65;color:#555}.tip-card-body ul{margin:.3rem 0 0;padding-left:1.1rem}.tip-card-body li{margin-bottom:.2rem}.pref-cta{background:var(--bg-soft);padding:2.5rem 1.5rem 3rem;border-top:1px solid var(--border)}.pref-cta .pref-container{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}@media(max-width:600px){.pref-hero{min-height:320px}.quick-facts{grid-template-columns:repeat(2,1fr)}.pref-toc-btn{padding:.7rem .9rem;font-size:.82rem}}.btn-add-plan{display:inline-flex;align-items:center;gap:.35rem;margin-top:.75rem;padding:.45rem .9rem;border:1.5px solid #2d5be3;border-radius:8px;background:#fff;color:#2d5be3;font-size:.78rem;font-weight:700;font-family:inherit;cursor:pointer;transition:background .15s,color .15s,transform .1s;width:100%;justify-content:center}.btn-add-plan:hover{background:#2d5be3;color:#fff;transform:translateY(-1px)}.btn-add-plan.in-plan{background:#e8f0ff;color:#1a45a8;border-color:#1a45a8}.btn-add-plan.in-plan:hover{background:#c0003a;color:#fff;border-color:#c0003a}</style>
+<style>.pref-breadcrumb{background:#f8f9fa;border-bottom:1px solid var(--border);padding:.6rem 1.5rem;font-size:.82rem;color:var(--gray)}.pref-breadcrumb a{color:var(--red);text-decoration:none}.pref-breadcrumb a:hover{text-decoration:underline}.pref-breadcrumb span{margin:0 .4rem}.pref-hero{position:relative;min-height:440px;display:flex;align-items:flex-end;background:#0a1a3e 50%/cover no-repeat;background-image:url(https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1600&q=80)}.pref-hero::after{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,.15) 0%,rgba(0,0,0,.7) 100%)}.pref-hero-body{position:relative;z-index:1;padding:2.5rem 1.5rem 2rem;max-width:var(--max-w);margin:0 auto;width:100%}.pref-hero-eyebrow{color:rgba(255,255,255,.75);font-size:.82rem;font-weight:600;text-transform:uppercase;letter-spacing:.1em;margin-bottom:.5rem}.pref-hero h1{color:#fff;font-size:clamp(2.2rem,5.5vw,3.4rem);font-weight:900;margin:0 0 .5rem;line-height:1.1}.pref-hero .pref-sub{color:rgba(255,255,255,.88);font-size:1.05rem;max-width:560px;margin-bottom:1rem}.pref-stats{display:flex;flex-wrap:wrap;gap:.6rem}.pref-stat{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);border-radius:20px;padding:.3rem .85rem;color:#fff;font-size:.8rem;font-weight:600}.pref-section{padding:2.5rem 1.5rem}.pref-section+.pref-section{padding-top:0}.pref-container{max-width:var(--max-w);margin:0 auto}.pref-section-title{font-size:1.55rem;font-weight:900;margin:0 0 .4rem;display:flex;align-items:center;gap:.5rem}.pref-section-lead{font-size:1rem;color:#555;line-height:1.7;max-width:680px;margin-bottom:1.5rem}.ponko-guide{display:flex;align-items:flex-end;gap:0;margin-bottom:1.6rem}.ponko-bubble{flex:1;min-width:0;background:linear-gradient(135deg,#fff9f0,#fff3e0);border:2px solid #f5a623;border-radius:18px 18px 18px 4px;padding:1.2rem 1.5rem;position:relative;box-shadow:0 4px 14px rgba(245,166,35,.13)}.ponko-bubble::after{content:'';position:absolute;right:-18px;bottom:22px;border:9px solid transparent;border-left-color:#f5a623}.ponko-bubble::before{content:'';position:absolute;right:-13px;bottom:23px;z-index:1;border:8px solid transparent;border-left-color:#fff9f0}.ponko-bubble p{font-size:.97rem;line-height:1.8;color:#333;margin:0}.ponko-figure{flex-shrink:0;width:170px;margin-left:4px;animation:ponko-float 3s ease-in-out infinite}.ponko-figure img{width:100%;height:auto;display:block;filter:drop-shadow(0 6px 10px rgba(0,0,0,.18))}@keyframes ponko-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}@media(max-width:640px){.ponko-guide{flex-direction:column;align-items:center}.ponko-bubble{border-radius:18px;order:2;width:100%}.ponko-bubble::after,.ponko-bubble::before{display:none}.ponko-figure{order:1;width:130px;margin-left:0;margin-bottom:.5rem;animation:none}}.quick-facts{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.8rem;margin-top:1.4rem}.qf-card{background:#f8f9fb;border:1px solid var(--border);border-radius:12px;padding:1rem 1.1rem;display:flex;align-items:flex-start;gap:.7rem}.qf-icon{font-size:1.4rem;flex-shrink:0}.qf-label{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--gray);margin-bottom:.15rem}.qf-value{font-size:.9rem;font-weight:600;color:var(--dark)}.access-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}.access-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 8px rgba(0,0,0,5%)}.access-card-hd{display:flex;align-items:center;gap:.5rem;margin-bottom:.8rem}.access-card-icon{font-size:1.5rem}.access-card-title{font-size:1rem;font-weight:800;color:var(--dark)}.access-card ul{margin:0;padding-left:1.1rem}.access-card li{font-size:.875rem;line-height:1.65;color:#444;margin-bottom:.3rem}.access-card li strong{color:var(--dark)}.access-tip{margin-top:1.2rem;background:#fff8e6;border:1px solid #ffe0a0;border-radius:10px;padding:.9rem 1.1rem;font-size:.85rem;line-height:1.6;color:#5a3e00}.access-tip strong{display:block;margin-bottom:.2rem;font-size:.88rem}.guide-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem}.guide-card{background:#fff;border-radius:14px;overflow:hidden;border:1px solid var(--border);box-shadow:0 2px 8px rgba(0,0,0,5%);transition:transform .15s,box-shadow .15s;position:relative;display:flex;flex-direction:column}.guide-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.guide-card-img{width:100%;height:150px;object-fit:cover;background:#e8eef4;display:block}.guide-card-img-ph{width:100%;height:150px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:2.5rem}.guide-card-body{padding:.9rem 1rem 1rem;flex:1}.guide-cat-badge{display:inline-block;font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;padding:.15rem .55rem;border-radius:8px;background:var(--red);color:#fff;margin-bottom:.4rem}.guide-card-title{font-size:.92rem;font-weight:800;color:var(--dark);line-height:1.4}.guide-coming-soon{position:absolute;top:.6rem;right:.6rem;background:rgba(0,0,0,.55);color:#fff;font-size:.65rem;font-weight:700;padding:.2rem .5rem;border-radius:6px;text-transform:uppercase;letter-spacing:.05em}.guide-card-link{text-decoration:none;color:inherit;display:flex;flex-direction:column;height:100%}.pref-toc{background:#fff;border-bottom:2px solid var(--border);position:sticky;top:0;z-index:100;overflow-x:auto}.pref-toc-inner{display:flex;gap:0;max-width:var(--max-w);margin:0 auto}.pref-toc-btn{flex:none;display:flex;align-items:center;gap:.4rem;padding:.8rem 1.2rem;border:none;background:0 0;cursor:pointer;font-family:inherit;font-size:.88rem;font-weight:600;color:var(--gray);border-bottom:3px solid transparent;transition:all .18s;white-space:nowrap}.pref-toc-btn .toc-icon{font-size:1.1rem}.pref-toc-btn:hover{color:var(--dark);background:#f8f8f8}.pref-toc-btn.active{color:var(--toc-color,var(--red));border-bottom-color:var(--toc-color,var(--red))}.spot-section{padding:2rem 1.5rem 2.5rem}.spot-section.hidden{display:none}.spot-section-inner{max-width:var(--max-w);margin:0 auto}.section-hd{display:flex;align-items:center;gap:.6rem;margin-bottom:1.4rem;padding-bottom:.7rem;border-bottom:2px solid var(--border)}.section-hd .s-icon{font-size:1.6rem}.section-hd h2{font-size:1.35rem;font-weight:800;margin:0}.section-hd .s-count{margin-left:auto;background:var(--sec-color,var(--red));color:#fff;border-radius:20px;padding:.15rem .65rem;font-size:.78rem;font-weight:700}.spot-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.25rem}.spot-card{border-radius:14px;overflow:hidden;border:1px solid var(--border);background:#fff;box-shadow:0 2px 8px rgba(0,0,0,6%);transition:transform .15s,box-shadow .15s;display:flex;flex-direction:column}.spot-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.spot-img{width:100%;height:200px;object-fit:cover;background:#e8eef4;display:block}.spot-img-ph{width:100%;height:200px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:3rem}.spot-body{padding:1rem 1.1rem 1.1rem;flex:1;display:flex;flex-direction:column}.spot-meta{display:flex;align-items:center;gap:.5rem;margin-bottom:.5rem}.spot-location{font-size:.78rem;color:var(--gray);font-weight:500}.spot-season-badge{margin-left:auto;font-size:.7rem;font-weight:700;padding:.1rem .5rem;border-radius:10px;background:#f0f4f8;color:#555;white-space:nowrap}.spot-name{font-size:1.08rem;font-weight:800;color:var(--dark);margin:0 0 .45rem;line-height:1.3}.spot-desc{font-size:.86rem;line-height:1.65;color:#555;flex:1;margin-bottom:.75rem}.spot-tags{display:flex;flex-wrap:wrap;gap:.3rem}.spot-tag{font-size:.7rem;font-weight:600;padding:.15rem .5rem;border-radius:6px;background:var(--tag-bg,#f0f4f8);color:var(--tag-color,#445)}.tips-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem}.tip-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 6px rgba(0,0,0,4%)}.tip-card-icon{font-size:1.8rem;margin-bottom:.6rem}.tip-card-title{font-size:.95rem;font-weight:800;color:var(--dark);margin-bottom:.5rem}.tip-card-body{font-size:.85rem;line-height:1.65;color:#555}.tip-card-body ul{margin:.3rem 0 0;padding-left:1.1rem}.tip-card-body li{margin-bottom:.2rem}.pref-cta{background:var(--bg-soft);padding:2.5rem 1.5rem 3rem;border-top:1px solid var(--border)}.pref-cta .pref-container{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}@media(max-width:600px){.pref-hero{min-height:320px}.quick-facts{grid-template-columns:repeat(2,1fr)}.pref-toc-btn{padding:.7rem .9rem;font-size:.82rem}}.btn-add-plan{display:inline-flex;align-items:center;gap:.35rem;margin-top:.75rem;padding:.45rem .9rem;border:1.5px solid #2d5be3;border-radius:8px;background:#fff;color:#2d5be3;font-size:.78rem;font-weight:700;font-family:inherit;cursor:pointer;transition:background .15s,color .15s,transform .1s;width:100%;justify-content:center}.btn-add-plan:hover{background:#2d5be3;color:#fff;transform:translateY(-1px)}.btn-add-plan.in-plan{background:#e8f0ff;color:#1a45a8;border-color:#1a45a8}.btn-add-plan.in-plan:hover{background:#c0003a;color:#fff;border-color:#c0003a}.see-all-wrap{text-align:center;margin-top:1.5rem;padding-top:1rem;border-top:1px dashed var(--border)}.see-all-btn{display:inline-flex;align-items:center;gap:.4rem;padding:.55rem 1.5rem;border:2px solid;border-radius:10px;font-size:.88rem;font-weight:700;text-decoration:none;transition:all .15s}.see-all-btn:hover{opacity:.8;text-decoration:none}</style>
 <nav class=pref-breadcrumb aria-label=breadcrumb>
 <a href=/>Home</a><span>›</span>
 <a href=/explore/>Explore Japan</a><span>›</span>
@@ -359,8 +359,7 @@
 <span class=toc-icon>🎆</span> Events
 </button>
 </div>
-</nav>
-<section class=spot-section id=section-sightseeing data-cat=sightseeing>
+</nav><section class=spot-section id=section-sightseeing data-cat=sightseeing>
 <div class=spot-section-inner>
 <div class=section-hd style=--sec-color:#1a45a8>
 <span class=s-icon>⛩️</span>
@@ -368,28 +367,6 @@
 <span class=s-count>8 spots</span>
 </div>
 <div class=spot-grid>
-<article class=spot-card data-spot-id=kairakuen-garden data-spot-name="Kairakuen Garden" data-spot-pref=ibaraki data-spot-fee=300 data-spot-dur=90 data-spot-lat=36.3617 data-spot-lng=140.4733 data-spot-area=mito data-spot-rating=4.4 data-spot-reviews=8500 data-spot-img="https://images.unsplash.com/photo-1522383225653-ed111181a951?w=800&q=80" data-spot-cats=sightseeing,nature,events>
-<img class=spot-img src="https://images.unsplash.com/photo-1522383225653-ed111181a951?w=800&q=80" alt="Kairakuen Garden" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>⛩️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Mito, Ibaraki</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Kairakuen Garden</h3>
-<p class=spot-desc>One of Japan's three great gardens, Kairakuen was opened to the public in 1842 and remains a symbol of Mito. The garden is home to over 3,000 plum trees of 100 varieties that burst into bloom from late February through March, drawing hundreds of thousands of visitors each year. The hillside setting above Lake Senba offers sweeping views across a landscape of bamboo groves, cedar forest, and historic pavilions.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>plum blossoms</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>historic garden</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>spring</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Mito</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Japan's 3 great gardens</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
 <article class=spot-card data-spot-id=hitachi-seaside-park data-spot-name="Hitachi Seaside Park" data-spot-pref=ibaraki data-spot-fee=450 data-spot-dur=120 data-spot-lat=36.3841 data-spot-lng=140.8038 data-spot-area=hitachi data-spot-rating=4.6 data-spot-reviews=12000 data-spot-img="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80" data-spot-cats=nature,sightseeing,leisure>
 <img class=spot-img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80" alt="Hitachi Seaside Park" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>⛩️</div>
@@ -412,44 +389,22 @@
 </button>
 </div>
 </article>
-<article class=spot-card data-spot-id=kashima-jingu data-spot-name="Kashima Jingu" data-spot-pref=ibaraki data-spot-fee=0 data-spot-dur=45 data-spot-lat=35.9906 data-spot-lng=140.6453 data-spot-area=kashima data-spot-rating=4.2 data-spot-reviews=5200 data-spot-img="https://images.unsplash.com/photo-1509316785289-025f5b846b35?w=800&q=80" data-spot-cats=sightseeing>
-<img class=spot-img src="https://images.unsplash.com/photo-1509316785289-025f5b846b35?w=800&q=80" alt="Kashima Jingu" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<article class=spot-card data-spot-id=kairakuen-garden data-spot-name="Kairakuen Garden" data-spot-pref=ibaraki data-spot-fee=300 data-spot-dur=90 data-spot-lat=36.3617 data-spot-lng=140.4733 data-spot-area=mito data-spot-rating=4.4 data-spot-reviews=8500 data-spot-img="https://images.unsplash.com/photo-1522383225653-ed111181a951?w=800&q=80" data-spot-cats=sightseeing,nature,events>
+<img class=spot-img src="https://images.unsplash.com/photo-1522383225653-ed111181a951?w=800&q=80" alt="Kairakuen Garden" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>⛩️</div>
 <div class=spot-body>
 <div class=spot-meta>
-<span class=spot-location>📍 Kashima, Ibaraki</span>
+<span class=spot-location>📍 Mito, Ibaraki</span>
 <span class=spot-season-badge></span>
 </div>
-<h3 class=spot-name>Kashima Jingu</h3>
-<p class=spot-desc>One of Japan's oldest and most sacred Shinto shrines, Kashima Jingu was founded in 660 BC and has been a spiritual centre for warriors and pilgrims for millennia. A 2-kilometre forested approach avenue of towering ancient cedars, flanked by grazing deer, creates one of the most atmospheric shrine approaches in the country. The main halls, stone lanterns, and hidden pond deep in the cedar grove make this a compelling destination at any season.</p>
+<h3 class=spot-name>Kairakuen Garden</h3>
+<p class=spot-desc>One of Japan's three great gardens, Kairakuen was opened to the public in 1842 and remains a symbol of Mito. The garden is home to over 3,000 plum trees of 100 varieties that burst into bloom from late February through March, drawing hundreds of thousands of visitors each year. The hillside setting above Lake Senba offers sweeping views across a landscape of bamboo groves, cedar forest, and historic pavilions.</p>
 <div class=spot-tags>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>shrine</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>ancient</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>cedar forest</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>deer</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Shinto</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=ushiku-daibutsu data-spot-name="Ushiku Daibutsu" data-spot-pref=ibaraki data-spot-fee=800 data-spot-dur=60 data-spot-lat=35.9827 data-spot-lng=140.2275 data-spot-area=ushiku data-spot-rating=4.3 data-spot-reviews=6800 data-spot-img="https://images.unsplash.com/photo-1547234935-80c7145ec969?w=800&q=80" data-spot-cats=sightseeing>
-<img class=spot-img src="https://images.unsplash.com/photo-1547234935-80c7145ec969?w=800&q=80" alt="Ushiku Daibutsu" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>⛩️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Ushiku, Ibaraki</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Ushiku Daibutsu</h3>
-<p class=spot-desc>Standing 120 metres tall including its lotus-flower base, the Ushiku Daibutsu is the world's tallest bronze Buddha statue and a breathtaking sight visible from the surrounding plains. Inside the hollow statue visitors can take an elevator to an observation floor at the chest level, which affords panoramic views across the Kanto lowlands. The surrounding botanical garden and illuminated ponds make evening visits particularly memorable.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>giant Buddha</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>bronze statue</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>landmark</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Ushiku</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>world record</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>plum blossoms</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>historic garden</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>spring</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Mito</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Japan's 3 great gardens</span>
 </div>
 <button class=btn-add-plan onclick=prefTogglePlan(this)>
 🗺️ Add to Plan
@@ -478,22 +433,44 @@
 </button>
 </div>
 </article>
-<article class=spot-card data-spot-id=ibaraki-history-museum data-spot-name="Ibaraki Prefectural Museum of History" data-spot-pref=ibaraki data-spot-fee=300 data-spot-dur=90 data-spot-lat=36.3688 data-spot-lng=140.4868 data-spot-area=mito data-spot-rating=4.1 data-spot-reviews=2800 data-spot-img="https://images.unsplash.com/photo-1564507592333-c60657eea523?w=800&q=80" data-spot-cats=sightseeing>
-<img class=spot-img src="https://images.unsplash.com/photo-1564507592333-c60657eea523?w=800&q=80" alt="Ibaraki Prefectural Museum of History" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<article class=spot-card data-spot-id=ushiku-daibutsu data-spot-name="Ushiku Daibutsu" data-spot-pref=ibaraki data-spot-fee=800 data-spot-dur=60 data-spot-lat=35.9827 data-spot-lng=140.2275 data-spot-area=ushiku data-spot-rating=4.3 data-spot-reviews=6800 data-spot-img="https://images.unsplash.com/photo-1547234935-80c7145ec969?w=800&q=80" data-spot-cats=sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1547234935-80c7145ec969?w=800&q=80" alt="Ushiku Daibutsu" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>⛩️</div>
 <div class=spot-body>
 <div class=spot-meta>
-<span class=spot-location>📍 Mito, Ibaraki</span>
+<span class=spot-location>📍 Ushiku, Ibaraki</span>
 <span class=spot-season-badge></span>
 </div>
-<h3 class=spot-name>Ibaraki Prefectural Museum of History</h3>
-<p class=spot-desc>The Ibaraki Prefectural Museum of History sits near Mito Castle and traces the region's story from prehistoric times through to the Meiji era. Highlights include artefacts from the Mito Domain, personal effects of the Tokugawa clan lords who governed the region, and detailed displays on the late-Edo political movement centred on Mito. The landscaped grounds containing restored castle earthworks are free to walk and offer a quiet counterpoint to central Mito.</p>
+<h3 class=spot-name>Ushiku Daibutsu</h3>
+<p class=spot-desc>Standing 120 metres tall including its lotus-flower base, the Ushiku Daibutsu is the world's tallest bronze Buddha statue and a breathtaking sight visible from the surrounding plains. Inside the hollow statue visitors can take an elevator to an observation floor at the chest level, which affords panoramic views across the Kanto lowlands. The surrounding botanical garden and illuminated ponds make evening visits particularly memorable.</p>
 <div class=spot-tags>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>history</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>museum</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Mito</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>samurai</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>culture</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>giant Buddha</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>bronze statue</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>landmark</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Ushiku</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>world record</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class=spot-card data-spot-id=kashima-jingu data-spot-name="Kashima Jingu" data-spot-pref=ibaraki data-spot-fee=0 data-spot-dur=45 data-spot-lat=35.9906 data-spot-lng=140.6453 data-spot-area=kashima data-spot-rating=4.2 data-spot-reviews=5200 data-spot-img="https://images.unsplash.com/photo-1509316785289-025f5b846b35?w=800&q=80" data-spot-cats=sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1509316785289-025f5b846b35?w=800&q=80" alt="Kashima Jingu" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Kashima, Ibaraki</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Kashima Jingu</h3>
+<p class=spot-desc>One of Japan's oldest and most sacred Shinto shrines, Kashima Jingu was founded in 660 BC and has been a spiritual centre for warriors and pilgrims for millennia. A 2-kilometre forested approach avenue of towering ancient cedars, flanked by grazing deer, creates one of the most atmospheric shrine approaches in the country. The main halls, stone lanterns, and hidden pond deep in the cedar grove make this a compelling destination at any season.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>shrine</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>ancient</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>cedar forest</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>deer</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Shinto</span>
 </div>
 <button class=btn-add-plan onclick=prefTogglePlan(this)>
 🗺️ Add to Plan
@@ -522,32 +499,14 @@
 </button>
 </div>
 </article>
-<article class=spot-card data-spot-id=mito-castle-remains data-spot-name="Mito Castle Remains" data-spot-pref=ibaraki data-spot-fee=0 data-spot-dur=45 data-spot-lat=36.3633 data-spot-lng=140.475 data-spot-area=mito data-spot-rating=3.8 data-spot-reviews=2100 data-spot-img="https://images.unsplash.com/photo-1553292055-6a6621db41ef?w=800&q=80" data-spot-cats=sightseeing>
-<img class=spot-img src="https://images.unsplash.com/photo-1553292055-6a6621db41ef?w=800&q=80" alt="Mito Castle Remains" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>⛩️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Mito, Ibaraki</span>
-<span class=spot-season-badge></span>
 </div>
-<h3 class=spot-name>Mito Castle Remains</h3>
-<p class=spot-desc>While Mito Castle was largely demolished after the Meiji Restoration, its surviving earthworks, moats, and the partially reconstructed Ninomaru Gate offer a tangible connection to the powerful Mito Domain that shaped late-Edo Japanese politics. The castle hill overlooks the city and the distant glimmer of Lake Senba, and the grounds are freely accessible as a public park anchored by the historic Kodokan Confucian school — one of Japan's largest surviving domain schools — still standing nearby. The combination of castle remains, the Kodokan, and the adjacent history museum makes this area the richest single historical precinct in Ibaraki.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>castle</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Mito</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Tokugawa</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>history</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>earthworks</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
+<div class=see-all-wrap>
+<a class=see-all-btn style=color:#1a45a8 href=/prefectures/ibaraki/spots/#sightseeing>
+See all 8 Sightseeing spots →
+</a>
 </div>
 </div>
-</section>
-<section class=spot-section id=section-gourmet data-cat=gourmet>
+</section><section class=spot-section id=section-gourmet data-cat=gourmet>
 <div class=spot-section-inner>
 <div class=section-hd style=--sec-color:#D64000>
 <span class=s-icon>🍜</span>
@@ -555,50 +514,6 @@
 <span class=s-count>5 spots</span>
 </div>
 <div class=spot-grid>
-<article class=spot-card data-spot-id=anko-monkfish-hotpot data-spot-name="Anko — Monkfish Hot Pot" data-spot-pref=ibaraki data-spot-fee=0 data-spot-dur=60 data-spot-lat=36.3667 data-spot-lng=140.475 data-spot-area=mito data-spot-rating=4.3 data-spot-reviews=3200 data-spot-img="https://images.unsplash.com/photo-1547592180-85f173990554?w=800&q=80" data-spot-cats=gourmet>
-<img class=spot-img src="https://images.unsplash.com/photo-1547592180-85f173990554?w=800&q=80" alt="Anko — Monkfish Hot Pot" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>🍜</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Mito, Ibaraki</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Anko — Monkfish Hot Pot</h3>
-<p class=spot-desc>Anko nabe, or monkfish hot pot, is Ibaraki's most celebrated winter dish, prized for the rich, collagen-laden broth made from the monkfish liver and seven body parts cooked together in a miso or soy-based stock. The fishing port of Oarai is the primary landing point for the large, ugly-but-delicious fish which thrives in the cold winter waters off the Ibaraki coast. Restaurants up and down the coast specialise in the dish from November through March, when the fish are at their fattest and most flavourful.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#fff0ea;color:#9a3000>monkfish</span>
-<span class=spot-tag style=background:#fff0ea;color:#9a3000>hot pot</span>
-<span class=spot-tag style=background:#fff0ea;color:#9a3000>winter</span>
-<span class=spot-tag style=background:#fff0ea;color:#9a3000>seafood</span>
-<span class=spot-tag style=background:#fff0ea;color:#9a3000>Ibaraki cuisine</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=natto-mito data-spot-name="Mito Natto" data-spot-pref=ibaraki data-spot-fee=0 data-spot-dur=45 data-spot-lat=36.365 data-spot-lng=140.482 data-spot-area=mito data-spot-rating=4.2 data-spot-reviews=2100 data-spot-img="https://images.unsplash.com/photo-1574484284002-952d92456975?w=800&q=80" data-spot-cats=gourmet>
-<img class=spot-img src="https://images.unsplash.com/photo-1574484284002-952d92456975?w=800&q=80" alt="Mito Natto" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>🍜</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Mito, Ibaraki</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Mito Natto</h3>
-<p class=spot-desc>Mito has been Japan's natto capital for centuries, and the sticky fermented soybeans produced here are considered the finest in the country thanks to local water quality and long-refined fermentation techniques. Natto factories and specialty shops are found throughout Mito, and the city hosts an annual natto festival celebrating the pungent, stringy delicacy that divides even Japanese diners. Visitors can try natto in every imaginable form — over rice, in sushi rolls, in tempura, or even in ice cream — at dedicated shops near Kairakuen.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#fff0ea;color:#9a3000>natto</span>
-<span class=spot-tag style=background:#fff0ea;color:#9a3000>fermented soybeans</span>
-<span class=spot-tag style=background:#fff0ea;color:#9a3000>Mito</span>
-<span class=spot-tag style=background:#fff0ea;color:#9a3000>Japanese breakfast</span>
-<span class=spot-tag style=background:#fff0ea;color:#9a3000>local speciality</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
 <article class=spot-card data-spot-id=hitachi-wagyu-beef data-spot-name="Hitachi Beef" data-spot-pref=ibaraki data-spot-fee=0 data-spot-dur=60 data-spot-lat=36.38 data-spot-lng=140.8 data-spot-area=hitachi data-spot-rating=4.4 data-spot-reviews=2900 data-spot-img="https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?w=800&q=80" data-spot-cats=gourmet>
 <img class=spot-img src="https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?w=800&q=80" alt="Hitachi Beef" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>🍜</div>
@@ -621,6 +536,28 @@
 </button>
 </div>
 </article>
+<article class=spot-card data-spot-id=anko-monkfish-hotpot data-spot-name="Anko — Monkfish Hot Pot" data-spot-pref=ibaraki data-spot-fee=0 data-spot-dur=60 data-spot-lat=36.3667 data-spot-lng=140.475 data-spot-area=mito data-spot-rating=4.3 data-spot-reviews=3200 data-spot-img="https://images.unsplash.com/photo-1547592180-85f173990554?w=800&q=80" data-spot-cats=gourmet>
+<img class=spot-img src="https://images.unsplash.com/photo-1547592180-85f173990554?w=800&q=80" alt="Anko — Monkfish Hot Pot" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🍜</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Mito, Ibaraki</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Anko — Monkfish Hot Pot</h3>
+<p class=spot-desc>Anko nabe, or monkfish hot pot, is Ibaraki's most celebrated winter dish, prized for the rich, collagen-laden broth made from the monkfish liver and seven body parts cooked together in a miso or soy-based stock. The fishing port of Oarai is the primary landing point for the large, ugly-but-delicious fish which thrives in the cold winter waters off the Ibaraki coast. Restaurants up and down the coast specialise in the dish from November through March, when the fish are at their fattest and most flavourful.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>monkfish</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>hot pot</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>winter</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>seafood</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>Ibaraki cuisine</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 <article class=spot-card data-spot-id=kuji-chicken data-spot-name="Kuji Chicken" data-spot-pref=ibaraki data-spot-fee=0 data-spot-dur=50 data-spot-lat=36.4267 data-spot-lng=140.7917 data-spot-area=kuji data-spot-rating=4.3 data-spot-reviews=1800 data-spot-img="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80" data-spot-cats=gourmet>
 <img class=spot-img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80" alt="Kuji Chicken" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>🍜</div>
@@ -637,6 +574,28 @@
 <span class=spot-tag style=background:#fff0ea;color:#9a3000>Kuji</span>
 <span class=spot-tag style=background:#fff0ea;color:#9a3000>yakitori</span>
 <span class=spot-tag style=background:#fff0ea;color:#9a3000>local food</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class=spot-card data-spot-id=natto-mito data-spot-name="Mito Natto" data-spot-pref=ibaraki data-spot-fee=0 data-spot-dur=45 data-spot-lat=36.365 data-spot-lng=140.482 data-spot-area=mito data-spot-rating=4.2 data-spot-reviews=2100 data-spot-img="https://images.unsplash.com/photo-1574484284002-952d92456975?w=800&q=80" data-spot-cats=gourmet>
+<img class=spot-img src="https://images.unsplash.com/photo-1574484284002-952d92456975?w=800&q=80" alt="Mito Natto" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🍜</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Mito, Ibaraki</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Mito Natto</h3>
+<p class=spot-desc>Mito has been Japan's natto capital for centuries, and the sticky fermented soybeans produced here are considered the finest in the country thanks to local water quality and long-refined fermentation techniques. Natto factories and specialty shops are found throughout Mito, and the city hosts an annual natto festival celebrating the pungent, stringy delicacy that divides even Japanese diners. Visitors can try natto in every imaginable form — over rice, in sushi rolls, in tempura, or even in ice cream — at dedicated shops near Kairakuen.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>natto</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>fermented soybeans</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>Mito</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>Japanese breakfast</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>local speciality</span>
 </div>
 <button class=btn-add-plan onclick=prefTogglePlan(this)>
 🗺️ Add to Plan
@@ -667,8 +626,7 @@
 </article>
 </div>
 </div>
-</section>
-<section class=spot-section id=section-nature data-cat=nature>
+</section><section class=spot-section id=section-nature data-cat=nature>
 <div class=spot-section-inner>
 <div class=section-hd style=--sec-color:#1a7a34>
 <span class=s-icon>🏔️</span>
@@ -676,22 +634,22 @@
 <span class=s-count>8 spots</span>
 </div>
 <div class=spot-grid>
-<article class=spot-card data-spot-id=kairakuen-garden data-spot-name="Kairakuen Garden" data-spot-pref=ibaraki data-spot-fee=300 data-spot-dur=90 data-spot-lat=36.3617 data-spot-lng=140.4733 data-spot-area=mito data-spot-rating=4.4 data-spot-reviews=8500 data-spot-img="https://images.unsplash.com/photo-1522383225653-ed111181a951?w=800&q=80" data-spot-cats=sightseeing,nature,events>
-<img class=spot-img src="https://images.unsplash.com/photo-1522383225653-ed111181a951?w=800&q=80" alt="Kairakuen Garden" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<article class=spot-card data-spot-id=nemophila-season data-spot-name="Hitachi Nemophila Season" data-spot-pref=ibaraki data-spot-fee=450 data-spot-dur=90 data-spot-lat=36.3841 data-spot-lng=140.8038 data-spot-area=hitachi data-spot-rating=4.7 data-spot-reviews=9800 data-spot-img="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80" data-spot-cats=events,nature>
+<img class=spot-img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80" alt="Hitachi Nemophila Season" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>🏔️</div>
 <div class=spot-body>
 <div class=spot-meta>
-<span class=spot-location>📍 Mito, Ibaraki</span>
+<span class=spot-location>📍 Hitachi, Ibaraki</span>
 <span class=spot-season-badge></span>
 </div>
-<h3 class=spot-name>Kairakuen Garden</h3>
-<p class=spot-desc>One of Japan's three great gardens, Kairakuen was opened to the public in 1842 and remains a symbol of Mito. The garden is home to over 3,000 plum trees of 100 varieties that burst into bloom from late February through March, drawing hundreds of thousands of visitors each year. The hillside setting above Lake Senba offers sweeping views across a landscape of bamboo groves, cedar forest, and historic pavilions.</p>
+<h3 class=spot-name>Hitachi Nemophila Season</h3>
+<p class=spot-desc>The Hitachi Seaside Park Nemophila Season in April and May is among the most photographed natural events in Japan, when 4.5 million baby-blue flowers blanket Miharashi Hill in a sea of colour that mirrors the spring sky. The event has become internationally famous through social media, and the park management staggers entry with timed tickets during peak bloom weeks in late April. Early morning visits on weekdays offer the best light and smallest crowds, and the flowers remain beautiful even in overcast weather that softens the colour contrast.</p>
 <div class=spot-tags>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>plum blossoms</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>historic garden</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>spring</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Mito</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Japan's 3 great gardens</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>nemophila</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>blue flowers</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Hitachi</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>April</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>spring event</span>
 </div>
 <button class=btn-add-plan onclick=prefTogglePlan(this)>
 🗺️ Add to Plan
@@ -720,44 +678,44 @@
 </button>
 </div>
 </article>
-<article class=spot-card data-spot-id=lake-kasumigaura data-spot-name="Lake Kasumigaura" data-spot-pref=ibaraki data-spot-fee=0 data-spot-dur=90 data-spot-lat=36.2 data-spot-lng=140.45 data-spot-area=kasumigaura data-spot-rating=4.1 data-spot-reviews=4200 data-spot-img="https://images.unsplash.com/photo-1552083375-1447ce886485?w=800&q=80" data-spot-cats=nature,leisure>
-<img class=spot-img src="https://images.unsplash.com/photo-1552083375-1447ce886485?w=800&q=80" alt="Lake Kasumigaura" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<article class=spot-card data-spot-id=kochia-season data-spot-name="Hitachi Kochia Season" data-spot-pref=ibaraki data-spot-fee=450 data-spot-dur=75 data-spot-lat=36.3841 data-spot-lng=140.8038 data-spot-area=hitachi data-spot-rating=4.5 data-spot-reviews=7200 data-spot-img="https://images.unsplash.com/photo-1566464963286-a7d55db80f53?w=800&q=80" data-spot-cats=events,nature>
+<img class=spot-img src="https://images.unsplash.com/photo-1566464963286-a7d55db80f53?w=800&q=80" alt="Hitachi Kochia Season" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>🏔️</div>
 <div class=spot-body>
 <div class=spot-meta>
-<span class=spot-location>📍 Kasumigaura, Ibaraki</span>
+<span class=spot-location>📍 Hitachi, Ibaraki</span>
 <span class=spot-season-badge></span>
 </div>
-<h3 class=spot-name>Lake Kasumigaura</h3>
-<p class=spot-desc>Lake Kasumigaura is Japan's second largest lake, a vast freshwater expanse of 220 square kilometres stretching across the central Ibaraki lowlands and fringed by reeds, lotus fields, and traditional fishing villages. A 180-kilometre cycling path circumnavigates the lake and is one of Japan's finest long-distance cycling routes, passing through placid rural scenery with water views throughout. The lake is also famous for its whitebait and freshwater eel cuisine, enjoyed at lakeside restaurants that have changed little in decades.</p>
+<h3 class=spot-name>Hitachi Kochia Season</h3>
+<p class=spot-desc>Every October, Miharashi Hill at Hitachi Seaside Park undergoes a second dramatic transformation as 32,000 kochia bushes shift from vivid green to fiery scarlet and crimson, creating an autumn counterpart to the spring nemophila spectacle. The rounded, burning-red spheres of kochia carpet the hillside in a display unlike any other autumn foliage scene in Japan, against a backdrop of the Pacific Ocean and clear autumn skies. Weekend crowds can be substantial, but the colour remains at peak for a full three weeks, giving flexible visitors plenty of options.</p>
 <div class=spot-tags>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>lake</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>cycling</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>fishing</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>second largest lake</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Kasumigaura</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>kochia</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>autumn</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>red foliage</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Hitachi</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>October</span>
 </div>
 <button class=btn-add-plan onclick=prefTogglePlan(this)>
 🗺️ Add to Plan
 </button>
 </div>
 </article>
-<article class=spot-card data-spot-id=oarai-coast data-spot-name="Oarai Coast" data-spot-pref=ibaraki data-spot-fee=0 data-spot-dur=75 data-spot-lat=36.2783 data-spot-lng=140.5733 data-spot-area=oarai data-spot-rating=4.2 data-spot-reviews=3800 data-spot-img="https://images.unsplash.com/photo-1590559899731-a382839e5549?w=800&q=80" data-spot-cats=nature,sightseeing>
-<img class=spot-img src="https://images.unsplash.com/photo-1590559899731-a382839e5549?w=800&q=80" alt="Oarai Coast" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<article class=spot-card data-spot-id=kairakuen-garden data-spot-name="Kairakuen Garden" data-spot-pref=ibaraki data-spot-fee=300 data-spot-dur=90 data-spot-lat=36.3617 data-spot-lng=140.4733 data-spot-area=mito data-spot-rating=4.4 data-spot-reviews=8500 data-spot-img="https://images.unsplash.com/photo-1522383225653-ed111181a951?w=800&q=80" data-spot-cats=sightseeing,nature,events>
+<img class=spot-img src="https://images.unsplash.com/photo-1522383225653-ed111181a951?w=800&q=80" alt="Kairakuen Garden" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>🏔️</div>
 <div class=spot-body>
 <div class=spot-meta>
-<span class=spot-location>📍 Oarai, Ibaraki</span>
+<span class=spot-location>📍 Mito, Ibaraki</span>
 <span class=spot-season-badge></span>
 </div>
-<h3 class=spot-name>Oarai Coast</h3>
-<p class=spot-desc>The Oarai coast is anchored by one of Japan's most photogenic coastal shrines — Oarai Isosaki Shrine, whose distinctive torii gate stands directly on an exposed reef in the Pacific surf, best seen at dawn when the orange gate is silhouetted against the brightening horizon. The rugged Pacific coastline here, battered by strong seasonal swells, draws surfers, fishermen, and photographers seeking dramatic seascapes unlike the gentler shores of Tokyo Bay. The port town itself serves fresh Pacific fish at casual seafood restaurants steps from the harbour.</p>
+<h3 class=spot-name>Kairakuen Garden</h3>
+<p class=spot-desc>One of Japan's three great gardens, Kairakuen was opened to the public in 1842 and remains a symbol of Mito. The garden is home to over 3,000 plum trees of 100 varieties that burst into bloom from late February through March, drawing hundreds of thousands of visitors each year. The hillside setting above Lake Senba offers sweeping views across a landscape of bamboo groves, cedar forest, and historic pavilions.</p>
 <div class=spot-tags>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>torii gate</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>sea</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>coast</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Pacific</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Shinto</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>plum blossoms</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>historic garden</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>spring</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Mito</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Japan's 3 great gardens</span>
 </div>
 <button class=btn-add-plan onclick=prefTogglePlan(this)>
 🗺️ Add to Plan
@@ -786,66 +744,22 @@
 </button>
 </div>
 </article>
-<article class=spot-card data-spot-id=tone-river-wetlands data-spot-name="Tone River Wetlands" data-spot-pref=ibaraki data-spot-fee=0 data-spot-dur=90 data-spot-lat=35.95 data-spot-lng=140.5167 data-spot-area=tone data-spot-rating=3.9 data-spot-reviews=1200 data-spot-img="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=800&q=80" data-spot-cats=nature>
-<img class=spot-img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=800&q=80" alt="Tone River Wetlands" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<article class=spot-card data-spot-id=oarai-coast data-spot-name="Oarai Coast" data-spot-pref=ibaraki data-spot-fee=0 data-spot-dur=75 data-spot-lat=36.2783 data-spot-lng=140.5733 data-spot-area=oarai data-spot-rating=4.2 data-spot-reviews=3800 data-spot-img="https://images.unsplash.com/photo-1590559899731-a382839e5549?w=800&q=80" data-spot-cats=nature,sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1590559899731-a382839e5549?w=800&q=80" alt="Oarai Coast" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>🏔️</div>
 <div class=spot-body>
 <div class=spot-meta>
-<span class=spot-location>📍 Tone, Ibaraki</span>
+<span class=spot-location>📍 Oarai, Ibaraki</span>
 <span class=spot-season-badge></span>
 </div>
-<h3 class=spot-name>Tone River Wetlands</h3>
-<p class=spot-desc>The lower reaches of the Tone River, forming Ibaraki's southern boundary with Chiba Prefecture, support one of the Kanto region's most significant wetland ecosystems, attracting over 200 recorded bird species including rare migratory waders and wintering waterfowl. Reed beds, oxbow lakes, and seasonally flooded meadows create a mosaic of habitats that sustains oriental white storks, white-tailed eagles, and a spectacular variety of herons and ducks through the colder months. Birdwatching hides and nature trails are accessible from several riverside parks in the southern prefecture.</p>
+<h3 class=spot-name>Oarai Coast</h3>
+<p class=spot-desc>The Oarai coast is anchored by one of Japan's most photogenic coastal shrines — Oarai Isosaki Shrine, whose distinctive torii gate stands directly on an exposed reef in the Pacific surf, best seen at dawn when the orange gate is silhouetted against the brightening horizon. The rugged Pacific coastline here, battered by strong seasonal swells, draws surfers, fishermen, and photographers seeking dramatic seascapes unlike the gentler shores of Tokyo Bay. The port town itself serves fresh Pacific fish at casual seafood restaurants steps from the harbour.</p>
 <div class=spot-tags>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>wetlands</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>birdwatching</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Tone River</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>rare birds</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>nature reserve</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=nemophila-season data-spot-name="Hitachi Nemophila Season" data-spot-pref=ibaraki data-spot-fee=450 data-spot-dur=90 data-spot-lat=36.3841 data-spot-lng=140.8038 data-spot-area=hitachi data-spot-rating=4.7 data-spot-reviews=9800 data-spot-img="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80" data-spot-cats=events,nature>
-<img class=spot-img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80" alt="Hitachi Nemophila Season" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>🏔️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Hitachi, Ibaraki</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Hitachi Nemophila Season</h3>
-<p class=spot-desc>The Hitachi Seaside Park Nemophila Season in April and May is among the most photographed natural events in Japan, when 4.5 million baby-blue flowers blanket Miharashi Hill in a sea of colour that mirrors the spring sky. The event has become internationally famous through social media, and the park management staggers entry with timed tickets during peak bloom weeks in late April. Early morning visits on weekdays offer the best light and smallest crowds, and the flowers remain beautiful even in overcast weather that softens the colour contrast.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>nemophila</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>blue flowers</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Hitachi</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>April</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>spring event</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=kochia-season data-spot-name="Hitachi Kochia Season" data-spot-pref=ibaraki data-spot-fee=450 data-spot-dur=75 data-spot-lat=36.3841 data-spot-lng=140.8038 data-spot-area=hitachi data-spot-rating=4.5 data-spot-reviews=7200 data-spot-img="https://images.unsplash.com/photo-1566464963286-a7d55db80f53?w=800&q=80" data-spot-cats=events,nature>
-<img class=spot-img src="https://images.unsplash.com/photo-1566464963286-a7d55db80f53?w=800&q=80" alt="Hitachi Kochia Season" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>🏔️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Hitachi, Ibaraki</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Hitachi Kochia Season</h3>
-<p class=spot-desc>Every October, Miharashi Hill at Hitachi Seaside Park undergoes a second dramatic transformation as 32,000 kochia bushes shift from vivid green to fiery scarlet and crimson, creating an autumn counterpart to the spring nemophila spectacle. The rounded, burning-red spheres of kochia carpet the hillside in a display unlike any other autumn foliage scene in Japan, against a backdrop of the Pacific Ocean and clear autumn skies. Weekend crowds can be substantial, but the colour remains at peak for a full three weeks, giving flexible visitors plenty of options.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>kochia</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>autumn</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>red foliage</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Hitachi</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>October</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>torii gate</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>sea</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>coast</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Pacific</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Shinto</span>
 </div>
 <button class=btn-add-plan onclick=prefTogglePlan(this)>
 🗺️ Add to Plan
@@ -853,9 +767,13 @@
 </div>
 </article>
 </div>
+<div class=see-all-wrap>
+<a class=see-all-btn style=color:#1a7a34 href=/prefectures/ibaraki/spots/#nature>
+See all 8 Nature spots →
+</a>
 </div>
-</section>
-<section class=spot-section id=section-leisure data-cat=leisure>
+</div>
+</section><section class=spot-section id=section-leisure data-cat=leisure>
 <div class=spot-section-inner>
 <div class=section-hd style=--sec-color:#b35c00>
 <span class=s-icon>🎿</span>
@@ -907,28 +825,6 @@
 </button>
 </div>
 </article>
-<article class=spot-card data-spot-id=lake-kasumigaura data-spot-name="Lake Kasumigaura" data-spot-pref=ibaraki data-spot-fee=0 data-spot-dur=90 data-spot-lat=36.2 data-spot-lng=140.45 data-spot-area=kasumigaura data-spot-rating=4.1 data-spot-reviews=4200 data-spot-img="https://images.unsplash.com/photo-1552083375-1447ce886485?w=800&q=80" data-spot-cats=nature,leisure>
-<img class=spot-img src="https://images.unsplash.com/photo-1552083375-1447ce886485?w=800&q=80" alt="Lake Kasumigaura" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>🎿</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Kasumigaura, Ibaraki</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Lake Kasumigaura</h3>
-<p class=spot-desc>Lake Kasumigaura is Japan's second largest lake, a vast freshwater expanse of 220 square kilometres stretching across the central Ibaraki lowlands and fringed by reeds, lotus fields, and traditional fishing villages. A 180-kilometre cycling path circumnavigates the lake and is one of Japan's finest long-distance cycling routes, passing through placid rural scenery with water views throughout. The lake is also famous for its whitebait and freshwater eel cuisine, enjoyed at lakeside restaurants that have changed little in decades.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>lake</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>cycling</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>fishing</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>second largest lake</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Kasumigaura</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
 <article class=spot-card data-spot-id=mt-tsukuba data-spot-name="Mt. Tsukuba" data-spot-pref=ibaraki data-spot-fee=0 data-spot-dur=120 data-spot-lat=36.2197 data-spot-lng=140.1181 data-spot-area=tsukuba data-spot-rating=4.3 data-spot-reviews=6500 data-spot-img="https://images.unsplash.com/photo-1586348943529-beaae6c28db9?w=800&q=80" data-spot-cats=nature,leisure>
 <img class=spot-img src="https://images.unsplash.com/photo-1586348943529-beaae6c28db9?w=800&q=80" alt="Mt. Tsukuba" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>🎿</div>
@@ -951,50 +847,6 @@
 </button>
 </div>
 </article>
-<article class=spot-card data-spot-id=oarai-aquarium data-spot-name="Oarai Aquarium" data-spot-pref=ibaraki data-spot-fee=1700 data-spot-dur=90 data-spot-lat=36.2817 data-spot-lng=140.5683 data-spot-area=oarai data-spot-rating=4.2 data-spot-reviews=4100 data-spot-img="https://images.unsplash.com/photo-1518020382113-a7e8fc38eac9?w=800&q=80" data-spot-cats=leisure>
-<img class=spot-img src="https://images.unsplash.com/photo-1518020382113-a7e8fc38eac9?w=800&q=80" alt="Oarai Aquarium" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>🎿</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Oarai, Ibaraki</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Oarai Aquarium</h3>
-<p class=spot-desc>The Aqua World Oarai Aquarium is one of Japan's largest and most impressive, home to whale sharks, hammerhead sharks, manta rays, and over 580 species of fish and marine mammals displayed in dramatically lit tanks. The open ocean tank — one of the largest in Japan — hosts daily shark feeding shows that draw large crowds, while dolphin and sea lion performances are held in an outdoor arena. Its location right on the Ibaraki coast, with Pacific views from the upper levels, adds to the experience.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>aquarium</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>marine life</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>whale sharks</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>family</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Oarai</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=kasumigaura-cycling data-spot-name="Kasumigaura Lake Cycling Route" data-spot-pref=ibaraki data-spot-fee=0 data-spot-dur=120 data-spot-lat=36.2 data-spot-lng=140.45 data-spot-area=kasumigaura data-spot-rating=4.1 data-spot-reviews=2200 data-spot-img="https://images.unsplash.com/photo-1544191696-102dbeb2be39?w=800&q=80" data-spot-cats=leisure>
-<img class=spot-img src="https://images.unsplash.com/photo-1544191696-102dbeb2be39?w=800&q=80" alt="Kasumigaura Lake Cycling Route" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>🎿</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Kasumigaura, Ibaraki</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Kasumigaura Lake Cycling Route</h3>
-<p class=spot-desc>The Kasumigaura cycling route is a well-signposted 180-kilometre circuit around Japan's second largest lake and is consistently rated one of the top long-distance cycle routes in the Kanto region. The flat terrain makes it accessible to casual cyclists, while the full circumnavigation is a rewarding multi-day challenge with lakeside guesthouses and ryokan spaced along the route. Rental cycles are available from Tsuchiura Station, the main access point, and the route passes through fishing harbours, lotus fields, and wind-turbine fields with unobstructed lake views.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>cycling</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>lake route</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>180km</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>scenic</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>recreation</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
 <article class=spot-card data-spot-id=tsukuba-wellness data-spot-name="Tsukuba Mineral Spa Resort" data-spot-pref=ibaraki data-spot-fee=1500 data-spot-dur=90 data-spot-lat=36.225 data-spot-lng=140.14 data-spot-area=tsukuba data-spot-rating=4.3 data-spot-reviews=3600 data-spot-img="https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=800&q=80" data-spot-cats=leisure>
 <img class=spot-img src="https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=800&q=80" alt="Tsukuba Mineral Spa Resort" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>🎿</div>
@@ -1011,6 +863,28 @@
 <span class=spot-tag style=background:#fff3e0;color:#7a3f00>Tsukuba</span>
 <span class=spot-tag style=background:#fff3e0;color:#7a3f00>relaxation</span>
 <span class=spot-tag style=background:#fff3e0;color:#7a3f00>mineral baths</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class=spot-card data-spot-id=oarai-aquarium data-spot-name="Oarai Aquarium" data-spot-pref=ibaraki data-spot-fee=1700 data-spot-dur=90 data-spot-lat=36.2817 data-spot-lng=140.5683 data-spot-area=oarai data-spot-rating=4.2 data-spot-reviews=4100 data-spot-img="https://images.unsplash.com/photo-1518020382113-a7e8fc38eac9?w=800&q=80" data-spot-cats=leisure>
+<img class=spot-img src="https://images.unsplash.com/photo-1518020382113-a7e8fc38eac9?w=800&q=80" alt="Oarai Aquarium" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎿</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Oarai, Ibaraki</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Oarai Aquarium</h3>
+<p class=spot-desc>The Aqua World Oarai Aquarium is one of Japan's largest and most impressive, home to whale sharks, hammerhead sharks, manta rays, and over 580 species of fish and marine mammals displayed in dramatically lit tanks. The open ocean tank — one of the largest in Japan — hosts daily shark feeding shows that draw large crowds, while dolphin and sea lion performances are held in an outdoor arena. Its location right on the Ibaraki coast, with Pacific views from the upper levels, adds to the experience.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>aquarium</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>marine life</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>whale sharks</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>family</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Oarai</span>
 </div>
 <button class=btn-add-plan onclick=prefTogglePlan(this)>
 🗺️ Add to Plan
@@ -1040,9 +914,13 @@
 </div>
 </article>
 </div>
+<div class=see-all-wrap>
+<a class=see-all-btn style=color:#b35c00 href=/prefectures/ibaraki/spots/#leisure>
+See all 8 Leisure spots →
+</a>
 </div>
-</section>
-<section class=spot-section id=section-events data-cat=events>
+</div>
+</section><section class=spot-section id=section-events data-cat=events>
 <div class=spot-section-inner>
 <div class=section-hd style=--sec-color:#b5006e>
 <span class=s-icon>🎆</span>
@@ -1050,50 +928,6 @@
 <span class=s-count>6 spots</span>
 </div>
 <div class=spot-grid>
-<article class=spot-card data-spot-id=kairakuen-garden data-spot-name="Kairakuen Garden" data-spot-pref=ibaraki data-spot-fee=300 data-spot-dur=90 data-spot-lat=36.3617 data-spot-lng=140.4733 data-spot-area=mito data-spot-rating=4.4 data-spot-reviews=8500 data-spot-img="https://images.unsplash.com/photo-1522383225653-ed111181a951?w=800&q=80" data-spot-cats=sightseeing,nature,events>
-<img class=spot-img src="https://images.unsplash.com/photo-1522383225653-ed111181a951?w=800&q=80" alt="Kairakuen Garden" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>🎆</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Mito, Ibaraki</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Kairakuen Garden</h3>
-<p class=spot-desc>One of Japan's three great gardens, Kairakuen was opened to the public in 1842 and remains a symbol of Mito. The garden is home to over 3,000 plum trees of 100 varieties that burst into bloom from late February through March, drawing hundreds of thousands of visitors each year. The hillside setting above Lake Senba offers sweeping views across a landscape of bamboo groves, cedar forest, and historic pavilions.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#ffe8f4;color:#88004e>plum blossoms</span>
-<span class=spot-tag style=background:#ffe8f4;color:#88004e>historic garden</span>
-<span class=spot-tag style=background:#ffe8f4;color:#88004e>spring</span>
-<span class=spot-tag style=background:#ffe8f4;color:#88004e>Mito</span>
-<span class=spot-tag style=background:#ffe8f4;color:#88004e>Japan's 3 great gardens</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=mito-plum-festival data-spot-name="Mito Plum Blossom Festival" data-spot-pref=ibaraki data-spot-fee=0 data-spot-dur=90 data-spot-lat=36.3617 data-spot-lng=140.4733 data-spot-area=mito data-spot-rating=4.3 data-spot-reviews=4500 data-spot-img="https://images.unsplash.com/photo-1522383225653-ed111181a951?w=800&q=80" data-spot-cats=events>
-<img class=spot-img src="https://images.unsplash.com/photo-1522383225653-ed111181a951?w=800&q=80" alt="Mito Plum Blossom Festival" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>🎆</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Mito, Ibaraki</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Mito Plum Blossom Festival</h3>
-<p class=spot-desc>The Mito Plum Blossom Festival, held annually from late February through late March at Kairakuen, is one of Japan's most beloved early-spring events and draws over 300,000 visitors during its run. More than 3,000 plum trees across 100 varieties bloom in waves of white, pink, and deep red, filling the garden with fragrance and colour while traditional street food stalls, tea ceremonies, and court music performances bring the garden to life. The festival marks the official start of spring in Ibaraki and is celebrated across the city with illuminated night-garden events on weekends.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#ffe8f4;color:#88004e>plum blossoms</span>
-<span class=spot-tag style=background:#ffe8f4;color:#88004e>festival</span>
-<span class=spot-tag style=background:#ffe8f4;color:#88004e>Kairakuen</span>
-<span class=spot-tag style=background:#ffe8f4;color:#88004e>February</span>
-<span class=spot-tag style=background:#ffe8f4;color:#88004e>March</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
 <article class=spot-card data-spot-id=nemophila-season data-spot-name="Hitachi Nemophila Season" data-spot-pref=ibaraki data-spot-fee=450 data-spot-dur=90 data-spot-lat=36.3841 data-spot-lng=140.8038 data-spot-area=hitachi data-spot-rating=4.7 data-spot-reviews=9800 data-spot-img="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80" data-spot-cats=events,nature>
 <img class=spot-img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80" alt="Hitachi Nemophila Season" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>🎆</div>
@@ -1110,6 +944,50 @@
 <span class=spot-tag style=background:#ffe8f4;color:#88004e>Hitachi</span>
 <span class=spot-tag style=background:#ffe8f4;color:#88004e>April</span>
 <span class=spot-tag style=background:#ffe8f4;color:#88004e>spring event</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class=spot-card data-spot-id=kochia-season data-spot-name="Hitachi Kochia Season" data-spot-pref=ibaraki data-spot-fee=450 data-spot-dur=75 data-spot-lat=36.3841 data-spot-lng=140.8038 data-spot-area=hitachi data-spot-rating=4.5 data-spot-reviews=7200 data-spot-img="https://images.unsplash.com/photo-1566464963286-a7d55db80f53?w=800&q=80" data-spot-cats=events,nature>
+<img class=spot-img src="https://images.unsplash.com/photo-1566464963286-a7d55db80f53?w=800&q=80" alt="Hitachi Kochia Season" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎆</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Hitachi, Ibaraki</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Hitachi Kochia Season</h3>
+<p class=spot-desc>Every October, Miharashi Hill at Hitachi Seaside Park undergoes a second dramatic transformation as 32,000 kochia bushes shift from vivid green to fiery scarlet and crimson, creating an autumn counterpart to the spring nemophila spectacle. The rounded, burning-red spheres of kochia carpet the hillside in a display unlike any other autumn foliage scene in Japan, against a backdrop of the Pacific Ocean and clear autumn skies. Weekend crowds can be substantial, but the colour remains at peak for a full three weeks, giving flexible visitors plenty of options.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>kochia</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>autumn</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>red foliage</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>Hitachi</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>October</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class=spot-card data-spot-id=kairakuen-garden data-spot-name="Kairakuen Garden" data-spot-pref=ibaraki data-spot-fee=300 data-spot-dur=90 data-spot-lat=36.3617 data-spot-lng=140.4733 data-spot-area=mito data-spot-rating=4.4 data-spot-reviews=8500 data-spot-img="https://images.unsplash.com/photo-1522383225653-ed111181a951?w=800&q=80" data-spot-cats=sightseeing,nature,events>
+<img class=spot-img src="https://images.unsplash.com/photo-1522383225653-ed111181a951?w=800&q=80" alt="Kairakuen Garden" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎆</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Mito, Ibaraki</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Kairakuen Garden</h3>
+<p class=spot-desc>One of Japan's three great gardens, Kairakuen was opened to the public in 1842 and remains a symbol of Mito. The garden is home to over 3,000 plum trees of 100 varieties that burst into bloom from late February through March, drawing hundreds of thousands of visitors each year. The hillside setting above Lake Senba offers sweeping views across a landscape of bamboo groves, cedar forest, and historic pavilions.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>plum blossoms</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>historic garden</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>spring</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>Mito</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>Japan's 3 great gardens</span>
 </div>
 <button class=btn-add-plan onclick=prefTogglePlan(this)>
 🗺️ Add to Plan
@@ -1138,6 +1016,28 @@
 </button>
 </div>
 </article>
+<article class=spot-card data-spot-id=mito-plum-festival data-spot-name="Mito Plum Blossom Festival" data-spot-pref=ibaraki data-spot-fee=0 data-spot-dur=90 data-spot-lat=36.3617 data-spot-lng=140.4733 data-spot-area=mito data-spot-rating=4.3 data-spot-reviews=4500 data-spot-img="https://images.unsplash.com/photo-1522383225653-ed111181a951?w=800&q=80" data-spot-cats=events>
+<img class=spot-img src="https://images.unsplash.com/photo-1522383225653-ed111181a951?w=800&q=80" alt="Mito Plum Blossom Festival" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎆</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Mito, Ibaraki</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Mito Plum Blossom Festival</h3>
+<p class=spot-desc>The Mito Plum Blossom Festival, held annually from late February through late March at Kairakuen, is one of Japan's most beloved early-spring events and draws over 300,000 visitors during its run. More than 3,000 plum trees across 100 varieties bloom in waves of white, pink, and deep red, filling the garden with fragrance and colour while traditional street food stalls, tea ceremonies, and court music performances bring the garden to life. The festival marks the official start of spring in Ibaraki and is celebrated across the city with illuminated night-garden events on weekends.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>plum blossoms</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>festival</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>Kairakuen</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>February</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>March</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 <article class=spot-card data-spot-id=kashima-festival data-spot-name="Kashima Festival" data-spot-pref=ibaraki data-spot-fee=0 data-spot-dur=120 data-spot-lat=35.9906 data-spot-lng=140.6453 data-spot-area=kashima data-spot-rating=4.2 data-spot-reviews=1800 data-spot-img="https://images.unsplash.com/photo-1509316785289-025f5b846b35?w=800&q=80" data-spot-cats=events>
 <img class=spot-img src="https://images.unsplash.com/photo-1509316785289-025f5b846b35?w=800&q=80" alt="Kashima Festival" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>🎆</div>
@@ -1154,28 +1054,6 @@
 <span class=spot-tag style=background:#ffe8f4;color:#88004e>equinox</span>
 <span class=spot-tag style=background:#ffe8f4;color:#88004e>Shinto ritual</span>
 <span class=spot-tag style=background:#ffe8f4;color:#88004e>traditional</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=kochia-season data-spot-name="Hitachi Kochia Season" data-spot-pref=ibaraki data-spot-fee=450 data-spot-dur=75 data-spot-lat=36.3841 data-spot-lng=140.8038 data-spot-area=hitachi data-spot-rating=4.5 data-spot-reviews=7200 data-spot-img="https://images.unsplash.com/photo-1566464963286-a7d55db80f53?w=800&q=80" data-spot-cats=events,nature>
-<img class=spot-img src="https://images.unsplash.com/photo-1566464963286-a7d55db80f53?w=800&q=80" alt="Hitachi Kochia Season" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>🎆</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Hitachi, Ibaraki</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Hitachi Kochia Season</h3>
-<p class=spot-desc>Every October, Miharashi Hill at Hitachi Seaside Park undergoes a second dramatic transformation as 32,000 kochia bushes shift from vivid green to fiery scarlet and crimson, creating an autumn counterpart to the spring nemophila spectacle. The rounded, burning-red spheres of kochia carpet the hillside in a display unlike any other autumn foliage scene in Japan, against a backdrop of the Pacific Ocean and clear autumn skies. Weekend crowds can be substantial, but the colour remains at peak for a full three weeks, giving flexible visitors plenty of options.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#ffe8f4;color:#88004e>kochia</span>
-<span class=spot-tag style=background:#ffe8f4;color:#88004e>autumn</span>
-<span class=spot-tag style=background:#ffe8f4;color:#88004e>red foliage</span>
-<span class=spot-tag style=background:#ffe8f4;color:#88004e>Hitachi</span>
-<span class=spot-tag style=background:#ffe8f4;color:#88004e>October</span>
 </div>
 <button class=btn-add-plan onclick=prefTogglePlan(this)>
 🗺️ Add to Plan

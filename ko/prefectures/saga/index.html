@@ -85,7 +85,7 @@
   document.addEventListener('keydown', function(e){ if(e.key==='Escape') close(); });
 })();
 </script>
-<style>.pref-breadcrumb{background:#f8f9fa;border-bottom:1px solid var(--border);padding:.6rem 1.5rem;font-size:.82rem;color:var(--gray)}.pref-breadcrumb a{color:var(--red);text-decoration:none}.pref-breadcrumb a:hover{text-decoration:underline}.pref-breadcrumb span{margin:0 .4rem}.pref-hero{position:relative;min-height:440px;display:flex;align-items:flex-end;background:#1a0a00 50%/cover no-repeat;background-image:url(https://images.unsplash.com/photo-1601823984263-b87b59798b70?w=1600&q=80)}.pref-hero::after{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,.15) 0%,rgba(0,0,0,.7) 100%)}.pref-hero-body{position:relative;z-index:1;padding:2.5rem 1.5rem 2rem;max-width:var(--max-w);margin:0 auto;width:100%}.pref-hero-eyebrow{color:rgba(255,255,255,.75);font-size:.82rem;font-weight:600;text-transform:uppercase;letter-spacing:.1em;margin-bottom:.5rem}.pref-hero h1{color:#fff;font-size:clamp(2.2rem,5.5vw,3.4rem);font-weight:900;margin:0 0 .5rem;line-height:1.1}.pref-hero .pref-sub{color:rgba(255,255,255,.88);font-size:1.05rem;max-width:560px;margin-bottom:1rem}.pref-stats{display:flex;flex-wrap:wrap;gap:.6rem}.pref-stat{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);border-radius:20px;padding:.3rem .85rem;color:#fff;font-size:.8rem;font-weight:600}.pref-section{padding:2.5rem 1.5rem}.pref-section+.pref-section{padding-top:0}.pref-container{max-width:var(--max-w);margin:0 auto}.pref-section-title{font-size:1.55rem;font-weight:900;margin:0 0 .4rem;display:flex;align-items:center;gap:.5rem}.pref-section-lead{font-size:1rem;color:#555;line-height:1.7;max-width:680px;margin-bottom:1.5rem}.ponko-guide{display:flex;align-items:flex-end;gap:0;margin-bottom:1.6rem}.ponko-bubble{flex:1;min-width:0;background:linear-gradient(135deg,#fff9f0,#fff3e0);border:2px solid #f5a623;border-radius:18px 18px 18px 4px;padding:1.2rem 1.5rem;position:relative;box-shadow:0 4px 14px rgba(245,166,35,.13)}.ponko-bubble::after{content:'';position:absolute;right:-18px;bottom:22px;border:9px solid transparent;border-left-color:#f5a623}.ponko-bubble::before{content:'';position:absolute;right:-13px;bottom:23px;z-index:1;border:8px solid transparent;border-left-color:#fff9f0}.ponko-bubble p{font-size:.97rem;line-height:1.8;color:#333;margin:0}.ponko-figure{flex-shrink:0;width:170px;margin-left:4px;animation:ponko-float 3s ease-in-out infinite}.ponko-figure img{width:100%;height:auto;display:block;filter:drop-shadow(0 6px 10px rgba(0,0,0,.18))}@keyframes ponko-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}@media(max-width:640px){.ponko-guide{flex-direction:column;align-items:center}.ponko-bubble{border-radius:18px;order:2;width:100%}.ponko-bubble::after,.ponko-bubble::before{display:none}.ponko-figure{order:1;width:130px;margin-left:0;margin-bottom:.5rem;animation:none}}.quick-facts{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.8rem;margin-top:1.4rem}.qf-card{background:#f8f9fb;border:1px solid var(--border);border-radius:12px;padding:1rem 1.1rem;display:flex;align-items:flex-start;gap:.7rem}.qf-icon{font-size:1.4rem;flex-shrink:0}.qf-label{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--gray);margin-bottom:.15rem}.qf-value{font-size:.9rem;font-weight:600;color:var(--dark)}.access-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}.access-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 8px rgba(0,0,0,5%)}.access-card-hd{display:flex;align-items:center;gap:.5rem;margin-bottom:.8rem}.access-card-icon{font-size:1.5rem}.access-card-title{font-size:1rem;font-weight:800;color:var(--dark)}.access-card ul{margin:0;padding-left:1.1rem}.access-card li{font-size:.875rem;line-height:1.65;color:#444;margin-bottom:.3rem}.access-card li strong{color:var(--dark)}.access-tip{margin-top:1.2rem;background:#fff8e6;border:1px solid #ffe0a0;border-radius:10px;padding:.9rem 1.1rem;font-size:.85rem;line-height:1.6;color:#5a3e00}.access-tip strong{display:block;margin-bottom:.2rem;font-size:.88rem}.guide-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem}.guide-card{background:#fff;border-radius:14px;overflow:hidden;border:1px solid var(--border);box-shadow:0 2px 8px rgba(0,0,0,5%);transition:transform .15s,box-shadow .15s;position:relative;display:flex;flex-direction:column}.guide-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.guide-card-img{width:100%;height:150px;object-fit:cover;background:#e8eef4;display:block}.guide-card-img-ph{width:100%;height:150px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:2.5rem}.guide-card-body{padding:.9rem 1rem 1rem;flex:1}.guide-cat-badge{display:inline-block;font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;padding:.15rem .55rem;border-radius:8px;background:var(--red);color:#fff;margin-bottom:.4rem}.guide-card-title{font-size:.92rem;font-weight:800;color:var(--dark);line-height:1.4}.guide-coming-soon{position:absolute;top:.6rem;right:.6rem;background:rgba(0,0,0,.55);color:#fff;font-size:.65rem;font-weight:700;padding:.2rem .5rem;border-radius:6px;text-transform:uppercase;letter-spacing:.05em}.guide-card-link{text-decoration:none;color:inherit;display:flex;flex-direction:column;height:100%}.pref-toc{background:#fff;border-bottom:2px solid var(--border);position:sticky;top:0;z-index:100;overflow-x:auto}.pref-toc-inner{display:flex;gap:0;max-width:var(--max-w);margin:0 auto}.pref-toc-btn{flex:none;display:flex;align-items:center;gap:.4rem;padding:.8rem 1.2rem;border:none;background:0 0;cursor:pointer;font-family:inherit;font-size:.88rem;font-weight:600;color:var(--gray);border-bottom:3px solid transparent;transition:all .18s;white-space:nowrap}.pref-toc-btn .toc-icon{font-size:1.1rem}.pref-toc-btn:hover{color:var(--dark);background:#f8f8f8}.pref-toc-btn.active{color:var(--toc-color,var(--red));border-bottom-color:var(--toc-color,var(--red))}.spot-section{padding:2rem 1.5rem 2.5rem}.spot-section.hidden{display:none}.spot-section-inner{max-width:var(--max-w);margin:0 auto}.section-hd{display:flex;align-items:center;gap:.6rem;margin-bottom:1.4rem;padding-bottom:.7rem;border-bottom:2px solid var(--border)}.section-hd .s-icon{font-size:1.6rem}.section-hd h2{font-size:1.35rem;font-weight:800;margin:0}.section-hd .s-count{margin-left:auto;background:var(--sec-color,var(--red));color:#fff;border-radius:20px;padding:.15rem .65rem;font-size:.78rem;font-weight:700}.spot-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.25rem}.spot-card{border-radius:14px;overflow:hidden;border:1px solid var(--border);background:#fff;box-shadow:0 2px 8px rgba(0,0,0,6%);transition:transform .15s,box-shadow .15s;display:flex;flex-direction:column}.spot-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.spot-img{width:100%;height:200px;object-fit:cover;background:#e8eef4;display:block}.spot-img-ph{width:100%;height:200px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:3rem}.spot-body{padding:1rem 1.1rem 1.1rem;flex:1;display:flex;flex-direction:column}.spot-meta{display:flex;align-items:center;gap:.5rem;margin-bottom:.5rem}.spot-location{font-size:.78rem;color:var(--gray);font-weight:500}.spot-season-badge{margin-left:auto;font-size:.7rem;font-weight:700;padding:.1rem .5rem;border-radius:10px;background:#f0f4f8;color:#555;white-space:nowrap}.spot-name{font-size:1.08rem;font-weight:800;color:var(--dark);margin:0 0 .45rem;line-height:1.3}.spot-desc{font-size:.86rem;line-height:1.65;color:#555;flex:1;margin-bottom:.75rem}.spot-tags{display:flex;flex-wrap:wrap;gap:.3rem}.spot-tag{font-size:.7rem;font-weight:600;padding:.15rem .5rem;border-radius:6px;background:var(--tag-bg,#f0f4f8);color:var(--tag-color,#445)}.tips-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem}.tip-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 6px rgba(0,0,0,4%)}.tip-card-icon{font-size:1.8rem;margin-bottom:.6rem}.tip-card-title{font-size:.95rem;font-weight:800;color:var(--dark);margin-bottom:.5rem}.tip-card-body{font-size:.85rem;line-height:1.65;color:#555}.tip-card-body ul{margin:.3rem 0 0;padding-left:1.1rem}.tip-card-body li{margin-bottom:.2rem}.pref-cta{background:var(--bg-soft);padding:2.5rem 1.5rem 3rem;border-top:1px solid var(--border)}.pref-cta .pref-container{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}@media(max-width:600px){.pref-hero{min-height:320px}.quick-facts{grid-template-columns:repeat(2,1fr)}.pref-toc-btn{padding:.7rem .9rem;font-size:.82rem}}.btn-add-plan{display:inline-flex;align-items:center;gap:.35rem;margin-top:.75rem;padding:.45rem .9rem;border:1.5px solid #2d5be3;border-radius:8px;background:#fff;color:#2d5be3;font-size:.78rem;font-weight:700;font-family:inherit;cursor:pointer;transition:background .15s,color .15s,transform .1s;width:100%;justify-content:center}.btn-add-plan:hover{background:#2d5be3;color:#fff;transform:translateY(-1px)}.btn-add-plan.in-plan{background:#e8f0ff;color:#1a45a8;border-color:#1a45a8}.btn-add-plan.in-plan:hover{background:#c0003a;color:#fff;border-color:#c0003a}</style>
+<style>.pref-breadcrumb{background:#f8f9fa;border-bottom:1px solid var(--border);padding:.6rem 1.5rem;font-size:.82rem;color:var(--gray)}.pref-breadcrumb a{color:var(--red);text-decoration:none}.pref-breadcrumb a:hover{text-decoration:underline}.pref-breadcrumb span{margin:0 .4rem}.pref-hero{position:relative;min-height:440px;display:flex;align-items:flex-end;background:#1a0a00 50%/cover no-repeat;background-image:url(https://images.unsplash.com/photo-1601823984263-b87b59798b70?w=1600&q=80)}.pref-hero::after{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,.15) 0%,rgba(0,0,0,.7) 100%)}.pref-hero-body{position:relative;z-index:1;padding:2.5rem 1.5rem 2rem;max-width:var(--max-w);margin:0 auto;width:100%}.pref-hero-eyebrow{color:rgba(255,255,255,.75);font-size:.82rem;font-weight:600;text-transform:uppercase;letter-spacing:.1em;margin-bottom:.5rem}.pref-hero h1{color:#fff;font-size:clamp(2.2rem,5.5vw,3.4rem);font-weight:900;margin:0 0 .5rem;line-height:1.1}.pref-hero .pref-sub{color:rgba(255,255,255,.88);font-size:1.05rem;max-width:560px;margin-bottom:1rem}.pref-stats{display:flex;flex-wrap:wrap;gap:.6rem}.pref-stat{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);border-radius:20px;padding:.3rem .85rem;color:#fff;font-size:.8rem;font-weight:600}.pref-section{padding:2.5rem 1.5rem}.pref-section+.pref-section{padding-top:0}.pref-container{max-width:var(--max-w);margin:0 auto}.pref-section-title{font-size:1.55rem;font-weight:900;margin:0 0 .4rem;display:flex;align-items:center;gap:.5rem}.pref-section-lead{font-size:1rem;color:#555;line-height:1.7;max-width:680px;margin-bottom:1.5rem}.ponko-guide{display:flex;align-items:flex-end;gap:0;margin-bottom:1.6rem}.ponko-bubble{flex:1;min-width:0;background:linear-gradient(135deg,#fff9f0,#fff3e0);border:2px solid #f5a623;border-radius:18px 18px 18px 4px;padding:1.2rem 1.5rem;position:relative;box-shadow:0 4px 14px rgba(245,166,35,.13)}.ponko-bubble::after{content:'';position:absolute;right:-18px;bottom:22px;border:9px solid transparent;border-left-color:#f5a623}.ponko-bubble::before{content:'';position:absolute;right:-13px;bottom:23px;z-index:1;border:8px solid transparent;border-left-color:#fff9f0}.ponko-bubble p{font-size:.97rem;line-height:1.8;color:#333;margin:0}.ponko-figure{flex-shrink:0;width:170px;margin-left:4px;animation:ponko-float 3s ease-in-out infinite}.ponko-figure img{width:100%;height:auto;display:block;filter:drop-shadow(0 6px 10px rgba(0,0,0,.18))}@keyframes ponko-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}@media(max-width:640px){.ponko-guide{flex-direction:column;align-items:center}.ponko-bubble{border-radius:18px;order:2;width:100%}.ponko-bubble::after,.ponko-bubble::before{display:none}.ponko-figure{order:1;width:130px;margin-left:0;margin-bottom:.5rem;animation:none}}.quick-facts{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.8rem;margin-top:1.4rem}.qf-card{background:#f8f9fb;border:1px solid var(--border);border-radius:12px;padding:1rem 1.1rem;display:flex;align-items:flex-start;gap:.7rem}.qf-icon{font-size:1.4rem;flex-shrink:0}.qf-label{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--gray);margin-bottom:.15rem}.qf-value{font-size:.9rem;font-weight:600;color:var(--dark)}.access-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}.access-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 8px rgba(0,0,0,5%)}.access-card-hd{display:flex;align-items:center;gap:.5rem;margin-bottom:.8rem}.access-card-icon{font-size:1.5rem}.access-card-title{font-size:1rem;font-weight:800;color:var(--dark)}.access-card ul{margin:0;padding-left:1.1rem}.access-card li{font-size:.875rem;line-height:1.65;color:#444;margin-bottom:.3rem}.access-card li strong{color:var(--dark)}.access-tip{margin-top:1.2rem;background:#fff8e6;border:1px solid #ffe0a0;border-radius:10px;padding:.9rem 1.1rem;font-size:.85rem;line-height:1.6;color:#5a3e00}.access-tip strong{display:block;margin-bottom:.2rem;font-size:.88rem}.guide-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem}.guide-card{background:#fff;border-radius:14px;overflow:hidden;border:1px solid var(--border);box-shadow:0 2px 8px rgba(0,0,0,5%);transition:transform .15s,box-shadow .15s;position:relative;display:flex;flex-direction:column}.guide-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.guide-card-img{width:100%;height:150px;object-fit:cover;background:#e8eef4;display:block}.guide-card-img-ph{width:100%;height:150px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:2.5rem}.guide-card-body{padding:.9rem 1rem 1rem;flex:1}.guide-cat-badge{display:inline-block;font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;padding:.15rem .55rem;border-radius:8px;background:var(--red);color:#fff;margin-bottom:.4rem}.guide-card-title{font-size:.92rem;font-weight:800;color:var(--dark);line-height:1.4}.guide-coming-soon{position:absolute;top:.6rem;right:.6rem;background:rgba(0,0,0,.55);color:#fff;font-size:.65rem;font-weight:700;padding:.2rem .5rem;border-radius:6px;text-transform:uppercase;letter-spacing:.05em}.guide-card-link{text-decoration:none;color:inherit;display:flex;flex-direction:column;height:100%}.pref-toc{background:#fff;border-bottom:2px solid var(--border);position:sticky;top:0;z-index:100;overflow-x:auto}.pref-toc-inner{display:flex;gap:0;max-width:var(--max-w);margin:0 auto}.pref-toc-btn{flex:none;display:flex;align-items:center;gap:.4rem;padding:.8rem 1.2rem;border:none;background:0 0;cursor:pointer;font-family:inherit;font-size:.88rem;font-weight:600;color:var(--gray);border-bottom:3px solid transparent;transition:all .18s;white-space:nowrap}.pref-toc-btn .toc-icon{font-size:1.1rem}.pref-toc-btn:hover{color:var(--dark);background:#f8f8f8}.pref-toc-btn.active{color:var(--toc-color,var(--red));border-bottom-color:var(--toc-color,var(--red))}.spot-section{padding:2rem 1.5rem 2.5rem}.spot-section.hidden{display:none}.spot-section-inner{max-width:var(--max-w);margin:0 auto}.section-hd{display:flex;align-items:center;gap:.6rem;margin-bottom:1.4rem;padding-bottom:.7rem;border-bottom:2px solid var(--border)}.section-hd .s-icon{font-size:1.6rem}.section-hd h2{font-size:1.35rem;font-weight:800;margin:0}.section-hd .s-count{margin-left:auto;background:var(--sec-color,var(--red));color:#fff;border-radius:20px;padding:.15rem .65rem;font-size:.78rem;font-weight:700}.spot-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.25rem}.spot-card{border-radius:14px;overflow:hidden;border:1px solid var(--border);background:#fff;box-shadow:0 2px 8px rgba(0,0,0,6%);transition:transform .15s,box-shadow .15s;display:flex;flex-direction:column}.spot-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.spot-img{width:100%;height:200px;object-fit:cover;background:#e8eef4;display:block}.spot-img-ph{width:100%;height:200px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:3rem}.spot-body{padding:1rem 1.1rem 1.1rem;flex:1;display:flex;flex-direction:column}.spot-meta{display:flex;align-items:center;gap:.5rem;margin-bottom:.5rem}.spot-location{font-size:.78rem;color:var(--gray);font-weight:500}.spot-season-badge{margin-left:auto;font-size:.7rem;font-weight:700;padding:.1rem .5rem;border-radius:10px;background:#f0f4f8;color:#555;white-space:nowrap}.spot-name{font-size:1.08rem;font-weight:800;color:var(--dark);margin:0 0 .45rem;line-height:1.3}.spot-desc{font-size:.86rem;line-height:1.65;color:#555;flex:1;margin-bottom:.75rem}.spot-tags{display:flex;flex-wrap:wrap;gap:.3rem}.spot-tag{font-size:.7rem;font-weight:600;padding:.15rem .5rem;border-radius:6px;background:var(--tag-bg,#f0f4f8);color:var(--tag-color,#445)}.tips-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem}.tip-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 6px rgba(0,0,0,4%)}.tip-card-icon{font-size:1.8rem;margin-bottom:.6rem}.tip-card-title{font-size:.95rem;font-weight:800;color:var(--dark);margin-bottom:.5rem}.tip-card-body{font-size:.85rem;line-height:1.65;color:#555}.tip-card-body ul{margin:.3rem 0 0;padding-left:1.1rem}.tip-card-body li{margin-bottom:.2rem}.pref-cta{background:var(--bg-soft);padding:2.5rem 1.5rem 3rem;border-top:1px solid var(--border)}.pref-cta .pref-container{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}@media(max-width:600px){.pref-hero{min-height:320px}.quick-facts{grid-template-columns:repeat(2,1fr)}.pref-toc-btn{padding:.7rem .9rem;font-size:.82rem}}.btn-add-plan{display:inline-flex;align-items:center;gap:.35rem;margin-top:.75rem;padding:.45rem .9rem;border:1.5px solid #2d5be3;border-radius:8px;background:#fff;color:#2d5be3;font-size:.78rem;font-weight:700;font-family:inherit;cursor:pointer;transition:background .15s,color .15s,transform .1s;width:100%;justify-content:center}.btn-add-plan:hover{background:#2d5be3;color:#fff;transform:translateY(-1px)}.btn-add-plan.in-plan{background:#e8f0ff;color:#1a45a8;border-color:#1a45a8}.btn-add-plan.in-plan:hover{background:#c0003a;color:#fff;border-color:#c0003a}.see-all-wrap{text-align:center;margin-top:1.5rem;padding-top:1rem;border-top:1px dashed var(--border)}.see-all-btn{display:inline-flex;align-items:center;gap:.4rem;padding:.55rem 1.5rem;border:2px solid;border-radius:10px;font-size:.88rem;font-weight:700;text-decoration:none;transition:all .15s}.see-all-btn:hover{opacity:.8;text-decoration:none}</style>
 <nav class=pref-breadcrumb aria-label=breadcrumb>
 <a href=/>홈</a><span>›</span>
 <a href=/explore/>일본 탐색</a><span>›</span>
@@ -398,8 +398,7 @@
 <span class=toc-icon>🎆</span> 이벤트
 </button>
 </div>
-</nav>
-<section class=spot-section id=section-sightseeing data-cat=sightseeing>
+</nav><section class=spot-section id=section-sightseeing data-cat=sightseeing>
 <div class=spot-section-inner>
 <div class=section-hd style=--sec-color:#1a45a8>
 <span class=s-icon>⛩️</span>
@@ -407,40 +406,80 @@
 <span class=s-count>19 곳</span>
 </div>
 <div class=spot-grid>
-<article class=spot-card data-spot-id=karatsu-castle data-spot-name="Karatsu Castle" data-spot-pref=saga data-spot-fee=1050 data-spot-dur=90 data-spot-lat=33.4505 data-spot-lng=129.8804 data-spot-area=karatsu-central data-spot-rating=4.5 data-spot-reviews=2300 data-spot-img="https://images.unsplash.com/photo-1564507592333-c60657eea523?w=800&q=80" data-spot-cats=sightseeing,culture>
-<img class=spot-img src="https://images.unsplash.com/photo-1564507592333-c60657eea523?w=800&q=80" alt="Karatsu Castle" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<article class=spot-card data-spot-id=saga-international-balloon-fiesta data-spot-name="Saga International Balloon Fiesta" data-spot-pref=saga data-spot-fee=0 data-spot-dur=120 data-spot-lat=33.2583 data-spot-lng=130.4106 data-spot-area=tara-district data-spot-rating=4.8 data-spot-reviews=2800 data-spot-img="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" data-spot-cats=leisure,sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" alt="Saga International Balloon Fiesta" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>⛩️</div>
 <div class=spot-body>
 <div class=spot-meta>
-<span class=spot-location>📍 Karatsu, Saga</span>
+<span class=spot-location>📍 Tara, Saga</span>
 <span class=spot-season-badge></span>
 </div>
-<h3 class=spot-name>Karatsu Castle</h3>
-<p class=spot-desc>A magnificent 16th-century castle overlooking the Karatsu Bay with stunning seasonal views, especially during spring cherry blossom season. The reconstructed keep offers panoramic vistas and displays samurai armor, weapons, and historical artifacts that tell the story of the Karatsu domain.</p>
+<h3 class=spot-name>Saga International Balloon Fiesta</h3>
+<p class=spot-desc>Asia's largest hot air balloon festival draws hundreds of colorful balloons from around the world for a spectacular autumn celebration. Visitors can ride balloons, watch dawn mass ascents, and enjoy food stalls in this magical event that transforms the Saga sky into a canvas of colors.</p>
 <div class=spot-tags>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Historic Castle</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Sea Views</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Cherry Blossoms</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Hot Air Balloons</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Festival</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Sunrise Event</span>
 </div>
 <button class=btn-add-plan onclick=prefTogglePlan(this)>
 🗺️ Add to Plan
 </button>
 </div>
 </article>
-<article class=spot-card data-spot-id=yoshinogari-historic-site data-spot-name="Yoshinogari Historic Site" data-spot-pref=saga data-spot-fee=600 data-spot-dur=150 data-spot-lat=33.3183 data-spot-lng=130.2985 data-spot-area=yoshinogari data-spot-rating=4.4 data-spot-reviews=1800 data-spot-img="https://images.unsplash.com/photo-1579746322750-78d7e7dab587?w=800&q=80" data-spot-cats=culture,sightseeing>
-<img class=spot-img src="https://images.unsplash.com/photo-1579746322750-78d7e7dab587?w=800&q=80" alt="Yoshinogari Historic Site" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<article class=spot-card data-spot-id=nanatsugama-sea-caves data-spot-name="Nanatsugama Sea Caves" data-spot-pref=saga data-spot-fee=1500 data-spot-dur=90 data-spot-lat=33.5155 data-spot-lng=129.9245 data-spot-area=karatsu-coastal data-spot-rating=4.7 data-spot-reviews=2100 data-spot-img="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" data-spot-cats=nature,sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" alt="Nanatsugama Sea Caves" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>⛩️</div>
 <div class=spot-body>
 <div class=spot-meta>
-<span class=spot-location>📍 Yoshinogari, Saga</span>
+<span class=spot-location>📍 Karatsu, Saga</span>
 <span class=spot-season-badge></span>
 </div>
-<h3 class=spot-name>Yoshinogari Historic Site</h3>
-<p class=spot-desc>Japan's largest and most well-preserved Yayoi period settlement site featuring reconstructed pit houses, storehouses, and watchtowers that transport you back 2,000 years. The on-site museum and recreated village provide fascinating insights into ancient Japanese life and agricultural practices.</p>
+<h3 class=spot-name>Nanatsugama Sea Caves</h3>
+<p class=spot-desc>Seven magnificent sea caves carved into dramatic sandstone cliffs by millions of years of wave erosion create a breathtaking natural spectacle along Karatsu's coastline. Accessible by boat tour, these towering formations and turquoise waters offer an unforgettable journey through Saga's raw natural beauty.</p>
 <div class=spot-tags>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Yayoi Period</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Archaeological</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Interactive Museum</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Sea Caves</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Coastal Scenery</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Rock Formations</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class=spot-card data-spot-id=yobuko-squid-fishing-village data-spot-name="Yobuko Squid Fishing Village" data-spot-pref=saga data-spot-fee=0 data-spot-dur=120 data-spot-lat=33.8242 data-spot-lng=129.9003 data-spot-area=yobuko data-spot-rating=4.6 data-spot-reviews=2200 data-spot-img="https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80" data-spot-cats=food,sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80" alt="Yobuko Squid Fishing Village" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Yobuko, Saga</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Yobuko Squid Fishing Village</h3>
+<p class=spot-desc>A charming coastal fishing town famous for its fresh squid, particularly the seasonal Yobuko squid caught using traditional methods with lantern lights. Browse the bustling morning fish market, dine at waterfront restaurants serving ultra-fresh seafood, and experience authentic fishing village atmosphere.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Seafood Specialty</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Fishing Harbor</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Fresh Catch</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class=spot-card data-spot-id=okawachiyama-porcelain-village data-spot-name="Okawachiyama Porcelain Village" data-spot-pref=saga data-spot-fee=0 data-spot-dur=100 data-spot-lat=33.2744 data-spot-lng=129.8289 data-spot-area=imari-district data-spot-rating=4.6 data-spot-reviews=1050 data-spot-img="https://images.unsplash.com/photo-1578500494198-246f612d03b3?w=800&q=80" data-spot-cats=culture,sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1578500494198-246f612d03b3?w=800&q=80" alt="Okawachiyama Porcelain Village" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Imari, Saga</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Okawachiyama Porcelain Village</h3>
+<p class=spot-desc>A secluded mountain village that has preserved the traditions of Okawachiyama porcelain for over 300 years, with narrow streets lined by working kilns and artist studios. This hidden gem offers an authentic, less-touristy experience of Saga's ceramics heritage where you can purchase directly from artisans.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Hidden Gem</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Artisan Community</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Ceramics</span>
 </div>
 <button class=btn-add-plan onclick=prefTogglePlan(this)>
 🗺️ Add to Plan
@@ -487,310 +526,14 @@
 </button>
 </div>
 </article>
-<article class=spot-card data-spot-id=nanatsugama-sea-caves data-spot-name="Nanatsugama Sea Caves" data-spot-pref=saga data-spot-fee=1500 data-spot-dur=90 data-spot-lat=33.5155 data-spot-lng=129.9245 data-spot-area=karatsu-coastal data-spot-rating=4.7 data-spot-reviews=2100 data-spot-img="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" data-spot-cats=nature,sightseeing>
-<img class=spot-img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" alt="Nanatsugama Sea Caves" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>⛩️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Karatsu, Saga</span>
-<span class=spot-season-badge></span>
 </div>
-<h3 class=spot-name>Nanatsugama Sea Caves</h3>
-<p class=spot-desc>Seven magnificent sea caves carved into dramatic sandstone cliffs by millions of years of wave erosion create a breathtaking natural spectacle along Karatsu's coastline. Accessible by boat tour, these towering formations and turquoise waters offer an unforgettable journey through Saga's raw natural beauty.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Sea Caves</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Coastal Scenery</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Rock Formations</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=saga-international-balloon-fiesta data-spot-name="Saga International Balloon Fiesta" data-spot-pref=saga data-spot-fee=0 data-spot-dur=120 data-spot-lat=33.2583 data-spot-lng=130.4106 data-spot-area=tara-district data-spot-rating=4.8 data-spot-reviews=2800 data-spot-img="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" data-spot-cats=leisure,sightseeing>
-<img class=spot-img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" alt="Saga International Balloon Fiesta" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>⛩️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Tara, Saga</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Saga International Balloon Fiesta</h3>
-<p class=spot-desc>Asia's largest hot air balloon festival draws hundreds of colorful balloons from around the world for a spectacular autumn celebration. Visitors can ride balloons, watch dawn mass ascents, and enjoy food stalls in this magical event that transforms the Saga sky into a canvas of colors.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Hot Air Balloons</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Festival</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Sunrise Event</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=yobuko-squid-fishing-village data-spot-name="Yobuko Squid Fishing Village" data-spot-pref=saga data-spot-fee=0 data-spot-dur=120 data-spot-lat=33.8242 data-spot-lng=129.9003 data-spot-area=yobuko data-spot-rating=4.6 data-spot-reviews=2200 data-spot-img="https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80" data-spot-cats=food,sightseeing>
-<img class=spot-img src="https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80" alt="Yobuko Squid Fishing Village" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>⛩️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Yobuko, Saga</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Yobuko Squid Fishing Village</h3>
-<p class=spot-desc>A charming coastal fishing town famous for its fresh squid, particularly the seasonal Yobuko squid caught using traditional methods with lantern lights. Browse the bustling morning fish market, dine at waterfront restaurants serving ultra-fresh seafood, and experience authentic fishing village atmosphere.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Seafood Specialty</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Fishing Harbor</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Fresh Catch</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=takeo-onsen-town data-spot-name="Takeo Onsen Town" data-spot-pref=saga data-spot-fee=500 data-spot-dur=180 data-spot-lat=33.3086 data-spot-lng=130.0242 data-spot-area=takeo-central data-spot-rating=4.4 data-spot-reviews=1700 data-spot-img="https://images.unsplash.com/photo-1533900298318-6b8da08a523e?w=800&q=80" data-spot-cats=leisure,sightseeing>
-<img class=spot-img src="https://images.unsplash.com/photo-1533900298318-6b8da08a523e?w=800&q=80" alt="Takeo Onsen Town" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>⛩️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Takeo, Saga</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Takeo Onsen Town</h3>
-<p class=spot-desc>This charming onsen resort town features alkaline hot springs renowned for their therapeutic properties and beautiful wooden bathhouses dating back centuries. Stroll through the atmospheric streets lined with traditional inns, shops, and restaurants, then soak in the healing waters beneath starlit skies.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Hot Spring</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Traditional Bathhouse</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Relaxation</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=ureshino-onsen-resort data-spot-name="Ureshino Onsen Resort" data-spot-pref=saga data-spot-fee=600 data-spot-dur=180 data-spot-lat=33.1294 data-spot-lng=130.0783 data-spot-area=ureshino-central data-spot-rating=4.5 data-spot-reviews=1900 data-spot-img="https://images.unsplash.com/photo-1558361363-cd4628902d4a?w=800&q=80" data-spot-cats=leisure,sightseeing>
-<img class=spot-img src="https://images.unsplash.com/photo-1558361363-cd4628902d4a?w=800&q=80" alt="Ureshino Onsen Resort" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>⛩️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Ureshino, Saga</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Ureshino Onsen Resort</h3>
-<p class=spot-desc>Nestled in a lush valley surrounded by green tea plantations, this premium onsen destination is famous for acidic hot springs with natural CO₂ bubbles that create a unique tingling sensation. The town offers luxury ryokans, spa treatments, and the opportunity to taste local green tea while overlooking pastoral landscapes.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Hot Spring Resort</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Tea Plantations</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Spa</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=karatsu-pottery-town data-spot-name="Karatsu Pottery Town" data-spot-pref=saga data-spot-fee=0 data-spot-dur=110 data-spot-lat=33.4522 data-spot-lng=129.875 data-spot-area=karatsu-central data-spot-rating=4.5 data-spot-reviews=1500 data-spot-img="https://images.unsplash.com/photo-1578500494198-246f612d03b3?w=800&q=80" data-spot-cats=culture,sightseeing>
-<img class=spot-img src="https://images.unsplash.com/photo-1578500494198-246f612d03b3?w=800&q=80" alt="Karatsu Pottery Town" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>⛩️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Karatsu, Saga</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Karatsu Pottery Town</h3>
-<p class=spot-desc>The historic pottery district in Karatsu showcases traditional kilns and artist studios where you can watch masters create Karatsu ware, known for its rustic aesthetic and elegant simplicity. Many studios offer pottery-making classes where visitors can learn techniques passed down through generations.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Ceramics</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Kiln Tours</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Artisan Workshops</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=nabeshima-porcelain-kiln data-spot-name="Nabeshima Porcelain Kiln Park" data-spot-pref=saga data-spot-fee=700 data-spot-dur=75 data-spot-lat=33.2194 data-spot-lng=130.1503 data-spot-area=okuchi-district data-spot-rating=4.3 data-spot-reviews=1100 data-spot-img="https://images.unsplash.com/photo-1578500494198-246f612d03b3?w=800&q=80" data-spot-cats=culture,sightseeing>
-<img class=spot-img src="https://images.unsplash.com/photo-1578500494198-246f612d03b3?w=800&q=80" alt="Nabeshima Porcelain Kiln Park" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>⛩️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Okuchi, Saga</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Nabeshima Porcelain Kiln Park</h3>
-<p class=spot-desc>This park preserves the historic kiln site where the exclusive Nabeshima porcelain was produced for the feudal lord during the Edo period, with pieces now designated as Important Cultural Properties. The museum displays rare examples and explains the sophisticated techniques that made Nabeshima ware highly prized among Japanese aristocracy.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Historic Kiln</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Porcelain Heritage</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Museum</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=saga-castle-ruins data-spot-name="Saga Castle Ruins &amp;amp; Park" data-spot-pref=saga data-spot-fee=500 data-spot-dur=75 data-spot-lat=33.2646 data-spot-lng=130.3023 data-spot-area=saga-central data-spot-rating=4.3 data-spot-reviews=1200 data-spot-img="https://images.unsplash.com/photo-1564507592333-c60657eea523?w=800&q=80" data-spot-cats=sightseeing,culture>
-<img class=spot-img src="https://images.unsplash.com/photo-1564507592333-c60657eea523?w=800&q=80" alt="Saga Castle Ruins & Park" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>⛩️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Saga City, Saga</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Saga Castle Ruins & Park</h3>
-<p class=spot-desc>Once one of Kyushu's largest castles, Saga Castle's reconstructed entrance gates and museum now stand within a beautiful park that's perfect for strolling and picnicking. The museum displays samurai artifacts and provides context about the castle's 300-year history and its role in regional politics.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Historic Castle</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Park</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Reconstruction</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=kashima-shrine data-spot-name="Kashima Shrine" data-spot-pref=saga data-spot-fee=0 data-spot-dur=60 data-spot-lat=33.1706 data-spot-lng=129.9681 data-spot-area=kashima-district data-spot-rating=4.2 data-spot-reviews=900 data-spot-img="https://images.unsplash.com/photo-1578500494198-246f612d03b3?w=800&q=80" data-spot-cats=sightseeing,culture>
-<img class=spot-img src="https://images.unsplash.com/photo-1578500494198-246f612d03b3?w=800&q=80" alt="Kashima Shrine" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>⛩️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Kashima, Saga</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Kashima Shrine</h3>
-<p class=spot-desc>One of Kyushu's oldest shrines, Kashima Shrine sits peacefully on a forested hillside and is dedicated to the deity of earthquakes and protection. The atmospheric grounds feature vermillion torii gates, stone lanterns, and ancient cedar trees that create a serene spiritual atmosphere.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Shinto Shrine</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Historic Temple</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Pilgrimage Site</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=mutsugoro-mudskipper-reserve data-spot-name="Mutsugoro Mudskipper Reserve" data-spot-pref=saga data-spot-fee=800 data-spot-dur=90 data-spot-lat=33.1453 data-spot-lng=130.2758 data-spot-area=ariake-bay data-spot-rating=4.4 data-spot-reviews=950 data-spot-img="https://images.unsplash.com/photo-1511593358241-7eea1f3c84e5?w=800&q=80" data-spot-cats=nature,sightseeing>
-<img class=spot-img src="https://images.unsplash.com/photo-1511593358241-7eea1f3c84e5?w=800&q=80" alt="Mutsugoro Mudskipper Reserve" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>⛩️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Yamato, Saga</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Mutsugoro Mudskipper Reserve</h3>
-<p class=spot-desc>Japan's only protected mudskipper (mutsugoro) habitat offers fascinating guided tours where visitors can observe these remarkable fish that walk on mud using their fins. The Ariake Sea mudflats are an important ecosystem, and tours educate visitors about conservation efforts and this extraordinary creature.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Wildlife</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Unique Species</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Ecological Tour</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=karatsu-morning-market data-spot-name="Karatsu Morning Market" data-spot-pref=saga data-spot-fee=0 data-spot-dur=60 data-spot-lat=33.4485 data-spot-lng=129.8795 data-spot-area=karatsu-central data-spot-rating=4.3 data-spot-reviews=1300 data-spot-img="https://images.unsplash.com/photo-1488459716781-6918f4f84193?w=800&q=80" data-spot-cats=food,sightseeing>
-<img class=spot-img src="https://images.unsplash.com/photo-1488459716781-6918f4f84193?w=800&q=80" alt="Karatsu Morning Market" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>⛩️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Karatsu, Saga</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Karatsu Morning Market</h3>
-<p class=spot-desc>Every morning, local fishermen and farmers gather at this vibrant market to sell the day's catch and harvest, creating an authentic glimpse into Karatsu's food culture. Browse fresh seafood, seasonal vegetables, and local specialties while chatting with friendly vendors and sampling street food.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Local Markets</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Fresh Produce</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Seafood</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=arita-arita-shrine data-spot-name="Arita Shrine" data-spot-pref=saga data-spot-fee=0 data-spot-dur=45 data-spot-lat=33.1992 data-spot-lng=129.8428 data-spot-area=arita-central data-spot-rating=4.1 data-spot-reviews=750 data-spot-img="https://images.unsplash.com/photo-1578500494198-246f612d03b3?w=800&q=80" data-spot-cats=culture,sightseeing>
-<img class=spot-img src="https://images.unsplash.com/photo-1578500494198-246f612d03b3?w=800&q=80" alt="Arita Shrine" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>⛩️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Arita, Saga</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Arita Shrine</h3>
-<p class=spot-desc>This modest but historically significant shrine sits at the heart of Arita's porcelain district and is visited by artisans seeking inspiration and protection for their craft. The shrine grounds blend spiritual tradition with ceramic heritage, featuring decorative porcelain elements throughout.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Shinto Shrine</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Porcelain Tradition</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Local Faith</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=enzan-limestone-cave data-spot-name="Enzan Limestone Cave" data-spot-pref=saga data-spot-fee=1200 data-spot-dur=80 data-spot-lat=33.1872 data-spot-lng=130.3278 data-spot-area=tara-district data-spot-rating=4.5 data-spot-reviews=1400 data-spot-img="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" data-spot-cats=nature,sightseeing>
-<img class=spot-img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" alt="Enzan Limestone Cave" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>⛩️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Tara, Saga</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Enzan Limestone Cave</h3>
-<p class=spot-desc>This spectacular limestone cave features magnificent stalactites and stalagmites formed over thousands of years, creating an otherworldly underground landscape. Guided tours take visitors through multiple chambers with colored lighting that highlights the geological formations.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Cave Exploration</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Geological Formation</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Adventure</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=okawachiyama-porcelain-village data-spot-name="Okawachiyama Porcelain Village" data-spot-pref=saga data-spot-fee=0 data-spot-dur=100 data-spot-lat=33.2744 data-spot-lng=129.8289 data-spot-area=imari-district data-spot-rating=4.6 data-spot-reviews=1050 data-spot-img="https://images.unsplash.com/photo-1578500494198-246f612d03b3?w=800&q=80" data-spot-cats=culture,sightseeing>
-<img class=spot-img src="https://images.unsplash.com/photo-1578500494198-246f612d03b3?w=800&q=80" alt="Okawachiyama Porcelain Village" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>⛩️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Imari, Saga</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Okawachiyama Porcelain Village</h3>
-<p class=spot-desc>A secluded mountain village that has preserved the traditions of Okawachiyama porcelain for over 300 years, with narrow streets lined by working kilns and artist studios. This hidden gem offers an authentic, less-touristy experience of Saga's ceramics heritage where you can purchase directly from artisans.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Hidden Gem</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Artisan Community</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Ceramics</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=saga-prefecture-museum data-spot-name="Saga Prefecture Museum" data-spot-pref=saga data-spot-fee=1000 data-spot-dur=120 data-spot-lat=33.2656 data-spot-lng=130.2934 data-spot-area=saga-central data-spot-rating=4.4 data-spot-reviews=1100 data-spot-img="https://images.unsplash.com/photo-1578500494198-246f612d03b3?w=800&q=80" data-spot-cats=culture,sightseeing>
-<img class=spot-img src="https://images.unsplash.com/photo-1578500494198-246f612d03b3?w=800&q=80" alt="Saga Prefecture Museum" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>⛩️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Saga City, Saga</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Saga Prefecture Museum</h3>
-<p class=spot-desc>Housed in a striking modern building, this museum comprehensively covers Saga's history from prehistoric times through the modern era, with special emphasis on ceramics and samurai culture. Rotating exhibitions feature local artists and significant historical artifacts with bilingual explanations.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Art & History</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Local Heritage</span>
-<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Educational</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
+<div class=see-all-wrap>
+<a class=see-all-btn style=color:#1a45a8 href=/prefectures/saga/spots/#sightseeing>
+See all 19 관광명소 spots →
+</a>
 </div>
 </div>
-</section>
-<section class=spot-section id=section-gourmet data-cat=gourmet>
+</section><section class=spot-section id=section-gourmet data-cat=gourmet>
 <div class=spot-section-inner>
 <div class=section-hd style=--sec-color:#D64000>
 <span class=s-icon>🍜</span>
@@ -800,8 +543,7 @@
 <div class=spot-grid>
 </div>
 </div>
-</section>
-<section class=spot-section id=section-nature data-cat=nature>
+</section><section class=spot-section id=section-nature data-cat=nature>
 <div class=spot-section-inner>
 <div class=section-hd style=--sec-color:#1a7a34>
 <span class=s-icon>🏔️</span>
@@ -829,6 +571,26 @@
 </button>
 </div>
 </article>
+<article class=spot-card data-spot-id=yoshii-river-kayaking data-spot-name="Yoshii River Kayaking &amp;amp; Canyoning" data-spot-pref=saga data-spot-fee=5500 data-spot-dur=180 data-spot-lat=33.1867 data-spot-lng=130.2145 data-spot-area=tara-district data-spot-rating=4.6 data-spot-reviews=890 data-spot-img="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" data-spot-cats=leisure,nature>
+<img class=spot-img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" alt="Yoshii River Kayaking & Canyoning" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🏔️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Tara, Saga</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Yoshii River Kayaking & Canyoning</h3>
+<p class=spot-desc>Experience the pristine Yoshii River through kayaking and canyoning adventures that showcase Saga's natural beauty from an exciting perspective. Professional guides lead small groups through scenic gorges, alongside lush forests, creating an adrenaline-filled yet safe outdoor experience.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Adventure Sports</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>River Activity</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Scenic Route</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 <article class=spot-card data-spot-id=ariake-sea-oyster-beds data-spot-name="Ariake Sea Oyster Beds &amp;amp; Tours" data-spot-pref=saga data-spot-fee=2500 data-spot-dur=120 data-spot-lat=33.0847 data-spot-lng=130.1544 data-spot-area=ariake-bay data-spot-rating=4.5 data-spot-reviews=1400 data-spot-img="https://images.unsplash.com/photo-1565123409695-7b5ef63df2efq?w=800&q=80" data-spot-cats=food,nature>
 <img class=spot-img src="https://images.unsplash.com/photo-1565123409695-7b5ef63df2efq?w=800&q=80" alt="Ariake Sea Oyster Beds & Tours" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>🏔️</div>
@@ -843,6 +605,26 @@
 <span class=spot-tag style=background:#e4f4e8;color:#155a28>Oyster Farming</span>
 <span class=spot-tag style=background:#e4f4e8;color:#155a28>Seafood Experience</span>
 <span class=spot-tag style=background:#e4f4e8;color:#155a28>Bay Tours</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class=spot-card data-spot-id=enzan-limestone-cave data-spot-name="Enzan Limestone Cave" data-spot-pref=saga data-spot-fee=1200 data-spot-dur=80 data-spot-lat=33.1872 data-spot-lng=130.3278 data-spot-area=tara-district data-spot-rating=4.5 data-spot-reviews=1400 data-spot-img="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" data-spot-cats=nature,sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" alt="Enzan Limestone Cave" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🏔️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Tara, Saga</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Enzan Limestone Cave</h3>
+<p class=spot-desc>This spectacular limestone cave features magnificent stalactites and stalagmites formed over thousands of years, creating an otherworldly underground landscape. Guided tours take visitors through multiple chambers with colored lighting that highlights the geological formations.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Cave Exploration</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Geological Formation</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Adventure</span>
 </div>
 <button class=btn-add-plan onclick=prefTogglePlan(this)>
 🗺️ Add to Plan
@@ -889,70 +671,14 @@
 </button>
 </div>
 </article>
-<article class=spot-card data-spot-id=enzan-limestone-cave data-spot-name="Enzan Limestone Cave" data-spot-pref=saga data-spot-fee=1200 data-spot-dur=80 data-spot-lat=33.1872 data-spot-lng=130.3278 data-spot-area=tara-district data-spot-rating=4.5 data-spot-reviews=1400 data-spot-img="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" data-spot-cats=nature,sightseeing>
-<img class=spot-img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" alt="Enzan Limestone Cave" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>🏔️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Tara, Saga</span>
-<span class=spot-season-badge></span>
 </div>
-<h3 class=spot-name>Enzan Limestone Cave</h3>
-<p class=spot-desc>This spectacular limestone cave features magnificent stalactites and stalagmites formed over thousands of years, creating an otherworldly underground landscape. Guided tours take visitors through multiple chambers with colored lighting that highlights the geological formations.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Cave Exploration</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Geological Formation</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Adventure</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=yoshii-river-kayaking data-spot-name="Yoshii River Kayaking &amp;amp; Canyoning" data-spot-pref=saga data-spot-fee=5500 data-spot-dur=180 data-spot-lat=33.1867 data-spot-lng=130.2145 data-spot-area=tara-district data-spot-rating=4.6 data-spot-reviews=890 data-spot-img="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" data-spot-cats=leisure,nature>
-<img class=spot-img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" alt="Yoshii River Kayaking & Canyoning" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>🏔️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Tara, Saga</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Yoshii River Kayaking & Canyoning</h3>
-<p class=spot-desc>Experience the pristine Yoshii River through kayaking and canyoning adventures that showcase Saga's natural beauty from an exciting perspective. Professional guides lead small groups through scenic gorges, alongside lush forests, creating an adrenaline-filled yet safe outdoor experience.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Adventure Sports</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>River Activity</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Scenic Route</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=genkai-seaside-park data-spot-name="Genkai Seaside Park" data-spot-pref=saga data-spot-fee=0 data-spot-dur=100 data-spot-lat=33.5234 data-spot-lng=130.0812 data-spot-area=genkai-district data-spot-rating=4.3 data-spot-reviews=1050 data-spot-img="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" data-spot-cats=nature,leisure>
-<img class=spot-img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" alt="Genkai Seaside Park" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>🏔️</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Genkai, Saga</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Genkai Seaside Park</h3>
-<p class=spot-desc>This coastal park offers pristine beaches, scenic walking paths along dramatic cliffs, and panoramic views of the Genkai Sea. Perfect for picnics, photography, and experiencing Saga's untamed coastline without the crowds of more famous beach destinations.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Beach</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Coastal Views</span>
-<span class=spot-tag style=background:#e4f4e8;color:#155a28>Picnic Area</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
+<div class=see-all-wrap>
+<a class=see-all-btn style=color:#1a7a34 href=/prefectures/saga/spots/#nature>
+See all 7 자연 spots →
+</a>
 </div>
 </div>
-</section>
-<section class=spot-section id=section-leisure data-cat=leisure>
+</section><section class=spot-section id=section-leisure data-cat=leisure>
 <div class=spot-section-inner>
 <div class=section-hd style=--sec-color:#b35c00>
 <span class=s-icon>🎿</span>
@@ -980,46 +706,6 @@
 </button>
 </div>
 </article>
-<article class=spot-card data-spot-id=takeo-onsen-town data-spot-name="Takeo Onsen Town" data-spot-pref=saga data-spot-fee=500 data-spot-dur=180 data-spot-lat=33.3086 data-spot-lng=130.0242 data-spot-area=takeo-central data-spot-rating=4.4 data-spot-reviews=1700 data-spot-img="https://images.unsplash.com/photo-1533900298318-6b8da08a523e?w=800&q=80" data-spot-cats=leisure,sightseeing>
-<img class=spot-img src="https://images.unsplash.com/photo-1533900298318-6b8da08a523e?w=800&q=80" alt="Takeo Onsen Town" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>🎿</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Takeo, Saga</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Takeo Onsen Town</h3>
-<p class=spot-desc>This charming onsen resort town features alkaline hot springs renowned for their therapeutic properties and beautiful wooden bathhouses dating back centuries. Stroll through the atmospheric streets lined with traditional inns, shops, and restaurants, then soak in the healing waters beneath starlit skies.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Hot Spring</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Traditional Bathhouse</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Relaxation</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=ureshino-onsen-resort data-spot-name="Ureshino Onsen Resort" data-spot-pref=saga data-spot-fee=600 data-spot-dur=180 data-spot-lat=33.1294 data-spot-lng=130.0783 data-spot-area=ureshino-central data-spot-rating=4.5 data-spot-reviews=1900 data-spot-img="https://images.unsplash.com/photo-1558361363-cd4628902d4a?w=800&q=80" data-spot-cats=leisure,sightseeing>
-<img class=spot-img src="https://images.unsplash.com/photo-1558361363-cd4628902d4a?w=800&q=80" alt="Ureshino Onsen Resort" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>🎿</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Ureshino, Saga</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Ureshino Onsen Resort</h3>
-<p class=spot-desc>Nestled in a lush valley surrounded by green tea plantations, this premium onsen destination is famous for acidic hot springs with natural CO₂ bubbles that create a unique tingling sensation. The town offers luxury ryokans, spa treatments, and the opportunity to taste local green tea while overlooking pastoral landscapes.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Hot Spring Resort</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Tea Plantations</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Spa</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
 <article class=spot-card data-spot-id=saga-beef-restaurant-district data-spot-name="Saga Beef Restaurant District" data-spot-pref=saga data-spot-fee=0 data-spot-dur=90 data-spot-lat=33.2668 data-spot-lng=130.2988 data-spot-area=saga-central data-spot-rating=4.7 data-spot-reviews=2400 data-spot-img="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80" data-spot-cats=food,leisure>
 <img class=spot-img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80" alt="Saga Beef Restaurant District" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>🎿</div>
@@ -1034,26 +720,6 @@
 <span class=spot-tag style=background:#fff3e0;color:#7a3f00>Wagyu</span>
 <span class=spot-tag style=background:#fff3e0;color:#7a3f00>Grilled Meat</span>
 <span class=spot-tag style=background:#fff3e0;color:#7a3f00>Premium Dining</span>
-</div>
-<button class=btn-add-plan onclick=prefTogglePlan(this)>
-🗺️ Add to Plan
-</button>
-</div>
-</article>
-<article class=spot-card data-spot-id=tateba-park-hiking data-spot-name="Tateba Park &amp;amp; Hiking Trails" data-spot-pref=saga data-spot-fee=0 data-spot-dur=180 data-spot-lat=33.5042 data-spot-lng=130.1356 data-spot-area=genkai-district data-spot-rating=4.4 data-spot-reviews=1100 data-spot-img="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" data-spot-cats=nature,leisure>
-<img class=spot-img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" alt="Tateba Park & Hiking Trails" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-<div class=spot-img-ph style=display:none>🎿</div>
-<div class=spot-body>
-<div class=spot-meta>
-<span class=spot-location>📍 Genkai, Saga</span>
-<span class=spot-season-badge></span>
-</div>
-<h3 class=spot-name>Tateba Park & Hiking Trails</h3>
-<p class=spot-desc>This scenic park features well-maintained hiking trails offering panoramic views of the surrounding valleys and seasonal wildflower displays. The summit provides sweeping vistas of Saga's countryside, making it perfect for nature lovers seeking an active day away from urban areas.</p>
-<div class=spot-tags>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Hiking</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Mountain Views</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Natural Beauty</span>
 </div>
 <button class=btn-add-plan onclick=prefTogglePlan(this)>
 🗺️ Add to Plan
@@ -1080,20 +746,60 @@
 </button>
 </div>
 </article>
-<article class=spot-card data-spot-id=genkai-seaside-park data-spot-name="Genkai Seaside Park" data-spot-pref=saga data-spot-fee=0 data-spot-dur=100 data-spot-lat=33.5234 data-spot-lng=130.0812 data-spot-area=genkai-district data-spot-rating=4.3 data-spot-reviews=1050 data-spot-img="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" data-spot-cats=nature,leisure>
-<img class=spot-img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" alt="Genkai Seaside Park" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<article class=spot-card data-spot-id=ureshino-onsen-resort data-spot-name="Ureshino Onsen Resort" data-spot-pref=saga data-spot-fee=600 data-spot-dur=180 data-spot-lat=33.1294 data-spot-lng=130.0783 data-spot-area=ureshino-central data-spot-rating=4.5 data-spot-reviews=1900 data-spot-img="https://images.unsplash.com/photo-1558361363-cd4628902d4a?w=800&q=80" data-spot-cats=leisure,sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1558361363-cd4628902d4a?w=800&q=80" alt="Ureshino Onsen Resort" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎿</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Ureshino, Saga</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Ureshino Onsen Resort</h3>
+<p class=spot-desc>Nestled in a lush valley surrounded by green tea plantations, this premium onsen destination is famous for acidic hot springs with natural CO₂ bubbles that create a unique tingling sensation. The town offers luxury ryokans, spa treatments, and the opportunity to taste local green tea while overlooking pastoral landscapes.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Hot Spring Resort</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Tea Plantations</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Spa</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class=spot-card data-spot-id=takeo-onsen-town data-spot-name="Takeo Onsen Town" data-spot-pref=saga data-spot-fee=500 data-spot-dur=180 data-spot-lat=33.3086 data-spot-lng=130.0242 data-spot-area=takeo-central data-spot-rating=4.4 data-spot-reviews=1700 data-spot-img="https://images.unsplash.com/photo-1533900298318-6b8da08a523e?w=800&q=80" data-spot-cats=leisure,sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1533900298318-6b8da08a523e?w=800&q=80" alt="Takeo Onsen Town" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎿</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Takeo, Saga</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Takeo Onsen Town</h3>
+<p class=spot-desc>This charming onsen resort town features alkaline hot springs renowned for their therapeutic properties and beautiful wooden bathhouses dating back centuries. Stroll through the atmospheric streets lined with traditional inns, shops, and restaurants, then soak in the healing waters beneath starlit skies.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Hot Spring</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Traditional Bathhouse</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Relaxation</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class=spot-card data-spot-id=tateba-park-hiking data-spot-name="Tateba Park &amp;amp; Hiking Trails" data-spot-pref=saga data-spot-fee=0 data-spot-dur=180 data-spot-lat=33.5042 data-spot-lng=130.1356 data-spot-area=genkai-district data-spot-rating=4.4 data-spot-reviews=1100 data-spot-img="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" data-spot-cats=nature,leisure>
+<img class=spot-img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" alt="Tateba Park & Hiking Trails" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
 <div class=spot-img-ph style=display:none>🎿</div>
 <div class=spot-body>
 <div class=spot-meta>
 <span class=spot-location>📍 Genkai, Saga</span>
 <span class=spot-season-badge></span>
 </div>
-<h3 class=spot-name>Genkai Seaside Park</h3>
-<p class=spot-desc>This coastal park offers pristine beaches, scenic walking paths along dramatic cliffs, and panoramic views of the Genkai Sea. Perfect for picnics, photography, and experiencing Saga's untamed coastline without the crowds of more famous beach destinations.</p>
+<h3 class=spot-name>Tateba Park & Hiking Trails</h3>
+<p class=spot-desc>This scenic park features well-maintained hiking trails offering panoramic views of the surrounding valleys and seasonal wildflower displays. The summit provides sweeping vistas of Saga's countryside, making it perfect for nature lovers seeking an active day away from urban areas.</p>
 <div class=spot-tags>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Beach</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Coastal Views</span>
-<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Picnic Area</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Hiking</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Mountain Views</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Natural Beauty</span>
 </div>
 <button class=btn-add-plan onclick=prefTogglePlan(this)>
 🗺️ Add to Plan
@@ -1101,9 +807,13 @@
 </div>
 </article>
 </div>
+<div class=see-all-wrap>
+<a class=see-all-btn style=color:#b35c00 href=/prefectures/saga/spots/#leisure>
+See all 7 레저 spots →
+</a>
 </div>
-</section>
-<section class=spot-section id=section-events data-cat=events>
+</div>
+</section><section class=spot-section id=section-events data-cat=events>
 <div class=spot-section-inner>
 <div class=section-hd style=--sec-color:#b5006e>
 <span class=s-icon>🎆</span>
