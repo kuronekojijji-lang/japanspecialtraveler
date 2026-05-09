@@ -397,6 +397,9 @@
 <button class=pref-toc-btn data-cat=events style=--toc-color:#b5006e>
 <span class=toc-icon>🎆</span> 이벤트
 </button>
+<button class=pref-toc-btn data-cat=experience style=--toc-color:#6a0dad>
+<span class=toc-icon>🎌</span> 체험
+</button>
 </div>
 </nav><section class=spot-section id=section-sightseeing data-cat=sightseeing>
 <div class=spot-section-inner>
@@ -1046,6 +1049,37 @@ See all 9 레저 spots →
 </article>
 </div>
 </div>
+</section><section class=spot-section id=section-experience data-cat=experience>
+<div class=spot-section-inner>
+<div class=section-hd style=--sec-color:#6a0dad>
+<span class=s-icon>🎌</span>
+<h2>체험</h2>
+<span class=s-count>1 곳</span>
+</div>
+<div class=spot-grid>
+<article class=spot-card data-spot-id=nagasaki-glover-house-tour data-spot-name="Glover Garden &amp;amp; Meiji-Era Life Experience" data-spot-pref=nagasaki data-spot-fee=620 data-spot-dur=90 data-spot-lat=32.7295 data-spot-lng=129.8726 data-spot-area=nagasaki-city data-spot-rating=4.6 data-spot-reviews=5500 data-spot-img="https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?w=800&q=80" data-spot-cats=experience>
+<img class=spot-img src="https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?w=800&q=80" alt="Glover Garden & Meiji-Era Life Experience" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎌</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Nagasaki City, Nagasaki</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Glover Garden & Meiji-Era Life Experience</h3>
+<p class=spot-desc>Glover Garden on Nagasaki's hillside preserves the Western-style residences of the foreign merchants who shaped Meiji Japan's modernisation. Guided walking tours explore Thomas Glover's 1863 Scottish-Japanese home — the oldest Western-style building in Japan — reconstructing daily life in the era when Nagasaki was Japan's only window to the outside world and the model for Puccini's Madama Butterfly.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Meiji Era</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Western Architecture</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>History</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Walking Tour</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+</div>
+</div>
 </section>
 <section class=pref-section id=tips style="background:var(--bg-soft);border-top:1px solid var(--border)">
 <div class=pref-container>
@@ -1159,6 +1193,7 @@ const CATS = {
   nature:     { color:"#1a7a34" },
   leisure:    { color:"#b35c00" },
   events:     { color:"#b5006e" },
+  experience: { color:"#6a0dad" },
 };
 
 const sections = document.querySelectorAll('.spot-section[data-cat]');

@@ -378,6 +378,9 @@
 <button class=pref-toc-btn data-cat=events style=--toc-color:#b5006e>
 <span class=toc-icon>🎆</span> Events
 </button>
+<button class=pref-toc-btn data-cat=experience style=--toc-color:#6a0dad>
+<span class=toc-icon>🎌</span> Experience
+</button>
 </div>
 </nav><section class=spot-section id=section-sightseeing data-cat=sightseeing>
 <div class=spot-section-inner>
@@ -938,6 +941,37 @@ See all 7 Sightseeing spots →
 </article>
 </div>
 </div>
+</section><section class=spot-section id=section-experience data-cat=experience>
+<div class=spot-section-inner>
+<div class=section-hd style=--sec-color:#6a0dad>
+<span class=s-icon>🎌</span>
+<h2>Experience</h2>
+<span class=s-count>1 spots</span>
+</div>
+<div class=spot-grid>
+<article class=spot-card data-spot-id=shiga-biwa-lake-sailing data-spot-name="Lake Biwa Sailing &amp;amp; Windsurfing" data-spot-pref=shiga data-spot-fee=6000 data-spot-dur=240 data-spot-lat=35.2762 data-spot-lng=136.2518 data-spot-area=lake-biwa data-spot-rating=4.6 data-spot-reviews=2200 data-spot-img="https://images.unsplash.com/photo-1530655638484-de9f2afafb8e?w=800&q=80" data-spot-cats=experience>
+<img class=spot-img src="https://images.unsplash.com/photo-1530655638484-de9f2afafb8e?w=800&q=80" alt="Lake Biwa Sailing & Windsurfing" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎌</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Shiga Prefecture</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Lake Biwa Sailing & Windsurfing</h3>
+<p class=spot-desc>Japan's largest lake offers ideal conditions for sailing and windsurfing — consistent afternoon breezes from the surrounding mountains, warm summer water, and no tidal complications. Schools at Otsu, Moriyama, and Nagahama offer beginner sailing courses on dinghies and windsurfer lessons, with the dramatic backdrop of Hikone Castle and Ibuki-san mountain adding to an already spectacular setting.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Sailing</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Lake Biwa</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Windsurfing</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Water Sports</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+</div>
+</div>
 </section>
 <section class=pref-section id=tips style="background:var(--bg-soft);border-top:1px solid var(--border)">
 <div class=pref-container>
@@ -1027,6 +1061,7 @@ const CATS = {
   nature:     { color:"#1a7a34" },
   leisure:    { color:"#b35c00" },
   events:     { color:"#b5006e" },
+  experience: { color:"#6a0dad" },
 };
 
 const sections = document.querySelectorAll('.spot-section[data-cat]');

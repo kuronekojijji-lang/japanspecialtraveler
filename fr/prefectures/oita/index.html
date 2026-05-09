@@ -397,6 +397,9 @@ Oita donne l'impression d'être le Japon où les locaux s'échappent — sans pr
 <button class=pref-toc-btn data-cat=events style=--toc-color:#b5006e>
 <span class=toc-icon>🎆</span> Événements
 </button>
+<button class=pref-toc-btn data-cat=experience style=--toc-color:#6a0dad>
+<span class=toc-icon>🎌</span> Expériences
+</button>
 </div>
 </nav><section class=spot-section id=section-sightseeing data-cat=sightseeing>
 <div class=spot-section-inner>
@@ -1014,6 +1017,58 @@ See all 11 Loisirs spots →
 </article>
 </div>
 </div>
+</section><section class=spot-section id=section-experience data-cat=experience>
+<div class=spot-section-inner>
+<div class=section-hd style=--sec-color:#6a0dad>
+<span class=s-icon>🎌</span>
+<h2>Expériences</h2>
+<span class=s-count>2 lieux</span>
+</div>
+<div class=spot-grid>
+<article class=spot-card data-spot-id=oita-beppu-sand-bath data-spot-name="Beppu Sunamushi Sand Bath" data-spot-pref=oita data-spot-fee=1500 data-spot-dur=60 data-spot-lat=33.2846 data-spot-lng=131.4912 data-spot-area=beppu data-spot-rating=4.7 data-spot-reviews=8500 data-spot-img="https://images.unsplash.com/photo-1540979388789-6cee28a1cdc9?w=800&q=80" data-spot-cats=experience>
+<img class=spot-img src="https://images.unsplash.com/photo-1540979388789-6cee28a1cdc9?w=800&q=80" alt="Beppu Sunamushi Sand Bath" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎌</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Beppu, Oita</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Beppu Sunamushi Sand Bath</h3>
+<p class=spot-desc>At Beppu's Shoningahama and Kanawa beaches, attendants bury bathers in naturally geothermally heated black sand up to the neck. Lying in the sand bath for 10–15 minutes achieves deep warming from the 50°C sand's contact over the entire body — more penetrating than any water bath. The sensation of being pinned under tonnes of warm sand while seabirds fly overhead is deeply strange and deeply relaxing.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Sand Bath</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Onsen</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Beppu</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Unique</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class=spot-card data-spot-id=oita-beppu-mud-onsen data-spot-name="Beppu Mud Onsen (Kannawa Doroburo)" data-spot-pref=oita data-spot-fee=1500 data-spot-dur=60 data-spot-lat=33.2846 data-spot-lng=131.4912 data-spot-area=beppu data-spot-rating=4.6 data-spot-reviews=5500 data-spot-img="https://images.unsplash.com/photo-1540979388789-6cee28a1cdc9?w=800&q=80" data-spot-cats=experience>
+<img class=spot-img src="https://images.unsplash.com/photo-1540979388789-6cee28a1cdc9?w=800&q=80" alt="Beppu Mud Onsen (Kannawa Doroburo)" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎌</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Beppu, Oita</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Beppu Mud Onsen (Kannawa Doroburo)</h3>
+<p class=spot-desc>Beppu's Kannawa district offers Japan's only natural volcanic mud baths (doroburo) — thick grey mineral-rich mud heated to 42°C by geothermal activity. Bathing in the mud — which clings to skin and is washed off in an adjacent mineral spring — is said to be extraordinarily beneficial for skin and joints. The sensation of being slowly submerged in warm volcanic mud is unlike any other onsen experience.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Mud Bath</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Onsen</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Beppu</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Unique</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+</div>
+</div>
 </section>
 <section class=pref-section id=tips style="background:var(--bg-soft);border-top:1px solid var(--border)">
 <div class=pref-container>
@@ -1127,6 +1182,7 @@ const CATS = {
   nature:     { color:"#1a7a34" },
   leisure:    { color:"#b35c00" },
   events:     { color:"#b5006e" },
+  experience: { color:"#6a0dad" },
 };
 
 const sections = document.querySelectorAll('.spot-section[data-cat]');

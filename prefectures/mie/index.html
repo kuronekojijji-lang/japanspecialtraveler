@@ -369,6 +369,9 @@
 <button class=pref-toc-btn data-cat=events style=--toc-color:#b5006e>
 <span class=toc-icon>🎆</span> Events
 </button>
+<button class=pref-toc-btn data-cat=experience style=--toc-color:#6a0dad>
+<span class=toc-icon>🎌</span> Experience
+</button>
 </div>
 </nav><section class=spot-section id=section-sightseeing data-cat=sightseeing>
 <div class=spot-section-inner>
@@ -935,6 +938,37 @@ See all 7 Gourmet spots →
 </article>
 </div>
 </div>
+</section><section class=spot-section id=section-experience data-cat=experience>
+<div class=spot-section-inner>
+<div class=section-hd style=--sec-color:#6a0dad>
+<span class=s-icon>🎌</span>
+<h2>Experience</h2>
+<span class=s-count>1 spots</span>
+</div>
+<div class=spot-grid>
+<article class=spot-card data-spot-id=mie-pearl-jewelry data-spot-name="Mikimoto Pearl Island Jewelry Workshop" data-spot-pref=mie data-spot-fee=5000 data-spot-dur=120 data-spot-lat=34.4794 data-spot-lng=136.8447 data-spot-area=toba data-spot-rating=4.7 data-spot-reviews=4500 data-spot-img="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80" data-spot-cats=experience>
+<img class=spot-img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80" alt="Mikimoto Pearl Island Jewelry Workshop" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎌</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Toba, Mie</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Mikimoto Pearl Island Jewelry Workshop</h3>
+<p class=spot-desc>On Mikimoto Pearl Island — where Mikimoto Kokichi cultivated the world's first cultured pearl in 1893 — visitors can design and string their own pearl necklace or bracelet from a selection of Akoya pearls graded by lustre, size, and colour. The adjacent museum traces the pearl cultivation process from seed insertion to harvest, ending with certified pearl grading and selection.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Pearl</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Jewelry</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Mikimoto</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Workshop</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+</div>
+</div>
 </section>
 <section class=pref-section id=tips style="background:var(--bg-soft);border-top:1px solid var(--border)">
 <div class=pref-container>
@@ -1031,6 +1065,7 @@ const CATS = {
   nature:     { color:"#1a7a34" },
   leisure:    { color:"#b35c00" },
   events:     { color:"#b5006e" },
+  experience: { color:"#6a0dad" },
 };
 
 const sections = document.querySelectorAll('.spot-section[data-cat]');

@@ -397,6 +397,9 @@
 <button class=pref-toc-btn data-cat=events style=--toc-color:#b5006e>
 <span class=toc-icon>🎆</span> 이벤트
 </button>
+<button class=pref-toc-btn data-cat=experience style=--toc-color:#6a0dad>
+<span class=toc-icon>🎌</span> 체험
+</button>
 </div>
 </nav><section class=spot-section id=section-sightseeing data-cat=sightseeing>
 <div class=spot-section-inner>
@@ -918,6 +921,37 @@ See all 12 관광명소 spots →
 </article>
 </div>
 </div>
+</section><section class=spot-section id=section-experience data-cat=experience>
+<div class=spot-section-inner>
+<div class=section-hd style=--sec-color:#6a0dad>
+<span class=s-icon>🎌</span>
+<h2>체험</h2>
+<span class=s-count>1 곳</span>
+</div>
+<div class=spot-grid>
+<article class=spot-card data-spot-id=fukui-echizen-pottery data-spot-name="Echizen Pottery Workshop" data-spot-pref=fukui data-spot-fee=2500 data-spot-dur=120 data-spot-lat=35.9833 data-spot-lng=136.1667 data-spot-area=echizen data-spot-rating=4.6 data-spot-reviews=1500 data-spot-img="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80" data-spot-cats=experience>
+<img class=spot-img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80" alt="Echizen Pottery Workshop" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎌</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Echizen, Fukui</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Echizen Pottery Workshop</h3>
+<p class=spot-desc>Echizen ware — one of Japan's six ancient unglazed ceramic traditions, fired for 800 years in wood kilns — produces robust, ash-glazed earthenware of great character. The Echizen Ceramics Village near Miyazaki hosts open studios where visitors throw pots on wheels or hand-build using the region's distinctive iron-rich clay, with kiln firing available for collection later.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Pottery</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Echizen Ware</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Workshop</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Ancient Kiln</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+</div>
+</div>
 </section>
 <section class=pref-section id=tips style="background:var(--bg-soft);border-top:1px solid var(--border)">
 <div class=pref-container>
@@ -1030,6 +1064,7 @@ const CATS = {
   nature:     { color:"#1a7a34" },
   leisure:    { color:"#b35c00" },
   events:     { color:"#b5006e" },
+  experience: { color:"#6a0dad" },
 };
 
 const sections = document.querySelectorAll('.spot-section[data-cat]');

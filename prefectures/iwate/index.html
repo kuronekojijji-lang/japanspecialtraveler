@@ -387,6 +387,9 @@
 <button class=pref-toc-btn data-cat=events style=--toc-color:#b5006e>
 <span class=toc-icon>🎆</span> Events
 </button>
+<button class=pref-toc-btn data-cat=experience style=--toc-color:#6a0dad>
+<span class=toc-icon>🎌</span> Experience
+</button>
 </div>
 </nav><section class=spot-section id=section-sightseeing data-cat=sightseeing>
 <div class=spot-section-inner>
@@ -1079,6 +1082,58 @@ See all 7 Events spots →
 </a>
 </div>
 </div>
+</section><section class=spot-section id=section-experience data-cat=experience>
+<div class=spot-section-inner>
+<div class=section-hd style=--sec-color:#6a0dad>
+<span class=s-icon>🎌</span>
+<h2>Experience</h2>
+<span class=s-count>2 spots</span>
+</div>
+<div class=spot-grid>
+<article class=spot-card data-spot-id=iwate-wanko-soba-challenge data-spot-name="Wanko Soba Eating Challenge" data-spot-pref=iwate data-spot-fee=3000 data-spot-dur=60 data-spot-lat=39.7036 data-spot-lng=141.1527 data-spot-area=morioka data-spot-rating=4.7 data-spot-reviews=4500 data-spot-img="https://images.unsplash.com/photo-1569050467447-ce54b3bbc37d?w=800&q=80" data-spot-cats=experience>
+<img class=spot-img src="https://images.unsplash.com/photo-1569050467447-ce54b3bbc37d?w=800&q=80" alt="Wanko Soba Eating Challenge" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎌</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Morioka, Iwate</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Wanko Soba Eating Challenge</h3>
+<p class=spot-desc>Wanko soba is Iwate's most famous food experience — small mouthfuls of buckwheat noodles refilled instantly into your bowl by an attendant who shouts encouragement until you place the lid to stop. Morioka's specialist restaurants issue certificates to anyone exceeding 100 bowls (about 1.5 kg). The combination of competitive eating and theatrical service is uniquely Japanese.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Wanko Soba</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Food Challenge</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Local Tradition</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Morioka</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class=spot-card data-spot-id=iwate-nambu-ironware data-spot-name="Nambu Ironware (Tetsubin) Casting Workshop" data-spot-pref=iwate data-spot-fee=4000 data-spot-dur=120 data-spot-lat=39.7036 data-spot-lng=141.1527 data-spot-area=morioka data-spot-rating=4.7 data-spot-reviews=2200 data-spot-img="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80" data-spot-cats=experience>
+<img class=spot-img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80" alt="Nambu Ironware (Tetsubin) Casting Workshop" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎌</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Morioka, Iwate</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Nambu Ironware (Tetsubin) Casting Workshop</h3>
+<p class=spot-desc>Morioka's Nambu tekki ironware — sand-cast iron teapots and kettles with distinctive pebbled surfaces — has been produced for 400 years. Several ateliers now offer casting workshops where visitors pour molten iron into sand moulds and polish their own small iron coaster or trivet to take home — an experience combining ancient technique with tangible souvenir.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Nambu Ironware</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Casting</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Traditional Craft</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Workshop</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+</div>
+</div>
 </section>
 <section class=pref-section id=tips style="background:var(--bg-soft);border-top:1px solid var(--border)">
 <div class=pref-container>
@@ -1192,6 +1247,7 @@ const CATS = {
   nature:     { color:"#1a7a34" },
   leisure:    { color:"#b35c00" },
   events:     { color:"#b5006e" },
+  experience: { color:"#6a0dad" },
 };
 
 const sections = document.querySelectorAll('.spot-section[data-cat]');

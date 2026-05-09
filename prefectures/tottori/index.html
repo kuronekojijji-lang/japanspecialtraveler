@@ -397,6 +397,9 @@ Don't let the "least populated" label fool you—Tottori's emptiness is its char
 <button class=pref-toc-btn data-cat=events style=--toc-color:#b5006e>
 <span class=toc-icon>🎆</span> Events
 </button>
+<button class=pref-toc-btn data-cat=experience style=--toc-color:#6a0dad>
+<span class=toc-icon>🎌</span> Experience
+</button>
 </div>
 </nav><section class=spot-section id=section-sightseeing data-cat=sightseeing>
 <div class=spot-section-inner>
@@ -982,6 +985,37 @@ See all 11 Leisure spots →
 </article>
 </div>
 </div>
+</section><section class=spot-section id=section-experience data-cat=experience>
+<div class=spot-section-inner>
+<div class=section-hd style=--sec-color:#6a0dad>
+<span class=s-icon>🎌</span>
+<h2>Experience</h2>
+<span class=s-count>1 spots</span>
+</div>
+<div class=spot-grid>
+<article class=spot-card data-spot-id=tottori-sandboarding data-spot-name="Tottori Sand Dune Sandboarding" data-spot-pref=tottori data-spot-fee=2000 data-spot-dur=120 data-spot-lat=35.5427 data-spot-lng=134.224 data-spot-area=tottori-city data-spot-rating=4.7 data-spot-reviews=5500 data-spot-img="https://images.unsplash.com/photo-1465056836041-7f43ac27dcb5?w=800&q=80" data-spot-cats=experience>
+<img class=spot-img src="https://images.unsplash.com/photo-1465056836041-7f43ac27dcb5?w=800&q=80" alt="Tottori Sand Dune Sandboarding" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎌</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Tottori City, Tottori</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Tottori Sand Dune Sandboarding</h3>
+<p class=spot-desc>Japan's largest sand dune system — up to 50 m tall and 2.4 km wide along the Sea of Japan coast — offers the only sandboarding experience in the country. Rental boards are available at the dune entrance, and the main slope provides a fast, gritty ride down 30-metre faces. Camel riding across the dunes adds to the improbable desert-in-Japan atmosphere.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Sandboarding</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Dunes</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Adventure</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Unique</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+</div>
+</div>
 </section>
 <section class=pref-section id=tips style="background:var(--bg-soft);border-top:1px solid var(--border)">
 <div class=pref-container>
@@ -1095,6 +1129,7 @@ const CATS = {
   nature:     { color:"#1a7a34" },
   leisure:    { color:"#b35c00" },
   events:     { color:"#b5006e" },
+  experience: { color:"#6a0dad" },
 };
 
 const sections = document.querySelectorAll('.spot-section[data-cat]');

@@ -358,6 +358,9 @@
 <button class=pref-toc-btn data-cat=events style=--toc-color:#b5006e>
 <span class=toc-icon>🎆</span> Events
 </button>
+<button class=pref-toc-btn data-cat=experience style=--toc-color:#6a0dad>
+<span class=toc-icon>🎌</span> Experience
+</button>
 </div>
 </nav><section class=spot-section id=section-sightseeing data-cat=sightseeing>
 <div class=spot-section-inner>
@@ -1085,6 +1088,37 @@ See all 7 Events spots →
 </a>
 </div>
 </div>
+</section><section class=spot-section id=section-experience data-cat=experience>
+<div class=spot-section-inner>
+<div class=section-hd style=--sec-color:#6a0dad>
+<span class=s-icon>🎌</span>
+<h2>Experience</h2>
+<span class=s-count>1 spots</span>
+</div>
+<div class=spot-grid>
+<article class=spot-card data-spot-id=ibaraki-pottery-kasama data-spot-name="Kasama Pottery Workshop" data-spot-pref=ibaraki data-spot-fee=2500 data-spot-dur=120 data-spot-lat=36.3434 data-spot-lng=140.2691 data-spot-area=kasama data-spot-rating=4.6 data-spot-reviews=3200 data-spot-img="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80" data-spot-cats=experience>
+<img class=spot-img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80" alt="Kasama Pottery Workshop" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎌</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Kasama, Ibaraki</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Kasama Pottery Workshop</h3>
+<p class=spot-desc>Kasama is one of Japan's most active pottery towns with over 200 studios clustered around the historic kiln district. Beginner workshops at open studios teach wheel throwing and hand-building, with participants glazing their pieces before firing. The earthy, functional Kasama-yaki style — thick walls, natural ash glazes, warm tones — is accessible for first-time potters to create genuinely usable results.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Pottery</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Kasama Ware</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Wheel Throwing</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Workshop</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+</div>
+</div>
 </section>
 <section class=pref-section id=tips style="background:var(--bg-soft);border-top:1px solid var(--border)">
 <div class=pref-container>
@@ -1187,6 +1221,7 @@ const CATS = {
   nature:     { color:"#1a7a34" },
   leisure:    { color:"#b35c00" },
   events:     { color:"#b5006e" },
+  experience: { color:"#6a0dad" },
 };
 
 const sections = document.querySelectorAll('.spot-section[data-cat]');

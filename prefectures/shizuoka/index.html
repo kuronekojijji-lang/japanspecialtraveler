@@ -298,6 +298,9 @@
 <button class=pref-toc-btn data-cat=events style=--toc-color:#b5006e>
 <span class=toc-icon>🎆</span> Events
 </button>
+<button class=pref-toc-btn data-cat=experience style=--toc-color:#6a0dad>
+<span class=toc-icon>🎌</span> Experience
+</button>
 </div>
 </nav><section class=spot-section id=section-sightseeing data-cat=sightseeing>
 <div class=spot-section-inner>
@@ -1025,6 +1028,58 @@ See all 9 Leisure spots →
 </article>
 </div>
 </div>
+</section><section class=spot-section id=section-experience data-cat=experience>
+<div class=spot-section-inner>
+<div class=section-hd style=--sec-color:#6a0dad>
+<span class=s-icon>🎌</span>
+<h2>Experience</h2>
+<span class=s-count>2 spots</span>
+</div>
+<div class=spot-grid>
+<article class=spot-card data-spot-id=shizuoka-tea-ceremony-plantation data-spot-name="Shizuoka Tea Farm Tour &amp;amp; Ceremony" data-spot-pref=shizuoka data-spot-fee=3000 data-spot-dur=180 data-spot-lat=34.7833 data-spot-lng=138.1167 data-spot-area=makinohara data-spot-rating=4.8 data-spot-reviews=4500 data-spot-img="https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=800&q=80" data-spot-cats=experience>
+<img class=spot-img src="https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=800&q=80" alt="Shizuoka Tea Farm Tour & Ceremony" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎌</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Makinohara, Shizuoka</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Shizuoka Tea Farm Tour & Ceremony</h3>
+<p class=spot-desc>Walk Shizuoka's terraced tea fields with a farmer guide who explains cultivar differences, pruning rhythms, and harvesting techniques before sitting in a farm shed for a proper tea cupping of three grades — sencha, fukamushi, and gyokuro — comparing flavour profiles and learning preparation temperatures. Finish with a matcha grinding and whisking session using stone handmills.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Tea</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Green Tea</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Ceremony</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Farm Tour</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class=spot-card data-spot-id=shizuoka-izu-diving data-spot-name="Izu Peninsula Scuba Diving" data-spot-pref=shizuoka data-spot-fee=9000 data-spot-dur=300 data-spot-lat=34.6761 data-spot-lng=138.9458 data-spot-area=ito data-spot-rating=4.7 data-spot-reviews=3800 data-spot-img="https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&q=80" data-spot-cats=experience>
+<img class=spot-img src="https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&q=80" alt="Izu Peninsula Scuba Diving" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎌</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Ito, Shizuoka</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Izu Peninsula Scuba Diving</h3>
+<p class=spot-desc>The Izu Peninsula's volcanic coastline plunges into some of Japan's clearest inshore waters, with visibility up to 20 m in the calm western (Suruga Bay) and eastern (Pacific) coasts. Dive schools in Ito, Shimoda, and Dogashima operate year-round introductory and licensed dives past underwater lava formations, moray eels, schools of jack fish, and seasonal visits by hammerhead sharks.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Scuba Diving</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Marine Life</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Clear Water</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Izu</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+</div>
+</div>
 </section>
 <section class=pref-section id=tips style="background:var(--bg-soft);border-top:1px solid var(--border)">
 <div class=pref-container>
@@ -1122,6 +1177,7 @@ const CATS = {
   nature:     { color:"#1a7a34" },
   leisure:    { color:"#b35c00" },
   events:     { color:"#b5006e" },
+  experience: { color:"#6a0dad" },
 };
 
 const sections = document.querySelectorAll('.spot-section[data-cat]');

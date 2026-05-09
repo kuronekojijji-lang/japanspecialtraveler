@@ -371,6 +371,9 @@
 <button class=pref-toc-btn data-cat=events style=--toc-color:#b5006e>
 <span class=toc-icon>🎆</span> 이벤트
 </button>
+<button class=pref-toc-btn data-cat=experience style=--toc-color:#6a0dad>
+<span class=toc-icon>🎌</span> 체험
+</button>
 </div>
 </nav><section class=spot-section id=section-sightseeing data-cat=sightseeing>
 <div class=spot-section-inner>
@@ -1069,6 +1072,58 @@ See all 8 이벤트 spots →
 </a>
 </div>
 </div>
+</section><section class=spot-section id=section-experience data-cat=experience>
+<div class=spot-section-inner>
+<div class=section-hd style=--sec-color:#6a0dad>
+<span class=s-icon>🎌</span>
+<h2>체험</h2>
+<span class=s-count>2 곳</span>
+</div>
+<div class=spot-grid>
+<article class=spot-card data-spot-id=aomori-tsugaru-shamisen data-spot-name="Tsugaru Shamisen Lesson" data-spot-pref=aomori data-spot-fee=3000 data-spot-dur=60 data-spot-lat=40.6024 data-spot-lng=140.4635 data-spot-area=hirosaki data-spot-rating=4.6 data-spot-reviews=1200 data-spot-img="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80" data-spot-cats=experience>
+<img class=spot-img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80" alt="Tsugaru Shamisen Lesson" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎌</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Hirosaki, Aomori</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Tsugaru Shamisen Lesson</h3>
+<p class=spot-desc>Tsugaru shamisen — the ferociously energetic style of three-stringed lute playing born in Aomori's Tsugaru region — is one of Japan's most visceral musical traditions. Short taster lessons in Hirosaki introduce beginners to basic plucking technique and the characteristic hard-hitting bachi strikes, with instructors who perform in the nationally famous Tsugaru Jamisen competitions.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Shamisen</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Traditional Music</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Workshop</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Cultural</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class=spot-card data-spot-id=aomori-apple-picking data-spot-name="Aomori Apple Picking &amp;amp; Juice Pressing" data-spot-pref=aomori data-spot-fee=1500 data-spot-dur=120 data-spot-lat=40.6024 data-spot-lng=140.4635 data-spot-area=hirosaki data-spot-rating=4.6 data-spot-reviews=3500 data-spot-img="https://images.unsplash.com/photo-1490885578174-acda8905c2c6?w=800&q=80" data-spot-cats=experience>
+<img class=spot-img src="https://images.unsplash.com/photo-1490885578174-acda8905c2c6?w=800&q=80" alt="Aomori Apple Picking & Juice Pressing" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎌</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Hirosaki, Aomori</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Aomori Apple Picking & Juice Pressing</h3>
+<p class=spot-desc>Aomori produces 60% of Japan's apples and the region around Hirosaki is blanketed with orchards ripening from August to November. Pick-your-own sessions at family farms let visitors sample 30+ varieties straight from the branch, then press fresh juice in a hand-cranked mill to take home — a pure expression of Japan's finest apple-growing heritage.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Apple</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Fruit Picking</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Autumn</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Cider</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+</div>
+</div>
 </section>
 <section class=pref-section id=tips style="background:var(--bg-soft);border-top:1px solid var(--border)">
 <div class=pref-container>
@@ -1181,6 +1236,7 @@ const CATS = {
   nature:     { color:"#1a7a34" },
   leisure:    { color:"#b35c00" },
   events:     { color:"#b5006e" },
+  experience: { color:"#6a0dad" },
 };
 
 const sections = document.querySelectorAll('.spot-section[data-cat]');

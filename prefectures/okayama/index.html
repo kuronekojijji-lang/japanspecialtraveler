@@ -378,6 +378,9 @@
 <button class=pref-toc-btn data-cat=events style=--toc-color:#b5006e>
 <span class=toc-icon>🎆</span> Events
 </button>
+<button class=pref-toc-btn data-cat=experience style=--toc-color:#6a0dad>
+<span class=toc-icon>🎌</span> Experience
+</button>
 </div>
 </nav><section class=spot-section id=section-sightseeing data-cat=sightseeing>
 <div class=spot-section-inner>
@@ -937,6 +940,37 @@ See all 7 Sightseeing spots →
 </article>
 </div>
 </div>
+</section><section class=spot-section id=section-experience data-cat=experience>
+<div class=spot-section-inner>
+<div class=section-hd style=--sec-color:#6a0dad>
+<span class=s-icon>🎌</span>
+<h2>Experience</h2>
+<span class=s-count>1 spots</span>
+</div>
+<div class=spot-grid>
+<article class=spot-card data-spot-id=okayama-bizen-pottery-workshop data-spot-name="Bizen Pottery Making Workshop" data-spot-pref=okayama data-spot-fee=3000 data-spot-dur=150 data-spot-lat=34.746 data-spot-lng=134.1891 data-spot-area=bizen data-spot-rating=4.7 data-spot-reviews=2800 data-spot-img="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80" data-spot-cats=experience>
+<img class=spot-img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80" alt="Bizen Pottery Making Workshop" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎌</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Bizen, Okayama</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Bizen Pottery Making Workshop</h3>
+<p class=spot-desc>Bizen ware's unglazed, kiln-fired surfaces — each piece uniquely marked by ash, fire, and the position in the kiln — make it Japan's most elemental ceramic tradition. Workshops at the Bizen Pottery Village teach hand-building and coil construction using the local iron-rich clay, with participants choosing kiln placement positions (hin襷, bota-ash, sangiri) that will determine their piece's final character.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Bizen Ware</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Pottery</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Kiln</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Workshop</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+</div>
+</div>
 </section>
 <section class=pref-section id=tips style="background:var(--bg-soft);border-top:1px solid var(--border)">
 <div class=pref-container>
@@ -1028,6 +1062,7 @@ const CATS = {
   nature:     { color:"#1a7a34" },
   leisure:    { color:"#b35c00" },
   events:     { color:"#b5006e" },
+  experience: { color:"#6a0dad" },
 };
 
 const sections = document.querySelectorAll('.spot-section[data-cat]');

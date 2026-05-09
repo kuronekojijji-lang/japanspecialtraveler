@@ -380,6 +380,9 @@
 <button class=pref-toc-btn data-cat=events style=--toc-color:#b5006e>
 <span class=toc-icon>🎆</span> Événements
 </button>
+<button class=pref-toc-btn data-cat=experience style=--toc-color:#6a0dad>
+<span class=toc-icon>🎌</span> Expériences
+</button>
 </div>
 </nav><section class=spot-section id=section-sightseeing data-cat=sightseeing>
 <div class=spot-section-inner>
@@ -1108,6 +1111,58 @@ See all 8 Événements spots →
 </a>
 </div>
 </div>
+</section><section class=spot-section id=section-experience data-cat=experience>
+<div class=spot-section-inner>
+<div class=section-hd style=--sec-color:#6a0dad>
+<span class=s-icon>🎌</span>
+<h2>Expériences</h2>
+<span class=s-count>2 lieux</span>
+</div>
+<div class=spot-grid>
+<article class=spot-card data-spot-id=niigata-rice-planting data-spot-name="Niigata Rice Planting &amp;amp; Harvest Experience" data-spot-pref=niigata data-spot-fee=3000 data-spot-dur=240 data-spot-lat=37.0833 data-spot-lng=138.9167 data-spot-area=uonuma data-spot-rating=4.8 data-spot-reviews=2200 data-spot-img="https://images.unsplash.com/photo-1501284905218-cd4001e04e3f?w=800&q=80" data-spot-cats=experience>
+<img class=spot-img src="https://images.unsplash.com/photo-1501284905218-cd4001e04e3f?w=800&q=80" alt="Niigata Rice Planting & Harvest Experience" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎌</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Minami-Uonuma, Niigata</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Niigata Rice Planting & Harvest Experience</h3>
+<p class=spot-desc>Join Uonuma rice farmers for traditional hand-planting (June) or harvesting (September) of Koshihikari — Japan's most prized rice. Wade barefoot through flooded paddies pushing seedlings into the mud, or swing a sickle to cut golden stalks and bind them into sheaves. The day ends with a bowl of freshly milled shinmai rice — a flavour revelation when you have just grown it.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Rice Farming</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Agriculture</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Hands-on</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Seasonal</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class=spot-card data-spot-id=niigata-snow-country-skiing data-spot-name="Yuzawa Snow Country Skiing" data-spot-pref=niigata data-spot-fee=6000 data-spot-dur=360 data-spot-lat=36.9236 data-spot-lng=138.8192 data-spot-area=yuzawa data-spot-rating=4.7 data-spot-reviews=8500 data-spot-img="https://images.unsplash.com/photo-1547754980-3df97fed72a8?w=800&q=80" data-spot-cats=experience>
+<img class=spot-img src="https://images.unsplash.com/photo-1547754980-3df97fed72a8?w=800&q=80" alt="Yuzawa Snow Country Skiing" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎌</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Yuzawa, Niigata</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Yuzawa Snow Country Skiing</h3>
+<p class=spot-desc>Yuzawa — the 'Snow Country' immortalised in Kawabata Yasunari's Nobel Prize-winning novel — receives 6–8 m of powder snow each winter. Naeba, Gala Yuzawa, and Kagura resorts offer ski school programmes in English. Gala Yuzawa is unique for its direct Shinkansen access from Tokyo (77 minutes) to a ski slope exit platform — ski boots to first run in under 2 hours from the city.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Skiing</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Snow Country</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Kawabata</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Yuzawa</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+</div>
+</div>
 </section>
 <section class=pref-section id=tips style="background:var(--bg-soft);border-top:1px solid var(--border)">
 <div class=pref-container>
@@ -1211,6 +1266,7 @@ const CATS = {
   nature:     { color:"#1a7a34" },
   leisure:    { color:"#b35c00" },
   events:     { color:"#b5006e" },
+  experience: { color:"#6a0dad" },
 };
 
 const sections = document.querySelectorAll('.spot-section[data-cat]');

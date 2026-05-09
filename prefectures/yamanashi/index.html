@@ -378,6 +378,9 @@
 <button class=pref-toc-btn data-cat=events style=--toc-color:#b5006e>
 <span class=toc-icon>🎆</span> Events
 </button>
+<button class=pref-toc-btn data-cat=experience style=--toc-color:#6a0dad>
+<span class=toc-icon>🎌</span> Experience
+</button>
 </div>
 </nav><section class=spot-section id=section-sightseeing data-cat=sightseeing>
 <div class=spot-section-inner>
@@ -1055,6 +1058,37 @@ See all 15 Nature spots →
 </article>
 </div>
 </div>
+</section><section class=spot-section id=section-experience data-cat=experience>
+<div class=spot-section-inner>
+<div class=section-hd style=--sec-color:#6a0dad>
+<span class=s-icon>🎌</span>
+<h2>Experience</h2>
+<span class=s-count>1 spots</span>
+</div>
+<div class=spot-grid>
+<article class=spot-card data-spot-id=yamanashi-winery-tour data-spot-name="Yamanashi Koshu Winery Tour &amp;amp; Blending" data-spot-pref=yamanashi data-spot-fee=5000 data-spot-dur=150 data-spot-lat=35.6167 data-spot-lng=138.75 data-spot-area=katsunuma data-spot-rating=4.7 data-spot-reviews=3500 data-spot-img="https://images.unsplash.com/photo-1537498425277-c283d32ef9db?w=800&q=80" data-spot-cats=experience>
+<img class=spot-img src="https://images.unsplash.com/photo-1537498425277-c283d32ef9db?w=800&q=80" alt="Yamanashi Koshu Winery Tour & Blending" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎌</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Koshu, Yamanashi</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Yamanashi Koshu Winery Tour & Blending</h3>
+<p class=spot-desc>Katsunuma's 30+ wineries produce Japan's most distinctive wines from the indigenous Koshu grape. Several offer blending workshops where participants taste component wines from different vineyards and vintage years, then create their own personalised blend, bottle, cork, and label it to take home. The experience demystifies winemaking while producing a genuinely unique souvenir.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Wine</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Winery</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Koshu</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Blending Workshop</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+</div>
+</div>
 </section>
 <section class=pref-section id=tips style="background:var(--bg-soft);border-top:1px solid var(--border)">
 <div class=pref-container>
@@ -1157,6 +1191,7 @@ const CATS = {
   nature:     { color:"#1a7a34" },
   leisure:    { color:"#b35c00" },
   events:     { color:"#b5006e" },
+  experience: { color:"#6a0dad" },
 };
 
 const sections = document.querySelectorAll('.spot-section[data-cat]');

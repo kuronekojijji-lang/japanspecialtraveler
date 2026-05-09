@@ -303,6 +303,9 @@
 <button class=pref-toc-btn data-cat=events style=--toc-color:#b5006e>
 <span class=toc-icon>🎆</span> Events
 </button>
+<button class=pref-toc-btn data-cat=experience style=--toc-color:#6a0dad>
+<span class=toc-icon>🎌</span> Experience
+</button>
 </div>
 </nav><section class=spot-section id=section-sightseeing data-cat=sightseeing>
 <div class=spot-section-inner>
@@ -947,6 +950,58 @@ See all 7 Sightseeing spots →
 </article>
 </div>
 </div>
+</section><section class=spot-section id=section-experience data-cat=experience>
+<div class=spot-section-inner>
+<div class=section-hd style=--sec-color:#6a0dad>
+<span class=s-icon>🎌</span>
+<h2>Experience</h2>
+<span class=s-count>2 spots</span>
+</div>
+<div class=spot-grid>
+<article class=spot-card data-spot-id=nagano-soba-making data-spot-name="Nagano Soba Noodle Making Class" data-spot-pref=nagano data-spot-fee=3500 data-spot-dur=120 data-spot-lat=36.7498 data-spot-lng=137.9638 data-spot-area=togakushi data-spot-rating=4.8 data-spot-reviews=5500 data-spot-img="https://images.unsplash.com/photo-1569050467447-ce54b3bbc37d?w=800&q=80" data-spot-cats=experience>
+<img class=spot-img src="https://images.unsplash.com/photo-1569050467447-ce54b3bbc37d?w=800&q=80" alt="Nagano Soba Noodle Making Class" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎌</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Nagano City, Nagano</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Nagano Soba Noodle Making Class</h3>
+<p class=spot-desc>Nagano's mountain buckwheat — grown at altitude where cold nights concentrate the grain's earthy fragrance — produces Japan's finest soba. Farmhouse workshops in Togakushi, the origin of Togakushi soba, teach participants to mix, knead, roll, and cut buckwheat noodles by hand, then eat them cold with dipping broth and wasabi grated fresh from the root. The cutting technique is addictively satisfying.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Soba</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Noodle Making</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Workshop</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Buckwheat</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class=spot-card data-spot-id=nagano-alpine-flower-trekking data-spot-name="Kamikochi Alpine Flower Trekking" data-spot-pref=nagano data-spot-fee=4000 data-spot-dur=300 data-spot-lat=36.2415 data-spot-lng=137.6465 data-spot-area=kamikochi data-spot-rating=4.8 data-spot-reviews=4200 data-spot-img="https://images.unsplash.com/photo-1540979388789-6cee28a1cdc9?w=800&q=80" data-spot-cats=experience>
+<img class=spot-img src="https://images.unsplash.com/photo-1540979388789-6cee28a1cdc9?w=800&q=80" alt="Kamikochi Alpine Flower Trekking" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎌</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Matsumoto, Nagano</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Kamikochi Alpine Flower Trekking</h3>
+<p class=spot-desc>The Kamikochi valley floor at 1,500 m is accessible only from late April to November (no private vehicles), creating a rare protected alpine environment of extraordinary beauty. Guided flower-trekking tours in June–July identify 200+ species of mountain wildflowers blooming around the Azusa River and Taisho Pond — from gentians and lilies to rare mountain orchids growing beside clear snowmelt streams.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Trekking</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Alpine</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Flowers</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Kamikochi</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+</div>
+</div>
 </section>
 <section class=pref-section id=tips style="background:var(--bg-soft);border-top:1px solid var(--border)">
 <div class=pref-container>
@@ -1049,6 +1104,7 @@ const CATS = {
   nature:     { color:"#1a7a34" },
   leisure:    { color:"#b35c00" },
   events:     { color:"#b5006e" },
+  experience: { color:"#6a0dad" },
 };
 
 const sections = document.querySelectorAll('.spot-section[data-cat]');

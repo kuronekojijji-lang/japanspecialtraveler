@@ -380,6 +380,9 @@
 <button class=pref-toc-btn data-cat=events style=--toc-color:#b5006e>
 <span class=toc-icon>🎆</span> 이벤트
 </button>
+<button class=pref-toc-btn data-cat=experience style=--toc-color:#6a0dad>
+<span class=toc-icon>🎌</span> 체험
+</button>
 </div>
 </nav><section class=spot-section id=section-sightseeing data-cat=sightseeing>
 <div class=spot-section-inner>
@@ -1078,6 +1081,58 @@ See all 8 이벤트 spots →
 </a>
 </div>
 </div>
+</section><section class=spot-section id=section-experience data-cat=experience>
+<div class=spot-section-inner>
+<div class=section-hd style=--sec-color:#6a0dad>
+<span class=s-icon>🎌</span>
+<h2>체험</h2>
+<span class=s-count>2 곳</span>
+</div>
+<div class=spot-grid>
+<article class=spot-card data-spot-id=yamagata-imoni-cooking data-spot-name="Yamagata Imoni River Cooking" data-spot-pref=yamagata data-spot-fee=1000 data-spot-dur=180 data-spot-lat=38.2554 data-spot-lng=140.3396 data-spot-area=yamagata-city data-spot-rating=4.8 data-spot-reviews=3500 data-spot-img="https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80" data-spot-cats=experience>
+<img class=spot-img src="https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80" alt="Yamagata Imoni River Cooking" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎌</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Yamagata City, Yamagata</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Yamagata Imoni River Cooking</h3>
+<p class=spot-desc>Every September, tens of thousands gather on the banks of the Mamigasaki River in Yamagata city for the world's largest outdoor taro stew party — cooking imoni in giant 6-metre cauldrons stirred by crane-mounted paddles. Community groups invite visitors to join private river-bank imoni parties where each family cooks their own pot of beef, taro, konjac, and leek over an open fire.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Imoni</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>River BBQ</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Autumn</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Local Food</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class=spot-card data-spot-id=yamagata-cherry-picking data-spot-name="Yamagata Sakuranbo Cherry Picking" data-spot-pref=yamagata data-spot-fee=2000 data-spot-dur=60 data-spot-lat=38.4333 data-spot-lng=140.3833 data-spot-area=higashine data-spot-rating=4.8 data-spot-reviews=7500 data-spot-img="https://images.unsplash.com/photo-1553279768-865429fa0078?w=800&q=80" data-spot-cats=experience>
+<img class=spot-img src="https://images.unsplash.com/photo-1553279768-865429fa0078?w=800&q=80" alt="Yamagata Sakuranbo Cherry Picking" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎌</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Higashine, Yamagata</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Yamagata Sakuranbo Cherry Picking</h3>
+<p class=spot-desc>Yamagata produces 75% of Japan's premium cherries — particularly the Sato Nishiki and Beni Shuho varieties that sell for ¥3,000–5,000 per 200g box. June orchards around Higashine and Murayama open for 30-minute all-you-can-eat picking sessions, letting visitors eat as many sun-warmed cherries directly from the branch as they can manage — an indulgence unlike any cherry experience elsewhere.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Cherry</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Fruit Picking</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>June</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Premium Fruit</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+</div>
+</div>
 </section>
 <section class=pref-section id=tips style="background:var(--bg-soft);border-top:1px solid var(--border)">
 <div class=pref-container>
@@ -1180,6 +1235,7 @@ const CATS = {
   nature:     { color:"#1a7a34" },
   leisure:    { color:"#b35c00" },
   events:     { color:"#b5006e" },
+  experience: { color:"#6a0dad" },
 };
 
 const sections = document.querySelectorAll('.spot-section[data-cat]');

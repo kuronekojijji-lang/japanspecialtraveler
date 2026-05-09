@@ -380,6 +380,9 @@
 <button class=pref-toc-btn data-cat=events style=--toc-color:#b5006e>
 <span class=toc-icon>🎆</span> Events
 </button>
+<button class=pref-toc-btn data-cat=experience style=--toc-color:#6a0dad>
+<span class=toc-icon>🎌</span> Experience
+</button>
 </div>
 </nav><section class=spot-section id=section-sightseeing data-cat=sightseeing>
 <div class=spot-section-inner>
@@ -1080,6 +1083,58 @@ See all 8 Events spots →
 </a>
 </div>
 </div>
+</section><section class=spot-section id=section-experience data-cat=experience>
+<div class=spot-section-inner>
+<div class=section-hd style=--sec-color:#6a0dad>
+<span class=s-icon>🎌</span>
+<h2>Experience</h2>
+<span class=s-count>2 spots</span>
+</div>
+<div class=spot-grid>
+<article class=spot-card data-spot-id=miyagi-oyster-harvesting data-spot-name="Matsushima Oyster Harvesting Experience" data-spot-pref=miyagi data-spot-fee=3000 data-spot-dur=120 data-spot-lat=38.3712 data-spot-lng=141.0669 data-spot-area=matsushima data-spot-rating=4.7 data-spot-reviews=3800 data-spot-img="https://images.unsplash.com/photo-1565680018434-b513d5e5fd47?w=800&q=80" data-spot-cats=experience>
+<img class=spot-img src="https://images.unsplash.com/photo-1565680018434-b513d5e5fd47?w=800&q=80" alt="Matsushima Oyster Harvesting Experience" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎌</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Matsushima, Miyagi</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Matsushima Oyster Harvesting Experience</h3>
+<p class=spot-desc>Matsushima Bay's island-sheltered waters produce Miyagi oysters prized across Japan. Guided harvesting tours take visitors onto aquaculture rafts to pull up oyster cages, prise shells open with a shucking knife, and eat them raw on the spot with a squeeze of lemon — a briny, exhilarating experience best in the cold months of November to March.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Oyster</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Harvesting</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Matsushima</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Seafood</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class=spot-card data-spot-id=miyagi-tansu-woodworking data-spot-name="Sendai Tansu Woodworking Workshop" data-spot-pref=miyagi data-spot-fee=3500 data-spot-dur=120 data-spot-lat=38.2682 data-spot-lng=140.8694 data-spot-area=sendai data-spot-rating=4.5 data-spot-reviews=1200 data-spot-img="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80" data-spot-cats=experience>
+<img class=spot-img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80" alt="Sendai Tansu Woodworking Workshop" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎌</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Sendai, Miyagi</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Sendai Tansu Woodworking Workshop</h3>
+<p class=spot-desc>Sendai tansu — ornate lacquered chest-of-drawers with intricate ironwork fittings — is one of Japan's finest furniture traditions. Workshops led by certified craftsmen teach hand-planing, joinery, and lacquer polishing techniques, with participants completing a small wooden tray or box using the same methods applied to these museum-quality pieces.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Woodworking</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Traditional Craft</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Tansu</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Workshop</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+</div>
+</div>
 </section>
 <section class=pref-section id=tips style="background:var(--bg-soft);border-top:1px solid var(--border)">
 <div class=pref-container>
@@ -1183,6 +1238,7 @@ const CATS = {
   nature:     { color:"#1a7a34" },
   leisure:    { color:"#b35c00" },
   events:     { color:"#b5006e" },
+  experience: { color:"#6a0dad" },
 };
 
 const sections = document.querySelectorAll('.spot-section[data-cat]');

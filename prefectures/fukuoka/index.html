@@ -371,6 +371,9 @@
 <button class=pref-toc-btn data-cat=events style=--toc-color:#b5006e>
 <span class=toc-icon>🎆</span> Events
 </button>
+<button class=pref-toc-btn data-cat=experience style=--toc-color:#6a0dad>
+<span class=toc-icon>🎌</span> Experience
+</button>
 </div>
 </nav><section class=spot-section id=section-sightseeing data-cat=sightseeing>
 <div class=spot-section-inner>
@@ -936,6 +939,58 @@ See all 7 Leisure spots →
 </article>
 </div>
 </div>
+</section><section class=spot-section id=section-experience data-cat=experience>
+<div class=spot-section-inner>
+<div class=section-hd style=--sec-color:#6a0dad>
+<span class=s-icon>🎌</span>
+<h2>Experience</h2>
+<span class=s-count>2 spots</span>
+</div>
+<div class=spot-grid>
+<article class=spot-card data-spot-id=fukuoka-ramen-school data-spot-name="Hakata Ramen School" data-spot-pref=fukuoka data-spot-fee=7500 data-spot-dur=180 data-spot-lat=33.589 data-spot-lng=130.3964 data-spot-area=tenjin data-spot-rating=4.8 data-spot-reviews=4500 data-spot-img="https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80" data-spot-cats=experience>
+<img class=spot-img src="https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80" alt="Hakata Ramen School" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎌</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Chuo-ku, Fukuoka</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Hakata Ramen School</h3>
+<p class=spot-desc>The Hakata Ramen School in Tenjin offers half-day workshops teaching the secrets of authentic tonkotsu broth — how to blanch and pressure-boil pork bones to achieve the cloudy, collagen-rich white soup, season it with shio or shoyu tare, and cook the ultra-thin straight noodles to the local kata (firm) preference. Participants take home a recipe card and a jar of their own tare blend.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Ramen</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Cooking</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Tonkotsu</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Workshop</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class=spot-card data-spot-id=fukuoka-hakata-weaving data-spot-name="Hakata-ori Silk Weaving Experience" data-spot-pref=fukuoka data-spot-fee=3000 data-spot-dur=90 data-spot-lat=33.593 data-spot-lng=130.415 data-spot-area=hakata data-spot-rating=4.7 data-spot-reviews=2500 data-spot-img="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80" data-spot-cats=experience>
+<img class=spot-img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80" alt="Hakata-ori Silk Weaving Experience" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎌</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Hakata-ku, Fukuoka</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Hakata-ori Silk Weaving Experience</h3>
+<p class=spot-desc>Hakata-ori — the 750-year-old silk weaving tradition producing the stiff, brightly striped brocade used in sumo referees' and geisha's obi sashes — is practised by just a handful of certified master weavers. Studios near Kushida Shrine offer hands-on weaving sessions where participants create a small coaster or bookmark on a traditional jacquard loom, experiencing the satisfying resistance of the tight brocade weave.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Hakata-ori</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Silk Weaving</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Traditional Craft</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Obi</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+</div>
+</div>
 </section>
 <section class=pref-section id=tips style="background:var(--bg-soft);border-top:1px solid var(--border)">
 <div class=pref-container>
@@ -1048,6 +1103,7 @@ const CATS = {
   nature:     { color:"#1a7a34" },
   leisure:    { color:"#b35c00" },
   events:     { color:"#b5006e" },
+  experience: { color:"#6a0dad" },
 };
 
 const sections = document.querySelectorAll('.spot-section[data-cat]');

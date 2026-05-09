@@ -378,6 +378,9 @@
 <button class=pref-toc-btn data-cat=events style=--toc-color:#b5006e>
 <span class=toc-icon>🎆</span> Events
 </button>
+<button class=pref-toc-btn data-cat=experience style=--toc-color:#6a0dad>
+<span class=toc-icon>🎌</span> Experience
+</button>
 </div>
 </nav><section class=spot-section id=section-sightseeing data-cat=sightseeing>
 <div class=spot-section-inner>
@@ -1027,6 +1030,37 @@ See all 9 Events spots →
 </a>
 </div>
 </div>
+</section><section class=spot-section id=section-experience data-cat=experience>
+<div class=spot-section-inner>
+<div class=section-hd style=--sec-color:#6a0dad>
+<span class=s-icon>🎌</span>
+<h2>Experience</h2>
+<span class=s-count>1 spots</span>
+</div>
+<div class=spot-grid>
+<article class=spot-card data-spot-id=saitama-kawagoe-kimono data-spot-name="Kawagoe Kimono Rental &amp;amp; Town Walk" data-spot-pref=saitama data-spot-fee=3500 data-spot-dur=180 data-spot-lat=35.9256 data-spot-lng=139.4853 data-spot-area=kawagoe data-spot-rating=4.7 data-spot-reviews=5500 data-spot-img="https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=800&q=80" data-spot-cats=experience>
+<img class=spot-img src="https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=800&q=80" alt="Kawagoe Kimono Rental & Town Walk" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎌</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Kawagoe, Saitama</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Kawagoe Kimono Rental & Town Walk</h3>
+<p class=spot-desc>Kawagoe's preserved Edo-period kurazukuri warehouse district is the perfect backdrop for kimono. Rental shops near the main shopping street dress visitors in seasonal kimono with obi and accessories, style hair in traditional kanzashi, and send them out to walk the old town for a full day. The combination of Meiji-era architecture, carp-filled moats, and kimono-clad strollers is genuinely photogenic.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Kimono</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Edo Town</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Photo Walk</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Traditional</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+</div>
+</div>
 </section>
 <section class=pref-section id=tips style="background:var(--bg-soft);border-top:1px solid var(--border)">
 <div class=pref-container>
@@ -1140,6 +1174,7 @@ const CATS = {
   nature:     { color:"#1a7a34" },
   leisure:    { color:"#b35c00" },
   events:     { color:"#b5006e" },
+  experience: { color:"#6a0dad" },
 };
 
 const sections = document.querySelectorAll('.spot-section[data-cat]');

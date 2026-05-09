@@ -385,6 +385,9 @@
 <button class=pref-toc-btn data-cat=events style=--toc-color:#b5006e>
 <span class=toc-icon>🎆</span> Events
 </button>
+<button class=pref-toc-btn data-cat=experience style=--toc-color:#6a0dad>
+<span class=toc-icon>🎌</span> Experience
+</button>
 </div>
 </nav><section class=spot-section id=section-sightseeing data-cat=sightseeing>
 <div class=spot-section-inner>
@@ -1079,6 +1082,58 @@ See all 9 Leisure spots →
 </article>
 </div>
 </div>
+</section><section class=spot-section id=section-experience data-cat=experience>
+<div class=spot-section-inner>
+<div class=section-hd style=--sec-color:#6a0dad>
+<span class=s-icon>🎌</span>
+<h2>Experience</h2>
+<span class=s-count>2 spots</span>
+</div>
+<div class=spot-grid>
+<article class=spot-card data-spot-id=akita-sake-brewing data-spot-name="Akita Sake Brewery Toji Experience" data-spot-pref=akita data-spot-fee=5000 data-spot-dur=240 data-spot-lat=39.1613 data-spot-lng=140.3646 data-spot-area=yuzawa data-spot-rating=4.8 data-spot-reviews=1500 data-spot-img="https://images.unsplash.com/photo-1504681869696-d977e17a3dff?w=800&q=80" data-spot-cats=experience>
+<img class=spot-img src="https://images.unsplash.com/photo-1504681869696-d977e17a3dff?w=800&q=80" alt="Akita Sake Brewery Toji Experience" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎌</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Yuzawa, Akita</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Akita Sake Brewery Toji Experience</h3>
+<p class=spot-desc>Akita's soft snowmelt water and cold winters make it one of Japan's premier sake regions. Several breweries in Yuzawa and Akita city offer toji (master brewer) experience days where visitors join actual brewing operations — washing rice, monitoring koji mold growth, and tasting each stage from moromi mash to finished sake — an intimate look at the ancient brewing craft.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Sake</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Brewing</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Workshop</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Winter</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class=spot-card data-spot-id=akita-kabuki-makeup data-spot-name="Akita Kanto Festival Lantern Balancing" data-spot-pref=akita data-spot-fee=500 data-spot-dur=60 data-spot-lat=39.72 data-spot-lng=140.1025 data-spot-area=akita-city data-spot-rating=4.6 data-spot-reviews=2800 data-spot-img="https://images.unsplash.com/photo-1532452119098-a3650b3c46d3?w=800&q=80" data-spot-cats=experience>
+<img class=spot-img src="https://images.unsplash.com/photo-1532452119098-a3650b3c46d3?w=800&q=80" alt="Akita Kanto Festival Lantern Balancing" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎌</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Akita City, Akita</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Akita Kanto Festival Lantern Balancing</h3>
+<p class=spot-desc>Akita's Kanto Festival (August) involves balancing bamboo poles hung with 46 lit paper lanterns — weighing up to 50 kg — on the palm, forehead, shoulder or hip. Training sessions run throughout summer at the Kanto Festival Hall where instructors teach the balancing technique and visitors try a smaller 8-lantern practice pole under supervision.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Kanto</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Lantern</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Festival</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Balance</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+</div>
+</div>
 </section>
 <section class=pref-section id=tips style="background:var(--bg-soft);border-top:1px solid var(--border)">
 <div class=pref-container>
@@ -1192,6 +1247,7 @@ const CATS = {
   nature:     { color:"#1a7a34" },
   leisure:    { color:"#b35c00" },
   events:     { color:"#b5006e" },
+  experience: { color:"#6a0dad" },
 };
 
 const sections = document.querySelectorAll('.spot-section[data-cat]');

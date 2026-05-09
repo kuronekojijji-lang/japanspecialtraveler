@@ -298,6 +298,9 @@
 <button class=pref-toc-btn data-cat=events style=--toc-color:#b5006e>
 <span class=toc-icon>🎆</span> Events
 </button>
+<button class=pref-toc-btn data-cat=experience style=--toc-color:#6a0dad>
+<span class=toc-icon>🎌</span> Experience
+</button>
 </div>
 </nav><section class=spot-section id=section-sightseeing data-cat=sightseeing>
 <div class=spot-section-inner>
@@ -1004,6 +1007,58 @@ See all 11 Leisure spots →
 </article>
 </div>
 </div>
+</section><section class=spot-section id=section-experience data-cat=experience>
+<div class=spot-section-inner>
+<div class=section-hd style=--sec-color:#6a0dad>
+<span class=s-icon>🎌</span>
+<h2>Experience</h2>
+<span class=s-count>2 spots</span>
+</div>
+<div class=spot-grid>
+<article class=spot-card data-spot-id=ishikawa-kaga-yuzen-dyeing data-spot-name="Kaga Yuzen Silk Dyeing Workshop" data-spot-pref=ishikawa data-spot-fee=4000 data-spot-dur=120 data-spot-lat=36.5713 data-spot-lng=136.6593 data-spot-area=kanazawa data-spot-rating=4.8 data-spot-reviews=3500 data-spot-img="https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=800&q=80" data-spot-cats=experience>
+<img class=spot-img src="https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=800&q=80" alt="Kaga Yuzen Silk Dyeing Workshop" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎌</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Kanazawa, Ishikawa</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Kaga Yuzen Silk Dyeing Workshop</h3>
+<p class=spot-desc>Kaga Yuzen — one of Japan's three great kimono dyeing traditions — produces richly coloured silk fabrics with naturalistic floral designs using resist-paste techniques. Workshops in Kanazawa's Higashi Chaya district teach participants to apply rice-starch resist and brush dye onto silk scarves or handkerchiefs using traditional tools, producing a wearable piece of living craft history.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Yuzen</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Silk Dyeing</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Traditional Craft</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Kimono</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class=spot-card data-spot-id=ishikawa-gold-leaf-workshop data-spot-name="Kanazawa Gold Leaf Craft Workshop" data-spot-pref=ishikawa data-spot-fee=2500 data-spot-dur=60 data-spot-lat=36.5618 data-spot-lng=136.6564 data-spot-area=kanazawa data-spot-rating=4.7 data-spot-reviews=5500 data-spot-img="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80" data-spot-cats=experience>
+<img class=spot-img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80" alt="Kanazawa Gold Leaf Craft Workshop" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎌</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Kanazawa, Ishikawa</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Kanazawa Gold Leaf Craft Workshop</h3>
+<p class=spot-desc>Kanazawa produces 99% of Japan's gold leaf — beaten to 1/10,000 mm thickness by specialist craftsmen. Workshops teach the technique of applying gossamer-thin gold leaf to lacquerware, chopsticks, or ceramics using a special brush, then polishing to a lustrous finish. Gold leaf soft-serve ice cream and gold-leaf-topped cocktails extend the Kanazawa gold experience beyond the workshop.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Gold Leaf</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Kanazawa</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Traditional Craft</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Workshop</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+</div>
+</div>
 </section>
 <section class=pref-section id=tips style="background:var(--bg-soft);border-top:1px solid var(--border)">
 <div class=pref-container>
@@ -1104,6 +1159,7 @@ const CATS = {
   nature:     { color:"#1a7a34" },
   leisure:    { color:"#b35c00" },
   events:     { color:"#b5006e" },
+  experience: { color:"#6a0dad" },
 };
 
 const sections = document.querySelectorAll('.spot-section[data-cat]');

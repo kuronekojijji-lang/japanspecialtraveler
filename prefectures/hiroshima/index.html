@@ -371,6 +371,9 @@
 <button class=pref-toc-btn data-cat=events style=--toc-color:#b5006e>
 <span class=toc-icon>🎆</span> Events
 </button>
+<button class=pref-toc-btn data-cat=experience style=--toc-color:#6a0dad>
+<span class=toc-icon>🎌</span> Experience
+</button>
 </div>
 </nav><section class=spot-section id=section-sightseeing data-cat=sightseeing>
 <div class=spot-section-inner>
@@ -973,6 +976,58 @@ See all 9 Sightseeing spots →
 </article>
 </div>
 </div>
+</section><section class=spot-section id=section-experience data-cat=experience>
+<div class=spot-section-inner>
+<div class=section-hd style=--sec-color:#6a0dad>
+<span class=s-icon>🎌</span>
+<h2>Experience</h2>
+<span class=s-count>2 spots</span>
+</div>
+<div class=spot-grid>
+<article class=spot-card data-spot-id=hiroshima-okonomiyaki-cooking data-spot-name="Hiroshima Okonomiyaki Cooking Class" data-spot-pref=hiroshima data-spot-fee=6000 data-spot-dur=120 data-spot-lat=34.3966 data-spot-lng=132.4597 data-spot-area=hiroshima-city data-spot-rating=4.8 data-spot-reviews=3500 data-spot-img="https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80" data-spot-cats=experience>
+<img class=spot-img src="https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80" alt="Hiroshima Okonomiyaki Cooking Class" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎌</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Naka-ku, Hiroshima</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Hiroshima Okonomiyaki Cooking Class</h3>
+<p class=spot-desc>Learning to make Hiroshima-style okonomiyaki — the layered crepe-noodle-cabbage pancake that differs fundamentally from Osaka's mixed style — requires mastering the iron griddle, the precise layering sequence, and the perfectly timed flip that keeps all layers intact. Cooking classes in Okonomimura run by veteran okonomiyaki cooks teach the exact technique, ending with eating your creation topped with sauce and bonito.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Okonomiyaki</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Cooking</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Local Food</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Workshop</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class=spot-card data-spot-id=hiroshima-paper-crane-folding data-spot-name="Hiroshima Paper Crane Origami Workshop" data-spot-pref=hiroshima data-spot-fee=1500 data-spot-dur=60 data-spot-lat=34.3942 data-spot-lng=132.4528 data-spot-area=hiroshima-city data-spot-rating=4.7 data-spot-reviews=4500 data-spot-img="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80" data-spot-cats=experience>
+<img class=spot-img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80" alt="Hiroshima Paper Crane Origami Workshop" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎌</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Naka-ku, Hiroshima</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Hiroshima Paper Crane Origami Workshop</h3>
+<p class=spot-desc>The paper crane (orizuru) is Hiroshima's symbol of peace and healing, inspired by Sadako Sasaki who folded 1,000 cranes during her atomic bomb illness. Workshops near the Peace Memorial Park teach traditional origami from simple cranes to complex modular designs, explaining the senbazuru (1,000 cranes) tradition and the cultural significance of each fold in the context of Hiroshima's story.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Origami</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Paper Crane</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Peace</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Workshop</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+</div>
+</div>
 </section>
 <section class=pref-section id=tips style="background:var(--bg-soft);border-top:1px solid var(--border)">
 <div class=pref-container>
@@ -1085,6 +1140,7 @@ const CATS = {
   nature:     { color:"#1a7a34" },
   leisure:    { color:"#b35c00" },
   events:     { color:"#b5006e" },
+  experience: { color:"#6a0dad" },
 };
 
 const sections = document.querySelectorAll('.spot-section[data-cat]');

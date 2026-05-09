@@ -370,6 +370,9 @@
 <button class=pref-toc-btn data-cat=events style=--toc-color:#b5006e>
 <span class=toc-icon>🎆</span> Événements
 </button>
+<button class=pref-toc-btn data-cat=experience style=--toc-color:#6a0dad>
+<span class=toc-icon>🎌</span> Expériences
+</button>
 </div>
 </nav><section class=spot-section id=section-sightseeing data-cat=sightseeing>
 <div class=spot-section-inner>
@@ -1001,6 +1004,58 @@ See all 7 Événements spots →
 </a>
 </div>
 </div>
+</section><section class=spot-section id=section-experience data-cat=experience>
+<div class=spot-section-inner>
+<div class=section-hd style=--sec-color:#6a0dad>
+<span class=s-icon>🎌</span>
+<h2>Expériences</h2>
+<span class=s-count>2 lieux</span>
+</div>
+<div class=spot-grid>
+<article class=spot-card data-spot-id=osaka-takoyaki-cooking data-spot-name="Osaka Takoyaki Making Class" data-spot-pref=osaka data-spot-fee=5000 data-spot-dur=90 data-spot-lat=34.6686 data-spot-lng=135.5015 data-spot-area=namba data-spot-rating=4.8 data-spot-reviews=7500 data-spot-img="https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80" data-spot-cats=experience>
+<img class=spot-img src="https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80" alt="Osaka Takoyaki Making Class" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎌</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Chuo-ku, Osaka</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Osaka Takoyaki Making Class</h3>
+<p class=spot-desc>Takoyaki — molten-centred octopus balls flipped in hemispherical iron moulds with a single skewer flick — is Osaka's signature street food and its own performance art. Cooking classes in Namba and Dotonbori teach the pour, fill, flip, and sauce technique, with participants competing to produce the most perfectly round balls. The class ends with eating everything made, topped with bonito flakes that dance in the steam.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Takoyaki</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Cooking</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Street Food</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Osaka Culture</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class=spot-card data-spot-id=osaka-kendo-class data-spot-name="Osaka Kendo (Swordsmanship) Class" data-spot-pref=osaka data-spot-fee=5000 data-spot-dur=120 data-spot-lat=34.6617 data-spot-lng=135.4995 data-spot-area=osaka-city data-spot-rating=4.7 data-spot-reviews=3500 data-spot-img="https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?w=800&q=80" data-spot-cats=experience>
+<img class=spot-img src="https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?w=800&q=80" alt="Osaka Kendo (Swordsmanship) Class" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎌</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Osaka City, Osaka</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Osaka Kendo (Swordsmanship) Class</h3>
+<p class=spot-desc>English-speaking kendo dojos in Osaka offer taster sessions for beginners covering the basics of Japanese swordsmanship: correct posture, footwork, the five basic cuts, and partner practice in full armour (bogu). The physical and meditative combination of kendo — the explosive kiai shout, the crack of bamboo shinai on armour — is immediately engaging and unlike any other martial arts introduction.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Kendo</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Martial Arts</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Samurai</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Workshop</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+</div>
+</div>
 </section>
 <section class=pref-section id=tips style="background:var(--bg-soft);border-top:1px solid var(--border)">
 <div class=pref-container>
@@ -1114,6 +1169,7 @@ const CATS = {
   nature:     { color:"#1a7a34" },
   leisure:    { color:"#b35c00" },
   events:     { color:"#b5006e" },
+  experience: { color:"#6a0dad" },
 };
 
 const sections = document.querySelectorAll('.spot-section[data-cat]');

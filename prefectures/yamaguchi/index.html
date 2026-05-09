@@ -396,6 +396,9 @@ The landscapes toggle between dramatic and serene: limestone plateaus that look 
 <button class=pref-toc-btn data-cat=events style=--toc-color:#b5006e>
 <span class=toc-icon>🎆</span> Events
 </button>
+<button class=pref-toc-btn data-cat=experience style=--toc-color:#6a0dad>
+<span class=toc-icon>🎌</span> Experience
+</button>
 </div>
 </nav><section class=spot-section id=section-sightseeing data-cat=sightseeing>
 <div class=spot-section-inner>
@@ -977,6 +980,37 @@ See all 16 Sightseeing spots →
 </article>
 </div>
 </div>
+</section><section class=spot-section id=section-experience data-cat=experience>
+<div class=spot-section-inner>
+<div class=section-hd style=--sec-color:#6a0dad>
+<span class=s-icon>🎌</span>
+<h2>Experience</h2>
+<span class=s-count>1 spots</span>
+</div>
+<div class=spot-grid>
+<article class=spot-card data-spot-id=yamaguchi-fugu-preparation data-spot-name="Fugu (Blowfish) Preparation Class" data-spot-pref=yamaguchi data-spot-fee=8000 data-spot-dur=120 data-spot-lat=33.9553 data-spot-lng=130.9474 data-spot-area=shimonoseki data-spot-rating=4.8 data-spot-reviews=2200 data-spot-img="https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80" data-spot-cats=experience>
+<img class=spot-img src="https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80" alt="Fugu (Blowfish) Preparation Class" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎌</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Shimonoseki, Yamaguchi</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Fugu (Blowfish) Preparation Class</h3>
+<p class=spot-desc>Fugu preparation requires a government-issued licence in Japan due to the potentially lethal tetrodotoxin in the fish's liver and ovaries. Shimonoseki's licensed chefs offer observation sessions and partial participation in the elaborate cleaning process — the razor-thin tessa sashimi slicing, the removal of toxic organs — giving participants insight into Japan's most legally regulated cuisine.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Fugu</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Cooking</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Shimonoseki</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Unique</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+</div>
+</div>
 </section>
 <section class=pref-section id=tips style="background:var(--bg-soft);border-top:1px solid var(--border)">
 <div class=pref-container>
@@ -1090,6 +1124,7 @@ const CATS = {
   nature:     { color:"#1a7a34" },
   leisure:    { color:"#b35c00" },
   events:     { color:"#b5006e" },
+  experience: { color:"#6a0dad" },
 };
 
 const sections = document.querySelectorAll('.spot-section[data-cat]');

@@ -360,6 +360,9 @@
 <button class=pref-toc-btn data-cat=events style=--toc-color:#b5006e>
 <span class=toc-icon>🎆</span> 이벤트
 </button>
+<button class=pref-toc-btn data-cat=experience style=--toc-color:#6a0dad>
+<span class=toc-icon>🎌</span> 체험
+</button>
 </div>
 </nav><section class=spot-section id=section-sightseeing data-cat=sightseeing>
 <div class=spot-section-inner>
@@ -1041,6 +1044,58 @@
 </article>
 </div>
 </div>
+</section><section class=spot-section id=section-experience data-cat=experience>
+<div class=spot-section-inner>
+<div class=section-hd style=--sec-color:#6a0dad>
+<span class=s-icon>🎌</span>
+<h2>체험</h2>
+<span class=s-count>2 곳</span>
+</div>
+<div class=spot-grid>
+<article class=spot-card data-spot-id=kanagawa-kamakura-zazen data-spot-name="Kamakura Zazen Meditation" data-spot-pref=kanagawa data-spot-fee=500 data-spot-dur=90 data-spot-lat=35.3386 data-spot-lng=139.5449 data-spot-area=kamakura data-spot-rating=4.8 data-spot-reviews=3500 data-spot-img="https://images.unsplash.com/photo-1543610892-0b1f7e6d8ac1?w=800&q=80" data-spot-cats=experience>
+<img class=spot-img src="https://images.unsplash.com/photo-1543610892-0b1f7e6d8ac1?w=800&q=80" alt="Kamakura Zazen Meditation" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎌</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Kamakura, Kanagawa</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Kamakura Zazen Meditation</h3>
+<p class=spot-desc>Engakuji and Kencho-ji temples in Kamakura offer early-morning zazen (seated Zen meditation) sessions open to foreign visitors without reservation. Sitting in the main hall of a 700-year-old Zen temple, guided by a monk through 45 minutes of silent seated meditation, is a profoundly different experience from any tourist activity — the most direct contact with living Japanese Zen practice.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Zazen</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Zen</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Meditation</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Temple</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class=spot-card data-spot-id=kanagawa-yokohama-cooking data-spot-name="Yokohama Chinatown Dim Sum Cooking" data-spot-pref=kanagawa data-spot-fee=7000 data-spot-dur=150 data-spot-lat=35.4415 data-spot-lng=139.647 data-spot-area=yokohama-chinatown data-spot-rating=4.7 data-spot-reviews=4200 data-spot-img="https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80" data-spot-cats=experience>
+<img class=spot-img src="https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80" alt="Yokohama Chinatown Dim Sum Cooking" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎌</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Yokohama, Kanagawa</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Yokohama Chinatown Dim Sum Cooking</h3>
+<p class=spot-desc>Yokohama Chinatown — Japan's largest and Asia's most visited — hosts cooking schools teaching Chinese dim sum and dumpling making. Small-group classes fold har gow, shape xiao long bao soup dumplings, and steam char siu bao alongside Chinese chefs. The hands-on technique of sealing the pleated wrappers is harder than it looks and immediately rewarding when they emerge from the steamer.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Dim Sum</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Cooking Class</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Chinatown</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Chinese Food</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+</div>
+</div>
 </section>
 <section class=pref-section id=tips style="background:var(--bg-soft);border-top:1px solid var(--border)">
 <div class=pref-container>
@@ -1155,6 +1210,7 @@ const CATS = {
   nature:     { color:"#1a7a34" },
   leisure:    { color:"#b35c00" },
   events:     { color:"#b5006e" },
+  experience: { color:"#6a0dad" },
 };
 
 const sections = document.querySelectorAll('.spot-section[data-cat]');

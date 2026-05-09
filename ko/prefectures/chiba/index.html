@@ -380,6 +380,9 @@
 <button class=pref-toc-btn data-cat=events style=--toc-color:#b5006e>
 <span class=toc-icon>🎆</span> 이벤트
 </button>
+<button class=pref-toc-btn data-cat=experience style=--toc-color:#6a0dad>
+<span class=toc-icon>🎌</span> 체험
+</button>
 </div>
 </nav><section class=spot-section id=section-sightseeing data-cat=sightseeing>
 <div class=spot-section-inner>
@@ -1035,6 +1038,58 @@ See all 8 이벤트 spots →
 </a>
 </div>
 </div>
+</section><section class=spot-section id=section-experience data-cat=experience>
+<div class=spot-section-inner>
+<div class=section-hd style=--sec-color:#6a0dad>
+<span class=s-icon>🎌</span>
+<h2>체험</h2>
+<span class=s-count>2 곳</span>
+</div>
+<div class=spot-grid>
+<article class=spot-card data-spot-id=chiba-boso-sea-kayaking data-spot-name="Boso Peninsula Sea Kayaking" data-spot-pref=chiba data-spot-fee=8000 data-spot-dur=240 data-spot-lat=35.15 data-spot-lng=140.3167 data-spot-area=katsuura data-spot-rating=4.6 data-spot-reviews=2200 data-spot-img="https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=800&q=80" data-spot-cats=experience>
+<img class=spot-img src="https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=800&q=80" alt="Boso Peninsula Sea Kayaking" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎌</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Katsuura, Chiba</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Boso Peninsula Sea Kayaking</h3>
+<p class=spot-desc>The Boso Peninsula's Pacific and Tokyo Bay coastlines offer calm-water sea kayaking through sea caves, past fishing villages, and along rocky headlands teeming with seabirds. Guided half-day tours from Katsuura and Tateyama suit beginners, while experienced paddlers can arrange multi-day coastal expeditions staying in minshuku guesthouses along the Uchibo coast.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Kayaking</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Sea</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Coastal</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Outdoor</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class=spot-card data-spot-id=chiba-narita-temple-calligraphy data-spot-name="Naritasan Temple Calligraphy Workshop" data-spot-pref=chiba data-spot-fee=2500 data-spot-dur=90 data-spot-lat=35.7944 data-spot-lng=140.3172 data-spot-area=narita data-spot-rating=4.6 data-spot-reviews=1800 data-spot-img="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80" data-spot-cats=experience>
+<img class=spot-img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80" alt="Naritasan Temple Calligraphy Workshop" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎌</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Narita, Chiba</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Naritasan Temple Calligraphy Workshop</h3>
+<p class=spot-desc>Naritasan Shinshoji Temple's cultural centre offers shodo (calligraphy) workshops in a tatami room overlooking the temple gardens. Instructors teach brush-loading technique, the basic strokes of hiragana or kanji characters, and composition on traditional washi paper — participants leave with a framed piece of their own calligraphy mounted for display.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Calligraphy</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Shodo</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Temple</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Workshop</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+</div>
+</div>
 </section>
 <section class=pref-section id=tips style="background:var(--bg-soft);border-top:1px solid var(--border)">
 <div class=pref-container>
@@ -1148,6 +1203,7 @@ const CATS = {
   nature:     { color:"#1a7a34" },
   leisure:    { color:"#b35c00" },
   events:     { color:"#b5006e" },
+  experience: { color:"#6a0dad" },
 };
 
 const sections = document.querySelectorAll('.spot-section[data-cat]');

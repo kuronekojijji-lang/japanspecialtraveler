@@ -303,6 +303,9 @@
 <button class=pref-toc-btn data-cat=events style=--toc-color:#b5006e>
 <span class=toc-icon>🎆</span> Events
 </button>
+<button class=pref-toc-btn data-cat=experience style=--toc-color:#6a0dad>
+<span class=toc-icon>🎌</span> Experience
+</button>
 </div>
 </nav><section class=spot-section id=section-sightseeing data-cat=sightseeing>
 <div class=spot-section-inner>
@@ -953,6 +956,58 @@ See all 8 Events spots →
 </a>
 </div>
 </div>
+</section><section class=spot-section id=section-experience data-cat=experience>
+<div class=spot-section-inner>
+<div class=section-hd style=--sec-color:#6a0dad>
+<span class=s-icon>🎌</span>
+<h2>Experience</h2>
+<span class=s-count>2 spots</span>
+</div>
+<div class=spot-grid>
+<article class=spot-card data-spot-id=kagoshima-yakushima-nature-guide data-spot-name="Yakushima Forest Spirit Walk" data-spot-pref=kagoshima data-spot-fee=6000 data-spot-dur=240 data-spot-lat=30.3433 data-spot-lng=130.5431 data-spot-area=yakushima data-spot-rating=4.9 data-spot-reviews=5500 data-spot-img="https://images.unsplash.com/photo-1508193638397-1c4234db14d8?w=800&q=80" data-spot-cats=experience>
+<img class=spot-img src="https://images.unsplash.com/photo-1508193638397-1c4234db14d8?w=800&q=80" alt="Yakushima Forest Spirit Walk" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎌</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Yakushima, Kagoshima</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Yakushima Forest Spirit Walk</h3>
+<p class=spot-desc>A guided half-day walk through Yakushima's Shiratani Unsuikyo ravine — the moss-draped ancient cedar forest that inspired Princess Mononoke's Forest Spirit world — with a naturalist who explains the island's unique ecology: the 1,800-year-old Yayoi Sugi cedar, the tree frogs, the Yakushima macaques, and the rain that falls 35 days a month. The forest in drizzle is actually more beautiful than in sun.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Ancient Forest</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>UNESCO</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Guided Walk</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Nature</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class=spot-card data-spot-id=kagoshima-shochu-distillery data-spot-name="Kagoshima Imo Shochu Distillery Tour" data-spot-pref=kagoshima data-spot-fee=1000 data-spot-dur=90 data-spot-lat=31.9 data-spot-lng=130.75 data-spot-area=kirishima data-spot-rating=4.7 data-spot-reviews=3500 data-spot-img="https://images.unsplash.com/photo-1504681869696-d977e17a3dff?w=800&q=80" data-spot-cats=experience>
+<img class=spot-img src="https://images.unsplash.com/photo-1504681869696-d977e17a3dff?w=800&q=80" alt="Kagoshima Imo Shochu Distillery Tour" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎌</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Kirishima, Kagoshima</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Kagoshima Imo Shochu Distillery Tour</h3>
+<p class=spot-desc>Kagoshima produces 90% of Japan's imo (sweet potato) shochu — the fragrant, earthy spirit drunk on the rocks or with hot water across Kyushu. Distilleries in Kirishima and Makurazaki offer tours of the koji mold cultivation, fermentation vats, and copper pot stills, followed by tasting sessions comparing fresh (new make) and aged varieties. The sweet potato harvest season (September–November) is the best time to visit.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Shochu</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Sweet Potato</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Distillery</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Tasting</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+</div>
+</div>
 </section>
 <section class=pref-section id=tips style="background:var(--bg-soft);border-top:1px solid var(--border)">
 <div class=pref-container>
@@ -1055,6 +1110,7 @@ const CATS = {
   nature:     { color:"#1a7a34" },
   leisure:    { color:"#b35c00" },
   events:     { color:"#b5006e" },
+  experience: { color:"#6a0dad" },
 };
 
 const sections = document.querySelectorAll('.spot-section[data-cat]');

@@ -380,6 +380,9 @@
 <button class=pref-toc-btn data-cat=events style=--toc-color:#b5006e>
 <span class=toc-icon>🎆</span> Events
 </button>
+<button class=pref-toc-btn data-cat=experience style=--toc-color:#6a0dad>
+<span class=toc-icon>🎌</span> Experience
+</button>
 </div>
 </nav><section class=spot-section id=section-sightseeing data-cat=sightseeing>
 <div class=spot-section-inner>
@@ -1097,6 +1100,58 @@ See all 7 Events spots →
 </a>
 </div>
 </div>
+</section><section class=spot-section id=section-experience data-cat=experience>
+<div class=spot-section-inner>
+<div class=section-hd style=--sec-color:#6a0dad>
+<span class=s-icon>🎌</span>
+<h2>Experience</h2>
+<span class=s-count>2 spots</span>
+</div>
+<div class=spot-grid>
+<article class=spot-card data-spot-id=fukushima-peach-picking data-spot-name="Fukushima Peach Picking (Momo)" data-spot-pref=fukushima data-spot-fee=1500 data-spot-dur=90 data-spot-lat=37.8233 data-spot-lng=140.5581 data-spot-area=date data-spot-rating=4.7 data-spot-reviews=4200 data-spot-img="https://images.unsplash.com/photo-1553279768-865429fa0078?w=800&q=80" data-spot-cats=experience>
+<img class=spot-img src="https://images.unsplash.com/photo-1553279768-865429fa0078?w=800&q=80" alt="Fukushima Peach Picking (Momo)" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎌</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Date, Fukushima</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Fukushima Peach Picking (Momo)</h3>
+<p class=spot-desc>The Fukushima Basin's hot summers and cold nights produce peaches of exceptional sweetness — the Akatsuki variety grown around Date city is considered among Japan's finest. July–August orchards welcome pick-your-own visitors who eat fruit warm from the branch and take home boxes of perfectly ripe peaches at farm-gate prices far below Tokyo supermarket costs.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Peach</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Fruit Picking</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Summer</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Agriculture</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class=spot-card data-spot-id=fukushima-aizu-lacquerware data-spot-name="Aizu Lacquerware Painting Workshop" data-spot-pref=fukushima data-spot-fee=3500 data-spot-dur=120 data-spot-lat=37.495 data-spot-lng=139.929 data-spot-area=aizuwakamatsu data-spot-rating=4.6 data-spot-reviews=1800 data-spot-img="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80" data-spot-cats=experience>
+<img class=spot-img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80" alt="Aizu Lacquerware Painting Workshop" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎌</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Aizuwakamatsu, Fukushima</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Aizu Lacquerware Painting Workshop</h3>
+<p class=spot-desc>Aizu-nuri lacquerware — produced in Aizuwakamatsu for 400 years under Tokugawa patronage — is Japan's third largest lacquerware tradition. Beginner workshops teach the maki-e technique of drawing delicate gold dust patterns on lacquered bowls and boxes, guiding participants through the stylus work and application of real gold powder to create a keepsake piece.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Lacquerware</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Urushi</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Traditional Craft</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Workshop</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+</div>
+</div>
 </section>
 <section class=pref-section id=tips style="background:var(--bg-soft);border-top:1px solid var(--border)">
 <div class=pref-container>
@@ -1200,6 +1255,7 @@ const CATS = {
   nature:     { color:"#1a7a34" },
   leisure:    { color:"#b35c00" },
   events:     { color:"#b5006e" },
+  experience: { color:"#6a0dad" },
 };
 
 const sections = document.querySelectorAll('.spot-section[data-cat]');

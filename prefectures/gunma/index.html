@@ -378,6 +378,9 @@
 <button class=pref-toc-btn data-cat=events style=--toc-color:#b5006e>
 <span class=toc-icon>🎆</span> Events
 </button>
+<button class=pref-toc-btn data-cat=experience style=--toc-color:#6a0dad>
+<span class=toc-icon>🎌</span> Experience
+</button>
 </div>
 </nav><section class=spot-section id=section-sightseeing data-cat=sightseeing>
 <div class=spot-section-inner>
@@ -982,6 +985,37 @@ See all 8 Events spots →
 </a>
 </div>
 </div>
+</section><section class=spot-section id=section-experience data-cat=experience>
+<div class=spot-section-inner>
+<div class=section-hd style=--sec-color:#6a0dad>
+<span class=s-icon>🎌</span>
+<h2>Experience</h2>
+<span class=s-count>1 spots</span>
+</div>
+<div class=spot-grid>
+<article class=spot-card data-spot-id=gunma-onsen-ryokan-stay data-spot-name="Kusatsu or Ikaho Ryokan Onsen Stay" data-spot-pref=gunma data-spot-fee=15000 data-spot-dur=960 data-spot-lat=36.6227 data-spot-lng=138.596 data-spot-area=kusatsu data-spot-rating=4.9 data-spot-reviews=6500 data-spot-img="https://images.unsplash.com/photo-1540979388789-6cee28a1cdc9?w=800&q=80" data-spot-cats=experience>
+<img class=spot-img src="https://images.unsplash.com/photo-1540979388789-6cee28a1cdc9?w=800&q=80" alt="Kusatsu or Ikaho Ryokan Onsen Stay" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎌</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Kusatsu, Gunma</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Kusatsu or Ikaho Ryokan Onsen Stay</h3>
+<p class=spot-desc>A one-night stay at a traditional ryokan in Kusatsu or Ikaho hot spring resorts is the quintessential Japanese travel experience: arriving to be met in yukata, served elaborate kaiseki multi-course dinner in your room, soaking in rotemburo (outdoor stone bath) under stars, sleeping on futon on tatami, and waking to a Japanese breakfast of grilled fish, tofu, and pickles.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Ryokan</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Onsen</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Traditional Inn</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Kaiseki</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+</div>
+</div>
 </section>
 <section class=pref-section id=tips style="background:var(--bg-soft);border-top:1px solid var(--border)">
 <div class=pref-container>
@@ -1095,6 +1129,7 @@ const CATS = {
   nature:     { color:"#1a7a34" },
   leisure:    { color:"#b35c00" },
   events:     { color:"#b5006e" },
+  experience: { color:"#6a0dad" },
 };
 
 const sections = document.querySelectorAll('.spot-section[data-cat]');

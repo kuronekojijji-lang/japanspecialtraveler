@@ -396,6 +396,9 @@ But Kumamoto isn't all fire and fury. The serene Suizenji Garden replicates the 
 <button class=pref-toc-btn data-cat=events style=--toc-color:#b5006e>
 <span class=toc-icon>🎆</span> Events
 </button>
+<button class=pref-toc-btn data-cat=experience style=--toc-color:#6a0dad>
+<span class=toc-icon>🎌</span> Experience
+</button>
 </div>
 </nav><section class=spot-section id=section-sightseeing data-cat=sightseeing>
 <div class=spot-section-inner>
@@ -968,6 +971,37 @@ See all 8 Leisure spots →
 </article>
 </div>
 </div>
+</section><section class=spot-section id=section-experience data-cat=experience>
+<div class=spot-section-inner>
+<div class=section-hd style=--sec-color:#6a0dad>
+<span class=s-icon>🎌</span>
+<h2>Experience</h2>
+<span class=s-count>1 spots</span>
+</div>
+<div class=spot-grid>
+<article class=spot-card data-spot-id=kumamoto-aso-farm-experience data-spot-name="Aso Caldera Farm &amp;amp; Horse Riding" data-spot-pref=kumamoto data-spot-fee=5000 data-spot-dur=120 data-spot-lat=32.8842 data-spot-lng=131.0519 data-spot-area=aso data-spot-rating=4.7 data-spot-reviews=3200 data-spot-img="https://images.unsplash.com/photo-1516900448138-898720b936fd?w=800&q=80" data-spot-cats=experience>
+<img class=spot-img src="https://images.unsplash.com/photo-1516900448138-898720b936fd?w=800&q=80" alt="Aso Caldera Farm & Horse Riding" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎌</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Aso, Kumamoto</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Aso Caldera Farm & Horse Riding</h3>
+<p class=spot-desc>The Aso caldera's open grasslands — grazed by cattle and horses since ancient times — are the setting for guided horseback rides across the volcanic plain with views of the active Nakadake crater. Several ranches in the Kusasenri highland area offer lessons for beginners and trail rides for experienced riders through the surreal landscape of volcanic peaks, green paddocks, and billowing steam vents.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Horse Riding</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Farm</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Aso</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Grassland</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+</div>
+</div>
 </section>
 <section class=pref-section id=tips style="background:var(--bg-soft);border-top:1px solid var(--border)">
 <div class=pref-container>
@@ -1081,6 +1115,7 @@ const CATS = {
   nature:     { color:"#1a7a34" },
   leisure:    { color:"#b35c00" },
   events:     { color:"#b5006e" },
+  experience: { color:"#6a0dad" },
 };
 
 const sections = document.querySelectorAll('.spot-section[data-cat]');

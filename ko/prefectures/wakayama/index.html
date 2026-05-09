@@ -397,6 +397,9 @@
 <button class=pref-toc-btn data-cat=events style=--toc-color:#b5006e>
 <span class=toc-icon>🎆</span> 이벤트
 </button>
+<button class=pref-toc-btn data-cat=experience style=--toc-color:#6a0dad>
+<span class=toc-icon>🎌</span> 체험
+</button>
 </div>
 </nav><section class=spot-section id=section-sightseeing data-cat=sightseeing>
 <div class=spot-section-inner>
@@ -1008,6 +1011,58 @@ See all 7 레저 spots →
 </article>
 </div>
 </div>
+</section><section class=spot-section id=section-experience data-cat=experience>
+<div class=spot-section-inner>
+<div class=section-hd style=--sec-color:#6a0dad>
+<span class=s-icon>🎌</span>
+<h2>체험</h2>
+<span class=s-count>2 곳</span>
+</div>
+<div class=spot-grid>
+<article class=spot-card data-spot-id=wakayama-kumano-pilgrim-walk data-spot-name="Kumano Kodo Certified Guide Walk" data-spot-pref=wakayama data-spot-fee=8000 data-spot-dur=360 data-spot-lat=33.7236 data-spot-lng=135.3741 data-spot-area=tanabe data-spot-rating=4.9 data-spot-reviews=4500 data-spot-img="https://images.unsplash.com/photo-1476514525035-f8f22e0d5f53?w=800&q=80" data-spot-cats=experience>
+<img class=spot-img src="https://images.unsplash.com/photo-1476514525035-f8f22e0d5f53?w=800&q=80" alt="Kumano Kodo Certified Guide Walk" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎌</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Tanabe, Wakayama</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Kumano Kodo Certified Guide Walk</h3>
+<p class=spot-desc>Walking even one section of the UNESCO World Heritage Kumano Kodo with a licensed guide transforms a hike into a spiritual journey. Guides explain the symbolism of roadside Oji shrine stones, the significance of each approach to the three Kumano Grand Shrines, and the 1,000-year history of pilgrims from all social strata who walked this same route — from emperors to commoners seeking purification.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Pilgrimage</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>UNESCO</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Hiking</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Spiritual</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class=spot-card data-spot-id=wakayama-koyasan-shukubo data-spot-name="Koyasan Temple Lodging (Shukubo)" data-spot-pref=wakayama data-spot-fee=14000 data-spot-dur=960 data-spot-lat=34.213 data-spot-lng=135.5896 data-spot-area=koyasan data-spot-rating=4.9 data-spot-reviews=8500 data-spot-img="https://images.unsplash.com/photo-1543610892-0b1f7e6d8ac1?w=800&q=80" data-spot-cats=experience>
+<img class=spot-img src="https://images.unsplash.com/photo-1543610892-0b1f7e6d8ac1?w=800&q=80" alt="Koyasan Temple Lodging (Shukubo)" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎌</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Koya, Wakayama</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Koyasan Temple Lodging (Shukubo)</h3>
+<p class=spot-desc>Staying overnight in one of Koyasan's 52 temple lodgings (shukubo) is one of Japan's most memorable travel experiences. Guests sleep in tatami rooms, attend the pre-dawn morning prayer service with monks chanting sutras, walk the misty Oku-no-in cemetery before dawn, and eat an elaborate Buddhist vegetarian dinner (shojin ryori) of tofu, mountain vegetables, and sesame — all within an active monastic community.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Temple Lodging</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Shukubo</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Buddhist</span>
+<span class=spot-tag style=background:#f0e4ff;color:#4a0080>Spiritual</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+</div>
+</div>
 </section>
 <section class=pref-section id=tips style="background:var(--bg-soft);border-top:1px solid var(--border)">
 <div class=pref-container>
@@ -1121,6 +1176,7 @@ const CATS = {
   nature:     { color:"#1a7a34" },
   leisure:    { color:"#b35c00" },
   events:     { color:"#b5006e" },
+  experience: { color:"#6a0dad" },
 };
 
 const sections = document.querySelectorAll('.spot-section[data-cat]');
