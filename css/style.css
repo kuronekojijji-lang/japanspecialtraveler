@@ -265,6 +265,55 @@ blockquote {
   padding: 1.2rem 1.5rem;
   margin: 2rem 0;
 }
+
+/* ── Related Articles ── */
+.related-articles {
+  margin: 2.5rem 0 1rem;
+  padding-top: 1.5rem;
+  border-top: 2px solid var(--border);
+}
+.related-title {
+  font-size: 1.25rem;
+  font-weight: 800;
+  margin: 0 0 1rem;
+}
+.related-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1rem;
+}
+.related-item { margin: 0; }
+.related-item a {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: inherit;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+  height: 100%;
+  transition: box-shadow .2s, transform .2s;
+}
+.related-item a:hover {
+  box-shadow: 0 6px 18px rgba(0,0,0,.12);
+  transform: translateY(-2px);
+}
+.related-thumb {
+  width: 100%;
+  height: 130px;
+  object-fit: cover;
+  display: block;
+}
+.related-item-title {
+  padding: .7rem .9rem;
+  font-size: .92rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
 .cta-box h4 {
   font-size: 1rem;
   margin-bottom: .5rem;
