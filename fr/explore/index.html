@@ -32,6 +32,9 @@
 <link rel=alternate hreflang=en href=https://japanspecialtraveler.com/explore/>
 <link rel=alternate hreflang=fr href=https://japanspecialtraveler.com/fr/explore/>
 <link rel=alternate hreflang=ko href=https://japanspecialtraveler.com/ko/explore/>
+<link rel=alternate hreflang=zh-cn href=https://japanspecialtraveler.com/zh-cn/explore/>
+<link rel=alternate hreflang=zh-tw href=https://japanspecialtraveler.com/zh-tw/explore/>
+<link rel=alternate hreflang=zh-hk href=https://japanspecialtraveler.com/zh-hk/explore/>
 <link rel=alternate hreflang=x-default href=https://japanspecialtraveler.com/explore/>
 <link rel=preconnect href=https://images.unsplash.com>
 <link rel=preconnect href=https://upload.wikimedia.org>
@@ -69,9 +72,9 @@
 <li><a href=https://japanspecialtraveler.com/explore/ class=lang-opt hreflang=en>English</a></li>
 <li><span class="lang-opt lang-opt-active">Français<span class=lang-check>✓</span></span></li>
 <li><a href=https://japanspecialtraveler.com/ko/explore/ class=lang-opt hreflang=ko>한국어</a></li>
-<li><a href=/ class=lang-opt hreflang=zh-cn>简体中文</a></li>
-<li><a href=/ class=lang-opt hreflang=zh-tw>繁體中文</a></li>
-<li><a href=/ class=lang-opt hreflang=zh-hk>繁體中文（香港）</a></li>
+<li><a href=https://japanspecialtraveler.com/zh-cn/explore/ class=lang-opt hreflang=zh-cn>简体中文</a></li>
+<li><a href=https://japanspecialtraveler.com/zh-tw/explore/ class=lang-opt hreflang=zh-tw>繁體中文</a></li>
+<li><a href=https://japanspecialtraveler.com/zh-hk/explore/ class=lang-opt hreflang=zh-hk>繁體中文（香港）</a></li>
 </ul>
 </div>
 </div>
@@ -174,9 +177,14 @@
 const NS = "http://www.w3.org/2000/svg";
 
  
-const SITE_LANG = "fr";
-const LANG_FR   = SITE_LANG === 'fr';
-const LANG_KO   = SITE_LANG === 'ko';
+const SITE_LANG  = "fr";
+const LANG_FR    = SITE_LANG === 'fr';
+const LANG_KO    = SITE_LANG === 'ko';
+const LANG_ZH_CN = SITE_LANG === 'zh-cn';
+const LANG_ZH_TW = SITE_LANG === 'zh-tw';
+const LANG_ZH_HK = SITE_LANG === 'zh-hk';
+const LANG_ZH    = LANG_ZH_CN || LANG_ZH_TW || LANG_ZH_HK;
+const LANG_ZH_TRAD = LANG_ZH_TW || LANG_ZH_HK;
 
  
 function s(en, fr, ko) { return LANG_FR ? fr : LANG_KO ? ko : en; }
@@ -190,6 +198,22 @@ const STR = {
   explore:     s('→ Explore',                            '→ Voir',                                   '→ 탐색'),
   noData:      s('No data for this category.',           'Pas de données pour cette catégorie.',     '이 카테고리에 데이터가 없습니다.')
 };
+if (LANG_ZH_CN) {
+  STR.viewGuide  = '查看完整地区指南';
+  STR.comingSoon = '地区指南即将推出';
+  STR.highlights = '精华亮点';
+  STR.allCats    = '所有类别';
+  STR.explore    = '→ 探索';
+  STR.noData     = '此类别暂无数据。';
+}
+if (LANG_ZH_TRAD) {
+  STR.viewGuide  = '查看完整地區指南';
+  STR.comingSoon = '地區指南即將推出';
+  STR.highlights = '精華亮點';
+  STR.allCats    = '所有類別';
+  STR.explore    = '→ 探索';
+  STR.noData     = '此類別暫無資料。';
+}
 
  
 const CATS = {
@@ -199,6 +223,30 @@ const CATS = {
   leisure:     {label: s("Leisure",     "Loisirs",      "레저"),   icon:"🎿", color:"#b35c00", bg:"#fff8ee", desc: s("Skiing, diving, theme parks and outdoor adventures",                   "Ski, plongée, parcs d'attractions et aventures en plein air",       "스키, 다이빙, 테마파크 및 야외 어드벤처")},
   events:      {label: s("Events",      "Événements",   "이벤트"), icon:"🎆", color:"#b5006e", bg:"#fff0f8", desc: s("Festivals, fireworks, traditional ceremonies and seasonal events",      "Festivals, feux d'artifice, cérémonies traditionnelles",            "축제, 불꽃놀이, 전통 의식 및 계절 행사")}
 };
+if (LANG_ZH_CN) {
+  CATS.gourmet.label     = '美食';
+  CATS.gourmet.desc      = '地区料理、拉面、海鲜及当地饮食文化';
+  CATS.nature.label      = '自然';
+  CATS.nature.desc       = '山脉、海岸、湖泊、森林及四季风光';
+  CATS.sightseeing.label = '观光';
+  CATS.sightseeing.desc  = '神社、寺庙、城堡、世界遗产及博物馆';
+  CATS.leisure.label     = '休闲';
+  CATS.leisure.desc      = '滑雪、潜水、主题乐园及户外探险';
+  CATS.events.label      = '活动';
+  CATS.events.desc       = '祭典、烟花、传统仪式及季节性活动';
+}
+if (LANG_ZH_TRAD) {
+  CATS.gourmet.label     = '美食';
+  CATS.gourmet.desc      = '地區料理、拉麵、海鮮及當地飲食文化';
+  CATS.nature.label      = '自然';
+  CATS.nature.desc       = '山脈、海岸、湖泊、森林及四季風光';
+  CATS.sightseeing.label = '觀光';
+  CATS.sightseeing.desc  = '神社、寺廟、城堡、世界遺產及博物館';
+  CATS.leisure.label     = '休閒';
+  CATS.leisure.desc      = '滑雪、潛水、主題樂園及戶外探險';
+  CATS.events.label      = '活動';
+  CATS.events.desc       = '祭典、煙火、傳統儀式及季節性活動';
+}
 
  
 const ICONS = {
@@ -679,6 +727,18 @@ if (LANG_KO) {
   PREFS.tokyo.url   = '/ko/prefectures/tokyo/';
   REGION_URL.tokyo  = '/ko/prefectures/tokyo/';
 }
+if (LANG_ZH_CN) {
+  PREFS.tokyo.url   = '/zh-cn/prefectures/tokyo/';
+  REGION_URL.tokyo  = '/zh-cn/prefectures/tokyo/';
+}
+if (LANG_ZH_TW) {
+  PREFS.tokyo.url   = '/zh-tw/prefectures/tokyo/';
+  REGION_URL.tokyo  = '/zh-tw/prefectures/tokyo/';
+}
+if (LANG_ZH_HK) {
+  PREFS.tokyo.url   = '/zh-hk/prefectures/tokyo/';
+  REGION_URL.tokyo  = '/zh-hk/prefectures/tokyo/';
+}
 
  
 const tooltip    = document.getElementById('exploreTooltip');
@@ -886,7 +946,7 @@ function closePanel() {
 /* ── Top picks ── */
 function updateTopPicks(cat) {
   const c = CATS[cat];
-  topTitle.textContent = `${c.icon} ${c.label} — ${LANG_KO ? 'Top 5' : LANG_FR ? 'Top 5' : 'Top 5 Picks'}`;
+  topTitle.textContent = `${c.icon} ${c.label} — ${LANG_KO ? 'Top 5' : LANG_FR ? 'Top 5' : LANG_ZH ? 'Top 5' : 'Top 5 Picks'}`;
   topSub.textContent   = c.desc;
   const sorted = Object.entries(PREFS)
     .filter(([,d]) => d[cat])
@@ -1119,7 +1179,7 @@ Mention légale : Ce site contient des liens affiliés. Si vous réservez via no
 
 
 (function(){
-  var m = location.pathname.match(/^\/(fr|ko)(\/|$)/);
+  var m = location.pathname.match(/^\/(fr|ko|zh-cn|zh-tw|zh-hk)(\/|$)/);
   if (!m) return;                          
   var pfx = '/' + m[1];                   
 

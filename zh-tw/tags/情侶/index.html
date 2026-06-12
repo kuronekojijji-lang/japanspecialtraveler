@@ -63,7 +63,7 @@
 <li><a href=/ class=lang-opt hreflang=en>English</a></li>
 <li><a href=/fr/ class=lang-opt hreflang=fr>Français</a></li>
 <li><a href=/ko/ class=lang-opt hreflang=ko>한국어</a></li>
-<li><a href=/ class=lang-opt hreflang=zh-cn>简体中文</a></li>
+<li><a href=/zh-cn/ class=lang-opt hreflang=zh-cn>简体中文</a></li>
 <li><span class="lang-opt lang-opt-active">繁體中文<span class=lang-check>✓</span></span></li>
 <li><a href=https://japanspecialtraveler.com/zh-hk/tags/%E6%83%85%E4%BE%B6/ class=lang-opt hreflang=zh-hk>繁體中文（香港）</a></li>
 </ul>
@@ -94,6 +94,16 @@
 <div class=season-grid>
 <div class=card-grid>
 <article class=card>
+<img src="https://images.unsplash.com/photo-1519307212971-dd9561667ffb?w=1600&q=80" alt=情侶 class=card-img>
+<div class=card-body>
+<div class=article-meta style=margin-bottom:.5rem>
+<span class="badge badge-dest" style=font-size:.7rem>aomori</span>
+</div>
+<h3><a href=https://japanspecialtraveler.com/zh-tw/guides/aomori-honeymoon/ style=color:inherit>青森蜜月之旅：蔦溫泉森林秘境、賞櫻與十和田湖</a></h3>
+<p>青森情侶浪漫指南——山毛櫸森林深處的蔦溫泉私密體驗、弘前城護城河花毯奇景、十和田湖黃金時刻遊船、冬日雪景中的酸湯溫泉，以及旅館私室懷石晚餐。</p>
+</div>
+</article>
+<article class=card>
 <img src="https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=1600&q=80" alt=情侶 class=card-img>
 <div class=card-body>
 <div class=article-meta style=margin-bottom:.5rem>
@@ -118,40 +128,40 @@
 <div id=affWidget class=aff-widget aria-label="Book travel services">
 <div class=aff-popup id=affPopup role=complementary aria-label="Hotel search">
 <div class=aff-popup-header>
-<span>🏨 Find Hotels in Japan</span>
+<span>🏨 搜尋日本飯店</span>
 <button class=aff-close id=affClose aria-label=Close>✕</button>
 </div>
 <form class=aff-form id=affForm>
 <div class=aff-field>
-<label for=affDest>Destination</label>
+<label for=affDest>目的地</label>
 <input type=text id=affDest value=Japan placeholder="e.g. Tokyo, Japan" autocomplete=off>
 </div>
 <div class=aff-field-row>
 <div class=aff-field>
-<label for=affCheckin>Check-in</label>
+<label for=affCheckin>入住日期</label>
 <input type=date id=affCheckin>
 </div>
 <div class=aff-field>
-<label for=affCheckout>Check-out</label>
+<label for=affCheckout>退房日期</label>
 <input type=date id=affCheckout>
 </div>
 </div>
 <div class=aff-field>
-<label for=affGuests>Guests</label>
+<label for=affGuests>人數</label>
 <select id=affGuests><option value=1>1</option><option value=2 selected>2</option><option value=3>3</option><option value=4>4</option><option value=5>5</option><option value=6>6+</option></select>
 </div>
 <button type=submit class=aff-search-btn data-aid=YOUR_BOOKING_ID>
-Search Hotels →
+搜尋飯店 →
 </button>
 </form>
-<div class=aff-divider><span>Also plan your trip</span></div>
+<div class=aff-divider><span>還可以規劃</span></div>
 <a href="https://www.getyourguide.com/japan-l169034/?partner_id=YOR5V0W" class="aff-link aff-gyg" target=_blank rel="noopener sponsored">
 <span class=aff-link-icon>🗺️</span>
-<span class=aff-link-body><strong>Tours & Activities</strong><small>GetYourGuide</small></span>
+<span class=aff-link-body><strong>旅遊 & 活動</strong><small>GetYourGuide</small></span>
 </a>
 <a href="https://www.klook.com/en-US/?aff_adcode=117761" class="aff-link aff-klook" target=_blank rel="noopener sponsored">
 <span class=aff-link-icon>🎟️</span>
-<span class=aff-link-body><strong>Experiences & Passes</strong><small>Klook</small></span>
+<span class=aff-link-body><strong>體驗 & 通票</strong><small>Klook</small></span>
 </a>
 <a href="https://click.jrpass.com/aff_c?offer_id=19&aff_id=2303" class="aff-link aff-jrpass" target=_blank rel="noopener sponsored">
 <span class=aff-link-icon>🚄</span>
@@ -276,7 +286,7 @@ Search Hotels →
 </script>
 <footer class=site-footer>
 <p class=affiliate-disclosure>
-Disclosure: This site contains affiliate links. If you book through our links, we may earn a small commission at no extra cost to you. This helps us keep the content free and up to date. Thank you for your support!
+聲明：本網站包含聯盟推廣連結。如果您透過我們的連結預訂，我們可能會獲得少量佣金，不會給您帶來任何額外費用。感謝您的支持！
 </p>
 <p>&copy; 2026 Japan Specialty Traveler — 日本旅遊指南. All rights reserved.</p>
 </footer>
@@ -284,7 +294,7 @@ Disclosure: This site contains affiliate links. If you book through our links, w
 
 
 (function(){
-  var m = location.pathname.match(/^\/(fr|ko)(\/|$)/);
+  var m = location.pathname.match(/^\/(fr|ko|zh-cn|zh-tw|zh-hk)(\/|$)/);
   if (!m) return;                          
   var pfx = '/' + m[1];                   
 

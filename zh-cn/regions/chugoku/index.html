@@ -715,40 +715,40 @@ showCat((hash && (hash === 'all' || CATS[hash])) ? hash : 'all');
 <div id=affWidget class=aff-widget aria-label="Book travel services">
 <div class=aff-popup id=affPopup role=complementary aria-label="Hotel search">
 <div class=aff-popup-header>
-<span>🏨 Find Hotels in Japan</span>
+<span>🏨 搜索日本酒店</span>
 <button class=aff-close id=affClose aria-label=Close>✕</button>
 </div>
 <form class=aff-form id=affForm>
 <div class=aff-field>
-<label for=affDest>Destination</label>
+<label for=affDest>目的地</label>
 <input type=text id=affDest value="中国地区, Japan" placeholder="e.g. Tokyo, Japan" autocomplete=off>
 </div>
 <div class=aff-field-row>
 <div class=aff-field>
-<label for=affCheckin>Check-in</label>
+<label for=affCheckin>入住日期</label>
 <input type=date id=affCheckin>
 </div>
 <div class=aff-field>
-<label for=affCheckout>Check-out</label>
+<label for=affCheckout>退房日期</label>
 <input type=date id=affCheckout>
 </div>
 </div>
 <div class=aff-field>
-<label for=affGuests>Guests</label>
+<label for=affGuests>人数</label>
 <select id=affGuests><option value=1>1</option><option value=2 selected>2</option><option value=3>3</option><option value=4>4</option><option value=5>5</option><option value=6>6+</option></select>
 </div>
 <button type=submit class=aff-search-btn data-aid=YOUR_BOOKING_ID>
-Search Hotels →
+搜索酒店 →
 </button>
 </form>
-<div class=aff-divider><span>Also plan your trip</span></div>
+<div class=aff-divider><span>还可以规划</span></div>
 <a href="https://www.getyourguide.com/s/?q=%E4%B8%AD%E5%9B%BD%E5%9C%B0%E5%8C%BA+japan&partner_id=YOR5V0W" class="aff-link aff-gyg" target=_blank rel="noopener sponsored">
 <span class=aff-link-icon>🗺️</span>
-<span class=aff-link-body><strong>Tours & Activities</strong><small>GetYourGuide</small></span>
+<span class=aff-link-body><strong>旅游 & 活动</strong><small>GetYourGuide</small></span>
 </a>
 <a href="https://www.klook.com/en-US/search/?query=%E4%B8%AD%E5%9B%BD%E5%9C%B0%E5%8C%BA+japan&aff_adcode=117761" class="aff-link aff-klook" target=_blank rel="noopener sponsored">
 <span class=aff-link-icon>🎟️</span>
-<span class=aff-link-body><strong>Experiences & Passes</strong><small>Klook</small></span>
+<span class=aff-link-body><strong>体验 & 通票</strong><small>Klook</small></span>
 </a>
 <a href="https://click.jrpass.com/aff_c?offer_id=19&aff_id=2303" class="aff-link aff-jrpass" target=_blank rel="noopener sponsored">
 <span class=aff-link-icon>🚄</span>
@@ -873,7 +873,7 @@ Search Hotels →
 </script>
 <footer class=site-footer>
 <p class=affiliate-disclosure>
-Disclosure: This site contains affiliate links. If you book through our links, we may earn a small commission at no extra cost to you. This helps us keep the content free and up to date. Thank you for your support!
+声明：本网站包含联盟推广链接。如果您通过我们的链接预订，我们可能会获得少量佣金，不会给您带来任何额外费用。感谢您的支持！
 </p>
 <p>&copy; 2026 Japan Specialty Traveler — 日本旅游指南. All rights reserved.</p>
 </footer>
@@ -881,7 +881,7 @@ Disclosure: This site contains affiliate links. If you book through our links, w
 
 
 (function(){
-  var m = location.pathname.match(/^\/(fr|ko)(\/|$)/);
+  var m = location.pathname.match(/^\/(fr|ko|zh-cn|zh-tw|zh-hk)(\/|$)/);
   if (!m) return;                          
   var pfx = '/' + m[1];                   
 
