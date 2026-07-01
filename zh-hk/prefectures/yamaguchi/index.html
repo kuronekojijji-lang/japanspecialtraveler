@@ -99,7 +99,7 @@
   document.addEventListener('keydown', function(e){ if(e.key==='Escape') close(); });
 })();
 </script>
-<style>.pref-breadcrumb{background:#f8f9fa;border-bottom:1px solid var(--border);padding:.6rem 1.5rem;font-size:.82rem;color:var(--gray)}.pref-breadcrumb a{color:var(--red);text-decoration:none}.pref-breadcrumb a:hover{text-decoration:underline}.pref-breadcrumb span{margin:0 .4rem}.pref-hero{position:relative;min-height:440px;display:flex;align-items:flex-end;background:#1a1a0a 50%/cover no-repeat;background-image:url(https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=1600&q=80)}.pref-hero::after{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,.15) 0%,rgba(0,0,0,.7) 100%)}.pref-hero-body{position:relative;z-index:1;padding:2.5rem 1.5rem 2rem;max-width:var(--max-w);margin:0 auto;width:100%}.pref-hero-eyebrow{color:rgba(255,255,255,.75);font-size:.82rem;font-weight:600;text-transform:uppercase;letter-spacing:.1em;margin-bottom:.5rem}.pref-hero h1{color:#fff;font-size:clamp(2.2rem,5.5vw,3.4rem);font-weight:900;margin:0 0 .5rem;line-height:1.1}.pref-hero .pref-sub{color:rgba(255,255,255,.88);font-size:1.05rem;max-width:560px;margin-bottom:1rem}.pref-stats{display:flex;flex-wrap:wrap;gap:.6rem}.pref-stat{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);border-radius:20px;padding:.3rem .85rem;color:#fff;font-size:.8rem;font-weight:600}.pref-section{padding:2.5rem 1.5rem}.pref-section+.pref-section{padding-top:0}.pref-container{max-width:var(--max-w);margin:0 auto}.pref-section-title{font-size:1.55rem;font-weight:900;margin:0 0 .4rem;display:flex;align-items:center;gap:.5rem}.pref-section-lead{font-size:1rem;color:#555;line-height:1.7;max-width:680px;margin-bottom:1.5rem}.ponko-guide{display:flex;align-items:flex-end;gap:0;margin-bottom:1.6rem}.ponko-bubble{flex:1;min-width:0;background:linear-gradient(135deg,#fff9f0,#fff3e0);border:2px solid #f5a623;border-radius:18px 18px 18px 4px;padding:1.2rem 1.5rem;position:relative;box-shadow:0 4px 14px rgba(245,166,35,.13)}.ponko-bubble::after{content:'';position:absolute;right:-18px;bottom:22px;border:9px solid transparent;border-left-color:#f5a623}.ponko-bubble::before{content:'';position:absolute;right:-13px;bottom:23px;z-index:1;border:8px solid transparent;border-left-color:#fff9f0}.ponko-bubble p{font-size:.97rem;line-height:1.8;color:#333;margin:0}.ponko-figure{flex-shrink:0;width:170px;margin-left:4px;animation:ponko-float 3s ease-in-out infinite}.ponko-figure img{width:100%;height:auto;display:block;filter:drop-shadow(0 6px 10px rgba(0,0,0,.18))}@keyframes ponko-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}@media(max-width:640px){.ponko-guide{flex-direction:column;align-items:center}.ponko-bubble{border-radius:18px;order:2;width:100%}.ponko-bubble::after,.ponko-bubble::before{display:none}.ponko-figure{order:1;width:130px;margin-left:0;margin-bottom:.5rem;animation:none}}.quick-facts{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.8rem;margin-top:1.4rem}.qf-card{background:#f8f9fb;border:1px solid var(--border);border-radius:12px;padding:1rem 1.1rem;display:flex;align-items:flex-start;gap:.7rem}.qf-icon{font-size:1.4rem;flex-shrink:0}.qf-label{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--gray);margin-bottom:.15rem}.qf-value{font-size:.9rem;font-weight:600;color:var(--dark)}.access-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}.access-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 8px rgba(0,0,0,5%)}.access-card-hd{display:flex;align-items:center;gap:.5rem;margin-bottom:.8rem}.access-card-icon{font-size:1.5rem}.access-card-title{font-size:1rem;font-weight:800;color:var(--dark)}.access-card ul{margin:0;padding-left:1.1rem}.access-card li{font-size:.875rem;line-height:1.65;color:#444;margin-bottom:.3rem}.access-card li strong{color:var(--dark)}.access-tip{margin-top:1.2rem;background:#fff8e6;border:1px solid #ffe0a0;border-radius:10px;padding:.9rem 1.1rem;font-size:.85rem;line-height:1.6;color:#5a3e00}.access-tip strong{display:block;margin-bottom:.2rem;font-size:.88rem}.guide-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem}.guide-card{background:#fff;border-radius:14px;overflow:hidden;border:1px solid var(--border);box-shadow:0 2px 8px rgba(0,0,0,5%);transition:transform .15s,box-shadow .15s;position:relative;display:flex;flex-direction:column}.guide-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.guide-card-img{width:100%;height:150px;object-fit:cover;background:#e8eef4;display:block}.guide-card-img-ph{width:100%;height:150px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:2.5rem}.guide-card-body{padding:.9rem 1rem 1rem;flex:1}.guide-cat-badge{display:inline-block;font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;padding:.15rem .55rem;border-radius:8px;background:var(--red);color:#fff;margin-bottom:.4rem}.guide-card-title{font-size:.92rem;font-weight:800;color:var(--dark);line-height:1.4}.guide-coming-soon{position:absolute;top:.6rem;right:.6rem;background:rgba(0,0,0,.55);color:#fff;font-size:.65rem;font-weight:700;padding:.2rem .5rem;border-radius:6px;text-transform:uppercase;letter-spacing:.05em}.guide-card-link{text-decoration:none;color:inherit;display:flex;flex-direction:column;height:100%}.pref-toc{background:#fff;border-bottom:2px solid var(--border);position:sticky;top:0;z-index:100;overflow-x:auto}.pref-toc-inner{display:flex;gap:0;max-width:var(--max-w);margin:0 auto}.pref-toc-btn{flex:none;display:flex;align-items:center;gap:.4rem;padding:.8rem 1.2rem;border:none;background:0 0;cursor:pointer;font-family:inherit;font-size:.88rem;font-weight:600;color:var(--gray);border-bottom:3px solid transparent;transition:all .18s;white-space:nowrap}.pref-toc-btn .toc-icon{font-size:1.1rem}.pref-toc-btn:hover{color:var(--dark);background:#f8f8f8}.pref-toc-btn.active{color:var(--toc-color,var(--red));border-bottom-color:var(--toc-color,var(--red))}.spot-section{padding:2rem 1.5rem 2.5rem}.spot-section.hidden{display:none}.spot-section-inner{max-width:var(--max-w);margin:0 auto}.section-hd{display:flex;align-items:center;gap:.6rem;margin-bottom:1.4rem;padding-bottom:.7rem;border-bottom:2px solid var(--border)}.section-hd .s-icon{font-size:1.6rem}.section-hd h2{font-size:1.35rem;font-weight:800;margin:0}.section-hd .s-count{margin-left:auto;background:var(--sec-color,var(--red));color:#fff;border-radius:20px;padding:.15rem .65rem;font-size:.78rem;font-weight:700}.spot-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.25rem}.spot-card{border-radius:14px;overflow:hidden;border:1px solid var(--border);background:#fff;box-shadow:0 2px 8px rgba(0,0,0,6%);transition:transform .15s,box-shadow .15s;display:flex;flex-direction:column}.spot-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.spot-img{width:100%;height:200px;object-fit:cover;background:#e8eef4;display:block}.spot-img-ph{width:100%;height:200px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:3rem}.spot-body{padding:1rem 1.1rem 1.1rem;flex:1;display:flex;flex-direction:column}.spot-meta{display:flex;align-items:center;gap:.5rem;margin-bottom:.5rem}.spot-location{font-size:.78rem;color:var(--gray);font-weight:500}.spot-season-badge{margin-left:auto;font-size:.7rem;font-weight:700;padding:.1rem .5rem;border-radius:10px;background:#f0f4f8;color:#555;white-space:nowrap}.spot-name{font-size:1.08rem;font-weight:800;color:var(--dark);margin:0 0 .45rem;line-height:1.3}.spot-desc{font-size:.86rem;line-height:1.65;color:#555;flex:1;margin-bottom:.75rem}.spot-tags{display:flex;flex-wrap:wrap;gap:.3rem}.spot-tag{font-size:.7rem;font-weight:600;padding:.15rem .5rem;border-radius:6px;background:var(--tag-bg,#f0f4f8);color:var(--tag-color,#445)}.tips-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem}.tip-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 6px rgba(0,0,0,4%)}.tip-card-icon{font-size:1.8rem;margin-bottom:.6rem}.tip-card-title{font-size:.95rem;font-weight:800;color:var(--dark);margin-bottom:.5rem}.tip-card-body{font-size:.85rem;line-height:1.65;color:#555}.tip-card-body ul{margin:.3rem 0 0;padding-left:1.1rem}.tip-card-body li{margin-bottom:.2rem}.pref-cta{background:var(--bg-soft);padding:2.5rem 1.5rem 3rem;border-top:1px solid var(--border)}.pref-cta .pref-container{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}@media(max-width:600px){.pref-hero{min-height:320px}.quick-facts{grid-template-columns:repeat(2,1fr)}.pref-toc-btn{padding:.7rem .9rem;font-size:.82rem}}.btn-add-plan{display:inline-flex;align-items:center;gap:.35rem;margin-top:.75rem;padding:.45rem .9rem;border:1.5px solid #2d5be3;border-radius:8px;background:#fff;color:#2d5be3;font-size:.78rem;font-weight:700;font-family:inherit;cursor:pointer;transition:background .15s,color .15s,transform .1s;width:100%;justify-content:center}.btn-add-plan:hover{background:#2d5be3;color:#fff;transform:translateY(-1px)}.btn-add-plan.in-plan{background:#e8f0ff;color:#1a45a8;border-color:#1a45a8}.btn-add-plan.in-plan:hover{background:#c0003a;color:#fff;border-color:#c0003a}.btn-read-guide{display:inline-flex;align-items:center;justify-content:center;gap:.35rem;margin-top:.5rem;padding:.45rem .9rem;border:1.5px solid #1a7a34;border-radius:8px;background:#f0faf2;color:#1a7a34;font-size:.78rem;font-weight:700;text-decoration:none;width:100%;transition:background .15s,color .15s,transform .1s}.btn-read-guide:hover{background:#1a7a34;color:#fff;transform:translateY(-1px);text-decoration:none}.see-all-wrap{text-align:center;margin-top:1.5rem;padding-top:1rem;border-top:1px dashed var(--border)}.see-all-btn{display:inline-flex;align-items:center;gap:.4rem;padding:.55rem 1.5rem;border:2px solid;border-radius:10px;font-size:.88rem;font-weight:700;text-decoration:none;transition:all .15s}.see-all-btn:hover{opacity:.8;text-decoration:none}</style>
+<style>.pref-breadcrumb{background:#f8f9fa;border-bottom:1px solid var(--border);padding:.6rem 1.5rem;font-size:.82rem;color:var(--gray)}.pref-breadcrumb a{color:var(--red);text-decoration:none}.pref-breadcrumb a:hover{text-decoration:underline}.pref-breadcrumb span{margin:0 .4rem}.pref-hero{position:relative;min-height:440px;display:flex;align-items:flex-end;background:#1a1a0a 50%/cover no-repeat;background-image:url(https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=1600&q=80)}.pref-hero::after{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,.15) 0%,rgba(0,0,0,.7) 100%)}.pref-hero-body{position:relative;z-index:1;padding:2.5rem 1.5rem 2rem;max-width:var(--max-w);margin:0 auto;width:100%}.pref-hero-eyebrow{color:rgba(255,255,255,.75);font-size:.82rem;font-weight:600;text-transform:uppercase;letter-spacing:.1em;margin-bottom:.5rem}.pref-hero h1{color:#fff;font-size:clamp(2.2rem,5.5vw,3.4rem);font-weight:900;margin:0 0 .5rem;line-height:1.1}.pref-hero .pref-sub{color:rgba(255,255,255,.88);font-size:1.05rem;max-width:560px;margin-bottom:1rem}.pref-stats{display:flex;flex-wrap:wrap;gap:.6rem}.pref-stat{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);border-radius:20px;padding:.3rem .85rem;color:#fff;font-size:.8rem;font-weight:600}.pref-section{padding:2.5rem 1.5rem}.pref-section+.pref-section{padding-top:0}.pref-container{max-width:var(--max-w);margin:0 auto}.pref-section-title{font-size:1.55rem;font-weight:900;margin:0 0 .4rem;display:flex;align-items:center;gap:.5rem}.pref-section-lead{font-size:1rem;color:#555;line-height:1.7;max-width:680px;margin-bottom:1.5rem}.ponko-guide{display:flex;align-items:flex-end;gap:0;margin-bottom:1.6rem}.ponko-bubble{flex:1;min-width:0;background:linear-gradient(135deg,#fff9f0,#fff3e0);border:2px solid #f5a623;border-radius:18px 18px 18px 4px;padding:1.2rem 1.5rem;position:relative;box-shadow:0 4px 14px rgba(245,166,35,.13)}.ponko-bubble::after{content:'';position:absolute;right:-18px;bottom:22px;border:9px solid transparent;border-left-color:#f5a623}.ponko-bubble::before{content:'';position:absolute;right:-13px;bottom:23px;z-index:1;border:8px solid transparent;border-left-color:#fff9f0}.ponko-bubble p{font-size:.97rem;line-height:1.8;color:#333;margin:0}.ponko-figure{flex-shrink:0;width:170px;margin-left:4px;animation:ponko-float 3s ease-in-out infinite}.ponko-figure img{width:100%;height:auto;display:block;filter:drop-shadow(0 6px 10px rgba(0,0,0,.18))}@keyframes ponko-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}@media(max-width:640px){.ponko-guide{flex-direction:column;align-items:center}.ponko-bubble{border-radius:18px;order:2;width:100%}.ponko-bubble::after,.ponko-bubble::before{display:none}.ponko-figure{order:1;width:130px;margin-left:0;margin-bottom:.5rem;animation:none}}.quick-facts{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.8rem;margin-top:1.4rem}.qf-card{background:#f8f9fb;border:1px solid var(--border);border-radius:12px;padding:1rem 1.1rem;display:flex;align-items:flex-start;gap:.7rem}.qf-icon{font-size:1.4rem;flex-shrink:0}.qf-label{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--gray);margin-bottom:.15rem}.qf-value{font-size:.9rem;font-weight:600;color:var(--dark)}.access-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}.access-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 8px rgba(0,0,0,5%)}.access-card-hd{display:flex;align-items:center;gap:.5rem;margin-bottom:.8rem}.access-card-icon{font-size:1.5rem}.access-card-title{font-size:1rem;font-weight:800;color:var(--dark)}.access-card ul{margin:0;padding-left:1.1rem}.access-card li{font-size:.875rem;line-height:1.65;color:#444;margin-bottom:.3rem}.access-card li strong{color:var(--dark)}.access-tip{margin-top:1.2rem;background:#fff8e6;border:1px solid #ffe0a0;border-radius:10px;padding:.9rem 1.1rem;font-size:.85rem;line-height:1.6;color:#5a3e00}.access-tip strong{display:block;margin-bottom:.2rem;font-size:.88rem}.guide-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem}.guide-card{background:#fff;border-radius:14px;overflow:hidden;border:1px solid var(--border);box-shadow:0 2px 8px rgba(0,0,0,5%);transition:transform .15s,box-shadow .15s;position:relative;display:flex;flex-direction:column}.guide-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.guide-card-img{width:100%;height:150px;object-fit:cover;background:#e8eef4;display:block}.guide-card-img-ph{width:100%;height:150px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:2.5rem}.guide-card-body{padding:.9rem 1rem 1rem;flex:1}.guide-cat-badge{display:inline-block;font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;padding:.15rem .55rem;border-radius:8px;background:var(--red);color:#fff;margin-bottom:.4rem}.guide-card-title{font-size:.92rem;font-weight:800;color:var(--dark);line-height:1.4}.guide-coming-soon{position:absolute;top:.6rem;right:.6rem;background:rgba(0,0,0,.55);color:#fff;font-size:.65rem;font-weight:700;padding:.2rem .5rem;border-radius:6px;text-transform:uppercase;letter-spacing:.05em}.guide-card-link{text-decoration:none;color:inherit;display:flex;flex-direction:column;height:100%}.pref-toc{background:#fff;border-bottom:2px solid var(--border);position:sticky;top:0;z-index:100;overflow-x:auto}.pref-toc-inner{display:flex;gap:0;max-width:var(--max-w);margin:0 auto}.pref-toc-btn{flex:none;display:flex;align-items:center;gap:.4rem;padding:.8rem 1.2rem;border:none;background:0 0;cursor:pointer;font-family:inherit;font-size:.88rem;font-weight:600;color:var(--gray);border-bottom:3px solid transparent;transition:all .18s;white-space:nowrap}.pref-toc-btn .toc-icon{font-size:1.1rem}.pref-toc-btn:hover{color:var(--dark);background:#f8f8f8}.pref-toc-btn.active{color:var(--toc-color,var(--red));border-bottom-color:var(--toc-color,var(--red))}.spot-section{padding:2rem 1.5rem 2.5rem}.spot-section.hidden{display:none}.spot-section-inner{max-width:var(--max-w);margin:0 auto}.section-hd{display:flex;align-items:center;gap:.6rem;margin-bottom:1.4rem;padding-bottom:.7rem;border-bottom:2px solid var(--border)}.section-hd .s-icon{font-size:1.6rem}.section-hd h2{font-size:1.35rem;font-weight:800;margin:0}.section-hd .s-count{margin-left:auto;background:var(--sec-color,var(--red));color:#fff;border-radius:20px;padding:.15rem .65rem;font-size:.78rem;font-weight:700}.spot-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.25rem}.spot-card{border-radius:14px;overflow:hidden;border:1px solid var(--border);background:#fff;box-shadow:0 2px 8px rgba(0,0,0,6%);transition:transform .15s,box-shadow .15s;display:flex;flex-direction:column}.spot-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.spot-img{width:100%;height:200px;object-fit:cover;background:#e8eef4;display:block}.spot-img-ph{width:100%;height:200px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:3rem}.spot-body{padding:1rem 1.1rem 1.1rem;flex:1;display:flex;flex-direction:column}.spot-meta{display:flex;align-items:center;gap:.5rem;margin-bottom:.5rem}.spot-location{font-size:.78rem;color:var(--gray);font-weight:500}.spot-season-badge{margin-left:auto;font-size:.7rem;font-weight:700;padding:.1rem .5rem;border-radius:10px;background:#f0f4f8;color:#555;white-space:nowrap}.spot-name{font-size:1.08rem;font-weight:800;color:var(--dark);margin:0 0 .45rem;line-height:1.3}.spot-desc{font-size:.86rem;line-height:1.65;color:#555;flex:1;margin-bottom:.75rem}.spot-tags{display:flex;flex-wrap:wrap;gap:.3rem}.spot-tag{font-size:.7rem;font-weight:600;padding:.15rem .5rem;border-radius:6px;background:var(--tag-bg,#f0f4f8);color:var(--tag-color,#445)}.tips-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem}.tip-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 6px rgba(0,0,0,4%)}.tip-card-icon{font-size:1.8rem;margin-bottom:.6rem}.tip-card-title{font-size:.95rem;font-weight:800;color:var(--dark);margin-bottom:.5rem}.tip-card-body{font-size:.85rem;line-height:1.65;color:#555}.tip-card-body ul{margin:.3rem 0 0;padding-left:1.1rem}.tip-card-body li{margin-bottom:.2rem}.pref-cta{background:var(--bg-soft);padding:2.5rem 1.5rem 3rem;border-top:1px solid var(--border)}.pref-cta .pref-container{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}@media(max-width:600px){.pref-hero{min-height:320px}.quick-facts{grid-template-columns:repeat(2,1fr)}.pref-toc-btn{padding:.7rem .9rem;font-size:.82rem}}.btn-add-plan{display:inline-flex;align-items:center;gap:.35rem;margin-top:.75rem;padding:.45rem .9rem;border:1.5px solid #2d5be3;border-radius:8px;background:#fff;color:#2d5be3;font-size:.78rem;font-weight:700;font-family:inherit;cursor:pointer;transition:background .15s,color .15s,transform .1s;width:100%;justify-content:center}.btn-add-plan:hover{background:#2d5be3;color:#fff;transform:translateY(-1px)}.btn-add-plan.in-plan{background:#e8f0ff;color:#1a45a8;border-color:#1a45a8}.btn-add-plan.in-plan:hover{background:#c0003a;color:#fff;border-color:#c0003a}.btn-read-guide{display:inline-flex;align-items:center;justify-content:center;gap:.35rem;margin-top:.5rem;padding:.45rem .9rem;border:1.5px solid #1a7a34;border-radius:8px;background:#f0faf2;color:#1a7a34;font-size:.78rem;font-weight:700;text-decoration:none;width:100%;transition:background .15s,color .15s,transform .1s}.btn-read-guide:hover{background:#1a7a34;color:#fff;transform:translateY(-1px);text-decoration:none}.see-all-wrap{text-align:center;margin-top:1.5rem;padding-top:1rem;border-top:1px dashed var(--border)}.see-all-btn{display:inline-flex;align-items:center;gap:.4rem;padding:.55rem 1.5rem;border:2px solid;border-radius:10px;font-size:.88rem;font-weight:700;text-decoration:none;transition:all .15s}.see-all-btn:hover{opacity:.8;text-decoration:none}.see-all-btn{cursor:pointer;background:0 0}.spot-card.spot-more{display:none}.spot-section.spots-expanded .spot-card.spot-more{display:flex}.spot-section.spots-expanded .see-all-wrap{display:none}</style>
 <nav class=pref-breadcrumb aria-label=breadcrumb>
 <a href=/>首頁</a><span>›</span>
 <a href=/explore/>探索日本</a><span>›</span>
@@ -386,11 +386,211 @@
 </button>
 </div>
 </article>
+<article class="spot-card spot-more" data-spot-id=sesshu-teien-garden data-spot-name=雪舟庭園 data-spot-pref=yamaguchi data-spot-fee=700 data-spot-dur=60 data-spot-lat=34.0878 data-spot-lng=131.8734 data-spot-area=yamaguchi-center data-spot-rating=4.4 data-spot-reviews=1100 data-spot-img="https://images.unsplash.com/photo-1578301978162-7aae4d755744?w=800&q=80" data-spot-cats=sightseeing,sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1578301978162-7aae4d755744?w=800&q=80" alt=雪舟庭園 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 山口，山口縣</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>雪舟庭園</h3>
+<p class=spot-desc>呢座精緻嘅禪式庭園以著名水墨畫家雪舟嘅風格設計，以生動嘅植物同石材呈現山水畫嘅美學原理。庭園將山景、水景同精心修剪嘅植被和諧融合，營造出靈性嘅寧靜感。建議喺清晨或午後探訪，光線同氛圍最為理想。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>禪式庭園</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>水墨畫靈感</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>寧靜境地</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=hagi-castle-town data-spot-name=萩城下町 data-spot-pref=yamaguchi data-spot-fee=0 data-spot-dur=150 data-spot-lat=34.4028 data-spot-lng=131.4006 data-spot-area=hagi-center data-spot-rating=4.4 data-spot-reviews=2900 data-spot-img="https://images.unsplash.com/photo-1552326881-5fefe8c9ef14?w=800&q=80" data-spot-cats=sightseeing,sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1552326881-5fefe8c9ef14?w=800&q=80" alt=萩城下町 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 萩，山口縣</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>萩城下町</h3>
+<p class=spot-desc>踏入時光隧道，造訪呢座保存完好、昔日武士商人曾居住嘅城下町。迷人嘅街區擁有傳統木造民宅、垂柳夾道嘅狹窄巷弄，以及著名嘅萩燒陶藝傳統。探索真實嘅博物館、茶屋同在地工藝工坊，體驗江戶時代嘅日本風情。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>武士遺產</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>歷史街區</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>陶器文化</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=akiyoshidai-plateau data-spot-name=秋吉台高原 data-spot-pref=yamaguchi data-spot-fee=0 data-spot-dur=120 data-spot-lat=34.6389 data-spot-lng=131.3156 data-spot-area=akiyoshi data-spot-rating=4.4 data-spot-reviews=1600 data-spot-img="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" data-spot-cats=nature,sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" alt=秋吉台高原 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 秋吉，山口縣</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>秋吉台高原</h3>
+<p class=spot-desc>廣袤嘅石灰岩高原橫亙喺日本最大嘅喀斯特地景，戲劇性嘅岩石構造形成宛如月球表面嘅地貌。標示清晰嘅步道貫穿高原，沿途享有壯麗全景、季節野花同獨特地質構造。被指定為國家地質公園，尤以日落時分景色絕佳。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>喀斯特地形</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>行山步道</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>天然紀念物</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=fukushūji-temple data-spot-name=福壽寺 data-spot-pref=yamaguchi data-spot-fee=500 data-spot-dur=75 data-spot-lat=34.2167 data-spot-lng=131.8345 data-spot-area=iwakuni data-spot-rating=4.3 data-spot-reviews=540 data-spot-img="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" data-spot-cats=sightseeing,sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" alt=福壽寺 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 岩國，山口縣</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>福壽寺</h3>
+<p class=spot-desc>呢座氛圍深邃嘅山頂古寺已有逾700年歷史，提供冥想庭園、古老木造建築同全景眺望。寺院歡迎訪客參加坐禪冥想，或靜靜感受靈性能量。穿越柏木森林嘅參拜道路創造出靈性朝聖嘅意境。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>古寺</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>山間環境</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>禪意寧靜</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=iwakuni-castle data-spot-name=岩國城 data-spot-pref=yamaguchi data-spot-fee=1050 data-spot-dur=90 data-spot-lat=34.1728 data-spot-lng=131.8234 data-spot-area=iwakuni data-spot-rating=4.3 data-spot-reviews=1400 data-spot-img="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" data-spot-cats=sightseeing,sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" alt=岩國城 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 岩國，山口縣</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>岩國城</h3>
+<p class=spot-desc>雄踞俯瞰錦帶橋嘅山頂，呢座復原嘅城堡提供周邊谷地同河流嘅壯闊全景。城堡博物館展示武士甲冑、兵器同歷史文物，訴說地方藩主嘅故事。前往城堡嘅行山步道穿越如畫嘅森林，提供絕佳嘅拍攝機會。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>山頂城堡</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>全景展望</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>復原地標</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=karato-market data-spot-name=唐戶市場 data-spot-pref=yamaguchi data-spot-fee=0 data-spot-dur=75 data-spot-lat=33.9678 data-spot-lng=130.9534 data-spot-area=shimonoseki-center data-spot-rating=4.3 data-spot-reviews=1700 data-spot-img="https://images.unsplash.com/photo-1568779589843-e69ba061e10f?w=800&q=80" data-spot-cats=gourmet,sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1568779589843-e69ba061e10f?w=800&q=80" alt=唐戶市場 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 下關，山口縣</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>唐戶市場</h3>
+<p class=spot-desc>探索呢座熱鬧嘅海濱市場，下關每日新鮮漁獲喺呢度展示販售，包括著名嘅河豚同鯨魚肉。訪客可購買刺身同海鮮帶去附近餐廳享用，或嘗試販售烤扇貝同新鮮魚糕嘅路邊攤。市場洋溢著活力同道地在地文化嘅氛圍。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>海鮮市場</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>新鮮漁獲</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>在地風味</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=shimonoseki-kanmon-strait data-spot-name=下關關門海峽 data-spot-pref=yamaguchi data-spot-fee=0 data-spot-dur=60 data-spot-lat=33.9656 data-spot-lng=130.9456 data-spot-area=shimonoseki-center data-spot-rating=4.2 data-spot-reviews=2100 data-spot-img="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" data-spot-cats=sightseeing,nature>
+<img class=spot-img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" alt=下關關門海峽 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 下關，山口縣</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>下關關門海峽</h3>
+<p class=spot-desc>體驗本州同九州幾乎相接嘅壯觀關門海峽，強勁嘅潮汐漩渦同湍急水流令人嘆為觀止。關門大橋同海底隧道展現現代工程奇蹟，更承載著深厚嘅海洋歷史意義。展望台可俯瞰日本最重要水道之一嘅全景。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>海峽景觀</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>海洋歷史</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>海底隧道</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=hagi-museums-complex data-spot-name=萩博物館群 data-spot-pref=yamaguchi data-spot-fee=1500 data-spot-dur=150 data-spot-lat=34.4156 data-spot-lng=131.4078 data-spot-area=hagi-center data-spot-rating=4.2 data-spot-reviews=920 data-spot-img="https://images.unsplash.com/photo-1564399579883-451a5d44be7f?w=800&q=80" data-spot-cats=sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1564399579883-451a5d44be7f?w=800&q=80" alt=萩博物館群 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 萩，山口縣</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>萩博物館群</h3>
+<p class=spot-desc>座落喺歷史建築中嘅博物館群展示萩市豐富遺產，涵蓋陶瓷技藝、傳統工藝同歷史文物。各館喺維持高藝術水準嘅同時，以國際訪客易懂嘅方式呈現。聯票提供探索多個展覽嘅絕佳性價比。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>藝術與歷史</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>複合館藏</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>文化中心</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=toyota-museum-heritage data-spot-name=山口國際中心 data-spot-pref=yamaguchi data-spot-fee=600 data-spot-dur=90 data-spot-lat=34.1789 data-spot-lng=131.4756 data-spot-area=yamaguchi-center data-spot-rating=4.1 data-spot-reviews=650 data-spot-img="https://images.unsplash.com/photo-1564399579883-451a5d44be7f?w=800&q=80" data-spot-cats=sightseeing,sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1564399579883-451a5d44be7f?w=800&q=80" alt=山口國際中心 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 山口，山口縣</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>山口國際中心</h3>
+<p class=spot-desc>位於山口市嘅現代化設施，提供縣內歷史、工藝同當代文化嘅完整資訊。互動展示說明傳統產業同現代革新，並配合文化表演同臨時藝術展覽。係規劃山口探索之旅嘅訪客絕佳出發基地。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>文化交流</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>現代設施</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>在地資訊</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=hagi-umihotaru-museum data-spot-name=萩海螢博物館 data-spot-pref=yamaguchi data-spot-fee=600 data-spot-dur=75 data-spot-lat=34.4128 data-spot-lng=131.3956 data-spot-area=hagi-center data-spot-rating=4.1 data-spot-reviews=890 data-spot-img="https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&q=80" data-spot-cats=sightseeing,sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&q=80" alt=萩海螢博物館 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 萩，山口縣</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>萩海螢博物館</h3>
+<p class=spot-desc>呢座海濱博物館頌揚萩市嘅海洋遺產，展示日本海獨特嘅生態系統。互動展示涵蓋在地魚類、傳統漁業技術同歷史海上貿易航線。建築本身提供靚麗嘅港灣景觀，非常適合影相留念。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>海洋生物</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>地方歷史</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>互動展覽</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 </div>
 <div class=see-all-wrap>
-<a class=see-all-btn style=color:#1a45a8 href=/prefectures/yamaguchi/sightseeing/>
-See all 16 觀光 spots →
-</a>
+<button class="see-all-btn show-more-btn" style=color:#1a45a8 type=button data-section=section-sightseeing>
+顯示全部 (16) ↓
+</button>
 </div>
 </div>
 </section><section class=spot-section id=section-gourmet data-cat=gourmet>
@@ -933,6 +1133,13 @@ See all 16 觀光 spots →
 </div>
 <script>
 (function(){
+ 
+document.querySelectorAll('.show-more-btn').forEach(function(btn){
+  btn.addEventListener('click', function(){
+    var sec = document.getElementById(btn.dataset.section);
+    if (sec) sec.classList.add('spots-expanded');
+  });
+});
  
 const CATS = {
   sightseeing:{ color:"#1a45a8" },

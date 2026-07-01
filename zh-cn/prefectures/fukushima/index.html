@@ -99,7 +99,7 @@
   document.addEventListener('keydown', function(e){ if(e.key==='Escape') close(); });
 })();
 </script>
-<style>.pref-breadcrumb{background:#f8f9fa;border-bottom:1px solid var(--border);padding:.6rem 1.5rem;font-size:.82rem;color:var(--gray)}.pref-breadcrumb a{color:var(--red);text-decoration:none}.pref-breadcrumb a:hover{text-decoration:underline}.pref-breadcrumb span{margin:0 .4rem}.pref-hero{position:relative;min-height:440px;display:flex;align-items:flex-end;background:#1a0e0e 50%/cover no-repeat;background-image:url(https://images.unsplash.com/photo-1601931935821-5fbe71157695?w=1600&q=80)}.pref-hero::after{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,.15) 0%,rgba(0,0,0,.7) 100%)}.pref-hero-body{position:relative;z-index:1;padding:2.5rem 1.5rem 2rem;max-width:var(--max-w);margin:0 auto;width:100%}.pref-hero-eyebrow{color:rgba(255,255,255,.75);font-size:.82rem;font-weight:600;text-transform:uppercase;letter-spacing:.1em;margin-bottom:.5rem}.pref-hero h1{color:#fff;font-size:clamp(2.2rem,5.5vw,3.4rem);font-weight:900;margin:0 0 .5rem;line-height:1.1}.pref-hero .pref-sub{color:rgba(255,255,255,.88);font-size:1.05rem;max-width:560px;margin-bottom:1rem}.pref-stats{display:flex;flex-wrap:wrap;gap:.6rem}.pref-stat{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);border-radius:20px;padding:.3rem .85rem;color:#fff;font-size:.8rem;font-weight:600}.pref-section{padding:2.5rem 1.5rem}.pref-section+.pref-section{padding-top:0}.pref-container{max-width:var(--max-w);margin:0 auto}.pref-section-title{font-size:1.55rem;font-weight:900;margin:0 0 .4rem;display:flex;align-items:center;gap:.5rem}.pref-section-lead{font-size:1rem;color:#555;line-height:1.7;max-width:680px;margin-bottom:1.5rem}.ponko-guide{display:flex;align-items:flex-end;gap:0;margin-bottom:1.6rem}.ponko-bubble{flex:1;min-width:0;background:linear-gradient(135deg,#fff9f0,#fff3e0);border:2px solid #f5a623;border-radius:18px 18px 18px 4px;padding:1.2rem 1.5rem;position:relative;box-shadow:0 4px 14px rgba(245,166,35,.13)}.ponko-bubble::after{content:'';position:absolute;right:-18px;bottom:22px;border:9px solid transparent;border-left-color:#f5a623}.ponko-bubble::before{content:'';position:absolute;right:-13px;bottom:23px;z-index:1;border:8px solid transparent;border-left-color:#fff9f0}.ponko-bubble p{font-size:.97rem;line-height:1.8;color:#333;margin:0}.ponko-figure{flex-shrink:0;width:170px;margin-left:4px;animation:ponko-float 3s ease-in-out infinite}.ponko-figure img{width:100%;height:auto;display:block;filter:drop-shadow(0 6px 10px rgba(0,0,0,.18))}@keyframes ponko-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}@media(max-width:640px){.ponko-guide{flex-direction:column;align-items:center}.ponko-bubble{border-radius:18px;order:2;width:100%}.ponko-bubble::after,.ponko-bubble::before{display:none}.ponko-figure{order:1;width:130px;margin-left:0;margin-bottom:.5rem;animation:none}}.quick-facts{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.8rem;margin-top:1.4rem}.qf-card{background:#f8f9fb;border:1px solid var(--border);border-radius:12px;padding:1rem 1.1rem;display:flex;align-items:flex-start;gap:.7rem}.qf-icon{font-size:1.4rem;flex-shrink:0}.qf-label{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--gray);margin-bottom:.15rem}.qf-value{font-size:.9rem;font-weight:600;color:var(--dark)}.access-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}.access-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 8px rgba(0,0,0,5%)}.access-card-hd{display:flex;align-items:center;gap:.5rem;margin-bottom:.8rem}.access-card-icon{font-size:1.5rem}.access-card-title{font-size:1rem;font-weight:800;color:var(--dark)}.access-card ul{margin:0;padding-left:1.1rem}.access-card li{font-size:.875rem;line-height:1.65;color:#444;margin-bottom:.3rem}.access-card li strong{color:var(--dark)}.access-tip{margin-top:1.2rem;background:#fff8e6;border:1px solid #ffe0a0;border-radius:10px;padding:.9rem 1.1rem;font-size:.85rem;line-height:1.6;color:#5a3e00}.access-tip strong{display:block;margin-bottom:.2rem;font-size:.88rem}.guide-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem}.guide-card{background:#fff;border-radius:14px;overflow:hidden;border:1px solid var(--border);box-shadow:0 2px 8px rgba(0,0,0,5%);transition:transform .15s,box-shadow .15s;position:relative;display:flex;flex-direction:column}.guide-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.guide-card-img{width:100%;height:150px;object-fit:cover;background:#e8eef4;display:block}.guide-card-img-ph{width:100%;height:150px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:2.5rem}.guide-card-body{padding:.9rem 1rem 1rem;flex:1}.guide-cat-badge{display:inline-block;font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;padding:.15rem .55rem;border-radius:8px;background:var(--red);color:#fff;margin-bottom:.4rem}.guide-card-title{font-size:.92rem;font-weight:800;color:var(--dark);line-height:1.4}.guide-coming-soon{position:absolute;top:.6rem;right:.6rem;background:rgba(0,0,0,.55);color:#fff;font-size:.65rem;font-weight:700;padding:.2rem .5rem;border-radius:6px;text-transform:uppercase;letter-spacing:.05em}.guide-card-link{text-decoration:none;color:inherit;display:flex;flex-direction:column;height:100%}.pref-toc{background:#fff;border-bottom:2px solid var(--border);position:sticky;top:0;z-index:100;overflow-x:auto}.pref-toc-inner{display:flex;gap:0;max-width:var(--max-w);margin:0 auto}.pref-toc-btn{flex:none;display:flex;align-items:center;gap:.4rem;padding:.8rem 1.2rem;border:none;background:0 0;cursor:pointer;font-family:inherit;font-size:.88rem;font-weight:600;color:var(--gray);border-bottom:3px solid transparent;transition:all .18s;white-space:nowrap}.pref-toc-btn .toc-icon{font-size:1.1rem}.pref-toc-btn:hover{color:var(--dark);background:#f8f8f8}.pref-toc-btn.active{color:var(--toc-color,var(--red));border-bottom-color:var(--toc-color,var(--red))}.spot-section{padding:2rem 1.5rem 2.5rem}.spot-section.hidden{display:none}.spot-section-inner{max-width:var(--max-w);margin:0 auto}.section-hd{display:flex;align-items:center;gap:.6rem;margin-bottom:1.4rem;padding-bottom:.7rem;border-bottom:2px solid var(--border)}.section-hd .s-icon{font-size:1.6rem}.section-hd h2{font-size:1.35rem;font-weight:800;margin:0}.section-hd .s-count{margin-left:auto;background:var(--sec-color,var(--red));color:#fff;border-radius:20px;padding:.15rem .65rem;font-size:.78rem;font-weight:700}.spot-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.25rem}.spot-card{border-radius:14px;overflow:hidden;border:1px solid var(--border);background:#fff;box-shadow:0 2px 8px rgba(0,0,0,6%);transition:transform .15s,box-shadow .15s;display:flex;flex-direction:column}.spot-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.spot-img{width:100%;height:200px;object-fit:cover;background:#e8eef4;display:block}.spot-img-ph{width:100%;height:200px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:3rem}.spot-body{padding:1rem 1.1rem 1.1rem;flex:1;display:flex;flex-direction:column}.spot-meta{display:flex;align-items:center;gap:.5rem;margin-bottom:.5rem}.spot-location{font-size:.78rem;color:var(--gray);font-weight:500}.spot-season-badge{margin-left:auto;font-size:.7rem;font-weight:700;padding:.1rem .5rem;border-radius:10px;background:#f0f4f8;color:#555;white-space:nowrap}.spot-name{font-size:1.08rem;font-weight:800;color:var(--dark);margin:0 0 .45rem;line-height:1.3}.spot-desc{font-size:.86rem;line-height:1.65;color:#555;flex:1;margin-bottom:.75rem}.spot-tags{display:flex;flex-wrap:wrap;gap:.3rem}.spot-tag{font-size:.7rem;font-weight:600;padding:.15rem .5rem;border-radius:6px;background:var(--tag-bg,#f0f4f8);color:var(--tag-color,#445)}.tips-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem}.tip-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 6px rgba(0,0,0,4%)}.tip-card-icon{font-size:1.8rem;margin-bottom:.6rem}.tip-card-title{font-size:.95rem;font-weight:800;color:var(--dark);margin-bottom:.5rem}.tip-card-body{font-size:.85rem;line-height:1.65;color:#555}.tip-card-body ul{margin:.3rem 0 0;padding-left:1.1rem}.tip-card-body li{margin-bottom:.2rem}.pref-cta{background:var(--bg-soft);padding:2.5rem 1.5rem 3rem;border-top:1px solid var(--border)}.pref-cta .pref-container{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}@media(max-width:600px){.pref-hero{min-height:320px}.quick-facts{grid-template-columns:repeat(2,1fr)}.pref-toc-btn{padding:.7rem .9rem;font-size:.82rem}}.btn-add-plan{display:inline-flex;align-items:center;gap:.35rem;margin-top:.75rem;padding:.45rem .9rem;border:1.5px solid #2d5be3;border-radius:8px;background:#fff;color:#2d5be3;font-size:.78rem;font-weight:700;font-family:inherit;cursor:pointer;transition:background .15s,color .15s,transform .1s;width:100%;justify-content:center}.btn-add-plan:hover{background:#2d5be3;color:#fff;transform:translateY(-1px)}.btn-add-plan.in-plan{background:#e8f0ff;color:#1a45a8;border-color:#1a45a8}.btn-add-plan.in-plan:hover{background:#c0003a;color:#fff;border-color:#c0003a}.btn-read-guide{display:inline-flex;align-items:center;justify-content:center;gap:.35rem;margin-top:.5rem;padding:.45rem .9rem;border:1.5px solid #1a7a34;border-radius:8px;background:#f0faf2;color:#1a7a34;font-size:.78rem;font-weight:700;text-decoration:none;width:100%;transition:background .15s,color .15s,transform .1s}.btn-read-guide:hover{background:#1a7a34;color:#fff;transform:translateY(-1px);text-decoration:none}.see-all-wrap{text-align:center;margin-top:1.5rem;padding-top:1rem;border-top:1px dashed var(--border)}.see-all-btn{display:inline-flex;align-items:center;gap:.4rem;padding:.55rem 1.5rem;border:2px solid;border-radius:10px;font-size:.88rem;font-weight:700;text-decoration:none;transition:all .15s}.see-all-btn:hover{opacity:.8;text-decoration:none}</style>
+<style>.pref-breadcrumb{background:#f8f9fa;border-bottom:1px solid var(--border);padding:.6rem 1.5rem;font-size:.82rem;color:var(--gray)}.pref-breadcrumb a{color:var(--red);text-decoration:none}.pref-breadcrumb a:hover{text-decoration:underline}.pref-breadcrumb span{margin:0 .4rem}.pref-hero{position:relative;min-height:440px;display:flex;align-items:flex-end;background:#1a0e0e 50%/cover no-repeat;background-image:url(https://images.unsplash.com/photo-1601931935821-5fbe71157695?w=1600&q=80)}.pref-hero::after{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,.15) 0%,rgba(0,0,0,.7) 100%)}.pref-hero-body{position:relative;z-index:1;padding:2.5rem 1.5rem 2rem;max-width:var(--max-w);margin:0 auto;width:100%}.pref-hero-eyebrow{color:rgba(255,255,255,.75);font-size:.82rem;font-weight:600;text-transform:uppercase;letter-spacing:.1em;margin-bottom:.5rem}.pref-hero h1{color:#fff;font-size:clamp(2.2rem,5.5vw,3.4rem);font-weight:900;margin:0 0 .5rem;line-height:1.1}.pref-hero .pref-sub{color:rgba(255,255,255,.88);font-size:1.05rem;max-width:560px;margin-bottom:1rem}.pref-stats{display:flex;flex-wrap:wrap;gap:.6rem}.pref-stat{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);border-radius:20px;padding:.3rem .85rem;color:#fff;font-size:.8rem;font-weight:600}.pref-section{padding:2.5rem 1.5rem}.pref-section+.pref-section{padding-top:0}.pref-container{max-width:var(--max-w);margin:0 auto}.pref-section-title{font-size:1.55rem;font-weight:900;margin:0 0 .4rem;display:flex;align-items:center;gap:.5rem}.pref-section-lead{font-size:1rem;color:#555;line-height:1.7;max-width:680px;margin-bottom:1.5rem}.ponko-guide{display:flex;align-items:flex-end;gap:0;margin-bottom:1.6rem}.ponko-bubble{flex:1;min-width:0;background:linear-gradient(135deg,#fff9f0,#fff3e0);border:2px solid #f5a623;border-radius:18px 18px 18px 4px;padding:1.2rem 1.5rem;position:relative;box-shadow:0 4px 14px rgba(245,166,35,.13)}.ponko-bubble::after{content:'';position:absolute;right:-18px;bottom:22px;border:9px solid transparent;border-left-color:#f5a623}.ponko-bubble::before{content:'';position:absolute;right:-13px;bottom:23px;z-index:1;border:8px solid transparent;border-left-color:#fff9f0}.ponko-bubble p{font-size:.97rem;line-height:1.8;color:#333;margin:0}.ponko-figure{flex-shrink:0;width:170px;margin-left:4px;animation:ponko-float 3s ease-in-out infinite}.ponko-figure img{width:100%;height:auto;display:block;filter:drop-shadow(0 6px 10px rgba(0,0,0,.18))}@keyframes ponko-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}@media(max-width:640px){.ponko-guide{flex-direction:column;align-items:center}.ponko-bubble{border-radius:18px;order:2;width:100%}.ponko-bubble::after,.ponko-bubble::before{display:none}.ponko-figure{order:1;width:130px;margin-left:0;margin-bottom:.5rem;animation:none}}.quick-facts{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.8rem;margin-top:1.4rem}.qf-card{background:#f8f9fb;border:1px solid var(--border);border-radius:12px;padding:1rem 1.1rem;display:flex;align-items:flex-start;gap:.7rem}.qf-icon{font-size:1.4rem;flex-shrink:0}.qf-label{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--gray);margin-bottom:.15rem}.qf-value{font-size:.9rem;font-weight:600;color:var(--dark)}.access-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}.access-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 8px rgba(0,0,0,5%)}.access-card-hd{display:flex;align-items:center;gap:.5rem;margin-bottom:.8rem}.access-card-icon{font-size:1.5rem}.access-card-title{font-size:1rem;font-weight:800;color:var(--dark)}.access-card ul{margin:0;padding-left:1.1rem}.access-card li{font-size:.875rem;line-height:1.65;color:#444;margin-bottom:.3rem}.access-card li strong{color:var(--dark)}.access-tip{margin-top:1.2rem;background:#fff8e6;border:1px solid #ffe0a0;border-radius:10px;padding:.9rem 1.1rem;font-size:.85rem;line-height:1.6;color:#5a3e00}.access-tip strong{display:block;margin-bottom:.2rem;font-size:.88rem}.guide-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem}.guide-card{background:#fff;border-radius:14px;overflow:hidden;border:1px solid var(--border);box-shadow:0 2px 8px rgba(0,0,0,5%);transition:transform .15s,box-shadow .15s;position:relative;display:flex;flex-direction:column}.guide-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.guide-card-img{width:100%;height:150px;object-fit:cover;background:#e8eef4;display:block}.guide-card-img-ph{width:100%;height:150px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:2.5rem}.guide-card-body{padding:.9rem 1rem 1rem;flex:1}.guide-cat-badge{display:inline-block;font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;padding:.15rem .55rem;border-radius:8px;background:var(--red);color:#fff;margin-bottom:.4rem}.guide-card-title{font-size:.92rem;font-weight:800;color:var(--dark);line-height:1.4}.guide-coming-soon{position:absolute;top:.6rem;right:.6rem;background:rgba(0,0,0,.55);color:#fff;font-size:.65rem;font-weight:700;padding:.2rem .5rem;border-radius:6px;text-transform:uppercase;letter-spacing:.05em}.guide-card-link{text-decoration:none;color:inherit;display:flex;flex-direction:column;height:100%}.pref-toc{background:#fff;border-bottom:2px solid var(--border);position:sticky;top:0;z-index:100;overflow-x:auto}.pref-toc-inner{display:flex;gap:0;max-width:var(--max-w);margin:0 auto}.pref-toc-btn{flex:none;display:flex;align-items:center;gap:.4rem;padding:.8rem 1.2rem;border:none;background:0 0;cursor:pointer;font-family:inherit;font-size:.88rem;font-weight:600;color:var(--gray);border-bottom:3px solid transparent;transition:all .18s;white-space:nowrap}.pref-toc-btn .toc-icon{font-size:1.1rem}.pref-toc-btn:hover{color:var(--dark);background:#f8f8f8}.pref-toc-btn.active{color:var(--toc-color,var(--red));border-bottom-color:var(--toc-color,var(--red))}.spot-section{padding:2rem 1.5rem 2.5rem}.spot-section.hidden{display:none}.spot-section-inner{max-width:var(--max-w);margin:0 auto}.section-hd{display:flex;align-items:center;gap:.6rem;margin-bottom:1.4rem;padding-bottom:.7rem;border-bottom:2px solid var(--border)}.section-hd .s-icon{font-size:1.6rem}.section-hd h2{font-size:1.35rem;font-weight:800;margin:0}.section-hd .s-count{margin-left:auto;background:var(--sec-color,var(--red));color:#fff;border-radius:20px;padding:.15rem .65rem;font-size:.78rem;font-weight:700}.spot-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.25rem}.spot-card{border-radius:14px;overflow:hidden;border:1px solid var(--border);background:#fff;box-shadow:0 2px 8px rgba(0,0,0,6%);transition:transform .15s,box-shadow .15s;display:flex;flex-direction:column}.spot-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.spot-img{width:100%;height:200px;object-fit:cover;background:#e8eef4;display:block}.spot-img-ph{width:100%;height:200px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:3rem}.spot-body{padding:1rem 1.1rem 1.1rem;flex:1;display:flex;flex-direction:column}.spot-meta{display:flex;align-items:center;gap:.5rem;margin-bottom:.5rem}.spot-location{font-size:.78rem;color:var(--gray);font-weight:500}.spot-season-badge{margin-left:auto;font-size:.7rem;font-weight:700;padding:.1rem .5rem;border-radius:10px;background:#f0f4f8;color:#555;white-space:nowrap}.spot-name{font-size:1.08rem;font-weight:800;color:var(--dark);margin:0 0 .45rem;line-height:1.3}.spot-desc{font-size:.86rem;line-height:1.65;color:#555;flex:1;margin-bottom:.75rem}.spot-tags{display:flex;flex-wrap:wrap;gap:.3rem}.spot-tag{font-size:.7rem;font-weight:600;padding:.15rem .5rem;border-radius:6px;background:var(--tag-bg,#f0f4f8);color:var(--tag-color,#445)}.tips-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem}.tip-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 6px rgba(0,0,0,4%)}.tip-card-icon{font-size:1.8rem;margin-bottom:.6rem}.tip-card-title{font-size:.95rem;font-weight:800;color:var(--dark);margin-bottom:.5rem}.tip-card-body{font-size:.85rem;line-height:1.65;color:#555}.tip-card-body ul{margin:.3rem 0 0;padding-left:1.1rem}.tip-card-body li{margin-bottom:.2rem}.pref-cta{background:var(--bg-soft);padding:2.5rem 1.5rem 3rem;border-top:1px solid var(--border)}.pref-cta .pref-container{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}@media(max-width:600px){.pref-hero{min-height:320px}.quick-facts{grid-template-columns:repeat(2,1fr)}.pref-toc-btn{padding:.7rem .9rem;font-size:.82rem}}.btn-add-plan{display:inline-flex;align-items:center;gap:.35rem;margin-top:.75rem;padding:.45rem .9rem;border:1.5px solid #2d5be3;border-radius:8px;background:#fff;color:#2d5be3;font-size:.78rem;font-weight:700;font-family:inherit;cursor:pointer;transition:background .15s,color .15s,transform .1s;width:100%;justify-content:center}.btn-add-plan:hover{background:#2d5be3;color:#fff;transform:translateY(-1px)}.btn-add-plan.in-plan{background:#e8f0ff;color:#1a45a8;border-color:#1a45a8}.btn-add-plan.in-plan:hover{background:#c0003a;color:#fff;border-color:#c0003a}.btn-read-guide{display:inline-flex;align-items:center;justify-content:center;gap:.35rem;margin-top:.5rem;padding:.45rem .9rem;border:1.5px solid #1a7a34;border-radius:8px;background:#f0faf2;color:#1a7a34;font-size:.78rem;font-weight:700;text-decoration:none;width:100%;transition:background .15s,color .15s,transform .1s}.btn-read-guide:hover{background:#1a7a34;color:#fff;transform:translateY(-1px);text-decoration:none}.see-all-wrap{text-align:center;margin-top:1.5rem;padding-top:1rem;border-top:1px dashed var(--border)}.see-all-btn{display:inline-flex;align-items:center;gap:.4rem;padding:.55rem 1.5rem;border:2px solid;border-radius:10px;font-size:.88rem;font-weight:700;text-decoration:none;transition:all .15s}.see-all-btn:hover{opacity:.8;text-decoration:none}.see-all-btn{cursor:pointer;background:0 0}.spot-card.spot-more{display:none}.spot-section.spots-expanded .spot-card.spot-more{display:flex}.spot-section.spots-expanded .see-all-wrap{display:none}</style>
 <nav class=pref-breadcrumb aria-label=breadcrumb>
 <a href=/>首页</a><span>›</span>
 <a href=/explore/>探索日本</a><span>›</span>
@@ -672,11 +672,33 @@
 </button>
 </div>
 </article>
+<article class="spot-card spot-more" data-spot-id=mishima-machi-kouji-pickles data-spot-name=三岛町米曲腌菜 data-spot-pref=fukushima data-spot-fee=0 data-spot-dur=30 data-spot-lat=37.42 data-spot-lng=140.35 data-spot-area=aizu-wakamatsu data-spot-rating=4.1 data-spot-reviews=2200 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Kamaboko.jpg/960px-Kamaboko.jpg data-spot-cats=gourmet>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Kamaboko.jpg/960px-Kamaboko.jpg alt=三岛町米曲腌菜 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🍜</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 会津若松，福岛</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>三岛町米曲腌菜</h3>
+<p class=spot-desc>会津地区的山村三岛町保存了百年的米曲腌制传统——蔬菜以米曲、盐和当地山草药发酵，产生与一般腌渍物截然不同的复杂深层鲜味。村农协也寄送至全国。秋季腌制季节开始时前来，能感受到这项工艺的完整芳香深度。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>腌菜</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>米曲</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>发酵</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>传统</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>会津</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 </div>
 <div class=see-all-wrap>
-<a class=see-all-btn style=color:#d64000 href=/prefectures/fukushima/gourmet/>
-See all 7 美食 spots →
-</a>
+<button class="see-all-btn show-more-btn" style=color:#d64000 type=button data-section=section-gourmet>
+显示全部 (7) ↓
+</button>
 </div>
 </div>
 </section><section class=spot-section id=section-nature data-cat=nature>
@@ -819,11 +841,33 @@ See all 7 美食 spots →
 </button>
 </div>
 </article>
+<article class="spot-card spot-more" data-spot-id=azuma-kofuji data-spot-name=安达太良山小富士火山口 data-spot-pref=fukushima data-spot-fee=0 data-spot-dur=75 data-spot-lat=37.7233 data-spot-lng=140.285 data-spot-area=fukushima-central data-spot-rating=4.1 data-spot-reviews=3400 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Mt._Higashi-azuma.JPG/960px-Mt._Higashi-azuma.JPG data-spot-cats=nature>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Mt._Higashi-azuma.JPG/960px-Mt._Higashi-azuma.JPG alt=安达太良山小富士火山口 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🏔️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 福岛，福岛</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>安达太良山小富士火山口</h3>
+<p class=spot-desc>吾妻小富士是福岛最易到达的火山山顶——一座几近完美圆形的年轻火山口，让徒步者俯瞰内侧碧绿酸性湖泊的鸟瞰奇景。从净土平高原停车场出发，30分钟即可到达火山口边缘，即使没有徒步经验也能轻松完成。周边磐梯吾妻天空线公路是东北最美山岳道路之一，晴天可望见太平洋。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>火山</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>火山口</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>磐梯吾妻</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>徒步</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>全景</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 </div>
 <div class=see-all-wrap>
-<a class=see-all-btn style=color:#1a7a34 href=/prefectures/fukushima/nature/>
-See all 7 自然 spots →
-</a>
+<button class="see-all-btn show-more-btn" style=color:#1a7a34 type=button data-section=section-nature>
+显示全部 (7) ↓
+</button>
 </div>
 </div>
 </section><section class=spot-section id=section-leisure data-cat=leisure>
@@ -963,11 +1007,99 @@ See all 7 自然 spots →
 </button>
 </div>
 </article>
+<article class="spot-card spot-more" data-spot-id=nishi-azuma-sky-valley data-spot-name=西吾妻天空谷（景观高原公路） data-spot-pref=fukushima data-spot-fee=0 data-spot-dur=90 data-spot-lat=37.74 data-spot-lng=140.31 data-spot-area=fukushima-central data-spot-rating=4.3 data-spot-reviews=6700 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Mt._Higashi-azuma.JPG/960px-Mt._Higashi-azuma.JPG data-spot-cats=nature,leisure>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Mt._Higashi-azuma.JPG/960px-Mt._Higashi-azuma.JPG alt=西吾妻天空谷（景观高原公路） loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎿</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 福岛，福岛</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>西吾妻天空谷（景观高原公路）</h3>
+<p class=spot-desc>西吾妻天空谷公路在海拔1,500米以上蜿蜒穿越吾妻山脉，提供横跨福岛与山形两县的开阔全景——包括磐梯山、猪苗代湖，晴天甚至能看见日本海。秋季山毛榉与枫树林化为燃烧般的橙红色，10月是最热门的兜风时节。公路每年11月至5月因积雪封路。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>山岳公路</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>景观兜风</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>红叶</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>高原</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>全景</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=tsuchiyu-onsen data-spot-name=土汤温泉——山中秘汤 data-spot-pref=fukushima data-spot-fee=1000 data-spot-dur=120 data-spot-lat=37.68 data-spot-lng=140.3467 data-spot-area=fukushima-central data-spot-rating=4.2 data-spot-reviews=4100 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/211029_Akiu_Onsen_Sendai_Miyagi_pref_Japan01s3.jpg/960px-211029_Akiu_Onsen_Sendai_Miyagi_pref_Japan01s3.jpg data-spot-cats=leisure>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/211029_Akiu_Onsen_Sendai_Miyagi_pref_Japan01s3.jpg/960px-211029_Akiu_Onsen_Sendai_Miyagi_pref_Japan01s3.jpg alt=土汤温泉——山中秘汤 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎿</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 福岛，福岛</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>土汤温泉——山中秘汤</h3>
+<p class=spot-desc>土汤温泉坐落于福岛市上方25分钟车程的山间河谷——一个小巧质朴的旅馆群落，大众浴场散发着昭和年代不变的复古风情。清澈的硫磺钠泉据说对疲劳和神经痛有效，数间露天浴池直接俯瞰苍翠峡谷。是东北最实惠、最道地的温泉体验之一。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>温泉</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>山岳</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>福岛市</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>峡谷</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>复古氛围</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=aizu-wakamatsu-sake data-spot-name=会津若松清酒酿造厂 data-spot-pref=fukushima data-spot-fee=500 data-spot-dur=90 data-spot-lat=37.485 data-spot-lng=140.28 data-spot-area=aizu-wakamatsu data-spot-rating=4.2 data-spot-reviews=4700 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Aizuwakamatsu_Castle_ac_%281%29.jpg/960px-Aizuwakamatsu_Castle_ac_%281%29.jpg data-spot-cats=gourmet,leisure>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Aizuwakamatsu_Castle_ac_%281%29.jpg/960px-Aizuwakamatsu_Castle_ac_%281%29.jpg alt=会津若松清酒酿造厂 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎿</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 会津若松，福岛</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>会津若松清酒酿造厂</h3>
+<p class=spot-desc>会津若松被认为是日本顶级清酒产地之一——深厚的冬季积雪提供极为纯净的山泉水，寒冷气候创造理想的缓慢发酵条件。会津地区有10家以上的酿造厂，末广、宫泉、大七等都是全国知名品牌。其中多家提供英语导览和品酒室，可直接从酒槽品尝顶级纯米大吟酿。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>清酒</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>酿造厂参观</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>雪国</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>会津</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>品酒</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=lake-inawashiro data-spot-name=猪苗代湖——冬日天鹅湖 data-spot-pref=fukushima data-spot-fee=0 data-spot-dur=90 data-spot-lat=37.285 data-spot-lng=140.35 data-spot-area=inawashiro data-spot-rating=4.2 data-spot-reviews=5600 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Lake_Inawashiro_view_from_Mt.Bandai.jpg/960px-Lake_Inawashiro_view_from_Mt.Bandai.jpg data-spot-cats=nature,leisure>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Lake_Inawashiro_view_from_Mt.Bandai.jpg/960px-Lake_Inawashiro_view_from_Mt.Bandai.jpg alt=猪苗代湖——冬日天鹅湖 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎿</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 猪苗代，福岛</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>猪苗代湖——冬日天鹅湖</h3>
+<p class=spot-desc>猪苗代湖是日本第四大湖，以「天空之镜」之称闻名，因其水质极为清澈，能完美映照周围山脉和磐梯山的山锥轮廓。每年11月至3月，数千只大天鹅从西伯利亚迁徙至湖泊南岸越冬，雪山映衬白鸟的壮观景象吸引全国各地的摄影师。夏季可享受帆船和骑车，静谧湖面映照磐梯山的倒影。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>湖泊</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>天鹅</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>冬天</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>磐梯</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>观鸟</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 </div>
 <div class=see-all-wrap>
-<a class=see-all-btn style=color:#b35c00 href=/prefectures/fukushima/leisure/>
-See all 10 休闲 spots →
-</a>
+<button class="see-all-btn show-more-btn" style=color:#b35c00 type=button data-section=section-leisure>
+显示全部 (10) ↓
+</button>
 </div>
 </div>
 </section><section class=spot-section id=section-events data-cat=events>
@@ -1105,11 +1237,33 @@ See all 10 休闲 spots →
 </button>
 </div>
 </article>
+<article class="spot-card spot-more" data-spot-id=aizu-lantern-festival data-spot-name=会津若松灯笼祭典（盂兰盆节） data-spot-pref=fukushima data-spot-fee=0 data-spot-dur=90 data-spot-lat=37.4867 data-spot-lng=140.2758 data-spot-area=aizu-wakamatsu data-spot-rating=4.2 data-spot-reviews=4400 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Aizuwakamatsu_Castle_ac_%281%29.jpg/960px-Aizuwakamatsu_Castle_ac_%281%29.jpg data-spot-cats=events>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Aizuwakamatsu_Castle_ac_%281%29.jpg/960px-Aizuwakamatsu_Castle_ac_%281%29.jpg alt=会津若松灯笼祭典（盂兰盆节） loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎆</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 会津若松，福岛</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>会津若松灯笼祭典（盂兰盆节）</h3>
+<p class=spot-desc>会津若松灯笼祭典在8月盂兰盆节期间举行——纸灯笼漂浮在城市的河流和壕沟上引导祖先亡灵，街道上在鹤城照亮的城墙前响起盆踊舞的音乐。温暖的8月夜晚、清酒藏元的路边摊，以及数百盏灯笼在水面上的光辉，共同营造出典型的日本夏日氛围。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>灯笼祭典</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>盂兰盆节</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>夏天</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>会津</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>传统</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 </div>
 <div class=see-all-wrap>
-<a class=see-all-btn style=color:#b5006e href=/prefectures/fukushima/events/>
-See all 7 节庆 spots →
-</a>
+<button class="see-all-btn show-more-btn" style=color:#b5006e type=button data-section=section-events>
+显示全部 (7) ↓
+</button>
 </div>
 </div>
 </section><section class=spot-section id=section-experience data-cat=experience>
@@ -1228,6 +1382,13 @@ See all 7 节庆 spots →
 </div>
 <script>
 (function(){
+ 
+document.querySelectorAll('.show-more-btn').forEach(function(btn){
+  btn.addEventListener('click', function(){
+    var sec = document.getElementById(btn.dataset.section);
+    if (sec) sec.classList.add('spots-expanded');
+  });
+});
  
 const CATS = {
   sightseeing:{ color:"#1a45a8" },

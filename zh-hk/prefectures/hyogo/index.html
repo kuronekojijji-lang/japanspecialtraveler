@@ -99,7 +99,7 @@
   document.addEventListener('keydown', function(e){ if(e.key==='Escape') close(); });
 })();
 </script>
-<style>.pref-breadcrumb{background:#f8f9fa;border-bottom:1px solid var(--border);padding:.6rem 1.5rem;font-size:.82rem;color:var(--gray)}.pref-breadcrumb a{color:var(--red);text-decoration:none}.pref-breadcrumb a:hover{text-decoration:underline}.pref-breadcrumb span{margin:0 .4rem}.pref-hero{position:relative;min-height:440px;display:flex;align-items:flex-end;background:#0a1a3a 50%/cover no-repeat;background-image:url(https://images.unsplash.com/photo-1490806843957-31f4c9a91c65?w=1600&q=80)}.pref-hero::after{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,.15) 0%,rgba(0,0,0,.7) 100%)}.pref-hero-body{position:relative;z-index:1;padding:2.5rem 1.5rem 2rem;max-width:var(--max-w);margin:0 auto;width:100%}.pref-hero-eyebrow{color:rgba(255,255,255,.75);font-size:.82rem;font-weight:600;text-transform:uppercase;letter-spacing:.1em;margin-bottom:.5rem}.pref-hero h1{color:#fff;font-size:clamp(2.2rem,5.5vw,3.4rem);font-weight:900;margin:0 0 .5rem;line-height:1.1}.pref-hero .pref-sub{color:rgba(255,255,255,.88);font-size:1.05rem;max-width:560px;margin-bottom:1rem}.pref-stats{display:flex;flex-wrap:wrap;gap:.6rem}.pref-stat{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);border-radius:20px;padding:.3rem .85rem;color:#fff;font-size:.8rem;font-weight:600}.pref-section{padding:2.5rem 1.5rem}.pref-section+.pref-section{padding-top:0}.pref-container{max-width:var(--max-w);margin:0 auto}.pref-section-title{font-size:1.55rem;font-weight:900;margin:0 0 .4rem;display:flex;align-items:center;gap:.5rem}.pref-section-lead{font-size:1rem;color:#555;line-height:1.7;max-width:680px;margin-bottom:1.5rem}.ponko-guide{display:flex;align-items:flex-end;gap:0;margin-bottom:1.6rem}.ponko-bubble{flex:1;min-width:0;background:linear-gradient(135deg,#fff9f0,#fff3e0);border:2px solid #f5a623;border-radius:18px 18px 18px 4px;padding:1.2rem 1.5rem;position:relative;box-shadow:0 4px 14px rgba(245,166,35,.13)}.ponko-bubble::after{content:'';position:absolute;right:-18px;bottom:22px;border:9px solid transparent;border-left-color:#f5a623}.ponko-bubble::before{content:'';position:absolute;right:-13px;bottom:23px;z-index:1;border:8px solid transparent;border-left-color:#fff9f0}.ponko-bubble p{font-size:.97rem;line-height:1.8;color:#333;margin:0}.ponko-figure{flex-shrink:0;width:170px;margin-left:4px;animation:ponko-float 3s ease-in-out infinite}.ponko-figure img{width:100%;height:auto;display:block;filter:drop-shadow(0 6px 10px rgba(0,0,0,.18))}@keyframes ponko-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}@media(max-width:640px){.ponko-guide{flex-direction:column;align-items:center}.ponko-bubble{border-radius:18px;order:2;width:100%}.ponko-bubble::after,.ponko-bubble::before{display:none}.ponko-figure{order:1;width:130px;margin-left:0;margin-bottom:.5rem;animation:none}}.quick-facts{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.8rem;margin-top:1.4rem}.qf-card{background:#f8f9fb;border:1px solid var(--border);border-radius:12px;padding:1rem 1.1rem;display:flex;align-items:flex-start;gap:.7rem}.qf-icon{font-size:1.4rem;flex-shrink:0}.qf-label{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--gray);margin-bottom:.15rem}.qf-value{font-size:.9rem;font-weight:600;color:var(--dark)}.access-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}.access-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 8px rgba(0,0,0,5%)}.access-card-hd{display:flex;align-items:center;gap:.5rem;margin-bottom:.8rem}.access-card-icon{font-size:1.5rem}.access-card-title{font-size:1rem;font-weight:800;color:var(--dark)}.access-card ul{margin:0;padding-left:1.1rem}.access-card li{font-size:.875rem;line-height:1.65;color:#444;margin-bottom:.3rem}.access-card li strong{color:var(--dark)}.access-tip{margin-top:1.2rem;background:#fff8e6;border:1px solid #ffe0a0;border-radius:10px;padding:.9rem 1.1rem;font-size:.85rem;line-height:1.6;color:#5a3e00}.access-tip strong{display:block;margin-bottom:.2rem;font-size:.88rem}.guide-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem}.guide-card{background:#fff;border-radius:14px;overflow:hidden;border:1px solid var(--border);box-shadow:0 2px 8px rgba(0,0,0,5%);transition:transform .15s,box-shadow .15s;position:relative;display:flex;flex-direction:column}.guide-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.guide-card-img{width:100%;height:150px;object-fit:cover;background:#e8eef4;display:block}.guide-card-img-ph{width:100%;height:150px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:2.5rem}.guide-card-body{padding:.9rem 1rem 1rem;flex:1}.guide-cat-badge{display:inline-block;font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;padding:.15rem .55rem;border-radius:8px;background:var(--red);color:#fff;margin-bottom:.4rem}.guide-card-title{font-size:.92rem;font-weight:800;color:var(--dark);line-height:1.4}.guide-coming-soon{position:absolute;top:.6rem;right:.6rem;background:rgba(0,0,0,.55);color:#fff;font-size:.65rem;font-weight:700;padding:.2rem .5rem;border-radius:6px;text-transform:uppercase;letter-spacing:.05em}.guide-card-link{text-decoration:none;color:inherit;display:flex;flex-direction:column;height:100%}.pref-toc{background:#fff;border-bottom:2px solid var(--border);position:sticky;top:0;z-index:100;overflow-x:auto}.pref-toc-inner{display:flex;gap:0;max-width:var(--max-w);margin:0 auto}.pref-toc-btn{flex:none;display:flex;align-items:center;gap:.4rem;padding:.8rem 1.2rem;border:none;background:0 0;cursor:pointer;font-family:inherit;font-size:.88rem;font-weight:600;color:var(--gray);border-bottom:3px solid transparent;transition:all .18s;white-space:nowrap}.pref-toc-btn .toc-icon{font-size:1.1rem}.pref-toc-btn:hover{color:var(--dark);background:#f8f8f8}.pref-toc-btn.active{color:var(--toc-color,var(--red));border-bottom-color:var(--toc-color,var(--red))}.spot-section{padding:2rem 1.5rem 2.5rem}.spot-section.hidden{display:none}.spot-section-inner{max-width:var(--max-w);margin:0 auto}.section-hd{display:flex;align-items:center;gap:.6rem;margin-bottom:1.4rem;padding-bottom:.7rem;border-bottom:2px solid var(--border)}.section-hd .s-icon{font-size:1.6rem}.section-hd h2{font-size:1.35rem;font-weight:800;margin:0}.section-hd .s-count{margin-left:auto;background:var(--sec-color,var(--red));color:#fff;border-radius:20px;padding:.15rem .65rem;font-size:.78rem;font-weight:700}.spot-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.25rem}.spot-card{border-radius:14px;overflow:hidden;border:1px solid var(--border);background:#fff;box-shadow:0 2px 8px rgba(0,0,0,6%);transition:transform .15s,box-shadow .15s;display:flex;flex-direction:column}.spot-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.spot-img{width:100%;height:200px;object-fit:cover;background:#e8eef4;display:block}.spot-img-ph{width:100%;height:200px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:3rem}.spot-body{padding:1rem 1.1rem 1.1rem;flex:1;display:flex;flex-direction:column}.spot-meta{display:flex;align-items:center;gap:.5rem;margin-bottom:.5rem}.spot-location{font-size:.78rem;color:var(--gray);font-weight:500}.spot-season-badge{margin-left:auto;font-size:.7rem;font-weight:700;padding:.1rem .5rem;border-radius:10px;background:#f0f4f8;color:#555;white-space:nowrap}.spot-name{font-size:1.08rem;font-weight:800;color:var(--dark);margin:0 0 .45rem;line-height:1.3}.spot-desc{font-size:.86rem;line-height:1.65;color:#555;flex:1;margin-bottom:.75rem}.spot-tags{display:flex;flex-wrap:wrap;gap:.3rem}.spot-tag{font-size:.7rem;font-weight:600;padding:.15rem .5rem;border-radius:6px;background:var(--tag-bg,#f0f4f8);color:var(--tag-color,#445)}.tips-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem}.tip-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 6px rgba(0,0,0,4%)}.tip-card-icon{font-size:1.8rem;margin-bottom:.6rem}.tip-card-title{font-size:.95rem;font-weight:800;color:var(--dark);margin-bottom:.5rem}.tip-card-body{font-size:.85rem;line-height:1.65;color:#555}.tip-card-body ul{margin:.3rem 0 0;padding-left:1.1rem}.tip-card-body li{margin-bottom:.2rem}.pref-cta{background:var(--bg-soft);padding:2.5rem 1.5rem 3rem;border-top:1px solid var(--border)}.pref-cta .pref-container{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}@media(max-width:600px){.pref-hero{min-height:320px}.quick-facts{grid-template-columns:repeat(2,1fr)}.pref-toc-btn{padding:.7rem .9rem;font-size:.82rem}}.btn-add-plan{display:inline-flex;align-items:center;gap:.35rem;margin-top:.75rem;padding:.45rem .9rem;border:1.5px solid #2d5be3;border-radius:8px;background:#fff;color:#2d5be3;font-size:.78rem;font-weight:700;font-family:inherit;cursor:pointer;transition:background .15s,color .15s,transform .1s;width:100%;justify-content:center}.btn-add-plan:hover{background:#2d5be3;color:#fff;transform:translateY(-1px)}.btn-add-plan.in-plan{background:#e8f0ff;color:#1a45a8;border-color:#1a45a8}.btn-add-plan.in-plan:hover{background:#c0003a;color:#fff;border-color:#c0003a}.btn-read-guide{display:inline-flex;align-items:center;justify-content:center;gap:.35rem;margin-top:.5rem;padding:.45rem .9rem;border:1.5px solid #1a7a34;border-radius:8px;background:#f0faf2;color:#1a7a34;font-size:.78rem;font-weight:700;text-decoration:none;width:100%;transition:background .15s,color .15s,transform .1s}.btn-read-guide:hover{background:#1a7a34;color:#fff;transform:translateY(-1px);text-decoration:none}.see-all-wrap{text-align:center;margin-top:1.5rem;padding-top:1rem;border-top:1px dashed var(--border)}.see-all-btn{display:inline-flex;align-items:center;gap:.4rem;padding:.55rem 1.5rem;border:2px solid;border-radius:10px;font-size:.88rem;font-weight:700;text-decoration:none;transition:all .15s}.see-all-btn:hover{opacity:.8;text-decoration:none}</style>
+<style>.pref-breadcrumb{background:#f8f9fa;border-bottom:1px solid var(--border);padding:.6rem 1.5rem;font-size:.82rem;color:var(--gray)}.pref-breadcrumb a{color:var(--red);text-decoration:none}.pref-breadcrumb a:hover{text-decoration:underline}.pref-breadcrumb span{margin:0 .4rem}.pref-hero{position:relative;min-height:440px;display:flex;align-items:flex-end;background:#0a1a3a 50%/cover no-repeat;background-image:url(https://images.unsplash.com/photo-1490806843957-31f4c9a91c65?w=1600&q=80)}.pref-hero::after{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,.15) 0%,rgba(0,0,0,.7) 100%)}.pref-hero-body{position:relative;z-index:1;padding:2.5rem 1.5rem 2rem;max-width:var(--max-w);margin:0 auto;width:100%}.pref-hero-eyebrow{color:rgba(255,255,255,.75);font-size:.82rem;font-weight:600;text-transform:uppercase;letter-spacing:.1em;margin-bottom:.5rem}.pref-hero h1{color:#fff;font-size:clamp(2.2rem,5.5vw,3.4rem);font-weight:900;margin:0 0 .5rem;line-height:1.1}.pref-hero .pref-sub{color:rgba(255,255,255,.88);font-size:1.05rem;max-width:560px;margin-bottom:1rem}.pref-stats{display:flex;flex-wrap:wrap;gap:.6rem}.pref-stat{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);border-radius:20px;padding:.3rem .85rem;color:#fff;font-size:.8rem;font-weight:600}.pref-section{padding:2.5rem 1.5rem}.pref-section+.pref-section{padding-top:0}.pref-container{max-width:var(--max-w);margin:0 auto}.pref-section-title{font-size:1.55rem;font-weight:900;margin:0 0 .4rem;display:flex;align-items:center;gap:.5rem}.pref-section-lead{font-size:1rem;color:#555;line-height:1.7;max-width:680px;margin-bottom:1.5rem}.ponko-guide{display:flex;align-items:flex-end;gap:0;margin-bottom:1.6rem}.ponko-bubble{flex:1;min-width:0;background:linear-gradient(135deg,#fff9f0,#fff3e0);border:2px solid #f5a623;border-radius:18px 18px 18px 4px;padding:1.2rem 1.5rem;position:relative;box-shadow:0 4px 14px rgba(245,166,35,.13)}.ponko-bubble::after{content:'';position:absolute;right:-18px;bottom:22px;border:9px solid transparent;border-left-color:#f5a623}.ponko-bubble::before{content:'';position:absolute;right:-13px;bottom:23px;z-index:1;border:8px solid transparent;border-left-color:#fff9f0}.ponko-bubble p{font-size:.97rem;line-height:1.8;color:#333;margin:0}.ponko-figure{flex-shrink:0;width:170px;margin-left:4px;animation:ponko-float 3s ease-in-out infinite}.ponko-figure img{width:100%;height:auto;display:block;filter:drop-shadow(0 6px 10px rgba(0,0,0,.18))}@keyframes ponko-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}@media(max-width:640px){.ponko-guide{flex-direction:column;align-items:center}.ponko-bubble{border-radius:18px;order:2;width:100%}.ponko-bubble::after,.ponko-bubble::before{display:none}.ponko-figure{order:1;width:130px;margin-left:0;margin-bottom:.5rem;animation:none}}.quick-facts{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.8rem;margin-top:1.4rem}.qf-card{background:#f8f9fb;border:1px solid var(--border);border-radius:12px;padding:1rem 1.1rem;display:flex;align-items:flex-start;gap:.7rem}.qf-icon{font-size:1.4rem;flex-shrink:0}.qf-label{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--gray);margin-bottom:.15rem}.qf-value{font-size:.9rem;font-weight:600;color:var(--dark)}.access-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}.access-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 8px rgba(0,0,0,5%)}.access-card-hd{display:flex;align-items:center;gap:.5rem;margin-bottom:.8rem}.access-card-icon{font-size:1.5rem}.access-card-title{font-size:1rem;font-weight:800;color:var(--dark)}.access-card ul{margin:0;padding-left:1.1rem}.access-card li{font-size:.875rem;line-height:1.65;color:#444;margin-bottom:.3rem}.access-card li strong{color:var(--dark)}.access-tip{margin-top:1.2rem;background:#fff8e6;border:1px solid #ffe0a0;border-radius:10px;padding:.9rem 1.1rem;font-size:.85rem;line-height:1.6;color:#5a3e00}.access-tip strong{display:block;margin-bottom:.2rem;font-size:.88rem}.guide-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem}.guide-card{background:#fff;border-radius:14px;overflow:hidden;border:1px solid var(--border);box-shadow:0 2px 8px rgba(0,0,0,5%);transition:transform .15s,box-shadow .15s;position:relative;display:flex;flex-direction:column}.guide-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.guide-card-img{width:100%;height:150px;object-fit:cover;background:#e8eef4;display:block}.guide-card-img-ph{width:100%;height:150px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:2.5rem}.guide-card-body{padding:.9rem 1rem 1rem;flex:1}.guide-cat-badge{display:inline-block;font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;padding:.15rem .55rem;border-radius:8px;background:var(--red);color:#fff;margin-bottom:.4rem}.guide-card-title{font-size:.92rem;font-weight:800;color:var(--dark);line-height:1.4}.guide-coming-soon{position:absolute;top:.6rem;right:.6rem;background:rgba(0,0,0,.55);color:#fff;font-size:.65rem;font-weight:700;padding:.2rem .5rem;border-radius:6px;text-transform:uppercase;letter-spacing:.05em}.guide-card-link{text-decoration:none;color:inherit;display:flex;flex-direction:column;height:100%}.pref-toc{background:#fff;border-bottom:2px solid var(--border);position:sticky;top:0;z-index:100;overflow-x:auto}.pref-toc-inner{display:flex;gap:0;max-width:var(--max-w);margin:0 auto}.pref-toc-btn{flex:none;display:flex;align-items:center;gap:.4rem;padding:.8rem 1.2rem;border:none;background:0 0;cursor:pointer;font-family:inherit;font-size:.88rem;font-weight:600;color:var(--gray);border-bottom:3px solid transparent;transition:all .18s;white-space:nowrap}.pref-toc-btn .toc-icon{font-size:1.1rem}.pref-toc-btn:hover{color:var(--dark);background:#f8f8f8}.pref-toc-btn.active{color:var(--toc-color,var(--red));border-bottom-color:var(--toc-color,var(--red))}.spot-section{padding:2rem 1.5rem 2.5rem}.spot-section.hidden{display:none}.spot-section-inner{max-width:var(--max-w);margin:0 auto}.section-hd{display:flex;align-items:center;gap:.6rem;margin-bottom:1.4rem;padding-bottom:.7rem;border-bottom:2px solid var(--border)}.section-hd .s-icon{font-size:1.6rem}.section-hd h2{font-size:1.35rem;font-weight:800;margin:0}.section-hd .s-count{margin-left:auto;background:var(--sec-color,var(--red));color:#fff;border-radius:20px;padding:.15rem .65rem;font-size:.78rem;font-weight:700}.spot-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.25rem}.spot-card{border-radius:14px;overflow:hidden;border:1px solid var(--border);background:#fff;box-shadow:0 2px 8px rgba(0,0,0,6%);transition:transform .15s,box-shadow .15s;display:flex;flex-direction:column}.spot-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.spot-img{width:100%;height:200px;object-fit:cover;background:#e8eef4;display:block}.spot-img-ph{width:100%;height:200px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:3rem}.spot-body{padding:1rem 1.1rem 1.1rem;flex:1;display:flex;flex-direction:column}.spot-meta{display:flex;align-items:center;gap:.5rem;margin-bottom:.5rem}.spot-location{font-size:.78rem;color:var(--gray);font-weight:500}.spot-season-badge{margin-left:auto;font-size:.7rem;font-weight:700;padding:.1rem .5rem;border-radius:10px;background:#f0f4f8;color:#555;white-space:nowrap}.spot-name{font-size:1.08rem;font-weight:800;color:var(--dark);margin:0 0 .45rem;line-height:1.3}.spot-desc{font-size:.86rem;line-height:1.65;color:#555;flex:1;margin-bottom:.75rem}.spot-tags{display:flex;flex-wrap:wrap;gap:.3rem}.spot-tag{font-size:.7rem;font-weight:600;padding:.15rem .5rem;border-radius:6px;background:var(--tag-bg,#f0f4f8);color:var(--tag-color,#445)}.tips-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem}.tip-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 6px rgba(0,0,0,4%)}.tip-card-icon{font-size:1.8rem;margin-bottom:.6rem}.tip-card-title{font-size:.95rem;font-weight:800;color:var(--dark);margin-bottom:.5rem}.tip-card-body{font-size:.85rem;line-height:1.65;color:#555}.tip-card-body ul{margin:.3rem 0 0;padding-left:1.1rem}.tip-card-body li{margin-bottom:.2rem}.pref-cta{background:var(--bg-soft);padding:2.5rem 1.5rem 3rem;border-top:1px solid var(--border)}.pref-cta .pref-container{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}@media(max-width:600px){.pref-hero{min-height:320px}.quick-facts{grid-template-columns:repeat(2,1fr)}.pref-toc-btn{padding:.7rem .9rem;font-size:.82rem}}.btn-add-plan{display:inline-flex;align-items:center;gap:.35rem;margin-top:.75rem;padding:.45rem .9rem;border:1.5px solid #2d5be3;border-radius:8px;background:#fff;color:#2d5be3;font-size:.78rem;font-weight:700;font-family:inherit;cursor:pointer;transition:background .15s,color .15s,transform .1s;width:100%;justify-content:center}.btn-add-plan:hover{background:#2d5be3;color:#fff;transform:translateY(-1px)}.btn-add-plan.in-plan{background:#e8f0ff;color:#1a45a8;border-color:#1a45a8}.btn-add-plan.in-plan:hover{background:#c0003a;color:#fff;border-color:#c0003a}.btn-read-guide{display:inline-flex;align-items:center;justify-content:center;gap:.35rem;margin-top:.5rem;padding:.45rem .9rem;border:1.5px solid #1a7a34;border-radius:8px;background:#f0faf2;color:#1a7a34;font-size:.78rem;font-weight:700;text-decoration:none;width:100%;transition:background .15s,color .15s,transform .1s}.btn-read-guide:hover{background:#1a7a34;color:#fff;transform:translateY(-1px);text-decoration:none}.see-all-wrap{text-align:center;margin-top:1.5rem;padding-top:1rem;border-top:1px dashed var(--border)}.see-all-btn{display:inline-flex;align-items:center;gap:.4rem;padding:.55rem 1.5rem;border:2px solid;border-radius:10px;font-size:.88rem;font-weight:700;text-decoration:none;transition:all .15s}.see-all-btn:hover{opacity:.8;text-decoration:none}.see-all-btn{cursor:pointer;background:0 0}.spot-card.spot-more{display:none}.spot-section.spots-expanded .spot-card.spot-more{display:flex}.spot-section.spots-expanded .see-all-wrap{display:none}</style>
 <nav class=pref-breadcrumb aria-label=breadcrumb>
 <a href=/>首頁</a><span>›</span>
 <a href=/explore/>探索日本</a><span>›</span>
@@ -526,11 +526,231 @@
 </button>
 </div>
 </article>
+<article class="spot-card spot-more" data-spot-id=kobe-chinatown data-spot-name=神戶南京町中華街 data-spot-pref=hyogo data-spot-fee=0 data-spot-dur=90 data-spot-lat=34.6876 data-spot-lng=135.1897 data-spot-area=kobe-chinatown data-spot-rating=4.5 data-spot-reviews=5100 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Kobe-Nankinmachi.JPG/960px-Kobe-Nankinmachi.JPG data-spot-cats=sightseeing,gourmet>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Kobe-Nankinmachi.JPG/960px-Kobe-Nankinmachi.JPG alt=神戶南京町中華街 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 神戶中央區</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>神戶南京町中華街</h3>
+<p class=spot-desc>神戶充滿活力嘅唐人街，可以追溯到明治時代，有窄窄嘅小巷、傳統嘅牌坊，仲有正宗嘅餐廳供應四川同埋廣東菜。呢個街區融合咗日本同埋中國嘅建築，營造出有別於其他唐人街嘅獨特文化體驗。夜晚點起燈籠嗰陣，場面就更加有氣氛。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>歷史街區</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>中國菜</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>文化融合</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=kobe-harborland data-spot-name=神戶港樂園 data-spot-pref=hyogo data-spot-fee=0 data-spot-dur=120 data-spot-lat=34.6901 data-spot-lng=135.284 data-spot-area=kobe-harborland data-spot-rating=4.5 data-spot-reviews=6200 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Harborland_%28Port_of_Kobe%29_20150920-5.JPG/960px-Harborland_%28Port_of_Kobe%29_20150920-5.JPG data-spot-cats=sightseeing,leisure>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Harborland_%28Port_of_Kobe%29_20150920-5.JPG/960px-Harborland_%28Port_of_Kobe%29_20150920-5.JPG alt=神戶港樂園 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 神戶中央區</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>神戶港樂園</h3>
+<p class=spot-desc>呢個係一個充滿活力嘅海濱區，有商店、餐廳同埋娛樂設施，可以欣賞到神戶港同埋標誌性嘅明石大橋嘅靚景。呢一帶喺夜晚會變得幾美，建築物燈火通明，仲有Mosaic購物廣場。最啱用嚟食晚餐、購物，同埋體驗神戶現代化嘅國際都市氣氛。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>海濱</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>購物</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>夜景</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=nanzenji-garden-hyogo data-spot-name=南禪寺庭園（兵庫分院） data-spot-pref=hyogo data-spot-fee=500 data-spot-dur=60 data-spot-lat=34.7611 data-spot-lng=135.2867 data-spot-area=kobe-north data-spot-rating=4.5 data-spot-reviews=2200 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Engaku-ji_zen_garden%2C_facing_east.jpg/960px-Engaku-ji_zen_garden%2C_facing_east.jpg data-spot-cats=sightseeing,nature>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Engaku-ji_zen_garden%2C_facing_east.jpg/960px-Engaku-ji_zen_garden%2C_facing_east.jpg alt=南禪寺庭園（兵庫分院） loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 兵庫神戶</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>南禪寺庭園（兵庫分院）</h3>
+<p class=spot-desc>呢座禪宗佛教寺廟庭園有精心佈置嘅石組、修剪過嘅樹木同埋水景，代表咗佛教與自然和諧共處嘅哲學。庭園精緻嘅美學同埋冥想嘅氛圍，可以畀你喺都市活動之中抖一抖。四季嘅變化全年都會令呢個庭園變身。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>日本庭園</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>禪意設計</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>寧靜</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=maiko-geisha-district data-spot-name=舞子藝妓街區 data-spot-pref=hyogo data-spot-fee=0 data-spot-dur=120 data-spot-lat=34.7333 data-spot-lng=135.2639 data-spot-area=maiko-higashinada data-spot-rating=4.4 data-spot-reviews=2800 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Hyogo_Prefectural_Maiko_Park_from_Maiko_Marine_Promenade.JPG/960px-Hyogo_Prefectural_Maiko_Park_from_Maiko_Marine_Promenade.JPG data-spot-cats=sightseeing,sightseeing>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Hyogo_Prefectural_Maiko_Park_from_Maiko_Marine_Promenade.JPG/960px-Hyogo_Prefectural_Maiko_Park_from_Maiko_Marine_Promenade.JPG alt=舞子藝妓街區 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 神戶東灘區</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>舞子藝妓街區</h3>
+<p class=spot-desc>神戶喺東灘區嘅傳統藝妓街區，保留住歷史悠久嘅木造町屋，仲會喺夜晚舉辦傳統舞蹈同埋三味線音樂嘅表演。呢個充滿氣氛嘅街區係了解日本傳統表演藝術嘅一扇窗，同京都嗰啲較為人熟知嘅街區唔同。晚餐表演同埋演出為遊客帶嚟地道嘅文化沉浸體驗。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>藝妓</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>歷史街景</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>夜間娛樂</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=matsuura-pottery data-spot-name=松浦陶藝工房 data-spot-pref=hyogo data-spot-fee=2500 data-spot-dur=90 data-spot-lat=34.9256 data-spot-lng=135.0734 data-spot-area=tajima-region data-spot-rating=4.4 data-spot-reviews=890 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/140510_Tamba_Traditional_Art_Craft_Park_Sue_no_Sato_Sasayama_Hyogo_pref_Japan01n.jpg/960px-140510_Tamba_Traditional_Art_Craft_Park_Sue_no_Sato_Sasayama_Hyogo_pref_Japan01n.jpg data-spot-cats=sightseeing,leisure>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/140510_Tamba_Traditional_Art_Craft_Park_Sue_no_Sato_Sasayama_Hyogo_pref_Japan01n.jpg/960px-140510_Tamba_Traditional_Art_Craft_Park_Sue_no_Sato_Sasayama_Hyogo_pref_Japan01n.jpg alt=松浦陶藝工房 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 兵庫豐岡</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>松浦陶藝工房</h3>
+<p class=spot-desc>呢個係一個運作中嘅陶藝工作室，遊客可以喺技藝高超嘅工匠指導之下，親手試吓拉坯同埋手捏陶器。工房嘅窯運作咗好幾代人，整好嘅作品可以買走或者寄返屋企。呢個親密嘅體驗令遊客可以直接接觸到傳統嘅日本陶瓷藝術。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>陶藝</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>親手體驗</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>工匠手藝</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=kiyomizu-temple-west-kobe data-spot-name=清水寺（東灘） data-spot-pref=hyogo data-spot-fee=0 data-spot-dur=45 data-spot-lat=34.7344 data-spot-lng=135.2745 data-spot-area=kobe-east data-spot-rating=4.3 data-spot-reviews=1400 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Kobe_Jyousanji_Temple.JPG/960px-Kobe_Jyousanji_Temple.JPG data-spot-cats=sightseeing,sightseeing>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Kobe_Jyousanji_Temple.JPG/960px-Kobe_Jyousanji_Temple.JPG alt=清水寺（東灘） loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 神戶東灘區</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>清水寺（東灘）</h3>
+<p class=spot-desc>呢座充滿氣氛嘅山頂寺廟有木造建築同埋森林環繞，可以畀你喺神戶都市裡面寧靜咁抖一抖。寺廟範圍可以居高臨下睇到城市同埋內海嘅景色，日落嗰陣特別靚。同京都嗰啲更出名嘅寺廟相比，呢度係一個遊人較少嘅隱世景點。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>佛教寺廟</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>山中寺廟</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>寧靜</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=kobe-shimbashi-shotengai data-spot-name=新橋商店街 data-spot-pref=hyogo data-spot-fee=0 data-spot-dur=75 data-spot-lat=34.6902 data-spot-lng=135.1942 data-spot-area=kobe-central data-spot-rating=4.3 data-spot-reviews=2600 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Kobe_Motomachi_Shopping_Street_-_panoramio_%287%29.jpg/960px-Kobe_Motomachi_Shopping_Street_-_panoramio_%287%29.jpg data-spot-cats=sightseeing,gourmet>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Kobe_Motomachi_Shopping_Street_-_panoramio_%287%29.jpg/960px-Kobe_Motomachi_Shopping_Street_-_panoramio_%287%29.jpg alt=新橋商店街 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 神戶中央區</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>新橋商店街</h3>
+<p class=spot-desc>呢個係一條靠近三宮車站、好熱鬧嘅有蓋商店街，到處都係攤販、街頭小食檔同埋傳統商店，由醃菜到手信乜都有得賣。呢個地道嘅市集保留住戰後嘅購物文化，畀你睇到本地生活最真實嘅一面。最啱周圍行吓、食吓嘢，發掘意想不到嘅驚喜。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>購物</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>街頭小食</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>本地氣氛</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=himuro-mansion data-spot-name=冰室宅邸博物館 data-spot-pref=hyogo data-spot-fee=400 data-spot-dur=45 data-spot-lat=34.3348 data-spot-lng=134.6914 data-spot-area=himeji-central data-spot-rating=4.3 data-spot-reviews=1200 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Sakoshi_daido04bs2010.jpg/960px-Sakoshi_daido04bs2010.jpg data-spot-cats=sightseeing,sightseeing>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Sakoshi_daido04bs2010.jpg/960px-Sakoshi_daido04bs2010.jpg alt=冰室宅邸博物館 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 兵庫姬路</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>冰室宅邸博物館</h3>
+<p class=spot-desc>呢座保存得幾靚嘅江戶時代宅邸，透過傳統嘅陳設同埋建築細節，畀大家睇到武士同埋商人嘅生活。佢位於歷史悠久嘅姬路，為理解封建時代嘅兵庫提供咗文化背景。知識淵博嘅導遊會解釋嗰個時代嘅日常生活同埋社會習俗。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>歷史宅邸</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>江戶時代</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>本地遺產</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=hyogo-prefectural-museum data-spot-name=兵庫縣立美術館 data-spot-pref=hyogo data-spot-fee=600 data-spot-dur=90 data-spot-lat=34.6895 data-spot-lng=135.2778 data-spot-area=kobe-central data-spot-rating=4.2 data-spot-reviews=1900 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Hyogo_prefectural_museum_of_art15_2000.JPG/960px-Hyogo_prefectural_museum_of_art15_2000.JPG data-spot-cats=sightseeing>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Hyogo_prefectural_museum_of_art15_2000.JPG/960px-Hyogo_prefectural_museum_of_art15_2000.JPG alt=兵庫縣立美術館 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 神戶中央區</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>兵庫縣立美術館</h3>
+<p class=spot-desc>呢間位於神戶嘅現代美術館展出當代同埋傳統嘅日本藝術，座落喺一座靠近神戶港嘅搶眼建築入面。館藏側重於戰後嘅日本藝術家，仲有輪流舉辦嘅國際展覽。美術館本身嘅設計喺建築上都好有意義，仲可以睇到港口嘅景色。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>美術館</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>現代建築</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>日本藝術</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=hyogo-wildlife-museum data-spot-name=兵庫縣立野生動物博物館 data-spot-pref=hyogo data-spot-fee=600 data-spot-dur=90 data-spot-lat=35.6611 data-spot-lng=134.7444 data-spot-area=hyogo-north data-spot-rating=4.2 data-spot-reviews=1100 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Hitohaku_front.JPG/960px-Hitohaku_front.JPG data-spot-cats=nature,sightseeing>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Hitohaku_front.JPG/960px-Hitohaku_front.JPG alt=兵庫縣立野生動物博物館 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 兵庫豐岡</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>兵庫縣立野生動物博物館</h3>
+<p class=spot-desc>呢間博物館透過立體模型、標本同埋互動展覽，展示兵庫多樣化嘅生態系統同埋野生動物。博物館涵蓋由高山野生動物到沿海海洋生物嘅一切，代表咗呢個縣多變嘅地理環境。適合親子嘅展示會解釋保育工作同埋生態關係。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>自然歷史</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>動物展覽</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>教育</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=kakogawa-castle data-spot-name=加古川城 data-spot-pref=hyogo data-spot-fee=500 data-spot-dur=60 data-spot-lat=34.7656 data-spot-lng=134.8411 data-spot-area=kakogawa-central data-spot-rating=4.1 data-spot-reviews=1600 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Takeda_Castle_2011_03.jpg/960px-Takeda_Castle_2011_03.jpg data-spot-cats=sightseeing,sightseeing>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Takeda_Castle_2011_03.jpg/960px-Takeda_Castle_2011_03.jpg alt=加古川城 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 兵庫加古川</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>加古川城</h3>
+<p class=spot-desc>呢座重建嘅城堡保留住原本嘅石基同埋護城河，可以畀大家了解封建時代兵庫嘅歷史。喺天守閣可以俯瞰成個城市，周圍嘅公園喺春天係賞櫻嘅熱門地點。呢度冇姬路城咁多人，可以畀你更加親近咁體驗城堡。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>城跡</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>歷史景點</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>公園</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 </div>
 <div class=see-all-wrap>
-<a class=see-all-btn style=color:#1a45a8 href=/prefectures/hyogo/sightseeing/>
-See all 17 觀光 spots →
-</a>
+<button class="see-all-btn show-more-btn" style=color:#1a45a8 type=button data-section=section-sightseeing>
+顯示全部 (17) ↓
+</button>
 </div>
 </div>
 </section><section class=spot-section id=section-gourmet data-cat=gourmet>
@@ -664,11 +884,91 @@ See all 17 觀光 spots →
 </button>
 </div>
 </article>
+<article class="spot-card spot-more" data-spot-id=kobe-chinatown data-spot-name=神戶南京町中華街 data-spot-pref=hyogo data-spot-fee=0 data-spot-dur=90 data-spot-lat=34.6876 data-spot-lng=135.1897 data-spot-area=kobe-chinatown data-spot-rating=4.5 data-spot-reviews=5100 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Kobe-Nankinmachi.JPG/960px-Kobe-Nankinmachi.JPG data-spot-cats=sightseeing,gourmet>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Kobe-Nankinmachi.JPG/960px-Kobe-Nankinmachi.JPG alt=神戶南京町中華街 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🍜</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 神戶中央區</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>神戶南京町中華街</h3>
+<p class=spot-desc>神戶充滿活力嘅唐人街，可以追溯到明治時代，有窄窄嘅小巷、傳統嘅牌坊，仲有正宗嘅餐廳供應四川同埋廣東菜。呢個街區融合咗日本同埋中國嘅建築，營造出有別於其他唐人街嘅獨特文化體驗。夜晚點起燈籠嗰陣，場面就更加有氣氛。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>歷史街區</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>中國菜</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>文化融合</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=akashi-yaki-takoyaki data-spot-name=明石燒章魚燒 data-spot-pref=hyogo data-spot-fee=0 data-spot-dur=30 data-spot-lat=34.6421 data-spot-lng=134.9876 data-spot-area=akashi-central data-spot-rating=4.4 data-spot-reviews=3200 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Akashi-yaki_at_Akashi01s.jpg/960px-Akashi-yaki_at_Akashi01s.jpg data-spot-cats=gourmet>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Akashi-yaki_at_Akashi01s.jpg/960px-Akashi-yaki_at_Akashi01s.jpg alt=明石燒章魚燒 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🍜</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 兵庫明石</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>明石燒章魚燒</h3>
+<p class=spot-desc>明石招牌嘅滑溜章魚丸子，因為用咗獨特嘅蛋漿，所以比一般章魚燒更加軟滑。明石各區嘅街邊檔同埋餐廳都有新鮮整嘅，配章魚燒醬、蛋黃醬同埋鰹魚碎。呢款標誌性小食最啱喺探索呢個港口城市嘅時候快快手手食一餐。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>街頭小食</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>本地特產</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>快餐</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=kobe-shimbashi-shotengai data-spot-name=新橋商店街 data-spot-pref=hyogo data-spot-fee=0 data-spot-dur=75 data-spot-lat=34.6902 data-spot-lng=135.1942 data-spot-area=kobe-central data-spot-rating=4.3 data-spot-reviews=2600 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Kobe_Motomachi_Shopping_Street_-_panoramio_%287%29.jpg/960px-Kobe_Motomachi_Shopping_Street_-_panoramio_%287%29.jpg data-spot-cats=sightseeing,gourmet>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Kobe_Motomachi_Shopping_Street_-_panoramio_%287%29.jpg/960px-Kobe_Motomachi_Shopping_Street_-_panoramio_%287%29.jpg alt=新橋商店街 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🍜</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 神戶中央區</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>新橋商店街</h3>
+<p class=spot-desc>呢個係一條靠近三宮車站、好熱鬧嘅有蓋商店街，到處都係攤販、街頭小食檔同埋傳統商店，由醃菜到手信乜都有得賣。呢個地道嘅市集保留住戰後嘅購物文化，畀你睇到本地生活最真實嘅一面。最啱周圍行吓、食吓嘢，發掘意想不到嘅驚喜。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>購物</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>街頭小食</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>本地氣氛</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=awaji-island-onion data-spot-name=淡路島洋葱市集 data-spot-pref=hyogo data-spot-fee=0 data-spot-dur=120 data-spot-lat=34.4667 data-spot-lng=134.8667 data-spot-area=awaji-island data-spot-rating=4.2 data-spot-reviews=2100 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Awajishima_Island_from_Bridge_World_Akashi.jpg/960px-Awajishima_Island_from_Bridge_World_Akashi.jpg data-spot-cats=gourmet,nature>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Awajishima_Island_from_Bridge_World_Akashi.jpg/960px-Awajishima_Island_from_Bridge_World_Akashi.jpg alt=淡路島洋葱市集 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🍜</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 兵庫淡路島</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>淡路島洋葱市集</h3>
+<p class=spot-desc>淡路島以佢甜美又溫和嘅洋葱聞名，喺全島嘅本地農夫市集同埋農場攤檔都有得賣。遊客可以直接向農夫買新鮮農產，又或者喺本地餐廳同埋café品嚐用洋葱整嘅菜式。呢個島嘅農業景觀同埋農業旅遊為大家帶嚟地道嘅日本鄉村體驗。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>農夫市集</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>新鮮農產</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>離島農業</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 </div>
 <div class=see-all-wrap>
-<a class=see-all-btn style=color:#d64000 href=/prefectures/hyogo/gourmet/>
-See all 10 美食 spots →
-</a>
+<button class="see-all-btn show-more-btn" style=color:#d64000 type=button data-section=section-gourmet>
+顯示全部 (10) ↓
+</button>
 </div>
 </div>
 </section><section class=spot-section id=section-nature data-cat=nature>
@@ -800,11 +1100,31 @@ See all 10 美食 spots →
 </button>
 </div>
 </article>
+<article class="spot-card spot-more" data-spot-id=yodo-river-nature-preserve data-spot-name=淀川自然保護區 data-spot-pref=hyogo data-spot-fee=0 data-spot-dur=120 data-spot-lat=34.6922 data-spot-lng=135.0156 data-spot-area=western-kobe data-spot-rating=4.1 data-spot-reviews=980 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Yodogawa_1.jpg/960px-Yodogawa_1.jpg data-spot-cats=nature>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Yodogawa_1.jpg/960px-Yodogawa_1.jpg alt=淀川自然保護區 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🏔️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 兵庫神戶</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>淀川自然保護區</h3>
+<p class=spot-desc>呢個位於兵庫西部嘅受保護濕地同埋河邊保護區，全年都有候鳥、水鳥同埋河邊植物棲息。維護得好好嘅觀察步道同埋觀鳥掩體，令到一般遊客都可以輕鬆觀鳥。呢個保護區展示咗生態系統嘅復原同埋保育工作。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>觀鳥</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>河邊散步</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>濕地</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 </div>
 <div class=see-all-wrap>
-<a class=see-all-btn style=color:#1a7a34 href=/prefectures/hyogo/nature/>
-See all 7 自然 spots →
-</a>
+<button class="see-all-btn show-more-btn" style=color:#1a7a34 type=button data-section=section-nature>
+顯示全部 (7) ↓
+</button>
 </div>
 </div>
 </section><section class=spot-section id=section-leisure data-cat=leisure>
@@ -1126,6 +1446,13 @@ See all 7 自然 spots →
 </div>
 <script>
 (function(){
+ 
+document.querySelectorAll('.show-more-btn').forEach(function(btn){
+  btn.addEventListener('click', function(){
+    var sec = document.getElementById(btn.dataset.section);
+    if (sec) sec.classList.add('spots-expanded');
+  });
+});
  
 const CATS = {
   sightseeing:{ color:"#1a45a8" },

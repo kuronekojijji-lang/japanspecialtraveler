@@ -99,7 +99,7 @@
   document.addEventListener('keydown', function(e){ if(e.key==='Escape') close(); });
 })();
 </script>
-<style>.pref-breadcrumb{background:#f8f9fa;border-bottom:1px solid var(--border);padding:.6rem 1.5rem;font-size:.82rem;color:var(--gray)}.pref-breadcrumb a{color:var(--red);text-decoration:none}.pref-breadcrumb a:hover{text-decoration:underline}.pref-breadcrumb span{margin:0 .4rem}.pref-hero{position:relative;min-height:440px;display:flex;align-items:flex-end;background:#0a1a3e 50%/cover no-repeat;background-image:url(https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1600&q=80)}.pref-hero::after{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,.15) 0%,rgba(0,0,0,.7) 100%)}.pref-hero-body{position:relative;z-index:1;padding:2.5rem 1.5rem 2rem;max-width:var(--max-w);margin:0 auto;width:100%}.pref-hero-eyebrow{color:rgba(255,255,255,.75);font-size:.82rem;font-weight:600;text-transform:uppercase;letter-spacing:.1em;margin-bottom:.5rem}.pref-hero h1{color:#fff;font-size:clamp(2.2rem,5.5vw,3.4rem);font-weight:900;margin:0 0 .5rem;line-height:1.1}.pref-hero .pref-sub{color:rgba(255,255,255,.88);font-size:1.05rem;max-width:560px;margin-bottom:1rem}.pref-stats{display:flex;flex-wrap:wrap;gap:.6rem}.pref-stat{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);border-radius:20px;padding:.3rem .85rem;color:#fff;font-size:.8rem;font-weight:600}.pref-section{padding:2.5rem 1.5rem}.pref-section+.pref-section{padding-top:0}.pref-container{max-width:var(--max-w);margin:0 auto}.pref-section-title{font-size:1.55rem;font-weight:900;margin:0 0 .4rem;display:flex;align-items:center;gap:.5rem}.pref-section-lead{font-size:1rem;color:#555;line-height:1.7;max-width:680px;margin-bottom:1.5rem}.ponko-guide{display:flex;align-items:flex-end;gap:0;margin-bottom:1.6rem}.ponko-bubble{flex:1;min-width:0;background:linear-gradient(135deg,#fff9f0,#fff3e0);border:2px solid #f5a623;border-radius:18px 18px 18px 4px;padding:1.2rem 1.5rem;position:relative;box-shadow:0 4px 14px rgba(245,166,35,.13)}.ponko-bubble::after{content:'';position:absolute;right:-18px;bottom:22px;border:9px solid transparent;border-left-color:#f5a623}.ponko-bubble::before{content:'';position:absolute;right:-13px;bottom:23px;z-index:1;border:8px solid transparent;border-left-color:#fff9f0}.ponko-bubble p{font-size:.97rem;line-height:1.8;color:#333;margin:0}.ponko-figure{flex-shrink:0;width:170px;margin-left:4px;animation:ponko-float 3s ease-in-out infinite}.ponko-figure img{width:100%;height:auto;display:block;filter:drop-shadow(0 6px 10px rgba(0,0,0,.18))}@keyframes ponko-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}@media(max-width:640px){.ponko-guide{flex-direction:column;align-items:center}.ponko-bubble{border-radius:18px;order:2;width:100%}.ponko-bubble::after,.ponko-bubble::before{display:none}.ponko-figure{order:1;width:130px;margin-left:0;margin-bottom:.5rem;animation:none}}.quick-facts{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.8rem;margin-top:1.4rem}.qf-card{background:#f8f9fb;border:1px solid var(--border);border-radius:12px;padding:1rem 1.1rem;display:flex;align-items:flex-start;gap:.7rem}.qf-icon{font-size:1.4rem;flex-shrink:0}.qf-label{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--gray);margin-bottom:.15rem}.qf-value{font-size:.9rem;font-weight:600;color:var(--dark)}.access-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}.access-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 8px rgba(0,0,0,5%)}.access-card-hd{display:flex;align-items:center;gap:.5rem;margin-bottom:.8rem}.access-card-icon{font-size:1.5rem}.access-card-title{font-size:1rem;font-weight:800;color:var(--dark)}.access-card ul{margin:0;padding-left:1.1rem}.access-card li{font-size:.875rem;line-height:1.65;color:#444;margin-bottom:.3rem}.access-card li strong{color:var(--dark)}.access-tip{margin-top:1.2rem;background:#fff8e6;border:1px solid #ffe0a0;border-radius:10px;padding:.9rem 1.1rem;font-size:.85rem;line-height:1.6;color:#5a3e00}.access-tip strong{display:block;margin-bottom:.2rem;font-size:.88rem}.guide-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem}.guide-card{background:#fff;border-radius:14px;overflow:hidden;border:1px solid var(--border);box-shadow:0 2px 8px rgba(0,0,0,5%);transition:transform .15s,box-shadow .15s;position:relative;display:flex;flex-direction:column}.guide-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.guide-card-img{width:100%;height:150px;object-fit:cover;background:#e8eef4;display:block}.guide-card-img-ph{width:100%;height:150px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:2.5rem}.guide-card-body{padding:.9rem 1rem 1rem;flex:1}.guide-cat-badge{display:inline-block;font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;padding:.15rem .55rem;border-radius:8px;background:var(--red);color:#fff;margin-bottom:.4rem}.guide-card-title{font-size:.92rem;font-weight:800;color:var(--dark);line-height:1.4}.guide-coming-soon{position:absolute;top:.6rem;right:.6rem;background:rgba(0,0,0,.55);color:#fff;font-size:.65rem;font-weight:700;padding:.2rem .5rem;border-radius:6px;text-transform:uppercase;letter-spacing:.05em}.guide-card-link{text-decoration:none;color:inherit;display:flex;flex-direction:column;height:100%}.pref-toc{background:#fff;border-bottom:2px solid var(--border);position:sticky;top:0;z-index:100;overflow-x:auto}.pref-toc-inner{display:flex;gap:0;max-width:var(--max-w);margin:0 auto}.pref-toc-btn{flex:none;display:flex;align-items:center;gap:.4rem;padding:.8rem 1.2rem;border:none;background:0 0;cursor:pointer;font-family:inherit;font-size:.88rem;font-weight:600;color:var(--gray);border-bottom:3px solid transparent;transition:all .18s;white-space:nowrap}.pref-toc-btn .toc-icon{font-size:1.1rem}.pref-toc-btn:hover{color:var(--dark);background:#f8f8f8}.pref-toc-btn.active{color:var(--toc-color,var(--red));border-bottom-color:var(--toc-color,var(--red))}.spot-section{padding:2rem 1.5rem 2.5rem}.spot-section.hidden{display:none}.spot-section-inner{max-width:var(--max-w);margin:0 auto}.section-hd{display:flex;align-items:center;gap:.6rem;margin-bottom:1.4rem;padding-bottom:.7rem;border-bottom:2px solid var(--border)}.section-hd .s-icon{font-size:1.6rem}.section-hd h2{font-size:1.35rem;font-weight:800;margin:0}.section-hd .s-count{margin-left:auto;background:var(--sec-color,var(--red));color:#fff;border-radius:20px;padding:.15rem .65rem;font-size:.78rem;font-weight:700}.spot-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.25rem}.spot-card{border-radius:14px;overflow:hidden;border:1px solid var(--border);background:#fff;box-shadow:0 2px 8px rgba(0,0,0,6%);transition:transform .15s,box-shadow .15s;display:flex;flex-direction:column}.spot-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.spot-img{width:100%;height:200px;object-fit:cover;background:#e8eef4;display:block}.spot-img-ph{width:100%;height:200px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:3rem}.spot-body{padding:1rem 1.1rem 1.1rem;flex:1;display:flex;flex-direction:column}.spot-meta{display:flex;align-items:center;gap:.5rem;margin-bottom:.5rem}.spot-location{font-size:.78rem;color:var(--gray);font-weight:500}.spot-season-badge{margin-left:auto;font-size:.7rem;font-weight:700;padding:.1rem .5rem;border-radius:10px;background:#f0f4f8;color:#555;white-space:nowrap}.spot-name{font-size:1.08rem;font-weight:800;color:var(--dark);margin:0 0 .45rem;line-height:1.3}.spot-desc{font-size:.86rem;line-height:1.65;color:#555;flex:1;margin-bottom:.75rem}.spot-tags{display:flex;flex-wrap:wrap;gap:.3rem}.spot-tag{font-size:.7rem;font-weight:600;padding:.15rem .5rem;border-radius:6px;background:var(--tag-bg,#f0f4f8);color:var(--tag-color,#445)}.tips-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem}.tip-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 6px rgba(0,0,0,4%)}.tip-card-icon{font-size:1.8rem;margin-bottom:.6rem}.tip-card-title{font-size:.95rem;font-weight:800;color:var(--dark);margin-bottom:.5rem}.tip-card-body{font-size:.85rem;line-height:1.65;color:#555}.tip-card-body ul{margin:.3rem 0 0;padding-left:1.1rem}.tip-card-body li{margin-bottom:.2rem}.pref-cta{background:var(--bg-soft);padding:2.5rem 1.5rem 3rem;border-top:1px solid var(--border)}.pref-cta .pref-container{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}@media(max-width:600px){.pref-hero{min-height:320px}.quick-facts{grid-template-columns:repeat(2,1fr)}.pref-toc-btn{padding:.7rem .9rem;font-size:.82rem}}.btn-add-plan{display:inline-flex;align-items:center;gap:.35rem;margin-top:.75rem;padding:.45rem .9rem;border:1.5px solid #2d5be3;border-radius:8px;background:#fff;color:#2d5be3;font-size:.78rem;font-weight:700;font-family:inherit;cursor:pointer;transition:background .15s,color .15s,transform .1s;width:100%;justify-content:center}.btn-add-plan:hover{background:#2d5be3;color:#fff;transform:translateY(-1px)}.btn-add-plan.in-plan{background:#e8f0ff;color:#1a45a8;border-color:#1a45a8}.btn-add-plan.in-plan:hover{background:#c0003a;color:#fff;border-color:#c0003a}.btn-read-guide{display:inline-flex;align-items:center;justify-content:center;gap:.35rem;margin-top:.5rem;padding:.45rem .9rem;border:1.5px solid #1a7a34;border-radius:8px;background:#f0faf2;color:#1a7a34;font-size:.78rem;font-weight:700;text-decoration:none;width:100%;transition:background .15s,color .15s,transform .1s}.btn-read-guide:hover{background:#1a7a34;color:#fff;transform:translateY(-1px);text-decoration:none}.see-all-wrap{text-align:center;margin-top:1.5rem;padding-top:1rem;border-top:1px dashed var(--border)}.see-all-btn{display:inline-flex;align-items:center;gap:.4rem;padding:.55rem 1.5rem;border:2px solid;border-radius:10px;font-size:.88rem;font-weight:700;text-decoration:none;transition:all .15s}.see-all-btn:hover{opacity:.8;text-decoration:none}</style>
+<style>.pref-breadcrumb{background:#f8f9fa;border-bottom:1px solid var(--border);padding:.6rem 1.5rem;font-size:.82rem;color:var(--gray)}.pref-breadcrumb a{color:var(--red);text-decoration:none}.pref-breadcrumb a:hover{text-decoration:underline}.pref-breadcrumb span{margin:0 .4rem}.pref-hero{position:relative;min-height:440px;display:flex;align-items:flex-end;background:#0a1a3e 50%/cover no-repeat;background-image:url(https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1600&q=80)}.pref-hero::after{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,.15) 0%,rgba(0,0,0,.7) 100%)}.pref-hero-body{position:relative;z-index:1;padding:2.5rem 1.5rem 2rem;max-width:var(--max-w);margin:0 auto;width:100%}.pref-hero-eyebrow{color:rgba(255,255,255,.75);font-size:.82rem;font-weight:600;text-transform:uppercase;letter-spacing:.1em;margin-bottom:.5rem}.pref-hero h1{color:#fff;font-size:clamp(2.2rem,5.5vw,3.4rem);font-weight:900;margin:0 0 .5rem;line-height:1.1}.pref-hero .pref-sub{color:rgba(255,255,255,.88);font-size:1.05rem;max-width:560px;margin-bottom:1rem}.pref-stats{display:flex;flex-wrap:wrap;gap:.6rem}.pref-stat{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);border-radius:20px;padding:.3rem .85rem;color:#fff;font-size:.8rem;font-weight:600}.pref-section{padding:2.5rem 1.5rem}.pref-section+.pref-section{padding-top:0}.pref-container{max-width:var(--max-w);margin:0 auto}.pref-section-title{font-size:1.55rem;font-weight:900;margin:0 0 .4rem;display:flex;align-items:center;gap:.5rem}.pref-section-lead{font-size:1rem;color:#555;line-height:1.7;max-width:680px;margin-bottom:1.5rem}.ponko-guide{display:flex;align-items:flex-end;gap:0;margin-bottom:1.6rem}.ponko-bubble{flex:1;min-width:0;background:linear-gradient(135deg,#fff9f0,#fff3e0);border:2px solid #f5a623;border-radius:18px 18px 18px 4px;padding:1.2rem 1.5rem;position:relative;box-shadow:0 4px 14px rgba(245,166,35,.13)}.ponko-bubble::after{content:'';position:absolute;right:-18px;bottom:22px;border:9px solid transparent;border-left-color:#f5a623}.ponko-bubble::before{content:'';position:absolute;right:-13px;bottom:23px;z-index:1;border:8px solid transparent;border-left-color:#fff9f0}.ponko-bubble p{font-size:.97rem;line-height:1.8;color:#333;margin:0}.ponko-figure{flex-shrink:0;width:170px;margin-left:4px;animation:ponko-float 3s ease-in-out infinite}.ponko-figure img{width:100%;height:auto;display:block;filter:drop-shadow(0 6px 10px rgba(0,0,0,.18))}@keyframes ponko-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}@media(max-width:640px){.ponko-guide{flex-direction:column;align-items:center}.ponko-bubble{border-radius:18px;order:2;width:100%}.ponko-bubble::after,.ponko-bubble::before{display:none}.ponko-figure{order:1;width:130px;margin-left:0;margin-bottom:.5rem;animation:none}}.quick-facts{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.8rem;margin-top:1.4rem}.qf-card{background:#f8f9fb;border:1px solid var(--border);border-radius:12px;padding:1rem 1.1rem;display:flex;align-items:flex-start;gap:.7rem}.qf-icon{font-size:1.4rem;flex-shrink:0}.qf-label{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--gray);margin-bottom:.15rem}.qf-value{font-size:.9rem;font-weight:600;color:var(--dark)}.access-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}.access-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 8px rgba(0,0,0,5%)}.access-card-hd{display:flex;align-items:center;gap:.5rem;margin-bottom:.8rem}.access-card-icon{font-size:1.5rem}.access-card-title{font-size:1rem;font-weight:800;color:var(--dark)}.access-card ul{margin:0;padding-left:1.1rem}.access-card li{font-size:.875rem;line-height:1.65;color:#444;margin-bottom:.3rem}.access-card li strong{color:var(--dark)}.access-tip{margin-top:1.2rem;background:#fff8e6;border:1px solid #ffe0a0;border-radius:10px;padding:.9rem 1.1rem;font-size:.85rem;line-height:1.6;color:#5a3e00}.access-tip strong{display:block;margin-bottom:.2rem;font-size:.88rem}.guide-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem}.guide-card{background:#fff;border-radius:14px;overflow:hidden;border:1px solid var(--border);box-shadow:0 2px 8px rgba(0,0,0,5%);transition:transform .15s,box-shadow .15s;position:relative;display:flex;flex-direction:column}.guide-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.guide-card-img{width:100%;height:150px;object-fit:cover;background:#e8eef4;display:block}.guide-card-img-ph{width:100%;height:150px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:2.5rem}.guide-card-body{padding:.9rem 1rem 1rem;flex:1}.guide-cat-badge{display:inline-block;font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;padding:.15rem .55rem;border-radius:8px;background:var(--red);color:#fff;margin-bottom:.4rem}.guide-card-title{font-size:.92rem;font-weight:800;color:var(--dark);line-height:1.4}.guide-coming-soon{position:absolute;top:.6rem;right:.6rem;background:rgba(0,0,0,.55);color:#fff;font-size:.65rem;font-weight:700;padding:.2rem .5rem;border-radius:6px;text-transform:uppercase;letter-spacing:.05em}.guide-card-link{text-decoration:none;color:inherit;display:flex;flex-direction:column;height:100%}.pref-toc{background:#fff;border-bottom:2px solid var(--border);position:sticky;top:0;z-index:100;overflow-x:auto}.pref-toc-inner{display:flex;gap:0;max-width:var(--max-w);margin:0 auto}.pref-toc-btn{flex:none;display:flex;align-items:center;gap:.4rem;padding:.8rem 1.2rem;border:none;background:0 0;cursor:pointer;font-family:inherit;font-size:.88rem;font-weight:600;color:var(--gray);border-bottom:3px solid transparent;transition:all .18s;white-space:nowrap}.pref-toc-btn .toc-icon{font-size:1.1rem}.pref-toc-btn:hover{color:var(--dark);background:#f8f8f8}.pref-toc-btn.active{color:var(--toc-color,var(--red));border-bottom-color:var(--toc-color,var(--red))}.spot-section{padding:2rem 1.5rem 2.5rem}.spot-section.hidden{display:none}.spot-section-inner{max-width:var(--max-w);margin:0 auto}.section-hd{display:flex;align-items:center;gap:.6rem;margin-bottom:1.4rem;padding-bottom:.7rem;border-bottom:2px solid var(--border)}.section-hd .s-icon{font-size:1.6rem}.section-hd h2{font-size:1.35rem;font-weight:800;margin:0}.section-hd .s-count{margin-left:auto;background:var(--sec-color,var(--red));color:#fff;border-radius:20px;padding:.15rem .65rem;font-size:.78rem;font-weight:700}.spot-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.25rem}.spot-card{border-radius:14px;overflow:hidden;border:1px solid var(--border);background:#fff;box-shadow:0 2px 8px rgba(0,0,0,6%);transition:transform .15s,box-shadow .15s;display:flex;flex-direction:column}.spot-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.spot-img{width:100%;height:200px;object-fit:cover;background:#e8eef4;display:block}.spot-img-ph{width:100%;height:200px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:3rem}.spot-body{padding:1rem 1.1rem 1.1rem;flex:1;display:flex;flex-direction:column}.spot-meta{display:flex;align-items:center;gap:.5rem;margin-bottom:.5rem}.spot-location{font-size:.78rem;color:var(--gray);font-weight:500}.spot-season-badge{margin-left:auto;font-size:.7rem;font-weight:700;padding:.1rem .5rem;border-radius:10px;background:#f0f4f8;color:#555;white-space:nowrap}.spot-name{font-size:1.08rem;font-weight:800;color:var(--dark);margin:0 0 .45rem;line-height:1.3}.spot-desc{font-size:.86rem;line-height:1.65;color:#555;flex:1;margin-bottom:.75rem}.spot-tags{display:flex;flex-wrap:wrap;gap:.3rem}.spot-tag{font-size:.7rem;font-weight:600;padding:.15rem .5rem;border-radius:6px;background:var(--tag-bg,#f0f4f8);color:var(--tag-color,#445)}.tips-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem}.tip-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 6px rgba(0,0,0,4%)}.tip-card-icon{font-size:1.8rem;margin-bottom:.6rem}.tip-card-title{font-size:.95rem;font-weight:800;color:var(--dark);margin-bottom:.5rem}.tip-card-body{font-size:.85rem;line-height:1.65;color:#555}.tip-card-body ul{margin:.3rem 0 0;padding-left:1.1rem}.tip-card-body li{margin-bottom:.2rem}.pref-cta{background:var(--bg-soft);padding:2.5rem 1.5rem 3rem;border-top:1px solid var(--border)}.pref-cta .pref-container{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}@media(max-width:600px){.pref-hero{min-height:320px}.quick-facts{grid-template-columns:repeat(2,1fr)}.pref-toc-btn{padding:.7rem .9rem;font-size:.82rem}}.btn-add-plan{display:inline-flex;align-items:center;gap:.35rem;margin-top:.75rem;padding:.45rem .9rem;border:1.5px solid #2d5be3;border-radius:8px;background:#fff;color:#2d5be3;font-size:.78rem;font-weight:700;font-family:inherit;cursor:pointer;transition:background .15s,color .15s,transform .1s;width:100%;justify-content:center}.btn-add-plan:hover{background:#2d5be3;color:#fff;transform:translateY(-1px)}.btn-add-plan.in-plan{background:#e8f0ff;color:#1a45a8;border-color:#1a45a8}.btn-add-plan.in-plan:hover{background:#c0003a;color:#fff;border-color:#c0003a}.btn-read-guide{display:inline-flex;align-items:center;justify-content:center;gap:.35rem;margin-top:.5rem;padding:.45rem .9rem;border:1.5px solid #1a7a34;border-radius:8px;background:#f0faf2;color:#1a7a34;font-size:.78rem;font-weight:700;text-decoration:none;width:100%;transition:background .15s,color .15s,transform .1s}.btn-read-guide:hover{background:#1a7a34;color:#fff;transform:translateY(-1px);text-decoration:none}.see-all-wrap{text-align:center;margin-top:1.5rem;padding-top:1rem;border-top:1px dashed var(--border)}.see-all-btn{display:inline-flex;align-items:center;gap:.4rem;padding:.55rem 1.5rem;border:2px solid;border-radius:10px;font-size:.88rem;font-weight:700;text-decoration:none;transition:all .15s}.see-all-btn:hover{opacity:.8;text-decoration:none}.see-all-btn{cursor:pointer;background:0 0}.spot-card.spot-more{display:none}.spot-section.spots-expanded .spot-card.spot-more{display:flex}.spot-section.spots-expanded .see-all-wrap{display:none}</style>
 <nav class=pref-breadcrumb aria-label=breadcrumb>
 <a href=/>首頁</a><span>›</span>
 <a href=/explore/>探索日本</a><span>›</span>
@@ -518,11 +518,55 @@
 </button>
 </div>
 </article>
+<article class="spot-card spot-more" data-spot-id=ibaraki-history-museum data-spot-name=茨城縣立歷史館 data-spot-pref=ibaraki data-spot-fee=300 data-spot-dur=90 data-spot-lat=36.3688 data-spot-lng=140.4868 data-spot-area=mito data-spot-rating=4.1 data-spot-reviews=2800 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Mito_castle_sannomaru_karabori.jpg/960px-Mito_castle_sannomaru_karabori.jpg data-spot-cats=sightseeing>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Mito_castle_sannomaru_karabori.jpg/960px-Mito_castle_sannomaru_karabori.jpg alt=茨城縣立歷史館 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 茨城縣水戶市</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>茨城縣立歷史館</h3>
+<p class=spot-desc>茨城縣立歷史館緊貼水戶城，追溯由史前時代直到明治時期嘅地方故事。亮點包括水戶藩嘅文物、統治呢度嘅德川家族領主遺物，同關於幕末以水戶為中心嘅政治運動嘅詳盡展示。館內景觀庭園保留住修復嘅城郭土壘，可以免費散步，為熱鬧嘅水戶市中心提供一處靜謐嘅對照。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>歷史</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>博物館</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>水戶</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>武士</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>文化</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=mito-castle-remains data-spot-name=水戶城遺跡 data-spot-pref=ibaraki data-spot-fee=0 data-spot-dur=45 data-spot-lat=36.3633 data-spot-lng=140.475 data-spot-area=mito data-spot-rating=3.8 data-spot-reviews=2100 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Mito_castle_sannomaru_karabori.jpg/960px-Mito_castle_sannomaru_karabori.jpg data-spot-cats=sightseeing>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Mito_castle_sannomaru_karabori.jpg/960px-Mito_castle_sannomaru_karabori.jpg alt=水戶城遺跡 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 茨城縣水戶市</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>水戶城遺跡</h3>
+<p class=spot-desc>雖然水戶城喺明治維新之後大半被拆，但佢留低嘅土壘、護城河同部分復原嘅二之丸城門，仍然同塑造咗幕末日本政治嘅強大水戶藩有住切實嘅聯繫。城丘俯瞰城市同遠處千波湖嘅粼粼波光，園區作為公共公園免費開放，以鄰近仍存嘅歷史悠久弘道館儒學校——日本現存最大嘅藩校之一——為核心。城跡、弘道館同相鄰嘅歷史館結合埋一齊，令呢區成為茨城最豐富嘅單一歷史區。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>城堡</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>水戶</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>德川</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>歷史</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>土壘</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 </div>
 <div class=see-all-wrap>
-<a class=see-all-btn style=color:#1a45a8 href=/prefectures/ibaraki/sightseeing/>
-See all 8 觀光 spots →
-</a>
+<button class="see-all-btn show-more-btn" style=color:#1a45a8 type=button data-section=section-sightseeing>
+顯示全部 (8) ↓
+</button>
 </div>
 </div>
 </section><section class=spot-section id=section-gourmet data-cat=gourmet>
@@ -805,11 +849,77 @@ See all 8 觀光 spots →
 </button>
 </div>
 </article>
+<article class="spot-card spot-more" data-spot-id=oarai-coast data-spot-name=大洗海岸 data-spot-pref=ibaraki data-spot-fee=0 data-spot-dur=75 data-spot-lat=36.2783 data-spot-lng=140.5733 data-spot-area=oarai data-spot-rating=4.2 data-spot-reviews=3800 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Kamiiso_torii_at_Oarai_Isosaki_Jinja.jpg/960px-Kamiiso_torii_at_Oarai_Isosaki_Jinja.jpg data-spot-cats=nature,sightseeing>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Kamiiso_torii_at_Oarai_Isosaki_Jinja.jpg/960px-Kamiiso_torii_at_Oarai_Isosaki_Jinja.jpg alt=大洗海岸 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🏔️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 茨城縣大洗町</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>大洗海岸</h3>
+<p class=spot-desc>大洗海岸以日本最上鏡嘅海岸神社之一——大洗磯前神社為核心，佢標誌性嘅鳥居直立喺太平洋浪濤拍打嘅礁岩之上，黎明時分橙色鳥居映襯漸亮嘅天際線最為動人。呢片崎嶇嘅太平洋海岸飽受季節性強浪衝擊，吸引住衝浪者、釣魚者同攝影師嚟搵有別於東京灣平緩岸線嘅壯麗海景。港町本身喺距港口幾步之遙嘅休閒海鮮餐廳供應新鮮嘅太平洋魚獲。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>鳥居</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>海</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>海岸</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>太平洋</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>神道</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=lake-kasumigaura data-spot-name=霞浦 data-spot-pref=ibaraki data-spot-fee=0 data-spot-dur=90 data-spot-lat=36.2 data-spot-lng=140.45 data-spot-area=kasumigaura data-spot-rating=4.1 data-spot-reviews=4200 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Lake_Kasumigaura_from_Kasumigaura_City_06.jpg/960px-Lake_Kasumigaura_from_Kasumigaura_City_06.jpg data-spot-cats=nature,leisure>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Lake_Kasumigaura_from_Kasumigaura_City_06.jpg/960px-Lake_Kasumigaura_from_Kasumigaura_City_06.jpg alt=霞浦 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🏔️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 茨城縣霞浦市</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>霞浦</h3>
+<p class=spot-desc>霞浦係日本第二大湖，一片220平方公里嘅廣闊淡水水域，橫亙喺茨城中部低地，四周圍住蘆葦、蓮田同傳統漁村。一條180公里嘅單車徑環湖而行，係日本最優秀嘅長距離單車路線之一，沿途盡係恬靜嘅鄉村風光同水景。個湖仲以銀魚同淡水鰻料理聞名，可以喺幾十年嚟幾乎冇變嘅湖畔餐廳享用。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>湖泊</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>踩單車</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>釣魚</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>第二大湖</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>霞浦</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=tone-river-wetlands data-spot-name=利根川濕地 data-spot-pref=ibaraki data-spot-fee=0 data-spot-dur=90 data-spot-lat=35.95 data-spot-lng=140.5167 data-spot-area=tone data-spot-rating=3.9 data-spot-reviews=1200 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Lake_Kasumigaura_from_Kasumigaura_City_06.jpg/960px-Lake_Kasumigaura_from_Kasumigaura_City_06.jpg data-spot-cats=nature>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Lake_Kasumigaura_from_Kasumigaura_City_06.jpg/960px-Lake_Kasumigaura_from_Kasumigaura_City_06.jpg alt=利根川濕地 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🏔️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 茨城縣利根町</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>利根川濕地</h3>
+<p class=spot-desc>利根川下游構成茨城同千葉縣嘅南部邊界，孕育住關東地區最重要嘅濕地生態系統之一，吸引超過200種有記錄嘅雀鳥，包括稀有嘅遷徙涉禽同越冬水鳥。蘆葦蕩、牛軛湖同季節性氾濫嘅草甸交織成多樣棲地嘅鑲嵌畫，喺寒冷月份庇護住東方白鸛、白尾海鵰，同種類繁多嘅鷺同鴨。由南部幾座河畔公園可以入到賞鳥掩體同自然步道。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>濕地</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>賞鳥</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>利根川</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>珍稀鳥類</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>自然保護區</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 </div>
 <div class=see-all-wrap>
-<a class=see-all-btn style=color:#1a7a34 href=/prefectures/ibaraki/nature/>
-See all 9 自然 spots →
-</a>
+<button class="see-all-btn show-more-btn" style=color:#1a7a34 type=button data-section=section-nature>
+顯示全部 (9) ↓
+</button>
 </div>
 </div>
 </section><section class=spot-section id=section-leisure data-cat=leisure>
@@ -951,11 +1061,77 @@ See all 9 自然 spots →
 </button>
 </div>
 </article>
+<article class="spot-card spot-more" data-spot-id=hitachi-beach-cycling data-spot-name=常陸海濱公園單車遊 data-spot-pref=ibaraki data-spot-fee=0 data-spot-dur=120 data-spot-lat=36.3841 data-spot-lng=140.8038 data-spot-area=hitachi data-spot-rating=4.2 data-spot-reviews=1900 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/2025_Hitachi_Seaside_Park_2.jpg/960px-2025_Hitachi_Seaside_Park_2.jpg data-spot-cats=leisure>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/2025_Hitachi_Seaside_Park_2.jpg/960px-2025_Hitachi_Seaside_Park_2.jpg alt=常陸海濱公園單車遊 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎿</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 茨城縣日立市</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>常陸海濱公園單車遊</h3>
+<p class=spot-desc>常陸海濱公園喺佢350公頃嘅海濱景觀入面維護住四通八達嘅單車徑網絡，由花田、松林一直伸延到俯瞰太平洋嘅沙丘。園區入口可以租單車——包括家庭雙人車同有兒童座椅嘅車款——令佢成為關東地區最啱合家庭嘅單車目的地之一。臨海嘅步道喺初夏粉蝶花季人潮湧入之前格外宜人，呢個時候公園最為靜謐安詳。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>踩單車</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>海灘</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>海濱公園</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>租單車</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>親子</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=kasumigaura-cycling data-spot-name=霞浦環湖單車路線 data-spot-pref=ibaraki data-spot-fee=0 data-spot-dur=120 data-spot-lat=36.2 data-spot-lng=140.45 data-spot-area=kasumigaura data-spot-rating=4.1 data-spot-reviews=2200 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Lake_Kasumigaura_from_Kasumigaura_City_06.jpg/960px-Lake_Kasumigaura_from_Kasumigaura_City_06.jpg data-spot-cats=leisure>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Lake_Kasumigaura_from_Kasumigaura_City_06.jpg/960px-Lake_Kasumigaura_from_Kasumigaura_City_06.jpg alt=霞浦環湖單車路線 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎿</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 茨城縣霞浦市</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>霞浦環湖單車路線</h3>
+<p class=spot-desc>霞浦單車路線係一條標示清晰、環繞日本第二大湖嘅180公里環道，一直被評為關東地區頂級嘅長距離單車路線之一。平坦嘅地形令休閒騎手都可以輕鬆駕馭，而環湖一周就係一項值得嘅多日挑戰，沿途散布住湖畔民宿同旅館。主要出入口土浦站可以租單車，路線穿越漁港、蓮田同風車田，湖景一覽無遺。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>踩單車</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>環湖路線</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>180公里</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>風景</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>休閒</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=lake-kasumigaura data-spot-name=霞浦 data-spot-pref=ibaraki data-spot-fee=0 data-spot-dur=90 data-spot-lat=36.2 data-spot-lng=140.45 data-spot-area=kasumigaura data-spot-rating=4.1 data-spot-reviews=4200 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Lake_Kasumigaura_from_Kasumigaura_City_06.jpg/960px-Lake_Kasumigaura_from_Kasumigaura_City_06.jpg data-spot-cats=nature,leisure>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Lake_Kasumigaura_from_Kasumigaura_City_06.jpg/960px-Lake_Kasumigaura_from_Kasumigaura_City_06.jpg alt=霞浦 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎿</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 茨城縣霞浦市</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>霞浦</h3>
+<p class=spot-desc>霞浦係日本第二大湖，一片220平方公里嘅廣闊淡水水域，橫亙喺茨城中部低地，四周圍住蘆葦、蓮田同傳統漁村。一條180公里嘅單車徑環湖而行，係日本最優秀嘅長距離單車路線之一，沿途盡係恬靜嘅鄉村風光同水景。個湖仲以銀魚同淡水鰻料理聞名，可以喺幾十年嚟幾乎冇變嘅湖畔餐廳享用。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>湖泊</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>踩單車</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>釣魚</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>第二大湖</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>霞浦</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 </div>
 <div class=see-all-wrap>
-<a class=see-all-btn style=color:#b35c00 href=/prefectures/ibaraki/leisure/>
-See all 9 休閒 spots →
-</a>
+<button class="see-all-btn show-more-btn" style=color:#b35c00 type=button data-section=section-leisure>
+顯示全部 (9) ↓
+</button>
 </div>
 </div>
 </section><section class=spot-section id=section-events data-cat=events>
@@ -1097,11 +1273,33 @@ See all 9 休閒 spots →
 </button>
 </div>
 </article>
+<article class="spot-card spot-more" data-spot-id=kashima-festival data-spot-name=鹿島祭 data-spot-pref=ibaraki data-spot-fee=0 data-spot-dur=120 data-spot-lat=35.9906 data-spot-lng=140.6453 data-spot-area=kashima data-spot-rating=4.2 data-spot-reviews=1800 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Kashima_Shrine_main_torii_-_sept_22_2015.jpg/960px-Kashima_Shrine_main_torii_-_sept_22_2015.jpg data-spot-cats=events>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Kashima_Shrine_main_torii_-_sept_22_2015.jpg/960px-Kashima_Shrine_main_torii_-_sept_22_2015.jpg alt=鹿島祭 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎆</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 茨城縣鹿島市</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>鹿島祭</h3>
+<p class=spot-desc>鹿島祭喺秋分前後喺鹿島神宮舉行，係東日本最古老、最莊嚴嘅神社祭典之一，已經連續舉辦超過一千年。著住古代宮廷服飾嘅神官隊伍抬住神聖嘅神輿，蜿蜒穿過杉木參道，伴以由平安時代沿用到依家、形制未改嘅樂器所奏嘅傳統樂曲。神社境內嘅祭典氣氛——古杉之間點亮嘅燈籠、正殿前陳設嘅供品——為活生生嘅神道傳統提供咗一扇罕見嘅窗。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>鹿島神宮</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>秋季祭典</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>秋分</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>神道儀式</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>傳統</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 </div>
 <div class=see-all-wrap>
-<a class=see-all-btn style=color:#b5006e href=/prefectures/ibaraki/events/>
-See all 7 節慶 spots →
-</a>
+<button class="see-all-btn show-more-btn" style=color:#b5006e type=button data-section=section-events>
+顯示全部 (7) ↓
+</button>
 </div>
 </div>
 </section><section class=spot-section id=section-experience data-cat=experience>
@@ -1199,6 +1397,13 @@ See all 7 節慶 spots →
 </div>
 <script>
 (function(){
+ 
+document.querySelectorAll('.show-more-btn').forEach(function(btn){
+  btn.addEventListener('click', function(){
+    var sec = document.getElementById(btn.dataset.section);
+    if (sec) sec.classList.add('spots-expanded');
+  });
+});
  
 const CATS = {
   sightseeing:{ color:"#1a45a8" },

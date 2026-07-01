@@ -99,7 +99,7 @@
   document.addEventListener('keydown', function(e){ if(e.key==='Escape') close(); });
 })();
 </script>
-<style>.pref-breadcrumb{background:#f8f9fa;border-bottom:1px solid var(--border);padding:.6rem 1.5rem;font-size:.82rem;color:var(--gray)}.pref-breadcrumb a{color:var(--red);text-decoration:none}.pref-breadcrumb a:hover{text-decoration:underline}.pref-breadcrumb span{margin:0 .4rem}.pref-hero{position:relative;min-height:440px;display:flex;align-items:flex-end;background:#1a0a0a 50%/cover no-repeat;background-image:url(https://images.unsplash.com/photo-1504196606672-aef5c9cefc92?w=1600&q=80)}.pref-hero::after{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,.15) 0%,rgba(0,0,0,.7) 100%)}.pref-hero-body{position:relative;z-index:1;padding:2.5rem 1.5rem 2rem;max-width:var(--max-w);margin:0 auto;width:100%}.pref-hero-eyebrow{color:rgba(255,255,255,.75);font-size:.82rem;font-weight:600;text-transform:uppercase;letter-spacing:.1em;margin-bottom:.5rem}.pref-hero h1{color:#fff;font-size:clamp(2.2rem,5.5vw,3.4rem);font-weight:900;margin:0 0 .5rem;line-height:1.1}.pref-hero .pref-sub{color:rgba(255,255,255,.88);font-size:1.05rem;max-width:560px;margin-bottom:1rem}.pref-stats{display:flex;flex-wrap:wrap;gap:.6rem}.pref-stat{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);border-radius:20px;padding:.3rem .85rem;color:#fff;font-size:.8rem;font-weight:600}.pref-section{padding:2.5rem 1.5rem}.pref-section+.pref-section{padding-top:0}.pref-container{max-width:var(--max-w);margin:0 auto}.pref-section-title{font-size:1.55rem;font-weight:900;margin:0 0 .4rem;display:flex;align-items:center;gap:.5rem}.pref-section-lead{font-size:1rem;color:#555;line-height:1.7;max-width:680px;margin-bottom:1.5rem}.ponko-guide{display:flex;align-items:flex-end;gap:0;margin-bottom:1.6rem}.ponko-bubble{flex:1;min-width:0;background:linear-gradient(135deg,#fff9f0,#fff3e0);border:2px solid #f5a623;border-radius:18px 18px 18px 4px;padding:1.2rem 1.5rem;position:relative;box-shadow:0 4px 14px rgba(245,166,35,.13)}.ponko-bubble::after{content:'';position:absolute;right:-18px;bottom:22px;border:9px solid transparent;border-left-color:#f5a623}.ponko-bubble::before{content:'';position:absolute;right:-13px;bottom:23px;z-index:1;border:8px solid transparent;border-left-color:#fff9f0}.ponko-bubble p{font-size:.97rem;line-height:1.8;color:#333;margin:0}.ponko-figure{flex-shrink:0;width:170px;margin-left:4px;animation:ponko-float 3s ease-in-out infinite}.ponko-figure img{width:100%;height:auto;display:block;filter:drop-shadow(0 6px 10px rgba(0,0,0,.18))}@keyframes ponko-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}@media(max-width:640px){.ponko-guide{flex-direction:column;align-items:center}.ponko-bubble{border-radius:18px;order:2;width:100%}.ponko-bubble::after,.ponko-bubble::before{display:none}.ponko-figure{order:1;width:130px;margin-left:0;margin-bottom:.5rem;animation:none}}.quick-facts{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.8rem;margin-top:1.4rem}.qf-card{background:#f8f9fb;border:1px solid var(--border);border-radius:12px;padding:1rem 1.1rem;display:flex;align-items:flex-start;gap:.7rem}.qf-icon{font-size:1.4rem;flex-shrink:0}.qf-label{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--gray);margin-bottom:.15rem}.qf-value{font-size:.9rem;font-weight:600;color:var(--dark)}.access-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}.access-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 8px rgba(0,0,0,5%)}.access-card-hd{display:flex;align-items:center;gap:.5rem;margin-bottom:.8rem}.access-card-icon{font-size:1.5rem}.access-card-title{font-size:1rem;font-weight:800;color:var(--dark)}.access-card ul{margin:0;padding-left:1.1rem}.access-card li{font-size:.875rem;line-height:1.65;color:#444;margin-bottom:.3rem}.access-card li strong{color:var(--dark)}.access-tip{margin-top:1.2rem;background:#fff8e6;border:1px solid #ffe0a0;border-radius:10px;padding:.9rem 1.1rem;font-size:.85rem;line-height:1.6;color:#5a3e00}.access-tip strong{display:block;margin-bottom:.2rem;font-size:.88rem}.guide-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem}.guide-card{background:#fff;border-radius:14px;overflow:hidden;border:1px solid var(--border);box-shadow:0 2px 8px rgba(0,0,0,5%);transition:transform .15s,box-shadow .15s;position:relative;display:flex;flex-direction:column}.guide-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.guide-card-img{width:100%;height:150px;object-fit:cover;background:#e8eef4;display:block}.guide-card-img-ph{width:100%;height:150px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:2.5rem}.guide-card-body{padding:.9rem 1rem 1rem;flex:1}.guide-cat-badge{display:inline-block;font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;padding:.15rem .55rem;border-radius:8px;background:var(--red);color:#fff;margin-bottom:.4rem}.guide-card-title{font-size:.92rem;font-weight:800;color:var(--dark);line-height:1.4}.guide-coming-soon{position:absolute;top:.6rem;right:.6rem;background:rgba(0,0,0,.55);color:#fff;font-size:.65rem;font-weight:700;padding:.2rem .5rem;border-radius:6px;text-transform:uppercase;letter-spacing:.05em}.guide-card-link{text-decoration:none;color:inherit;display:flex;flex-direction:column;height:100%}.pref-toc{background:#fff;border-bottom:2px solid var(--border);position:sticky;top:0;z-index:100;overflow-x:auto}.pref-toc-inner{display:flex;gap:0;max-width:var(--max-w);margin:0 auto}.pref-toc-btn{flex:none;display:flex;align-items:center;gap:.4rem;padding:.8rem 1.2rem;border:none;background:0 0;cursor:pointer;font-family:inherit;font-size:.88rem;font-weight:600;color:var(--gray);border-bottom:3px solid transparent;transition:all .18s;white-space:nowrap}.pref-toc-btn .toc-icon{font-size:1.1rem}.pref-toc-btn:hover{color:var(--dark);background:#f8f8f8}.pref-toc-btn.active{color:var(--toc-color,var(--red));border-bottom-color:var(--toc-color,var(--red))}.spot-section{padding:2rem 1.5rem 2.5rem}.spot-section.hidden{display:none}.spot-section-inner{max-width:var(--max-w);margin:0 auto}.section-hd{display:flex;align-items:center;gap:.6rem;margin-bottom:1.4rem;padding-bottom:.7rem;border-bottom:2px solid var(--border)}.section-hd .s-icon{font-size:1.6rem}.section-hd h2{font-size:1.35rem;font-weight:800;margin:0}.section-hd .s-count{margin-left:auto;background:var(--sec-color,var(--red));color:#fff;border-radius:20px;padding:.15rem .65rem;font-size:.78rem;font-weight:700}.spot-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.25rem}.spot-card{border-radius:14px;overflow:hidden;border:1px solid var(--border);background:#fff;box-shadow:0 2px 8px rgba(0,0,0,6%);transition:transform .15s,box-shadow .15s;display:flex;flex-direction:column}.spot-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.spot-img{width:100%;height:200px;object-fit:cover;background:#e8eef4;display:block}.spot-img-ph{width:100%;height:200px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:3rem}.spot-body{padding:1rem 1.1rem 1.1rem;flex:1;display:flex;flex-direction:column}.spot-meta{display:flex;align-items:center;gap:.5rem;margin-bottom:.5rem}.spot-location{font-size:.78rem;color:var(--gray);font-weight:500}.spot-season-badge{margin-left:auto;font-size:.7rem;font-weight:700;padding:.1rem .5rem;border-radius:10px;background:#f0f4f8;color:#555;white-space:nowrap}.spot-name{font-size:1.08rem;font-weight:800;color:var(--dark);margin:0 0 .45rem;line-height:1.3}.spot-desc{font-size:.86rem;line-height:1.65;color:#555;flex:1;margin-bottom:.75rem}.spot-tags{display:flex;flex-wrap:wrap;gap:.3rem}.spot-tag{font-size:.7rem;font-weight:600;padding:.15rem .5rem;border-radius:6px;background:var(--tag-bg,#f0f4f8);color:var(--tag-color,#445)}.tips-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem}.tip-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 6px rgba(0,0,0,4%)}.tip-card-icon{font-size:1.8rem;margin-bottom:.6rem}.tip-card-title{font-size:.95rem;font-weight:800;color:var(--dark);margin-bottom:.5rem}.tip-card-body{font-size:.85rem;line-height:1.65;color:#555}.tip-card-body ul{margin:.3rem 0 0;padding-left:1.1rem}.tip-card-body li{margin-bottom:.2rem}.pref-cta{background:var(--bg-soft);padding:2.5rem 1.5rem 3rem;border-top:1px solid var(--border)}.pref-cta .pref-container{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}@media(max-width:600px){.pref-hero{min-height:320px}.quick-facts{grid-template-columns:repeat(2,1fr)}.pref-toc-btn{padding:.7rem .9rem;font-size:.82rem}}.btn-add-plan{display:inline-flex;align-items:center;gap:.35rem;margin-top:.75rem;padding:.45rem .9rem;border:1.5px solid #2d5be3;border-radius:8px;background:#fff;color:#2d5be3;font-size:.78rem;font-weight:700;font-family:inherit;cursor:pointer;transition:background .15s,color .15s,transform .1s;width:100%;justify-content:center}.btn-add-plan:hover{background:#2d5be3;color:#fff;transform:translateY(-1px)}.btn-add-plan.in-plan{background:#e8f0ff;color:#1a45a8;border-color:#1a45a8}.btn-add-plan.in-plan:hover{background:#c0003a;color:#fff;border-color:#c0003a}.btn-read-guide{display:inline-flex;align-items:center;justify-content:center;gap:.35rem;margin-top:.5rem;padding:.45rem .9rem;border:1.5px solid #1a7a34;border-radius:8px;background:#f0faf2;color:#1a7a34;font-size:.78rem;font-weight:700;text-decoration:none;width:100%;transition:background .15s,color .15s,transform .1s}.btn-read-guide:hover{background:#1a7a34;color:#fff;transform:translateY(-1px);text-decoration:none}.see-all-wrap{text-align:center;margin-top:1.5rem;padding-top:1rem;border-top:1px dashed var(--border)}.see-all-btn{display:inline-flex;align-items:center;gap:.4rem;padding:.55rem 1.5rem;border:2px solid;border-radius:10px;font-size:.88rem;font-weight:700;text-decoration:none;transition:all .15s}.see-all-btn:hover{opacity:.8;text-decoration:none}</style>
+<style>.pref-breadcrumb{background:#f8f9fa;border-bottom:1px solid var(--border);padding:.6rem 1.5rem;font-size:.82rem;color:var(--gray)}.pref-breadcrumb a{color:var(--red);text-decoration:none}.pref-breadcrumb a:hover{text-decoration:underline}.pref-breadcrumb span{margin:0 .4rem}.pref-hero{position:relative;min-height:440px;display:flex;align-items:flex-end;background:#1a0a0a 50%/cover no-repeat;background-image:url(https://images.unsplash.com/photo-1504196606672-aef5c9cefc92?w=1600&q=80)}.pref-hero::after{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,.15) 0%,rgba(0,0,0,.7) 100%)}.pref-hero-body{position:relative;z-index:1;padding:2.5rem 1.5rem 2rem;max-width:var(--max-w);margin:0 auto;width:100%}.pref-hero-eyebrow{color:rgba(255,255,255,.75);font-size:.82rem;font-weight:600;text-transform:uppercase;letter-spacing:.1em;margin-bottom:.5rem}.pref-hero h1{color:#fff;font-size:clamp(2.2rem,5.5vw,3.4rem);font-weight:900;margin:0 0 .5rem;line-height:1.1}.pref-hero .pref-sub{color:rgba(255,255,255,.88);font-size:1.05rem;max-width:560px;margin-bottom:1rem}.pref-stats{display:flex;flex-wrap:wrap;gap:.6rem}.pref-stat{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);border-radius:20px;padding:.3rem .85rem;color:#fff;font-size:.8rem;font-weight:600}.pref-section{padding:2.5rem 1.5rem}.pref-section+.pref-section{padding-top:0}.pref-container{max-width:var(--max-w);margin:0 auto}.pref-section-title{font-size:1.55rem;font-weight:900;margin:0 0 .4rem;display:flex;align-items:center;gap:.5rem}.pref-section-lead{font-size:1rem;color:#555;line-height:1.7;max-width:680px;margin-bottom:1.5rem}.ponko-guide{display:flex;align-items:flex-end;gap:0;margin-bottom:1.6rem}.ponko-bubble{flex:1;min-width:0;background:linear-gradient(135deg,#fff9f0,#fff3e0);border:2px solid #f5a623;border-radius:18px 18px 18px 4px;padding:1.2rem 1.5rem;position:relative;box-shadow:0 4px 14px rgba(245,166,35,.13)}.ponko-bubble::after{content:'';position:absolute;right:-18px;bottom:22px;border:9px solid transparent;border-left-color:#f5a623}.ponko-bubble::before{content:'';position:absolute;right:-13px;bottom:23px;z-index:1;border:8px solid transparent;border-left-color:#fff9f0}.ponko-bubble p{font-size:.97rem;line-height:1.8;color:#333;margin:0}.ponko-figure{flex-shrink:0;width:170px;margin-left:4px;animation:ponko-float 3s ease-in-out infinite}.ponko-figure img{width:100%;height:auto;display:block;filter:drop-shadow(0 6px 10px rgba(0,0,0,.18))}@keyframes ponko-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}@media(max-width:640px){.ponko-guide{flex-direction:column;align-items:center}.ponko-bubble{border-radius:18px;order:2;width:100%}.ponko-bubble::after,.ponko-bubble::before{display:none}.ponko-figure{order:1;width:130px;margin-left:0;margin-bottom:.5rem;animation:none}}.quick-facts{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.8rem;margin-top:1.4rem}.qf-card{background:#f8f9fb;border:1px solid var(--border);border-radius:12px;padding:1rem 1.1rem;display:flex;align-items:flex-start;gap:.7rem}.qf-icon{font-size:1.4rem;flex-shrink:0}.qf-label{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--gray);margin-bottom:.15rem}.qf-value{font-size:.9rem;font-weight:600;color:var(--dark)}.access-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}.access-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 8px rgba(0,0,0,5%)}.access-card-hd{display:flex;align-items:center;gap:.5rem;margin-bottom:.8rem}.access-card-icon{font-size:1.5rem}.access-card-title{font-size:1rem;font-weight:800;color:var(--dark)}.access-card ul{margin:0;padding-left:1.1rem}.access-card li{font-size:.875rem;line-height:1.65;color:#444;margin-bottom:.3rem}.access-card li strong{color:var(--dark)}.access-tip{margin-top:1.2rem;background:#fff8e6;border:1px solid #ffe0a0;border-radius:10px;padding:.9rem 1.1rem;font-size:.85rem;line-height:1.6;color:#5a3e00}.access-tip strong{display:block;margin-bottom:.2rem;font-size:.88rem}.guide-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem}.guide-card{background:#fff;border-radius:14px;overflow:hidden;border:1px solid var(--border);box-shadow:0 2px 8px rgba(0,0,0,5%);transition:transform .15s,box-shadow .15s;position:relative;display:flex;flex-direction:column}.guide-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.guide-card-img{width:100%;height:150px;object-fit:cover;background:#e8eef4;display:block}.guide-card-img-ph{width:100%;height:150px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:2.5rem}.guide-card-body{padding:.9rem 1rem 1rem;flex:1}.guide-cat-badge{display:inline-block;font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;padding:.15rem .55rem;border-radius:8px;background:var(--red);color:#fff;margin-bottom:.4rem}.guide-card-title{font-size:.92rem;font-weight:800;color:var(--dark);line-height:1.4}.guide-coming-soon{position:absolute;top:.6rem;right:.6rem;background:rgba(0,0,0,.55);color:#fff;font-size:.65rem;font-weight:700;padding:.2rem .5rem;border-radius:6px;text-transform:uppercase;letter-spacing:.05em}.guide-card-link{text-decoration:none;color:inherit;display:flex;flex-direction:column;height:100%}.pref-toc{background:#fff;border-bottom:2px solid var(--border);position:sticky;top:0;z-index:100;overflow-x:auto}.pref-toc-inner{display:flex;gap:0;max-width:var(--max-w);margin:0 auto}.pref-toc-btn{flex:none;display:flex;align-items:center;gap:.4rem;padding:.8rem 1.2rem;border:none;background:0 0;cursor:pointer;font-family:inherit;font-size:.88rem;font-weight:600;color:var(--gray);border-bottom:3px solid transparent;transition:all .18s;white-space:nowrap}.pref-toc-btn .toc-icon{font-size:1.1rem}.pref-toc-btn:hover{color:var(--dark);background:#f8f8f8}.pref-toc-btn.active{color:var(--toc-color,var(--red));border-bottom-color:var(--toc-color,var(--red))}.spot-section{padding:2rem 1.5rem 2.5rem}.spot-section.hidden{display:none}.spot-section-inner{max-width:var(--max-w);margin:0 auto}.section-hd{display:flex;align-items:center;gap:.6rem;margin-bottom:1.4rem;padding-bottom:.7rem;border-bottom:2px solid var(--border)}.section-hd .s-icon{font-size:1.6rem}.section-hd h2{font-size:1.35rem;font-weight:800;margin:0}.section-hd .s-count{margin-left:auto;background:var(--sec-color,var(--red));color:#fff;border-radius:20px;padding:.15rem .65rem;font-size:.78rem;font-weight:700}.spot-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.25rem}.spot-card{border-radius:14px;overflow:hidden;border:1px solid var(--border);background:#fff;box-shadow:0 2px 8px rgba(0,0,0,6%);transition:transform .15s,box-shadow .15s;display:flex;flex-direction:column}.spot-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.spot-img{width:100%;height:200px;object-fit:cover;background:#e8eef4;display:block}.spot-img-ph{width:100%;height:200px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:3rem}.spot-body{padding:1rem 1.1rem 1.1rem;flex:1;display:flex;flex-direction:column}.spot-meta{display:flex;align-items:center;gap:.5rem;margin-bottom:.5rem}.spot-location{font-size:.78rem;color:var(--gray);font-weight:500}.spot-season-badge{margin-left:auto;font-size:.7rem;font-weight:700;padding:.1rem .5rem;border-radius:10px;background:#f0f4f8;color:#555;white-space:nowrap}.spot-name{font-size:1.08rem;font-weight:800;color:var(--dark);margin:0 0 .45rem;line-height:1.3}.spot-desc{font-size:.86rem;line-height:1.65;color:#555;flex:1;margin-bottom:.75rem}.spot-tags{display:flex;flex-wrap:wrap;gap:.3rem}.spot-tag{font-size:.7rem;font-weight:600;padding:.15rem .5rem;border-radius:6px;background:var(--tag-bg,#f0f4f8);color:var(--tag-color,#445)}.tips-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem}.tip-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 6px rgba(0,0,0,4%)}.tip-card-icon{font-size:1.8rem;margin-bottom:.6rem}.tip-card-title{font-size:.95rem;font-weight:800;color:var(--dark);margin-bottom:.5rem}.tip-card-body{font-size:.85rem;line-height:1.65;color:#555}.tip-card-body ul{margin:.3rem 0 0;padding-left:1.1rem}.tip-card-body li{margin-bottom:.2rem}.pref-cta{background:var(--bg-soft);padding:2.5rem 1.5rem 3rem;border-top:1px solid var(--border)}.pref-cta .pref-container{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}@media(max-width:600px){.pref-hero{min-height:320px}.quick-facts{grid-template-columns:repeat(2,1fr)}.pref-toc-btn{padding:.7rem .9rem;font-size:.82rem}}.btn-add-plan{display:inline-flex;align-items:center;gap:.35rem;margin-top:.75rem;padding:.45rem .9rem;border:1.5px solid #2d5be3;border-radius:8px;background:#fff;color:#2d5be3;font-size:.78rem;font-weight:700;font-family:inherit;cursor:pointer;transition:background .15s,color .15s,transform .1s;width:100%;justify-content:center}.btn-add-plan:hover{background:#2d5be3;color:#fff;transform:translateY(-1px)}.btn-add-plan.in-plan{background:#e8f0ff;color:#1a45a8;border-color:#1a45a8}.btn-add-plan.in-plan:hover{background:#c0003a;color:#fff;border-color:#c0003a}.btn-read-guide{display:inline-flex;align-items:center;justify-content:center;gap:.35rem;margin-top:.5rem;padding:.45rem .9rem;border:1.5px solid #1a7a34;border-radius:8px;background:#f0faf2;color:#1a7a34;font-size:.78rem;font-weight:700;text-decoration:none;width:100%;transition:background .15s,color .15s,transform .1s}.btn-read-guide:hover{background:#1a7a34;color:#fff;transform:translateY(-1px);text-decoration:none}.see-all-wrap{text-align:center;margin-top:1.5rem;padding-top:1rem;border-top:1px dashed var(--border)}.see-all-btn{display:inline-flex;align-items:center;gap:.4rem;padding:.55rem 1.5rem;border:2px solid;border-radius:10px;font-size:.88rem;font-weight:700;text-decoration:none;transition:all .15s}.see-all-btn:hover{opacity:.8;text-decoration:none}.see-all-btn{cursor:pointer;background:0 0}.spot-card.spot-more{display:none}.spot-section.spots-expanded .spot-card.spot-more{display:flex}.spot-section.spots-expanded .see-all-wrap{display:none}</style>
 <nav class=pref-breadcrumb aria-label=breadcrumb>
 <a href=/>Accueil</a><span>›</span>
 <a href=/explore/>Explorer le Japon</a><span>›</span>
@@ -543,11 +543,191 @@ Mais Kumamoto n'est pas que feu et fureur. Le jardin serein de Suizenji reprodui
 </button>
 </div>
 </article>
+<article class="spot-card spot-more" data-spot-id=minami-aso-museum data-spot-name="Musée de Minami Aso" data-spot-pref=kumamoto data-spot-fee=800 data-spot-dur=90 data-spot-lat=32.6856 data-spot-lng=131.1234 data-spot-area=aso-region data-spot-rating=4.2 data-spot-reviews=750 data-spot-img="https://images.unsplash.com/photo-1532012197267-da84d127e765?w=800&q=80" data-spot-cats=sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1532012197267-da84d127e765?w=800&q=80" alt="Musée de Minami Aso" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Région d'Aso, Kumamoto</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Musée de Minami Aso</h3>
+<p class=spot-desc>Ce musée moderne explique la géologie et l'écologie du Mont Aso à travers des présentations interactives et des expositions immersives. Les visiteurs acquièrent une compréhension approfondie de l'activité volcanique, de la formation de la caldeira et des particularités géologiques uniques de la région.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Géologie volcanique</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Expositions interactives</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Éducation</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=kiyomizu-temple data-spot-name="Temple Kiyomizu" data-spot-pref=kumamoto data-spot-fee=400 data-spot-dur=60 data-spot-lat=32.8341 data-spot-lng=130.7289 data-spot-area=central-kumamoto data-spot-rating=4.2 data-spot-reviews=710 data-spot-img="https://images.unsplash.com/photo-1548599537-c2697a5b9db9?w=800&q=80" data-spot-cats=sightseeing,sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1548599537-c2697a5b9db9?w=800&q=80" alt="Temple Kiyomizu" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Centre de Kumamoto, Kumamoto</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Temple Kiyomizu</h3>
+<p class=spot-desc>Construit en 1200 et arborant un style architectural traditionnel, le temple Kiyomizu offre une enceinte sereine avec des vues sur le paysage environnant. Le complexe comprend plusieurs bâtiments illustrant différentes périodes historiques ainsi que de l'art religieux.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Temple historique</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Belvédère pittoresque</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Site culturel</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=shrine-island-amakusa data-spot-name="Île du Sanctuaire (Amakusa)" data-spot-pref=kumamoto data-spot-fee=0 data-spot-dur=45 data-spot-lat=32.3945 data-spot-lng=130.4123 data-spot-area=amakusa data-spot-rating=4.2 data-spot-reviews=520 data-spot-img="https://images.unsplash.com/photo-1564399579883-451a5d44ec08?w=800&q=80" data-spot-cats=sightseeing,sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1564399579883-451a5d44ec08?w=800&q=80" alt="Île du Sanctuaire (Amakusa)" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Îles Amakusa, Kumamoto</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Île du Sanctuaire (Amakusa)</h3>
+<p class=spot-desc>Accessible par un pont ou en bateau, cette petite île abrite un ancien sanctuaire entouré d'une nature splendide et de vues sur l'océan. L'alliance de la portée spirituelle et de l'atmosphère insulaire isolée en fait une paisible retraite pour les visiteurs en quête d'introspection.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Site religieux</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Vues côtières</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Joyau caché</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=yamaga-lantern-museum data-spot-name="Musée des Lanternes de Yamaga" data-spot-pref=kumamoto data-spot-fee=500 data-spot-dur=60 data-spot-lat=32.9561 data-spot-lng=130.8145 data-spot-area=yamaga data-spot-rating=4.2 data-spot-reviews=620 data-spot-img="https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?w=800&q=80" data-spot-cats=sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?w=800&q=80" alt="Musée des Lanternes de Yamaga" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Yamaga, Kumamoto</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Musée des Lanternes de Yamaga</h3>
+<p class=spot-desc>Consacré à la tradition vieille de 600 ans de fabrication de lanternes à Yamaga, ce musée présente de délicates lanternes en papier, des modèles les plus simples aux chefs-d'œuvre les plus élaborés. Les visiteurs peuvent observer les artisans à l'œuvre et même participer à des ateliers de fabrication de lanternes pour comprendre cet artisanat unique.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Lanternes traditionnelles</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Patrimoine culturel</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Art local</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=kumamoto-prefectural-museum data-spot-name="Musée préfectoral de Kumamoto" data-spot-pref=kumamoto data-spot-fee=600 data-spot-dur=120 data-spot-lat=32.8049 data-spot-lng=130.7198 data-spot-area=central-kumamoto data-spot-rating=4.1 data-spot-reviews=650 data-spot-img="https://images.unsplash.com/photo-1532012197267-da84d127e765?w=800&q=80" data-spot-cats=sightseeing,sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1532012197267-da84d127e765?w=800&q=80" alt="Musée préfectoral de Kumamoto" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Centre de Kumamoto, Kumamoto</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Musée préfectoral de Kumamoto</h3>
+<p class=spot-desc>Un musée complet retraçant l'histoire de Kumamoto, de l'Antiquité à l'ère moderne, à travers des œuvres d'art, de l'artisanat et des objets historiques. Des collections spéciales mettent en valeur les arts régionaux comme la fabrication de lanternes et la poterie, aux côtés d'expositions tournantes d'art contemporain.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Art et Histoire</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Collections culturelles</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Éducatif</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=gunkei-temple data-spot-name="Temple Gunkei" data-spot-pref=kumamoto data-spot-fee=500 data-spot-dur=60 data-spot-lat=32.2642 data-spot-lng=131.0089 data-spot-area=hitoyoshi data-spot-rating=4.1 data-spot-reviews=540 data-spot-img="https://images.unsplash.com/photo-1548599537-c2697a5b9db9?w=800&q=80" data-spot-cats=sightseeing,sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1548599537-c2697a5b9db9?w=800&q=80" alt="Temple Gunkei" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Hitoyoshi, Kumamoto</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Temple Gunkei</h3>
+<p class=spot-desc>Abritant l'une des plus grandes statues de Bouddha en pierre du Japon, le temple Gunkei est une paisible destination spirituelle riche de plusieurs siècles d'histoire. L'enceinte du temple se distingue par ses beaux jardins et offre un aperçu de l'architecture bouddhiste et du patrimoine religieux régional.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Temple historique</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Statue de Bouddha</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Site spirituel</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=tatsuda-shrine data-spot-name="Sanctuaire Tatsuda" data-spot-pref=kumamoto data-spot-fee=0 data-spot-dur=40 data-spot-lat=32.4892 data-spot-lng=130.2867 data-spot-area=amakusa data-spot-rating=4.1 data-spot-reviews=380 data-spot-img="https://images.unsplash.com/photo-1564399579883-451a5d44ec08?w=800&q=80" data-spot-cats=sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1564399579883-451a5d44ec08?w=800&q=80" alt="Sanctuaire Tatsuda" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Îles Amakusa, Kumamoto</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Sanctuaire Tatsuda</h3>
+<p class=spot-desc>Un sanctuaire pittoresque niché dans un cadre naturel, avec un saisissant torii rouge et une enceinte paisible. Le sanctuaire offre une alternative plus tranquille aux temples bondés, avec une authentique atmosphère spirituelle et de jolis sentiers de promenade.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Sanctuaire sacré</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Portail rouge</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Monument spirituel</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=myozen-ji-temple data-spot-name="Temple Myozen-ji" data-spot-pref=kumamoto data-spot-fee=300 data-spot-dur=45 data-spot-lat=32.8128 data-spot-lng=130.7615 data-spot-area=central-kumamoto data-spot-rating=4 data-spot-reviews=480 data-spot-img="https://images.unsplash.com/photo-1548599537-c2697a5b9db9?w=800&q=80" data-spot-cats=sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1548599537-c2697a5b9db9?w=800&q=80" alt="Temple Myozen-ji" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Centre de Kumamoto, Kumamoto</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Temple Myozen-ji</h3>
+<p class=spot-desc>Ce paisible temple bouddhiste offre d'excellents exemples d'architecture japonaise traditionnelle ainsi qu'une enceinte soigneusement entretenue, parée de fleurs au fil des saisons. L'atmosphère sereine procure une authentique expérience spirituelle, loin des sites touristiques bondés.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Temple bouddhiste</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Enceinte paisible</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Architecture historique</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=otemon-museum data-spot-name="Musée d&amp;#39;Art moderne Otemon" data-spot-pref=kumamoto data-spot-fee=700 data-spot-dur=90 data-spot-lat=32.8095 data-spot-lng=130.735 data-spot-area=central-kumamoto data-spot-rating=3.9 data-spot-reviews=480 data-spot-img="https://images.unsplash.com/photo-1578301978162-7aae4d755744?w=800&q=80" data-spot-cats=sightseeing,sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1578301978162-7aae4d755744?w=800&q=80" alt="Musée d'Art moderne Otemon" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Centre de Kumamoto, Kumamoto</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Musée d'Art moderne Otemon</h3>
+<p class=spot-desc>Situé à proximité de l'historique château de Kumamoto, ce musée d'art moderne présente des œuvres contemporaines mettant l'accent sur les artistes régionaux et les installations novatrices. Le bâtiment moderne lui-même est architecturalement remarquable et offre un contraste frappant avec l'esthétique traditionnelle du château.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Art contemporain</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Galerie moderne</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Institution culturelle</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 </div>
 <div class=see-all-wrap>
-<a class=see-all-btn style=color:#1a45a8 href=/prefectures/kumamoto/sightseeing/>
-See all 15 Sites touristiques spots →
-</a>
+<button class="see-all-btn show-more-btn" style=color:#1a45a8 type=button data-section=section-sightseeing>
+Voir tout (15) ↓
+</button>
 </div>
 </div>
 </section><section class=spot-section id=section-gourmet data-cat=gourmet>
@@ -790,11 +970,31 @@ See all 15 Sites touristiques spots →
 </button>
 </div>
 </article>
+<article class="spot-card spot-more" data-spot-id=ujitawara-gorge data-spot-name="Gorges d&amp;#39;Ujitawara" data-spot-pref=kumamoto data-spot-fee=0 data-spot-dur=120 data-spot-lat=32.6423 data-spot-lng=131.2567 data-spot-area=aso-region data-spot-rating=4.3 data-spot-reviews=680 data-spot-img="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" data-spot-cats=nature>
+<img class=spot-img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" alt="Gorges d'Ujitawara" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🏔️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Région d'Aso, Kumamoto</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Gorges d'Ujitawara</h3>
+<p class=spot-desc>Des gorges époustouflantes aux formations rocheuses spectaculaires, aux cascades limpides et à la dense végétation forestière. Les gorges offrent d'excellents sentiers de randonnée de difficulté variée et des vues saisissantes, particulièrement belles à la saison du feuillage d'automne.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Gorges pittoresques</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Randonnée</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Beauté saisonnière</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 </div>
 <div class=see-all-wrap>
-<a class=see-all-btn style=color:#1a7a34 href=/prefectures/kumamoto/nature/>
-See all 7 Nature spots →
-</a>
+<button class="see-all-btn show-more-btn" style=color:#1a7a34 type=button data-section=section-nature>
+Voir tout (7) ↓
+</button>
 </div>
 </div>
 </section><section class=spot-section id=section-leisure data-cat=leisure>
@@ -926,11 +1126,51 @@ See all 7 Nature spots →
 </button>
 </div>
 </article>
+<article class="spot-card spot-more" data-spot-id=amakusa-islands data-spot-name="Îles Amakusa" data-spot-pref=kumamoto data-spot-fee=0 data-spot-dur=240 data-spot-lat=32.4598 data-spot-lng=130.3256 data-spot-area=amakusa data-spot-rating=4.3 data-spot-reviews=1400 data-spot-img="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" data-spot-cats=nature,leisure>
+<img class=spot-img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" alt="Îles Amakusa" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎿</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Îles Amakusa, Kumamoto</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Îles Amakusa</h3>
+<p class=spot-desc>Cet archipel s'étend sur la mer d'Ariake avec de belles plages, de charmants villages de pêcheurs et des sites du patrimoine chrétien. Les îles Amakusa offrent une échappée paisible avec des occasions de sauter d'île en île, de pratiquer des sports nautiques et de découvrir la culture locale loin des circuits touristiques classiques.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Chapelet d'îles</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Paysage côtier</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Joyau caché</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=omizone-tea-village data-spot-name="Village du Thé d&amp;#39;Omizone" data-spot-pref=kumamoto data-spot-fee=1500 data-spot-dur=120 data-spot-lat=32.5678 data-spot-lng=131.3456 data-spot-area=aso-region data-spot-rating=4.2 data-spot-reviews=390 data-spot-img="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=80" data-spot-cats=gourmet,leisure>
+<img class=spot-img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=80" alt="Village du Thé d'Omizone" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎿</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Région d'Aso, Kumamoto</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Village du Thé d'Omizone</h3>
+<p class=spot-desc>Une paisible région de culture du thé où les visiteurs peuvent parcourir les champs de thé, observer les techniques de transformation et participer à des séances de dégustation. Ce trésor méconnu offre une authentique expérience rurale et l'occasion d'acheter un thé local haut de gamme directement auprès des producteurs.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Culture du thé</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Produit local</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Joyau caché</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 </div>
 <div class=see-all-wrap>
-<a class=see-all-btn style=color:#b35c00 href=/prefectures/kumamoto/leisure/>
-See all 8 Loisirs spots →
-</a>
+<button class="see-all-btn show-more-btn" style=color:#b35c00 type=button data-section=section-leisure>
+Voir tout (8) ↓
+</button>
 </div>
 </div>
 </section><section class=spot-section id=section-events data-cat=events>
@@ -1122,6 +1362,13 @@ See all 8 Loisirs spots →
 </div>
 <script>
 (function(){
+ 
+document.querySelectorAll('.show-more-btn').forEach(function(btn){
+  btn.addEventListener('click', function(){
+    var sec = document.getElementById(btn.dataset.section);
+    if (sec) sec.classList.add('spots-expanded');
+  });
+});
  
 const CATS = {
   sightseeing:{ color:"#1a45a8" },

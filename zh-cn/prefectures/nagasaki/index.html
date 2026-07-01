@@ -99,7 +99,7 @@
   document.addEventListener('keydown', function(e){ if(e.key==='Escape') close(); });
 })();
 </script>
-<style>.pref-breadcrumb{background:#f8f9fa;border-bottom:1px solid var(--border);padding:.6rem 1.5rem;font-size:.82rem;color:var(--gray)}.pref-breadcrumb a{color:var(--red);text-decoration:none}.pref-breadcrumb a:hover{text-decoration:underline}.pref-breadcrumb span{margin:0 .4rem}.pref-hero{position:relative;min-height:440px;display:flex;align-items:flex-end;background:#0a1a2a 50%/cover no-repeat;background-image:url(https://images.unsplash.com/photo-1519307212971-dd9561667ffb?w=1600&q=80)}.pref-hero::after{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,.15) 0%,rgba(0,0,0,.7) 100%)}.pref-hero-body{position:relative;z-index:1;padding:2.5rem 1.5rem 2rem;max-width:var(--max-w);margin:0 auto;width:100%}.pref-hero-eyebrow{color:rgba(255,255,255,.75);font-size:.82rem;font-weight:600;text-transform:uppercase;letter-spacing:.1em;margin-bottom:.5rem}.pref-hero h1{color:#fff;font-size:clamp(2.2rem,5.5vw,3.4rem);font-weight:900;margin:0 0 .5rem;line-height:1.1}.pref-hero .pref-sub{color:rgba(255,255,255,.88);font-size:1.05rem;max-width:560px;margin-bottom:1rem}.pref-stats{display:flex;flex-wrap:wrap;gap:.6rem}.pref-stat{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);border-radius:20px;padding:.3rem .85rem;color:#fff;font-size:.8rem;font-weight:600}.pref-section{padding:2.5rem 1.5rem}.pref-section+.pref-section{padding-top:0}.pref-container{max-width:var(--max-w);margin:0 auto}.pref-section-title{font-size:1.55rem;font-weight:900;margin:0 0 .4rem;display:flex;align-items:center;gap:.5rem}.pref-section-lead{font-size:1rem;color:#555;line-height:1.7;max-width:680px;margin-bottom:1.5rem}.ponko-guide{display:flex;align-items:flex-end;gap:0;margin-bottom:1.6rem}.ponko-bubble{flex:1;min-width:0;background:linear-gradient(135deg,#fff9f0,#fff3e0);border:2px solid #f5a623;border-radius:18px 18px 18px 4px;padding:1.2rem 1.5rem;position:relative;box-shadow:0 4px 14px rgba(245,166,35,.13)}.ponko-bubble::after{content:'';position:absolute;right:-18px;bottom:22px;border:9px solid transparent;border-left-color:#f5a623}.ponko-bubble::before{content:'';position:absolute;right:-13px;bottom:23px;z-index:1;border:8px solid transparent;border-left-color:#fff9f0}.ponko-bubble p{font-size:.97rem;line-height:1.8;color:#333;margin:0}.ponko-figure{flex-shrink:0;width:170px;margin-left:4px;animation:ponko-float 3s ease-in-out infinite}.ponko-figure img{width:100%;height:auto;display:block;filter:drop-shadow(0 6px 10px rgba(0,0,0,.18))}@keyframes ponko-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}@media(max-width:640px){.ponko-guide{flex-direction:column;align-items:center}.ponko-bubble{border-radius:18px;order:2;width:100%}.ponko-bubble::after,.ponko-bubble::before{display:none}.ponko-figure{order:1;width:130px;margin-left:0;margin-bottom:.5rem;animation:none}}.quick-facts{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.8rem;margin-top:1.4rem}.qf-card{background:#f8f9fb;border:1px solid var(--border);border-radius:12px;padding:1rem 1.1rem;display:flex;align-items:flex-start;gap:.7rem}.qf-icon{font-size:1.4rem;flex-shrink:0}.qf-label{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--gray);margin-bottom:.15rem}.qf-value{font-size:.9rem;font-weight:600;color:var(--dark)}.access-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}.access-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 8px rgba(0,0,0,5%)}.access-card-hd{display:flex;align-items:center;gap:.5rem;margin-bottom:.8rem}.access-card-icon{font-size:1.5rem}.access-card-title{font-size:1rem;font-weight:800;color:var(--dark)}.access-card ul{margin:0;padding-left:1.1rem}.access-card li{font-size:.875rem;line-height:1.65;color:#444;margin-bottom:.3rem}.access-card li strong{color:var(--dark)}.access-tip{margin-top:1.2rem;background:#fff8e6;border:1px solid #ffe0a0;border-radius:10px;padding:.9rem 1.1rem;font-size:.85rem;line-height:1.6;color:#5a3e00}.access-tip strong{display:block;margin-bottom:.2rem;font-size:.88rem}.guide-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem}.guide-card{background:#fff;border-radius:14px;overflow:hidden;border:1px solid var(--border);box-shadow:0 2px 8px rgba(0,0,0,5%);transition:transform .15s,box-shadow .15s;position:relative;display:flex;flex-direction:column}.guide-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.guide-card-img{width:100%;height:150px;object-fit:cover;background:#e8eef4;display:block}.guide-card-img-ph{width:100%;height:150px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:2.5rem}.guide-card-body{padding:.9rem 1rem 1rem;flex:1}.guide-cat-badge{display:inline-block;font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;padding:.15rem .55rem;border-radius:8px;background:var(--red);color:#fff;margin-bottom:.4rem}.guide-card-title{font-size:.92rem;font-weight:800;color:var(--dark);line-height:1.4}.guide-coming-soon{position:absolute;top:.6rem;right:.6rem;background:rgba(0,0,0,.55);color:#fff;font-size:.65rem;font-weight:700;padding:.2rem .5rem;border-radius:6px;text-transform:uppercase;letter-spacing:.05em}.guide-card-link{text-decoration:none;color:inherit;display:flex;flex-direction:column;height:100%}.pref-toc{background:#fff;border-bottom:2px solid var(--border);position:sticky;top:0;z-index:100;overflow-x:auto}.pref-toc-inner{display:flex;gap:0;max-width:var(--max-w);margin:0 auto}.pref-toc-btn{flex:none;display:flex;align-items:center;gap:.4rem;padding:.8rem 1.2rem;border:none;background:0 0;cursor:pointer;font-family:inherit;font-size:.88rem;font-weight:600;color:var(--gray);border-bottom:3px solid transparent;transition:all .18s;white-space:nowrap}.pref-toc-btn .toc-icon{font-size:1.1rem}.pref-toc-btn:hover{color:var(--dark);background:#f8f8f8}.pref-toc-btn.active{color:var(--toc-color,var(--red));border-bottom-color:var(--toc-color,var(--red))}.spot-section{padding:2rem 1.5rem 2.5rem}.spot-section.hidden{display:none}.spot-section-inner{max-width:var(--max-w);margin:0 auto}.section-hd{display:flex;align-items:center;gap:.6rem;margin-bottom:1.4rem;padding-bottom:.7rem;border-bottom:2px solid var(--border)}.section-hd .s-icon{font-size:1.6rem}.section-hd h2{font-size:1.35rem;font-weight:800;margin:0}.section-hd .s-count{margin-left:auto;background:var(--sec-color,var(--red));color:#fff;border-radius:20px;padding:.15rem .65rem;font-size:.78rem;font-weight:700}.spot-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.25rem}.spot-card{border-radius:14px;overflow:hidden;border:1px solid var(--border);background:#fff;box-shadow:0 2px 8px rgba(0,0,0,6%);transition:transform .15s,box-shadow .15s;display:flex;flex-direction:column}.spot-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.spot-img{width:100%;height:200px;object-fit:cover;background:#e8eef4;display:block}.spot-img-ph{width:100%;height:200px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:3rem}.spot-body{padding:1rem 1.1rem 1.1rem;flex:1;display:flex;flex-direction:column}.spot-meta{display:flex;align-items:center;gap:.5rem;margin-bottom:.5rem}.spot-location{font-size:.78rem;color:var(--gray);font-weight:500}.spot-season-badge{margin-left:auto;font-size:.7rem;font-weight:700;padding:.1rem .5rem;border-radius:10px;background:#f0f4f8;color:#555;white-space:nowrap}.spot-name{font-size:1.08rem;font-weight:800;color:var(--dark);margin:0 0 .45rem;line-height:1.3}.spot-desc{font-size:.86rem;line-height:1.65;color:#555;flex:1;margin-bottom:.75rem}.spot-tags{display:flex;flex-wrap:wrap;gap:.3rem}.spot-tag{font-size:.7rem;font-weight:600;padding:.15rem .5rem;border-radius:6px;background:var(--tag-bg,#f0f4f8);color:var(--tag-color,#445)}.tips-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem}.tip-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 6px rgba(0,0,0,4%)}.tip-card-icon{font-size:1.8rem;margin-bottom:.6rem}.tip-card-title{font-size:.95rem;font-weight:800;color:var(--dark);margin-bottom:.5rem}.tip-card-body{font-size:.85rem;line-height:1.65;color:#555}.tip-card-body ul{margin:.3rem 0 0;padding-left:1.1rem}.tip-card-body li{margin-bottom:.2rem}.pref-cta{background:var(--bg-soft);padding:2.5rem 1.5rem 3rem;border-top:1px solid var(--border)}.pref-cta .pref-container{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}@media(max-width:600px){.pref-hero{min-height:320px}.quick-facts{grid-template-columns:repeat(2,1fr)}.pref-toc-btn{padding:.7rem .9rem;font-size:.82rem}}.btn-add-plan{display:inline-flex;align-items:center;gap:.35rem;margin-top:.75rem;padding:.45rem .9rem;border:1.5px solid #2d5be3;border-radius:8px;background:#fff;color:#2d5be3;font-size:.78rem;font-weight:700;font-family:inherit;cursor:pointer;transition:background .15s,color .15s,transform .1s;width:100%;justify-content:center}.btn-add-plan:hover{background:#2d5be3;color:#fff;transform:translateY(-1px)}.btn-add-plan.in-plan{background:#e8f0ff;color:#1a45a8;border-color:#1a45a8}.btn-add-plan.in-plan:hover{background:#c0003a;color:#fff;border-color:#c0003a}.btn-read-guide{display:inline-flex;align-items:center;justify-content:center;gap:.35rem;margin-top:.5rem;padding:.45rem .9rem;border:1.5px solid #1a7a34;border-radius:8px;background:#f0faf2;color:#1a7a34;font-size:.78rem;font-weight:700;text-decoration:none;width:100%;transition:background .15s,color .15s,transform .1s}.btn-read-guide:hover{background:#1a7a34;color:#fff;transform:translateY(-1px);text-decoration:none}.see-all-wrap{text-align:center;margin-top:1.5rem;padding-top:1rem;border-top:1px dashed var(--border)}.see-all-btn{display:inline-flex;align-items:center;gap:.4rem;padding:.55rem 1.5rem;border:2px solid;border-radius:10px;font-size:.88rem;font-weight:700;text-decoration:none;transition:all .15s}.see-all-btn:hover{opacity:.8;text-decoration:none}</style>
+<style>.pref-breadcrumb{background:#f8f9fa;border-bottom:1px solid var(--border);padding:.6rem 1.5rem;font-size:.82rem;color:var(--gray)}.pref-breadcrumb a{color:var(--red);text-decoration:none}.pref-breadcrumb a:hover{text-decoration:underline}.pref-breadcrumb span{margin:0 .4rem}.pref-hero{position:relative;min-height:440px;display:flex;align-items:flex-end;background:#0a1a2a 50%/cover no-repeat;background-image:url(https://images.unsplash.com/photo-1519307212971-dd9561667ffb?w=1600&q=80)}.pref-hero::after{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,.15) 0%,rgba(0,0,0,.7) 100%)}.pref-hero-body{position:relative;z-index:1;padding:2.5rem 1.5rem 2rem;max-width:var(--max-w);margin:0 auto;width:100%}.pref-hero-eyebrow{color:rgba(255,255,255,.75);font-size:.82rem;font-weight:600;text-transform:uppercase;letter-spacing:.1em;margin-bottom:.5rem}.pref-hero h1{color:#fff;font-size:clamp(2.2rem,5.5vw,3.4rem);font-weight:900;margin:0 0 .5rem;line-height:1.1}.pref-hero .pref-sub{color:rgba(255,255,255,.88);font-size:1.05rem;max-width:560px;margin-bottom:1rem}.pref-stats{display:flex;flex-wrap:wrap;gap:.6rem}.pref-stat{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);border-radius:20px;padding:.3rem .85rem;color:#fff;font-size:.8rem;font-weight:600}.pref-section{padding:2.5rem 1.5rem}.pref-section+.pref-section{padding-top:0}.pref-container{max-width:var(--max-w);margin:0 auto}.pref-section-title{font-size:1.55rem;font-weight:900;margin:0 0 .4rem;display:flex;align-items:center;gap:.5rem}.pref-section-lead{font-size:1rem;color:#555;line-height:1.7;max-width:680px;margin-bottom:1.5rem}.ponko-guide{display:flex;align-items:flex-end;gap:0;margin-bottom:1.6rem}.ponko-bubble{flex:1;min-width:0;background:linear-gradient(135deg,#fff9f0,#fff3e0);border:2px solid #f5a623;border-radius:18px 18px 18px 4px;padding:1.2rem 1.5rem;position:relative;box-shadow:0 4px 14px rgba(245,166,35,.13)}.ponko-bubble::after{content:'';position:absolute;right:-18px;bottom:22px;border:9px solid transparent;border-left-color:#f5a623}.ponko-bubble::before{content:'';position:absolute;right:-13px;bottom:23px;z-index:1;border:8px solid transparent;border-left-color:#fff9f0}.ponko-bubble p{font-size:.97rem;line-height:1.8;color:#333;margin:0}.ponko-figure{flex-shrink:0;width:170px;margin-left:4px;animation:ponko-float 3s ease-in-out infinite}.ponko-figure img{width:100%;height:auto;display:block;filter:drop-shadow(0 6px 10px rgba(0,0,0,.18))}@keyframes ponko-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}@media(max-width:640px){.ponko-guide{flex-direction:column;align-items:center}.ponko-bubble{border-radius:18px;order:2;width:100%}.ponko-bubble::after,.ponko-bubble::before{display:none}.ponko-figure{order:1;width:130px;margin-left:0;margin-bottom:.5rem;animation:none}}.quick-facts{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.8rem;margin-top:1.4rem}.qf-card{background:#f8f9fb;border:1px solid var(--border);border-radius:12px;padding:1rem 1.1rem;display:flex;align-items:flex-start;gap:.7rem}.qf-icon{font-size:1.4rem;flex-shrink:0}.qf-label{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--gray);margin-bottom:.15rem}.qf-value{font-size:.9rem;font-weight:600;color:var(--dark)}.access-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}.access-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 8px rgba(0,0,0,5%)}.access-card-hd{display:flex;align-items:center;gap:.5rem;margin-bottom:.8rem}.access-card-icon{font-size:1.5rem}.access-card-title{font-size:1rem;font-weight:800;color:var(--dark)}.access-card ul{margin:0;padding-left:1.1rem}.access-card li{font-size:.875rem;line-height:1.65;color:#444;margin-bottom:.3rem}.access-card li strong{color:var(--dark)}.access-tip{margin-top:1.2rem;background:#fff8e6;border:1px solid #ffe0a0;border-radius:10px;padding:.9rem 1.1rem;font-size:.85rem;line-height:1.6;color:#5a3e00}.access-tip strong{display:block;margin-bottom:.2rem;font-size:.88rem}.guide-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem}.guide-card{background:#fff;border-radius:14px;overflow:hidden;border:1px solid var(--border);box-shadow:0 2px 8px rgba(0,0,0,5%);transition:transform .15s,box-shadow .15s;position:relative;display:flex;flex-direction:column}.guide-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.guide-card-img{width:100%;height:150px;object-fit:cover;background:#e8eef4;display:block}.guide-card-img-ph{width:100%;height:150px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:2.5rem}.guide-card-body{padding:.9rem 1rem 1rem;flex:1}.guide-cat-badge{display:inline-block;font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;padding:.15rem .55rem;border-radius:8px;background:var(--red);color:#fff;margin-bottom:.4rem}.guide-card-title{font-size:.92rem;font-weight:800;color:var(--dark);line-height:1.4}.guide-coming-soon{position:absolute;top:.6rem;right:.6rem;background:rgba(0,0,0,.55);color:#fff;font-size:.65rem;font-weight:700;padding:.2rem .5rem;border-radius:6px;text-transform:uppercase;letter-spacing:.05em}.guide-card-link{text-decoration:none;color:inherit;display:flex;flex-direction:column;height:100%}.pref-toc{background:#fff;border-bottom:2px solid var(--border);position:sticky;top:0;z-index:100;overflow-x:auto}.pref-toc-inner{display:flex;gap:0;max-width:var(--max-w);margin:0 auto}.pref-toc-btn{flex:none;display:flex;align-items:center;gap:.4rem;padding:.8rem 1.2rem;border:none;background:0 0;cursor:pointer;font-family:inherit;font-size:.88rem;font-weight:600;color:var(--gray);border-bottom:3px solid transparent;transition:all .18s;white-space:nowrap}.pref-toc-btn .toc-icon{font-size:1.1rem}.pref-toc-btn:hover{color:var(--dark);background:#f8f8f8}.pref-toc-btn.active{color:var(--toc-color,var(--red));border-bottom-color:var(--toc-color,var(--red))}.spot-section{padding:2rem 1.5rem 2.5rem}.spot-section.hidden{display:none}.spot-section-inner{max-width:var(--max-w);margin:0 auto}.section-hd{display:flex;align-items:center;gap:.6rem;margin-bottom:1.4rem;padding-bottom:.7rem;border-bottom:2px solid var(--border)}.section-hd .s-icon{font-size:1.6rem}.section-hd h2{font-size:1.35rem;font-weight:800;margin:0}.section-hd .s-count{margin-left:auto;background:var(--sec-color,var(--red));color:#fff;border-radius:20px;padding:.15rem .65rem;font-size:.78rem;font-weight:700}.spot-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.25rem}.spot-card{border-radius:14px;overflow:hidden;border:1px solid var(--border);background:#fff;box-shadow:0 2px 8px rgba(0,0,0,6%);transition:transform .15s,box-shadow .15s;display:flex;flex-direction:column}.spot-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.spot-img{width:100%;height:200px;object-fit:cover;background:#e8eef4;display:block}.spot-img-ph{width:100%;height:200px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:3rem}.spot-body{padding:1rem 1.1rem 1.1rem;flex:1;display:flex;flex-direction:column}.spot-meta{display:flex;align-items:center;gap:.5rem;margin-bottom:.5rem}.spot-location{font-size:.78rem;color:var(--gray);font-weight:500}.spot-season-badge{margin-left:auto;font-size:.7rem;font-weight:700;padding:.1rem .5rem;border-radius:10px;background:#f0f4f8;color:#555;white-space:nowrap}.spot-name{font-size:1.08rem;font-weight:800;color:var(--dark);margin:0 0 .45rem;line-height:1.3}.spot-desc{font-size:.86rem;line-height:1.65;color:#555;flex:1;margin-bottom:.75rem}.spot-tags{display:flex;flex-wrap:wrap;gap:.3rem}.spot-tag{font-size:.7rem;font-weight:600;padding:.15rem .5rem;border-radius:6px;background:var(--tag-bg,#f0f4f8);color:var(--tag-color,#445)}.tips-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem}.tip-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 6px rgba(0,0,0,4%)}.tip-card-icon{font-size:1.8rem;margin-bottom:.6rem}.tip-card-title{font-size:.95rem;font-weight:800;color:var(--dark);margin-bottom:.5rem}.tip-card-body{font-size:.85rem;line-height:1.65;color:#555}.tip-card-body ul{margin:.3rem 0 0;padding-left:1.1rem}.tip-card-body li{margin-bottom:.2rem}.pref-cta{background:var(--bg-soft);padding:2.5rem 1.5rem 3rem;border-top:1px solid var(--border)}.pref-cta .pref-container{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}@media(max-width:600px){.pref-hero{min-height:320px}.quick-facts{grid-template-columns:repeat(2,1fr)}.pref-toc-btn{padding:.7rem .9rem;font-size:.82rem}}.btn-add-plan{display:inline-flex;align-items:center;gap:.35rem;margin-top:.75rem;padding:.45rem .9rem;border:1.5px solid #2d5be3;border-radius:8px;background:#fff;color:#2d5be3;font-size:.78rem;font-weight:700;font-family:inherit;cursor:pointer;transition:background .15s,color .15s,transform .1s;width:100%;justify-content:center}.btn-add-plan:hover{background:#2d5be3;color:#fff;transform:translateY(-1px)}.btn-add-plan.in-plan{background:#e8f0ff;color:#1a45a8;border-color:#1a45a8}.btn-add-plan.in-plan:hover{background:#c0003a;color:#fff;border-color:#c0003a}.btn-read-guide{display:inline-flex;align-items:center;justify-content:center;gap:.35rem;margin-top:.5rem;padding:.45rem .9rem;border:1.5px solid #1a7a34;border-radius:8px;background:#f0faf2;color:#1a7a34;font-size:.78rem;font-weight:700;text-decoration:none;width:100%;transition:background .15s,color .15s,transform .1s}.btn-read-guide:hover{background:#1a7a34;color:#fff;transform:translateY(-1px);text-decoration:none}.see-all-wrap{text-align:center;margin-top:1.5rem;padding-top:1rem;border-top:1px dashed var(--border)}.see-all-btn{display:inline-flex;align-items:center;gap:.4rem;padding:.55rem 1.5rem;border:2px solid;border-radius:10px;font-size:.88rem;font-weight:700;text-decoration:none;transition:all .15s}.see-all-btn:hover{opacity:.8;text-decoration:none}.see-all-btn{cursor:pointer;background:0 0}.spot-card.spot-more{display:none}.spot-section.spots-expanded .spot-card.spot-more{display:flex}.spot-section.spots-expanded .see-all-wrap{display:none}</style>
 <nav class=pref-breadcrumb aria-label=breadcrumb>
 <a href=/>首页</a><span>›</span>
 <a href=/explore/>探索日本</a><span>›</span>
@@ -546,11 +546,242 @@
 </button>
 </div>
 </article>
+<article class="spot-card spot-more" data-spot-id=dutch-slope-street data-spot-name=荷兰坂历史街道 data-spot-pref=nagasaki data-spot-fee=0 data-spot-dur=60 data-spot-lat=32.7356 data-spot-lng=129.8712 data-spot-area=minami-yamate data-spot-rating=4.6 data-spot-reviews=2100 data-spot-img="https://images.unsplash.com/photo-1576070159159-cd43c03c4b7a?w=800&q=80" data-spot-cats=sightseeing,sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1576070159159-cd43c03c4b7a?w=800&q=80" alt=荷兰坂历史街道 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 南山手，长崎</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>荷兰坂历史街道</h3>
+<p class=spot-desc>这道迷人的斜坡保留着荷兰时代的石墙、历史建筑与古韵盎然的鹅卵石小径，仿佛将游人带回日本那段中西交汇的往昔岁月。在这里悠然漫步，转角处处皆是绝佳的摄影画面。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>历史街道</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>鹅卵石小径</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>殖民遗产</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>摄影</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=gunkanjima data-spot-name=军舰岛（端岛） data-spot-pref=nagasaki data-spot-fee=3600 data-spot-dur=150 data-spot-lat=32.6291 data-spot-lng=129.7347 data-spot-area=port-area data-spot-rating=4.5 data-spot-reviews=1900 data-spot-img="https://images.unsplash.com/photo-1570124477221-4da18c2b0f0d?w=800&q=80" data-spot-cats=sightseeing,nature>
+<img class=spot-img src="https://images.unsplash.com/photo-1570124477221-4da18c2b0f0d?w=800&q=80" alt=军舰岛（端岛） loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 港口一带，长崎</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>军舰岛（端岛）</h3>
+<p class=spot-desc>这座被列入世界遗产名录的煤矿岛，曾是地球上人口密度最高的地方，如今已成为一片凄美的废弃聚落。游船环岛而行，让人从独特的视角欣赏那些被自然逐渐吞噬的旧公寓楼。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>世界遗产</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>废弃矿城</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>乘船游览</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>摄影</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=champon-noodle-experience data-spot-name=强棒面横丁 data-spot-pref=nagasaki data-spot-fee=0 data-spot-dur=60 data-spot-lat=32.7411 data-spot-lng=129.8701 data-spot-area=central-nagasaki data-spot-rating=4.5 data-spot-reviews=1800 data-spot-img="https://images.unsplash.com/photo-1564489551168-23d31e29a8b1?w=800&q=80" data-spot-cats=gourmet,sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1564489551168-23d31e29a8b1?w=800&q=80" alt=强棒面横丁 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 长崎市中心，长崎</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>强棒面横丁</h3>
+<p class=spot-desc>在这条自1950年代起便聚满家族经营老店、古韵十足的小巷里，品尝地道的长崎强棒面——一种以猪骨高汤搭配新鲜海鲜的独特面食。每家店都有自己的独门配方，堪称一场美味的味觉朝圣之旅。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>地方美食</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>街头小吃</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>传统餐馆</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>地道风味</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=sofukuji-temple data-spot-name=崇福寺 data-spot-pref=nagasaki data-spot-fee=600 data-spot-dur=60 data-spot-lat=32.7395 data-spot-lng=129.8756 data-spot-area=central-nagasaki data-spot-rating=4.5 data-spot-reviews=1200 data-spot-img="https://images.unsplash.com/photo-1588604282701-da0d6b1d3383?w=800&q=80" data-spot-cats=sightseeing,sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1588604282701-da0d6b1d3383?w=800&q=80" alt=崇福寺 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 长崎市中心，长崎</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>崇福寺</h3>
+<p class=spot-desc>这座由华商于1629年创建的寺院，拥有鲜艳的红色立柱与精致的装饰，呈现出在日本难得一见的独特中式建筑风格。漫步于古韵悠然的庭院间，可以感受佛教与中华文化传统的交融。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>佛教寺院</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>中式建筑</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>历史</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>宁静</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=dejima data-spot-name=出岛荷兰商馆 data-spot-pref=nagasaki data-spot-fee=510 data-spot-dur=75 data-spot-lat=32.7344 data-spot-lng=129.8684 data-spot-area=dejima data-spot-rating=4.4 data-spot-reviews=2300 data-spot-img="https://images.unsplash.com/photo-1576070159159-cd43c03c4b7a?w=800&q=80" data-spot-cats=sightseeing,sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1576070159159-cd43c03c4b7a?w=800&q=80" alt=出岛荷兰商馆 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 出岛，长崎</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>出岛荷兰商馆</h3>
+<p class=spot-desc>这座部分复原的人工岛，在日本锁国的250年间是其面向西方世界的唯一窗口，且仅由荷兰人专属管理。馆内的博物馆与复原建筑生动再现了当年在此发生的独特文化交流。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>历史遗迹</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>世界遗产</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>荷兰遗产</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>博物馆</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=goto-islands-heritage data-spot-name=五岛列岛世界遗产 data-spot-pref=nagasaki data-spot-fee=0 data-spot-dur=240 data-spot-lat=32.8934 data-spot-lng=129.5123 data-spot-area=goto-islands data-spot-rating=4.4 data-spot-reviews=890 data-spot-img="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" data-spot-cats=nature,sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" alt=五岛列岛世界遗产 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 五岛列岛，长崎</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>五岛列岛世界遗产</h3>
+<p class=spot-desc>这片位于长崎以北的偏远岛屿，保存着隐秘的天主教教堂与传统聚落，自然风光令人惊艳。搭乘渡轮即可抵达，让人得以一窥日本潜伏基督徒的隐秘历史与纯净的海岸风光。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>世界遗产</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>隐秘教堂</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>海岛文化</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>遗世之美</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=huis-ten-bosch data-spot-name=豪斯登堡 data-spot-pref=nagasaki data-spot-fee=7000 data-spot-dur=240 data-spot-lat=32.6235 data-spot-lng=129.7986 data-spot-area=sasebo data-spot-rating=4.3 data-spot-reviews=2100 data-spot-img="https://images.unsplash.com/photo-1529149482759-505eae5c4d22?w=800&q=80" data-spot-cats=leisure,sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1529149482759-505eae5c4d22?w=800&q=80" alt=豪斯登堡 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 佐世保，长崎</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>豪斯登堡</h3>
+<p class=spot-desc>这是一座坐落在长崎市郊的大型荷兰主题乐园，拥有原汁原味的欧式建筑、博物馆与各类游乐设施。对于渴望融合娱乐、文化沉浸与日式待客之道的家庭来说，这里是绝佳之选。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>主题公园</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>荷兰文化</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>娱乐</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>亲子</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=kofukuji-temple data-spot-name=兴福寺 data-spot-pref=nagasaki data-spot-fee=400 data-spot-dur=50 data-spot-lat=32.7478 data-spot-lng=129.8645 data-spot-area=central-nagasaki data-spot-rating=4.3 data-spot-reviews=580 data-spot-img="https://images.unsplash.com/photo-1588604282701-da0d6b1d3383?w=800&q=80" data-spot-cats=sightseeing,sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1588604282701-da0d6b1d3383?w=800&q=80" alt=兴福寺 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 长崎市中心，长崎</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>兴福寺</h3>
+<p class=spot-desc>这座宁静的17世纪寺院拥有受中国风格影响的优美建筑与静谧庭园，是冥想沉思的绝佳之地。相较于城中其他寺院，这里游人更少，伴着幽幽香火与梵音，散发出一种纯正的灵性氛围。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>佛教寺院</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>历史建筑</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>宁静</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>本地瑰宝</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=nagasaki-museum-art data-spot-name=长崎历史文化博物馆 data-spot-pref=nagasaki data-spot-fee=600 data-spot-dur=120 data-spot-lat=32.8123 data-spot-lng=129.8567 data-spot-area=musashimachi data-spot-rating=4.3 data-spot-reviews=1100 data-spot-img="https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?w=800&q=80" data-spot-cats=sightseeing,sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?w=800&q=80" alt=长崎历史文化博物馆 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 武藏町，长崎</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>长崎历史文化博物馆</h3>
+<p class=spot-desc>这座综合性博物馆全面展现长崎从古至今丰富的多元文化遗产，涵盖荷兰通商史与原子弹爆炸后的历史。互动展览与文化藏品，让人深入了解这个独一无二的县。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>博物馆</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>地方历史</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>艺术收藏</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>教育意义</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=siebold-memorial-museum data-spot-name=西博尔德纪念馆 data-spot-pref=nagasaki data-spot-fee=600 data-spot-dur=60 data-spot-lat=32.7512 data-spot-lng=129.8578 data-spot-area=minami-yamate data-spot-rating=4.2 data-spot-reviews=420 data-spot-img="https://images.unsplash.com/photo-1576770413051-8b3ff91a59d3?w=800&q=80" data-spot-cats=sightseeing,sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1576770413051-8b3ff91a59d3?w=800&q=80" alt=西博尔德纪念馆 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 南山手，长崎</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>西博尔德纪念馆</h3>
+<p class=spot-desc>这座经修复的故居曾属于德国医师菲利普·弗朗茨·冯·西博尔德，他在19世纪对日本进行了广泛的记录，馆内陈列着引人入胜的实物与文献。这处隐秘的瑰宝，让人得以窥见日本向西方科学知识敞开大门的那段时光。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>欧洲历史</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>植物学</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>历史宅邸</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>博物馆</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=nagasaki-penguin-aquarium data-spot-name=长崎企鹅水族馆 data-spot-pref=nagasaki data-spot-fee=700 data-spot-dur=90 data-spot-lat=32.7089 data-spot-lng=129.8234 data-spot-area=port-area data-spot-rating=4.2 data-spot-reviews=1300 data-spot-img="https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&q=80" data-spot-cats=leisure,sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&q=80" alt=长崎企鹅水族馆 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 港口一带，长崎</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>长崎企鹅水族馆</h3>
+<p class=spot-desc>这座别具特色的水族馆栖息着七个品种、超过180只企鹅，提供互动接触与喂食表演。色彩缤纷的海洋展区与关于南极野生动物的科普项目，使其成为深受家庭喜爱的景点。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>海洋生物</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>亲子</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>企鹅亲密接触</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>娱乐</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 </div>
 <div class=see-all-wrap>
-<a class=see-all-btn style=color:#1a45a8 href=/prefectures/nagasaki/sightseeing/>
-See all 17 观光 spots →
-</a>
+<button class="see-all-btn show-more-btn" style=color:#1a45a8 type=button data-section=section-sightseeing>
+显示全部 (17) ↓
+</button>
 </div>
 </div>
 </section><section class=spot-section id=section-gourmet data-cat=gourmet>
@@ -959,11 +1190,74 @@ See all 17 观光 spots →
 </button>
 </div>
 </article>
+<article class="spot-card spot-more" data-spot-id=huis-ten-bosch data-spot-name=豪斯登堡 data-spot-pref=nagasaki data-spot-fee=7000 data-spot-dur=240 data-spot-lat=32.6235 data-spot-lng=129.7986 data-spot-area=sasebo data-spot-rating=4.3 data-spot-reviews=2100 data-spot-img="https://images.unsplash.com/photo-1529149482759-505eae5c4d22?w=800&q=80" data-spot-cats=leisure,sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1529149482759-505eae5c4d22?w=800&q=80" alt=豪斯登堡 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎿</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 佐世保，长崎</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>豪斯登堡</h3>
+<p class=spot-desc>这是一座坐落在长崎市郊的大型荷兰主题乐园，拥有原汁原味的欧式建筑、博物馆与各类游乐设施。对于渴望融合娱乐、文化沉浸与日式待客之道的家庭来说，这里是绝佳之选。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>主题公园</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>荷兰文化</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>娱乐</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>亲子</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=tanega-island data-spot-name=离岛一日游 data-spot-pref=nagasaki data-spot-fee=0 data-spot-dur=180 data-spot-lat=32.6172 data-spot-lng=129.7891 data-spot-area=outer-islands data-spot-rating=4.2 data-spot-reviews=540 data-spot-img="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80" data-spot-cats=nature,leisure>
+<img class=spot-img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80" alt=离岛一日游 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎿</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 外围离岛，长崎</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>离岛一日游</h3>
+<p class=spot-desc>从长崎搭乘渡轮即可抵达这座宁静的乡野小岛，岛上有洁净的海滩、徒步小径与传统的渔村。这是一处远离尘嚣的小众目的地，最适合体验远离都市人潮的地道日本海岛乡村生活。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>离岛探索</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>海滩</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>乘船游览</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>风景</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=nagasaki-penguin-aquarium data-spot-name=长崎企鹅水族馆 data-spot-pref=nagasaki data-spot-fee=700 data-spot-dur=90 data-spot-lat=32.7089 data-spot-lng=129.8234 data-spot-area=port-area data-spot-rating=4.2 data-spot-reviews=1300 data-spot-img="https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&q=80" data-spot-cats=leisure,sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&q=80" alt=长崎企鹅水族馆 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎿</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 港口一带，长崎</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>长崎企鹅水族馆</h3>
+<p class=spot-desc>这座别具特色的水族馆栖息着七个品种、超过180只企鹅，提供互动接触与喂食表演。色彩缤纷的海洋展区与关于南极野生动物的科普项目，使其成为深受家庭喜爱的景点。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>海洋生物</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>亲子</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>企鹅亲密接触</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>娱乐</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 </div>
 <div class=see-all-wrap>
-<a class=see-all-btn style=color:#b35c00 href=/prefectures/nagasaki/leisure/>
-See all 9 休闲 spots →
-</a>
+<button class="see-all-btn show-more-btn" style=color:#b35c00 type=button data-section=section-leisure>
+显示全部 (9) ↓
+</button>
 </div>
 </div>
 </section><section class=spot-section id=section-events data-cat=events>
@@ -1155,6 +1449,13 @@ See all 9 休闲 spots →
 </div>
 <script>
 (function(){
+ 
+document.querySelectorAll('.show-more-btn').forEach(function(btn){
+  btn.addEventListener('click', function(){
+    var sec = document.getElementById(btn.dataset.section);
+    if (sec) sec.classList.add('spots-expanded');
+  });
+});
  
 const CATS = {
   sightseeing:{ color:"#1a45a8" },

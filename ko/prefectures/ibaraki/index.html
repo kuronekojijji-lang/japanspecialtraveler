@@ -99,7 +99,7 @@
   document.addEventListener('keydown', function(e){ if(e.key==='Escape') close(); });
 })();
 </script>
-<style>.pref-breadcrumb{background:#f8f9fa;border-bottom:1px solid var(--border);padding:.6rem 1.5rem;font-size:.82rem;color:var(--gray)}.pref-breadcrumb a{color:var(--red);text-decoration:none}.pref-breadcrumb a:hover{text-decoration:underline}.pref-breadcrumb span{margin:0 .4rem}.pref-hero{position:relative;min-height:440px;display:flex;align-items:flex-end;background:#0a1a3e 50%/cover no-repeat;background-image:url(https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1600&q=80)}.pref-hero::after{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,.15) 0%,rgba(0,0,0,.7) 100%)}.pref-hero-body{position:relative;z-index:1;padding:2.5rem 1.5rem 2rem;max-width:var(--max-w);margin:0 auto;width:100%}.pref-hero-eyebrow{color:rgba(255,255,255,.75);font-size:.82rem;font-weight:600;text-transform:uppercase;letter-spacing:.1em;margin-bottom:.5rem}.pref-hero h1{color:#fff;font-size:clamp(2.2rem,5.5vw,3.4rem);font-weight:900;margin:0 0 .5rem;line-height:1.1}.pref-hero .pref-sub{color:rgba(255,255,255,.88);font-size:1.05rem;max-width:560px;margin-bottom:1rem}.pref-stats{display:flex;flex-wrap:wrap;gap:.6rem}.pref-stat{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);border-radius:20px;padding:.3rem .85rem;color:#fff;font-size:.8rem;font-weight:600}.pref-section{padding:2.5rem 1.5rem}.pref-section+.pref-section{padding-top:0}.pref-container{max-width:var(--max-w);margin:0 auto}.pref-section-title{font-size:1.55rem;font-weight:900;margin:0 0 .4rem;display:flex;align-items:center;gap:.5rem}.pref-section-lead{font-size:1rem;color:#555;line-height:1.7;max-width:680px;margin-bottom:1.5rem}.ponko-guide{display:flex;align-items:flex-end;gap:0;margin-bottom:1.6rem}.ponko-bubble{flex:1;min-width:0;background:linear-gradient(135deg,#fff9f0,#fff3e0);border:2px solid #f5a623;border-radius:18px 18px 18px 4px;padding:1.2rem 1.5rem;position:relative;box-shadow:0 4px 14px rgba(245,166,35,.13)}.ponko-bubble::after{content:'';position:absolute;right:-18px;bottom:22px;border:9px solid transparent;border-left-color:#f5a623}.ponko-bubble::before{content:'';position:absolute;right:-13px;bottom:23px;z-index:1;border:8px solid transparent;border-left-color:#fff9f0}.ponko-bubble p{font-size:.97rem;line-height:1.8;color:#333;margin:0}.ponko-figure{flex-shrink:0;width:170px;margin-left:4px;animation:ponko-float 3s ease-in-out infinite}.ponko-figure img{width:100%;height:auto;display:block;filter:drop-shadow(0 6px 10px rgba(0,0,0,.18))}@keyframes ponko-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}@media(max-width:640px){.ponko-guide{flex-direction:column;align-items:center}.ponko-bubble{border-radius:18px;order:2;width:100%}.ponko-bubble::after,.ponko-bubble::before{display:none}.ponko-figure{order:1;width:130px;margin-left:0;margin-bottom:.5rem;animation:none}}.quick-facts{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.8rem;margin-top:1.4rem}.qf-card{background:#f8f9fb;border:1px solid var(--border);border-radius:12px;padding:1rem 1.1rem;display:flex;align-items:flex-start;gap:.7rem}.qf-icon{font-size:1.4rem;flex-shrink:0}.qf-label{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--gray);margin-bottom:.15rem}.qf-value{font-size:.9rem;font-weight:600;color:var(--dark)}.access-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}.access-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 8px rgba(0,0,0,5%)}.access-card-hd{display:flex;align-items:center;gap:.5rem;margin-bottom:.8rem}.access-card-icon{font-size:1.5rem}.access-card-title{font-size:1rem;font-weight:800;color:var(--dark)}.access-card ul{margin:0;padding-left:1.1rem}.access-card li{font-size:.875rem;line-height:1.65;color:#444;margin-bottom:.3rem}.access-card li strong{color:var(--dark)}.access-tip{margin-top:1.2rem;background:#fff8e6;border:1px solid #ffe0a0;border-radius:10px;padding:.9rem 1.1rem;font-size:.85rem;line-height:1.6;color:#5a3e00}.access-tip strong{display:block;margin-bottom:.2rem;font-size:.88rem}.guide-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem}.guide-card{background:#fff;border-radius:14px;overflow:hidden;border:1px solid var(--border);box-shadow:0 2px 8px rgba(0,0,0,5%);transition:transform .15s,box-shadow .15s;position:relative;display:flex;flex-direction:column}.guide-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.guide-card-img{width:100%;height:150px;object-fit:cover;background:#e8eef4;display:block}.guide-card-img-ph{width:100%;height:150px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:2.5rem}.guide-card-body{padding:.9rem 1rem 1rem;flex:1}.guide-cat-badge{display:inline-block;font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;padding:.15rem .55rem;border-radius:8px;background:var(--red);color:#fff;margin-bottom:.4rem}.guide-card-title{font-size:.92rem;font-weight:800;color:var(--dark);line-height:1.4}.guide-coming-soon{position:absolute;top:.6rem;right:.6rem;background:rgba(0,0,0,.55);color:#fff;font-size:.65rem;font-weight:700;padding:.2rem .5rem;border-radius:6px;text-transform:uppercase;letter-spacing:.05em}.guide-card-link{text-decoration:none;color:inherit;display:flex;flex-direction:column;height:100%}.pref-toc{background:#fff;border-bottom:2px solid var(--border);position:sticky;top:0;z-index:100;overflow-x:auto}.pref-toc-inner{display:flex;gap:0;max-width:var(--max-w);margin:0 auto}.pref-toc-btn{flex:none;display:flex;align-items:center;gap:.4rem;padding:.8rem 1.2rem;border:none;background:0 0;cursor:pointer;font-family:inherit;font-size:.88rem;font-weight:600;color:var(--gray);border-bottom:3px solid transparent;transition:all .18s;white-space:nowrap}.pref-toc-btn .toc-icon{font-size:1.1rem}.pref-toc-btn:hover{color:var(--dark);background:#f8f8f8}.pref-toc-btn.active{color:var(--toc-color,var(--red));border-bottom-color:var(--toc-color,var(--red))}.spot-section{padding:2rem 1.5rem 2.5rem}.spot-section.hidden{display:none}.spot-section-inner{max-width:var(--max-w);margin:0 auto}.section-hd{display:flex;align-items:center;gap:.6rem;margin-bottom:1.4rem;padding-bottom:.7rem;border-bottom:2px solid var(--border)}.section-hd .s-icon{font-size:1.6rem}.section-hd h2{font-size:1.35rem;font-weight:800;margin:0}.section-hd .s-count{margin-left:auto;background:var(--sec-color,var(--red));color:#fff;border-radius:20px;padding:.15rem .65rem;font-size:.78rem;font-weight:700}.spot-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.25rem}.spot-card{border-radius:14px;overflow:hidden;border:1px solid var(--border);background:#fff;box-shadow:0 2px 8px rgba(0,0,0,6%);transition:transform .15s,box-shadow .15s;display:flex;flex-direction:column}.spot-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.spot-img{width:100%;height:200px;object-fit:cover;background:#e8eef4;display:block}.spot-img-ph{width:100%;height:200px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:3rem}.spot-body{padding:1rem 1.1rem 1.1rem;flex:1;display:flex;flex-direction:column}.spot-meta{display:flex;align-items:center;gap:.5rem;margin-bottom:.5rem}.spot-location{font-size:.78rem;color:var(--gray);font-weight:500}.spot-season-badge{margin-left:auto;font-size:.7rem;font-weight:700;padding:.1rem .5rem;border-radius:10px;background:#f0f4f8;color:#555;white-space:nowrap}.spot-name{font-size:1.08rem;font-weight:800;color:var(--dark);margin:0 0 .45rem;line-height:1.3}.spot-desc{font-size:.86rem;line-height:1.65;color:#555;flex:1;margin-bottom:.75rem}.spot-tags{display:flex;flex-wrap:wrap;gap:.3rem}.spot-tag{font-size:.7rem;font-weight:600;padding:.15rem .5rem;border-radius:6px;background:var(--tag-bg,#f0f4f8);color:var(--tag-color,#445)}.tips-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem}.tip-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 6px rgba(0,0,0,4%)}.tip-card-icon{font-size:1.8rem;margin-bottom:.6rem}.tip-card-title{font-size:.95rem;font-weight:800;color:var(--dark);margin-bottom:.5rem}.tip-card-body{font-size:.85rem;line-height:1.65;color:#555}.tip-card-body ul{margin:.3rem 0 0;padding-left:1.1rem}.tip-card-body li{margin-bottom:.2rem}.pref-cta{background:var(--bg-soft);padding:2.5rem 1.5rem 3rem;border-top:1px solid var(--border)}.pref-cta .pref-container{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}@media(max-width:600px){.pref-hero{min-height:320px}.quick-facts{grid-template-columns:repeat(2,1fr)}.pref-toc-btn{padding:.7rem .9rem;font-size:.82rem}}.btn-add-plan{display:inline-flex;align-items:center;gap:.35rem;margin-top:.75rem;padding:.45rem .9rem;border:1.5px solid #2d5be3;border-radius:8px;background:#fff;color:#2d5be3;font-size:.78rem;font-weight:700;font-family:inherit;cursor:pointer;transition:background .15s,color .15s,transform .1s;width:100%;justify-content:center}.btn-add-plan:hover{background:#2d5be3;color:#fff;transform:translateY(-1px)}.btn-add-plan.in-plan{background:#e8f0ff;color:#1a45a8;border-color:#1a45a8}.btn-add-plan.in-plan:hover{background:#c0003a;color:#fff;border-color:#c0003a}.btn-read-guide{display:inline-flex;align-items:center;justify-content:center;gap:.35rem;margin-top:.5rem;padding:.45rem .9rem;border:1.5px solid #1a7a34;border-radius:8px;background:#f0faf2;color:#1a7a34;font-size:.78rem;font-weight:700;text-decoration:none;width:100%;transition:background .15s,color .15s,transform .1s}.btn-read-guide:hover{background:#1a7a34;color:#fff;transform:translateY(-1px);text-decoration:none}.see-all-wrap{text-align:center;margin-top:1.5rem;padding-top:1rem;border-top:1px dashed var(--border)}.see-all-btn{display:inline-flex;align-items:center;gap:.4rem;padding:.55rem 1.5rem;border:2px solid;border-radius:10px;font-size:.88rem;font-weight:700;text-decoration:none;transition:all .15s}.see-all-btn:hover{opacity:.8;text-decoration:none}</style>
+<style>.pref-breadcrumb{background:#f8f9fa;border-bottom:1px solid var(--border);padding:.6rem 1.5rem;font-size:.82rem;color:var(--gray)}.pref-breadcrumb a{color:var(--red);text-decoration:none}.pref-breadcrumb a:hover{text-decoration:underline}.pref-breadcrumb span{margin:0 .4rem}.pref-hero{position:relative;min-height:440px;display:flex;align-items:flex-end;background:#0a1a3e 50%/cover no-repeat;background-image:url(https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1600&q=80)}.pref-hero::after{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,.15) 0%,rgba(0,0,0,.7) 100%)}.pref-hero-body{position:relative;z-index:1;padding:2.5rem 1.5rem 2rem;max-width:var(--max-w);margin:0 auto;width:100%}.pref-hero-eyebrow{color:rgba(255,255,255,.75);font-size:.82rem;font-weight:600;text-transform:uppercase;letter-spacing:.1em;margin-bottom:.5rem}.pref-hero h1{color:#fff;font-size:clamp(2.2rem,5.5vw,3.4rem);font-weight:900;margin:0 0 .5rem;line-height:1.1}.pref-hero .pref-sub{color:rgba(255,255,255,.88);font-size:1.05rem;max-width:560px;margin-bottom:1rem}.pref-stats{display:flex;flex-wrap:wrap;gap:.6rem}.pref-stat{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);border-radius:20px;padding:.3rem .85rem;color:#fff;font-size:.8rem;font-weight:600}.pref-section{padding:2.5rem 1.5rem}.pref-section+.pref-section{padding-top:0}.pref-container{max-width:var(--max-w);margin:0 auto}.pref-section-title{font-size:1.55rem;font-weight:900;margin:0 0 .4rem;display:flex;align-items:center;gap:.5rem}.pref-section-lead{font-size:1rem;color:#555;line-height:1.7;max-width:680px;margin-bottom:1.5rem}.ponko-guide{display:flex;align-items:flex-end;gap:0;margin-bottom:1.6rem}.ponko-bubble{flex:1;min-width:0;background:linear-gradient(135deg,#fff9f0,#fff3e0);border:2px solid #f5a623;border-radius:18px 18px 18px 4px;padding:1.2rem 1.5rem;position:relative;box-shadow:0 4px 14px rgba(245,166,35,.13)}.ponko-bubble::after{content:'';position:absolute;right:-18px;bottom:22px;border:9px solid transparent;border-left-color:#f5a623}.ponko-bubble::before{content:'';position:absolute;right:-13px;bottom:23px;z-index:1;border:8px solid transparent;border-left-color:#fff9f0}.ponko-bubble p{font-size:.97rem;line-height:1.8;color:#333;margin:0}.ponko-figure{flex-shrink:0;width:170px;margin-left:4px;animation:ponko-float 3s ease-in-out infinite}.ponko-figure img{width:100%;height:auto;display:block;filter:drop-shadow(0 6px 10px rgba(0,0,0,.18))}@keyframes ponko-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}@media(max-width:640px){.ponko-guide{flex-direction:column;align-items:center}.ponko-bubble{border-radius:18px;order:2;width:100%}.ponko-bubble::after,.ponko-bubble::before{display:none}.ponko-figure{order:1;width:130px;margin-left:0;margin-bottom:.5rem;animation:none}}.quick-facts{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.8rem;margin-top:1.4rem}.qf-card{background:#f8f9fb;border:1px solid var(--border);border-radius:12px;padding:1rem 1.1rem;display:flex;align-items:flex-start;gap:.7rem}.qf-icon{font-size:1.4rem;flex-shrink:0}.qf-label{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--gray);margin-bottom:.15rem}.qf-value{font-size:.9rem;font-weight:600;color:var(--dark)}.access-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}.access-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 8px rgba(0,0,0,5%)}.access-card-hd{display:flex;align-items:center;gap:.5rem;margin-bottom:.8rem}.access-card-icon{font-size:1.5rem}.access-card-title{font-size:1rem;font-weight:800;color:var(--dark)}.access-card ul{margin:0;padding-left:1.1rem}.access-card li{font-size:.875rem;line-height:1.65;color:#444;margin-bottom:.3rem}.access-card li strong{color:var(--dark)}.access-tip{margin-top:1.2rem;background:#fff8e6;border:1px solid #ffe0a0;border-radius:10px;padding:.9rem 1.1rem;font-size:.85rem;line-height:1.6;color:#5a3e00}.access-tip strong{display:block;margin-bottom:.2rem;font-size:.88rem}.guide-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem}.guide-card{background:#fff;border-radius:14px;overflow:hidden;border:1px solid var(--border);box-shadow:0 2px 8px rgba(0,0,0,5%);transition:transform .15s,box-shadow .15s;position:relative;display:flex;flex-direction:column}.guide-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.guide-card-img{width:100%;height:150px;object-fit:cover;background:#e8eef4;display:block}.guide-card-img-ph{width:100%;height:150px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:2.5rem}.guide-card-body{padding:.9rem 1rem 1rem;flex:1}.guide-cat-badge{display:inline-block;font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;padding:.15rem .55rem;border-radius:8px;background:var(--red);color:#fff;margin-bottom:.4rem}.guide-card-title{font-size:.92rem;font-weight:800;color:var(--dark);line-height:1.4}.guide-coming-soon{position:absolute;top:.6rem;right:.6rem;background:rgba(0,0,0,.55);color:#fff;font-size:.65rem;font-weight:700;padding:.2rem .5rem;border-radius:6px;text-transform:uppercase;letter-spacing:.05em}.guide-card-link{text-decoration:none;color:inherit;display:flex;flex-direction:column;height:100%}.pref-toc{background:#fff;border-bottom:2px solid var(--border);position:sticky;top:0;z-index:100;overflow-x:auto}.pref-toc-inner{display:flex;gap:0;max-width:var(--max-w);margin:0 auto}.pref-toc-btn{flex:none;display:flex;align-items:center;gap:.4rem;padding:.8rem 1.2rem;border:none;background:0 0;cursor:pointer;font-family:inherit;font-size:.88rem;font-weight:600;color:var(--gray);border-bottom:3px solid transparent;transition:all .18s;white-space:nowrap}.pref-toc-btn .toc-icon{font-size:1.1rem}.pref-toc-btn:hover{color:var(--dark);background:#f8f8f8}.pref-toc-btn.active{color:var(--toc-color,var(--red));border-bottom-color:var(--toc-color,var(--red))}.spot-section{padding:2rem 1.5rem 2.5rem}.spot-section.hidden{display:none}.spot-section-inner{max-width:var(--max-w);margin:0 auto}.section-hd{display:flex;align-items:center;gap:.6rem;margin-bottom:1.4rem;padding-bottom:.7rem;border-bottom:2px solid var(--border)}.section-hd .s-icon{font-size:1.6rem}.section-hd h2{font-size:1.35rem;font-weight:800;margin:0}.section-hd .s-count{margin-left:auto;background:var(--sec-color,var(--red));color:#fff;border-radius:20px;padding:.15rem .65rem;font-size:.78rem;font-weight:700}.spot-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.25rem}.spot-card{border-radius:14px;overflow:hidden;border:1px solid var(--border);background:#fff;box-shadow:0 2px 8px rgba(0,0,0,6%);transition:transform .15s,box-shadow .15s;display:flex;flex-direction:column}.spot-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.spot-img{width:100%;height:200px;object-fit:cover;background:#e8eef4;display:block}.spot-img-ph{width:100%;height:200px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:3rem}.spot-body{padding:1rem 1.1rem 1.1rem;flex:1;display:flex;flex-direction:column}.spot-meta{display:flex;align-items:center;gap:.5rem;margin-bottom:.5rem}.spot-location{font-size:.78rem;color:var(--gray);font-weight:500}.spot-season-badge{margin-left:auto;font-size:.7rem;font-weight:700;padding:.1rem .5rem;border-radius:10px;background:#f0f4f8;color:#555;white-space:nowrap}.spot-name{font-size:1.08rem;font-weight:800;color:var(--dark);margin:0 0 .45rem;line-height:1.3}.spot-desc{font-size:.86rem;line-height:1.65;color:#555;flex:1;margin-bottom:.75rem}.spot-tags{display:flex;flex-wrap:wrap;gap:.3rem}.spot-tag{font-size:.7rem;font-weight:600;padding:.15rem .5rem;border-radius:6px;background:var(--tag-bg,#f0f4f8);color:var(--tag-color,#445)}.tips-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem}.tip-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 6px rgba(0,0,0,4%)}.tip-card-icon{font-size:1.8rem;margin-bottom:.6rem}.tip-card-title{font-size:.95rem;font-weight:800;color:var(--dark);margin-bottom:.5rem}.tip-card-body{font-size:.85rem;line-height:1.65;color:#555}.tip-card-body ul{margin:.3rem 0 0;padding-left:1.1rem}.tip-card-body li{margin-bottom:.2rem}.pref-cta{background:var(--bg-soft);padding:2.5rem 1.5rem 3rem;border-top:1px solid var(--border)}.pref-cta .pref-container{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}@media(max-width:600px){.pref-hero{min-height:320px}.quick-facts{grid-template-columns:repeat(2,1fr)}.pref-toc-btn{padding:.7rem .9rem;font-size:.82rem}}.btn-add-plan{display:inline-flex;align-items:center;gap:.35rem;margin-top:.75rem;padding:.45rem .9rem;border:1.5px solid #2d5be3;border-radius:8px;background:#fff;color:#2d5be3;font-size:.78rem;font-weight:700;font-family:inherit;cursor:pointer;transition:background .15s,color .15s,transform .1s;width:100%;justify-content:center}.btn-add-plan:hover{background:#2d5be3;color:#fff;transform:translateY(-1px)}.btn-add-plan.in-plan{background:#e8f0ff;color:#1a45a8;border-color:#1a45a8}.btn-add-plan.in-plan:hover{background:#c0003a;color:#fff;border-color:#c0003a}.btn-read-guide{display:inline-flex;align-items:center;justify-content:center;gap:.35rem;margin-top:.5rem;padding:.45rem .9rem;border:1.5px solid #1a7a34;border-radius:8px;background:#f0faf2;color:#1a7a34;font-size:.78rem;font-weight:700;text-decoration:none;width:100%;transition:background .15s,color .15s,transform .1s}.btn-read-guide:hover{background:#1a7a34;color:#fff;transform:translateY(-1px);text-decoration:none}.see-all-wrap{text-align:center;margin-top:1.5rem;padding-top:1rem;border-top:1px dashed var(--border)}.see-all-btn{display:inline-flex;align-items:center;gap:.4rem;padding:.55rem 1.5rem;border:2px solid;border-radius:10px;font-size:.88rem;font-weight:700;text-decoration:none;transition:all .15s}.see-all-btn:hover{opacity:.8;text-decoration:none}.see-all-btn{cursor:pointer;background:0 0}.spot-card.spot-more{display:none}.spot-section.spots-expanded .spot-card.spot-more{display:flex}.spot-section.spots-expanded .see-all-wrap{display:none}</style>
 <nav class=pref-breadcrumb aria-label=breadcrumb>
 <a href=/>홈</a><span>›</span>
 <a href=/explore/>일본 탐색</a><span>›</span>
@@ -518,11 +518,55 @@
 </button>
 </div>
 </article>
+<article class="spot-card spot-more" data-spot-id=ibaraki-history-museum data-spot-name="이바라키 현립 역사관" data-spot-pref=ibaraki data-spot-fee=300 data-spot-dur=90 data-spot-lat=36.3688 data-spot-lng=140.4868 data-spot-area=mito data-spot-rating=4.1 data-spot-reviews=2800 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Mito_castle_sannomaru_karabori.jpg/960px-Mito_castle_sannomaru_karabori.jpg data-spot-cats=sightseeing>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Mito_castle_sannomaru_karabori.jpg/960px-Mito_castle_sannomaru_karabori.jpg alt="이바라키 현립 역사관" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 이바라키현 미토시</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>이바라키 현립 역사관</h3>
+<p class=spot-desc>미토성 인근에 자리한 이바라키 현립 역사관은 선사 시대부터 메이지 시대까지 지역의 역사를 짚어 봅니다. 미토번의 유물, 이 지역을 다스린 도쿠가와 가문 영주들의 유품, 그리고 막말 미토를 중심으로 한 정치 운동에 관한 상세 전시가 볼거리입니다. 복원된 성곽 토루가 남은 조경 정원은 무료로 산책할 수 있어 번화한 미토 중심가와 고요한 대비를 이룹니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>역사</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>박물관</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>미토</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>사무라이</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>문화</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=mito-castle-remains data-spot-name="미토성 유적" data-spot-pref=ibaraki data-spot-fee=0 data-spot-dur=45 data-spot-lat=36.3633 data-spot-lng=140.475 data-spot-area=mito data-spot-rating=3.8 data-spot-reviews=2100 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Mito_castle_sannomaru_karabori.jpg/960px-Mito_castle_sannomaru_karabori.jpg data-spot-cats=sightseeing>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Mito_castle_sannomaru_karabori.jpg/960px-Mito_castle_sannomaru_karabori.jpg alt="미토성 유적" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 이바라키현 미토시</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>미토성 유적</h3>
+<p class=spot-desc>미토성은 메이지 유신 이후 대부분 헐렸지만, 남아 있는 토루, 해자, 부분 복원된 니노마루 문은 막말 일본 정치를 빚어낸 강력한 미토번과의 실질적인 연결을 제공합니다. 성 언덕은 도시와 멀리 센바 호수의 반짝임을 굽어보고, 부지는 공공 공원으로 무료 개방되며 인근에 여전히 서 있는 유서 깊은 고도칸 유학교 — 일본에 현존하는 가장 큰 번교 중 하나 — 를 중심으로 합니다. 성터, 고도칸, 인접한 역사관이 어우러져 이 일대를 이바라키에서 가장 풍부한 단일 역사 구역으로 만듭니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>성</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>미토</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>도쿠가와</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>역사</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>토루</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 </div>
 <div class=see-all-wrap>
-<a class=see-all-btn style=color:#1a45a8 href=/prefectures/ibaraki/sightseeing/>
-See all 8 관광명소 spots →
-</a>
+<button class="see-all-btn show-more-btn" style=color:#1a45a8 type=button data-section=section-sightseeing>
+전체 보기 (8) ↓
+</button>
 </div>
 </div>
 </section><section class=spot-section id=section-gourmet data-cat=gourmet>
@@ -805,11 +849,77 @@ See all 8 관광명소 spots →
 </button>
 </div>
 </article>
+<article class="spot-card spot-more" data-spot-id=oarai-coast data-spot-name="오아라이 해안" data-spot-pref=ibaraki data-spot-fee=0 data-spot-dur=75 data-spot-lat=36.2783 data-spot-lng=140.5733 data-spot-area=oarai data-spot-rating=4.2 data-spot-reviews=3800 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Kamiiso_torii_at_Oarai_Isosaki_Jinja.jpg/960px-Kamiiso_torii_at_Oarai_Isosaki_Jinja.jpg data-spot-cats=nature,sightseeing>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Kamiiso_torii_at_Oarai_Isosaki_Jinja.jpg/960px-Kamiiso_torii_at_Oarai_Isosaki_Jinja.jpg alt="오아라이 해안" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🏔️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 이바라키현 오아라이</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>오아라이 해안</h3>
+<p class=spot-desc>오아라이 해안은 일본에서 가장 사진이 잘 나오는 해안 신사 중 하나인 오아라이 이소사키 신사를 중심으로 합니다. 그 상징적인 도리이는 태평양 파도가 부서지는 노출된 암초 위에 바로 서 있어, 주황빛 도리이가 밝아오는 수평선을 배경으로 실루엣을 이루는 새벽에 가장 아름답습니다. 계절성 강한 너울이 몰아치는 이 험준한 태평양 해안은 도쿄만의 잔잔한 해안과는 다른 극적인 바다 풍경을 찾는 서퍼, 낚시꾼, 사진가를 끌어들입니다. 항구 마을은 부두에서 몇 걸음 거리의 편안한 해산물 식당에서 갓 잡은 태평양 생선을 냅니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>도리이</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>바다</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>해안</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>태평양</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>신토</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=lake-kasumigaura data-spot-name="가스미가우라 호수" data-spot-pref=ibaraki data-spot-fee=0 data-spot-dur=90 data-spot-lat=36.2 data-spot-lng=140.45 data-spot-area=kasumigaura data-spot-rating=4.1 data-spot-reviews=4200 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Lake_Kasumigaura_from_Kasumigaura_City_06.jpg/960px-Lake_Kasumigaura_from_Kasumigaura_City_06.jpg data-spot-cats=nature,leisure>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Lake_Kasumigaura_from_Kasumigaura_City_06.jpg/960px-Lake_Kasumigaura_from_Kasumigaura_City_06.jpg alt="가스미가우라 호수" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🏔️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 이바라키현 가스미가우라시</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>가스미가우라 호수</h3>
+<p class=spot-desc>가스미가우라는 일본에서 두 번째로 큰 호수로, 이바라키 중부 저지대를 가로지르는 220제곱킬로미터의 광활한 담수역이며 갈대밭, 연꽃밭, 전통 어촌이 가장자리를 두릅니다. 180킬로미터의 자전거 길이 호수를 한 바퀴 돌며 일본 최고의 장거리 사이클링 코스 중 하나로, 내내 잔잔한 시골 풍경과 물 풍경을 곁에 둡니다. 호수는 빙어와 민물장어 요리로도 유명해, 수십 년간 거의 변치 않은 호숫가 식당에서 즐길 수 있습니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>호수</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>사이클링</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>낚시</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>두 번째로 큰 호수</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>가스미가우라</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=tone-river-wetlands data-spot-name="도네강 습지" data-spot-pref=ibaraki data-spot-fee=0 data-spot-dur=90 data-spot-lat=35.95 data-spot-lng=140.5167 data-spot-area=tone data-spot-rating=3.9 data-spot-reviews=1200 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Lake_Kasumigaura_from_Kasumigaura_City_06.jpg/960px-Lake_Kasumigaura_from_Kasumigaura_City_06.jpg data-spot-cats=nature>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Lake_Kasumigaura_from_Kasumigaura_City_06.jpg/960px-Lake_Kasumigaura_from_Kasumigaura_City_06.jpg alt="도네강 습지" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🏔️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 이바라키현 도네</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>도네강 습지</h3>
+<p class=spot-desc>이바라키와 지바현의 남쪽 경계를 이루는 도네강 하류는 간토 지역에서 가장 중요한 습지 생태계 중 하나를 품어, 희귀한 도래 섭금류와 월동 물새를 포함해 기록된 200종이 넘는 새를 끌어들입니다. 갈대밭, 우각호, 계절적으로 범람하는 초지가 다양한 서식지의 모자이크를 이루어, 추운 달 동안 황새, 흰꼬리수리, 그리고 갖가지 백로와 오리를 품습니다. 남부의 여러 강변 공원에서 탐조 은신처와 자연 산책로로 접근할 수 있습니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>습지</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>탐조</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>도네강</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>희귀 조류</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>자연보호구역</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 </div>
 <div class=see-all-wrap>
-<a class=see-all-btn style=color:#1a7a34 href=/prefectures/ibaraki/nature/>
-See all 9 자연 spots →
-</a>
+<button class="see-all-btn show-more-btn" style=color:#1a7a34 type=button data-section=section-nature>
+전체 보기 (9) ↓
+</button>
 </div>
 </div>
 </section><section class=spot-section id=section-leisure data-cat=leisure>
@@ -951,11 +1061,77 @@ See all 9 자연 spots →
 </button>
 </div>
 </article>
+<article class="spot-card spot-more" data-spot-id=hitachi-beach-cycling data-spot-name="히타치 해변공원 사이클링" data-spot-pref=ibaraki data-spot-fee=0 data-spot-dur=120 data-spot-lat=36.3841 data-spot-lng=140.8038 data-spot-area=hitachi data-spot-rating=4.2 data-spot-reviews=1900 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/2025_Hitachi_Seaside_Park_2.jpg/960px-2025_Hitachi_Seaside_Park_2.jpg data-spot-cats=leisure>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/2025_Hitachi_Seaside_Park_2.jpg/960px-2025_Hitachi_Seaside_Park_2.jpg alt="히타치 해변공원 사이클링" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎿</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 이바라키현 히타치시</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>히타치 해변공원 사이클링</h3>
+<p class=spot-desc>히타치 해변공원은 350헥타르의 해안 경관 속에 꽃밭과 소나무 숲에서 태평양을 굽어보는 모래 언덕까지 굽이도는 광범위한 자전거 길 네트워크를 갖추고 있습니다. 공원 입구에서 가족용 2인승과 어린이 좌석 자전거를 포함한 대여 자전거를 이용할 수 있어, 간토 지역에서 가장 가족 친화적인 사이클링 목적지 중 하나입니다. 해변에 인접한 길은 네모필라 시즌 인파가 몰리기 전 초여름, 공원이 가장 고요하고 평화로울 때 특히 즐겁습니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>사이클링</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>해변</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>해변공원</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>대여 자전거</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>가족</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=kasumigaura-cycling data-spot-name="가스미가우라 호수 사이클링 코스" data-spot-pref=ibaraki data-spot-fee=0 data-spot-dur=120 data-spot-lat=36.2 data-spot-lng=140.45 data-spot-area=kasumigaura data-spot-rating=4.1 data-spot-reviews=2200 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Lake_Kasumigaura_from_Kasumigaura_City_06.jpg/960px-Lake_Kasumigaura_from_Kasumigaura_City_06.jpg data-spot-cats=leisure>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Lake_Kasumigaura_from_Kasumigaura_City_06.jpg/960px-Lake_Kasumigaura_from_Kasumigaura_City_06.jpg alt="가스미가우라 호수 사이클링 코스" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎿</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 이바라키현 가스미가우라시</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>가스미가우라 호수 사이클링 코스</h3>
+<p class=spot-desc>가스미가우라 사이클링 코스는 일본에서 두 번째로 큰 호수를 도는, 표지가 잘 갖춰진 180킬로미터 순환로로, 간토 지역 최고의 장거리 자전거 코스 중 하나로 꾸준히 꼽힙니다. 평탄한 지형이라 가벼운 라이더도 즐길 수 있고, 한 바퀴 완주는 호숫가 게스트하우스와 료칸이 군데군데 자리한 보람찬 여러 날 도전입니다. 주요 거점인 쓰치우라역에서 대여 자전거를 이용할 수 있으며, 코스는 어항, 연꽃밭, 풍력발전 단지를 지나 막힘없는 호수 전망을 제공합니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>사이클링</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>호수 코스</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>180km</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>경치</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>레저</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=lake-kasumigaura data-spot-name="가스미가우라 호수" data-spot-pref=ibaraki data-spot-fee=0 data-spot-dur=90 data-spot-lat=36.2 data-spot-lng=140.45 data-spot-area=kasumigaura data-spot-rating=4.1 data-spot-reviews=4200 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Lake_Kasumigaura_from_Kasumigaura_City_06.jpg/960px-Lake_Kasumigaura_from_Kasumigaura_City_06.jpg data-spot-cats=nature,leisure>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Lake_Kasumigaura_from_Kasumigaura_City_06.jpg/960px-Lake_Kasumigaura_from_Kasumigaura_City_06.jpg alt="가스미가우라 호수" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎿</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 이바라키현 가스미가우라시</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>가스미가우라 호수</h3>
+<p class=spot-desc>가스미가우라는 일본에서 두 번째로 큰 호수로, 이바라키 중부 저지대를 가로지르는 220제곱킬로미터의 광활한 담수역이며 갈대밭, 연꽃밭, 전통 어촌이 가장자리를 두릅니다. 180킬로미터의 자전거 길이 호수를 한 바퀴 돌며 일본 최고의 장거리 사이클링 코스 중 하나로, 내내 잔잔한 시골 풍경과 물 풍경을 곁에 둡니다. 호수는 빙어와 민물장어 요리로도 유명해, 수십 년간 거의 변치 않은 호숫가 식당에서 즐길 수 있습니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>호수</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>사이클링</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>낚시</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>두 번째로 큰 호수</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>가스미가우라</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 </div>
 <div class=see-all-wrap>
-<a class=see-all-btn style=color:#b35c00 href=/prefectures/ibaraki/leisure/>
-See all 9 레저 spots →
-</a>
+<button class="see-all-btn show-more-btn" style=color:#b35c00 type=button data-section=section-leisure>
+전체 보기 (9) ↓
+</button>
 </div>
 </div>
 </section><section class=spot-section id=section-events data-cat=events>
@@ -1097,11 +1273,33 @@ See all 9 레저 spots →
 </button>
 </div>
 </article>
+<article class="spot-card spot-more" data-spot-id=kashima-festival data-spot-name="가시마 축제" data-spot-pref=ibaraki data-spot-fee=0 data-spot-dur=120 data-spot-lat=35.9906 data-spot-lng=140.6453 data-spot-area=kashima data-spot-rating=4.2 data-spot-reviews=1800 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Kashima_Shrine_main_torii_-_sept_22_2015.jpg/960px-Kashima_Shrine_main_torii_-_sept_22_2015.jpg data-spot-cats=events>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Kashima_Shrine_main_torii_-_sept_22_2015.jpg/960px-Kashima_Shrine_main_torii_-_sept_22_2015.jpg alt="가시마 축제" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎆</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 이바라키현 가시마시</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>가시마 축제</h3>
+<p class=spot-desc>추분 무렵 가시마 신궁에서 열리는 가시마 축제는 동일본에서 가장 오래되고 위엄 있는 신사 축제 중 하나로, 천 년 넘게 끊이지 않고 이어져 왔습니다. 고대 궁중 의복을 입은 신관 행렬이 신성한 가마를 메고 삼나무 참배로를 누비며, 헤이안 시대 이래 형태가 바뀌지 않은 악기로 연주하는 전통 음악이 함께합니다. 신사 경내의 축제 분위기 — 고목 삼나무 사이에 밝힌 등불, 본전 앞에 차린 공물 — 는 살아 있는 신토 전통을 들여다보는 드문 창을 제공합니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>가시마 신궁</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>가을 축제</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>추분</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>신토 의식</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>전통</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 </div>
 <div class=see-all-wrap>
-<a class=see-all-btn style=color:#b5006e href=/prefectures/ibaraki/events/>
-See all 7 이벤트 spots →
-</a>
+<button class="see-all-btn show-more-btn" style=color:#b5006e type=button data-section=section-events>
+전체 보기 (7) ↓
+</button>
 </div>
 </div>
 </section><section class=spot-section id=section-experience data-cat=experience>
@@ -1230,6 +1428,13 @@ See all 7 이벤트 spots →
 </div>
 <script>
 (function(){
+ 
+document.querySelectorAll('.show-more-btn').forEach(function(btn){
+  btn.addEventListener('click', function(){
+    var sec = document.getElementById(btn.dataset.section);
+    if (sec) sec.classList.add('spots-expanded');
+  });
+});
  
 const CATS = {
   sightseeing:{ color:"#1a45a8" },

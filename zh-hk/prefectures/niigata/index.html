@@ -99,7 +99,7 @@
   document.addEventListener('keydown', function(e){ if(e.key==='Escape') close(); });
 })();
 </script>
-<style>.pref-breadcrumb{background:#f8f9fa;border-bottom:1px solid var(--border);padding:.6rem 1.5rem;font-size:.82rem;color:var(--gray)}.pref-breadcrumb a{color:var(--red);text-decoration:none}.pref-breadcrumb a:hover{text-decoration:underline}.pref-breadcrumb span{margin:0 .4rem}.pref-hero{position:relative;min-height:440px;display:flex;align-items:flex-end;background:#0d2010 50%/cover no-repeat;background-image:url(https://images.unsplash.com/photo-1504198070170-4ca53bb1c6f0?w=1600&q=80)}.pref-hero::after{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,.15) 0%,rgba(0,0,0,.7) 100%)}.pref-hero-body{position:relative;z-index:1;padding:2.5rem 1.5rem 2rem;max-width:var(--max-w);margin:0 auto;width:100%}.pref-hero-eyebrow{color:rgba(255,255,255,.75);font-size:.82rem;font-weight:600;text-transform:uppercase;letter-spacing:.1em;margin-bottom:.5rem}.pref-hero h1{color:#fff;font-size:clamp(2.2rem,5.5vw,3.4rem);font-weight:900;margin:0 0 .5rem;line-height:1.1}.pref-hero .pref-sub{color:rgba(255,255,255,.88);font-size:1.05rem;max-width:560px;margin-bottom:1rem}.pref-stats{display:flex;flex-wrap:wrap;gap:.6rem}.pref-stat{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);border-radius:20px;padding:.3rem .85rem;color:#fff;font-size:.8rem;font-weight:600}.pref-section{padding:2.5rem 1.5rem}.pref-section+.pref-section{padding-top:0}.pref-container{max-width:var(--max-w);margin:0 auto}.pref-section-title{font-size:1.55rem;font-weight:900;margin:0 0 .4rem;display:flex;align-items:center;gap:.5rem}.pref-section-lead{font-size:1rem;color:#555;line-height:1.7;max-width:680px;margin-bottom:1.5rem}.ponko-guide{display:flex;align-items:flex-end;gap:0;margin-bottom:1.6rem}.ponko-bubble{flex:1;min-width:0;background:linear-gradient(135deg,#fff9f0,#fff3e0);border:2px solid #f5a623;border-radius:18px 18px 18px 4px;padding:1.2rem 1.5rem;position:relative;box-shadow:0 4px 14px rgba(245,166,35,.13)}.ponko-bubble::after{content:'';position:absolute;right:-18px;bottom:22px;border:9px solid transparent;border-left-color:#f5a623}.ponko-bubble::before{content:'';position:absolute;right:-13px;bottom:23px;z-index:1;border:8px solid transparent;border-left-color:#fff9f0}.ponko-bubble p{font-size:.97rem;line-height:1.8;color:#333;margin:0}.ponko-figure{flex-shrink:0;width:170px;margin-left:4px;animation:ponko-float 3s ease-in-out infinite}.ponko-figure img{width:100%;height:auto;display:block;filter:drop-shadow(0 6px 10px rgba(0,0,0,.18))}@keyframes ponko-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}@media(max-width:640px){.ponko-guide{flex-direction:column;align-items:center}.ponko-bubble{border-radius:18px;order:2;width:100%}.ponko-bubble::after,.ponko-bubble::before{display:none}.ponko-figure{order:1;width:130px;margin-left:0;margin-bottom:.5rem;animation:none}}.quick-facts{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.8rem;margin-top:1.4rem}.qf-card{background:#f8f9fb;border:1px solid var(--border);border-radius:12px;padding:1rem 1.1rem;display:flex;align-items:flex-start;gap:.7rem}.qf-icon{font-size:1.4rem;flex-shrink:0}.qf-label{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--gray);margin-bottom:.15rem}.qf-value{font-size:.9rem;font-weight:600;color:var(--dark)}.access-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}.access-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 8px rgba(0,0,0,5%)}.access-card-hd{display:flex;align-items:center;gap:.5rem;margin-bottom:.8rem}.access-card-icon{font-size:1.5rem}.access-card-title{font-size:1rem;font-weight:800;color:var(--dark)}.access-card ul{margin:0;padding-left:1.1rem}.access-card li{font-size:.875rem;line-height:1.65;color:#444;margin-bottom:.3rem}.access-card li strong{color:var(--dark)}.access-tip{margin-top:1.2rem;background:#fff8e6;border:1px solid #ffe0a0;border-radius:10px;padding:.9rem 1.1rem;font-size:.85rem;line-height:1.6;color:#5a3e00}.access-tip strong{display:block;margin-bottom:.2rem;font-size:.88rem}.guide-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem}.guide-card{background:#fff;border-radius:14px;overflow:hidden;border:1px solid var(--border);box-shadow:0 2px 8px rgba(0,0,0,5%);transition:transform .15s,box-shadow .15s;position:relative;display:flex;flex-direction:column}.guide-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.guide-card-img{width:100%;height:150px;object-fit:cover;background:#e8eef4;display:block}.guide-card-img-ph{width:100%;height:150px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:2.5rem}.guide-card-body{padding:.9rem 1rem 1rem;flex:1}.guide-cat-badge{display:inline-block;font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;padding:.15rem .55rem;border-radius:8px;background:var(--red);color:#fff;margin-bottom:.4rem}.guide-card-title{font-size:.92rem;font-weight:800;color:var(--dark);line-height:1.4}.guide-coming-soon{position:absolute;top:.6rem;right:.6rem;background:rgba(0,0,0,.55);color:#fff;font-size:.65rem;font-weight:700;padding:.2rem .5rem;border-radius:6px;text-transform:uppercase;letter-spacing:.05em}.guide-card-link{text-decoration:none;color:inherit;display:flex;flex-direction:column;height:100%}.pref-toc{background:#fff;border-bottom:2px solid var(--border);position:sticky;top:0;z-index:100;overflow-x:auto}.pref-toc-inner{display:flex;gap:0;max-width:var(--max-w);margin:0 auto}.pref-toc-btn{flex:none;display:flex;align-items:center;gap:.4rem;padding:.8rem 1.2rem;border:none;background:0 0;cursor:pointer;font-family:inherit;font-size:.88rem;font-weight:600;color:var(--gray);border-bottom:3px solid transparent;transition:all .18s;white-space:nowrap}.pref-toc-btn .toc-icon{font-size:1.1rem}.pref-toc-btn:hover{color:var(--dark);background:#f8f8f8}.pref-toc-btn.active{color:var(--toc-color,var(--red));border-bottom-color:var(--toc-color,var(--red))}.spot-section{padding:2rem 1.5rem 2.5rem}.spot-section.hidden{display:none}.spot-section-inner{max-width:var(--max-w);margin:0 auto}.section-hd{display:flex;align-items:center;gap:.6rem;margin-bottom:1.4rem;padding-bottom:.7rem;border-bottom:2px solid var(--border)}.section-hd .s-icon{font-size:1.6rem}.section-hd h2{font-size:1.35rem;font-weight:800;margin:0}.section-hd .s-count{margin-left:auto;background:var(--sec-color,var(--red));color:#fff;border-radius:20px;padding:.15rem .65rem;font-size:.78rem;font-weight:700}.spot-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.25rem}.spot-card{border-radius:14px;overflow:hidden;border:1px solid var(--border);background:#fff;box-shadow:0 2px 8px rgba(0,0,0,6%);transition:transform .15s,box-shadow .15s;display:flex;flex-direction:column}.spot-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.spot-img{width:100%;height:200px;object-fit:cover;background:#e8eef4;display:block}.spot-img-ph{width:100%;height:200px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:3rem}.spot-body{padding:1rem 1.1rem 1.1rem;flex:1;display:flex;flex-direction:column}.spot-meta{display:flex;align-items:center;gap:.5rem;margin-bottom:.5rem}.spot-location{font-size:.78rem;color:var(--gray);font-weight:500}.spot-season-badge{margin-left:auto;font-size:.7rem;font-weight:700;padding:.1rem .5rem;border-radius:10px;background:#f0f4f8;color:#555;white-space:nowrap}.spot-name{font-size:1.08rem;font-weight:800;color:var(--dark);margin:0 0 .45rem;line-height:1.3}.spot-desc{font-size:.86rem;line-height:1.65;color:#555;flex:1;margin-bottom:.75rem}.spot-tags{display:flex;flex-wrap:wrap;gap:.3rem}.spot-tag{font-size:.7rem;font-weight:600;padding:.15rem .5rem;border-radius:6px;background:var(--tag-bg,#f0f4f8);color:var(--tag-color,#445)}.tips-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem}.tip-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 6px rgba(0,0,0,4%)}.tip-card-icon{font-size:1.8rem;margin-bottom:.6rem}.tip-card-title{font-size:.95rem;font-weight:800;color:var(--dark);margin-bottom:.5rem}.tip-card-body{font-size:.85rem;line-height:1.65;color:#555}.tip-card-body ul{margin:.3rem 0 0;padding-left:1.1rem}.tip-card-body li{margin-bottom:.2rem}.pref-cta{background:var(--bg-soft);padding:2.5rem 1.5rem 3rem;border-top:1px solid var(--border)}.pref-cta .pref-container{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}@media(max-width:600px){.pref-hero{min-height:320px}.quick-facts{grid-template-columns:repeat(2,1fr)}.pref-toc-btn{padding:.7rem .9rem;font-size:.82rem}}.btn-add-plan{display:inline-flex;align-items:center;gap:.35rem;margin-top:.75rem;padding:.45rem .9rem;border:1.5px solid #2d5be3;border-radius:8px;background:#fff;color:#2d5be3;font-size:.78rem;font-weight:700;font-family:inherit;cursor:pointer;transition:background .15s,color .15s,transform .1s;width:100%;justify-content:center}.btn-add-plan:hover{background:#2d5be3;color:#fff;transform:translateY(-1px)}.btn-add-plan.in-plan{background:#e8f0ff;color:#1a45a8;border-color:#1a45a8}.btn-add-plan.in-plan:hover{background:#c0003a;color:#fff;border-color:#c0003a}.btn-read-guide{display:inline-flex;align-items:center;justify-content:center;gap:.35rem;margin-top:.5rem;padding:.45rem .9rem;border:1.5px solid #1a7a34;border-radius:8px;background:#f0faf2;color:#1a7a34;font-size:.78rem;font-weight:700;text-decoration:none;width:100%;transition:background .15s,color .15s,transform .1s}.btn-read-guide:hover{background:#1a7a34;color:#fff;transform:translateY(-1px);text-decoration:none}.see-all-wrap{text-align:center;margin-top:1.5rem;padding-top:1rem;border-top:1px dashed var(--border)}.see-all-btn{display:inline-flex;align-items:center;gap:.4rem;padding:.55rem 1.5rem;border:2px solid;border-radius:10px;font-size:.88rem;font-weight:700;text-decoration:none;transition:all .15s}.see-all-btn:hover{opacity:.8;text-decoration:none}</style>
+<style>.pref-breadcrumb{background:#f8f9fa;border-bottom:1px solid var(--border);padding:.6rem 1.5rem;font-size:.82rem;color:var(--gray)}.pref-breadcrumb a{color:var(--red);text-decoration:none}.pref-breadcrumb a:hover{text-decoration:underline}.pref-breadcrumb span{margin:0 .4rem}.pref-hero{position:relative;min-height:440px;display:flex;align-items:flex-end;background:#0d2010 50%/cover no-repeat;background-image:url(https://images.unsplash.com/photo-1504198070170-4ca53bb1c6f0?w=1600&q=80)}.pref-hero::after{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,.15) 0%,rgba(0,0,0,.7) 100%)}.pref-hero-body{position:relative;z-index:1;padding:2.5rem 1.5rem 2rem;max-width:var(--max-w);margin:0 auto;width:100%}.pref-hero-eyebrow{color:rgba(255,255,255,.75);font-size:.82rem;font-weight:600;text-transform:uppercase;letter-spacing:.1em;margin-bottom:.5rem}.pref-hero h1{color:#fff;font-size:clamp(2.2rem,5.5vw,3.4rem);font-weight:900;margin:0 0 .5rem;line-height:1.1}.pref-hero .pref-sub{color:rgba(255,255,255,.88);font-size:1.05rem;max-width:560px;margin-bottom:1rem}.pref-stats{display:flex;flex-wrap:wrap;gap:.6rem}.pref-stat{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);border-radius:20px;padding:.3rem .85rem;color:#fff;font-size:.8rem;font-weight:600}.pref-section{padding:2.5rem 1.5rem}.pref-section+.pref-section{padding-top:0}.pref-container{max-width:var(--max-w);margin:0 auto}.pref-section-title{font-size:1.55rem;font-weight:900;margin:0 0 .4rem;display:flex;align-items:center;gap:.5rem}.pref-section-lead{font-size:1rem;color:#555;line-height:1.7;max-width:680px;margin-bottom:1.5rem}.ponko-guide{display:flex;align-items:flex-end;gap:0;margin-bottom:1.6rem}.ponko-bubble{flex:1;min-width:0;background:linear-gradient(135deg,#fff9f0,#fff3e0);border:2px solid #f5a623;border-radius:18px 18px 18px 4px;padding:1.2rem 1.5rem;position:relative;box-shadow:0 4px 14px rgba(245,166,35,.13)}.ponko-bubble::after{content:'';position:absolute;right:-18px;bottom:22px;border:9px solid transparent;border-left-color:#f5a623}.ponko-bubble::before{content:'';position:absolute;right:-13px;bottom:23px;z-index:1;border:8px solid transparent;border-left-color:#fff9f0}.ponko-bubble p{font-size:.97rem;line-height:1.8;color:#333;margin:0}.ponko-figure{flex-shrink:0;width:170px;margin-left:4px;animation:ponko-float 3s ease-in-out infinite}.ponko-figure img{width:100%;height:auto;display:block;filter:drop-shadow(0 6px 10px rgba(0,0,0,.18))}@keyframes ponko-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}@media(max-width:640px){.ponko-guide{flex-direction:column;align-items:center}.ponko-bubble{border-radius:18px;order:2;width:100%}.ponko-bubble::after,.ponko-bubble::before{display:none}.ponko-figure{order:1;width:130px;margin-left:0;margin-bottom:.5rem;animation:none}}.quick-facts{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.8rem;margin-top:1.4rem}.qf-card{background:#f8f9fb;border:1px solid var(--border);border-radius:12px;padding:1rem 1.1rem;display:flex;align-items:flex-start;gap:.7rem}.qf-icon{font-size:1.4rem;flex-shrink:0}.qf-label{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--gray);margin-bottom:.15rem}.qf-value{font-size:.9rem;font-weight:600;color:var(--dark)}.access-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}.access-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 8px rgba(0,0,0,5%)}.access-card-hd{display:flex;align-items:center;gap:.5rem;margin-bottom:.8rem}.access-card-icon{font-size:1.5rem}.access-card-title{font-size:1rem;font-weight:800;color:var(--dark)}.access-card ul{margin:0;padding-left:1.1rem}.access-card li{font-size:.875rem;line-height:1.65;color:#444;margin-bottom:.3rem}.access-card li strong{color:var(--dark)}.access-tip{margin-top:1.2rem;background:#fff8e6;border:1px solid #ffe0a0;border-radius:10px;padding:.9rem 1.1rem;font-size:.85rem;line-height:1.6;color:#5a3e00}.access-tip strong{display:block;margin-bottom:.2rem;font-size:.88rem}.guide-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem}.guide-card{background:#fff;border-radius:14px;overflow:hidden;border:1px solid var(--border);box-shadow:0 2px 8px rgba(0,0,0,5%);transition:transform .15s,box-shadow .15s;position:relative;display:flex;flex-direction:column}.guide-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.guide-card-img{width:100%;height:150px;object-fit:cover;background:#e8eef4;display:block}.guide-card-img-ph{width:100%;height:150px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:2.5rem}.guide-card-body{padding:.9rem 1rem 1rem;flex:1}.guide-cat-badge{display:inline-block;font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;padding:.15rem .55rem;border-radius:8px;background:var(--red);color:#fff;margin-bottom:.4rem}.guide-card-title{font-size:.92rem;font-weight:800;color:var(--dark);line-height:1.4}.guide-coming-soon{position:absolute;top:.6rem;right:.6rem;background:rgba(0,0,0,.55);color:#fff;font-size:.65rem;font-weight:700;padding:.2rem .5rem;border-radius:6px;text-transform:uppercase;letter-spacing:.05em}.guide-card-link{text-decoration:none;color:inherit;display:flex;flex-direction:column;height:100%}.pref-toc{background:#fff;border-bottom:2px solid var(--border);position:sticky;top:0;z-index:100;overflow-x:auto}.pref-toc-inner{display:flex;gap:0;max-width:var(--max-w);margin:0 auto}.pref-toc-btn{flex:none;display:flex;align-items:center;gap:.4rem;padding:.8rem 1.2rem;border:none;background:0 0;cursor:pointer;font-family:inherit;font-size:.88rem;font-weight:600;color:var(--gray);border-bottom:3px solid transparent;transition:all .18s;white-space:nowrap}.pref-toc-btn .toc-icon{font-size:1.1rem}.pref-toc-btn:hover{color:var(--dark);background:#f8f8f8}.pref-toc-btn.active{color:var(--toc-color,var(--red));border-bottom-color:var(--toc-color,var(--red))}.spot-section{padding:2rem 1.5rem 2.5rem}.spot-section.hidden{display:none}.spot-section-inner{max-width:var(--max-w);margin:0 auto}.section-hd{display:flex;align-items:center;gap:.6rem;margin-bottom:1.4rem;padding-bottom:.7rem;border-bottom:2px solid var(--border)}.section-hd .s-icon{font-size:1.6rem}.section-hd h2{font-size:1.35rem;font-weight:800;margin:0}.section-hd .s-count{margin-left:auto;background:var(--sec-color,var(--red));color:#fff;border-radius:20px;padding:.15rem .65rem;font-size:.78rem;font-weight:700}.spot-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.25rem}.spot-card{border-radius:14px;overflow:hidden;border:1px solid var(--border);background:#fff;box-shadow:0 2px 8px rgba(0,0,0,6%);transition:transform .15s,box-shadow .15s;display:flex;flex-direction:column}.spot-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.spot-img{width:100%;height:200px;object-fit:cover;background:#e8eef4;display:block}.spot-img-ph{width:100%;height:200px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:3rem}.spot-body{padding:1rem 1.1rem 1.1rem;flex:1;display:flex;flex-direction:column}.spot-meta{display:flex;align-items:center;gap:.5rem;margin-bottom:.5rem}.spot-location{font-size:.78rem;color:var(--gray);font-weight:500}.spot-season-badge{margin-left:auto;font-size:.7rem;font-weight:700;padding:.1rem .5rem;border-radius:10px;background:#f0f4f8;color:#555;white-space:nowrap}.spot-name{font-size:1.08rem;font-weight:800;color:var(--dark);margin:0 0 .45rem;line-height:1.3}.spot-desc{font-size:.86rem;line-height:1.65;color:#555;flex:1;margin-bottom:.75rem}.spot-tags{display:flex;flex-wrap:wrap;gap:.3rem}.spot-tag{font-size:.7rem;font-weight:600;padding:.15rem .5rem;border-radius:6px;background:var(--tag-bg,#f0f4f8);color:var(--tag-color,#445)}.tips-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem}.tip-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 6px rgba(0,0,0,4%)}.tip-card-icon{font-size:1.8rem;margin-bottom:.6rem}.tip-card-title{font-size:.95rem;font-weight:800;color:var(--dark);margin-bottom:.5rem}.tip-card-body{font-size:.85rem;line-height:1.65;color:#555}.tip-card-body ul{margin:.3rem 0 0;padding-left:1.1rem}.tip-card-body li{margin-bottom:.2rem}.pref-cta{background:var(--bg-soft);padding:2.5rem 1.5rem 3rem;border-top:1px solid var(--border)}.pref-cta .pref-container{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}@media(max-width:600px){.pref-hero{min-height:320px}.quick-facts{grid-template-columns:repeat(2,1fr)}.pref-toc-btn{padding:.7rem .9rem;font-size:.82rem}}.btn-add-plan{display:inline-flex;align-items:center;gap:.35rem;margin-top:.75rem;padding:.45rem .9rem;border:1.5px solid #2d5be3;border-radius:8px;background:#fff;color:#2d5be3;font-size:.78rem;font-weight:700;font-family:inherit;cursor:pointer;transition:background .15s,color .15s,transform .1s;width:100%;justify-content:center}.btn-add-plan:hover{background:#2d5be3;color:#fff;transform:translateY(-1px)}.btn-add-plan.in-plan{background:#e8f0ff;color:#1a45a8;border-color:#1a45a8}.btn-add-plan.in-plan:hover{background:#c0003a;color:#fff;border-color:#c0003a}.btn-read-guide{display:inline-flex;align-items:center;justify-content:center;gap:.35rem;margin-top:.5rem;padding:.45rem .9rem;border:1.5px solid #1a7a34;border-radius:8px;background:#f0faf2;color:#1a7a34;font-size:.78rem;font-weight:700;text-decoration:none;width:100%;transition:background .15s,color .15s,transform .1s}.btn-read-guide:hover{background:#1a7a34;color:#fff;transform:translateY(-1px);text-decoration:none}.see-all-wrap{text-align:center;margin-top:1.5rem;padding-top:1rem;border-top:1px dashed var(--border)}.see-all-btn{display:inline-flex;align-items:center;gap:.4rem;padding:.55rem 1.5rem;border:2px solid;border-radius:10px;font-size:.88rem;font-weight:700;text-decoration:none;transition:all .15s}.see-all-btn:hover{opacity:.8;text-decoration:none}.see-all-btn{cursor:pointer;background:0 0}.spot-card.spot-more{display:none}.spot-section.spots-expanded .spot-card.spot-more{display:flex}.spot-section.spots-expanded .see-all-wrap{display:none}</style>
 <nav class=pref-breadcrumb aria-label=breadcrumb>
 <a href=/>首頁</a><span>›</span>
 <a href=/explore/>探索日本</a><span>›</span>
@@ -538,11 +538,77 @@
 </button>
 </div>
 </article>
+<article class="spot-card spot-more" data-spot-id=itoigawa-geopark data-spot-name="糸魚川世界地質公園 — UNESCO認定同日本翡翠發源地" data-spot-pref=niigata data-spot-fee=0 data-spot-dur=90 data-spot-lat=36.8078 data-spot-lng=137.8558 data-spot-area=itoigawa data-spot-rating=4.1 data-spot-reviews=5600 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Itoigawa_Montage.jpg/960px-Itoigawa_Montage.jpg data-spot-cats=nature,sightseeing>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Itoigawa_Montage.jpg/960px-Itoigawa_Montage.jpg alt="糸魚川世界地質公園 — UNESCO認定同日本翡翠發源地" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 糸魚川，新潟</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>糸魚川世界地質公園 — UNESCO認定同日本翡翠發源地</h3>
+<p class=spot-desc>新潟西南海岸嘅糸魚川係世界著名地質景點之一——將本州分為東西兩半嘅巨大地構斷裂帶「糸魚川靜岡構造線」喺呢度同日本海交匯。糸魚川海灘係全球唯一可以自然形成硬玉翡翠、並以礫石形式沖刷上岸嘅地方。福薩馬格納博物館陳列住精美嘅翡翠標本、繩文時代嘅玉器，並說明咗塑造日本列島嘅非凡地質力量。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>UNESCO</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>地質公園</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>翡翠</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>糸魚川靜岡構造線</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>地質奇觀</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=niigata-city-waterfront data-spot-name="新潟市 — 港口水岸同日本酒街" data-spot-pref=niigata data-spot-fee=0 data-spot-dur=90 data-spot-lat=37.9244 data-spot-lng=139.0347 data-spot-area=niigata-central data-spot-rating=4.1 data-spot-reviews=12000 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Niigata_from_Bandaijima_Building_20200906_P4.jpg/960px-Niigata_from_Bandaijima_Building_20200906_P4.jpg data-spot-cats=sightseeing,gourmet>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Niigata_from_Bandaijima_Building_20200906_P4.jpg/960px-Niigata_from_Bandaijima_Building_20200906_P4.jpg alt="新潟市 — 港口水岸同日本酒街" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 新潟市，新潟</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>新潟市 — 港口水岸同日本酒街</h3>
+<p class=spot-desc>新潟市係因為身為日本海重要港口而繁榮嘅地方，緊湊嘅歷史水岸保留咗明治時代貿易城鎮嘅繁華氣息。古町藝妓區同本酒館（Ponshukan）日本酒博物館可以用投幣機品嚐縣內95種日本酒，係日本最值得一遊嘅都市清酒巡禮。寬闊嘅信濃川出海口同夜晚燈火倒映水面嘅景致，賦予呢座城市本州海岸線上獨一無二嘅迷人魅力。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>港口城市</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>日本酒街</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>水岸</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>居酒屋</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>歷史</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=ojiya-nishikigoi-koi data-spot-name="小千谷 — 錦鯉嘅發源地" data-spot-pref=niigata data-spot-fee=600 data-spot-dur=75 data-spot-lat=37.3139 data-spot-lng=138.7856 data-spot-area=ojiya data-spot-rating=3.9 data-spot-reviews=4500 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Ojiya_Nishikigoi_no_Sato_ac_%283%29.jpg/960px-Ojiya_Nishikigoi_no_Sato_ac_%283%29.jpg data-spot-cats=sightseeing,nature>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Ojiya_Nishikigoi_no_Sato_ac_%283%29.jpg/960px-Ojiya_Nishikigoi_no_Sato_ac_%283%29.jpg alt="小千谷 — 錦鯉嘅發源地" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 小千谷，新潟</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>小千谷 — 錦鯉嘅發源地</h3>
+<p class=spot-desc>魚沼谷地嘅小千谷市係錦鯉嘅發祥地——呢種觀賞鯉魚已經成為日本最具代表性嘅出口品，如今遍布世界各地嘅池塘。當地養殖業者自19世紀初便開始培育各色品種，小千谷錦鯉之鄉讓遊客得以近距離欣賞珍貴個體，部分價值數萬美元。周邊魚沼稻田提供純淨雪融水，同時滋養錦鯉嘅色澤同本地享譽世界嘅越光米。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>錦鯉</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>觀賞鯉魚</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>小千谷</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>發源地</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>魚沼</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 </div>
 <div class=see-all-wrap>
-<a class=see-all-btn style=color:#1a45a8 href=/prefectures/niigata/sightseeing/>
-See all 9 觀光 spots →
-</a>
+<button class="see-all-btn show-more-btn" style=color:#1a45a8 type=button data-section=section-sightseeing>
+顯示全部 (9) ↓
+</button>
 </div>
 </div>
 </section><section class=spot-section id=section-gourmet data-cat=gourmet>
@@ -684,11 +750,99 @@ See all 9 觀光 spots →
 </button>
 </div>
 </article>
+<article class="spot-card spot-more" data-spot-id=hegi-soba data-spot-name=布海苔蕎麥麵（Hegi蕎麥） data-spot-pref=niigata data-spot-fee=0 data-spot-dur=45 data-spot-lat=37.9244 data-spot-lng=139.0347 data-spot-area=niigata-central data-spot-rating=4.1 data-spot-reviews=8900 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Niigata_from_Bandaijima_Building_20200906_P4.jpg/960px-Niigata_from_Bandaijima_Building_20200906_P4.jpg data-spot-cats=gourmet>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Niigata_from_Bandaijima_Building_20200906_P4.jpg/960px-Niigata_from_Bandaijima_Building_20200906_P4.jpg alt=布海苔蕎麥麵（Hegi蕎麥） loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🍜</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 新潟市，新潟</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>布海苔蕎麥麵（Hegi蕎麥）</h3>
+<p class=spot-desc>Hegi蕎麥係新潟最具特色嘅地方麵食——用布海苔（一種海藻）糊代替雞蛋嚟揉麵，賦予麵條喺日本所有蕎麥傳統中獨一無二嘅絲滑彈牙口感同淡淡海洋氣息。整齊疊成一口大小嘅束狀，冷食喺木製「片木」（hegi）托盤上呈上，擺盤之精緻同味道相得益彰。呢個傳統源自魚沼地區嘅小千谷，當地紡織業昔日以布海苔作為上漿黏合劑。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>Hegi蕎麥</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>布海苔</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>蕎麥麵</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>小千谷</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>新潟名產</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=niigata-city-waterfront data-spot-name="新潟市 — 港口水岸同日本酒街" data-spot-pref=niigata data-spot-fee=0 data-spot-dur=90 data-spot-lat=37.9244 data-spot-lng=139.0347 data-spot-area=niigata-central data-spot-rating=4.1 data-spot-reviews=12000 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Niigata_from_Bandaijima_Building_20200906_P4.jpg/960px-Niigata_from_Bandaijima_Building_20200906_P4.jpg data-spot-cats=sightseeing,gourmet>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Niigata_from_Bandaijima_Building_20200906_P4.jpg/960px-Niigata_from_Bandaijima_Building_20200906_P4.jpg alt="新潟市 — 港口水岸同日本酒街" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🍜</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 新潟市，新潟</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>新潟市 — 港口水岸同日本酒街</h3>
+<p class=spot-desc>新潟市係因為身為日本海重要港口而繁榮嘅地方，緊湊嘅歷史水岸保留咗明治時代貿易城鎮嘅繁華氣息。古町藝妓區同本酒館（Ponshukan）日本酒博物館可以用投幣機品嚐縣內95種日本酒，係日本最值得一遊嘅都市清酒巡禮。寬闊嘅信濃川出海口同夜晚燈火倒映水面嘅景致，賦予呢座城市本州海岸線上獨一無二嘅迷人魅力。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>港口城市</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>日本酒街</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>水岸</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>居酒屋</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>歷史</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=noppe-stew data-spot-name="Noppe — 新潟傳統根菜雜燴" data-spot-pref=niigata data-spot-fee=0 data-spot-dur=45 data-spot-lat=37.9244 data-spot-lng=139.0347 data-spot-area=niigata-central data-spot-rating=4 data-spot-reviews=6200 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Niigata_from_Bandaijima_Building_20200906_P4.jpg/960px-Niigata_from_Bandaijima_Building_20200906_P4.jpg data-spot-cats=gourmet>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Niigata_from_Bandaijima_Building_20200906_P4.jpg/960px-Niigata_from_Bandaijima_Building_20200906_P4.jpg alt="Noppe — 新潟傳統根菜雜燴" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🍜</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 新潟市，新潟</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Noppe — 新潟傳統根菜雜燴</h3>
+<p class=spot-desc>Noppe係新潟深受喜愛嘅傳統雜燴——清淡調味嘅清澈湯底中盛滿芋頭、蓮藕、香菇、紅蘿蔔、蒟蒻同鮭魚或魚板，由里芋釋放嘅澱粉自然增稠。夏日祭典時室溫或冰凍享用，冬日則趁熱食用，呢道菜深深融入縣內嘅季節飲食文化之中。新潟幾乎每家每戶都有代代相傳、屬於自己嘅Noppe食譜。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>Noppe</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>芋頭</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>傳統</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>新年</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>家常菜</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=uonuma-koshihikari-rice data-spot-name="魚沼越光米 — 日本最珍貴嘅米" data-spot-pref=niigata data-spot-fee=0 data-spot-dur=60 data-spot-lat=36.8406 data-spot-lng=138.9289 data-spot-area=uonuma data-spot-rating=4 data-spot-reviews=5300 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Rice_Field_Terrace%2C_Kitaimogawa%2C_Sanj%C5%8D%2C_Niigata%2C_Japan%2C_September_2022.jpg/960px-Rice_Field_Terrace%2C_Kitaimogawa%2C_Sanj%C5%8D%2C_Niigata%2C_Japan%2C_September_2022.jpg data-spot-cats=gourmet>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Rice_Field_Terrace%2C_Kitaimogawa%2C_Sanj%C5%8D%2C_Niigata%2C_Japan%2C_September_2022.jpg/960px-Rice_Field_Terrace%2C_Kitaimogawa%2C_Sanj%C5%8D%2C_Niigata%2C_Japan%2C_September_2022.jpg alt="魚沼越光米 — 日本最珍貴嘅米" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🍜</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 魚沼，新潟</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>魚沼越光米 — 日本最珍貴嘅米</h3>
+<p class=spot-desc>魚沼越光米係日本最受追捧嘅短粒米——生長喺魚沼狹長山谷，劇烈嘅晝夜溫差、純淨嘅雪融水同富含礦物質嘅土壤造就咗甜度、黏性同風味俱屬絕頂嘅米粒。9月至10月收穫季節，梯田山谷化為越後山脈映襯下嘅一幅金色馬賽克畫卷。每位認真嘅日本米食愛好者都將魚沼越光米視為無可爭議嘅標竿。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>越光米</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>白米</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>魚沼</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>頂級品質</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>收穫</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 </div>
 <div class=see-all-wrap>
-<a class=see-all-btn style=color:#d64000 href=/prefectures/niigata/gourmet/>
-See all 10 美食 spots →
-</a>
+<button class="see-all-btn show-more-btn" style=color:#d64000 type=button data-section=section-gourmet>
+顯示全部 (10) ↓
+</button>
 </div>
 </div>
 </section><section class=spot-section id=section-nature data-cat=nature>
@@ -831,11 +985,33 @@ See all 10 美食 spots →
 </button>
 </div>
 </article>
+<article class="spot-card spot-more" data-spot-id=shinano-river data-spot-name="信濃川 — 日本最長嘅河流" data-spot-pref=niigata data-spot-fee=0 data-spot-dur=60 data-spot-lat=37.9244 data-spot-lng=139.0347 data-spot-area=niigata-central data-spot-rating=3.9 data-spot-reviews=4100 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Niigata_from_Bandaijima_Building_20200906_P4.jpg/960px-Niigata_from_Bandaijima_Building_20200906_P4.jpg data-spot-cats=nature>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Niigata_from_Bandaijima_Building_20200906_P4.jpg/960px-Niigata_from_Bandaijima_Building_20200906_P4.jpg alt="信濃川 — 日本最長嘅河流" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🏔️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 新潟市，新潟</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>信濃川 — 日本最長嘅河流</h3>
+<p class=spot-desc>信濃川係日本最長嘅河流，從長野山地奔流367公里，穿越新潟平原注入日本海。寬闊嘅下游河段同相連濕地，係包括喺河口附近滝野水鳥公園越冬嘅大天鵝喺內諸多候鳥嘅重要棲息地。新潟市嘅河濱單車道同渡輪服務，讓人可以輕鬆感受河流嘅宏闊規模；小千谷附近嘅上游峽谷則展現出更壯麗嘅山岳面貌。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>最長河流</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>濕地</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>雀鳥</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>踩單車</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>河岸風光</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 </div>
 <div class=see-all-wrap>
-<a class=see-all-btn style=color:#1a7a34 href=/prefectures/niigata/nature/>
-See all 7 自然 spots →
-</a>
+<button class="see-all-btn show-more-btn" style=color:#1a7a34 type=button data-section=section-nature>
+顯示全部 (7) ↓
+</button>
 </div>
 </div>
 </section><section class=spot-section id=section-leisure data-cat=leisure>
@@ -1118,11 +1294,55 @@ See all 7 自然 spots →
 </button>
 </div>
 </article>
+<article class="spot-card spot-more" data-spot-id=naeba-ski-resort data-spot-name="苗場滑雪場 — 富士搖滾同世界級滑雪" data-spot-pref=niigata data-spot-fee=0 data-spot-dur=180 data-spot-lat=37.1128 data-spot-lng=138.8831 data-spot-area=yuzawa data-spot-rating=4.4 data-spot-reviews=13200 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Naeba_ski_resort%2C_January_2026_%2865788%29.jpg/960px-Naeba_ski_resort%2C_January_2026_%2865788%29.jpg data-spot-cats=leisure,events>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Naeba_ski_resort%2C_January_2026_%2865788%29.jpg/960px-Naeba_ski_resort%2C_January_2026_%2865788%29.jpg alt="苗場滑雪場 — 富士搖滾同世界級滑雪" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎆</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 湯澤，新潟</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>苗場滑雪場 — 富士搖滾同世界級滑雪</h3>
+<p class=spot-desc>苗場係本州最大型滑雪場之一，坐落喺壯闊嘅山地盆地，擁有27條雪道、最高海拔1,789米，以及連接鄰近田代地區、全長5.5公里嘅日本最長「龍纜車」（Dragondola）。夏季，同一片山坡搖身一變成為日本最大戶外音樂盛典富士搖滾音樂節嘅舞台，吸引13萬人喺橫跨森林、河邊草地同山野嘅多個舞台間度過三天嘅音樂狂歡。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>滑雪場</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>富士搖滾</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>本州最大</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>雪地</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>纜車</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=niigata-matsuri data-spot-name="新潟祭 — 港口城市夏日盛典" data-spot-pref=niigata data-spot-fee=0 data-spot-dur=120 data-spot-lat=37.9244 data-spot-lng=139.0347 data-spot-area=niigata-central data-spot-rating=4.2 data-spot-reviews=9200 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Niigata_from_Bandaijima_Building_20200906_P4.jpg/960px-Niigata_from_Bandaijima_Building_20200906_P4.jpg data-spot-cats=events>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Niigata_from_Bandaijima_Building_20200906_P4.jpg/960px-Niigata_from_Bandaijima_Building_20200906_P4.jpg alt="新潟祭 — 港口城市夏日盛典" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎆</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 新潟市，新潟</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>新潟祭 — 港口城市夏日盛典</h3>
+<p class=spot-desc>新潟祭係每年7月底至8月初舉行嘅三天夏日祭典，慶祝呢座日本海重要港口嘅城市身份——以信濃川水岸為中心，舉辦遊行、太鼓表演、民俗舞蹈，並喺河面上施放本州北部最壯觀嘅煙火。祭典吸引逾150萬遊客，將城內居酒屋同日本酒吧渲染成一片歡騰。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>祭典</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>夏日</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>港口城市</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>煙火</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>8月</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 </div>
 <div class=see-all-wrap>
-<a class=see-all-btn style=color:#b5006e href=/prefectures/niigata/events/>
-See all 8 節慶 spots →
-</a>
+<button class="see-all-btn show-more-btn" style=color:#b5006e type=button data-section=section-events>
+顯示全部 (8) ↓
+</button>
 </div>
 </div>
 </section><section class=spot-section id=section-experience data-cat=experience>
@@ -1241,6 +1461,13 @@ See all 8 節慶 spots →
 </div>
 <script>
 (function(){
+ 
+document.querySelectorAll('.show-more-btn').forEach(function(btn){
+  btn.addEventListener('click', function(){
+    var sec = document.getElementById(btn.dataset.section);
+    if (sec) sec.classList.add('spots-expanded');
+  });
+});
  
 const CATS = {
   sightseeing:{ color:"#1a45a8" },

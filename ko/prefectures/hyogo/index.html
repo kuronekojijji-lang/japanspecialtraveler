@@ -99,7 +99,7 @@
   document.addEventListener('keydown', function(e){ if(e.key==='Escape') close(); });
 })();
 </script>
-<style>.pref-breadcrumb{background:#f8f9fa;border-bottom:1px solid var(--border);padding:.6rem 1.5rem;font-size:.82rem;color:var(--gray)}.pref-breadcrumb a{color:var(--red);text-decoration:none}.pref-breadcrumb a:hover{text-decoration:underline}.pref-breadcrumb span{margin:0 .4rem}.pref-hero{position:relative;min-height:440px;display:flex;align-items:flex-end;background:#0a1a3a 50%/cover no-repeat;background-image:url(https://images.unsplash.com/photo-1490806843957-31f4c9a91c65?w=1600&q=80)}.pref-hero::after{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,.15) 0%,rgba(0,0,0,.7) 100%)}.pref-hero-body{position:relative;z-index:1;padding:2.5rem 1.5rem 2rem;max-width:var(--max-w);margin:0 auto;width:100%}.pref-hero-eyebrow{color:rgba(255,255,255,.75);font-size:.82rem;font-weight:600;text-transform:uppercase;letter-spacing:.1em;margin-bottom:.5rem}.pref-hero h1{color:#fff;font-size:clamp(2.2rem,5.5vw,3.4rem);font-weight:900;margin:0 0 .5rem;line-height:1.1}.pref-hero .pref-sub{color:rgba(255,255,255,.88);font-size:1.05rem;max-width:560px;margin-bottom:1rem}.pref-stats{display:flex;flex-wrap:wrap;gap:.6rem}.pref-stat{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);border-radius:20px;padding:.3rem .85rem;color:#fff;font-size:.8rem;font-weight:600}.pref-section{padding:2.5rem 1.5rem}.pref-section+.pref-section{padding-top:0}.pref-container{max-width:var(--max-w);margin:0 auto}.pref-section-title{font-size:1.55rem;font-weight:900;margin:0 0 .4rem;display:flex;align-items:center;gap:.5rem}.pref-section-lead{font-size:1rem;color:#555;line-height:1.7;max-width:680px;margin-bottom:1.5rem}.ponko-guide{display:flex;align-items:flex-end;gap:0;margin-bottom:1.6rem}.ponko-bubble{flex:1;min-width:0;background:linear-gradient(135deg,#fff9f0,#fff3e0);border:2px solid #f5a623;border-radius:18px 18px 18px 4px;padding:1.2rem 1.5rem;position:relative;box-shadow:0 4px 14px rgba(245,166,35,.13)}.ponko-bubble::after{content:'';position:absolute;right:-18px;bottom:22px;border:9px solid transparent;border-left-color:#f5a623}.ponko-bubble::before{content:'';position:absolute;right:-13px;bottom:23px;z-index:1;border:8px solid transparent;border-left-color:#fff9f0}.ponko-bubble p{font-size:.97rem;line-height:1.8;color:#333;margin:0}.ponko-figure{flex-shrink:0;width:170px;margin-left:4px;animation:ponko-float 3s ease-in-out infinite}.ponko-figure img{width:100%;height:auto;display:block;filter:drop-shadow(0 6px 10px rgba(0,0,0,.18))}@keyframes ponko-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}@media(max-width:640px){.ponko-guide{flex-direction:column;align-items:center}.ponko-bubble{border-radius:18px;order:2;width:100%}.ponko-bubble::after,.ponko-bubble::before{display:none}.ponko-figure{order:1;width:130px;margin-left:0;margin-bottom:.5rem;animation:none}}.quick-facts{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.8rem;margin-top:1.4rem}.qf-card{background:#f8f9fb;border:1px solid var(--border);border-radius:12px;padding:1rem 1.1rem;display:flex;align-items:flex-start;gap:.7rem}.qf-icon{font-size:1.4rem;flex-shrink:0}.qf-label{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--gray);margin-bottom:.15rem}.qf-value{font-size:.9rem;font-weight:600;color:var(--dark)}.access-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}.access-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 8px rgba(0,0,0,5%)}.access-card-hd{display:flex;align-items:center;gap:.5rem;margin-bottom:.8rem}.access-card-icon{font-size:1.5rem}.access-card-title{font-size:1rem;font-weight:800;color:var(--dark)}.access-card ul{margin:0;padding-left:1.1rem}.access-card li{font-size:.875rem;line-height:1.65;color:#444;margin-bottom:.3rem}.access-card li strong{color:var(--dark)}.access-tip{margin-top:1.2rem;background:#fff8e6;border:1px solid #ffe0a0;border-radius:10px;padding:.9rem 1.1rem;font-size:.85rem;line-height:1.6;color:#5a3e00}.access-tip strong{display:block;margin-bottom:.2rem;font-size:.88rem}.guide-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem}.guide-card{background:#fff;border-radius:14px;overflow:hidden;border:1px solid var(--border);box-shadow:0 2px 8px rgba(0,0,0,5%);transition:transform .15s,box-shadow .15s;position:relative;display:flex;flex-direction:column}.guide-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.guide-card-img{width:100%;height:150px;object-fit:cover;background:#e8eef4;display:block}.guide-card-img-ph{width:100%;height:150px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:2.5rem}.guide-card-body{padding:.9rem 1rem 1rem;flex:1}.guide-cat-badge{display:inline-block;font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;padding:.15rem .55rem;border-radius:8px;background:var(--red);color:#fff;margin-bottom:.4rem}.guide-card-title{font-size:.92rem;font-weight:800;color:var(--dark);line-height:1.4}.guide-coming-soon{position:absolute;top:.6rem;right:.6rem;background:rgba(0,0,0,.55);color:#fff;font-size:.65rem;font-weight:700;padding:.2rem .5rem;border-radius:6px;text-transform:uppercase;letter-spacing:.05em}.guide-card-link{text-decoration:none;color:inherit;display:flex;flex-direction:column;height:100%}.pref-toc{background:#fff;border-bottom:2px solid var(--border);position:sticky;top:0;z-index:100;overflow-x:auto}.pref-toc-inner{display:flex;gap:0;max-width:var(--max-w);margin:0 auto}.pref-toc-btn{flex:none;display:flex;align-items:center;gap:.4rem;padding:.8rem 1.2rem;border:none;background:0 0;cursor:pointer;font-family:inherit;font-size:.88rem;font-weight:600;color:var(--gray);border-bottom:3px solid transparent;transition:all .18s;white-space:nowrap}.pref-toc-btn .toc-icon{font-size:1.1rem}.pref-toc-btn:hover{color:var(--dark);background:#f8f8f8}.pref-toc-btn.active{color:var(--toc-color,var(--red));border-bottom-color:var(--toc-color,var(--red))}.spot-section{padding:2rem 1.5rem 2.5rem}.spot-section.hidden{display:none}.spot-section-inner{max-width:var(--max-w);margin:0 auto}.section-hd{display:flex;align-items:center;gap:.6rem;margin-bottom:1.4rem;padding-bottom:.7rem;border-bottom:2px solid var(--border)}.section-hd .s-icon{font-size:1.6rem}.section-hd h2{font-size:1.35rem;font-weight:800;margin:0}.section-hd .s-count{margin-left:auto;background:var(--sec-color,var(--red));color:#fff;border-radius:20px;padding:.15rem .65rem;font-size:.78rem;font-weight:700}.spot-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.25rem}.spot-card{border-radius:14px;overflow:hidden;border:1px solid var(--border);background:#fff;box-shadow:0 2px 8px rgba(0,0,0,6%);transition:transform .15s,box-shadow .15s;display:flex;flex-direction:column}.spot-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.spot-img{width:100%;height:200px;object-fit:cover;background:#e8eef4;display:block}.spot-img-ph{width:100%;height:200px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:3rem}.spot-body{padding:1rem 1.1rem 1.1rem;flex:1;display:flex;flex-direction:column}.spot-meta{display:flex;align-items:center;gap:.5rem;margin-bottom:.5rem}.spot-location{font-size:.78rem;color:var(--gray);font-weight:500}.spot-season-badge{margin-left:auto;font-size:.7rem;font-weight:700;padding:.1rem .5rem;border-radius:10px;background:#f0f4f8;color:#555;white-space:nowrap}.spot-name{font-size:1.08rem;font-weight:800;color:var(--dark);margin:0 0 .45rem;line-height:1.3}.spot-desc{font-size:.86rem;line-height:1.65;color:#555;flex:1;margin-bottom:.75rem}.spot-tags{display:flex;flex-wrap:wrap;gap:.3rem}.spot-tag{font-size:.7rem;font-weight:600;padding:.15rem .5rem;border-radius:6px;background:var(--tag-bg,#f0f4f8);color:var(--tag-color,#445)}.tips-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem}.tip-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 6px rgba(0,0,0,4%)}.tip-card-icon{font-size:1.8rem;margin-bottom:.6rem}.tip-card-title{font-size:.95rem;font-weight:800;color:var(--dark);margin-bottom:.5rem}.tip-card-body{font-size:.85rem;line-height:1.65;color:#555}.tip-card-body ul{margin:.3rem 0 0;padding-left:1.1rem}.tip-card-body li{margin-bottom:.2rem}.pref-cta{background:var(--bg-soft);padding:2.5rem 1.5rem 3rem;border-top:1px solid var(--border)}.pref-cta .pref-container{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}@media(max-width:600px){.pref-hero{min-height:320px}.quick-facts{grid-template-columns:repeat(2,1fr)}.pref-toc-btn{padding:.7rem .9rem;font-size:.82rem}}.btn-add-plan{display:inline-flex;align-items:center;gap:.35rem;margin-top:.75rem;padding:.45rem .9rem;border:1.5px solid #2d5be3;border-radius:8px;background:#fff;color:#2d5be3;font-size:.78rem;font-weight:700;font-family:inherit;cursor:pointer;transition:background .15s,color .15s,transform .1s;width:100%;justify-content:center}.btn-add-plan:hover{background:#2d5be3;color:#fff;transform:translateY(-1px)}.btn-add-plan.in-plan{background:#e8f0ff;color:#1a45a8;border-color:#1a45a8}.btn-add-plan.in-plan:hover{background:#c0003a;color:#fff;border-color:#c0003a}.btn-read-guide{display:inline-flex;align-items:center;justify-content:center;gap:.35rem;margin-top:.5rem;padding:.45rem .9rem;border:1.5px solid #1a7a34;border-radius:8px;background:#f0faf2;color:#1a7a34;font-size:.78rem;font-weight:700;text-decoration:none;width:100%;transition:background .15s,color .15s,transform .1s}.btn-read-guide:hover{background:#1a7a34;color:#fff;transform:translateY(-1px);text-decoration:none}.see-all-wrap{text-align:center;margin-top:1.5rem;padding-top:1rem;border-top:1px dashed var(--border)}.see-all-btn{display:inline-flex;align-items:center;gap:.4rem;padding:.55rem 1.5rem;border:2px solid;border-radius:10px;font-size:.88rem;font-weight:700;text-decoration:none;transition:all .15s}.see-all-btn:hover{opacity:.8;text-decoration:none}</style>
+<style>.pref-breadcrumb{background:#f8f9fa;border-bottom:1px solid var(--border);padding:.6rem 1.5rem;font-size:.82rem;color:var(--gray)}.pref-breadcrumb a{color:var(--red);text-decoration:none}.pref-breadcrumb a:hover{text-decoration:underline}.pref-breadcrumb span{margin:0 .4rem}.pref-hero{position:relative;min-height:440px;display:flex;align-items:flex-end;background:#0a1a3a 50%/cover no-repeat;background-image:url(https://images.unsplash.com/photo-1490806843957-31f4c9a91c65?w=1600&q=80)}.pref-hero::after{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,.15) 0%,rgba(0,0,0,.7) 100%)}.pref-hero-body{position:relative;z-index:1;padding:2.5rem 1.5rem 2rem;max-width:var(--max-w);margin:0 auto;width:100%}.pref-hero-eyebrow{color:rgba(255,255,255,.75);font-size:.82rem;font-weight:600;text-transform:uppercase;letter-spacing:.1em;margin-bottom:.5rem}.pref-hero h1{color:#fff;font-size:clamp(2.2rem,5.5vw,3.4rem);font-weight:900;margin:0 0 .5rem;line-height:1.1}.pref-hero .pref-sub{color:rgba(255,255,255,.88);font-size:1.05rem;max-width:560px;margin-bottom:1rem}.pref-stats{display:flex;flex-wrap:wrap;gap:.6rem}.pref-stat{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);border-radius:20px;padding:.3rem .85rem;color:#fff;font-size:.8rem;font-weight:600}.pref-section{padding:2.5rem 1.5rem}.pref-section+.pref-section{padding-top:0}.pref-container{max-width:var(--max-w);margin:0 auto}.pref-section-title{font-size:1.55rem;font-weight:900;margin:0 0 .4rem;display:flex;align-items:center;gap:.5rem}.pref-section-lead{font-size:1rem;color:#555;line-height:1.7;max-width:680px;margin-bottom:1.5rem}.ponko-guide{display:flex;align-items:flex-end;gap:0;margin-bottom:1.6rem}.ponko-bubble{flex:1;min-width:0;background:linear-gradient(135deg,#fff9f0,#fff3e0);border:2px solid #f5a623;border-radius:18px 18px 18px 4px;padding:1.2rem 1.5rem;position:relative;box-shadow:0 4px 14px rgba(245,166,35,.13)}.ponko-bubble::after{content:'';position:absolute;right:-18px;bottom:22px;border:9px solid transparent;border-left-color:#f5a623}.ponko-bubble::before{content:'';position:absolute;right:-13px;bottom:23px;z-index:1;border:8px solid transparent;border-left-color:#fff9f0}.ponko-bubble p{font-size:.97rem;line-height:1.8;color:#333;margin:0}.ponko-figure{flex-shrink:0;width:170px;margin-left:4px;animation:ponko-float 3s ease-in-out infinite}.ponko-figure img{width:100%;height:auto;display:block;filter:drop-shadow(0 6px 10px rgba(0,0,0,.18))}@keyframes ponko-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}@media(max-width:640px){.ponko-guide{flex-direction:column;align-items:center}.ponko-bubble{border-radius:18px;order:2;width:100%}.ponko-bubble::after,.ponko-bubble::before{display:none}.ponko-figure{order:1;width:130px;margin-left:0;margin-bottom:.5rem;animation:none}}.quick-facts{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.8rem;margin-top:1.4rem}.qf-card{background:#f8f9fb;border:1px solid var(--border);border-radius:12px;padding:1rem 1.1rem;display:flex;align-items:flex-start;gap:.7rem}.qf-icon{font-size:1.4rem;flex-shrink:0}.qf-label{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--gray);margin-bottom:.15rem}.qf-value{font-size:.9rem;font-weight:600;color:var(--dark)}.access-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}.access-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 8px rgba(0,0,0,5%)}.access-card-hd{display:flex;align-items:center;gap:.5rem;margin-bottom:.8rem}.access-card-icon{font-size:1.5rem}.access-card-title{font-size:1rem;font-weight:800;color:var(--dark)}.access-card ul{margin:0;padding-left:1.1rem}.access-card li{font-size:.875rem;line-height:1.65;color:#444;margin-bottom:.3rem}.access-card li strong{color:var(--dark)}.access-tip{margin-top:1.2rem;background:#fff8e6;border:1px solid #ffe0a0;border-radius:10px;padding:.9rem 1.1rem;font-size:.85rem;line-height:1.6;color:#5a3e00}.access-tip strong{display:block;margin-bottom:.2rem;font-size:.88rem}.guide-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem}.guide-card{background:#fff;border-radius:14px;overflow:hidden;border:1px solid var(--border);box-shadow:0 2px 8px rgba(0,0,0,5%);transition:transform .15s,box-shadow .15s;position:relative;display:flex;flex-direction:column}.guide-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.guide-card-img{width:100%;height:150px;object-fit:cover;background:#e8eef4;display:block}.guide-card-img-ph{width:100%;height:150px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:2.5rem}.guide-card-body{padding:.9rem 1rem 1rem;flex:1}.guide-cat-badge{display:inline-block;font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;padding:.15rem .55rem;border-radius:8px;background:var(--red);color:#fff;margin-bottom:.4rem}.guide-card-title{font-size:.92rem;font-weight:800;color:var(--dark);line-height:1.4}.guide-coming-soon{position:absolute;top:.6rem;right:.6rem;background:rgba(0,0,0,.55);color:#fff;font-size:.65rem;font-weight:700;padding:.2rem .5rem;border-radius:6px;text-transform:uppercase;letter-spacing:.05em}.guide-card-link{text-decoration:none;color:inherit;display:flex;flex-direction:column;height:100%}.pref-toc{background:#fff;border-bottom:2px solid var(--border);position:sticky;top:0;z-index:100;overflow-x:auto}.pref-toc-inner{display:flex;gap:0;max-width:var(--max-w);margin:0 auto}.pref-toc-btn{flex:none;display:flex;align-items:center;gap:.4rem;padding:.8rem 1.2rem;border:none;background:0 0;cursor:pointer;font-family:inherit;font-size:.88rem;font-weight:600;color:var(--gray);border-bottom:3px solid transparent;transition:all .18s;white-space:nowrap}.pref-toc-btn .toc-icon{font-size:1.1rem}.pref-toc-btn:hover{color:var(--dark);background:#f8f8f8}.pref-toc-btn.active{color:var(--toc-color,var(--red));border-bottom-color:var(--toc-color,var(--red))}.spot-section{padding:2rem 1.5rem 2.5rem}.spot-section.hidden{display:none}.spot-section-inner{max-width:var(--max-w);margin:0 auto}.section-hd{display:flex;align-items:center;gap:.6rem;margin-bottom:1.4rem;padding-bottom:.7rem;border-bottom:2px solid var(--border)}.section-hd .s-icon{font-size:1.6rem}.section-hd h2{font-size:1.35rem;font-weight:800;margin:0}.section-hd .s-count{margin-left:auto;background:var(--sec-color,var(--red));color:#fff;border-radius:20px;padding:.15rem .65rem;font-size:.78rem;font-weight:700}.spot-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.25rem}.spot-card{border-radius:14px;overflow:hidden;border:1px solid var(--border);background:#fff;box-shadow:0 2px 8px rgba(0,0,0,6%);transition:transform .15s,box-shadow .15s;display:flex;flex-direction:column}.spot-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.spot-img{width:100%;height:200px;object-fit:cover;background:#e8eef4;display:block}.spot-img-ph{width:100%;height:200px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:3rem}.spot-body{padding:1rem 1.1rem 1.1rem;flex:1;display:flex;flex-direction:column}.spot-meta{display:flex;align-items:center;gap:.5rem;margin-bottom:.5rem}.spot-location{font-size:.78rem;color:var(--gray);font-weight:500}.spot-season-badge{margin-left:auto;font-size:.7rem;font-weight:700;padding:.1rem .5rem;border-radius:10px;background:#f0f4f8;color:#555;white-space:nowrap}.spot-name{font-size:1.08rem;font-weight:800;color:var(--dark);margin:0 0 .45rem;line-height:1.3}.spot-desc{font-size:.86rem;line-height:1.65;color:#555;flex:1;margin-bottom:.75rem}.spot-tags{display:flex;flex-wrap:wrap;gap:.3rem}.spot-tag{font-size:.7rem;font-weight:600;padding:.15rem .5rem;border-radius:6px;background:var(--tag-bg,#f0f4f8);color:var(--tag-color,#445)}.tips-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem}.tip-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 6px rgba(0,0,0,4%)}.tip-card-icon{font-size:1.8rem;margin-bottom:.6rem}.tip-card-title{font-size:.95rem;font-weight:800;color:var(--dark);margin-bottom:.5rem}.tip-card-body{font-size:.85rem;line-height:1.65;color:#555}.tip-card-body ul{margin:.3rem 0 0;padding-left:1.1rem}.tip-card-body li{margin-bottom:.2rem}.pref-cta{background:var(--bg-soft);padding:2.5rem 1.5rem 3rem;border-top:1px solid var(--border)}.pref-cta .pref-container{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}@media(max-width:600px){.pref-hero{min-height:320px}.quick-facts{grid-template-columns:repeat(2,1fr)}.pref-toc-btn{padding:.7rem .9rem;font-size:.82rem}}.btn-add-plan{display:inline-flex;align-items:center;gap:.35rem;margin-top:.75rem;padding:.45rem .9rem;border:1.5px solid #2d5be3;border-radius:8px;background:#fff;color:#2d5be3;font-size:.78rem;font-weight:700;font-family:inherit;cursor:pointer;transition:background .15s,color .15s,transform .1s;width:100%;justify-content:center}.btn-add-plan:hover{background:#2d5be3;color:#fff;transform:translateY(-1px)}.btn-add-plan.in-plan{background:#e8f0ff;color:#1a45a8;border-color:#1a45a8}.btn-add-plan.in-plan:hover{background:#c0003a;color:#fff;border-color:#c0003a}.btn-read-guide{display:inline-flex;align-items:center;justify-content:center;gap:.35rem;margin-top:.5rem;padding:.45rem .9rem;border:1.5px solid #1a7a34;border-radius:8px;background:#f0faf2;color:#1a7a34;font-size:.78rem;font-weight:700;text-decoration:none;width:100%;transition:background .15s,color .15s,transform .1s}.btn-read-guide:hover{background:#1a7a34;color:#fff;transform:translateY(-1px);text-decoration:none}.see-all-wrap{text-align:center;margin-top:1.5rem;padding-top:1rem;border-top:1px dashed var(--border)}.see-all-btn{display:inline-flex;align-items:center;gap:.4rem;padding:.55rem 1.5rem;border:2px solid;border-radius:10px;font-size:.88rem;font-weight:700;text-decoration:none;transition:all .15s}.see-all-btn:hover{opacity:.8;text-decoration:none}.see-all-btn{cursor:pointer;background:0 0}.spot-card.spot-more{display:none}.spot-section.spots-expanded .spot-card.spot-more{display:flex}.spot-section.spots-expanded .see-all-wrap{display:none}</style>
 <nav class=pref-breadcrumb aria-label=breadcrumb>
 <a href=/>홈</a><span>›</span>
 <a href=/explore/>일본 탐색</a><span>›</span>
@@ -542,11 +542,231 @@
 </button>
 </div>
 </article>
+<article class="spot-card spot-more" data-spot-id=kobe-chinatown data-spot-name="고베 차이나타운 (난킨마치)" data-spot-pref=hyogo data-spot-fee=0 data-spot-dur=90 data-spot-lat=34.6876 data-spot-lng=135.1897 data-spot-area=kobe-chinatown data-spot-rating=4.5 data-spot-reviews=5100 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Kobe-Nankinmachi.JPG/960px-Kobe-Nankinmachi.JPG data-spot-cats=sightseeing,gourmet>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Kobe-Nankinmachi.JPG/960px-Kobe-Nankinmachi.JPG alt="고베 차이나타운 (난킨마치)" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 고베 주오구</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>고베 차이나타운 (난킨마치)</h3>
+<p class=spot-desc>메이지 시대까지 거슬러 올라가는 고베의 활기찬 중화 거리로, 좁은 골목과 전통 패방, 쓰촨 요리와 광둥 요리를 선보이는 정통 식당들이 자리합니다. 일본과 중국의 건축이 어우러져 다른 차이나타운과는 다른 독특한 문화 체험을 선사합니다. 저녁이면 등불이 켜지며 특히 운치 있는 풍경이 펼쳐집니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>역사 지구</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>중화요리</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>문화의 융합</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=kobe-harborland data-spot-name="고베 하버랜드" data-spot-pref=hyogo data-spot-fee=0 data-spot-dur=120 data-spot-lat=34.6901 data-spot-lng=135.284 data-spot-area=kobe-harborland data-spot-rating=4.5 data-spot-reviews=6200 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Harborland_%28Port_of_Kobe%29_20150920-5.JPG/960px-Harborland_%28Port_of_Kobe%29_20150920-5.JPG data-spot-cats=sightseeing,leisure>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Harborland_%28Port_of_Kobe%29_20150920-5.JPG/960px-Harborland_%28Port_of_Kobe%29_20150920-5.JPG alt="고베 하버랜드" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 고베 주오구</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>고베 하버랜드</h3>
+<p class=spot-desc>상점과 레스토랑, 엔터테인먼트 시설이 모인 활기찬 워터프런트 지구로, 고베항과 상징적인 아카시 해협 대교의 멋진 전망을 자랑합니다. 밤이 되면 조명이 켜진 건물들과 모자이크 쇼핑몰이 어우러져 아름답게 변신합니다. 저녁 식사와 쇼핑을 즐기며 현대 고베의 국제적인 분위기를 만끽하기에 안성맞춤입니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>워터프런트</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>쇼핑</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>야경</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=nanzenji-garden-hyogo data-spot-name="난젠지 정원 (효고 분원)" data-spot-pref=hyogo data-spot-fee=500 data-spot-dur=60 data-spot-lat=34.7611 data-spot-lng=135.2867 data-spot-area=kobe-north data-spot-rating=4.5 data-spot-reviews=2200 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Engaku-ji_zen_garden%2C_facing_east.jpg/960px-Engaku-ji_zen_garden%2C_facing_east.jpg data-spot-cats=sightseeing,nature>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Engaku-ji_zen_garden%2C_facing_east.jpg/960px-Engaku-ji_zen_garden%2C_facing_east.jpg alt="난젠지 정원 (효고 분원)" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 효고 고베</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>난젠지 정원 (효고 분원)</h3>
+<p class=spot-desc>정교하게 배치된 바위와 다듬어진 나무, 수경 요소가 어우러진 선 불교 사찰 정원으로, 자연과의 조화를 추구하는 불교 철학을 담아냈습니다. 정원의 세련된 미학과 명상적인 분위기는 도시의 분주함에서 벗어나는 쉼을 선사합니다. 계절의 변화에 따라 정원의 모습도 한 해 내내 다채롭게 바뀝니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>일본 정원</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>선 디자인</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>고요함</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=maiko-geisha-district data-spot-name="마이코 게이샤 거리" data-spot-pref=hyogo data-spot-fee=0 data-spot-dur=120 data-spot-lat=34.7333 data-spot-lng=135.2639 data-spot-area=maiko-higashinada data-spot-rating=4.4 data-spot-reviews=2800 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Hyogo_Prefectural_Maiko_Park_from_Maiko_Marine_Promenade.JPG/960px-Hyogo_Prefectural_Maiko_Park_from_Maiko_Marine_Promenade.JPG data-spot-cats=sightseeing,sightseeing>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Hyogo_Prefectural_Maiko_Park_from_Maiko_Marine_Promenade.JPG/960px-Hyogo_Prefectural_Maiko_Park_from_Maiko_Marine_Promenade.JPG alt="마이코 게이샤 거리" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 고베 히가시나다구</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>마이코 게이샤 거리</h3>
+<p class=spot-desc>히가시나다구에 자리한 고베의 전통 게이샤 거리로, 역사 깊은 목조 마치야 가옥을 간직하고 있으며 저녁이면 전통 무용과 샤미센 연주가 어우러진 공연이 펼쳐집니다. 교토의 잘 알려진 거리와는 또 다른, 일본 전통 공연 예술을 엿볼 수 있는 정취 어린 동네입니다. 디너 쇼와 공연이 진정한 문화 체험을 선사합니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>게이샤</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>역사적 거리 풍경</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>야간 공연</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=matsuura-pottery data-spot-name="마쓰우라 도예 공방" data-spot-pref=hyogo data-spot-fee=2500 data-spot-dur=90 data-spot-lat=34.9256 data-spot-lng=135.0734 data-spot-area=tajima-region data-spot-rating=4.4 data-spot-reviews=890 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/140510_Tamba_Traditional_Art_Craft_Park_Sue_no_Sato_Sasayama_Hyogo_pref_Japan01n.jpg/960px-140510_Tamba_Traditional_Art_Craft_Park_Sue_no_Sato_Sasayama_Hyogo_pref_Japan01n.jpg data-spot-cats=sightseeing,leisure>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/140510_Tamba_Traditional_Art_Craft_Park_Sue_no_Sato_Sasayama_Hyogo_pref_Japan01n.jpg/960px-140510_Tamba_Traditional_Art_Craft_Park_Sue_no_Sato_Sasayama_Hyogo_pref_Japan01n.jpg alt="마쓰우라 도예 공방" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 효고 도요오카</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>마쓰우라 도예 공방</h3>
+<p class=spot-desc>실제로 운영되는 도예 공방으로, 방문객은 숙련된 장인의 지도 아래 물레 성형과 손으로 빚는 도예를 직접 체험할 수 있습니다. 이 공방의 가마는 여러 대에 걸쳐 운영되어 왔으며, 완성된 작품은 구입하거나 집으로 배송받을 수 있습니다. 일본 전통 도자 예술을 직접 체험하며 가까이 다가갈 수 있는 특별한 기회입니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>도예</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>체험</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>장인 공예</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=kiyomizu-temple-west-kobe data-spot-name="기요미즈 사원 (히가시나다)" data-spot-pref=hyogo data-spot-fee=0 data-spot-dur=45 data-spot-lat=34.7344 data-spot-lng=135.2745 data-spot-area=kobe-east data-spot-rating=4.3 data-spot-reviews=1400 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Kobe_Jyousanji_Temple.JPG/960px-Kobe_Jyousanji_Temple.JPG data-spot-cats=sightseeing,sightseeing>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Kobe_Jyousanji_Temple.JPG/960px-Kobe_Jyousanji_Temple.JPG alt="기요미즈 사원 (히가시나다)" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 고베 히가시나다구</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>기요미즈 사원 (히가시나다)</h3>
+<p class=spot-desc>목조 건축과 숲에 둘러싸인 언덕 위의 정취 어린 사원으로, 번잡한 고베 도심에서 벗어나 평화로운 휴식을 선사합니다. 사찰 경내에서는 도시와 내해를 내려다보는 높은 전망을 즐길 수 있으며, 특히 해 질 무렵의 풍경이 빼어납니다. 더 유명한 교토의 사찰들에 비해 사람이 적은 숨은 명소입니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>불교 사원</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>산사</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>고요함</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=kobe-shimbashi-shotengai data-spot-name="신바시 상점가 아케이드" data-spot-pref=hyogo data-spot-fee=0 data-spot-dur=75 data-spot-lat=34.6902 data-spot-lng=135.1942 data-spot-area=kobe-central data-spot-rating=4.3 data-spot-reviews=2600 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Kobe_Motomachi_Shopping_Street_-_panoramio_%287%29.jpg/960px-Kobe_Motomachi_Shopping_Street_-_panoramio_%287%29.jpg data-spot-cats=sightseeing,gourmet>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Kobe_Motomachi_Shopping_Street_-_panoramio_%287%29.jpg/960px-Kobe_Motomachi_Shopping_Street_-_panoramio_%287%29.jpg alt="신바시 상점가 아케이드" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 고베 주오구</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>신바시 상점가 아케이드</h3>
+<p class=spot-desc>산노미야역 인근의 활기찬 지붕 덮인 상점가로, 노점과 길거리 음식 가판대, 절임부터 기념품까지 온갖 물건을 파는 전통 상점들로 북적입니다. 전후 상업 문화를 그대로 간직한 이 정겨운 시장에서 꾸밈없는 현지인의 삶을 엿볼 수 있습니다. 거닐며 군것질하고 뜻밖의 보물을 발견하기에 안성맞춤입니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>쇼핑 아케이드</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>길거리 음식</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>현지 분위기</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=himuro-mansion data-spot-name="히무로 저택 박물관" data-spot-pref=hyogo data-spot-fee=400 data-spot-dur=45 data-spot-lat=34.3348 data-spot-lng=134.6914 data-spot-area=himeji-central data-spot-rating=4.3 data-spot-reviews=1200 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Sakoshi_daido04bs2010.jpg/960px-Sakoshi_daido04bs2010.jpg data-spot-cats=sightseeing,sightseeing>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Sakoshi_daido04bs2010.jpg/960px-Sakoshi_daido04bs2010.jpg alt="히무로 저택 박물관" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 효고 히메지</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>히무로 저택 박물관</h3>
+<p class=spot-desc>아름답게 보존된 에도 시대의 저택으로, 전통 가구와 건축적 디테일을 통해 사무라이와 상인의 삶을 들여다볼 수 있습니다. 역사 깊은 히메지에 자리하여 봉건 시대 효고를 이해하는 문화적 배경을 제공합니다. 박식한 가이드가 당시의 일상과 사회 풍습을 설명해줍니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>역사적 가옥</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>에도 시대</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>지역 유산</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=hyogo-prefectural-museum data-spot-name=효고현립미술관 data-spot-pref=hyogo data-spot-fee=600 data-spot-dur=90 data-spot-lat=34.6895 data-spot-lng=135.2778 data-spot-area=kobe-central data-spot-rating=4.2 data-spot-reviews=1900 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Hyogo_prefectural_museum_of_art15_2000.JPG/960px-Hyogo_prefectural_museum_of_art15_2000.JPG data-spot-cats=sightseeing>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Hyogo_prefectural_museum_of_art15_2000.JPG/960px-Hyogo_prefectural_museum_of_art15_2000.JPG alt=효고현립미술관 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 고베 주오구</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>효고현립미술관</h3>
+<p class=spot-desc>고베 항구 인근의 인상적인 건물에 자리한 현대적인 미술관으로, 일본의 현대 미술과 전통 미술을 두루 선보입니다. 소장품은 전후 일본 작가들을 중심으로 구성되어 있으며, 국제 기획전도 번갈아 열립니다. 건물 자체가 건축적으로 의미 있는 작품이며, 항구 전망도 감상할 수 있습니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>미술관</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>현대 건축</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>일본 미술</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=hyogo-wildlife-museum data-spot-name="효고현 야생동물 박물관" data-spot-pref=hyogo data-spot-fee=600 data-spot-dur=90 data-spot-lat=35.6611 data-spot-lng=134.7444 data-spot-area=hyogo-north data-spot-rating=4.2 data-spot-reviews=1100 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Hitohaku_front.JPG/960px-Hitohaku_front.JPG data-spot-cats=nature,sightseeing>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Hitohaku_front.JPG/960px-Hitohaku_front.JPG alt="효고현 야생동물 박물관" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 효고 도요오카</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>효고현 야생동물 박물관</h3>
+<p class=spot-desc>이 박물관은 디오라마와 표본, 체험형 전시를 통해 효고의 다양한 생태계와 야생 동물을 소개합니다. 고산 지대의 동물부터 해안 해양 생물까지 아우르며 다채로운 지형을 가진 효고현의 면모를 보여줍니다. 가족 친화적인 전시가 자연 보전 활동과 생태계의 상호 관계를 알기 쉽게 설명합니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>자연사</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>동물 전시</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>교육</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=kakogawa-castle data-spot-name=가코가와성 data-spot-pref=hyogo data-spot-fee=500 data-spot-dur=60 data-spot-lat=34.7656 data-spot-lng=134.8411 data-spot-area=kakogawa-central data-spot-rating=4.1 data-spot-reviews=1600 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Takeda_Castle_2011_03.jpg/960px-Takeda_Castle_2011_03.jpg data-spot-cats=sightseeing,sightseeing>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Takeda_Castle_2011_03.jpg/960px-Takeda_Castle_2011_03.jpg alt=가코가와성 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 효고 가코가와</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>가코가와성</h3>
+<p class=spot-desc>원래의 석축과 해자를 간직한 채 복원된 성으로, 봉건 시대 효고의 역사를 엿볼 수 있습니다. 천수각에서는 도시를 굽어볼 수 있으며, 주변 공원은 봄철 벚꽃 명소로 인기가 높습니다. 히메지성보다 한적하여 더욱 여유로운 성 관람을 즐길 수 있습니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>성터</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>역사</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>공원</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 </div>
 <div class=see-all-wrap>
-<a class=see-all-btn style=color:#1a45a8 href=/prefectures/hyogo/sightseeing/>
-See all 17 관광명소 spots →
-</a>
+<button class="see-all-btn show-more-btn" style=color:#1a45a8 type=button data-section=section-sightseeing>
+전체 보기 (17) ↓
+</button>
 </div>
 </div>
 </section><section class=spot-section id=section-gourmet data-cat=gourmet>
@@ -680,11 +900,91 @@ See all 17 관광명소 spots →
 </button>
 </div>
 </article>
+<article class="spot-card spot-more" data-spot-id=kobe-chinatown data-spot-name="고베 차이나타운 (난킨마치)" data-spot-pref=hyogo data-spot-fee=0 data-spot-dur=90 data-spot-lat=34.6876 data-spot-lng=135.1897 data-spot-area=kobe-chinatown data-spot-rating=4.5 data-spot-reviews=5100 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Kobe-Nankinmachi.JPG/960px-Kobe-Nankinmachi.JPG data-spot-cats=sightseeing,gourmet>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Kobe-Nankinmachi.JPG/960px-Kobe-Nankinmachi.JPG alt="고베 차이나타운 (난킨마치)" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🍜</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 고베 주오구</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>고베 차이나타운 (난킨마치)</h3>
+<p class=spot-desc>메이지 시대까지 거슬러 올라가는 고베의 활기찬 중화 거리로, 좁은 골목과 전통 패방, 쓰촨 요리와 광둥 요리를 선보이는 정통 식당들이 자리합니다. 일본과 중국의 건축이 어우러져 다른 차이나타운과는 다른 독특한 문화 체험을 선사합니다. 저녁이면 등불이 켜지며 특히 운치 있는 풍경이 펼쳐집니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>역사 지구</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>중화요리</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>문화의 융합</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=akashi-yaki-takoyaki data-spot-name="아카시야키 다코야키" data-spot-pref=hyogo data-spot-fee=0 data-spot-dur=30 data-spot-lat=34.6421 data-spot-lng=134.9876 data-spot-area=akashi-central data-spot-rating=4.4 data-spot-reviews=3200 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Akashi-yaki_at_Akashi01s.jpg/960px-Akashi-yaki_at_Akashi01s.jpg data-spot-cats=gourmet>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Akashi-yaki_at_Akashi01s.jpg/960px-Akashi-yaki_at_Akashi01s.jpg alt="아카시야키 다코야키" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🍜</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 효고 아카시</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>아카시야키 다코야키</h3>
+<p class=spot-desc>아카시의 명물인 부드러운 문어 경단은 달걀을 듬뿍 넣은 독특한 반죽 덕분에 일반 다코야키보다 더 부드럽고 촉촉합니다. 아카시 곳곳의 노점과 식당에서 다코야키 소스와 마요네즈, 가쓰오부시를 곁들여 갓 만든 것을 내놓습니다. 항구 도시를 둘러보는 동안 간단히 즐기기 좋은 상징적인 먹거리입니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>길거리 음식</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>현지 별미</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>간단한 식사</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=kobe-shimbashi-shotengai data-spot-name="신바시 상점가 아케이드" data-spot-pref=hyogo data-spot-fee=0 data-spot-dur=75 data-spot-lat=34.6902 data-spot-lng=135.1942 data-spot-area=kobe-central data-spot-rating=4.3 data-spot-reviews=2600 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Kobe_Motomachi_Shopping_Street_-_panoramio_%287%29.jpg/960px-Kobe_Motomachi_Shopping_Street_-_panoramio_%287%29.jpg data-spot-cats=sightseeing,gourmet>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Kobe_Motomachi_Shopping_Street_-_panoramio_%287%29.jpg/960px-Kobe_Motomachi_Shopping_Street_-_panoramio_%287%29.jpg alt="신바시 상점가 아케이드" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🍜</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 고베 주오구</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>신바시 상점가 아케이드</h3>
+<p class=spot-desc>산노미야역 인근의 활기찬 지붕 덮인 상점가로, 노점과 길거리 음식 가판대, 절임부터 기념품까지 온갖 물건을 파는 전통 상점들로 북적입니다. 전후 상업 문화를 그대로 간직한 이 정겨운 시장에서 꾸밈없는 현지인의 삶을 엿볼 수 있습니다. 거닐며 군것질하고 뜻밖의 보물을 발견하기에 안성맞춤입니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>쇼핑 아케이드</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>길거리 음식</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>현지 분위기</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=awaji-island-onion data-spot-name="아와지섬 양파 시장" data-spot-pref=hyogo data-spot-fee=0 data-spot-dur=120 data-spot-lat=34.4667 data-spot-lng=134.8667 data-spot-area=awaji-island data-spot-rating=4.2 data-spot-reviews=2100 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Awajishima_Island_from_Bridge_World_Akashi.jpg/960px-Awajishima_Island_from_Bridge_World_Akashi.jpg data-spot-cats=gourmet,nature>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Awajishima_Island_from_Bridge_World_Akashi.jpg/960px-Awajishima_Island_from_Bridge_World_Akashi.jpg alt="아와지섬 양파 시장" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🍜</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 효고 아와지섬</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>아와지섬 양파 시장</h3>
+<p class=spot-desc>아와지섬은 달고 부드러운 양파로 유명하며, 섬 곳곳의 농산물 직판장과 농장 매대에서 판매됩니다. 방문객은 농부에게서 직접 신선한 농산물을 구입하거나 현지 식당과 카페에서 양파 요리를 맛볼 수 있습니다. 섬의 농촌 풍경과 농촌 관광은 일본 시골의 진정한 모습을 체험하게 해줍니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>농산물 직판장</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>신선한 농산물</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>섬의 농업</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 </div>
 <div class=see-all-wrap>
-<a class=see-all-btn style=color:#d64000 href=/prefectures/hyogo/gourmet/>
-See all 10 미식 spots →
-</a>
+<button class="see-all-btn show-more-btn" style=color:#d64000 type=button data-section=section-gourmet>
+전체 보기 (10) ↓
+</button>
 </div>
 </div>
 </section><section class=spot-section id=section-nature data-cat=nature>
@@ -816,11 +1116,31 @@ See all 10 미식 spots →
 </button>
 </div>
 </article>
+<article class="spot-card spot-more" data-spot-id=yodo-river-nature-preserve data-spot-name="요도강 자연 보호구역" data-spot-pref=hyogo data-spot-fee=0 data-spot-dur=120 data-spot-lat=34.6922 data-spot-lng=135.0156 data-spot-area=western-kobe data-spot-rating=4.1 data-spot-reviews=980 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Yodogawa_1.jpg/960px-Yodogawa_1.jpg data-spot-cats=nature>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Yodogawa_1.jpg/960px-Yodogawa_1.jpg alt="요도강 자연 보호구역" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🏔️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 효고 고베</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>요도강 자연 보호구역</h3>
+<p class=spot-desc>효고 서부에 자리한 보호 습지이자 강변 보호구역으로, 연중 철새와 물새, 강변 식물이 어우러집니다. 잘 정비된 관찰로와 탐조용 가림막 덕분에 일반 방문객도 손쉽게 탐조를 즐길 수 있습니다. 이 보호구역은 생태계 복원과 자연 보전 활동의 성과를 보여줍니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>탐조</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>강변 산책</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>습지</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 </div>
 <div class=see-all-wrap>
-<a class=see-all-btn style=color:#1a7a34 href=/prefectures/hyogo/nature/>
-See all 7 자연 spots →
-</a>
+<button class="see-all-btn show-more-btn" style=color:#1a7a34 type=button data-section=section-nature>
+전체 보기 (7) ↓
+</button>
 </div>
 </div>
 </section><section class=spot-section id=section-leisure data-cat=leisure>
@@ -1184,6 +1504,13 @@ See all 7 자연 spots →
 </div>
 <script>
 (function(){
+ 
+document.querySelectorAll('.show-more-btn').forEach(function(btn){
+  btn.addEventListener('click', function(){
+    var sec = document.getElementById(btn.dataset.section);
+    if (sec) sec.classList.add('spots-expanded');
+  });
+});
  
 const CATS = {
   sightseeing:{ color:"#1a45a8" },

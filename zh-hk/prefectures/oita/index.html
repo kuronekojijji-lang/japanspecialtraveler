@@ -99,7 +99,7 @@
   document.addEventListener('keydown', function(e){ if(e.key==='Escape') close(); });
 })();
 </script>
-<style>.pref-breadcrumb{background:#f8f9fa;border-bottom:1px solid var(--border);padding:.6rem 1.5rem;font-size:.82rem;color:var(--gray)}.pref-breadcrumb a{color:var(--red);text-decoration:none}.pref-breadcrumb a:hover{text-decoration:underline}.pref-breadcrumb span{margin:0 .4rem}.pref-hero{position:relative;min-height:440px;display:flex;align-items:flex-end;background:#2a0a00 50%/cover no-repeat;background-image:url(https://images.unsplash.com/photo-1590559899731-a382839e5549?w=1200&q=85)}.pref-hero::after{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,.15) 0%,rgba(0,0,0,.7) 100%)}.pref-hero-body{position:relative;z-index:1;padding:2.5rem 1.5rem 2rem;max-width:var(--max-w);margin:0 auto;width:100%}.pref-hero-eyebrow{color:rgba(255,255,255,.75);font-size:.82rem;font-weight:600;text-transform:uppercase;letter-spacing:.1em;margin-bottom:.5rem}.pref-hero h1{color:#fff;font-size:clamp(2.2rem,5.5vw,3.4rem);font-weight:900;margin:0 0 .5rem;line-height:1.1}.pref-hero .pref-sub{color:rgba(255,255,255,.88);font-size:1.05rem;max-width:560px;margin-bottom:1rem}.pref-stats{display:flex;flex-wrap:wrap;gap:.6rem}.pref-stat{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);border-radius:20px;padding:.3rem .85rem;color:#fff;font-size:.8rem;font-weight:600}.pref-section{padding:2.5rem 1.5rem}.pref-section+.pref-section{padding-top:0}.pref-container{max-width:var(--max-w);margin:0 auto}.pref-section-title{font-size:1.55rem;font-weight:900;margin:0 0 .4rem;display:flex;align-items:center;gap:.5rem}.pref-section-lead{font-size:1rem;color:#555;line-height:1.7;max-width:680px;margin-bottom:1.5rem}.ponko-guide{display:flex;align-items:flex-end;gap:0;margin-bottom:1.6rem}.ponko-bubble{flex:1;min-width:0;background:linear-gradient(135deg,#fff9f0,#fff3e0);border:2px solid #f5a623;border-radius:18px 18px 18px 4px;padding:1.2rem 1.5rem;position:relative;box-shadow:0 4px 14px rgba(245,166,35,.13)}.ponko-bubble::after{content:'';position:absolute;right:-18px;bottom:22px;border:9px solid transparent;border-left-color:#f5a623}.ponko-bubble::before{content:'';position:absolute;right:-13px;bottom:23px;z-index:1;border:8px solid transparent;border-left-color:#fff9f0}.ponko-bubble p{font-size:.97rem;line-height:1.8;color:#333;margin:0}.ponko-figure{flex-shrink:0;width:170px;margin-left:4px;animation:ponko-float 3s ease-in-out infinite}.ponko-figure img{width:100%;height:auto;display:block;filter:drop-shadow(0 6px 10px rgba(0,0,0,.18))}@keyframes ponko-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}@media(max-width:640px){.ponko-guide{flex-direction:column;align-items:center}.ponko-bubble{border-radius:18px;order:2;width:100%}.ponko-bubble::after,.ponko-bubble::before{display:none}.ponko-figure{order:1;width:130px;margin-left:0;margin-bottom:.5rem;animation:none}}.quick-facts{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.8rem;margin-top:1.4rem}.qf-card{background:#f8f9fb;border:1px solid var(--border);border-radius:12px;padding:1rem 1.1rem;display:flex;align-items:flex-start;gap:.7rem}.qf-icon{font-size:1.4rem;flex-shrink:0}.qf-label{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--gray);margin-bottom:.15rem}.qf-value{font-size:.9rem;font-weight:600;color:var(--dark)}.access-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}.access-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 8px rgba(0,0,0,5%)}.access-card-hd{display:flex;align-items:center;gap:.5rem;margin-bottom:.8rem}.access-card-icon{font-size:1.5rem}.access-card-title{font-size:1rem;font-weight:800;color:var(--dark)}.access-card ul{margin:0;padding-left:1.1rem}.access-card li{font-size:.875rem;line-height:1.65;color:#444;margin-bottom:.3rem}.access-card li strong{color:var(--dark)}.access-tip{margin-top:1.2rem;background:#fff8e6;border:1px solid #ffe0a0;border-radius:10px;padding:.9rem 1.1rem;font-size:.85rem;line-height:1.6;color:#5a3e00}.access-tip strong{display:block;margin-bottom:.2rem;font-size:.88rem}.guide-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem}.guide-card{background:#fff;border-radius:14px;overflow:hidden;border:1px solid var(--border);box-shadow:0 2px 8px rgba(0,0,0,5%);transition:transform .15s,box-shadow .15s;position:relative;display:flex;flex-direction:column}.guide-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.guide-card-img{width:100%;height:150px;object-fit:cover;background:#e8eef4;display:block}.guide-card-img-ph{width:100%;height:150px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:2.5rem}.guide-card-body{padding:.9rem 1rem 1rem;flex:1}.guide-cat-badge{display:inline-block;font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;padding:.15rem .55rem;border-radius:8px;background:var(--red);color:#fff;margin-bottom:.4rem}.guide-card-title{font-size:.92rem;font-weight:800;color:var(--dark);line-height:1.4}.guide-coming-soon{position:absolute;top:.6rem;right:.6rem;background:rgba(0,0,0,.55);color:#fff;font-size:.65rem;font-weight:700;padding:.2rem .5rem;border-radius:6px;text-transform:uppercase;letter-spacing:.05em}.guide-card-link{text-decoration:none;color:inherit;display:flex;flex-direction:column;height:100%}.pref-toc{background:#fff;border-bottom:2px solid var(--border);position:sticky;top:0;z-index:100;overflow-x:auto}.pref-toc-inner{display:flex;gap:0;max-width:var(--max-w);margin:0 auto}.pref-toc-btn{flex:none;display:flex;align-items:center;gap:.4rem;padding:.8rem 1.2rem;border:none;background:0 0;cursor:pointer;font-family:inherit;font-size:.88rem;font-weight:600;color:var(--gray);border-bottom:3px solid transparent;transition:all .18s;white-space:nowrap}.pref-toc-btn .toc-icon{font-size:1.1rem}.pref-toc-btn:hover{color:var(--dark);background:#f8f8f8}.pref-toc-btn.active{color:var(--toc-color,var(--red));border-bottom-color:var(--toc-color,var(--red))}.spot-section{padding:2rem 1.5rem 2.5rem}.spot-section.hidden{display:none}.spot-section-inner{max-width:var(--max-w);margin:0 auto}.section-hd{display:flex;align-items:center;gap:.6rem;margin-bottom:1.4rem;padding-bottom:.7rem;border-bottom:2px solid var(--border)}.section-hd .s-icon{font-size:1.6rem}.section-hd h2{font-size:1.35rem;font-weight:800;margin:0}.section-hd .s-count{margin-left:auto;background:var(--sec-color,var(--red));color:#fff;border-radius:20px;padding:.15rem .65rem;font-size:.78rem;font-weight:700}.spot-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.25rem}.spot-card{border-radius:14px;overflow:hidden;border:1px solid var(--border);background:#fff;box-shadow:0 2px 8px rgba(0,0,0,6%);transition:transform .15s,box-shadow .15s;display:flex;flex-direction:column}.spot-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.spot-img{width:100%;height:200px;object-fit:cover;background:#e8eef4;display:block}.spot-img-ph{width:100%;height:200px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:3rem}.spot-body{padding:1rem 1.1rem 1.1rem;flex:1;display:flex;flex-direction:column}.spot-meta{display:flex;align-items:center;gap:.5rem;margin-bottom:.5rem}.spot-location{font-size:.78rem;color:var(--gray);font-weight:500}.spot-season-badge{margin-left:auto;font-size:.7rem;font-weight:700;padding:.1rem .5rem;border-radius:10px;background:#f0f4f8;color:#555;white-space:nowrap}.spot-name{font-size:1.08rem;font-weight:800;color:var(--dark);margin:0 0 .45rem;line-height:1.3}.spot-desc{font-size:.86rem;line-height:1.65;color:#555;flex:1;margin-bottom:.75rem}.spot-tags{display:flex;flex-wrap:wrap;gap:.3rem}.spot-tag{font-size:.7rem;font-weight:600;padding:.15rem .5rem;border-radius:6px;background:var(--tag-bg,#f0f4f8);color:var(--tag-color,#445)}.tips-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem}.tip-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 6px rgba(0,0,0,4%)}.tip-card-icon{font-size:1.8rem;margin-bottom:.6rem}.tip-card-title{font-size:.95rem;font-weight:800;color:var(--dark);margin-bottom:.5rem}.tip-card-body{font-size:.85rem;line-height:1.65;color:#555}.tip-card-body ul{margin:.3rem 0 0;padding-left:1.1rem}.tip-card-body li{margin-bottom:.2rem}.pref-cta{background:var(--bg-soft);padding:2.5rem 1.5rem 3rem;border-top:1px solid var(--border)}.pref-cta .pref-container{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}@media(max-width:600px){.pref-hero{min-height:320px}.quick-facts{grid-template-columns:repeat(2,1fr)}.pref-toc-btn{padding:.7rem .9rem;font-size:.82rem}}.btn-add-plan{display:inline-flex;align-items:center;gap:.35rem;margin-top:.75rem;padding:.45rem .9rem;border:1.5px solid #2d5be3;border-radius:8px;background:#fff;color:#2d5be3;font-size:.78rem;font-weight:700;font-family:inherit;cursor:pointer;transition:background .15s,color .15s,transform .1s;width:100%;justify-content:center}.btn-add-plan:hover{background:#2d5be3;color:#fff;transform:translateY(-1px)}.btn-add-plan.in-plan{background:#e8f0ff;color:#1a45a8;border-color:#1a45a8}.btn-add-plan.in-plan:hover{background:#c0003a;color:#fff;border-color:#c0003a}.btn-read-guide{display:inline-flex;align-items:center;justify-content:center;gap:.35rem;margin-top:.5rem;padding:.45rem .9rem;border:1.5px solid #1a7a34;border-radius:8px;background:#f0faf2;color:#1a7a34;font-size:.78rem;font-weight:700;text-decoration:none;width:100%;transition:background .15s,color .15s,transform .1s}.btn-read-guide:hover{background:#1a7a34;color:#fff;transform:translateY(-1px);text-decoration:none}.see-all-wrap{text-align:center;margin-top:1.5rem;padding-top:1rem;border-top:1px dashed var(--border)}.see-all-btn{display:inline-flex;align-items:center;gap:.4rem;padding:.55rem 1.5rem;border:2px solid;border-radius:10px;font-size:.88rem;font-weight:700;text-decoration:none;transition:all .15s}.see-all-btn:hover{opacity:.8;text-decoration:none}</style>
+<style>.pref-breadcrumb{background:#f8f9fa;border-bottom:1px solid var(--border);padding:.6rem 1.5rem;font-size:.82rem;color:var(--gray)}.pref-breadcrumb a{color:var(--red);text-decoration:none}.pref-breadcrumb a:hover{text-decoration:underline}.pref-breadcrumb span{margin:0 .4rem}.pref-hero{position:relative;min-height:440px;display:flex;align-items:flex-end;background:#2a0a00 50%/cover no-repeat;background-image:url(https://images.unsplash.com/photo-1590559899731-a382839e5549?w=1200&q=85)}.pref-hero::after{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,.15) 0%,rgba(0,0,0,.7) 100%)}.pref-hero-body{position:relative;z-index:1;padding:2.5rem 1.5rem 2rem;max-width:var(--max-w);margin:0 auto;width:100%}.pref-hero-eyebrow{color:rgba(255,255,255,.75);font-size:.82rem;font-weight:600;text-transform:uppercase;letter-spacing:.1em;margin-bottom:.5rem}.pref-hero h1{color:#fff;font-size:clamp(2.2rem,5.5vw,3.4rem);font-weight:900;margin:0 0 .5rem;line-height:1.1}.pref-hero .pref-sub{color:rgba(255,255,255,.88);font-size:1.05rem;max-width:560px;margin-bottom:1rem}.pref-stats{display:flex;flex-wrap:wrap;gap:.6rem}.pref-stat{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);border-radius:20px;padding:.3rem .85rem;color:#fff;font-size:.8rem;font-weight:600}.pref-section{padding:2.5rem 1.5rem}.pref-section+.pref-section{padding-top:0}.pref-container{max-width:var(--max-w);margin:0 auto}.pref-section-title{font-size:1.55rem;font-weight:900;margin:0 0 .4rem;display:flex;align-items:center;gap:.5rem}.pref-section-lead{font-size:1rem;color:#555;line-height:1.7;max-width:680px;margin-bottom:1.5rem}.ponko-guide{display:flex;align-items:flex-end;gap:0;margin-bottom:1.6rem}.ponko-bubble{flex:1;min-width:0;background:linear-gradient(135deg,#fff9f0,#fff3e0);border:2px solid #f5a623;border-radius:18px 18px 18px 4px;padding:1.2rem 1.5rem;position:relative;box-shadow:0 4px 14px rgba(245,166,35,.13)}.ponko-bubble::after{content:'';position:absolute;right:-18px;bottom:22px;border:9px solid transparent;border-left-color:#f5a623}.ponko-bubble::before{content:'';position:absolute;right:-13px;bottom:23px;z-index:1;border:8px solid transparent;border-left-color:#fff9f0}.ponko-bubble p{font-size:.97rem;line-height:1.8;color:#333;margin:0}.ponko-figure{flex-shrink:0;width:170px;margin-left:4px;animation:ponko-float 3s ease-in-out infinite}.ponko-figure img{width:100%;height:auto;display:block;filter:drop-shadow(0 6px 10px rgba(0,0,0,.18))}@keyframes ponko-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}@media(max-width:640px){.ponko-guide{flex-direction:column;align-items:center}.ponko-bubble{border-radius:18px;order:2;width:100%}.ponko-bubble::after,.ponko-bubble::before{display:none}.ponko-figure{order:1;width:130px;margin-left:0;margin-bottom:.5rem;animation:none}}.quick-facts{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.8rem;margin-top:1.4rem}.qf-card{background:#f8f9fb;border:1px solid var(--border);border-radius:12px;padding:1rem 1.1rem;display:flex;align-items:flex-start;gap:.7rem}.qf-icon{font-size:1.4rem;flex-shrink:0}.qf-label{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--gray);margin-bottom:.15rem}.qf-value{font-size:.9rem;font-weight:600;color:var(--dark)}.access-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}.access-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 8px rgba(0,0,0,5%)}.access-card-hd{display:flex;align-items:center;gap:.5rem;margin-bottom:.8rem}.access-card-icon{font-size:1.5rem}.access-card-title{font-size:1rem;font-weight:800;color:var(--dark)}.access-card ul{margin:0;padding-left:1.1rem}.access-card li{font-size:.875rem;line-height:1.65;color:#444;margin-bottom:.3rem}.access-card li strong{color:var(--dark)}.access-tip{margin-top:1.2rem;background:#fff8e6;border:1px solid #ffe0a0;border-radius:10px;padding:.9rem 1.1rem;font-size:.85rem;line-height:1.6;color:#5a3e00}.access-tip strong{display:block;margin-bottom:.2rem;font-size:.88rem}.guide-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem}.guide-card{background:#fff;border-radius:14px;overflow:hidden;border:1px solid var(--border);box-shadow:0 2px 8px rgba(0,0,0,5%);transition:transform .15s,box-shadow .15s;position:relative;display:flex;flex-direction:column}.guide-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.guide-card-img{width:100%;height:150px;object-fit:cover;background:#e8eef4;display:block}.guide-card-img-ph{width:100%;height:150px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:2.5rem}.guide-card-body{padding:.9rem 1rem 1rem;flex:1}.guide-cat-badge{display:inline-block;font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;padding:.15rem .55rem;border-radius:8px;background:var(--red);color:#fff;margin-bottom:.4rem}.guide-card-title{font-size:.92rem;font-weight:800;color:var(--dark);line-height:1.4}.guide-coming-soon{position:absolute;top:.6rem;right:.6rem;background:rgba(0,0,0,.55);color:#fff;font-size:.65rem;font-weight:700;padding:.2rem .5rem;border-radius:6px;text-transform:uppercase;letter-spacing:.05em}.guide-card-link{text-decoration:none;color:inherit;display:flex;flex-direction:column;height:100%}.pref-toc{background:#fff;border-bottom:2px solid var(--border);position:sticky;top:0;z-index:100;overflow-x:auto}.pref-toc-inner{display:flex;gap:0;max-width:var(--max-w);margin:0 auto}.pref-toc-btn{flex:none;display:flex;align-items:center;gap:.4rem;padding:.8rem 1.2rem;border:none;background:0 0;cursor:pointer;font-family:inherit;font-size:.88rem;font-weight:600;color:var(--gray);border-bottom:3px solid transparent;transition:all .18s;white-space:nowrap}.pref-toc-btn .toc-icon{font-size:1.1rem}.pref-toc-btn:hover{color:var(--dark);background:#f8f8f8}.pref-toc-btn.active{color:var(--toc-color,var(--red));border-bottom-color:var(--toc-color,var(--red))}.spot-section{padding:2rem 1.5rem 2.5rem}.spot-section.hidden{display:none}.spot-section-inner{max-width:var(--max-w);margin:0 auto}.section-hd{display:flex;align-items:center;gap:.6rem;margin-bottom:1.4rem;padding-bottom:.7rem;border-bottom:2px solid var(--border)}.section-hd .s-icon{font-size:1.6rem}.section-hd h2{font-size:1.35rem;font-weight:800;margin:0}.section-hd .s-count{margin-left:auto;background:var(--sec-color,var(--red));color:#fff;border-radius:20px;padding:.15rem .65rem;font-size:.78rem;font-weight:700}.spot-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.25rem}.spot-card{border-radius:14px;overflow:hidden;border:1px solid var(--border);background:#fff;box-shadow:0 2px 8px rgba(0,0,0,6%);transition:transform .15s,box-shadow .15s;display:flex;flex-direction:column}.spot-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.spot-img{width:100%;height:200px;object-fit:cover;background:#e8eef4;display:block}.spot-img-ph{width:100%;height:200px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:3rem}.spot-body{padding:1rem 1.1rem 1.1rem;flex:1;display:flex;flex-direction:column}.spot-meta{display:flex;align-items:center;gap:.5rem;margin-bottom:.5rem}.spot-location{font-size:.78rem;color:var(--gray);font-weight:500}.spot-season-badge{margin-left:auto;font-size:.7rem;font-weight:700;padding:.1rem .5rem;border-radius:10px;background:#f0f4f8;color:#555;white-space:nowrap}.spot-name{font-size:1.08rem;font-weight:800;color:var(--dark);margin:0 0 .45rem;line-height:1.3}.spot-desc{font-size:.86rem;line-height:1.65;color:#555;flex:1;margin-bottom:.75rem}.spot-tags{display:flex;flex-wrap:wrap;gap:.3rem}.spot-tag{font-size:.7rem;font-weight:600;padding:.15rem .5rem;border-radius:6px;background:var(--tag-bg,#f0f4f8);color:var(--tag-color,#445)}.tips-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem}.tip-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 6px rgba(0,0,0,4%)}.tip-card-icon{font-size:1.8rem;margin-bottom:.6rem}.tip-card-title{font-size:.95rem;font-weight:800;color:var(--dark);margin-bottom:.5rem}.tip-card-body{font-size:.85rem;line-height:1.65;color:#555}.tip-card-body ul{margin:.3rem 0 0;padding-left:1.1rem}.tip-card-body li{margin-bottom:.2rem}.pref-cta{background:var(--bg-soft);padding:2.5rem 1.5rem 3rem;border-top:1px solid var(--border)}.pref-cta .pref-container{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}@media(max-width:600px){.pref-hero{min-height:320px}.quick-facts{grid-template-columns:repeat(2,1fr)}.pref-toc-btn{padding:.7rem .9rem;font-size:.82rem}}.btn-add-plan{display:inline-flex;align-items:center;gap:.35rem;margin-top:.75rem;padding:.45rem .9rem;border:1.5px solid #2d5be3;border-radius:8px;background:#fff;color:#2d5be3;font-size:.78rem;font-weight:700;font-family:inherit;cursor:pointer;transition:background .15s,color .15s,transform .1s;width:100%;justify-content:center}.btn-add-plan:hover{background:#2d5be3;color:#fff;transform:translateY(-1px)}.btn-add-plan.in-plan{background:#e8f0ff;color:#1a45a8;border-color:#1a45a8}.btn-add-plan.in-plan:hover{background:#c0003a;color:#fff;border-color:#c0003a}.btn-read-guide{display:inline-flex;align-items:center;justify-content:center;gap:.35rem;margin-top:.5rem;padding:.45rem .9rem;border:1.5px solid #1a7a34;border-radius:8px;background:#f0faf2;color:#1a7a34;font-size:.78rem;font-weight:700;text-decoration:none;width:100%;transition:background .15s,color .15s,transform .1s}.btn-read-guide:hover{background:#1a7a34;color:#fff;transform:translateY(-1px);text-decoration:none}.see-all-wrap{text-align:center;margin-top:1.5rem;padding-top:1rem;border-top:1px dashed var(--border)}.see-all-btn{display:inline-flex;align-items:center;gap:.4rem;padding:.55rem 1.5rem;border:2px solid;border-radius:10px;font-size:.88rem;font-weight:700;text-decoration:none;transition:all .15s}.see-all-btn:hover{opacity:.8;text-decoration:none}.see-all-btn{cursor:pointer;background:0 0}.spot-card.spot-more{display:none}.spot-section.spots-expanded .spot-card.spot-more{display:flex}.spot-section.spots-expanded .see-all-wrap{display:none}</style>
 <nav class=pref-breadcrumb aria-label=breadcrumb>
 <a href=/>首頁</a><span>›</span>
 <a href=/explore/>探索日本</a><span>›</span>
@@ -546,11 +546,242 @@
 </button>
 </div>
 </article>
+<article class="spot-card spot-more" data-spot-id=kannawaonsen-town data-spot-name=鐵輪溫泉街 data-spot-pref=oita data-spot-fee=1200 data-spot-dur=120 data-spot-lat=33.3183 data-spot-lng=131.4833 data-spot-area=kannawa data-spot-rating=4.4 data-spot-reviews=1600 data-spot-img="https://images.unsplash.com/photo-1585518419759-13c0bfc8c775?w=800&q=80" data-spot-cats=leisure,sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1585518419759-13c0bfc8c775?w=800&q=80" alt=鐵輪溫泉街 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 大分別府</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>鐵輪溫泉街</h3>
+<p class=spot-desc>鐵輪喺別府以北少少，係一個迷人嘅溫泉小鎮，以「地獄蒸」聞名，就係用天然嘅地熱蒸氣嚟整食物。你可以喺呢度體驗傳統浴場、有療效嘅泥足浴，同埋定義咗別府飲食文化嘅獨特烹調傳統。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>溫泉</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>地獄</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>蒸氣</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>溫泉</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=yufuin-art-museums data-spot-name=由布院美術館群 data-spot-pref=oita data-spot-fee=1000 data-spot-dur=120 data-spot-lat=33.075 data-spot-lng=131.415 data-spot-area=yufuin data-spot-rating=4.3 data-spot-reviews=950 data-spot-img="https://images.unsplash.com/photo-1578303512414-52a28e10e4cf?w=800&q=80" data-spot-cats=sightseeing,leisure>
+<img class=spot-img src="https://images.unsplash.com/photo-1578303512414-52a28e10e4cf?w=800&q=80" alt=由布院美術館群 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 大分由布院</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>由布院美術館群</h3>
+<p class=spot-desc>由布院有眾多美術館同藝廊，喺優美嘅山景之中展示住當代同埋傳統嘅日本藝術。呢啲文化機構由現代美術館到小巧嘅藝廊都有，令呢個小鎮成為藝術愛好者喺自然美景中尋找靈感嘅天堂。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>景觀</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>歷史</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>景觀</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>景觀</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=taketa-castle-ruins data-spot-name=竹田岡城遺址 data-spot-pref=oita data-spot-fee=0 data-spot-dur=100 data-spot-lat=32.7633 data-spot-lng=131.4142 data-spot-area=taketa data-spot-rating=4.3 data-spot-reviews=700 data-spot-img="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" data-spot-cats=sightseeing,nature>
+<img class=spot-img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" alt=竹田岡城遺址 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 大分竹田</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>竹田岡城遺址</h3>
+<p class=spot-desc>呢個城堡遺址高踞山上，可以三百六十度俯瞰竹田鎮，係九州其中一個最有景觀嘅歷史古蹟。戲劇性嘅高度同埋壯麗嘅全景，令呢度成為行山客同埋歷史迷尋找冷門體驗嘅至愛。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>歷史</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>山</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>景觀</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>景觀</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=bungo-strait data-spot-name=豐後水道 data-spot-pref=oita data-spot-fee=0 data-spot-dur=120 data-spot-lat=33.205 data-spot-lng=131.92 data-spot-area=bungo-strait data-spot-rating=4.3 data-spot-reviews=900 data-spot-img="https://images.unsplash.com/photo-1505142468610-359e7d316be0?w=800&q=80" data-spot-cats=nature,sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1505142468610-359e7d316be0?w=800&q=80" alt=豐後水道 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 大分豐後水道一帶</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>豐後水道</h3>
+<p class=spot-desc>呢條分隔九州同埋四國嘅優美水道，提供令人驚嘆嘅海岸美景，亦擁有豐富嘅海洋生態。無論係沿海兜風、坐船遊覽，定係淨係欣賞呢啲幾百年嚟啟發過詩人同藝術家嘅峭壁同埋清澈海水，都幾正。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>海岸</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>自然</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>景觀</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>景觀</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=usuki-stone-buddhas data-spot-name=臼杵石佛 data-spot-pref=oita data-spot-fee=600 data-spot-dur=75 data-spot-lat=32.9617 data-spot-lng=131.8183 data-spot-area=usuki data-spot-rating=4.3 data-spot-reviews=1100 data-spot-img="https://images.unsplash.com/photo-1595558922915-88f6d15da6b3?w=800&q=80" data-spot-cats=sightseeing,sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1595558922915-88f6d15da6b3?w=800&q=80" alt=臼杵石佛 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 大分臼杵</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>臼杵石佛</h3>
+<p class=spot-desc>呢六十尊鑿喺岩石峭壁上嘅石佛，年代可以追溯到十二至十三世紀，係日本最精緻嘅平安時代佛教石雕。呢啲雕工細緻、神秘咁依附喺天然岩面上嘅佛像，可以畀你一個寧靜嘅靈性體驗，同埋對中世紀日本嘅藝術洞見。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>佛像</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>佛像</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>歷史</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>歷史</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=kunisaki-peninsula data-spot-name=國東半島 data-spot-pref=oita data-spot-fee=0 data-spot-dur=180 data-spot-lat=33.5283 data-spot-lng=131.5083 data-spot-area=kunisaki data-spot-rating=4.2 data-spot-reviews=650 data-spot-img="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" data-spot-cats=nature,sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" alt=國東半島 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 大分國東</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>國東半島</h3>
+<p class=spot-desc>呢個伸入瀨戶內海嘅壯觀半島，將令人驚嘆嘅海岸景色同埋眾多嘅佛教寺廟同自然步道結合埋一齊。蜿蜒嘅道路提供令人屏息嘅美景，而寧靜嘅村落就畀你窺探九州鄉郊嘅生活。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>景觀</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>寺廟</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>自然</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>海岸</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=nakatsu-castle data-spot-name=中津城 data-spot-pref=oita data-spot-fee=500 data-spot-dur=75 data-spot-lat=33.5617 data-spot-lng=131.1842 data-spot-area=nakatsu data-spot-rating=4.2 data-spot-reviews=1200 data-spot-img="https://images.unsplash.com/photo-1516404883164-4e2ce2ad79a2?w=800&q=80" data-spot-cats=sightseeing,sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1516404883164-4e2ce2ad79a2?w=800&q=80" alt=中津城 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 大分中津</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>中津城</h3>
+<p class=spot-desc>呢座保存良好嘅古城俯瞰住山國川，四季都有靚景，尤其係櫻花盛開嘅時節最為迷人。城堡範圍而家變成咗一個寧靜嘅公園，係一個喺欣賞河畔景色嘅同時，了解中津武士時代歷史嘅理想地點。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>歷史</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>歷史</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>景觀</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>景觀</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=himure-akahage-shrine data-spot-name=火群赤髮神社 data-spot-pref=oita data-spot-fee=0 data-spot-dur=60 data-spot-lat=32.9283 data-spot-lng=131.685 data-spot-area=himure data-spot-rating=4.1 data-spot-reviews=550 data-spot-img="https://images.unsplash.com/photo-1516404883164-4e2ce2ad79a2?w=800&q=80" data-spot-cats=sightseeing,sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1516404883164-4e2ce2ad79a2?w=800&q=80" alt=火群赤髮神社 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 大分豐後大野</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>火群赤髮神社</h3>
+<p class=spot-desc>呢座古老嘅神社深藏喺一個山谷之中，供奉崇德天皇，宏偉嘅建築襯托住林木茂密嘅峭壁。寧靜嘅氛圍、壯麗嘅環境同埋保存良好嘅建築，令呢度成為一個遠離繁忙旅遊景點嘅寧靜去處。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>神社</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>景觀</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>歷史</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>歷史</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=suginoi-palace-aquarium data-spot-name=杉乃井水族館 data-spot-pref=oita data-spot-fee=3300 data-spot-dur=150 data-spot-lat=33.2903 data-spot-lng=131.4923 data-spot-area=beppu-central data-spot-rating=4.1 data-spot-reviews=1800 data-spot-img="https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&q=80" data-spot-cats=leisure,sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&q=80" alt=杉乃井水族館 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 大分別府</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>杉乃井水族館</h3>
+<p class=spot-desc>呢個龐大嘅酒店水族館綜合設施，喺現代化嘅水缸入面展示住種類繁多嘅海洋生物，同埋提供高質素嘅溫泉設施。水族館展覽加埋度假村嘅配套，令呢度成為一家大細同埋溫泉愛好者一日遊嘅絕佳之選。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>自然</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>親子</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>景觀</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>溫泉</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=amanoseki-coastal-village data-spot-name=天瀨漁村 data-spot-pref=oita data-spot-fee=0 data-spot-dur=120 data-spot-lat=33.095 data-spot-lng=131.995 data-spot-area=amanoseki data-spot-rating=4 data-spot-reviews=480 data-spot-img="https://images.unsplash.com/photo-1505142468610-359e7d316be0?w=800&q=80" data-spot-cats=sightseeing,gourmet>
+<img class=spot-img src="https://images.unsplash.com/photo-1505142468610-359e7d316be0?w=800&q=80" alt=天瀨漁村 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 大分宇佐</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>天瀨漁村</h3>
+<p class=spot-desc>呢個喺豐後水道嘅寧靜漁村，保留住傳統嘅日本沿海生活，有運作中嘅漁船同埋新鮮海鮮餐廳。你可以喺當地漁民嘅住所之間漫步，享受悠閒嘅節奏，同埋試食當朝即捕嘅超新鮮刺身同埋燒魚。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>海岸</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>美食</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>美食</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>歷史</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=beppu-tower data-spot-name=別府塔 data-spot-pref=oita data-spot-fee=840 data-spot-dur=45 data-spot-lat=33.2849 data-spot-lng=131.495 data-spot-area=beppu-central data-spot-rating=4 data-spot-reviews=1100 data-spot-img="https://images.unsplash.com/photo-1582719522627-e4ea4a5ab9c0?w=800&q=80" data-spot-cats=sightseeing,leisure>
+<img class=spot-img src="https://images.unsplash.com/photo-1582719522627-e4ea4a5ab9c0?w=800&q=80" alt=別府塔 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 大分別府</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>別府塔</h3>
+<p class=spot-desc>呢座具代表性嘅紅色高塔高一百二十五米，俯瞰住別府市、周圍嘅群山同埋別府灣。觀景台可以好好咁飽覽地熱景觀，喺日落時分嘅景色尤其壯觀。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>景觀</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>景觀</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>景觀</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>景觀</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 </div>
 <div class=see-all-wrap>
-<a class=see-all-btn style=color:#1a45a8 href=/prefectures/oita/sightseeing/>
-See all 17 觀光 spots →
-</a>
+<button class="see-all-btn show-more-btn" style=color:#1a45a8 type=button data-section=section-sightseeing>
+顯示全部 (17) ↓
+</button>
 </div>
 </div>
 </section><section class=spot-section id=section-gourmet data-cat=gourmet>
@@ -687,11 +918,32 @@ See all 17 觀光 spots →
 </button>
 </div>
 </article>
+<article class="spot-card spot-more" data-spot-id=amanoseki-coastal-village data-spot-name=天瀨漁村 data-spot-pref=oita data-spot-fee=0 data-spot-dur=120 data-spot-lat=33.095 data-spot-lng=131.995 data-spot-area=amanoseki data-spot-rating=4 data-spot-reviews=480 data-spot-img="https://images.unsplash.com/photo-1505142468610-359e7d316be0?w=800&q=80" data-spot-cats=sightseeing,gourmet>
+<img class=spot-img src="https://images.unsplash.com/photo-1505142468610-359e7d316be0?w=800&q=80" alt=天瀨漁村 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🍜</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 大分宇佐</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>天瀨漁村</h3>
+<p class=spot-desc>呢個喺豐後水道嘅寧靜漁村，保留住傳統嘅日本沿海生活，有運作中嘅漁船同埋新鮮海鮮餐廳。你可以喺當地漁民嘅住所之間漫步，享受悠閒嘅節奏，同埋試食當朝即捕嘅超新鮮刺身同埋燒魚。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>海岸</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>美食</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>美食</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>歷史</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 </div>
 <div class=see-all-wrap>
-<a class=see-all-btn style=color:#d64000 href=/prefectures/oita/gourmet/>
-See all 7 美食 spots →
-</a>
+<button class="see-all-btn show-more-btn" style=color:#d64000 type=button data-section=section-gourmet>
+顯示全部 (7) ↓
+</button>
 </div>
 </div>
 </section><section class=spot-section id=section-nature data-cat=nature>
@@ -828,11 +1080,74 @@ See all 7 美食 spots →
 </button>
 </div>
 </article>
+<article class="spot-card spot-more" data-spot-id=taketa-castle-ruins data-spot-name=竹田岡城遺址 data-spot-pref=oita data-spot-fee=0 data-spot-dur=100 data-spot-lat=32.7633 data-spot-lng=131.4142 data-spot-area=taketa data-spot-rating=4.3 data-spot-reviews=700 data-spot-img="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" data-spot-cats=sightseeing,nature>
+<img class=spot-img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" alt=竹田岡城遺址 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🏔️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 大分竹田</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>竹田岡城遺址</h3>
+<p class=spot-desc>呢個城堡遺址高踞山上，可以三百六十度俯瞰竹田鎮，係九州其中一個最有景觀嘅歷史古蹟。戲劇性嘅高度同埋壯麗嘅全景，令呢度成為行山客同埋歷史迷尋找冷門體驗嘅至愛。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>歷史</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>山</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>景觀</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>景觀</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=kunisaki-peninsula data-spot-name=國東半島 data-spot-pref=oita data-spot-fee=0 data-spot-dur=180 data-spot-lat=33.5283 data-spot-lng=131.5083 data-spot-area=kunisaki data-spot-rating=4.2 data-spot-reviews=650 data-spot-img="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" data-spot-cats=nature,sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" alt=國東半島 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🏔️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 大分國東</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>國東半島</h3>
+<p class=spot-desc>呢個伸入瀨戶內海嘅壯觀半島，將令人驚嘆嘅海岸景色同埋眾多嘅佛教寺廟同自然步道結合埋一齊。蜿蜒嘅道路提供令人屏息嘅美景，而寧靜嘅村落就畀你窺探九州鄉郊嘅生活。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>景觀</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>寺廟</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>自然</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>海岸</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=mitsuhama-hot-spring-beach data-spot-name=三濱溫泉海灘 data-spot-pref=oita data-spot-fee=0 data-spot-dur=90 data-spot-lat=33.0733 data-spot-lng=131.5967 data-spot-area=hayakawa data-spot-rating=4.2 data-spot-reviews=820 data-spot-img="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80" data-spot-cats=leisure,nature>
+<img class=spot-img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80" alt=三濱溫泉海灘 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🏔️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 大分早川</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>三濱溫泉海灘</h3>
+<p class=spot-desc>呢度係一個非凡嘅自然現象，溫泉水直接湧上沙灘，造就咗天然加熱嘅沙同埋淺水嘅暖水池。呢個罕見嘅地熱海灘幾啱喺大自然嘅私人浴池入面浸浴，同時享受住海風同埋海岸景色。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>溫泉</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>砂浴</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>海岸</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>景觀</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 </div>
 <div class=see-all-wrap>
-<a class=see-all-btn style=color:#1a7a34 href=/prefectures/oita/nature/>
-See all 9 自然 spots →
-</a>
+<button class="see-all-btn show-more-btn" style=color:#1a7a34 type=button data-section=section-nature>
+顯示全部 (9) ↓
+</button>
 </div>
 </div>
 </section><section class=spot-section id=section-leisure data-cat=leisure>
@@ -969,11 +1284,116 @@ See all 9 自然 spots →
 </button>
 </div>
 </article>
+<article class="spot-card spot-more" data-spot-id=shiitake-mushroom-farms data-spot-name=椎茸農場 data-spot-pref=oita data-spot-fee=800 data-spot-dur=120 data-spot-lat=33.22 data-spot-lng=131.43 data-spot-area=taketa-agriculture data-spot-rating=4.2 data-spot-reviews=680 data-spot-img="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&q=80" data-spot-cats=gourmet,leisure>
+<img class=spot-img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&q=80" alt=椎茸農場 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎿</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 大分縣</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>椎茸農場</h3>
+<p class=spot-desc>大分係日本最大嘅椎茸產地，遊客可以參觀運作中嘅農場，了解栽培方法同埋試食超新鮮嘅菇菌。有啲農場仲提供親身體驗，你可以採摘菇菌，再配埋其他當地食材即煮即食。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>美食</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>親子</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>美食</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>親子</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=mitsuhama-hot-spring-beach data-spot-name=三濱溫泉海灘 data-spot-pref=oita data-spot-fee=0 data-spot-dur=90 data-spot-lat=33.0733 data-spot-lng=131.5967 data-spot-area=hayakawa data-spot-rating=4.2 data-spot-reviews=820 data-spot-img="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80" data-spot-cats=leisure,nature>
+<img class=spot-img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80" alt=三濱溫泉海灘 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎿</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 大分早川</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>三濱溫泉海灘</h3>
+<p class=spot-desc>呢度係一個非凡嘅自然現象，溫泉水直接湧上沙灘，造就咗天然加熱嘅沙同埋淺水嘅暖水池。呢個罕見嘅地熱海灘幾啱喺大自然嘅私人浴池入面浸浴，同時享受住海風同埋海岸景色。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>溫泉</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>砂浴</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>海岸</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>景觀</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=suginoi-palace-aquarium data-spot-name=杉乃井水族館 data-spot-pref=oita data-spot-fee=3300 data-spot-dur=150 data-spot-lat=33.2903 data-spot-lng=131.4923 data-spot-area=beppu-central data-spot-rating=4.1 data-spot-reviews=1800 data-spot-img="https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&q=80" data-spot-cats=leisure,sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&q=80" alt=杉乃井水族館 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎿</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 大分別府</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>杉乃井水族館</h3>
+<p class=spot-desc>呢個龐大嘅酒店水族館綜合設施，喺現代化嘅水缸入面展示住種類繁多嘅海洋生物，同埋提供高質素嘅溫泉設施。水族館展覽加埋度假村嘅配套，令呢度成為一家大細同埋溫泉愛好者一日遊嘅絕佳之選。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>自然</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>親子</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>景觀</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>溫泉</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=kabosu-citrus-gardens data-spot-name=臭橙柑橘園 data-spot-pref=oita data-spot-fee=500 data-spot-dur=75 data-spot-lat=33.3 data-spot-lng=131.35 data-spot-area=kabosu-region data-spot-rating=4.1 data-spot-reviews=750 data-spot-img="https://images.unsplash.com/photo-1599599810694-b5ac4dd64b73?w=800&q=80" data-spot-cats=gourmet,leisure>
+<img class=spot-img src="https://images.unsplash.com/photo-1599599810694-b5ac4dd64b73?w=800&q=80" alt=臭橙柑橘園 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎿</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 大分由布院一帶</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>臭橙柑橘園</h3>
+<p class=spot-desc>嚟參觀運作中嘅臭橙柑橘園啦，呢種大分原產嘅標誌性綠色柑橘就喺呢度種植，喺收成季節尤其壯觀。有啲果園提供採摘體驗同埋鮮榨果汁試飲，畀你品嚐到定義咗大分飲食特色嘅獨特酸味。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>美食</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>親子</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>美食</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>美食</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=beppu-tower data-spot-name=別府塔 data-spot-pref=oita data-spot-fee=840 data-spot-dur=45 data-spot-lat=33.2849 data-spot-lng=131.495 data-spot-area=beppu-central data-spot-rating=4 data-spot-reviews=1100 data-spot-img="https://images.unsplash.com/photo-1582719522627-e4ea4a5ab9c0?w=800&q=80" data-spot-cats=sightseeing,leisure>
+<img class=spot-img src="https://images.unsplash.com/photo-1582719522627-e4ea4a5ab9c0?w=800&q=80" alt=別府塔 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎿</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 大分別府</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>別府塔</h3>
+<p class=spot-desc>呢座具代表性嘅紅色高塔高一百二十五米，俯瞰住別府市、周圍嘅群山同埋別府灣。觀景台可以好好咁飽覽地熱景觀，喺日落時分嘅景色尤其壯觀。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>景觀</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>景觀</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>景觀</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>景觀</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 </div>
 <div class=see-all-wrap>
-<a class=see-all-btn style=color:#b35c00 href=/prefectures/oita/leisure/>
-See all 11 休閒 spots →
-</a>
+<button class="see-all-btn show-more-btn" style=color:#b35c00 type=button data-section=section-leisure>
+顯示全部 (11) ↓
+</button>
 </div>
 </div>
 </section><section class=spot-section id=section-events data-cat=events>
@@ -1144,6 +1564,13 @@ See all 11 休閒 spots →
 </div>
 <script>
 (function(){
+ 
+document.querySelectorAll('.show-more-btn').forEach(function(btn){
+  btn.addEventListener('click', function(){
+    var sec = document.getElementById(btn.dataset.section);
+    if (sec) sec.classList.add('spots-expanded');
+  });
+});
  
 const CATS = {
   sightseeing:{ color:"#1a45a8" },

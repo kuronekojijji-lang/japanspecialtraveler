@@ -99,7 +99,7 @@
   document.addEventListener('keydown', function(e){ if(e.key==='Escape') close(); });
 })();
 </script>
-<style>.pref-breadcrumb{background:#f8f9fa;border-bottom:1px solid var(--border);padding:.6rem 1.5rem;font-size:.82rem;color:var(--gray)}.pref-breadcrumb a{color:var(--red);text-decoration:none}.pref-breadcrumb a:hover{text-decoration:underline}.pref-breadcrumb span{margin:0 .4rem}.pref-hero{position:relative;min-height:440px;display:flex;align-items:flex-end;background:#0a1844 50%/cover no-repeat;background-image:url(https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=1600&q=80)}.pref-hero::after{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,.15) 0%,rgba(0,0,0,.7) 100%)}.pref-hero-body{position:relative;z-index:1;padding:2.5rem 1.5rem 2rem;max-width:var(--max-w);margin:0 auto;width:100%}.pref-hero-eyebrow{color:rgba(255,255,255,.75);font-size:.82rem;font-weight:600;text-transform:uppercase;letter-spacing:.1em;margin-bottom:.5rem}.pref-hero h1{color:#fff;font-size:clamp(2.2rem,5.5vw,3.4rem);font-weight:900;margin:0 0 .5rem;line-height:1.1}.pref-hero .pref-sub{color:rgba(255,255,255,.88);font-size:1.05rem;max-width:560px;margin-bottom:1rem}.pref-stats{display:flex;flex-wrap:wrap;gap:.6rem}.pref-stat{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);border-radius:20px;padding:.3rem .85rem;color:#fff;font-size:.8rem;font-weight:600}.pref-section{padding:2.5rem 1.5rem}.pref-section+.pref-section{padding-top:0}.pref-container{max-width:var(--max-w);margin:0 auto}.pref-section-title{font-size:1.55rem;font-weight:900;margin:0 0 .4rem;display:flex;align-items:center;gap:.5rem}.pref-section-lead{font-size:1rem;color:#555;line-height:1.7;max-width:680px;margin-bottom:1.5rem}.ponko-guide{display:flex;align-items:flex-end;gap:0;margin-bottom:1.6rem}.ponko-bubble{flex:1;min-width:0;background:linear-gradient(135deg,#fff9f0,#fff3e0);border:2px solid #f5a623;border-radius:18px 18px 18px 4px;padding:1.2rem 1.5rem;position:relative;box-shadow:0 4px 14px rgba(245,166,35,.13)}.ponko-bubble::after{content:'';position:absolute;right:-18px;bottom:22px;border:9px solid transparent;border-left-color:#f5a623}.ponko-bubble::before{content:'';position:absolute;right:-13px;bottom:23px;z-index:1;border:8px solid transparent;border-left-color:#fff9f0}.ponko-bubble p{font-size:.97rem;line-height:1.8;color:#333;margin:0}.ponko-figure{flex-shrink:0;width:170px;margin-left:4px;animation:ponko-float 3s ease-in-out infinite}.ponko-figure img{width:100%;height:auto;display:block;filter:drop-shadow(0 6px 10px rgba(0,0,0,.18))}@keyframes ponko-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}@media(max-width:640px){.ponko-guide{flex-direction:column;align-items:center}.ponko-bubble{border-radius:18px;order:2;width:100%}.ponko-bubble::after,.ponko-bubble::before{display:none}.ponko-figure{order:1;width:130px;margin-left:0;margin-bottom:.5rem;animation:none}}.quick-facts{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.8rem;margin-top:1.4rem}.qf-card{background:#f8f9fb;border:1px solid var(--border);border-radius:12px;padding:1rem 1.1rem;display:flex;align-items:flex-start;gap:.7rem}.qf-icon{font-size:1.4rem;flex-shrink:0}.qf-label{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--gray);margin-bottom:.15rem}.qf-value{font-size:.9rem;font-weight:600;color:var(--dark)}.access-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}.access-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 8px rgba(0,0,0,5%)}.access-card-hd{display:flex;align-items:center;gap:.5rem;margin-bottom:.8rem}.access-card-icon{font-size:1.5rem}.access-card-title{font-size:1rem;font-weight:800;color:var(--dark)}.access-card ul{margin:0;padding-left:1.1rem}.access-card li{font-size:.875rem;line-height:1.65;color:#444;margin-bottom:.3rem}.access-card li strong{color:var(--dark)}.access-tip{margin-top:1.2rem;background:#fff8e6;border:1px solid #ffe0a0;border-radius:10px;padding:.9rem 1.1rem;font-size:.85rem;line-height:1.6;color:#5a3e00}.access-tip strong{display:block;margin-bottom:.2rem;font-size:.88rem}.guide-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem}.guide-card{background:#fff;border-radius:14px;overflow:hidden;border:1px solid var(--border);box-shadow:0 2px 8px rgba(0,0,0,5%);transition:transform .15s,box-shadow .15s;position:relative;display:flex;flex-direction:column}.guide-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.guide-card-img{width:100%;height:150px;object-fit:cover;background:#e8eef4;display:block}.guide-card-img-ph{width:100%;height:150px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:2.5rem}.guide-card-body{padding:.9rem 1rem 1rem;flex:1}.guide-cat-badge{display:inline-block;font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;padding:.15rem .55rem;border-radius:8px;background:var(--red);color:#fff;margin-bottom:.4rem}.guide-card-title{font-size:.92rem;font-weight:800;color:var(--dark);line-height:1.4}.guide-coming-soon{position:absolute;top:.6rem;right:.6rem;background:rgba(0,0,0,.55);color:#fff;font-size:.65rem;font-weight:700;padding:.2rem .5rem;border-radius:6px;text-transform:uppercase;letter-spacing:.05em}.guide-card-link{text-decoration:none;color:inherit;display:flex;flex-direction:column;height:100%}.pref-toc{background:#fff;border-bottom:2px solid var(--border);position:sticky;top:0;z-index:100;overflow-x:auto}.pref-toc-inner{display:flex;gap:0;max-width:var(--max-w);margin:0 auto}.pref-toc-btn{flex:none;display:flex;align-items:center;gap:.4rem;padding:.8rem 1.2rem;border:none;background:0 0;cursor:pointer;font-family:inherit;font-size:.88rem;font-weight:600;color:var(--gray);border-bottom:3px solid transparent;transition:all .18s;white-space:nowrap}.pref-toc-btn .toc-icon{font-size:1.1rem}.pref-toc-btn:hover{color:var(--dark);background:#f8f8f8}.pref-toc-btn.active{color:var(--toc-color,var(--red));border-bottom-color:var(--toc-color,var(--red))}.spot-section{padding:2rem 1.5rem 2.5rem}.spot-section.hidden{display:none}.spot-section-inner{max-width:var(--max-w);margin:0 auto}.section-hd{display:flex;align-items:center;gap:.6rem;margin-bottom:1.4rem;padding-bottom:.7rem;border-bottom:2px solid var(--border)}.section-hd .s-icon{font-size:1.6rem}.section-hd h2{font-size:1.35rem;font-weight:800;margin:0}.section-hd .s-count{margin-left:auto;background:var(--sec-color,var(--red));color:#fff;border-radius:20px;padding:.15rem .65rem;font-size:.78rem;font-weight:700}.spot-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.25rem}.spot-card{border-radius:14px;overflow:hidden;border:1px solid var(--border);background:#fff;box-shadow:0 2px 8px rgba(0,0,0,6%);transition:transform .15s,box-shadow .15s;display:flex;flex-direction:column}.spot-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.spot-img{width:100%;height:200px;object-fit:cover;background:#e8eef4;display:block}.spot-img-ph{width:100%;height:200px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:3rem}.spot-body{padding:1rem 1.1rem 1.1rem;flex:1;display:flex;flex-direction:column}.spot-meta{display:flex;align-items:center;gap:.5rem;margin-bottom:.5rem}.spot-location{font-size:.78rem;color:var(--gray);font-weight:500}.spot-season-badge{margin-left:auto;font-size:.7rem;font-weight:700;padding:.1rem .5rem;border-radius:10px;background:#f0f4f8;color:#555;white-space:nowrap}.spot-name{font-size:1.08rem;font-weight:800;color:var(--dark);margin:0 0 .45rem;line-height:1.3}.spot-desc{font-size:.86rem;line-height:1.65;color:#555;flex:1;margin-bottom:.75rem}.spot-tags{display:flex;flex-wrap:wrap;gap:.3rem}.spot-tag{font-size:.7rem;font-weight:600;padding:.15rem .5rem;border-radius:6px;background:var(--tag-bg,#f0f4f8);color:var(--tag-color,#445)}.tips-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem}.tip-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 6px rgba(0,0,0,4%)}.tip-card-icon{font-size:1.8rem;margin-bottom:.6rem}.tip-card-title{font-size:.95rem;font-weight:800;color:var(--dark);margin-bottom:.5rem}.tip-card-body{font-size:.85rem;line-height:1.65;color:#555}.tip-card-body ul{margin:.3rem 0 0;padding-left:1.1rem}.tip-card-body li{margin-bottom:.2rem}.pref-cta{background:var(--bg-soft);padding:2.5rem 1.5rem 3rem;border-top:1px solid var(--border)}.pref-cta .pref-container{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}@media(max-width:600px){.pref-hero{min-height:320px}.quick-facts{grid-template-columns:repeat(2,1fr)}.pref-toc-btn{padding:.7rem .9rem;font-size:.82rem}}.btn-add-plan{display:inline-flex;align-items:center;gap:.35rem;margin-top:.75rem;padding:.45rem .9rem;border:1.5px solid #2d5be3;border-radius:8px;background:#fff;color:#2d5be3;font-size:.78rem;font-weight:700;font-family:inherit;cursor:pointer;transition:background .15s,color .15s,transform .1s;width:100%;justify-content:center}.btn-add-plan:hover{background:#2d5be3;color:#fff;transform:translateY(-1px)}.btn-add-plan.in-plan{background:#e8f0ff;color:#1a45a8;border-color:#1a45a8}.btn-add-plan.in-plan:hover{background:#c0003a;color:#fff;border-color:#c0003a}.btn-read-guide{display:inline-flex;align-items:center;justify-content:center;gap:.35rem;margin-top:.5rem;padding:.45rem .9rem;border:1.5px solid #1a7a34;border-radius:8px;background:#f0faf2;color:#1a7a34;font-size:.78rem;font-weight:700;text-decoration:none;width:100%;transition:background .15s,color .15s,transform .1s}.btn-read-guide:hover{background:#1a7a34;color:#fff;transform:translateY(-1px);text-decoration:none}.see-all-wrap{text-align:center;margin-top:1.5rem;padding-top:1rem;border-top:1px dashed var(--border)}.see-all-btn{display:inline-flex;align-items:center;gap:.4rem;padding:.55rem 1.5rem;border:2px solid;border-radius:10px;font-size:.88rem;font-weight:700;text-decoration:none;transition:all .15s}.see-all-btn:hover{opacity:.8;text-decoration:none}</style>
+<style>.pref-breadcrumb{background:#f8f9fa;border-bottom:1px solid var(--border);padding:.6rem 1.5rem;font-size:.82rem;color:var(--gray)}.pref-breadcrumb a{color:var(--red);text-decoration:none}.pref-breadcrumb a:hover{text-decoration:underline}.pref-breadcrumb span{margin:0 .4rem}.pref-hero{position:relative;min-height:440px;display:flex;align-items:flex-end;background:#0a1844 50%/cover no-repeat;background-image:url(https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=1600&q=80)}.pref-hero::after{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,.15) 0%,rgba(0,0,0,.7) 100%)}.pref-hero-body{position:relative;z-index:1;padding:2.5rem 1.5rem 2rem;max-width:var(--max-w);margin:0 auto;width:100%}.pref-hero-eyebrow{color:rgba(255,255,255,.75);font-size:.82rem;font-weight:600;text-transform:uppercase;letter-spacing:.1em;margin-bottom:.5rem}.pref-hero h1{color:#fff;font-size:clamp(2.2rem,5.5vw,3.4rem);font-weight:900;margin:0 0 .5rem;line-height:1.1}.pref-hero .pref-sub{color:rgba(255,255,255,.88);font-size:1.05rem;max-width:560px;margin-bottom:1rem}.pref-stats{display:flex;flex-wrap:wrap;gap:.6rem}.pref-stat{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);border-radius:20px;padding:.3rem .85rem;color:#fff;font-size:.8rem;font-weight:600}.pref-section{padding:2.5rem 1.5rem}.pref-section+.pref-section{padding-top:0}.pref-container{max-width:var(--max-w);margin:0 auto}.pref-section-title{font-size:1.55rem;font-weight:900;margin:0 0 .4rem;display:flex;align-items:center;gap:.5rem}.pref-section-lead{font-size:1rem;color:#555;line-height:1.7;max-width:680px;margin-bottom:1.5rem}.ponko-guide{display:flex;align-items:flex-end;gap:0;margin-bottom:1.6rem}.ponko-bubble{flex:1;min-width:0;background:linear-gradient(135deg,#fff9f0,#fff3e0);border:2px solid #f5a623;border-radius:18px 18px 18px 4px;padding:1.2rem 1.5rem;position:relative;box-shadow:0 4px 14px rgba(245,166,35,.13)}.ponko-bubble::after{content:'';position:absolute;right:-18px;bottom:22px;border:9px solid transparent;border-left-color:#f5a623}.ponko-bubble::before{content:'';position:absolute;right:-13px;bottom:23px;z-index:1;border:8px solid transparent;border-left-color:#fff9f0}.ponko-bubble p{font-size:.97rem;line-height:1.8;color:#333;margin:0}.ponko-figure{flex-shrink:0;width:170px;margin-left:4px;animation:ponko-float 3s ease-in-out infinite}.ponko-figure img{width:100%;height:auto;display:block;filter:drop-shadow(0 6px 10px rgba(0,0,0,.18))}@keyframes ponko-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}@media(max-width:640px){.ponko-guide{flex-direction:column;align-items:center}.ponko-bubble{border-radius:18px;order:2;width:100%}.ponko-bubble::after,.ponko-bubble::before{display:none}.ponko-figure{order:1;width:130px;margin-left:0;margin-bottom:.5rem;animation:none}}.quick-facts{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.8rem;margin-top:1.4rem}.qf-card{background:#f8f9fb;border:1px solid var(--border);border-radius:12px;padding:1rem 1.1rem;display:flex;align-items:flex-start;gap:.7rem}.qf-icon{font-size:1.4rem;flex-shrink:0}.qf-label{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--gray);margin-bottom:.15rem}.qf-value{font-size:.9rem;font-weight:600;color:var(--dark)}.access-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}.access-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 8px rgba(0,0,0,5%)}.access-card-hd{display:flex;align-items:center;gap:.5rem;margin-bottom:.8rem}.access-card-icon{font-size:1.5rem}.access-card-title{font-size:1rem;font-weight:800;color:var(--dark)}.access-card ul{margin:0;padding-left:1.1rem}.access-card li{font-size:.875rem;line-height:1.65;color:#444;margin-bottom:.3rem}.access-card li strong{color:var(--dark)}.access-tip{margin-top:1.2rem;background:#fff8e6;border:1px solid #ffe0a0;border-radius:10px;padding:.9rem 1.1rem;font-size:.85rem;line-height:1.6;color:#5a3e00}.access-tip strong{display:block;margin-bottom:.2rem;font-size:.88rem}.guide-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem}.guide-card{background:#fff;border-radius:14px;overflow:hidden;border:1px solid var(--border);box-shadow:0 2px 8px rgba(0,0,0,5%);transition:transform .15s,box-shadow .15s;position:relative;display:flex;flex-direction:column}.guide-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.guide-card-img{width:100%;height:150px;object-fit:cover;background:#e8eef4;display:block}.guide-card-img-ph{width:100%;height:150px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:2.5rem}.guide-card-body{padding:.9rem 1rem 1rem;flex:1}.guide-cat-badge{display:inline-block;font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;padding:.15rem .55rem;border-radius:8px;background:var(--red);color:#fff;margin-bottom:.4rem}.guide-card-title{font-size:.92rem;font-weight:800;color:var(--dark);line-height:1.4}.guide-coming-soon{position:absolute;top:.6rem;right:.6rem;background:rgba(0,0,0,.55);color:#fff;font-size:.65rem;font-weight:700;padding:.2rem .5rem;border-radius:6px;text-transform:uppercase;letter-spacing:.05em}.guide-card-link{text-decoration:none;color:inherit;display:flex;flex-direction:column;height:100%}.pref-toc{background:#fff;border-bottom:2px solid var(--border);position:sticky;top:0;z-index:100;overflow-x:auto}.pref-toc-inner{display:flex;gap:0;max-width:var(--max-w);margin:0 auto}.pref-toc-btn{flex:none;display:flex;align-items:center;gap:.4rem;padding:.8rem 1.2rem;border:none;background:0 0;cursor:pointer;font-family:inherit;font-size:.88rem;font-weight:600;color:var(--gray);border-bottom:3px solid transparent;transition:all .18s;white-space:nowrap}.pref-toc-btn .toc-icon{font-size:1.1rem}.pref-toc-btn:hover{color:var(--dark);background:#f8f8f8}.pref-toc-btn.active{color:var(--toc-color,var(--red));border-bottom-color:var(--toc-color,var(--red))}.spot-section{padding:2rem 1.5rem 2.5rem}.spot-section.hidden{display:none}.spot-section-inner{max-width:var(--max-w);margin:0 auto}.section-hd{display:flex;align-items:center;gap:.6rem;margin-bottom:1.4rem;padding-bottom:.7rem;border-bottom:2px solid var(--border)}.section-hd .s-icon{font-size:1.6rem}.section-hd h2{font-size:1.35rem;font-weight:800;margin:0}.section-hd .s-count{margin-left:auto;background:var(--sec-color,var(--red));color:#fff;border-radius:20px;padding:.15rem .65rem;font-size:.78rem;font-weight:700}.spot-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.25rem}.spot-card{border-radius:14px;overflow:hidden;border:1px solid var(--border);background:#fff;box-shadow:0 2px 8px rgba(0,0,0,6%);transition:transform .15s,box-shadow .15s;display:flex;flex-direction:column}.spot-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.spot-img{width:100%;height:200px;object-fit:cover;background:#e8eef4;display:block}.spot-img-ph{width:100%;height:200px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:3rem}.spot-body{padding:1rem 1.1rem 1.1rem;flex:1;display:flex;flex-direction:column}.spot-meta{display:flex;align-items:center;gap:.5rem;margin-bottom:.5rem}.spot-location{font-size:.78rem;color:var(--gray);font-weight:500}.spot-season-badge{margin-left:auto;font-size:.7rem;font-weight:700;padding:.1rem .5rem;border-radius:10px;background:#f0f4f8;color:#555;white-space:nowrap}.spot-name{font-size:1.08rem;font-weight:800;color:var(--dark);margin:0 0 .45rem;line-height:1.3}.spot-desc{font-size:.86rem;line-height:1.65;color:#555;flex:1;margin-bottom:.75rem}.spot-tags{display:flex;flex-wrap:wrap;gap:.3rem}.spot-tag{font-size:.7rem;font-weight:600;padding:.15rem .5rem;border-radius:6px;background:var(--tag-bg,#f0f4f8);color:var(--tag-color,#445)}.tips-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem}.tip-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 6px rgba(0,0,0,4%)}.tip-card-icon{font-size:1.8rem;margin-bottom:.6rem}.tip-card-title{font-size:.95rem;font-weight:800;color:var(--dark);margin-bottom:.5rem}.tip-card-body{font-size:.85rem;line-height:1.65;color:#555}.tip-card-body ul{margin:.3rem 0 0;padding-left:1.1rem}.tip-card-body li{margin-bottom:.2rem}.pref-cta{background:var(--bg-soft);padding:2.5rem 1.5rem 3rem;border-top:1px solid var(--border)}.pref-cta .pref-container{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}@media(max-width:600px){.pref-hero{min-height:320px}.quick-facts{grid-template-columns:repeat(2,1fr)}.pref-toc-btn{padding:.7rem .9rem;font-size:.82rem}}.btn-add-plan{display:inline-flex;align-items:center;gap:.35rem;margin-top:.75rem;padding:.45rem .9rem;border:1.5px solid #2d5be3;border-radius:8px;background:#fff;color:#2d5be3;font-size:.78rem;font-weight:700;font-family:inherit;cursor:pointer;transition:background .15s,color .15s,transform .1s;width:100%;justify-content:center}.btn-add-plan:hover{background:#2d5be3;color:#fff;transform:translateY(-1px)}.btn-add-plan.in-plan{background:#e8f0ff;color:#1a45a8;border-color:#1a45a8}.btn-add-plan.in-plan:hover{background:#c0003a;color:#fff;border-color:#c0003a}.btn-read-guide{display:inline-flex;align-items:center;justify-content:center;gap:.35rem;margin-top:.5rem;padding:.45rem .9rem;border:1.5px solid #1a7a34;border-radius:8px;background:#f0faf2;color:#1a7a34;font-size:.78rem;font-weight:700;text-decoration:none;width:100%;transition:background .15s,color .15s,transform .1s}.btn-read-guide:hover{background:#1a7a34;color:#fff;transform:translateY(-1px);text-decoration:none}.see-all-wrap{text-align:center;margin-top:1.5rem;padding-top:1rem;border-top:1px dashed var(--border)}.see-all-btn{display:inline-flex;align-items:center;gap:.4rem;padding:.55rem 1.5rem;border:2px solid;border-radius:10px;font-size:.88rem;font-weight:700;text-decoration:none;transition:all .15s}.see-all-btn:hover{opacity:.8;text-decoration:none}.see-all-btn{cursor:pointer;background:0 0}.spot-card.spot-more{display:none}.spot-section.spots-expanded .spot-card.spot-more{display:flex}.spot-section.spots-expanded .see-all-wrap{display:none}</style>
 <nav class=pref-breadcrumb aria-label=breadcrumb>
 <a href=/>首頁</a><span>›</span>
 <a href=/explore/>探索日本</a><span>›</span>
@@ -543,11 +543,96 @@
 </button>
 </div>
 </article>
+<article class="spot-card spot-more" data-spot-id=tokyo-skytree data-spot-name=東京晴空塔 data-spot-pref=tokyo data-spot-fee=2100 data-spot-dur=90 data-spot-lat=35.7101 data-spot-lng=139.8107 data-spot-area=asakusa data-spot-rating=4.4 data-spot-reviews=72000 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Tokyo_Skytree_2023.jpg/500px-Tokyo_Skytree_2023.jpg data-spot-cats=sightseeing>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Tokyo_Skytree_2023.jpg/500px-Tokyo_Skytree_2023.jpg alt=東京晴空塔 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 東京墨田</span>
+<span class=spot-season-badge>全年</span>
+</div>
+<h3 class=spot-name>東京晴空塔</h3>
+<p class=spot-desc>呢座全球第二高嘅建築物高達634米，可以喺關東平原嘅全景中飽覽美景——天氣晴朗時甚至可以望到富士山。塔底商場設有購物中心、水族館同埋幾十間餐廳。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>觀景台</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>城市景觀</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>購物</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>現代</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+<a class=btn-read-guide href=/zh-hk/guides/tokyo-skytree-guide/>📖 閱讀指南 →</a>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=roppongi-hills data-spot-name=六本木Hills與東京城市觀景台 data-spot-pref=tokyo data-spot-fee=2000 data-spot-dur=90 data-spot-lat=35.6604 data-spot-lng=139.7292 data-spot-area=roppongi data-spot-rating=4.4 data-spot-reviews=54000 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Roppongi_Hills_from_Tokyo_Tower.jpg/1280px-Roppongi_Hills_from_Tokyo_Tower.jpg data-spot-cats=sightseeing>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Roppongi_Hills_from_Tokyo_Tower.jpg/1280px-Roppongi_Hills_from_Tokyo_Tower.jpg alt=六本木Hills與東京城市觀景台 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 港區六本木</span>
+<span class=spot-season-badge>全年</span>
+</div>
+<h3 class=spot-name>六本木Hills與東京城市觀景台</h3>
+<p class=spot-desc>以森大廈為核心的時尚山丘綜合體，設有森美術館與東京城市觀景台，可飽覽全城最佳的天際線全景之一。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>摩天樓</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>觀景台</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>美術館</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>購物</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=zojoji data-spot-name=增上寺 data-spot-pref=tokyo data-spot-fee=0 data-spot-dur=45 data-spot-lat=35.6575 data-spot-lng=139.7486 data-spot-area=minato data-spot-rating=4.4 data-spot-reviews=28000 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Z%C5%8Dj%C5%8D-ji_20241021.jpg/1280px-Z%C5%8Dj%C5%8D-ji_20241021.jpg data-spot-cats=sightseeing>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Z%C5%8Dj%C5%8D-ji_20241021.jpg/1280px-Z%C5%8Dj%C5%8D-ji_20241021.jpg alt=增上寺 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 港區芝公園</span>
+<span class=spot-season-badge>全年</span>
+</div>
+<h3 class=spot-name>增上寺</h3>
+<p class=spot-desc>德川將軍家的歷史悠久佛寺，宏偉的三解脫門後方矗立著東京鐵塔，新舊東京交融，畫面震撼。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>寺廟</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>歷史</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>免費入場</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>東京鐵塔景</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=yanaka-ginza data-spot-name=谷中老街與谷中銀座 data-spot-pref=tokyo data-spot-fee=0 data-spot-dur=75 data-spot-lat=35.7276 data-spot-lng=139.766 data-spot-area=yanaka data-spot-rating=4.4 data-spot-reviews=21000 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Yanaka_Ginza_2.jpg/1280px-Yanaka_Ginza_2.jpg data-spot-cats=sightseeing>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Yanaka_Ginza_2.jpg/1280px-Yanaka_Ginza_2.jpg alt=谷中老街與谷中銀座 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 台東區谷中</span>
+<span class=spot-season-badge>全年</span>
+</div>
+<h3 class=spot-name>谷中老街與谷中銀座</h3>
+<p class=spot-desc>一片躲過戰火、保留低矮街景的懷舊街區，以復古的谷中銀座商店街為中心，滿是老鋪、寺廟、街頭小吃與悠閒的居民貓。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>老街</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>商店街</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>復古</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>貓</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 </div>
 <div class=see-all-wrap>
-<a class=see-all-btn style=color:#1a45a8 href=/prefectures/tokyo/sightseeing/>
-See all 10 觀光 spots →
-</a>
+<button class="see-all-btn show-more-btn" style=color:#1a45a8 type=button data-section=section-sightseeing>
+顯示全部 (10) ↓
+</button>
 </div>
 </div>
 </section><section class=spot-section id=section-gourmet data-cat=gourmet>
@@ -685,11 +770,97 @@ See all 10 觀光 spots →
 </button>
 </div>
 </article>
+<article class="spot-card spot-more" data-spot-id=tsukiji-market data-spot-name=築地場外市場 data-spot-pref=tokyo data-spot-fee=1500 data-spot-dur=60 data-spot-lat=35.6654 data-spot-lng=139.7707 data-spot-area=tsukiji data-spot-rating=4.3 data-spot-reviews=55000 data-spot-img="https://images.unsplash.com/photo-1490974764272-9f2b89eb0a6c?w=800&q=80" data-spot-cats=gourmet>
+<img class=spot-img src="https://images.unsplash.com/photo-1490974764272-9f2b89eb0a6c?w=800&q=80" alt=築地場外市場 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🍜</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 東京築地</span>
+<span class=spot-season-badge>全年</span>
+</div>
+<h3 class=spot-name>築地場外市場</h3>
+<p class=spot-desc>呢個前世界最大魚市場嘅場外市場，仍然係東京品嚐最新鮮壽司、燒帆立貝、玉子燒同埋刺身嘅最佳地點，任何朝早時段都啱。早啲嚟先，可以揀到最新鮮嘅食材。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>新鮮海產</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>街頭美食</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>早晨</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>吞拿魚</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+<a class=btn-read-guide href=/zh-hk/guides/tokyo-tsukiji-guide/>📖 閱讀指南 →</a>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=tsukishima-monja data-spot-name=月島文字燒街 data-spot-pref=tokyo data-spot-fee=1800 data-spot-dur=90 data-spot-lat=35.6627 data-spot-lng=139.7833 data-spot-area=tsukishima data-spot-rating=4.3 data-spot-reviews=12000 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Monjayaki_dish_from_Tsukishima%2C_Tokyo%2C_Japan%3B_January_2013.jpg/960px-Monjayaki_dish_from_Tsukishima%2C_Tokyo%2C_Japan%3B_January_2013.jpg data-spot-cats=gourmet>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Monjayaki_dish_from_Tsukishima%2C_Tokyo%2C_Japan%3B_January_2013.jpg/960px-Monjayaki_dish_from_Tsukishima%2C_Tokyo%2C_Japan%3B_January_2013.jpg alt=月島文字燒街 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🍜</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 東京月島</span>
+<span class=spot-season-badge>全年</span>
+</div>
+<h3 class=spot-name>月島文字燒街</h3>
+<p class=spot-desc>月島係文字燒嘅發源地——呢種係東京版本、比廣島燒更稀身嘅煎餅，喺桌上嘅鐵板自己煮㗎。西仲通街上有超過七十間餐廳，呢度係品嚐呢款難得一見本地特色美食嘅不二之選。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>文字燒</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>東京原創</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>自助烹飪</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>本地最愛</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+<a class=btn-read-guide href=/zh-hk/guides/tokyo-monja-guide/>📖 閱讀指南 →</a>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=ramen-fuunji data-spot-name=新宿拉麵街 data-spot-pref=tokyo data-spot-fee=1000 data-spot-dur=60 data-spot-lat=35.6938 data-spot-lng=139.7035 data-spot-area=shinjuku data-spot-rating=4.2 data-spot-reviews=20000 data-spot-img="https://images.unsplash.com/photo-1591325418441-ff678baf78ef?w=800&q=80" data-spot-cats=gourmet>
+<img class=spot-img src="https://images.unsplash.com/photo-1591325418441-ff678baf78ef?w=800&q=80" alt=新宿拉麵街 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🍜</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 東京新宿</span>
+<span class=spot-season-badge>全年</span>
+</div>
+<h3 class=spot-name>新宿拉麵街</h3>
+<p class=spot-desc>新宿滿佈傳奇拉麵店——由一蘭嘅濃厚豬骨湯底，到風次嘅粗麵沾麵，款款都幾出色。喺歌舞伎町附近嘅地下拉麵街，隨時都可以喺霓虹燈映照下嘆一碗熱騰騰嘅拉麵。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>拉麵</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>沾麵</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>抵食</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>深夜食堂</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=omoide-yokocho data-spot-name=思い出横丁（回憶小路） data-spot-pref=tokyo data-spot-fee=2000 data-spot-dur=90 data-spot-lat=35.6902 data-spot-lng=139.7007 data-spot-area=shinjuku data-spot-rating=4.2 data-spot-reviews=28000 data-spot-img="https://images.unsplash.com/photo-1740752714845-480bf0f2dbb9?w=800&q=80" data-spot-cats=gourmet>
+<img class=spot-img src="https://images.unsplash.com/photo-1740752714845-480bf0f2dbb9?w=800&q=80" alt=思い出横丁（回憶小路） loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🍜</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 東京新宿</span>
+<span class=spot-season-badge>全年</span>
+</div>
+<h3 class=spot-name>思い出横丁（回憶小路）</h3>
+<p class=spot-desc>呢條窄巷喺新宿站附近，兩旁係幾細小嘅燒鳥攤同埋居酒屋。煙霧、滋滋作響嘅串燒同埋清酒從呢啲有幾十年歷史嘅老舖飄出來，係戰後重建中保留落嚟嘅活歷史，絕對唔可以錯過。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>燒鳥</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>居酒屋</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>懷舊</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>夜間消遣</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 </div>
 <div class=see-all-wrap>
-<a class=see-all-btn style=color:#d64000 href=/prefectures/tokyo/gourmet/>
-See all 10 美食 spots →
-</a>
+<button class="see-all-btn show-more-btn" style=color:#d64000 type=button data-section=section-gourmet>
+顯示全部 (10) ↓
+</button>
 </div>
 </div>
 </section><section class=spot-section id=section-nature data-cat=nature>
@@ -827,11 +998,97 @@ See all 10 美食 spots →
 </button>
 </div>
 </article>
+<article class="spot-card spot-more" data-spot-id=mount-takao data-spot-name=高尾山 data-spot-pref=tokyo data-spot-fee=0 data-spot-dur=240 data-spot-lat=35.6258 data-spot-lng=139.2432 data-spot-area=takao data-spot-rating=4.5 data-spot-reviews=46000 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Takao-san_hike_during_winter_10.jpg/960px-Takao-san_hike_during_winter_10.jpg data-spot-cats=nature>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Takao-san_hike_during_winter_10.jpg/960px-Takao-san_hike_during_winter_10.jpg alt=高尾山 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🏔️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 東京八王子</span>
+<span class=spot-season-badge>全年</span>
+</div>
+<h3 class=spot-name>高尾山</h3>
+<p class=spot-desc>呢座係全球參觀人數最多嘅山（每年超過三百萬人次），雖然只有599米高，但係天氣好嘅時候可以欣賞到富士山嘅壯麗景色。多條難度不同嘅登山徑適合各種體能，纜車更令山頂人人都可以到達。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>行山</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>紅葉</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>富士山景</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>一日遊</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+<a class=btn-read-guide href=/zh-hk/guides/tokyo-takao-guide/>📖 閱讀指南 →</a>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=mount-mitake data-spot-name=御岳山 data-spot-pref=tokyo data-spot-fee=0 data-spot-dur=300 data-spot-lat=35.782 data-spot-lng=139.149 data-spot-area=okutama data-spot-rating=4.5 data-spot-reviews=8000 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Mitake-san_shrine.jpg/1280px-Mitake-san_shrine.jpg data-spot-cats=nature>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Mitake-san_shrine.jpg/1280px-Mitake-san_shrine.jpg alt=御岳山 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🏔️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 東京西部青梅</span>
+<span class=spot-season-badge>全年</span>
+</div>
+<h3 class=spot-name>御岳山</h3>
+<p class=spot-desc>東京西部海拔929公尺的靈山，設有纜車、山頂神社與朝聖者宿坊村落，是通往林間步道、岩石庭園與御岳溪谷的門戶。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>健行</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>神社</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>纜車</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>自然</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=hamarikyu data-spot-name=濱離宮恩賜庭園 data-spot-pref=tokyo data-spot-fee=300 data-spot-dur=60 data-spot-lat=35.6591 data-spot-lng=139.7633 data-spot-area=tsukiji data-spot-rating=4.4 data-spot-reviews=24000 data-spot-img="https://images.unsplash.com/photo-1593296984896-f5c6d6966363?w=800&q=80" data-spot-cats=nature>
+<img class=spot-img src="https://images.unsplash.com/photo-1593296984896-f5c6d6966363?w=800&q=80" alt=濱離宮恩賜庭園 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🏔️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 東京汐留</span>
+<span class=spot-season-badge>全年</span>
+</div>
+<h3 class=spot-name>濱離宮恩賜庭園</h3>
+<p class=spot-desc>呢個有三百年歷史嘅藩邸庭園，喺汐留嘅玻璃大廈群旁邊，海水潮汐池別具特色。你可以喺呢度坐水上巴士，沿隅田川前往淺草。中央小島上嘅傳統茶室供應抹茶同埋和菓子。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>潮汐庭園</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>茶室</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>攝影</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>季節花卉</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+<a class=btn-read-guide href=/zh-hk/guides/tokyo-hamarikyu-guide/>📖 閱讀指南 →</a>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=todoroki-valley data-spot-name=等等力溪谷 data-spot-pref=tokyo data-spot-fee=0 data-spot-dur=60 data-spot-lat=35.6055 data-spot-lng=139.6488 data-spot-area=setagaya data-spot-rating=4.4 data-spot-reviews=9000 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Todoroki_Valley_-_Tokyo%2C_Japan_-_DSC09424.jpg/1280px-Todoroki_Valley_-_Tokyo%2C_Japan_-_DSC09424.jpg data-spot-cats=nature>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Todoroki_Valley_-_Tokyo%2C_Japan_-_DSC09424.jpg/1280px-Todoroki_Valley_-_Tokyo%2C_Japan_-_DSC09424.jpg alt=等等力溪谷 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🏔️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 世田谷區</span>
+<span class=spot-season-badge>全年</span>
+</div>
+<h3 class=spot-name>等等力溪谷</h3>
+<p class=spot-desc>東京唯一的天然溪谷——沿溪流約1公里清涼蔥鬱的谷間步道，設有寺廟與茶屋，距澀谷僅數分鐘卻宛如世外。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>溪谷</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>自然散步</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>秘境</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>免費入場</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 </div>
 <div class=see-all-wrap>
-<a class=see-all-btn style=color:#1a7a34 href=/prefectures/tokyo/nature/>
-See all 10 自然 spots →
-</a>
+<button class="see-all-btn show-more-btn" style=color:#1a7a34 type=button data-section=section-nature>
+顯示全部 (10) ↓
+</button>
 </div>
 </div>
 </section><section class=spot-section id=section-leisure data-cat=leisure>
@@ -972,11 +1229,142 @@ See all 10 自然 spots →
 <a class=btn-read-guide href=/zh-hk/guides/tokyo-shibuya-guide/>📖 閱讀指南 →</a>
 </div>
 </article>
+<article class="spot-card spot-more" data-spot-id=kabukiza data-spot-name=歌舞伎座 data-spot-pref=tokyo data-spot-fee=4000 data-spot-dur=180 data-spot-lat=35.6695 data-spot-lng=139.7681 data-spot-area=ginza data-spot-rating=4.5 data-spot-reviews=12000 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/2019_Kabuki-za.jpg/1280px-2019_Kabuki-za.jpg data-spot-cats=leisure>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/2019_Kabuki-za.jpg/1280px-2019_Kabuki-za.jpg alt=歌舞伎座 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎿</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 中央區銀座</span>
+<span class=spot-season-badge>全年</span>
+</div>
+<h3 class=spot-name>歌舞伎座</h3>
+<p class=spot-desc>位於銀座的東京頂級歌舞伎劇場，可在宏偉的舞台空間欣賞日本數百年歷史的戲劇藝術——單幕票讓初次觀賞者也能輕鬆體驗。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>歌舞伎</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>劇場</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>文化</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>傳統</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=akihabara data-spot-name=秋葉原電器街 data-spot-pref=tokyo data-spot-fee=0 data-spot-dur=180 data-spot-lat=35.6984 data-spot-lng=139.7731 data-spot-area=akihabara data-spot-rating=4.4 data-spot-reviews=42000 data-spot-img="https://images.unsplash.com/photo-1561172317-5427a31ef91e?w=800&q=80" data-spot-cats=leisure>
+<img class=spot-img src="https://images.unsplash.com/photo-1561172317-5427a31ef91e?w=800&q=80" alt=秋葉原電器街 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎿</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 東京秋葉原</span>
+<span class=spot-season-badge>全年</span>
+</div>
+<h3 class=spot-name>秋葉原電器街</h3>
+<p class=spot-desc>呢度係全球御宅文化嘅首都——多層商店由復古紅白機遊戲賣到最新嘅顯示卡，樣樣齊全。女僕咖啡廳、動漫人形、扭蛋、懷舊電子遊戲機舖喺每條街都有。呢啲係東京獨有、日本獨有嘅體驗。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>動漫</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>漫畫</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>電子產品</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>女僕咖啡廳</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>電子遊戲</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+<a class=btn-read-guide href=/zh-hk/guides/tokyo-akihabara-guide/>📖 閱讀指南 →</a>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=tokyo-oedo-onsen data-spot-name=台場溫泉主題公園 data-spot-pref=tokyo data-spot-fee=2700 data-spot-dur=180 data-spot-lat=35.6197 data-spot-lng=139.7761 data-spot-area=odaiba data-spot-rating=4.4 data-spot-reviews=9500 data-spot-img="https://images.unsplash.com/photo-1540979388789-6cee28a1cdc9?w=800&q=80" data-spot-cats=leisure>
+<img class=spot-img src="https://images.unsplash.com/photo-1540979388789-6cee28a1cdc9?w=800&q=80" alt=台場溫泉主題公園 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎿</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 東京江東區</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>台場溫泉主題公園</h3>
+<p class=spot-desc>呢個大型溫泉設施喺台場填海地上，將天然氯化鈉礦泉水從地下1400米抽取上嚟，整個設施喺江戶時代嘅城鎮風貌主題裝潢之下。穿着浴衣嘅遊客可以逛食物攤檔、玩嘉年華遊戲，同埋喺可以俯瞰東京灣嘅室內外溫泉浴池好好放鬆一下。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>溫泉</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>江戶時代主題</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>家庭</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>娛樂</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+<a class=btn-read-guide href=/zh-hk/guides/tokyo-oedo-onsen-guide/>📖 閱讀指南 →</a>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=sanrio-puroland data-spot-name=三麗鷗彩虹樂園 data-spot-pref=tokyo data-spot-fee=3900 data-spot-dur=240 data-spot-lat=35.6259 data-spot-lng=139.4262 data-spot-area=tama data-spot-rating=4.4 data-spot-reviews=19000 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Sanrio_Puroland.jpg/1280px-Sanrio_Puroland.jpg data-spot-cats=leisure>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Sanrio_Puroland.jpg/1280px-Sanrio_Puroland.jpg alt=三麗鷗彩虹樂園 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎿</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 東京西部多摩</span>
+<span class=spot-season-badge>全年</span>
+</div>
+<h3 class=spot-name>三麗鷗彩虹樂園</h3>
+<p class=spot-desc>位於多摩、專屬Hello Kitty與三麗鷗角色的歡樂室內主題樂園，有表演、遊樂設施、遊行與拍照點——是親子與粉絲的可愛天堂。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>主題樂園</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Hello Kitty</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>親子</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>室內</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=odaiba data-spot-name=台場娛樂島 data-spot-pref=tokyo data-spot-fee=0 data-spot-dur=180 data-spot-lat=35.6264 data-spot-lng=139.7769 data-spot-area=odaiba data-spot-rating=4.3 data-spot-reviews=28000 data-spot-img="https://images.unsplash.com/photo-1674705015184-47bd9e749a1b?w=800&q=80" data-spot-cats=leisure>
+<img class=spot-img src="https://images.unsplash.com/photo-1674705015184-47bd9e749a1b?w=800&q=80" alt=台場娛樂島 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎿</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 東京台場</span>
+<span class=spot-season-badge>全年</span>
+</div>
+<h3 class=spot-name>台場娛樂島</h3>
+<p class=spot-desc>呢個係東京灣上一個充滿未來感嘅人工島，有購物商場、巨型高達像、VR遊戲中心、teamLab數碼藝術館，同埋大江戶溫泉物語。入夜後可以欣賞到幾靚嘅彩虹橋同埋城市天際線景色。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>購物</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>高達像</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>溫泉</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>海灣景觀</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>未來感</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+<a class=btn-read-guide href=/zh-hk/guides/tokyo-odaiba-guide/>📖 閱讀指南 →</a>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=ueno-zoo data-spot-name=上野動物園 data-spot-pref=tokyo data-spot-fee=600 data-spot-dur=150 data-spot-lat=35.7166 data-spot-lng=139.7714 data-spot-area=ueno data-spot-rating=4.3 data-spot-reviews=35000 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Ueno_Zoo_20220414a1.jpg/1280px-Ueno_Zoo_20220414a1.jpg data-spot-cats=leisure>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Ueno_Zoo_20220414a1.jpg/1280px-Ueno_Zoo_20220414a1.jpg alt=上野動物園 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎿</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 台東區上野公園</span>
+<span class=spot-season-badge>全年</span>
+</div>
+<h3 class=spot-name>上野動物園</h3>
+<p class=spot-desc>位於上野公園核心、日本最古老的動物園，以大熊貓聞名，棲息300多種動物——是親子與動物愛好者既有趣又實惠的一日去處。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>動物園</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>熊貓</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>親子</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>平價</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 </div>
 <div class=see-all-wrap>
-<a class=see-all-btn style=color:#b35c00 href=/prefectures/tokyo/leisure/>
-See all 12 休閒 spots →
-</a>
+<button class="see-all-btn show-more-btn" style=color:#b35c00 type=button data-section=section-leisure>
+顯示全部 (12) ↓
+</button>
 </div>
 </div>
 </section><section class=spot-section id=section-events data-cat=events>
@@ -1118,11 +1506,118 @@ See all 12 休閒 spots →
 </button>
 </div>
 </article>
+<article class="spot-card spot-more" data-spot-id=jingu-gaien-ginkgo data-spot-name=神宮外苑銀杏並木 data-spot-pref=tokyo data-spot-fee=0 data-spot-dur=60 data-spot-lat=35.6749 data-spot-lng=139.7176 data-spot-area=aoyama data-spot-rating=4.6 data-spot-reviews=17000 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Jingu_Gaien_Ginkgo_Street_in_Autumn.jpg/1280px-Jingu_Gaien_Ginkgo_Street_in_Autumn.jpg data-spot-cats=events>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Jingu_Gaien_Ginkgo_Street_in_Autumn.jpg/1280px-Jingu_Gaien_Ginkgo_Street_in_Autumn.jpg alt=神宮外苑銀杏並木 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎆</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 港區青山</span>
+<span class=spot-season-badge>11月底~12月初</span>
+</div>
+<h3 class=spot-name>神宮外苑銀杏並木</h3>
+<p class=spot-desc>約150棵銀杏樹構成的壯麗林蔭道，每逢深秋染成燦爛金黃，並舉辦人氣美食活動——是東京最上鏡的季節景觀之一。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>紅葉</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>銀杏</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>免費入場</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>拍照點</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=koenji-awa-odori data-spot-name=高圓寺阿波舞祭 data-spot-pref=tokyo data-spot-fee=0 data-spot-dur=120 data-spot-lat=35.7052 data-spot-lng=139.649 data-spot-area=koenji data-spot-rating=4.5 data-spot-reviews=8500 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/2008-08-24_Parade_Of_Awa_Dance_%28%E9%AB%98%E5%86%86%E5%AF%BA%E9%98%BF%E6%B3%A2%E8%B8%8A%E3%82%8A%29_10.jpg/960px-2008-08-24_Parade_Of_Awa_Dance_%28%E9%AB%98%E5%86%86%E5%AF%BA%E9%98%BF%E6%B3%A2%E8%B8%8A%E3%82%8A%29_10.jpg data-spot-cats=events>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/2008-08-24_Parade_Of_Awa_Dance_%28%E9%AB%98%E5%86%86%E5%AF%BA%E9%98%BF%E6%B3%A2%E8%B8%8A%E3%82%8A%29_10.jpg/960px-2008-08-24_Parade_Of_Awa_Dance_%28%E9%AB%98%E5%86%86%E5%AF%BA%E9%98%BF%E6%B3%A2%E8%B8%8A%E3%82%8A%29_10.jpg alt=高圓寺阿波舞祭 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎆</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 東京高圓寺</span>
+<span class=spot-season-badge>八月下旬</span>
+</div>
+<h3 class=spot-name>高圓寺阿波舞祭</h3>
+<p class=spot-desc>呢個係德島以外規模最大嘅阿波舞祭，兩個晚上合共吸引一百萬名觀眾。超過一萬名穿着傳統服飾嘅表演者，喺三味線、太鼓同埋笛子嘅催眠節奏下，穿越高圓寺購物街翩翩起舞。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>傳統舞蹈</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>夏天</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>免費入場</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>巡遊</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+<a class=btn-read-guide href=/zh-hk/guides/tokyo-awa-odori-guide/>📖 閱讀指南 →</a>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=tokyo-marathon data-spot-name=東京馬拉松 data-spot-pref=tokyo data-spot-fee=0 data-spot-dur=180 data-spot-lat=35.6896 data-spot-lng=139.6917 data-spot-area=shinjuku data-spot-rating=4.5 data-spot-reviews=11000 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Tokyo_marathon2011ginza.jpg/1280px-Tokyo_marathon2011ginza.jpg data-spot-cats=events>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Tokyo_marathon2011ginza.jpg/1280px-Tokyo_marathon2011ginza.jpg alt=東京馬拉松 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎆</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 東京市中心</span>
+<span class=spot-season-badge>3月</span>
+</div>
+<h3 class=spot-name>東京馬拉松</h3>
+<p class=spot-desc>世界六大馬拉松之一，每年三月3.8萬名跑者穿越東京地標——這是一場盛大而歡騰的活動，沿途人群夾道加油。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>馬拉松</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>運動</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>3月</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>免費觀賽</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=kanda-matsuri data-spot-name=神田祭 data-spot-pref=tokyo data-spot-fee=0 data-spot-dur=180 data-spot-lat=35.7019 data-spot-lng=139.7677 data-spot-area=kanda data-spot-rating=4.5 data-spot-reviews=9000 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Kanda_Matsuri_2009-1_in_Akihabara.jpg/1280px-Kanda_Matsuri_2009-1_in_Akihabara.jpg data-spot-cats=events>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Kanda_Matsuri_2009-1_in_Akihabara.jpg/1280px-Kanda_Matsuri_2009-1_in_Akihabara.jpg alt=神田祭 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎆</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 千代田區神田</span>
+<span class=spot-season-badge>5月（奇數年）</span>
+</div>
+<h3 class=spot-name>神田祭</h3>
+<p class=spot-desc>東京三大祭之一，逢奇數年舉辦——神輿與朝廷裝束隊伍自神田明神出發，繞行秋葉原與舊城區，巡行整日。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>祭典</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>巡行</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>5月</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>傳統</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=halloween-shibuya data-spot-name=澀谷萬聖節 data-spot-pref=tokyo data-spot-fee=0 data-spot-dur=180 data-spot-lat=35.6595 data-spot-lng=139.7004 data-spot-area=shibuya data-spot-rating=4.3 data-spot-reviews=8200 data-spot-img="https://images.unsplash.com/photo-1762270108017-dc0348c950a8?w=800&q=80" data-spot-cats=events>
+<img class=spot-img src="https://images.unsplash.com/photo-1762270108017-dc0348c950a8?w=800&q=80" alt=澀谷萬聖節 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎆</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 東京澀谷</span>
+<span class=spot-season-badge>十月三十一日</span>
+</div>
+<h3 class=spot-name>澀谷萬聖節</h3>
+<p class=spot-desc>澀谷嘅萬聖節街頭派對係全球規模最大嘅自發性服裝聚會之一。十字路口同埋附近街道擠滿數以萬計穿着服裝嘅狂歡者——精心製作嘅團體服裝係必備嘅。唔需要門票，直接去就得。</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>萬聖節</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>服裝</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>夜生活</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>獨特體驗</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+<a class=btn-read-guide href=/zh-hk/guides/tokyo-halloween-guide/>📖 閱讀指南 →</a>
+</div>
+</article>
 </div>
 <div class=see-all-wrap>
-<a class=see-all-btn style=color:#b5006e href=/prefectures/tokyo/events/>
-See all 11 節慶 spots →
-</a>
+<button class="see-all-btn show-more-btn" style=color:#b5006e type=button data-section=section-events>
+顯示全部 (11) ↓
+</button>
 </div>
 </div>
 </section><section class=spot-section id=section-experience data-cat=experience>
@@ -1328,6 +1823,13 @@ See all 11 節慶 spots →
 </div>
 <script>
 (function(){
+ 
+document.querySelectorAll('.show-more-btn').forEach(function(btn){
+  btn.addEventListener('click', function(){
+    var sec = document.getElementById(btn.dataset.section);
+    if (sec) sec.classList.add('spots-expanded');
+  });
+});
  
 const CATS = {
   sightseeing:{ color:"#1a45a8" },

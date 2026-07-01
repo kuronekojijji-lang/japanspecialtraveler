@@ -99,7 +99,7 @@
   document.addEventListener('keydown', function(e){ if(e.key==='Escape') close(); });
 })();
 </script>
-<style>.pref-breadcrumb{background:#f8f9fa;border-bottom:1px solid var(--border);padding:.6rem 1.5rem;font-size:.82rem;color:var(--gray)}.pref-breadcrumb a{color:var(--red);text-decoration:none}.pref-breadcrumb a:hover{text-decoration:underline}.pref-breadcrumb span{margin:0 .4rem}.pref-hero{position:relative;min-height:440px;display:flex;align-items:flex-end;background:#0a1a3e 50%/cover no-repeat;background-image:url(https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1600&q=80)}.pref-hero::after{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,.15) 0%,rgba(0,0,0,.7) 100%)}.pref-hero-body{position:relative;z-index:1;padding:2.5rem 1.5rem 2rem;max-width:var(--max-w);margin:0 auto;width:100%}.pref-hero-eyebrow{color:rgba(255,255,255,.75);font-size:.82rem;font-weight:600;text-transform:uppercase;letter-spacing:.1em;margin-bottom:.5rem}.pref-hero h1{color:#fff;font-size:clamp(2.2rem,5.5vw,3.4rem);font-weight:900;margin:0 0 .5rem;line-height:1.1}.pref-hero .pref-sub{color:rgba(255,255,255,.88);font-size:1.05rem;max-width:560px;margin-bottom:1rem}.pref-stats{display:flex;flex-wrap:wrap;gap:.6rem}.pref-stat{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);border-radius:20px;padding:.3rem .85rem;color:#fff;font-size:.8rem;font-weight:600}.pref-section{padding:2.5rem 1.5rem}.pref-section+.pref-section{padding-top:0}.pref-container{max-width:var(--max-w);margin:0 auto}.pref-section-title{font-size:1.55rem;font-weight:900;margin:0 0 .4rem;display:flex;align-items:center;gap:.5rem}.pref-section-lead{font-size:1rem;color:#555;line-height:1.7;max-width:680px;margin-bottom:1.5rem}.ponko-guide{display:flex;align-items:flex-end;gap:0;margin-bottom:1.6rem}.ponko-bubble{flex:1;min-width:0;background:linear-gradient(135deg,#fff9f0,#fff3e0);border:2px solid #f5a623;border-radius:18px 18px 18px 4px;padding:1.2rem 1.5rem;position:relative;box-shadow:0 4px 14px rgba(245,166,35,.13)}.ponko-bubble::after{content:'';position:absolute;right:-18px;bottom:22px;border:9px solid transparent;border-left-color:#f5a623}.ponko-bubble::before{content:'';position:absolute;right:-13px;bottom:23px;z-index:1;border:8px solid transparent;border-left-color:#fff9f0}.ponko-bubble p{font-size:.97rem;line-height:1.8;color:#333;margin:0}.ponko-figure{flex-shrink:0;width:170px;margin-left:4px;animation:ponko-float 3s ease-in-out infinite}.ponko-figure img{width:100%;height:auto;display:block;filter:drop-shadow(0 6px 10px rgba(0,0,0,.18))}@keyframes ponko-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}@media(max-width:640px){.ponko-guide{flex-direction:column;align-items:center}.ponko-bubble{border-radius:18px;order:2;width:100%}.ponko-bubble::after,.ponko-bubble::before{display:none}.ponko-figure{order:1;width:130px;margin-left:0;margin-bottom:.5rem;animation:none}}.quick-facts{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.8rem;margin-top:1.4rem}.qf-card{background:#f8f9fb;border:1px solid var(--border);border-radius:12px;padding:1rem 1.1rem;display:flex;align-items:flex-start;gap:.7rem}.qf-icon{font-size:1.4rem;flex-shrink:0}.qf-label{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--gray);margin-bottom:.15rem}.qf-value{font-size:.9rem;font-weight:600;color:var(--dark)}.access-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}.access-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 8px rgba(0,0,0,5%)}.access-card-hd{display:flex;align-items:center;gap:.5rem;margin-bottom:.8rem}.access-card-icon{font-size:1.5rem}.access-card-title{font-size:1rem;font-weight:800;color:var(--dark)}.access-card ul{margin:0;padding-left:1.1rem}.access-card li{font-size:.875rem;line-height:1.65;color:#444;margin-bottom:.3rem}.access-card li strong{color:var(--dark)}.access-tip{margin-top:1.2rem;background:#fff8e6;border:1px solid #ffe0a0;border-radius:10px;padding:.9rem 1.1rem;font-size:.85rem;line-height:1.6;color:#5a3e00}.access-tip strong{display:block;margin-bottom:.2rem;font-size:.88rem}.guide-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem}.guide-card{background:#fff;border-radius:14px;overflow:hidden;border:1px solid var(--border);box-shadow:0 2px 8px rgba(0,0,0,5%);transition:transform .15s,box-shadow .15s;position:relative;display:flex;flex-direction:column}.guide-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.guide-card-img{width:100%;height:150px;object-fit:cover;background:#e8eef4;display:block}.guide-card-img-ph{width:100%;height:150px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:2.5rem}.guide-card-body{padding:.9rem 1rem 1rem;flex:1}.guide-cat-badge{display:inline-block;font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;padding:.15rem .55rem;border-radius:8px;background:var(--red);color:#fff;margin-bottom:.4rem}.guide-card-title{font-size:.92rem;font-weight:800;color:var(--dark);line-height:1.4}.guide-coming-soon{position:absolute;top:.6rem;right:.6rem;background:rgba(0,0,0,.55);color:#fff;font-size:.65rem;font-weight:700;padding:.2rem .5rem;border-radius:6px;text-transform:uppercase;letter-spacing:.05em}.guide-card-link{text-decoration:none;color:inherit;display:flex;flex-direction:column;height:100%}.pref-toc{background:#fff;border-bottom:2px solid var(--border);position:sticky;top:0;z-index:100;overflow-x:auto}.pref-toc-inner{display:flex;gap:0;max-width:var(--max-w);margin:0 auto}.pref-toc-btn{flex:none;display:flex;align-items:center;gap:.4rem;padding:.8rem 1.2rem;border:none;background:0 0;cursor:pointer;font-family:inherit;font-size:.88rem;font-weight:600;color:var(--gray);border-bottom:3px solid transparent;transition:all .18s;white-space:nowrap}.pref-toc-btn .toc-icon{font-size:1.1rem}.pref-toc-btn:hover{color:var(--dark);background:#f8f8f8}.pref-toc-btn.active{color:var(--toc-color,var(--red));border-bottom-color:var(--toc-color,var(--red))}.spot-section{padding:2rem 1.5rem 2.5rem}.spot-section.hidden{display:none}.spot-section-inner{max-width:var(--max-w);margin:0 auto}.section-hd{display:flex;align-items:center;gap:.6rem;margin-bottom:1.4rem;padding-bottom:.7rem;border-bottom:2px solid var(--border)}.section-hd .s-icon{font-size:1.6rem}.section-hd h2{font-size:1.35rem;font-weight:800;margin:0}.section-hd .s-count{margin-left:auto;background:var(--sec-color,var(--red));color:#fff;border-radius:20px;padding:.15rem .65rem;font-size:.78rem;font-weight:700}.spot-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.25rem}.spot-card{border-radius:14px;overflow:hidden;border:1px solid var(--border);background:#fff;box-shadow:0 2px 8px rgba(0,0,0,6%);transition:transform .15s,box-shadow .15s;display:flex;flex-direction:column}.spot-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.spot-img{width:100%;height:200px;object-fit:cover;background:#e8eef4;display:block}.spot-img-ph{width:100%;height:200px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:3rem}.spot-body{padding:1rem 1.1rem 1.1rem;flex:1;display:flex;flex-direction:column}.spot-meta{display:flex;align-items:center;gap:.5rem;margin-bottom:.5rem}.spot-location{font-size:.78rem;color:var(--gray);font-weight:500}.spot-season-badge{margin-left:auto;font-size:.7rem;font-weight:700;padding:.1rem .5rem;border-radius:10px;background:#f0f4f8;color:#555;white-space:nowrap}.spot-name{font-size:1.08rem;font-weight:800;color:var(--dark);margin:0 0 .45rem;line-height:1.3}.spot-desc{font-size:.86rem;line-height:1.65;color:#555;flex:1;margin-bottom:.75rem}.spot-tags{display:flex;flex-wrap:wrap;gap:.3rem}.spot-tag{font-size:.7rem;font-weight:600;padding:.15rem .5rem;border-radius:6px;background:var(--tag-bg,#f0f4f8);color:var(--tag-color,#445)}.tips-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem}.tip-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 6px rgba(0,0,0,4%)}.tip-card-icon{font-size:1.8rem;margin-bottom:.6rem}.tip-card-title{font-size:.95rem;font-weight:800;color:var(--dark);margin-bottom:.5rem}.tip-card-body{font-size:.85rem;line-height:1.65;color:#555}.tip-card-body ul{margin:.3rem 0 0;padding-left:1.1rem}.tip-card-body li{margin-bottom:.2rem}.pref-cta{background:var(--bg-soft);padding:2.5rem 1.5rem 3rem;border-top:1px solid var(--border)}.pref-cta .pref-container{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}@media(max-width:600px){.pref-hero{min-height:320px}.quick-facts{grid-template-columns:repeat(2,1fr)}.pref-toc-btn{padding:.7rem .9rem;font-size:.82rem}}.btn-add-plan{display:inline-flex;align-items:center;gap:.35rem;margin-top:.75rem;padding:.45rem .9rem;border:1.5px solid #2d5be3;border-radius:8px;background:#fff;color:#2d5be3;font-size:.78rem;font-weight:700;font-family:inherit;cursor:pointer;transition:background .15s,color .15s,transform .1s;width:100%;justify-content:center}.btn-add-plan:hover{background:#2d5be3;color:#fff;transform:translateY(-1px)}.btn-add-plan.in-plan{background:#e8f0ff;color:#1a45a8;border-color:#1a45a8}.btn-add-plan.in-plan:hover{background:#c0003a;color:#fff;border-color:#c0003a}.btn-read-guide{display:inline-flex;align-items:center;justify-content:center;gap:.35rem;margin-top:.5rem;padding:.45rem .9rem;border:1.5px solid #1a7a34;border-radius:8px;background:#f0faf2;color:#1a7a34;font-size:.78rem;font-weight:700;text-decoration:none;width:100%;transition:background .15s,color .15s,transform .1s}.btn-read-guide:hover{background:#1a7a34;color:#fff;transform:translateY(-1px);text-decoration:none}.see-all-wrap{text-align:center;margin-top:1.5rem;padding-top:1rem;border-top:1px dashed var(--border)}.see-all-btn{display:inline-flex;align-items:center;gap:.4rem;padding:.55rem 1.5rem;border:2px solid;border-radius:10px;font-size:.88rem;font-weight:700;text-decoration:none;transition:all .15s}.see-all-btn:hover{opacity:.8;text-decoration:none}</style>
+<style>.pref-breadcrumb{background:#f8f9fa;border-bottom:1px solid var(--border);padding:.6rem 1.5rem;font-size:.82rem;color:var(--gray)}.pref-breadcrumb a{color:var(--red);text-decoration:none}.pref-breadcrumb a:hover{text-decoration:underline}.pref-breadcrumb span{margin:0 .4rem}.pref-hero{position:relative;min-height:440px;display:flex;align-items:flex-end;background:#0a1a3e 50%/cover no-repeat;background-image:url(https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1600&q=80)}.pref-hero::after{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,.15) 0%,rgba(0,0,0,.7) 100%)}.pref-hero-body{position:relative;z-index:1;padding:2.5rem 1.5rem 2rem;max-width:var(--max-w);margin:0 auto;width:100%}.pref-hero-eyebrow{color:rgba(255,255,255,.75);font-size:.82rem;font-weight:600;text-transform:uppercase;letter-spacing:.1em;margin-bottom:.5rem}.pref-hero h1{color:#fff;font-size:clamp(2.2rem,5.5vw,3.4rem);font-weight:900;margin:0 0 .5rem;line-height:1.1}.pref-hero .pref-sub{color:rgba(255,255,255,.88);font-size:1.05rem;max-width:560px;margin-bottom:1rem}.pref-stats{display:flex;flex-wrap:wrap;gap:.6rem}.pref-stat{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);border-radius:20px;padding:.3rem .85rem;color:#fff;font-size:.8rem;font-weight:600}.pref-section{padding:2.5rem 1.5rem}.pref-section+.pref-section{padding-top:0}.pref-container{max-width:var(--max-w);margin:0 auto}.pref-section-title{font-size:1.55rem;font-weight:900;margin:0 0 .4rem;display:flex;align-items:center;gap:.5rem}.pref-section-lead{font-size:1rem;color:#555;line-height:1.7;max-width:680px;margin-bottom:1.5rem}.ponko-guide{display:flex;align-items:flex-end;gap:0;margin-bottom:1.6rem}.ponko-bubble{flex:1;min-width:0;background:linear-gradient(135deg,#fff9f0,#fff3e0);border:2px solid #f5a623;border-radius:18px 18px 18px 4px;padding:1.2rem 1.5rem;position:relative;box-shadow:0 4px 14px rgba(245,166,35,.13)}.ponko-bubble::after{content:'';position:absolute;right:-18px;bottom:22px;border:9px solid transparent;border-left-color:#f5a623}.ponko-bubble::before{content:'';position:absolute;right:-13px;bottom:23px;z-index:1;border:8px solid transparent;border-left-color:#fff9f0}.ponko-bubble p{font-size:.97rem;line-height:1.8;color:#333;margin:0}.ponko-figure{flex-shrink:0;width:170px;margin-left:4px;animation:ponko-float 3s ease-in-out infinite}.ponko-figure img{width:100%;height:auto;display:block;filter:drop-shadow(0 6px 10px rgba(0,0,0,.18))}@keyframes ponko-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}@media(max-width:640px){.ponko-guide{flex-direction:column;align-items:center}.ponko-bubble{border-radius:18px;order:2;width:100%}.ponko-bubble::after,.ponko-bubble::before{display:none}.ponko-figure{order:1;width:130px;margin-left:0;margin-bottom:.5rem;animation:none}}.quick-facts{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.8rem;margin-top:1.4rem}.qf-card{background:#f8f9fb;border:1px solid var(--border);border-radius:12px;padding:1rem 1.1rem;display:flex;align-items:flex-start;gap:.7rem}.qf-icon{font-size:1.4rem;flex-shrink:0}.qf-label{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--gray);margin-bottom:.15rem}.qf-value{font-size:.9rem;font-weight:600;color:var(--dark)}.access-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}.access-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 8px rgba(0,0,0,5%)}.access-card-hd{display:flex;align-items:center;gap:.5rem;margin-bottom:.8rem}.access-card-icon{font-size:1.5rem}.access-card-title{font-size:1rem;font-weight:800;color:var(--dark)}.access-card ul{margin:0;padding-left:1.1rem}.access-card li{font-size:.875rem;line-height:1.65;color:#444;margin-bottom:.3rem}.access-card li strong{color:var(--dark)}.access-tip{margin-top:1.2rem;background:#fff8e6;border:1px solid #ffe0a0;border-radius:10px;padding:.9rem 1.1rem;font-size:.85rem;line-height:1.6;color:#5a3e00}.access-tip strong{display:block;margin-bottom:.2rem;font-size:.88rem}.guide-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem}.guide-card{background:#fff;border-radius:14px;overflow:hidden;border:1px solid var(--border);box-shadow:0 2px 8px rgba(0,0,0,5%);transition:transform .15s,box-shadow .15s;position:relative;display:flex;flex-direction:column}.guide-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.guide-card-img{width:100%;height:150px;object-fit:cover;background:#e8eef4;display:block}.guide-card-img-ph{width:100%;height:150px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:2.5rem}.guide-card-body{padding:.9rem 1rem 1rem;flex:1}.guide-cat-badge{display:inline-block;font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;padding:.15rem .55rem;border-radius:8px;background:var(--red);color:#fff;margin-bottom:.4rem}.guide-card-title{font-size:.92rem;font-weight:800;color:var(--dark);line-height:1.4}.guide-coming-soon{position:absolute;top:.6rem;right:.6rem;background:rgba(0,0,0,.55);color:#fff;font-size:.65rem;font-weight:700;padding:.2rem .5rem;border-radius:6px;text-transform:uppercase;letter-spacing:.05em}.guide-card-link{text-decoration:none;color:inherit;display:flex;flex-direction:column;height:100%}.pref-toc{background:#fff;border-bottom:2px solid var(--border);position:sticky;top:0;z-index:100;overflow-x:auto}.pref-toc-inner{display:flex;gap:0;max-width:var(--max-w);margin:0 auto}.pref-toc-btn{flex:none;display:flex;align-items:center;gap:.4rem;padding:.8rem 1.2rem;border:none;background:0 0;cursor:pointer;font-family:inherit;font-size:.88rem;font-weight:600;color:var(--gray);border-bottom:3px solid transparent;transition:all .18s;white-space:nowrap}.pref-toc-btn .toc-icon{font-size:1.1rem}.pref-toc-btn:hover{color:var(--dark);background:#f8f8f8}.pref-toc-btn.active{color:var(--toc-color,var(--red));border-bottom-color:var(--toc-color,var(--red))}.spot-section{padding:2rem 1.5rem 2.5rem}.spot-section.hidden{display:none}.spot-section-inner{max-width:var(--max-w);margin:0 auto}.section-hd{display:flex;align-items:center;gap:.6rem;margin-bottom:1.4rem;padding-bottom:.7rem;border-bottom:2px solid var(--border)}.section-hd .s-icon{font-size:1.6rem}.section-hd h2{font-size:1.35rem;font-weight:800;margin:0}.section-hd .s-count{margin-left:auto;background:var(--sec-color,var(--red));color:#fff;border-radius:20px;padding:.15rem .65rem;font-size:.78rem;font-weight:700}.spot-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.25rem}.spot-card{border-radius:14px;overflow:hidden;border:1px solid var(--border);background:#fff;box-shadow:0 2px 8px rgba(0,0,0,6%);transition:transform .15s,box-shadow .15s;display:flex;flex-direction:column}.spot-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.spot-img{width:100%;height:200px;object-fit:cover;background:#e8eef4;display:block}.spot-img-ph{width:100%;height:200px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:3rem}.spot-body{padding:1rem 1.1rem 1.1rem;flex:1;display:flex;flex-direction:column}.spot-meta{display:flex;align-items:center;gap:.5rem;margin-bottom:.5rem}.spot-location{font-size:.78rem;color:var(--gray);font-weight:500}.spot-season-badge{margin-left:auto;font-size:.7rem;font-weight:700;padding:.1rem .5rem;border-radius:10px;background:#f0f4f8;color:#555;white-space:nowrap}.spot-name{font-size:1.08rem;font-weight:800;color:var(--dark);margin:0 0 .45rem;line-height:1.3}.spot-desc{font-size:.86rem;line-height:1.65;color:#555;flex:1;margin-bottom:.75rem}.spot-tags{display:flex;flex-wrap:wrap;gap:.3rem}.spot-tag{font-size:.7rem;font-weight:600;padding:.15rem .5rem;border-radius:6px;background:var(--tag-bg,#f0f4f8);color:var(--tag-color,#445)}.tips-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem}.tip-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 6px rgba(0,0,0,4%)}.tip-card-icon{font-size:1.8rem;margin-bottom:.6rem}.tip-card-title{font-size:.95rem;font-weight:800;color:var(--dark);margin-bottom:.5rem}.tip-card-body{font-size:.85rem;line-height:1.65;color:#555}.tip-card-body ul{margin:.3rem 0 0;padding-left:1.1rem}.tip-card-body li{margin-bottom:.2rem}.pref-cta{background:var(--bg-soft);padding:2.5rem 1.5rem 3rem;border-top:1px solid var(--border)}.pref-cta .pref-container{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}@media(max-width:600px){.pref-hero{min-height:320px}.quick-facts{grid-template-columns:repeat(2,1fr)}.pref-toc-btn{padding:.7rem .9rem;font-size:.82rem}}.btn-add-plan{display:inline-flex;align-items:center;gap:.35rem;margin-top:.75rem;padding:.45rem .9rem;border:1.5px solid #2d5be3;border-radius:8px;background:#fff;color:#2d5be3;font-size:.78rem;font-weight:700;font-family:inherit;cursor:pointer;transition:background .15s,color .15s,transform .1s;width:100%;justify-content:center}.btn-add-plan:hover{background:#2d5be3;color:#fff;transform:translateY(-1px)}.btn-add-plan.in-plan{background:#e8f0ff;color:#1a45a8;border-color:#1a45a8}.btn-add-plan.in-plan:hover{background:#c0003a;color:#fff;border-color:#c0003a}.btn-read-guide{display:inline-flex;align-items:center;justify-content:center;gap:.35rem;margin-top:.5rem;padding:.45rem .9rem;border:1.5px solid #1a7a34;border-radius:8px;background:#f0faf2;color:#1a7a34;font-size:.78rem;font-weight:700;text-decoration:none;width:100%;transition:background .15s,color .15s,transform .1s}.btn-read-guide:hover{background:#1a7a34;color:#fff;transform:translateY(-1px);text-decoration:none}.see-all-wrap{text-align:center;margin-top:1.5rem;padding-top:1rem;border-top:1px dashed var(--border)}.see-all-btn{display:inline-flex;align-items:center;gap:.4rem;padding:.55rem 1.5rem;border:2px solid;border-radius:10px;font-size:.88rem;font-weight:700;text-decoration:none;transition:all .15s}.see-all-btn:hover{opacity:.8;text-decoration:none}.see-all-btn{cursor:pointer;background:0 0}.spot-card.spot-more{display:none}.spot-section.spots-expanded .spot-card.spot-more{display:flex}.spot-section.spots-expanded .see-all-wrap{display:none}</style>
 <nav class=pref-breadcrumb aria-label=breadcrumb>
 <a href=/>Accueil</a><span>›</span>
 <a href=/explore/>Explorer le Japon</a><span>›</span>
@@ -518,11 +518,55 @@
 </button>
 </div>
 </article>
+<article class="spot-card spot-more" data-spot-id=ibaraki-history-museum data-spot-name="Musée préfectoral d&amp;#39;histoire d&amp;#39;Ibaraki" data-spot-pref=ibaraki data-spot-fee=300 data-spot-dur=90 data-spot-lat=36.3688 data-spot-lng=140.4868 data-spot-area=mito data-spot-rating=4.1 data-spot-reviews=2800 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Mito_castle_sannomaru_karabori.jpg/960px-Mito_castle_sannomaru_karabori.jpg data-spot-cats=sightseeing>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Mito_castle_sannomaru_karabori.jpg/960px-Mito_castle_sannomaru_karabori.jpg alt="Musée préfectoral d'histoire d'Ibaraki" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Mito, Ibaraki</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Musée préfectoral d'histoire d'Ibaraki</h3>
+<p class=spot-desc>Le Musée préfectoral d'histoire d'Ibaraki, situé près du château de Mito, retrace l'histoire de la région de la préhistoire à l'ère Meiji. Parmi les pièces phares : des objets du domaine de Mito, des effets personnels des seigneurs du clan Tokugawa qui gouvernèrent la région, et des expositions détaillées sur le mouvement politique de la fin de l'époque Edo centré sur Mito. Les jardins paysagers, où subsistent des fortifications de terre restaurées, se visitent librement et offrent un contrepoint paisible au centre de Mito.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>histoire</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>musée</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Mito</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>samouraï</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>culture</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=mito-castle-remains data-spot-name="Vestiges du château de Mito" data-spot-pref=ibaraki data-spot-fee=0 data-spot-dur=45 data-spot-lat=36.3633 data-spot-lng=140.475 data-spot-area=mito data-spot-rating=3.8 data-spot-reviews=2100 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Mito_castle_sannomaru_karabori.jpg/960px-Mito_castle_sannomaru_karabori.jpg data-spot-cats=sightseeing>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Mito_castle_sannomaru_karabori.jpg/960px-Mito_castle_sannomaru_karabori.jpg alt="Vestiges du château de Mito" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Mito, Ibaraki</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Vestiges du château de Mito</h3>
+<p class=spot-desc>Bien que le château de Mito ait été en grande partie démoli après la restauration Meiji, ses fortifications de terre subsistantes, ses douves et la porte Ninomaru partiellement reconstruite offrent un lien tangible avec le puissant domaine de Mito qui façonna la politique japonaise de la fin de l'époque Edo. La colline du château domine la ville et le scintillement lointain du lac Senba, et les lieux sont librement accessibles en parc public, ancrés par l'historique école confucéenne Kodokan — l'une des plus grandes écoles de domaine subsistantes du Japon — toujours debout à proximité. La combinaison des vestiges du château, du Kodokan et du musée d'histoire voisin fait de ce secteur le plus riche ensemble historique d'Ibaraki.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>château</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Mito</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Tokugawa</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>histoire</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>fortifications de terre</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 </div>
 <div class=see-all-wrap>
-<a class=see-all-btn style=color:#1a45a8 href=/prefectures/ibaraki/sightseeing/>
-See all 8 Sites touristiques spots →
-</a>
+<button class="see-all-btn show-more-btn" style=color:#1a45a8 type=button data-section=section-sightseeing>
+Voir tout (8) ↓
+</button>
 </div>
 </div>
 </section><section class=spot-section id=section-gourmet data-cat=gourmet>
@@ -805,11 +849,77 @@ See all 8 Sites touristiques spots →
 </button>
 </div>
 </article>
+<article class="spot-card spot-more" data-spot-id=oarai-coast data-spot-name="Côte d&amp;#39;Oarai" data-spot-pref=ibaraki data-spot-fee=0 data-spot-dur=75 data-spot-lat=36.2783 data-spot-lng=140.5733 data-spot-area=oarai data-spot-rating=4.2 data-spot-reviews=3800 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Kamiiso_torii_at_Oarai_Isosaki_Jinja.jpg/960px-Kamiiso_torii_at_Oarai_Isosaki_Jinja.jpg data-spot-cats=nature,sightseeing>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Kamiiso_torii_at_Oarai_Isosaki_Jinja.jpg/960px-Kamiiso_torii_at_Oarai_Isosaki_Jinja.jpg alt="Côte d'Oarai" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🏔️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Oarai, Ibaraki</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Côte d'Oarai</h3>
+<p class=spot-desc>La côte d'Oarai est marquée par l'un des sanctuaires côtiers les plus photogéniques du Japon — le sanctuaire Oarai Isosaki, dont le torii caractéristique se dresse à même un récif exposé dans le ressac du Pacifique, à voir de préférence à l'aube quand la porte orange se découpe sur l'horizon qui s'éclaircit. Ce littoral pacifique escarpé, battu par de fortes houles saisonnières, attire surfeurs, pêcheurs et photographes en quête de paysages marins spectaculaires, bien différents des rivages plus doux de la baie de Tokyo. La ville portuaire sert du poisson frais du Pacifique dans des restaurants de fruits de mer décontractés, à deux pas du port.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>torii</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>mer</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>côte</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Pacifique</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>shinto</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=lake-kasumigaura data-spot-name="Lac Kasumigaura" data-spot-pref=ibaraki data-spot-fee=0 data-spot-dur=90 data-spot-lat=36.2 data-spot-lng=140.45 data-spot-area=kasumigaura data-spot-rating=4.1 data-spot-reviews=4200 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Lake_Kasumigaura_from_Kasumigaura_City_06.jpg/960px-Lake_Kasumigaura_from_Kasumigaura_City_06.jpg data-spot-cats=nature,leisure>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Lake_Kasumigaura_from_Kasumigaura_City_06.jpg/960px-Lake_Kasumigaura_from_Kasumigaura_City_06.jpg alt="Lac Kasumigaura" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🏔️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Kasumigaura, Ibaraki</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Lac Kasumigaura</h3>
+<p class=spot-desc>Le lac Kasumigaura est le deuxième plus grand lac du Japon, une vaste étendue d'eau douce de 220 kilomètres carrés qui s'étire à travers les basses terres du centre d'Ibaraki, bordée de roseaux, de champs de lotus et de villages de pêcheurs traditionnels. Une piste cyclable de 180 kilomètres en fait le tour et constitue l'un des plus beaux itinéraires de cyclisme longue distance du Japon, traversant de paisibles paysages ruraux avec vue sur l'eau tout du long. Le lac est aussi réputé pour ses plats de blanchaille et d'anguille d'eau douce, dégustés dans des restaurants lacustres qui n'ont guère changé depuis des décennies.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>lac</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>cyclisme</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>pêche</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>deuxième plus grand lac</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Kasumigaura</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=tone-river-wetlands data-spot-name="Zones humides de la rivière Tone" data-spot-pref=ibaraki data-spot-fee=0 data-spot-dur=90 data-spot-lat=35.95 data-spot-lng=140.5167 data-spot-area=tone data-spot-rating=3.9 data-spot-reviews=1200 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Lake_Kasumigaura_from_Kasumigaura_City_06.jpg/960px-Lake_Kasumigaura_from_Kasumigaura_City_06.jpg data-spot-cats=nature>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Lake_Kasumigaura_from_Kasumigaura_City_06.jpg/960px-Lake_Kasumigaura_from_Kasumigaura_City_06.jpg alt="Zones humides de la rivière Tone" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🏔️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Tone, Ibaraki</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Zones humides de la rivière Tone</h3>
+<p class=spot-desc>Le cours inférieur de la rivière Tone, qui forme la frontière sud d'Ibaraki avec la préfecture de Chiba, abrite l'un des écosystèmes de zones humides les plus importants du Kanto, attirant plus de 200 espèces d'oiseaux recensées, dont de rares limicoles migrateurs et des sauvagines hivernantes. Roselières, lacs en fer à cheval et prairies inondées saisonnièrement créent une mosaïque d'habitats qui accueille cigognes orientales, pygargues à queue blanche et une spectaculaire variété de hérons et de canards durant les mois froids. Des observatoires et sentiers nature sont accessibles depuis plusieurs parcs riverains du sud de la préfecture.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>zones humides</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>observation des oiseaux</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>rivière Tone</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>oiseaux rares</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>réserve naturelle</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 </div>
 <div class=see-all-wrap>
-<a class=see-all-btn style=color:#1a7a34 href=/prefectures/ibaraki/nature/>
-See all 9 Nature spots →
-</a>
+<button class="see-all-btn show-more-btn" style=color:#1a7a34 type=button data-section=section-nature>
+Voir tout (9) ↓
+</button>
 </div>
 </div>
 </section><section class=spot-section id=section-leisure data-cat=leisure>
@@ -951,11 +1061,77 @@ See all 9 Nature spots →
 </button>
 </div>
 </article>
+<article class="spot-card spot-more" data-spot-id=hitachi-beach-cycling data-spot-name="Cyclisme au parc maritime de Hitachi" data-spot-pref=ibaraki data-spot-fee=0 data-spot-dur=120 data-spot-lat=36.3841 data-spot-lng=140.8038 data-spot-area=hitachi data-spot-rating=4.2 data-spot-reviews=1900 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/2025_Hitachi_Seaside_Park_2.jpg/960px-2025_Hitachi_Seaside_Park_2.jpg data-spot-cats=leisure>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/2025_Hitachi_Seaside_Park_2.jpg/960px-2025_Hitachi_Seaside_Park_2.jpg alt="Cyclisme au parc maritime de Hitachi" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎿</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Hitachi, Ibaraki</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Cyclisme au parc maritime de Hitachi</h3>
+<p class=spot-desc>Le parc maritime de Hitachi entretient un vaste réseau de pistes cyclables serpentant à travers ses 350 hectares de paysage côtier, des champs de fleurs et pinèdes aux dunes surplombant le Pacifique. Des vélos de location — dont des tandems familiaux et des vélos avec siège enfant — sont disponibles aux entrées du parc, ce qui en fait l'une des destinations cyclables les plus adaptées aux familles du Kanto. Les pistes près de la plage sont particulièrement agréables au début de l'été, avant l'affluence de la saison des némophiles, quand le parc est au plus calme et paisible.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>cyclisme</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>plage</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>parc côtier</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>vélos en location</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>famille</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=kasumigaura-cycling data-spot-name="Itinéraire cyclable du lac Kasumigaura" data-spot-pref=ibaraki data-spot-fee=0 data-spot-dur=120 data-spot-lat=36.2 data-spot-lng=140.45 data-spot-area=kasumigaura data-spot-rating=4.1 data-spot-reviews=2200 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Lake_Kasumigaura_from_Kasumigaura_City_06.jpg/960px-Lake_Kasumigaura_from_Kasumigaura_City_06.jpg data-spot-cats=leisure>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Lake_Kasumigaura_from_Kasumigaura_City_06.jpg/960px-Lake_Kasumigaura_from_Kasumigaura_City_06.jpg alt="Itinéraire cyclable du lac Kasumigaura" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎿</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Kasumigaura, Ibaraki</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Itinéraire cyclable du lac Kasumigaura</h3>
+<p class=spot-desc>L'itinéraire cyclable de Kasumigaura est un circuit de 180 kilomètres bien balisé autour du deuxième plus grand lac du Japon, régulièrement classé parmi les meilleurs parcours longue distance du Kanto. Le terrain plat le rend accessible aux cyclistes occasionnels, tandis que le tour complet constitue un défi gratifiant de plusieurs jours, avec des pensions et ryokan jalonnant le parcours. Des vélos de location sont disponibles à la gare de Tsuchiura, le principal point d'accès, et l'itinéraire traverse ports de pêche, champs de lotus et parcs éoliens avec vues dégagées sur le lac.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>cyclisme</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>circuit du lac</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>180 km</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>pittoresque</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>loisirs</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=lake-kasumigaura data-spot-name="Lac Kasumigaura" data-spot-pref=ibaraki data-spot-fee=0 data-spot-dur=90 data-spot-lat=36.2 data-spot-lng=140.45 data-spot-area=kasumigaura data-spot-rating=4.1 data-spot-reviews=4200 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Lake_Kasumigaura_from_Kasumigaura_City_06.jpg/960px-Lake_Kasumigaura_from_Kasumigaura_City_06.jpg data-spot-cats=nature,leisure>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Lake_Kasumigaura_from_Kasumigaura_City_06.jpg/960px-Lake_Kasumigaura_from_Kasumigaura_City_06.jpg alt="Lac Kasumigaura" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎿</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Kasumigaura, Ibaraki</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Lac Kasumigaura</h3>
+<p class=spot-desc>Le lac Kasumigaura est le deuxième plus grand lac du Japon, une vaste étendue d'eau douce de 220 kilomètres carrés qui s'étire à travers les basses terres du centre d'Ibaraki, bordée de roseaux, de champs de lotus et de villages de pêcheurs traditionnels. Une piste cyclable de 180 kilomètres en fait le tour et constitue l'un des plus beaux itinéraires de cyclisme longue distance du Japon, traversant de paisibles paysages ruraux avec vue sur l'eau tout du long. Le lac est aussi réputé pour ses plats de blanchaille et d'anguille d'eau douce, dégustés dans des restaurants lacustres qui n'ont guère changé depuis des décennies.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>lac</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>cyclisme</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>pêche</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>deuxième plus grand lac</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Kasumigaura</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 </div>
 <div class=see-all-wrap>
-<a class=see-all-btn style=color:#b35c00 href=/prefectures/ibaraki/leisure/>
-See all 9 Loisirs spots →
-</a>
+<button class="see-all-btn show-more-btn" style=color:#b35c00 type=button data-section=section-leisure>
+Voir tout (9) ↓
+</button>
 </div>
 </div>
 </section><section class=spot-section id=section-events data-cat=events>
@@ -1097,11 +1273,33 @@ See all 9 Loisirs spots →
 </button>
 </div>
 </article>
+<article class="spot-card spot-more" data-spot-id=kashima-festival data-spot-name="Festival de Kashima" data-spot-pref=ibaraki data-spot-fee=0 data-spot-dur=120 data-spot-lat=35.9906 data-spot-lng=140.6453 data-spot-area=kashima data-spot-rating=4.2 data-spot-reviews=1800 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Kashima_Shrine_main_torii_-_sept_22_2015.jpg/960px-Kashima_Shrine_main_torii_-_sept_22_2015.jpg data-spot-cats=events>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Kashima_Shrine_main_torii_-_sept_22_2015.jpg/960px-Kashima_Shrine_main_torii_-_sept_22_2015.jpg alt="Festival de Kashima" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎆</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Kashima, Ibaraki</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Festival de Kashima</h3>
+<p class=spot-desc>Le festival de Kashima, tenu au Kashima Jingu autour de l'équinoxe d'automne, est l'un des plus anciens et plus dignes festivals de sanctuaire de l'est du Japon, observé sans interruption depuis plus de mille ans. Des processions de prêtres en robes de cour anciennes portant des palanquins sacrés serpentent à travers l'allée de cèdres, accompagnées de musique traditionnelle jouée sur des instruments inchangés depuis l'époque Heian. L'atmosphère à l'intérieur du complexe — lanternes allumées parmi les cèdres anciens, offrandes déposées devant le hall principal — offre une rare fenêtre sur une tradition shinto vivante.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>Kashima Jingu</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>festival d'automne</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>équinoxe</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>rituel shinto</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>traditionnel</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 </div>
 <div class=see-all-wrap>
-<a class=see-all-btn style=color:#b5006e href=/prefectures/ibaraki/events/>
-See all 7 Événements spots →
-</a>
+<button class="see-all-btn show-more-btn" style=color:#b5006e type=button data-section=section-events>
+Voir tout (7) ↓
+</button>
 </div>
 </div>
 </section><section class=spot-section id=section-experience data-cat=experience>
@@ -1230,6 +1428,13 @@ See all 7 Événements spots →
 </div>
 <script>
 (function(){
+ 
+document.querySelectorAll('.show-more-btn').forEach(function(btn){
+  btn.addEventListener('click', function(){
+    var sec = document.getElementById(btn.dataset.section);
+    if (sec) sec.classList.add('spots-expanded');
+  });
+});
  
 const CATS = {
   sightseeing:{ color:"#1a45a8" },

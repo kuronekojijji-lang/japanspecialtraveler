@@ -99,7 +99,7 @@
   document.addEventListener('keydown', function(e){ if(e.key==='Escape') close(); });
 })();
 </script>
-<style>.pref-breadcrumb{background:#f8f9fa;border-bottom:1px solid var(--border);padding:.6rem 1.5rem;font-size:.82rem;color:var(--gray)}.pref-breadcrumb a{color:var(--red);text-decoration:none}.pref-breadcrumb a:hover{text-decoration:underline}.pref-breadcrumb span{margin:0 .4rem}.pref-hero{position:relative;min-height:440px;display:flex;align-items:flex-end;background:#0a1a2a 50%/cover no-repeat;background-image:url(https://images.unsplash.com/photo-1519307212971-dd9561667ffb?w=1600&q=80)}.pref-hero::after{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,.15) 0%,rgba(0,0,0,.7) 100%)}.pref-hero-body{position:relative;z-index:1;padding:2.5rem 1.5rem 2rem;max-width:var(--max-w);margin:0 auto;width:100%}.pref-hero-eyebrow{color:rgba(255,255,255,.75);font-size:.82rem;font-weight:600;text-transform:uppercase;letter-spacing:.1em;margin-bottom:.5rem}.pref-hero h1{color:#fff;font-size:clamp(2.2rem,5.5vw,3.4rem);font-weight:900;margin:0 0 .5rem;line-height:1.1}.pref-hero .pref-sub{color:rgba(255,255,255,.88);font-size:1.05rem;max-width:560px;margin-bottom:1rem}.pref-stats{display:flex;flex-wrap:wrap;gap:.6rem}.pref-stat{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);border-radius:20px;padding:.3rem .85rem;color:#fff;font-size:.8rem;font-weight:600}.pref-section{padding:2.5rem 1.5rem}.pref-section+.pref-section{padding-top:0}.pref-container{max-width:var(--max-w);margin:0 auto}.pref-section-title{font-size:1.55rem;font-weight:900;margin:0 0 .4rem;display:flex;align-items:center;gap:.5rem}.pref-section-lead{font-size:1rem;color:#555;line-height:1.7;max-width:680px;margin-bottom:1.5rem}.ponko-guide{display:flex;align-items:flex-end;gap:0;margin-bottom:1.6rem}.ponko-bubble{flex:1;min-width:0;background:linear-gradient(135deg,#fff9f0,#fff3e0);border:2px solid #f5a623;border-radius:18px 18px 18px 4px;padding:1.2rem 1.5rem;position:relative;box-shadow:0 4px 14px rgba(245,166,35,.13)}.ponko-bubble::after{content:'';position:absolute;right:-18px;bottom:22px;border:9px solid transparent;border-left-color:#f5a623}.ponko-bubble::before{content:'';position:absolute;right:-13px;bottom:23px;z-index:1;border:8px solid transparent;border-left-color:#fff9f0}.ponko-bubble p{font-size:.97rem;line-height:1.8;color:#333;margin:0}.ponko-figure{flex-shrink:0;width:170px;margin-left:4px;animation:ponko-float 3s ease-in-out infinite}.ponko-figure img{width:100%;height:auto;display:block;filter:drop-shadow(0 6px 10px rgba(0,0,0,.18))}@keyframes ponko-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}@media(max-width:640px){.ponko-guide{flex-direction:column;align-items:center}.ponko-bubble{border-radius:18px;order:2;width:100%}.ponko-bubble::after,.ponko-bubble::before{display:none}.ponko-figure{order:1;width:130px;margin-left:0;margin-bottom:.5rem;animation:none}}.quick-facts{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.8rem;margin-top:1.4rem}.qf-card{background:#f8f9fb;border:1px solid var(--border);border-radius:12px;padding:1rem 1.1rem;display:flex;align-items:flex-start;gap:.7rem}.qf-icon{font-size:1.4rem;flex-shrink:0}.qf-label{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--gray);margin-bottom:.15rem}.qf-value{font-size:.9rem;font-weight:600;color:var(--dark)}.access-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}.access-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 8px rgba(0,0,0,5%)}.access-card-hd{display:flex;align-items:center;gap:.5rem;margin-bottom:.8rem}.access-card-icon{font-size:1.5rem}.access-card-title{font-size:1rem;font-weight:800;color:var(--dark)}.access-card ul{margin:0;padding-left:1.1rem}.access-card li{font-size:.875rem;line-height:1.65;color:#444;margin-bottom:.3rem}.access-card li strong{color:var(--dark)}.access-tip{margin-top:1.2rem;background:#fff8e6;border:1px solid #ffe0a0;border-radius:10px;padding:.9rem 1.1rem;font-size:.85rem;line-height:1.6;color:#5a3e00}.access-tip strong{display:block;margin-bottom:.2rem;font-size:.88rem}.guide-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem}.guide-card{background:#fff;border-radius:14px;overflow:hidden;border:1px solid var(--border);box-shadow:0 2px 8px rgba(0,0,0,5%);transition:transform .15s,box-shadow .15s;position:relative;display:flex;flex-direction:column}.guide-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.guide-card-img{width:100%;height:150px;object-fit:cover;background:#e8eef4;display:block}.guide-card-img-ph{width:100%;height:150px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:2.5rem}.guide-card-body{padding:.9rem 1rem 1rem;flex:1}.guide-cat-badge{display:inline-block;font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;padding:.15rem .55rem;border-radius:8px;background:var(--red);color:#fff;margin-bottom:.4rem}.guide-card-title{font-size:.92rem;font-weight:800;color:var(--dark);line-height:1.4}.guide-coming-soon{position:absolute;top:.6rem;right:.6rem;background:rgba(0,0,0,.55);color:#fff;font-size:.65rem;font-weight:700;padding:.2rem .5rem;border-radius:6px;text-transform:uppercase;letter-spacing:.05em}.guide-card-link{text-decoration:none;color:inherit;display:flex;flex-direction:column;height:100%}.pref-toc{background:#fff;border-bottom:2px solid var(--border);position:sticky;top:0;z-index:100;overflow-x:auto}.pref-toc-inner{display:flex;gap:0;max-width:var(--max-w);margin:0 auto}.pref-toc-btn{flex:none;display:flex;align-items:center;gap:.4rem;padding:.8rem 1.2rem;border:none;background:0 0;cursor:pointer;font-family:inherit;font-size:.88rem;font-weight:600;color:var(--gray);border-bottom:3px solid transparent;transition:all .18s;white-space:nowrap}.pref-toc-btn .toc-icon{font-size:1.1rem}.pref-toc-btn:hover{color:var(--dark);background:#f8f8f8}.pref-toc-btn.active{color:var(--toc-color,var(--red));border-bottom-color:var(--toc-color,var(--red))}.spot-section{padding:2rem 1.5rem 2.5rem}.spot-section.hidden{display:none}.spot-section-inner{max-width:var(--max-w);margin:0 auto}.section-hd{display:flex;align-items:center;gap:.6rem;margin-bottom:1.4rem;padding-bottom:.7rem;border-bottom:2px solid var(--border)}.section-hd .s-icon{font-size:1.6rem}.section-hd h2{font-size:1.35rem;font-weight:800;margin:0}.section-hd .s-count{margin-left:auto;background:var(--sec-color,var(--red));color:#fff;border-radius:20px;padding:.15rem .65rem;font-size:.78rem;font-weight:700}.spot-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.25rem}.spot-card{border-radius:14px;overflow:hidden;border:1px solid var(--border);background:#fff;box-shadow:0 2px 8px rgba(0,0,0,6%);transition:transform .15s,box-shadow .15s;display:flex;flex-direction:column}.spot-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.spot-img{width:100%;height:200px;object-fit:cover;background:#e8eef4;display:block}.spot-img-ph{width:100%;height:200px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:3rem}.spot-body{padding:1rem 1.1rem 1.1rem;flex:1;display:flex;flex-direction:column}.spot-meta{display:flex;align-items:center;gap:.5rem;margin-bottom:.5rem}.spot-location{font-size:.78rem;color:var(--gray);font-weight:500}.spot-season-badge{margin-left:auto;font-size:.7rem;font-weight:700;padding:.1rem .5rem;border-radius:10px;background:#f0f4f8;color:#555;white-space:nowrap}.spot-name{font-size:1.08rem;font-weight:800;color:var(--dark);margin:0 0 .45rem;line-height:1.3}.spot-desc{font-size:.86rem;line-height:1.65;color:#555;flex:1;margin-bottom:.75rem}.spot-tags{display:flex;flex-wrap:wrap;gap:.3rem}.spot-tag{font-size:.7rem;font-weight:600;padding:.15rem .5rem;border-radius:6px;background:var(--tag-bg,#f0f4f8);color:var(--tag-color,#445)}.tips-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem}.tip-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 6px rgba(0,0,0,4%)}.tip-card-icon{font-size:1.8rem;margin-bottom:.6rem}.tip-card-title{font-size:.95rem;font-weight:800;color:var(--dark);margin-bottom:.5rem}.tip-card-body{font-size:.85rem;line-height:1.65;color:#555}.tip-card-body ul{margin:.3rem 0 0;padding-left:1.1rem}.tip-card-body li{margin-bottom:.2rem}.pref-cta{background:var(--bg-soft);padding:2.5rem 1.5rem 3rem;border-top:1px solid var(--border)}.pref-cta .pref-container{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}@media(max-width:600px){.pref-hero{min-height:320px}.quick-facts{grid-template-columns:repeat(2,1fr)}.pref-toc-btn{padding:.7rem .9rem;font-size:.82rem}}.btn-add-plan{display:inline-flex;align-items:center;gap:.35rem;margin-top:.75rem;padding:.45rem .9rem;border:1.5px solid #2d5be3;border-radius:8px;background:#fff;color:#2d5be3;font-size:.78rem;font-weight:700;font-family:inherit;cursor:pointer;transition:background .15s,color .15s,transform .1s;width:100%;justify-content:center}.btn-add-plan:hover{background:#2d5be3;color:#fff;transform:translateY(-1px)}.btn-add-plan.in-plan{background:#e8f0ff;color:#1a45a8;border-color:#1a45a8}.btn-add-plan.in-plan:hover{background:#c0003a;color:#fff;border-color:#c0003a}.btn-read-guide{display:inline-flex;align-items:center;justify-content:center;gap:.35rem;margin-top:.5rem;padding:.45rem .9rem;border:1.5px solid #1a7a34;border-radius:8px;background:#f0faf2;color:#1a7a34;font-size:.78rem;font-weight:700;text-decoration:none;width:100%;transition:background .15s,color .15s,transform .1s}.btn-read-guide:hover{background:#1a7a34;color:#fff;transform:translateY(-1px);text-decoration:none}.see-all-wrap{text-align:center;margin-top:1.5rem;padding-top:1rem;border-top:1px dashed var(--border)}.see-all-btn{display:inline-flex;align-items:center;gap:.4rem;padding:.55rem 1.5rem;border:2px solid;border-radius:10px;font-size:.88rem;font-weight:700;text-decoration:none;transition:all .15s}.see-all-btn:hover{opacity:.8;text-decoration:none}</style>
+<style>.pref-breadcrumb{background:#f8f9fa;border-bottom:1px solid var(--border);padding:.6rem 1.5rem;font-size:.82rem;color:var(--gray)}.pref-breadcrumb a{color:var(--red);text-decoration:none}.pref-breadcrumb a:hover{text-decoration:underline}.pref-breadcrumb span{margin:0 .4rem}.pref-hero{position:relative;min-height:440px;display:flex;align-items:flex-end;background:#0a1a2a 50%/cover no-repeat;background-image:url(https://images.unsplash.com/photo-1519307212971-dd9561667ffb?w=1600&q=80)}.pref-hero::after{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,.15) 0%,rgba(0,0,0,.7) 100%)}.pref-hero-body{position:relative;z-index:1;padding:2.5rem 1.5rem 2rem;max-width:var(--max-w);margin:0 auto;width:100%}.pref-hero-eyebrow{color:rgba(255,255,255,.75);font-size:.82rem;font-weight:600;text-transform:uppercase;letter-spacing:.1em;margin-bottom:.5rem}.pref-hero h1{color:#fff;font-size:clamp(2.2rem,5.5vw,3.4rem);font-weight:900;margin:0 0 .5rem;line-height:1.1}.pref-hero .pref-sub{color:rgba(255,255,255,.88);font-size:1.05rem;max-width:560px;margin-bottom:1rem}.pref-stats{display:flex;flex-wrap:wrap;gap:.6rem}.pref-stat{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);border-radius:20px;padding:.3rem .85rem;color:#fff;font-size:.8rem;font-weight:600}.pref-section{padding:2.5rem 1.5rem}.pref-section+.pref-section{padding-top:0}.pref-container{max-width:var(--max-w);margin:0 auto}.pref-section-title{font-size:1.55rem;font-weight:900;margin:0 0 .4rem;display:flex;align-items:center;gap:.5rem}.pref-section-lead{font-size:1rem;color:#555;line-height:1.7;max-width:680px;margin-bottom:1.5rem}.ponko-guide{display:flex;align-items:flex-end;gap:0;margin-bottom:1.6rem}.ponko-bubble{flex:1;min-width:0;background:linear-gradient(135deg,#fff9f0,#fff3e0);border:2px solid #f5a623;border-radius:18px 18px 18px 4px;padding:1.2rem 1.5rem;position:relative;box-shadow:0 4px 14px rgba(245,166,35,.13)}.ponko-bubble::after{content:'';position:absolute;right:-18px;bottom:22px;border:9px solid transparent;border-left-color:#f5a623}.ponko-bubble::before{content:'';position:absolute;right:-13px;bottom:23px;z-index:1;border:8px solid transparent;border-left-color:#fff9f0}.ponko-bubble p{font-size:.97rem;line-height:1.8;color:#333;margin:0}.ponko-figure{flex-shrink:0;width:170px;margin-left:4px;animation:ponko-float 3s ease-in-out infinite}.ponko-figure img{width:100%;height:auto;display:block;filter:drop-shadow(0 6px 10px rgba(0,0,0,.18))}@keyframes ponko-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}@media(max-width:640px){.ponko-guide{flex-direction:column;align-items:center}.ponko-bubble{border-radius:18px;order:2;width:100%}.ponko-bubble::after,.ponko-bubble::before{display:none}.ponko-figure{order:1;width:130px;margin-left:0;margin-bottom:.5rem;animation:none}}.quick-facts{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.8rem;margin-top:1.4rem}.qf-card{background:#f8f9fb;border:1px solid var(--border);border-radius:12px;padding:1rem 1.1rem;display:flex;align-items:flex-start;gap:.7rem}.qf-icon{font-size:1.4rem;flex-shrink:0}.qf-label{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--gray);margin-bottom:.15rem}.qf-value{font-size:.9rem;font-weight:600;color:var(--dark)}.access-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}.access-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 8px rgba(0,0,0,5%)}.access-card-hd{display:flex;align-items:center;gap:.5rem;margin-bottom:.8rem}.access-card-icon{font-size:1.5rem}.access-card-title{font-size:1rem;font-weight:800;color:var(--dark)}.access-card ul{margin:0;padding-left:1.1rem}.access-card li{font-size:.875rem;line-height:1.65;color:#444;margin-bottom:.3rem}.access-card li strong{color:var(--dark)}.access-tip{margin-top:1.2rem;background:#fff8e6;border:1px solid #ffe0a0;border-radius:10px;padding:.9rem 1.1rem;font-size:.85rem;line-height:1.6;color:#5a3e00}.access-tip strong{display:block;margin-bottom:.2rem;font-size:.88rem}.guide-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem}.guide-card{background:#fff;border-radius:14px;overflow:hidden;border:1px solid var(--border);box-shadow:0 2px 8px rgba(0,0,0,5%);transition:transform .15s,box-shadow .15s;position:relative;display:flex;flex-direction:column}.guide-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.guide-card-img{width:100%;height:150px;object-fit:cover;background:#e8eef4;display:block}.guide-card-img-ph{width:100%;height:150px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:2.5rem}.guide-card-body{padding:.9rem 1rem 1rem;flex:1}.guide-cat-badge{display:inline-block;font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;padding:.15rem .55rem;border-radius:8px;background:var(--red);color:#fff;margin-bottom:.4rem}.guide-card-title{font-size:.92rem;font-weight:800;color:var(--dark);line-height:1.4}.guide-coming-soon{position:absolute;top:.6rem;right:.6rem;background:rgba(0,0,0,.55);color:#fff;font-size:.65rem;font-weight:700;padding:.2rem .5rem;border-radius:6px;text-transform:uppercase;letter-spacing:.05em}.guide-card-link{text-decoration:none;color:inherit;display:flex;flex-direction:column;height:100%}.pref-toc{background:#fff;border-bottom:2px solid var(--border);position:sticky;top:0;z-index:100;overflow-x:auto}.pref-toc-inner{display:flex;gap:0;max-width:var(--max-w);margin:0 auto}.pref-toc-btn{flex:none;display:flex;align-items:center;gap:.4rem;padding:.8rem 1.2rem;border:none;background:0 0;cursor:pointer;font-family:inherit;font-size:.88rem;font-weight:600;color:var(--gray);border-bottom:3px solid transparent;transition:all .18s;white-space:nowrap}.pref-toc-btn .toc-icon{font-size:1.1rem}.pref-toc-btn:hover{color:var(--dark);background:#f8f8f8}.pref-toc-btn.active{color:var(--toc-color,var(--red));border-bottom-color:var(--toc-color,var(--red))}.spot-section{padding:2rem 1.5rem 2.5rem}.spot-section.hidden{display:none}.spot-section-inner{max-width:var(--max-w);margin:0 auto}.section-hd{display:flex;align-items:center;gap:.6rem;margin-bottom:1.4rem;padding-bottom:.7rem;border-bottom:2px solid var(--border)}.section-hd .s-icon{font-size:1.6rem}.section-hd h2{font-size:1.35rem;font-weight:800;margin:0}.section-hd .s-count{margin-left:auto;background:var(--sec-color,var(--red));color:#fff;border-radius:20px;padding:.15rem .65rem;font-size:.78rem;font-weight:700}.spot-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.25rem}.spot-card{border-radius:14px;overflow:hidden;border:1px solid var(--border);background:#fff;box-shadow:0 2px 8px rgba(0,0,0,6%);transition:transform .15s,box-shadow .15s;display:flex;flex-direction:column}.spot-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.spot-img{width:100%;height:200px;object-fit:cover;background:#e8eef4;display:block}.spot-img-ph{width:100%;height:200px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:3rem}.spot-body{padding:1rem 1.1rem 1.1rem;flex:1;display:flex;flex-direction:column}.spot-meta{display:flex;align-items:center;gap:.5rem;margin-bottom:.5rem}.spot-location{font-size:.78rem;color:var(--gray);font-weight:500}.spot-season-badge{margin-left:auto;font-size:.7rem;font-weight:700;padding:.1rem .5rem;border-radius:10px;background:#f0f4f8;color:#555;white-space:nowrap}.spot-name{font-size:1.08rem;font-weight:800;color:var(--dark);margin:0 0 .45rem;line-height:1.3}.spot-desc{font-size:.86rem;line-height:1.65;color:#555;flex:1;margin-bottom:.75rem}.spot-tags{display:flex;flex-wrap:wrap;gap:.3rem}.spot-tag{font-size:.7rem;font-weight:600;padding:.15rem .5rem;border-radius:6px;background:var(--tag-bg,#f0f4f8);color:var(--tag-color,#445)}.tips-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem}.tip-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 6px rgba(0,0,0,4%)}.tip-card-icon{font-size:1.8rem;margin-bottom:.6rem}.tip-card-title{font-size:.95rem;font-weight:800;color:var(--dark);margin-bottom:.5rem}.tip-card-body{font-size:.85rem;line-height:1.65;color:#555}.tip-card-body ul{margin:.3rem 0 0;padding-left:1.1rem}.tip-card-body li{margin-bottom:.2rem}.pref-cta{background:var(--bg-soft);padding:2.5rem 1.5rem 3rem;border-top:1px solid var(--border)}.pref-cta .pref-container{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}@media(max-width:600px){.pref-hero{min-height:320px}.quick-facts{grid-template-columns:repeat(2,1fr)}.pref-toc-btn{padding:.7rem .9rem;font-size:.82rem}}.btn-add-plan{display:inline-flex;align-items:center;gap:.35rem;margin-top:.75rem;padding:.45rem .9rem;border:1.5px solid #2d5be3;border-radius:8px;background:#fff;color:#2d5be3;font-size:.78rem;font-weight:700;font-family:inherit;cursor:pointer;transition:background .15s,color .15s,transform .1s;width:100%;justify-content:center}.btn-add-plan:hover{background:#2d5be3;color:#fff;transform:translateY(-1px)}.btn-add-plan.in-plan{background:#e8f0ff;color:#1a45a8;border-color:#1a45a8}.btn-add-plan.in-plan:hover{background:#c0003a;color:#fff;border-color:#c0003a}.btn-read-guide{display:inline-flex;align-items:center;justify-content:center;gap:.35rem;margin-top:.5rem;padding:.45rem .9rem;border:1.5px solid #1a7a34;border-radius:8px;background:#f0faf2;color:#1a7a34;font-size:.78rem;font-weight:700;text-decoration:none;width:100%;transition:background .15s,color .15s,transform .1s}.btn-read-guide:hover{background:#1a7a34;color:#fff;transform:translateY(-1px);text-decoration:none}.see-all-wrap{text-align:center;margin-top:1.5rem;padding-top:1rem;border-top:1px dashed var(--border)}.see-all-btn{display:inline-flex;align-items:center;gap:.4rem;padding:.55rem 1.5rem;border:2px solid;border-radius:10px;font-size:.88rem;font-weight:700;text-decoration:none;transition:all .15s}.see-all-btn:hover{opacity:.8;text-decoration:none}.see-all-btn{cursor:pointer;background:0 0}.spot-card.spot-more{display:none}.spot-section.spots-expanded .spot-card.spot-more{display:flex}.spot-section.spots-expanded .see-all-wrap{display:none}</style>
 <nav class=pref-breadcrumb aria-label=breadcrumb>
 <a href=/>Accueil</a><span>›</span>
 <a href=/explore/>Explorer le Japon</a><span>›</span>
@@ -549,11 +549,242 @@ Venez pour les sites historiques émouvants, restez pour les vues nocturnes exce
 </button>
 </div>
 </article>
+<article class="spot-card spot-more" data-spot-id=dutch-slope-street data-spot-name="Rue historique de la Pente néerlandaise" data-spot-pref=nagasaki data-spot-fee=0 data-spot-dur=60 data-spot-lat=32.7356 data-spot-lng=129.8712 data-spot-area=minami-yamate data-spot-rating=4.6 data-spot-reviews=2100 data-spot-img="https://images.unsplash.com/photo-1576070159159-cd43c03c4b7a?w=800&q=80" data-spot-cats=sightseeing,sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1576070159159-cd43c03c4b7a?w=800&q=80" alt="Rue historique de la Pente néerlandaise" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Minami Yamate, Nagasaki</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Rue historique de la Pente néerlandaise</h3>
+<p class=spot-desc>Cette charmante côte conserve des murs de pierre datant de l'époque néerlandaise, des bâtiments historiques et de pittoresques chemins pavés qui transportent les visiteurs dans le passé cosmopolite du Japon. Parfaite pour des promenades tranquilles, avec des occasions de photographie à chaque coin de rue.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Rue historique</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Chemin pavé</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Héritage colonial</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Photographie</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=gunkanjima data-spot-name="Gunkanjima (Île-cuirassé)" data-spot-pref=nagasaki data-spot-fee=3600 data-spot-dur=150 data-spot-lat=32.6291 data-spot-lng=129.7347 data-spot-area=port-area data-spot-rating=4.5 data-spot-reviews=1900 data-spot-img="https://images.unsplash.com/photo-1570124477221-4da18c2b0f0d?w=800&q=80" data-spot-cats=sightseeing,nature>
+<img class=spot-img src="https://images.unsplash.com/photo-1570124477221-4da18c2b0f0d?w=800&q=80" alt="Gunkanjima (Île-cuirassé)" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Zone portuaire, Nagasaki</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Gunkanjima (Île-cuirassé)</h3>
+<p class=spot-desc>Cette île charbonnière classée au patrimoine mondial de l'UNESCO fut autrefois l'endroit le plus densément peuplé de la planète ; ce n'est plus aujourd'hui qu'une cité abandonnée d'une beauté saisissante. Les visites s'effectuent en bateau et offrent des perspectives uniques sur les immeubles d'habitation conservés que la nature reprend peu à peu.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Site UNESCO</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Ville minière abandonnée</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Excursion en bateau</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Photographie</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=champon-noodle-experience data-spot-name="Champon Yokocho (ruelle des nouilles)" data-spot-pref=nagasaki data-spot-fee=0 data-spot-dur=60 data-spot-lat=32.7411 data-spot-lng=129.8701 data-spot-area=central-nagasaki data-spot-rating=4.5 data-spot-reviews=1800 data-spot-img="https://images.unsplash.com/photo-1564489551168-23d31e29a8b1?w=800&q=80" data-spot-cats=gourmet,sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1564489551168-23d31e29a8b1?w=800&q=80" alt="Champon Yokocho (ruelle des nouilles)" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Centre de Nagasaki, Nagasaki</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Champon Yokocho (ruelle des nouilles)</h3>
+<p class=spot-desc>Goûtez à l'authentique champon de Nagasaki — un plat de nouilles unique au bouillon de porc et aux fruits de mer frais — dans cette ruelle pleine de charme bordée de restaurants familiaux depuis les années 1950. Chaque échoppe a sa propre recette, ce qui en fait un savoureux pèlerinage culinaire.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Cuisine locale</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Cuisine de rue</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Restaurant traditionnel</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Authentique</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=sofukuji-temple data-spot-name="Temple Sofukuji" data-spot-pref=nagasaki data-spot-fee=600 data-spot-dur=60 data-spot-lat=32.7395 data-spot-lng=129.8756 data-spot-area=central-nagasaki data-spot-rating=4.5 data-spot-reviews=1200 data-spot-img="https://images.unsplash.com/photo-1588604282701-da0d6b1d3383?w=800&q=80" data-spot-cats=sightseeing,sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1588604282701-da0d6b1d3383?w=800&q=80" alt="Temple Sofukuji" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Centre de Nagasaki, Nagasaki</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Temple Sofukuji</h3>
+<p class=spot-desc>Fondé par des marchands chinois en 1629, ce temple se distingue par son style architectural chinois unique, avec ses piliers d'un rouge éclatant et ses décorations raffinées que l'on voit rarement au Japon. Parcourez ses allées empreintes d'atmosphère pour découvrir le mélange des traditions culturelles bouddhistes et chinoises.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Temple bouddhiste</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Architecture chinoise</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Historique</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Paisible</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=dejima data-spot-name="Dejima, comptoir commercial néerlandais" data-spot-pref=nagasaki data-spot-fee=510 data-spot-dur=75 data-spot-lat=32.7344 data-spot-lng=129.8684 data-spot-area=dejima data-spot-rating=4.4 data-spot-reviews=2300 data-spot-img="https://images.unsplash.com/photo-1576070159159-cd43c03c4b7a?w=800&q=80" data-spot-cats=sightseeing,sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1576070159159-cd43c03c4b7a?w=800&q=80" alt="Dejima, comptoir commercial néerlandais" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Dejima, Nagasaki</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Dejima, comptoir commercial néerlandais</h3>
+<p class=spot-desc>Île artificielle partiellement reconstruite qui fut l'unique fenêtre du Japon sur le monde occidental durant 250 ans d'isolement, exclusivement sous contrôle néerlandais. Musées et bâtiments restaurés illustrent avec éclat les échanges culturels uniques qui s'y sont déroulés.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Site historique</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>UNESCO</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Patrimoine néerlandais</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Musée</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=goto-islands-heritage data-spot-name="Sites du patrimoine UNESCO des Îles Goto" data-spot-pref=nagasaki data-spot-fee=0 data-spot-dur=240 data-spot-lat=32.8934 data-spot-lng=129.5123 data-spot-area=goto-islands data-spot-rating=4.4 data-spot-reviews=890 data-spot-img="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" data-spot-cats=nature,sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" alt="Sites du patrimoine UNESCO des Îles Goto" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Îles Goto, Nagasaki</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Sites du patrimoine UNESCO des Îles Goto</h3>
+<p class=spot-desc>Ces îles reculées au nord de Nagasaki préservent des églises chrétiennes cachées et des communautés traditionnelles au cœur de paysages naturels saisissants. Accessibles en ferry, elles offrent un rare aperçu de l'histoire des chrétiens cachés du Japon et de littoraux d'une beauté immaculée.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>UNESCO</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Églises cachées</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Culture insulaire</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Beauté isolée</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=huis-ten-bosch data-spot-name="Huis Ten Bosch" data-spot-pref=nagasaki data-spot-fee=7000 data-spot-dur=240 data-spot-lat=32.6235 data-spot-lng=129.7986 data-spot-area=sasebo data-spot-rating=4.3 data-spot-reviews=2100 data-spot-img="https://images.unsplash.com/photo-1529149482759-505eae5c4d22?w=800&q=80" data-spot-cats=leisure,sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1529149482759-505eae5c4d22?w=800&q=80" alt="Huis Ten Bosch" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Sasebo, Nagasaki</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Huis Ten Bosch</h3>
+<p class=spot-desc>Un vaste parc d'attractions sur le thème des Pays-Bas, doté d'une architecture européenne authentique, de musées et d'attractions, situé aux portes de la ville de Nagasaki. Idéal pour les familles en quête d'un mélange unique de divertissement, d'immersion culturelle et d'hospitalité japonaise.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Parc d'attractions</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Culture néerlandaise</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Divertissement</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Adapté aux familles</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=kofukuji-temple data-spot-name="Temple Kofukuji" data-spot-pref=nagasaki data-spot-fee=400 data-spot-dur=50 data-spot-lat=32.7478 data-spot-lng=129.8645 data-spot-area=central-nagasaki data-spot-rating=4.3 data-spot-reviews=580 data-spot-img="https://images.unsplash.com/photo-1588604282701-da0d6b1d3383?w=800&q=80" data-spot-cats=sightseeing,sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1588604282701-da0d6b1d3383?w=800&q=80" alt="Temple Kofukuji" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Centre de Nagasaki, Nagasaki</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Temple Kofukuji</h3>
+<p class=spot-desc>Ce temple serein du XVIIe siècle se distingue par sa belle architecture d'inspiration chinoise et ses jardins paisibles propices à la contemplation. Moins fréquenté que les autres temples de la ville, il offre une atmosphère spirituelle authentique, rythmée par l'encens et les sons du temple.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Temple bouddhiste</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Architecture historique</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Paisible</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Trésor local</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=nagasaki-museum-art data-spot-name="Musée d&amp;#39;Histoire et de Culture de Nagasaki" data-spot-pref=nagasaki data-spot-fee=600 data-spot-dur=120 data-spot-lat=32.8123 data-spot-lng=129.8567 data-spot-area=musashimachi data-spot-rating=4.3 data-spot-reviews=1100 data-spot-img="https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?w=800&q=80" data-spot-cats=sightseeing,sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?w=800&q=80" alt="Musée d'Histoire et de Culture de Nagasaki" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Musashimachi, Nagasaki</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Musée d'Histoire et de Culture de Nagasaki</h3>
+<p class=spot-desc>Musée complet retraçant le riche héritage multiculturel de Nagasaki, de l'Antiquité à l'époque moderne, y compris l'histoire du commerce néerlandais et les conséquences du bombardement atomique. Des expositions interactives et des objets culturels permettent de comprendre en profondeur cette préfecture unique.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Musée</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Histoire locale</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Collections d'art</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Pédagogique</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=siebold-memorial-museum data-spot-name="Musée commémoratif Siebold" data-spot-pref=nagasaki data-spot-fee=600 data-spot-dur=60 data-spot-lat=32.7512 data-spot-lng=129.8578 data-spot-area=minami-yamate data-spot-rating=4.2 data-spot-reviews=420 data-spot-img="https://images.unsplash.com/photo-1576770413051-8b3ff91a59d3?w=800&q=80" data-spot-cats=sightseeing,sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1576770413051-8b3ff91a59d3?w=800&q=80" alt="Musée commémoratif Siebold" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Minami Yamate, Nagasaki</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Musée commémoratif Siebold</h3>
+<p class=spot-desc>La maison restaurée de Philipp Franz von Siebold, médecin allemand qui documenta abondamment le Japon au XIXe siècle, abrite des objets et des documents fascinants. Ce joyau méconnu offre un aperçu de l'époque où le Japon s'ouvrait au savoir scientifique occidental.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Histoire européenne</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Intérêt botanique</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Résidence historique</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Musée</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=nagasaki-penguin-aquarium data-spot-name="Aquarium aux pingouins de Nagasaki" data-spot-pref=nagasaki data-spot-fee=700 data-spot-dur=90 data-spot-lat=32.7089 data-spot-lng=129.8234 data-spot-area=port-area data-spot-rating=4.2 data-spot-reviews=1300 data-spot-img="https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&q=80" data-spot-cats=leisure,sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&q=80" alt="Aquarium aux pingouins de Nagasaki" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Zone portuaire, Nagasaki</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Aquarium aux pingouins de Nagasaki</h3>
+<p class=spot-desc>Abritant plus de 180 pingouins de sept espèces différentes, cet aquarium unique propose des rencontres interactives et des spectacles de nourrissage. Une attraction idéale pour les familles, avec de colorés bassins marins et des programmes pédagogiques sur la faune antarctique.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Faune marine</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Adapté aux familles</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Rencontre avec les pingouins</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Divertissement</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 </div>
 <div class=see-all-wrap>
-<a class=see-all-btn style=color:#1a45a8 href=/prefectures/nagasaki/sightseeing/>
-See all 17 Sites touristiques spots →
-</a>
+<button class="see-all-btn show-more-btn" style=color:#1a45a8 type=button data-section=section-sightseeing>
+Voir tout (17) ↓
+</button>
 </div>
 </div>
 </section><section class=spot-section id=section-gourmet data-cat=gourmet>
@@ -962,11 +1193,74 @@ See all 17 Sites touristiques spots →
 </button>
 </div>
 </article>
+<article class="spot-card spot-more" data-spot-id=huis-ten-bosch data-spot-name="Huis Ten Bosch" data-spot-pref=nagasaki data-spot-fee=7000 data-spot-dur=240 data-spot-lat=32.6235 data-spot-lng=129.7986 data-spot-area=sasebo data-spot-rating=4.3 data-spot-reviews=2100 data-spot-img="https://images.unsplash.com/photo-1529149482759-505eae5c4d22?w=800&q=80" data-spot-cats=leisure,sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1529149482759-505eae5c4d22?w=800&q=80" alt="Huis Ten Bosch" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎿</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Sasebo, Nagasaki</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Huis Ten Bosch</h3>
+<p class=spot-desc>Un vaste parc d'attractions sur le thème des Pays-Bas, doté d'une architecture européenne authentique, de musées et d'attractions, situé aux portes de la ville de Nagasaki. Idéal pour les familles en quête d'un mélange unique de divertissement, d'immersion culturelle et d'hospitalité japonaise.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Parc d'attractions</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Culture néerlandaise</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Divertissement</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Adapté aux familles</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=tanega-island data-spot-name="Excursion d&amp;#39;une journée sur l&amp;#39;île de Tanega" data-spot-pref=nagasaki data-spot-fee=0 data-spot-dur=180 data-spot-lat=32.6172 data-spot-lng=129.7891 data-spot-area=outer-islands data-spot-rating=4.2 data-spot-reviews=540 data-spot-img="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80" data-spot-cats=nature,leisure>
+<img class=spot-img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80" alt="Excursion d'une journée sur l'île de Tanega" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎿</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Îles périphériques, Nagasaki</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Excursion d'une journée sur l'île de Tanega</h3>
+<p class=spot-desc>Accessible en ferry depuis Nagasaki, cette île rurale paisible offre des plages immaculées, des sentiers de randonnée et des villages de pêcheurs traditionnels. Une destination hors des sentiers battus, parfaite pour découvrir la vie insulaire japonaise authentique, loin de la foule des villes.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Exploration insulaire</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Plage</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Excursion en bateau</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Pittoresque</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=nagasaki-penguin-aquarium data-spot-name="Aquarium aux pingouins de Nagasaki" data-spot-pref=nagasaki data-spot-fee=700 data-spot-dur=90 data-spot-lat=32.7089 data-spot-lng=129.8234 data-spot-area=port-area data-spot-rating=4.2 data-spot-reviews=1300 data-spot-img="https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&q=80" data-spot-cats=leisure,sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&q=80" alt="Aquarium aux pingouins de Nagasaki" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎿</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Zone portuaire, Nagasaki</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Aquarium aux pingouins de Nagasaki</h3>
+<p class=spot-desc>Abritant plus de 180 pingouins de sept espèces différentes, cet aquarium unique propose des rencontres interactives et des spectacles de nourrissage. Une attraction idéale pour les familles, avec de colorés bassins marins et des programmes pédagogiques sur la faune antarctique.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Faune marine</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Adapté aux familles</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Rencontre avec les pingouins</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Divertissement</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 </div>
 <div class=see-all-wrap>
-<a class=see-all-btn style=color:#b35c00 href=/prefectures/nagasaki/leisure/>
-See all 9 Loisirs spots →
-</a>
+<button class="see-all-btn show-more-btn" style=color:#b35c00 type=button data-section=section-leisure>
+Voir tout (9) ↓
+</button>
 </div>
 </div>
 </section><section class=spot-section id=section-events data-cat=events>
@@ -1200,6 +1494,13 @@ See all 9 Loisirs spots →
 </div>
 <script>
 (function(){
+ 
+document.querySelectorAll('.show-more-btn').forEach(function(btn){
+  btn.addEventListener('click', function(){
+    var sec = document.getElementById(btn.dataset.section);
+    if (sec) sec.classList.add('spots-expanded');
+  });
+});
  
 const CATS = {
   sightseeing:{ color:"#1a45a8" },

@@ -99,7 +99,7 @@
   document.addEventListener('keydown', function(e){ if(e.key==='Escape') close(); });
 })();
 </script>
-<style>.pref-breadcrumb{background:#f8f9fa;border-bottom:1px solid var(--border);padding:.6rem 1.5rem;font-size:.82rem;color:var(--gray)}.pref-breadcrumb a{color:var(--red);text-decoration:none}.pref-breadcrumb a:hover{text-decoration:underline}.pref-breadcrumb span{margin:0 .4rem}.pref-hero{position:relative;min-height:440px;display:flex;align-items:flex-end;background:#1a0a2e 50%/cover no-repeat;background-image:url(https://images.unsplash.com/photo-1478436127897-769e1b3f0f36?w=1600&q=80)}.pref-hero::after{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,.15) 0%,rgba(0,0,0,.7) 100%)}.pref-hero-body{position:relative;z-index:1;padding:2.5rem 1.5rem 2rem;max-width:var(--max-w);margin:0 auto;width:100%}.pref-hero-eyebrow{color:rgba(255,255,255,.75);font-size:.82rem;font-weight:600;text-transform:uppercase;letter-spacing:.1em;margin-bottom:.5rem}.pref-hero h1{color:#fff;font-size:clamp(2.2rem,5.5vw,3.4rem);font-weight:900;margin:0 0 .5rem;line-height:1.1}.pref-hero .pref-sub{color:rgba(255,255,255,.88);font-size:1.05rem;max-width:560px;margin-bottom:1rem}.pref-stats{display:flex;flex-wrap:wrap;gap:.6rem}.pref-stat{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);border-radius:20px;padding:.3rem .85rem;color:#fff;font-size:.8rem;font-weight:600}.pref-section{padding:2.5rem 1.5rem}.pref-section+.pref-section{padding-top:0}.pref-container{max-width:var(--max-w);margin:0 auto}.pref-section-title{font-size:1.55rem;font-weight:900;margin:0 0 .4rem;display:flex;align-items:center;gap:.5rem}.pref-section-lead{font-size:1rem;color:#555;line-height:1.7;max-width:680px;margin-bottom:1.5rem}.ponko-guide{display:flex;align-items:flex-end;gap:0;margin-bottom:1.6rem}.ponko-bubble{flex:1;min-width:0;background:linear-gradient(135deg,#fff9f0,#fff3e0);border:2px solid #f5a623;border-radius:18px 18px 18px 4px;padding:1.2rem 1.5rem;position:relative;box-shadow:0 4px 14px rgba(245,166,35,.13)}.ponko-bubble::after{content:'';position:absolute;right:-18px;bottom:22px;border:9px solid transparent;border-left-color:#f5a623}.ponko-bubble::before{content:'';position:absolute;right:-13px;bottom:23px;z-index:1;border:8px solid transparent;border-left-color:#fff9f0}.ponko-bubble p{font-size:.97rem;line-height:1.8;color:#333;margin:0}.ponko-figure{flex-shrink:0;width:170px;margin-left:4px;animation:ponko-float 3s ease-in-out infinite}.ponko-figure img{width:100%;height:auto;display:block;filter:drop-shadow(0 6px 10px rgba(0,0,0,.18))}@keyframes ponko-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}@media(max-width:640px){.ponko-guide{flex-direction:column;align-items:center}.ponko-bubble{border-radius:18px;order:2;width:100%}.ponko-bubble::after,.ponko-bubble::before{display:none}.ponko-figure{order:1;width:130px;margin-left:0;margin-bottom:.5rem;animation:none}}.quick-facts{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.8rem;margin-top:1.4rem}.qf-card{background:#f8f9fb;border:1px solid var(--border);border-radius:12px;padding:1rem 1.1rem;display:flex;align-items:flex-start;gap:.7rem}.qf-icon{font-size:1.4rem;flex-shrink:0}.qf-label{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--gray);margin-bottom:.15rem}.qf-value{font-size:.9rem;font-weight:600;color:var(--dark)}.access-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}.access-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 8px rgba(0,0,0,5%)}.access-card-hd{display:flex;align-items:center;gap:.5rem;margin-bottom:.8rem}.access-card-icon{font-size:1.5rem}.access-card-title{font-size:1rem;font-weight:800;color:var(--dark)}.access-card ul{margin:0;padding-left:1.1rem}.access-card li{font-size:.875rem;line-height:1.65;color:#444;margin-bottom:.3rem}.access-card li strong{color:var(--dark)}.access-tip{margin-top:1.2rem;background:#fff8e6;border:1px solid #ffe0a0;border-radius:10px;padding:.9rem 1.1rem;font-size:.85rem;line-height:1.6;color:#5a3e00}.access-tip strong{display:block;margin-bottom:.2rem;font-size:.88rem}.guide-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem}.guide-card{background:#fff;border-radius:14px;overflow:hidden;border:1px solid var(--border);box-shadow:0 2px 8px rgba(0,0,0,5%);transition:transform .15s,box-shadow .15s;position:relative;display:flex;flex-direction:column}.guide-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.guide-card-img{width:100%;height:150px;object-fit:cover;background:#e8eef4;display:block}.guide-card-img-ph{width:100%;height:150px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:2.5rem}.guide-card-body{padding:.9rem 1rem 1rem;flex:1}.guide-cat-badge{display:inline-block;font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;padding:.15rem .55rem;border-radius:8px;background:var(--red);color:#fff;margin-bottom:.4rem}.guide-card-title{font-size:.92rem;font-weight:800;color:var(--dark);line-height:1.4}.guide-coming-soon{position:absolute;top:.6rem;right:.6rem;background:rgba(0,0,0,.55);color:#fff;font-size:.65rem;font-weight:700;padding:.2rem .5rem;border-radius:6px;text-transform:uppercase;letter-spacing:.05em}.guide-card-link{text-decoration:none;color:inherit;display:flex;flex-direction:column;height:100%}.pref-toc{background:#fff;border-bottom:2px solid var(--border);position:sticky;top:0;z-index:100;overflow-x:auto}.pref-toc-inner{display:flex;gap:0;max-width:var(--max-w);margin:0 auto}.pref-toc-btn{flex:none;display:flex;align-items:center;gap:.4rem;padding:.8rem 1.2rem;border:none;background:0 0;cursor:pointer;font-family:inherit;font-size:.88rem;font-weight:600;color:var(--gray);border-bottom:3px solid transparent;transition:all .18s;white-space:nowrap}.pref-toc-btn .toc-icon{font-size:1.1rem}.pref-toc-btn:hover{color:var(--dark);background:#f8f8f8}.pref-toc-btn.active{color:var(--toc-color,var(--red));border-bottom-color:var(--toc-color,var(--red))}.spot-section{padding:2rem 1.5rem 2.5rem}.spot-section.hidden{display:none}.spot-section-inner{max-width:var(--max-w);margin:0 auto}.section-hd{display:flex;align-items:center;gap:.6rem;margin-bottom:1.4rem;padding-bottom:.7rem;border-bottom:2px solid var(--border)}.section-hd .s-icon{font-size:1.6rem}.section-hd h2{font-size:1.35rem;font-weight:800;margin:0}.section-hd .s-count{margin-left:auto;background:var(--sec-color,var(--red));color:#fff;border-radius:20px;padding:.15rem .65rem;font-size:.78rem;font-weight:700}.spot-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.25rem}.spot-card{border-radius:14px;overflow:hidden;border:1px solid var(--border);background:#fff;box-shadow:0 2px 8px rgba(0,0,0,6%);transition:transform .15s,box-shadow .15s;display:flex;flex-direction:column}.spot-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.spot-img{width:100%;height:200px;object-fit:cover;background:#e8eef4;display:block}.spot-img-ph{width:100%;height:200px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:3rem}.spot-body{padding:1rem 1.1rem 1.1rem;flex:1;display:flex;flex-direction:column}.spot-meta{display:flex;align-items:center;gap:.5rem;margin-bottom:.5rem}.spot-location{font-size:.78rem;color:var(--gray);font-weight:500}.spot-season-badge{margin-left:auto;font-size:.7rem;font-weight:700;padding:.1rem .5rem;border-radius:10px;background:#f0f4f8;color:#555;white-space:nowrap}.spot-name{font-size:1.08rem;font-weight:800;color:var(--dark);margin:0 0 .45rem;line-height:1.3}.spot-desc{font-size:.86rem;line-height:1.65;color:#555;flex:1;margin-bottom:.75rem}.spot-tags{display:flex;flex-wrap:wrap;gap:.3rem}.spot-tag{font-size:.7rem;font-weight:600;padding:.15rem .5rem;border-radius:6px;background:var(--tag-bg,#f0f4f8);color:var(--tag-color,#445)}.tips-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem}.tip-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 6px rgba(0,0,0,4%)}.tip-card-icon{font-size:1.8rem;margin-bottom:.6rem}.tip-card-title{font-size:.95rem;font-weight:800;color:var(--dark);margin-bottom:.5rem}.tip-card-body{font-size:.85rem;line-height:1.65;color:#555}.tip-card-body ul{margin:.3rem 0 0;padding-left:1.1rem}.tip-card-body li{margin-bottom:.2rem}.pref-cta{background:var(--bg-soft);padding:2.5rem 1.5rem 3rem;border-top:1px solid var(--border)}.pref-cta .pref-container{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}@media(max-width:600px){.pref-hero{min-height:320px}.quick-facts{grid-template-columns:repeat(2,1fr)}.pref-toc-btn{padding:.7rem .9rem;font-size:.82rem}}.btn-add-plan{display:inline-flex;align-items:center;gap:.35rem;margin-top:.75rem;padding:.45rem .9rem;border:1.5px solid #2d5be3;border-radius:8px;background:#fff;color:#2d5be3;font-size:.78rem;font-weight:700;font-family:inherit;cursor:pointer;transition:background .15s,color .15s,transform .1s;width:100%;justify-content:center}.btn-add-plan:hover{background:#2d5be3;color:#fff;transform:translateY(-1px)}.btn-add-plan.in-plan{background:#e8f0ff;color:#1a45a8;border-color:#1a45a8}.btn-add-plan.in-plan:hover{background:#c0003a;color:#fff;border-color:#c0003a}.btn-read-guide{display:inline-flex;align-items:center;justify-content:center;gap:.35rem;margin-top:.5rem;padding:.45rem .9rem;border:1.5px solid #1a7a34;border-radius:8px;background:#f0faf2;color:#1a7a34;font-size:.78rem;font-weight:700;text-decoration:none;width:100%;transition:background .15s,color .15s,transform .1s}.btn-read-guide:hover{background:#1a7a34;color:#fff;transform:translateY(-1px);text-decoration:none}.see-all-wrap{text-align:center;margin-top:1.5rem;padding-top:1rem;border-top:1px dashed var(--border)}.see-all-btn{display:inline-flex;align-items:center;gap:.4rem;padding:.55rem 1.5rem;border:2px solid;border-radius:10px;font-size:.88rem;font-weight:700;text-decoration:none;transition:all .15s}.see-all-btn:hover{opacity:.8;text-decoration:none}</style>
+<style>.pref-breadcrumb{background:#f8f9fa;border-bottom:1px solid var(--border);padding:.6rem 1.5rem;font-size:.82rem;color:var(--gray)}.pref-breadcrumb a{color:var(--red);text-decoration:none}.pref-breadcrumb a:hover{text-decoration:underline}.pref-breadcrumb span{margin:0 .4rem}.pref-hero{position:relative;min-height:440px;display:flex;align-items:flex-end;background:#1a0a2e 50%/cover no-repeat;background-image:url(https://images.unsplash.com/photo-1478436127897-769e1b3f0f36?w=1600&q=80)}.pref-hero::after{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,.15) 0%,rgba(0,0,0,.7) 100%)}.pref-hero-body{position:relative;z-index:1;padding:2.5rem 1.5rem 2rem;max-width:var(--max-w);margin:0 auto;width:100%}.pref-hero-eyebrow{color:rgba(255,255,255,.75);font-size:.82rem;font-weight:600;text-transform:uppercase;letter-spacing:.1em;margin-bottom:.5rem}.pref-hero h1{color:#fff;font-size:clamp(2.2rem,5.5vw,3.4rem);font-weight:900;margin:0 0 .5rem;line-height:1.1}.pref-hero .pref-sub{color:rgba(255,255,255,.88);font-size:1.05rem;max-width:560px;margin-bottom:1rem}.pref-stats{display:flex;flex-wrap:wrap;gap:.6rem}.pref-stat{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);border-radius:20px;padding:.3rem .85rem;color:#fff;font-size:.8rem;font-weight:600}.pref-section{padding:2.5rem 1.5rem}.pref-section+.pref-section{padding-top:0}.pref-container{max-width:var(--max-w);margin:0 auto}.pref-section-title{font-size:1.55rem;font-weight:900;margin:0 0 .4rem;display:flex;align-items:center;gap:.5rem}.pref-section-lead{font-size:1rem;color:#555;line-height:1.7;max-width:680px;margin-bottom:1.5rem}.ponko-guide{display:flex;align-items:flex-end;gap:0;margin-bottom:1.6rem}.ponko-bubble{flex:1;min-width:0;background:linear-gradient(135deg,#fff9f0,#fff3e0);border:2px solid #f5a623;border-radius:18px 18px 18px 4px;padding:1.2rem 1.5rem;position:relative;box-shadow:0 4px 14px rgba(245,166,35,.13)}.ponko-bubble::after{content:'';position:absolute;right:-18px;bottom:22px;border:9px solid transparent;border-left-color:#f5a623}.ponko-bubble::before{content:'';position:absolute;right:-13px;bottom:23px;z-index:1;border:8px solid transparent;border-left-color:#fff9f0}.ponko-bubble p{font-size:.97rem;line-height:1.8;color:#333;margin:0}.ponko-figure{flex-shrink:0;width:170px;margin-left:4px;animation:ponko-float 3s ease-in-out infinite}.ponko-figure img{width:100%;height:auto;display:block;filter:drop-shadow(0 6px 10px rgba(0,0,0,.18))}@keyframes ponko-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}@media(max-width:640px){.ponko-guide{flex-direction:column;align-items:center}.ponko-bubble{border-radius:18px;order:2;width:100%}.ponko-bubble::after,.ponko-bubble::before{display:none}.ponko-figure{order:1;width:130px;margin-left:0;margin-bottom:.5rem;animation:none}}.quick-facts{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.8rem;margin-top:1.4rem}.qf-card{background:#f8f9fb;border:1px solid var(--border);border-radius:12px;padding:1rem 1.1rem;display:flex;align-items:flex-start;gap:.7rem}.qf-icon{font-size:1.4rem;flex-shrink:0}.qf-label{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--gray);margin-bottom:.15rem}.qf-value{font-size:.9rem;font-weight:600;color:var(--dark)}.access-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}.access-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 8px rgba(0,0,0,5%)}.access-card-hd{display:flex;align-items:center;gap:.5rem;margin-bottom:.8rem}.access-card-icon{font-size:1.5rem}.access-card-title{font-size:1rem;font-weight:800;color:var(--dark)}.access-card ul{margin:0;padding-left:1.1rem}.access-card li{font-size:.875rem;line-height:1.65;color:#444;margin-bottom:.3rem}.access-card li strong{color:var(--dark)}.access-tip{margin-top:1.2rem;background:#fff8e6;border:1px solid #ffe0a0;border-radius:10px;padding:.9rem 1.1rem;font-size:.85rem;line-height:1.6;color:#5a3e00}.access-tip strong{display:block;margin-bottom:.2rem;font-size:.88rem}.guide-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem}.guide-card{background:#fff;border-radius:14px;overflow:hidden;border:1px solid var(--border);box-shadow:0 2px 8px rgba(0,0,0,5%);transition:transform .15s,box-shadow .15s;position:relative;display:flex;flex-direction:column}.guide-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.guide-card-img{width:100%;height:150px;object-fit:cover;background:#e8eef4;display:block}.guide-card-img-ph{width:100%;height:150px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:2.5rem}.guide-card-body{padding:.9rem 1rem 1rem;flex:1}.guide-cat-badge{display:inline-block;font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;padding:.15rem .55rem;border-radius:8px;background:var(--red);color:#fff;margin-bottom:.4rem}.guide-card-title{font-size:.92rem;font-weight:800;color:var(--dark);line-height:1.4}.guide-coming-soon{position:absolute;top:.6rem;right:.6rem;background:rgba(0,0,0,.55);color:#fff;font-size:.65rem;font-weight:700;padding:.2rem .5rem;border-radius:6px;text-transform:uppercase;letter-spacing:.05em}.guide-card-link{text-decoration:none;color:inherit;display:flex;flex-direction:column;height:100%}.pref-toc{background:#fff;border-bottom:2px solid var(--border);position:sticky;top:0;z-index:100;overflow-x:auto}.pref-toc-inner{display:flex;gap:0;max-width:var(--max-w);margin:0 auto}.pref-toc-btn{flex:none;display:flex;align-items:center;gap:.4rem;padding:.8rem 1.2rem;border:none;background:0 0;cursor:pointer;font-family:inherit;font-size:.88rem;font-weight:600;color:var(--gray);border-bottom:3px solid transparent;transition:all .18s;white-space:nowrap}.pref-toc-btn .toc-icon{font-size:1.1rem}.pref-toc-btn:hover{color:var(--dark);background:#f8f8f8}.pref-toc-btn.active{color:var(--toc-color,var(--red));border-bottom-color:var(--toc-color,var(--red))}.spot-section{padding:2rem 1.5rem 2.5rem}.spot-section.hidden{display:none}.spot-section-inner{max-width:var(--max-w);margin:0 auto}.section-hd{display:flex;align-items:center;gap:.6rem;margin-bottom:1.4rem;padding-bottom:.7rem;border-bottom:2px solid var(--border)}.section-hd .s-icon{font-size:1.6rem}.section-hd h2{font-size:1.35rem;font-weight:800;margin:0}.section-hd .s-count{margin-left:auto;background:var(--sec-color,var(--red));color:#fff;border-radius:20px;padding:.15rem .65rem;font-size:.78rem;font-weight:700}.spot-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.25rem}.spot-card{border-radius:14px;overflow:hidden;border:1px solid var(--border);background:#fff;box-shadow:0 2px 8px rgba(0,0,0,6%);transition:transform .15s,box-shadow .15s;display:flex;flex-direction:column}.spot-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.spot-img{width:100%;height:200px;object-fit:cover;background:#e8eef4;display:block}.spot-img-ph{width:100%;height:200px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:3rem}.spot-body{padding:1rem 1.1rem 1.1rem;flex:1;display:flex;flex-direction:column}.spot-meta{display:flex;align-items:center;gap:.5rem;margin-bottom:.5rem}.spot-location{font-size:.78rem;color:var(--gray);font-weight:500}.spot-season-badge{margin-left:auto;font-size:.7rem;font-weight:700;padding:.1rem .5rem;border-radius:10px;background:#f0f4f8;color:#555;white-space:nowrap}.spot-name{font-size:1.08rem;font-weight:800;color:var(--dark);margin:0 0 .45rem;line-height:1.3}.spot-desc{font-size:.86rem;line-height:1.65;color:#555;flex:1;margin-bottom:.75rem}.spot-tags{display:flex;flex-wrap:wrap;gap:.3rem}.spot-tag{font-size:.7rem;font-weight:600;padding:.15rem .5rem;border-radius:6px;background:var(--tag-bg,#f0f4f8);color:var(--tag-color,#445)}.tips-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem}.tip-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 6px rgba(0,0,0,4%)}.tip-card-icon{font-size:1.8rem;margin-bottom:.6rem}.tip-card-title{font-size:.95rem;font-weight:800;color:var(--dark);margin-bottom:.5rem}.tip-card-body{font-size:.85rem;line-height:1.65;color:#555}.tip-card-body ul{margin:.3rem 0 0;padding-left:1.1rem}.tip-card-body li{margin-bottom:.2rem}.pref-cta{background:var(--bg-soft);padding:2.5rem 1.5rem 3rem;border-top:1px solid var(--border)}.pref-cta .pref-container{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}@media(max-width:600px){.pref-hero{min-height:320px}.quick-facts{grid-template-columns:repeat(2,1fr)}.pref-toc-btn{padding:.7rem .9rem;font-size:.82rem}}.btn-add-plan{display:inline-flex;align-items:center;gap:.35rem;margin-top:.75rem;padding:.45rem .9rem;border:1.5px solid #2d5be3;border-radius:8px;background:#fff;color:#2d5be3;font-size:.78rem;font-weight:700;font-family:inherit;cursor:pointer;transition:background .15s,color .15s,transform .1s;width:100%;justify-content:center}.btn-add-plan:hover{background:#2d5be3;color:#fff;transform:translateY(-1px)}.btn-add-plan.in-plan{background:#e8f0ff;color:#1a45a8;border-color:#1a45a8}.btn-add-plan.in-plan:hover{background:#c0003a;color:#fff;border-color:#c0003a}.btn-read-guide{display:inline-flex;align-items:center;justify-content:center;gap:.35rem;margin-top:.5rem;padding:.45rem .9rem;border:1.5px solid #1a7a34;border-radius:8px;background:#f0faf2;color:#1a7a34;font-size:.78rem;font-weight:700;text-decoration:none;width:100%;transition:background .15s,color .15s,transform .1s}.btn-read-guide:hover{background:#1a7a34;color:#fff;transform:translateY(-1px);text-decoration:none}.see-all-wrap{text-align:center;margin-top:1.5rem;padding-top:1rem;border-top:1px dashed var(--border)}.see-all-btn{display:inline-flex;align-items:center;gap:.4rem;padding:.55rem 1.5rem;border:2px solid;border-radius:10px;font-size:.88rem;font-weight:700;text-decoration:none;transition:all .15s}.see-all-btn:hover{opacity:.8;text-decoration:none}.see-all-btn{cursor:pointer;background:0 0}.spot-card.spot-more{display:none}.spot-section.spots-expanded .spot-card.spot-more{display:flex}.spot-section.spots-expanded .see-all-wrap{display:none}</style>
 <nav class=pref-breadcrumb aria-label=breadcrumb>
 <a href=/>홈</a><span>›</span>
 <a href=/explore/>일본 탐색</a><span>›</span>
@@ -522,11 +522,137 @@
 <a class=btn-read-guide href=/ko/guides/kyoto-nijo-castle-guide/>📖 가이드 보기 →</a>
 </div>
 </article>
+<article class="spot-card spot-more" data-spot-id=ginkakuji data-spot-name="긴카쿠지 (은각사)" data-spot-pref=kyoto data-spot-fee=500 data-spot-dur=60 data-spot-lat=35.027 data-spot-lng=135.7982 data-spot-area=higashiyama data-spot-rating=4.5 data-spot-reviews=41000 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Ginkakuji_Kyoto03-r.jpg/1280px-Ginkakuji_Kyoto03-r.jpg data-spot-cats=sightseeing>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Ginkakuji_Kyoto03-r.jpg/1280px-Ginkakuji_Kyoto03-r.jpg alt="긴카쿠지 (은각사)" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 교토 사쿄구</span>
+<span class=spot-season-badge>연중</span>
+</div>
+<h3 class=spot-name>긴카쿠지 (은각사)</h3>
+<p class=spot-desc>정교한 모래 정원과 이끼 정원, 시내가 내려다보이는 언덕길로 유명한 우아한 선 사찰로, 금각사와 대비되는 고요한 명소입니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>사찰</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>선 정원</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>이끼</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>세계유산</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=sanjusangendo data-spot-name=산주산겐도 data-spot-pref=kyoto data-spot-fee=600 data-spot-dur=50 data-spot-lat=34.9879 data-spot-lng=135.7717 data-spot-area=higashiyama data-spot-rating=4.5 data-spot-reviews=22000 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Sanjusangendo_2022.jpg/1280px-Sanjusangendo_2022.jpg data-spot-cats=sightseeing>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Sanjusangendo_2022.jpg/1280px-Sanjusangendo_2022.jpg alt=산주산겐도 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 교토 히가시야마구</span>
+<span class=spot-season-badge>연중</span>
+</div>
+<h3 class=spot-name>산주산겐도</h3>
+<p class=spot-desc>길이 120m의 목조 법당에 자비의 여신 관음상 1,001구를 모신 곳으로, 그 어디에도 없는 압도적이고 찬란한 불상의 군상을 만날 수 있습니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>사찰</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>불상</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>역사</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>실내</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=tenryuji data-spot-name=덴류지 data-spot-pref=kyoto data-spot-fee=800 data-spot-dur=60 data-spot-lat=35.0159 data-spot-lng=135.6737 data-spot-area=arashiyama data-spot-rating=4.5 data-spot-reviews=29000 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Tenryuji_Kyoto.jpg/1280px-Tenryuji_Kyoto.jpg data-spot-cats=sightseeing,nature>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Tenryuji_Kyoto.jpg/1280px-Tenryuji_Kyoto.jpg alt=덴류지 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 교토 아라시야마</span>
+<span class=spot-season-badge>연중</span>
+</div>
+<h3 class=spot-name>덴류지</h3>
+<p class=spot-desc>아라시야마에서 가장 중요한 선 사찰로, 14세기 소겐치 연못 정원이 주변 산을 차경으로 끌어들여 가을에 특히 절경이며, 대나무 숲과도 가깝습니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>사찰</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>정원</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>세계유산</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>단풍</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=yasaka-shrine data-spot-name="야사카 신사" data-spot-pref=kyoto data-spot-fee=0 data-spot-dur=40 data-spot-lat=35.0036 data-spot-lng=135.7785 data-spot-area=gion data-spot-rating=4.5 data-spot-reviews=36000 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Yasaka_jinja.jpg/1280px-Yasaka_jinja.jpg data-spot-cats=sightseeing>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Yasaka_jinja.jpg/1280px-Yasaka_jinja.jpg alt="야사카 신사" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 교토 기온</span>
+<span class=spot-season-badge>연중</span>
+</div>
+<h3 class=spot-name>야사카 신사</h3>
+<p class=spot-desc>기온을 지키는 화려한 주홍빛 신사로, 밤이면 수백 개의 등롱이 빛나고 교토의 대축제 기온 마쓰리와도 연결되어 기온과 히가시야마를 잇는 활기찬 관문입니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>신사</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>무료 입장</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>등롱</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>기온</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=ryoanji data-spot-name="료안지 석정" data-spot-pref=kyoto data-spot-fee=600 data-spot-dur=50 data-spot-lat=35.0345 data-spot-lng=135.7182 data-spot-area=ukyo data-spot-rating=4.4 data-spot-reviews=33000 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Kare-sansui_zen_garden%2C_Ry%C5%8Dan-ji%2C_Kyoto_20190416_1.jpg/1280px-Kare-sansui_zen_garden%2C_Ry%C5%8Dan-ji%2C_Kyoto_20190416_1.jpg data-spot-cats=sightseeing>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Kare-sansui_zen_garden%2C_Ry%C5%8Dan-ji%2C_Kyoto_20190416_1.jpg/1280px-Kare-sansui_zen_garden%2C_Ry%C5%8Dan-ji%2C_Kyoto_20190416_1.jpg alt="료안지 석정" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 교토 우쿄구</span>
+<span class=spot-season-badge>연중</span>
+</div>
+<h3 class=spot-name>료안지 석정</h3>
+<p class=spot-desc>일본에서 가장 유명한 선 석정으로, 고르게 정돈된 흰 자갈 위에 열다섯 개의 돌을 배치한 미니멀 디자인의 수수께끼 같은 걸작이며 고요한 사색을 위한 공간입니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>선 정원</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>석정</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>세계유산</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>명상</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=toji data-spot-name="도지 사찰·오층탑" data-spot-pref=kyoto data-spot-fee=500 data-spot-dur=60 data-spot-lat=34.9805 data-spot-lng=135.7477 data-spot-area=kyoto-station data-spot-rating=4.4 data-spot-reviews=19000 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Toji_2015.JPG/1280px-Toji_2015.JPG data-spot-cats=sightseeing>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Toji_2015.JPG/1280px-Toji_2015.JPG alt="도지 사찰·오층탑" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 교토 미나미구</span>
+<span class=spot-season-badge>연중</span>
+</div>
+<h3 class=spot-name>도지 사찰·오층탑</h3>
+<p class=spot-desc>일본에서 가장 높은 목조 오층탑(55m)이 있는 교토역 인근의 유네스코 사찰로, 불교 보물과 매달 열리는 활기찬 벼룩시장으로 유명합니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>사찰</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>탑</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>세계유산</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>벼룩시장</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 </div>
 <div class=see-all-wrap>
-<a class=see-all-btn style=color:#1a45a8 href=/prefectures/kyoto/sightseeing/>
-See all 12 관광명소 spots →
-</a>
+<button class="see-all-btn show-more-btn" style=color:#1a45a8 type=button data-section=section-sightseeing>
+전체 보기 (12) ↓
+</button>
 </div>
 </div>
 </section><section class=spot-section id=section-gourmet data-cat=gourmet>
@@ -664,11 +790,95 @@ See all 12 관광명소 spots →
 </button>
 </div>
 </article>
+<article class="spot-card spot-more" data-spot-id=kyo-wagashi data-spot-name="교토 와가시(화과자)" data-spot-pref=kyoto data-spot-fee=0 data-spot-dur=45 data-spot-lat=35.0116 data-spot-lng=135.7681 data-spot-area=central-kyoto data-spot-rating=4.5 data-spot-reviews=14000 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Wagashi_closeup_14.jpg/1280px-Wagashi_closeup_14.jpg data-spot-cats=gourmet>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Wagashi_closeup_14.jpg/1280px-Wagashi_closeup_14.jpg alt="교토 와가시(화과자)" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🍜</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 교토 도심</span>
+<span class=spot-season-badge>연중</span>
+</div>
+<h3 class=spot-name>교토 와가시(화과자)</h3>
+<p class=spot-desc>교토는 와가시의 본고장으로, 네리키리·야쓰하시·모치 같은 정교한 계절 화과자를 역사 깊은 과자점이나 찻집에서 말차와 곁들여 즐기기 좋습니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>디저트</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>와가시</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>말차</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>기념품</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=obanzai data-spot-name="오반자이 가정식" data-spot-pref=kyoto data-spot-fee=2500 data-spot-dur=60 data-spot-lat=35.0105 data-spot-lng=135.755 data-spot-area=city-centre data-spot-rating=4.4 data-spot-reviews=2100 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Obanzai_yasai.JPG/960px-Obanzai_yasai.JPG data-spot-cats=gourmet>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Obanzai_yasai.JPG/960px-Obanzai_yasai.JPG alt="오반자이 가정식" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🍜</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 교토 도심</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>오반자이 가정식</h3>
+<p class=spot-desc>교토의 전통 일상 요리입니다. 교야사이(교토 토종 채소)로 만든 채소 조림, 두부, 절임 등을 작은 접시에 담아냅니다. 도시 곳곳의 아담한 동네 식당에서 맛볼 수 있습니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>가정식</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>채소</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>현지</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+<a class=btn-read-guide href=/ko/guides/kyoto-obanzai-guide/>📖 가이드 보기 →</a>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=fushimi-sake data-spot-name="후시미 사케 거리" data-spot-pref=kyoto data-spot-fee=0 data-spot-dur=90 data-spot-lat=34.9328 data-spot-lng=135.759 data-spot-area=fushimi data-spot-rating=4.4 data-spot-reviews=12000 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Gekkeikan_head_office.JPG/1280px-Gekkeikan_head_office.JPG data-spot-cats=gourmet>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Gekkeikan_head_office.JPG/1280px-Gekkeikan_head_office.JPG alt="후시미 사케 거리" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🍜</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 교토 후시미</span>
+<span class=spot-season-badge>연중</span>
+</div>
+<h3 class=spot-name>후시미 사케 거리</h3>
+<p class=spot-desc>부드러운 샘물이 운하변의 유서 깊은 양조장을 키우는 일본 굴지의 사케 산지로, 사케 박물관을 둘러보고 교토의 부드러운 지역 술을 맛볼 수 있습니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>사케</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>양조장</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>시음</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>역사</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=nishin-soba data-spot-name="니신 소바" data-spot-pref=kyoto data-spot-fee=0 data-spot-dur=40 data-spot-lat=35.0047 data-spot-lng=135.775 data-spot-area=gion data-spot-rating=4.3 data-spot-reviews=8000 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Nishin_soba.jpg/1280px-Nishin_soba.jpg data-spot-cats=gourmet>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Nishin_soba.jpg/1280px-Nishin_soba.jpg alt="니신 소바" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🍜</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 교토 도심</span>
+<span class=spot-season-badge>연중</span>
+</div>
+<h3 class=spot-name>니신 소바</h3>
+<p class=spot-desc>달콤하게 조린 청어를 얹은 따뜻한 메밀 소바로, 기온 인근 오래된 소바집에서 즐기기 좋은 든든한 교토의 향토 명물입니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>소바</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>향토 음식</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>면</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>든든한 한 끼</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 </div>
 <div class=see-all-wrap>
-<a class=see-all-btn style=color:#d64000 href=/prefectures/kyoto/gourmet/>
-See all 10 미식 spots →
-</a>
+<button class="see-all-btn show-more-btn" style=color:#d64000 type=button data-section=section-gourmet>
+전체 보기 (10) ↓
+</button>
 </div>
 </div>
 </section><section class=spot-section id=section-nature data-cat=nature>
@@ -806,11 +1016,158 @@ See all 10 미식 spots →
 <a class=btn-read-guide href=/ko/guides/kyoto-kurama-kibune-guide/>📖 가이드 보기 →</a>
 </div>
 </article>
+<article class="spot-card spot-more" data-spot-id=tenryuji data-spot-name=덴류지 data-spot-pref=kyoto data-spot-fee=800 data-spot-dur=60 data-spot-lat=35.0159 data-spot-lng=135.6737 data-spot-area=arashiyama data-spot-rating=4.5 data-spot-reviews=29000 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Tenryuji_Kyoto.jpg/1280px-Tenryuji_Kyoto.jpg data-spot-cats=sightseeing,nature>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Tenryuji_Kyoto.jpg/1280px-Tenryuji_Kyoto.jpg alt=덴류지 loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🏔️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 교토 아라시야마</span>
+<span class=spot-season-badge>연중</span>
+</div>
+<h3 class=spot-name>덴류지</h3>
+<p class=spot-desc>아라시야마에서 가장 중요한 선 사찰로, 14세기 소겐치 연못 정원이 주변 산을 차경으로 끌어들여 가을에 특히 절경이며, 대나무 숲과도 가깝습니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>사찰</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>정원</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>세계유산</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>단풍</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=ohara-sanzenin data-spot-name="오하라 &amp;amp; 산젠인" data-spot-pref=kyoto data-spot-fee=700 data-spot-dur=90 data-spot-lat=35.1194 data-spot-lng=135.834 data-spot-area=ohara data-spot-rating=4.5 data-spot-reviews=11000 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Sanzen%27in_01.JPG/1280px-Sanzen%27in_01.JPG data-spot-cats=nature>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Sanzen%27in_01.JPG/1280px-Sanzen%27in_01.JPG alt="오하라 & 산젠인" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🏔️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 교토 오하라</span>
+<span class=spot-season-badge>가을 추천</span>
+</div>
+<h3 class=spot-name>오하라 & 산젠인</h3>
+<p class=spot-desc>북쪽 산자락의 고요한 전원 사찰 마을로, 산젠인의 이끼 정원과 작은 돌 지장보살이 가을 색으로 물드는 도심 속 평온한 안식처입니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>사찰</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>이끼 정원</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>단풍</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>전원</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=kamogawa-river data-spot-name="가모강 산책" data-spot-pref=kyoto data-spot-fee=0 data-spot-dur=60 data-spot-lat=35.009 data-spot-lng=135.772 data-spot-area=kawaramachi data-spot-rating=4.5 data-spot-reviews=20000 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Kamogawa_walk.jpg/1280px-Kamogawa_walk.jpg data-spot-cats=nature>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Kamogawa_walk.jpg/1280px-Kamogawa_walk.jpg alt="가모강 산책" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🏔️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 교토 도심</span>
+<span class=spot-season-badge>연중</span>
+</div>
+<h3 class=spot-name>가모강 산책</h3>
+<p class=spot-desc>교토 사람들이 물가를 따라 산책하고 피크닉하며 쉬는 사랑받는 강변 산책로로, 여름이면 가모강 위로 가와도코 납량 테라스가 늘어섭니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>강</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>산책</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>무료 입장</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>강변 식당</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=nishiyama-trail data-spot-name="교토 니시야마 트레일" data-spot-pref=kyoto data-spot-fee=0 data-spot-dur=180 data-spot-lat=35.018 data-spot-lng=135.648 data-spot-area=arashiyama data-spot-rating=4.4 data-spot-reviews=1200 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Autumn_foliage_2012_%288252583379%29.jpg/960px-Autumn_foliage_2012_%288252583379%29.jpg data-spot-cats=nature>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Autumn_foliage_2012_%288252583379%29.jpg/960px-Autumn_foliage_2012_%288252583379%29.jpg alt="교토 니시야마 트레일" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🏔️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 아라시야마, 교토</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>교토 니시야마 트레일</h3>
+<p class=spot-desc>아라시야마, 마쓰오 대사, 니시키를 잇는 약 10km의 잘 알려지지 않은 숲길로, 서쪽 산지를 가로지릅니다. 대나무 숲과 이끼로 뒤덮인 사원, 삼나무 숲이 어우러져 관광 인파에서 벗어나 호젓하게 즐길 수 있습니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>하이킹</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>숲</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>숨은 명소</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+<a class=btn-read-guide href=/ko/guides/kyoto-nishiyama-trail-guide/>📖 가이드 보기 →</a>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=maruyama-park data-spot-name="마루야마 공원" data-spot-pref=kyoto data-spot-fee=0 data-spot-dur=45 data-spot-lat=35.0035 data-spot-lng=135.7817 data-spot-area=gion data-spot-rating=4.4 data-spot-reviews=24000 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/%E5%86%86%E5%B1%B1%E5%85%AC%E5%9C%92.JPG/1280px-%E5%86%86%E5%B1%B1%E5%85%AC%E5%9C%92.JPG data-spot-cats=nature>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/%E5%86%86%E5%B1%B1%E5%85%AC%E5%9C%92.JPG/1280px-%E5%86%86%E5%B1%B1%E5%85%AC%E5%9C%92.JPG alt="마루야마 공원" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🏔️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 교토 히가시야마</span>
+<span class=spot-season-badge>봄(벚꽃)</span>
+</div>
+<h3 class=spot-name>마루야마 공원</h3>
+<p class=spot-desc>야사카 신사 뒤에 자리한 교토에서 가장 인기 있는 하나미 공원으로, 조명을 받은 거대한 수양벚나무와 봄철 활기찬 벚꽃 아래 피크닉으로 유명합니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>공원</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>벚꽃</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>무료 입장</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>야경</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=keage-incline data-spot-name="게아게 인클라인" data-spot-pref=kyoto data-spot-fee=0 data-spot-dur=40 data-spot-lat=35.0086 data-spot-lng=135.7899 data-spot-area=higashiyama data-spot-rating=4.4 data-spot-reviews=9000 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Cherry_blossoms_at_Keage_Incline_01.jpg/1280px-Cherry_blossoms_at_Keage_Incline_01.jpg data-spot-cats=nature>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Cherry_blossoms_at_Keage_Incline_01.jpg/1280px-Cherry_blossoms_at_Keage_Incline_01.jpg alt="게아게 인클라인" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🏔️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 교토 히가시야마</span>
+<span class=spot-season-badge>봄(벚꽃)</span>
+</div>
+<h3 class=spot-name>게아게 인클라인</h3>
+<p class=spot-desc>난젠지 인근의 폐선된 운하 경사 철로로, 봄마다 옛 선로 위로 벚꽃 터널이 펼쳐지는 교토에서 가장 사진 같은 하나미 산책길입니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>벚꽃</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>무료 입장</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>포토 스폿</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>역사</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=arashiyama-monkey-park data-spot-name="아라시야마 원숭이 공원" data-spot-pref=kyoto data-spot-fee=600 data-spot-dur=90 data-spot-lat=35.0095 data-spot-lng=135.6779 data-spot-area=arashiyama data-spot-rating=4.4 data-spot-reviews=18000 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Iwatayama_Monkey_Park.jpg/1280px-Iwatayama_Monkey_Park.jpg data-spot-cats=leisure,nature>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Iwatayama_Monkey_Park.jpg/1280px-Iwatayama_Monkey_Park.jpg alt="아라시야마 원숭이 공원" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🏔️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 교토 아라시야마</span>
+<span class=spot-season-badge>연중</span>
+</div>
+<h3 class=spot-name>아라시야마 원숭이 공원</h3>
+<p class=spot-desc>아라시야마 언덕을 잠깐 오르면 자유롭게 노니는 야생 일본원숭이와 교토 시가지의 탁 트인 파노라마가 반기며, 오두막에서 원숭이에게 먹이를 줄 수 있습니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>원숭이</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>전망대</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>가족</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>하이킹</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 </div>
 <div class=see-all-wrap>
-<a class=see-all-btn style=color:#1a7a34 href=/prefectures/kyoto/nature/>
-See all 13 자연 spots →
-</a>
+<button class="see-all-btn show-more-btn" style=color:#1a7a34 type=button data-section=section-nature>
+전체 보기 (13) ↓
+</button>
 </div>
 </div>
 </section><section class=spot-section id=section-leisure data-cat=leisure>
@@ -948,11 +1305,138 @@ See all 13 자연 spots →
 <a class=btn-read-guide href=/ko/guides/kyoto-sagano-train-guide/>📖 가이드 보기 →</a>
 </div>
 </article>
+<article class="spot-card spot-more" data-spot-id=kimono-rental data-spot-name="기모노 대여와 거리 산책" data-spot-pref=kyoto data-spot-fee=8000 data-spot-dur=180 data-spot-lat=35.005 data-spot-lng=135.775 data-spot-area=gion data-spot-rating=4.5 data-spot-reviews=2400 data-spot-img="https://plus.unsplash.com/premium_photo-1661429571803-32c647db5a14?q=80&w=687&auto=format&fit=crop" data-spot-cats=leisure>
+<img class=spot-img src="https://plus.unsplash.com/premium_photo-1661429571803-32c647db5a14?q=80&w=687&auto=format&fit=crop" alt="기모노 대여와 거리 산책" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎿</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 기온, 교토</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>기모노 대여와 거리 산책</h3>
+<p class=spot-desc>기온이나 히가시야마 인근 가게에서 아름답게 차려입은 기모노를 빌려 교토의 돌이 깔린 골목길을 거닐며 하루를 보내 보세요. 이 체험은 사진을 한층 특별하게 만들고 도시와의 교감을 깊게 해 줍니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>기모노</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>패션</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>문화 체험</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+<a class=btn-read-guide href=/ko/guides/kyoto-kimono-guide/>📖 가이드 보기 →</a>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=kyoto-cycling data-spot-name="교토 자전거 투어" data-spot-pref=kyoto data-spot-fee=2000 data-spot-dur=120 data-spot-lat=35.0085 data-spot-lng=135.7707 data-spot-area=city-centre data-spot-rating=4.4 data-spot-reviews=1400 data-spot-img="https://images.unsplash.com/photo-1730033135148-0d7d7f99afdf?q=80&w=1174&auto=format&fit=crop" data-spot-cats=leisure>
+<img class=spot-img src="https://images.unsplash.com/photo-1730033135148-0d7d7f99afdf?q=80&w=1174&auto=format&fit=crop" alt="교토 자전거 투어" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎿</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 교토 도심</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>교토 자전거 투어</h3>
+<p class=spot-desc>교토의 평평한 도심과 넓은 강변 도로는 자전거 타기에 안성맞춤입니다. 교토역 인근에서 자전거를 빌리면 오전 한나절 만에 사원과 수로변 길, 니시키 시장까지 두루 돌아볼 수 있습니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>자전거</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>도시 투어</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>액티비티</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+<a class=btn-read-guide href=/ko/guides/kyoto-cycling-guide/>📖 가이드 보기 →</a>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=kyoto-toei-uzumasa-filmland data-spot-name="도에이 우즈마사 영화촌" data-spot-pref=kyoto data-spot-fee=2400 data-spot-dur=150 data-spot-lat=35.0161 data-spot-lng=135.7072 data-spot-area=uzumasa data-spot-rating=4.4 data-spot-reviews=4500 data-spot-img="https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?w=800&q=80" data-spot-cats=leisure>
+<img class=spot-img src="https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?w=800&q=80" alt="도에이 우즈마사 영화촌" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎿</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 우쿄구, 교토</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>도에이 우즈마사 영화촌</h3>
+<p class=spot-desc>사무라이 드라마와 시대극, 닌자 영화를 정기적으로 제작하는 현역 영화 스튜디오이자 테마파크입니다. 우즈마사 영화촌에서는 실제로 사용되는 에도 시대 거리 세트를 거닐고, 촬영 중인 라이브 액션 장면을 구경하며, 닌자 훈련 체험과 사무라이 의상 사진 촬영에 직접 참여할 수 있습니다. 닌자와 게이샤 코스프레 체험도 연중 제공됩니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>영화 스튜디오</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>에도 시대</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>사무라이</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>테마파크</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+<a class=btn-read-guide href=/ko/guides/kyoto-uzumasa-eigamura-guide/>📖 가이드 보기 →</a>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=kyoto-aquarium data-spot-name="교토 수족관" data-spot-pref=kyoto data-spot-fee=2400 data-spot-dur=150 data-spot-lat=34.988 data-spot-lng=135.747 data-spot-area=kyoto-station data-spot-rating=4.4 data-spot-reviews=17000 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/KYOTO_AQUARIUM.JPG/1280px-KYOTO_AQUARIUM.JPG data-spot-cats=leisure>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/KYOTO_AQUARIUM.JPG/1280px-KYOTO_AQUARIUM.JPG alt="교토 수족관" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎿</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 교토 시모교구</span>
+<span class=spot-season-badge>연중</span>
+</div>
+<h3 class=spot-name>교토 수족관</h3>
+<p class=spot-desc>우메코지 공원에 자리한 현대식 내륙 수족관으로, 장난기 넘치는 펭귄과 거대한 바다 수조, 오오산쇼우오, 돌고래 쇼가 있어 온 가족이 날씨와 상관없이 즐기기 좋습니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>수족관</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>가족</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>펭귄</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>실내</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=arashiyama-monkey-park data-spot-name="아라시야마 원숭이 공원" data-spot-pref=kyoto data-spot-fee=600 data-spot-dur=90 data-spot-lat=35.0095 data-spot-lng=135.6779 data-spot-area=arashiyama data-spot-rating=4.4 data-spot-reviews=18000 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Iwatayama_Monkey_Park.jpg/1280px-Iwatayama_Monkey_Park.jpg data-spot-cats=leisure,nature>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Iwatayama_Monkey_Park.jpg/1280px-Iwatayama_Monkey_Park.jpg alt="아라시야마 원숭이 공원" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎿</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 교토 아라시야마</span>
+<span class=spot-season-badge>연중</span>
+</div>
+<h3 class=spot-name>아라시야마 원숭이 공원</h3>
+<p class=spot-desc>아라시야마 언덕을 잠깐 오르면 자유롭게 노니는 야생 일본원숭이와 교토 시가지의 탁 트인 파노라마가 반기며, 오두막에서 원숭이에게 먹이를 줄 수 있습니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>원숭이</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>전망대</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>가족</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>하이킹</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=kyoto-tower data-spot-name="교토 타워" data-spot-pref=kyoto data-spot-fee=900 data-spot-dur=45 data-spot-lat=34.9875 data-spot-lng=135.759 data-spot-area=kyoto-station data-spot-rating=4.2 data-spot-reviews=26000 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Kyoto_Tower_at_dusk%2C_from_railway_station.jpg/1280px-Kyoto_Tower_at_dusk%2C_from_railway_station.jpg data-spot-cats=leisure>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Kyoto_Tower_at_dusk%2C_from_railway_station.jpg/1280px-Kyoto_Tower_at_dusk%2C_from_railway_station.jpg alt="교토 타워" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎿</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 교토 시모교구</span>
+<span class=spot-season-badge>연중</span>
+</div>
+<h3 class=spot-name>교토 타워</h3>
+<p class=spot-desc>교토역 바로 앞에 선 교토에서 가장 높은 구조물로, 100m 전망대에서 사찰이 점점이 박힌 도시를 360°로 조망하며 해 질 녘 옛 수도에 불이 켜질 때 특히 운치 있습니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>전망대</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>랜드마크</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>야경</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>교토역</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 </div>
 <div class=see-all-wrap>
-<a class=see-all-btn style=color:#b35c00 href=/prefectures/kyoto/leisure/>
-See all 12 레저 spots →
-</a>
+<button class="see-all-btn show-more-btn" style=color:#b35c00 type=button data-section=section-leisure>
+전체 보기 (12) ↓
+</button>
 </div>
 </div>
 </section><section class=spot-section id=section-events data-cat=events>
@@ -1090,11 +1574,116 @@ See all 12 레저 spots →
 <a class=btn-read-guide href=/ko/guides/kyoto-jidai-matsuri-guide/>📖 가이드 보기 →</a>
 </div>
 </article>
+<article class="spot-card spot-more" data-spot-id=miyako-odori data-spot-name="미야코 오도리 (게이코 무용)" data-spot-pref=kyoto data-spot-fee=4000 data-spot-dur=75 data-spot-lat=35.003 data-spot-lng=135.7745 data-spot-area=gion data-spot-rating=4.6 data-spot-reviews=6000 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Miyako_Odori_%28cropped%29.jpg/1280px-Miyako_Odori_%28cropped%29.jpg data-spot-cats=events>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Miyako_Odori_%28cropped%29.jpg/1280px-Miyako_Odori_%28cropped%29.jpg alt="미야코 오도리 (게이코 무용)" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎆</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 교토 기온</span>
+<span class=spot-season-badge>4월</span>
+</div>
+<h3 class=spot-name>미야코 오도리 (게이코 무용)</h3>
+<p class=spot-desc>게이코와 마이코가 등불이 켜진 무대에서 우아한 계절 무용을 선보이는 기온의 화려한 봄 공연으로, 교토 게이샤 예술을 엿볼 수 있는 귀한 기회입니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>게이코</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>무용</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>봄</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>공연</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=higashiyama-hanatouro data-spot-name="히가시야마 하나토로 (3월)" data-spot-pref=kyoto data-spot-fee=0 data-spot-dur=90 data-spot-lat=35.002 data-spot-lng=135.78 data-spot-area=higashiyama data-spot-rating=4.5 data-spot-reviews=2700 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/%E4%BA%AC%E9%83%BD%E3%83%BB%E6%9D%B1%E5%B1%B1%E8%8A%B1%E7%81%AF%E8%B7%AF%E5%85%AB%E5%9D%82%E7%A5%9E%E7%A4%BE%E7%A5%87%E5%9C%92%E9%96%A3%EF%BC%92.jpg/960px-%E4%BA%AC%E9%83%BD%E3%83%BB%E6%9D%B1%E5%B1%B1%E8%8A%B1%E7%81%AF%E8%B7%AF%E5%85%AB%E5%9D%82%E7%A5%9E%E7%A4%BE%E7%A5%87%E5%9C%92%E9%96%A3%EF%BC%92.jpg data-spot-cats=events>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/%E4%BA%AC%E9%83%BD%E3%83%BB%E6%9D%B1%E5%B1%B1%E8%8A%B1%E7%81%AF%E8%B7%AF%E5%85%AB%E5%9D%82%E7%A5%9E%E7%A4%BE%E7%A5%87%E5%9C%92%E9%96%A3%EF%BC%92.jpg/960px-%E4%BA%AC%E9%83%BD%E3%83%BB%E6%9D%B1%E5%B1%B1%E8%8A%B1%E7%81%AF%E8%B7%AF%E5%85%AB%E5%9D%82%E7%A5%9E%E7%A4%BE%E7%A5%87%E5%9C%92%E9%96%A3%EF%BC%92.jpg alt="히가시야마 하나토로 (3월)" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎆</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 히가시야마, 교토</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>히가시야마 하나토로 (3월)</h3>
+<p class=spot-desc>히가시야마의 유서 깊은 돌길은 매년 3월 2주간 수백 개의 대나무 등불로 수놓아집니다. 불을 밝힌 사원과 전통 상점을 지나며 마법 같은 야간 산책을 즐길 수 있습니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>조명</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>등불</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>야간 산책</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+<a class=btn-read-guide href=/ko/guides/kyoto-hanatouro-guide/>📖 가이드 보기 →</a>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=aoi-matsuri data-spot-name="아오이 마쓰리 (5월)" data-spot-pref=kyoto data-spot-fee=0 data-spot-dur=120 data-spot-lat=35.0234 data-spot-lng=135.7649 data-spot-area=city-centre data-spot-rating=4.5 data-spot-reviews=2200 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Aoi_Matsuri.jpg/960px-Aoi_Matsuri.jpg data-spot-cats=events>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Aoi_Matsuri.jpg/960px-Aoi_Matsuri.jpg alt="아오이 마쓰리 (5월)" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎆</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 교토 도심</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>아오이 마쓰리 (5월)</h3>
+<p class=spot-desc>교토 3대 축제 중 하나로, 5월 15일에 헤이안 시대 궁중 의상을 차려입은 500명이 교토 어소에서 가미가모 신사와 시모가모 신사까지 우아하게 행진합니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>축제</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>황실</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>행렬</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+<a class=btn-read-guide href=/ko/guides/kyoto-aoi-matsuri-guide/>📖 가이드 보기 →</a>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=kurama-fire-festival data-spot-name="구라마 불 축제" data-spot-pref=kyoto data-spot-fee=0 data-spot-dur=150 data-spot-lat=35.1197 data-spot-lng=135.771 data-spot-area=kurama data-spot-rating=4.5 data-spot-reviews=7000 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/%E9%9E%8D%E9%A6%AC%E3%81%AE%E7%81%AB%E7%A5%AD4.jpg/1280px-%E9%9E%8D%E9%A6%AC%E3%81%AE%E7%81%AB%E7%A5%AD4.jpg data-spot-cats=events>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/%E9%9E%8D%E9%A6%AC%E3%81%AE%E7%81%AB%E7%A5%AD4.jpg/1280px-%E9%9E%8D%E9%A6%AC%E3%81%AE%E7%81%AB%E7%A5%AD4.jpg alt="구라마 불 축제" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎆</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 교토 구라마</span>
+<span class=spot-season-badge>10월 22일</span>
+</div>
+<h3 class=spot-name>구라마 불 축제</h3>
+<p class=spot-desc>10월 22일, 산촌 구라마에서 남자들이 거대한 횃불을 들고 거리를 지나 신사로 향하며 마을이 불타오르는, 교토에서 가장 원초적이고 극적인 축제 중 하나입니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>축제</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>불</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>10월</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>산촌</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=kyoto-setsubun data-spot-name="교토 세쓰분 축제" data-spot-pref=kyoto data-spot-fee=0 data-spot-dur=90 data-spot-lat=35.029 data-spot-lng=135.783 data-spot-area=central-kyoto data-spot-rating=4.4 data-spot-reviews=8000 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Bean-Throwing_Ceremony_at_Osu_Kannon%2C_Osu_Naka_Ward_Nagoya_2021.jpg/1280px-Bean-Throwing_Ceremony_at_Osu_Kannon%2C_Osu_Naka_Ward_Nagoya_2021.jpg data-spot-cats=events>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Bean-Throwing_Ceremony_at_Osu_Kannon%2C_Osu_Naka_Ward_Nagoya_2021.jpg/1280px-Bean-Throwing_Ceremony_at_Osu_Kannon%2C_Osu_Naka_Ward_Nagoya_2021.jpg alt="교토 세쓰분 축제" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎆</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 교토 신사·사찰</span>
+<span class=spot-season-badge>2월 초</span>
+</div>
+<h3 class=spot-name>교토 세쓰분 축제</h3>
+<p class=spot-desc>2월 초 교토의 신사와 사찰에서 액을 쫓고 봄을 맞는 활기찬 콩 뿌리기 의식이 열리며, 야사카·요시다에서는 마이코의 등장과 무용도 펼쳐집니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>축제</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>콩 뿌리기</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>2월</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>전통</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 </div>
 <div class=see-all-wrap>
-<a class=see-all-btn style=color:#b5006e href=/prefectures/kyoto/events/>
-See all 11 이벤트 spots →
-</a>
+<button class="see-all-btn show-more-btn" style=color:#b5006e type=button data-section=section-events>
+전체 보기 (11) ↓
+</button>
 </div>
 </div>
 </section><section class=spot-section id=section-experience data-cat=experience>
@@ -1342,6 +1931,13 @@ See all 11 이벤트 spots →
 </div>
 <script>
 (function(){
+ 
+document.querySelectorAll('.show-more-btn').forEach(function(btn){
+  btn.addEventListener('click', function(){
+    var sec = document.getElementById(btn.dataset.section);
+    if (sec) sec.classList.add('spots-expanded');
+  });
+});
  
 const CATS = {
   sightseeing:{ color:"#1a45a8" },

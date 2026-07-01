@@ -99,7 +99,7 @@
   document.addEventListener('keydown', function(e){ if(e.key==='Escape') close(); });
 })();
 </script>
-<style>.pref-breadcrumb{background:#f8f9fa;border-bottom:1px solid var(--border);padding:.6rem 1.5rem;font-size:.82rem;color:var(--gray)}.pref-breadcrumb a{color:var(--red);text-decoration:none}.pref-breadcrumb a:hover{text-decoration:underline}.pref-breadcrumb span{margin:0 .4rem}.pref-hero{position:relative;min-height:440px;display:flex;align-items:flex-end;background:#1a0a2e 50%/cover no-repeat;background-image:url(https://images.unsplash.com/photo-1478436127897-769e1b3f0f36?w=1600&q=80)}.pref-hero::after{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,.15) 0%,rgba(0,0,0,.7) 100%)}.pref-hero-body{position:relative;z-index:1;padding:2.5rem 1.5rem 2rem;max-width:var(--max-w);margin:0 auto;width:100%}.pref-hero-eyebrow{color:rgba(255,255,255,.75);font-size:.82rem;font-weight:600;text-transform:uppercase;letter-spacing:.1em;margin-bottom:.5rem}.pref-hero h1{color:#fff;font-size:clamp(2.2rem,5.5vw,3.4rem);font-weight:900;margin:0 0 .5rem;line-height:1.1}.pref-hero .pref-sub{color:rgba(255,255,255,.88);font-size:1.05rem;max-width:560px;margin-bottom:1rem}.pref-stats{display:flex;flex-wrap:wrap;gap:.6rem}.pref-stat{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);border-radius:20px;padding:.3rem .85rem;color:#fff;font-size:.8rem;font-weight:600}.pref-section{padding:2.5rem 1.5rem}.pref-section+.pref-section{padding-top:0}.pref-container{max-width:var(--max-w);margin:0 auto}.pref-section-title{font-size:1.55rem;font-weight:900;margin:0 0 .4rem;display:flex;align-items:center;gap:.5rem}.pref-section-lead{font-size:1rem;color:#555;line-height:1.7;max-width:680px;margin-bottom:1.5rem}.ponko-guide{display:flex;align-items:flex-end;gap:0;margin-bottom:1.6rem}.ponko-bubble{flex:1;min-width:0;background:linear-gradient(135deg,#fff9f0,#fff3e0);border:2px solid #f5a623;border-radius:18px 18px 18px 4px;padding:1.2rem 1.5rem;position:relative;box-shadow:0 4px 14px rgba(245,166,35,.13)}.ponko-bubble::after{content:'';position:absolute;right:-18px;bottom:22px;border:9px solid transparent;border-left-color:#f5a623}.ponko-bubble::before{content:'';position:absolute;right:-13px;bottom:23px;z-index:1;border:8px solid transparent;border-left-color:#fff9f0}.ponko-bubble p{font-size:.97rem;line-height:1.8;color:#333;margin:0}.ponko-figure{flex-shrink:0;width:170px;margin-left:4px;animation:ponko-float 3s ease-in-out infinite}.ponko-figure img{width:100%;height:auto;display:block;filter:drop-shadow(0 6px 10px rgba(0,0,0,.18))}@keyframes ponko-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}@media(max-width:640px){.ponko-guide{flex-direction:column;align-items:center}.ponko-bubble{border-radius:18px;order:2;width:100%}.ponko-bubble::after,.ponko-bubble::before{display:none}.ponko-figure{order:1;width:130px;margin-left:0;margin-bottom:.5rem;animation:none}}.quick-facts{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.8rem;margin-top:1.4rem}.qf-card{background:#f8f9fb;border:1px solid var(--border);border-radius:12px;padding:1rem 1.1rem;display:flex;align-items:flex-start;gap:.7rem}.qf-icon{font-size:1.4rem;flex-shrink:0}.qf-label{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--gray);margin-bottom:.15rem}.qf-value{font-size:.9rem;font-weight:600;color:var(--dark)}.access-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}.access-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 8px rgba(0,0,0,5%)}.access-card-hd{display:flex;align-items:center;gap:.5rem;margin-bottom:.8rem}.access-card-icon{font-size:1.5rem}.access-card-title{font-size:1rem;font-weight:800;color:var(--dark)}.access-card ul{margin:0;padding-left:1.1rem}.access-card li{font-size:.875rem;line-height:1.65;color:#444;margin-bottom:.3rem}.access-card li strong{color:var(--dark)}.access-tip{margin-top:1.2rem;background:#fff8e6;border:1px solid #ffe0a0;border-radius:10px;padding:.9rem 1.1rem;font-size:.85rem;line-height:1.6;color:#5a3e00}.access-tip strong{display:block;margin-bottom:.2rem;font-size:.88rem}.guide-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem}.guide-card{background:#fff;border-radius:14px;overflow:hidden;border:1px solid var(--border);box-shadow:0 2px 8px rgba(0,0,0,5%);transition:transform .15s,box-shadow .15s;position:relative;display:flex;flex-direction:column}.guide-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.guide-card-img{width:100%;height:150px;object-fit:cover;background:#e8eef4;display:block}.guide-card-img-ph{width:100%;height:150px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:2.5rem}.guide-card-body{padding:.9rem 1rem 1rem;flex:1}.guide-cat-badge{display:inline-block;font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;padding:.15rem .55rem;border-radius:8px;background:var(--red);color:#fff;margin-bottom:.4rem}.guide-card-title{font-size:.92rem;font-weight:800;color:var(--dark);line-height:1.4}.guide-coming-soon{position:absolute;top:.6rem;right:.6rem;background:rgba(0,0,0,.55);color:#fff;font-size:.65rem;font-weight:700;padding:.2rem .5rem;border-radius:6px;text-transform:uppercase;letter-spacing:.05em}.guide-card-link{text-decoration:none;color:inherit;display:flex;flex-direction:column;height:100%}.pref-toc{background:#fff;border-bottom:2px solid var(--border);position:sticky;top:0;z-index:100;overflow-x:auto}.pref-toc-inner{display:flex;gap:0;max-width:var(--max-w);margin:0 auto}.pref-toc-btn{flex:none;display:flex;align-items:center;gap:.4rem;padding:.8rem 1.2rem;border:none;background:0 0;cursor:pointer;font-family:inherit;font-size:.88rem;font-weight:600;color:var(--gray);border-bottom:3px solid transparent;transition:all .18s;white-space:nowrap}.pref-toc-btn .toc-icon{font-size:1.1rem}.pref-toc-btn:hover{color:var(--dark);background:#f8f8f8}.pref-toc-btn.active{color:var(--toc-color,var(--red));border-bottom-color:var(--toc-color,var(--red))}.spot-section{padding:2rem 1.5rem 2.5rem}.spot-section.hidden{display:none}.spot-section-inner{max-width:var(--max-w);margin:0 auto}.section-hd{display:flex;align-items:center;gap:.6rem;margin-bottom:1.4rem;padding-bottom:.7rem;border-bottom:2px solid var(--border)}.section-hd .s-icon{font-size:1.6rem}.section-hd h2{font-size:1.35rem;font-weight:800;margin:0}.section-hd .s-count{margin-left:auto;background:var(--sec-color,var(--red));color:#fff;border-radius:20px;padding:.15rem .65rem;font-size:.78rem;font-weight:700}.spot-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.25rem}.spot-card{border-radius:14px;overflow:hidden;border:1px solid var(--border);background:#fff;box-shadow:0 2px 8px rgba(0,0,0,6%);transition:transform .15s,box-shadow .15s;display:flex;flex-direction:column}.spot-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.spot-img{width:100%;height:200px;object-fit:cover;background:#e8eef4;display:block}.spot-img-ph{width:100%;height:200px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:3rem}.spot-body{padding:1rem 1.1rem 1.1rem;flex:1;display:flex;flex-direction:column}.spot-meta{display:flex;align-items:center;gap:.5rem;margin-bottom:.5rem}.spot-location{font-size:.78rem;color:var(--gray);font-weight:500}.spot-season-badge{margin-left:auto;font-size:.7rem;font-weight:700;padding:.1rem .5rem;border-radius:10px;background:#f0f4f8;color:#555;white-space:nowrap}.spot-name{font-size:1.08rem;font-weight:800;color:var(--dark);margin:0 0 .45rem;line-height:1.3}.spot-desc{font-size:.86rem;line-height:1.65;color:#555;flex:1;margin-bottom:.75rem}.spot-tags{display:flex;flex-wrap:wrap;gap:.3rem}.spot-tag{font-size:.7rem;font-weight:600;padding:.15rem .5rem;border-radius:6px;background:var(--tag-bg,#f0f4f8);color:var(--tag-color,#445)}.tips-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem}.tip-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 6px rgba(0,0,0,4%)}.tip-card-icon{font-size:1.8rem;margin-bottom:.6rem}.tip-card-title{font-size:.95rem;font-weight:800;color:var(--dark);margin-bottom:.5rem}.tip-card-body{font-size:.85rem;line-height:1.65;color:#555}.tip-card-body ul{margin:.3rem 0 0;padding-left:1.1rem}.tip-card-body li{margin-bottom:.2rem}.pref-cta{background:var(--bg-soft);padding:2.5rem 1.5rem 3rem;border-top:1px solid var(--border)}.pref-cta .pref-container{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}@media(max-width:600px){.pref-hero{min-height:320px}.quick-facts{grid-template-columns:repeat(2,1fr)}.pref-toc-btn{padding:.7rem .9rem;font-size:.82rem}}.btn-add-plan{display:inline-flex;align-items:center;gap:.35rem;margin-top:.75rem;padding:.45rem .9rem;border:1.5px solid #2d5be3;border-radius:8px;background:#fff;color:#2d5be3;font-size:.78rem;font-weight:700;font-family:inherit;cursor:pointer;transition:background .15s,color .15s,transform .1s;width:100%;justify-content:center}.btn-add-plan:hover{background:#2d5be3;color:#fff;transform:translateY(-1px)}.btn-add-plan.in-plan{background:#e8f0ff;color:#1a45a8;border-color:#1a45a8}.btn-add-plan.in-plan:hover{background:#c0003a;color:#fff;border-color:#c0003a}.btn-read-guide{display:inline-flex;align-items:center;justify-content:center;gap:.35rem;margin-top:.5rem;padding:.45rem .9rem;border:1.5px solid #1a7a34;border-radius:8px;background:#f0faf2;color:#1a7a34;font-size:.78rem;font-weight:700;text-decoration:none;width:100%;transition:background .15s,color .15s,transform .1s}.btn-read-guide:hover{background:#1a7a34;color:#fff;transform:translateY(-1px);text-decoration:none}.see-all-wrap{text-align:center;margin-top:1.5rem;padding-top:1rem;border-top:1px dashed var(--border)}.see-all-btn{display:inline-flex;align-items:center;gap:.4rem;padding:.55rem 1.5rem;border:2px solid;border-radius:10px;font-size:.88rem;font-weight:700;text-decoration:none;transition:all .15s}.see-all-btn:hover{opacity:.8;text-decoration:none}</style>
+<style>.pref-breadcrumb{background:#f8f9fa;border-bottom:1px solid var(--border);padding:.6rem 1.5rem;font-size:.82rem;color:var(--gray)}.pref-breadcrumb a{color:var(--red);text-decoration:none}.pref-breadcrumb a:hover{text-decoration:underline}.pref-breadcrumb span{margin:0 .4rem}.pref-hero{position:relative;min-height:440px;display:flex;align-items:flex-end;background:#1a0a2e 50%/cover no-repeat;background-image:url(https://images.unsplash.com/photo-1478436127897-769e1b3f0f36?w=1600&q=80)}.pref-hero::after{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,.15) 0%,rgba(0,0,0,.7) 100%)}.pref-hero-body{position:relative;z-index:1;padding:2.5rem 1.5rem 2rem;max-width:var(--max-w);margin:0 auto;width:100%}.pref-hero-eyebrow{color:rgba(255,255,255,.75);font-size:.82rem;font-weight:600;text-transform:uppercase;letter-spacing:.1em;margin-bottom:.5rem}.pref-hero h1{color:#fff;font-size:clamp(2.2rem,5.5vw,3.4rem);font-weight:900;margin:0 0 .5rem;line-height:1.1}.pref-hero .pref-sub{color:rgba(255,255,255,.88);font-size:1.05rem;max-width:560px;margin-bottom:1rem}.pref-stats{display:flex;flex-wrap:wrap;gap:.6rem}.pref-stat{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);border-radius:20px;padding:.3rem .85rem;color:#fff;font-size:.8rem;font-weight:600}.pref-section{padding:2.5rem 1.5rem}.pref-section+.pref-section{padding-top:0}.pref-container{max-width:var(--max-w);margin:0 auto}.pref-section-title{font-size:1.55rem;font-weight:900;margin:0 0 .4rem;display:flex;align-items:center;gap:.5rem}.pref-section-lead{font-size:1rem;color:#555;line-height:1.7;max-width:680px;margin-bottom:1.5rem}.ponko-guide{display:flex;align-items:flex-end;gap:0;margin-bottom:1.6rem}.ponko-bubble{flex:1;min-width:0;background:linear-gradient(135deg,#fff9f0,#fff3e0);border:2px solid #f5a623;border-radius:18px 18px 18px 4px;padding:1.2rem 1.5rem;position:relative;box-shadow:0 4px 14px rgba(245,166,35,.13)}.ponko-bubble::after{content:'';position:absolute;right:-18px;bottom:22px;border:9px solid transparent;border-left-color:#f5a623}.ponko-bubble::before{content:'';position:absolute;right:-13px;bottom:23px;z-index:1;border:8px solid transparent;border-left-color:#fff9f0}.ponko-bubble p{font-size:.97rem;line-height:1.8;color:#333;margin:0}.ponko-figure{flex-shrink:0;width:170px;margin-left:4px;animation:ponko-float 3s ease-in-out infinite}.ponko-figure img{width:100%;height:auto;display:block;filter:drop-shadow(0 6px 10px rgba(0,0,0,.18))}@keyframes ponko-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}@media(max-width:640px){.ponko-guide{flex-direction:column;align-items:center}.ponko-bubble{border-radius:18px;order:2;width:100%}.ponko-bubble::after,.ponko-bubble::before{display:none}.ponko-figure{order:1;width:130px;margin-left:0;margin-bottom:.5rem;animation:none}}.quick-facts{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.8rem;margin-top:1.4rem}.qf-card{background:#f8f9fb;border:1px solid var(--border);border-radius:12px;padding:1rem 1.1rem;display:flex;align-items:flex-start;gap:.7rem}.qf-icon{font-size:1.4rem;flex-shrink:0}.qf-label{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--gray);margin-bottom:.15rem}.qf-value{font-size:.9rem;font-weight:600;color:var(--dark)}.access-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}.access-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 8px rgba(0,0,0,5%)}.access-card-hd{display:flex;align-items:center;gap:.5rem;margin-bottom:.8rem}.access-card-icon{font-size:1.5rem}.access-card-title{font-size:1rem;font-weight:800;color:var(--dark)}.access-card ul{margin:0;padding-left:1.1rem}.access-card li{font-size:.875rem;line-height:1.65;color:#444;margin-bottom:.3rem}.access-card li strong{color:var(--dark)}.access-tip{margin-top:1.2rem;background:#fff8e6;border:1px solid #ffe0a0;border-radius:10px;padding:.9rem 1.1rem;font-size:.85rem;line-height:1.6;color:#5a3e00}.access-tip strong{display:block;margin-bottom:.2rem;font-size:.88rem}.guide-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem}.guide-card{background:#fff;border-radius:14px;overflow:hidden;border:1px solid var(--border);box-shadow:0 2px 8px rgba(0,0,0,5%);transition:transform .15s,box-shadow .15s;position:relative;display:flex;flex-direction:column}.guide-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.guide-card-img{width:100%;height:150px;object-fit:cover;background:#e8eef4;display:block}.guide-card-img-ph{width:100%;height:150px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:2.5rem}.guide-card-body{padding:.9rem 1rem 1rem;flex:1}.guide-cat-badge{display:inline-block;font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;padding:.15rem .55rem;border-radius:8px;background:var(--red);color:#fff;margin-bottom:.4rem}.guide-card-title{font-size:.92rem;font-weight:800;color:var(--dark);line-height:1.4}.guide-coming-soon{position:absolute;top:.6rem;right:.6rem;background:rgba(0,0,0,.55);color:#fff;font-size:.65rem;font-weight:700;padding:.2rem .5rem;border-radius:6px;text-transform:uppercase;letter-spacing:.05em}.guide-card-link{text-decoration:none;color:inherit;display:flex;flex-direction:column;height:100%}.pref-toc{background:#fff;border-bottom:2px solid var(--border);position:sticky;top:0;z-index:100;overflow-x:auto}.pref-toc-inner{display:flex;gap:0;max-width:var(--max-w);margin:0 auto}.pref-toc-btn{flex:none;display:flex;align-items:center;gap:.4rem;padding:.8rem 1.2rem;border:none;background:0 0;cursor:pointer;font-family:inherit;font-size:.88rem;font-weight:600;color:var(--gray);border-bottom:3px solid transparent;transition:all .18s;white-space:nowrap}.pref-toc-btn .toc-icon{font-size:1.1rem}.pref-toc-btn:hover{color:var(--dark);background:#f8f8f8}.pref-toc-btn.active{color:var(--toc-color,var(--red));border-bottom-color:var(--toc-color,var(--red))}.spot-section{padding:2rem 1.5rem 2.5rem}.spot-section.hidden{display:none}.spot-section-inner{max-width:var(--max-w);margin:0 auto}.section-hd{display:flex;align-items:center;gap:.6rem;margin-bottom:1.4rem;padding-bottom:.7rem;border-bottom:2px solid var(--border)}.section-hd .s-icon{font-size:1.6rem}.section-hd h2{font-size:1.35rem;font-weight:800;margin:0}.section-hd .s-count{margin-left:auto;background:var(--sec-color,var(--red));color:#fff;border-radius:20px;padding:.15rem .65rem;font-size:.78rem;font-weight:700}.spot-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.25rem}.spot-card{border-radius:14px;overflow:hidden;border:1px solid var(--border);background:#fff;box-shadow:0 2px 8px rgba(0,0,0,6%);transition:transform .15s,box-shadow .15s;display:flex;flex-direction:column}.spot-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.spot-img{width:100%;height:200px;object-fit:cover;background:#e8eef4;display:block}.spot-img-ph{width:100%;height:200px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:3rem}.spot-body{padding:1rem 1.1rem 1.1rem;flex:1;display:flex;flex-direction:column}.spot-meta{display:flex;align-items:center;gap:.5rem;margin-bottom:.5rem}.spot-location{font-size:.78rem;color:var(--gray);font-weight:500}.spot-season-badge{margin-left:auto;font-size:.7rem;font-weight:700;padding:.1rem .5rem;border-radius:10px;background:#f0f4f8;color:#555;white-space:nowrap}.spot-name{font-size:1.08rem;font-weight:800;color:var(--dark);margin:0 0 .45rem;line-height:1.3}.spot-desc{font-size:.86rem;line-height:1.65;color:#555;flex:1;margin-bottom:.75rem}.spot-tags{display:flex;flex-wrap:wrap;gap:.3rem}.spot-tag{font-size:.7rem;font-weight:600;padding:.15rem .5rem;border-radius:6px;background:var(--tag-bg,#f0f4f8);color:var(--tag-color,#445)}.tips-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem}.tip-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 6px rgba(0,0,0,4%)}.tip-card-icon{font-size:1.8rem;margin-bottom:.6rem}.tip-card-title{font-size:.95rem;font-weight:800;color:var(--dark);margin-bottom:.5rem}.tip-card-body{font-size:.85rem;line-height:1.65;color:#555}.tip-card-body ul{margin:.3rem 0 0;padding-left:1.1rem}.tip-card-body li{margin-bottom:.2rem}.pref-cta{background:var(--bg-soft);padding:2.5rem 1.5rem 3rem;border-top:1px solid var(--border)}.pref-cta .pref-container{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}@media(max-width:600px){.pref-hero{min-height:320px}.quick-facts{grid-template-columns:repeat(2,1fr)}.pref-toc-btn{padding:.7rem .9rem;font-size:.82rem}}.btn-add-plan{display:inline-flex;align-items:center;gap:.35rem;margin-top:.75rem;padding:.45rem .9rem;border:1.5px solid #2d5be3;border-radius:8px;background:#fff;color:#2d5be3;font-size:.78rem;font-weight:700;font-family:inherit;cursor:pointer;transition:background .15s,color .15s,transform .1s;width:100%;justify-content:center}.btn-add-plan:hover{background:#2d5be3;color:#fff;transform:translateY(-1px)}.btn-add-plan.in-plan{background:#e8f0ff;color:#1a45a8;border-color:#1a45a8}.btn-add-plan.in-plan:hover{background:#c0003a;color:#fff;border-color:#c0003a}.btn-read-guide{display:inline-flex;align-items:center;justify-content:center;gap:.35rem;margin-top:.5rem;padding:.45rem .9rem;border:1.5px solid #1a7a34;border-radius:8px;background:#f0faf2;color:#1a7a34;font-size:.78rem;font-weight:700;text-decoration:none;width:100%;transition:background .15s,color .15s,transform .1s}.btn-read-guide:hover{background:#1a7a34;color:#fff;transform:translateY(-1px);text-decoration:none}.see-all-wrap{text-align:center;margin-top:1.5rem;padding-top:1rem;border-top:1px dashed var(--border)}.see-all-btn{display:inline-flex;align-items:center;gap:.4rem;padding:.55rem 1.5rem;border:2px solid;border-radius:10px;font-size:.88rem;font-weight:700;text-decoration:none;transition:all .15s}.see-all-btn:hover{opacity:.8;text-decoration:none}.see-all-btn{cursor:pointer;background:0 0}.spot-card.spot-more{display:none}.spot-section.spots-expanded .spot-card.spot-more{display:flex}.spot-section.spots-expanded .see-all-wrap{display:none}</style>
 <nav class=pref-breadcrumb aria-label=breadcrumb>
 <a href=/>Home</a><span>›</span>
 <a href=/explore/>Explore Japan</a><span>›</span>
@@ -522,11 +522,137 @@
 <a class=btn-read-guide href=/guides/kyoto-nijo-castle-guide/>📖 Read the Guide →</a>
 </div>
 </article>
+<article class="spot-card spot-more" data-spot-id=ginkakuji data-spot-name="Ginkakuji (Silver Pavilion)" data-spot-pref=kyoto data-spot-fee=500 data-spot-dur=60 data-spot-lat=35.027 data-spot-lng=135.7982 data-spot-area=higashiyama data-spot-rating=4.5 data-spot-reviews=41000 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Ginkakuji_Kyoto03-r.jpg/1280px-Ginkakuji_Kyoto03-r.jpg data-spot-cats=sightseeing>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Ginkakuji_Kyoto03-r.jpg/1280px-Ginkakuji_Kyoto03-r.jpg alt="Ginkakuji (Silver Pavilion)" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Sakyo, Kyoto</span>
+<span class=spot-season-badge>Year-round</span>
+</div>
+<h3 class=spot-name>Ginkakuji (Silver Pavilion)</h3>
+<p class=spot-desc>An elegant Zen temple famed for its refined sand garden, moss grounds and a hillside path with city views — the serene counterpart to the Golden Pavilion.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Temple</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Zen Garden</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Moss</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>World Heritage</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=sanjusangendo data-spot-name="Sanjusangendo Temple" data-spot-pref=kyoto data-spot-fee=600 data-spot-dur=50 data-spot-lat=34.9879 data-spot-lng=135.7717 data-spot-area=higashiyama data-spot-rating=4.5 data-spot-reviews=22000 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Sanjusangendo_2022.jpg/1280px-Sanjusangendo_2022.jpg data-spot-cats=sightseeing>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Sanjusangendo_2022.jpg/1280px-Sanjusangendo_2022.jpg alt="Sanjusangendo Temple" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Higashiyama, Kyoto</span>
+<span class=spot-season-badge>Year-round</span>
+</div>
+<h3 class=spot-name>Sanjusangendo Temple</h3>
+<p class=spot-desc>A 120 m long wooden hall housing 1,001 gilded statues of Kannon, the goddess of mercy — an awe-inspiring, glittering army of Buddhist figures unlike anywhere else.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Temple</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Buddhist Statues</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>History</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Indoor</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=tenryuji data-spot-name="Tenryuji Temple" data-spot-pref=kyoto data-spot-fee=800 data-spot-dur=60 data-spot-lat=35.0159 data-spot-lng=135.6737 data-spot-area=arashiyama data-spot-rating=4.5 data-spot-reviews=29000 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Tenryuji_Kyoto.jpg/1280px-Tenryuji_Kyoto.jpg data-spot-cats=sightseeing,nature>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Tenryuji_Kyoto.jpg/1280px-Tenryuji_Kyoto.jpg alt="Tenryuji Temple" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Arashiyama, Kyoto</span>
+<span class=spot-season-badge>Year-round</span>
+</div>
+<h3 class=spot-name>Tenryuji Temple</h3>
+<p class=spot-desc>Arashiyama's most important Zen temple, whose exquisite 14th-century Sogenchi pond garden borrows the surrounding mountains — stunning in autumn, and steps from the bamboo grove.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Temple</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Garden</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>World Heritage</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Autumn Leaves</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=yasaka-shrine data-spot-name="Yasaka Shrine" data-spot-pref=kyoto data-spot-fee=0 data-spot-dur=40 data-spot-lat=35.0036 data-spot-lng=135.7785 data-spot-area=gion data-spot-rating=4.5 data-spot-reviews=36000 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Yasaka_jinja.jpg/1280px-Yasaka_jinja.jpg data-spot-cats=sightseeing>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Yasaka_jinja.jpg/1280px-Yasaka_jinja.jpg alt="Yasaka Shrine" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Gion, Kyoto</span>
+<span class=spot-season-badge>Year-round</span>
+</div>
+<h3 class=spot-name>Yasaka Shrine</h3>
+<p class=spot-desc>Gion's vibrant vermilion guardian shrine, glowing with hundreds of lanterns at night and linked to Kyoto's great Gion Matsuri — a lively gateway between Gion and Higashiyama.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Shrine</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Free Entry</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Lanterns</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Gion</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=ryoanji data-spot-name="Ryoanji Rock Garden" data-spot-pref=kyoto data-spot-fee=600 data-spot-dur=50 data-spot-lat=35.0345 data-spot-lng=135.7182 data-spot-area=ukyo data-spot-rating=4.4 data-spot-reviews=33000 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Kare-sansui_zen_garden%2C_Ry%C5%8Dan-ji%2C_Kyoto_20190416_1.jpg/1280px-Kare-sansui_zen_garden%2C_Ry%C5%8Dan-ji%2C_Kyoto_20190416_1.jpg data-spot-cats=sightseeing>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Kare-sansui_zen_garden%2C_Ry%C5%8Dan-ji%2C_Kyoto_20190416_1.jpg/1280px-Kare-sansui_zen_garden%2C_Ry%C5%8Dan-ji%2C_Kyoto_20190416_1.jpg alt="Ryoanji Rock Garden" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Ukyo, Kyoto</span>
+<span class=spot-season-badge>Year-round</span>
+</div>
+<h3 class=spot-name>Ryoanji Rock Garden</h3>
+<p class=spot-desc>Japan's most famous Zen rock garden — fifteen stones set in raked white gravel, an enigmatic masterpiece of minimalist design meant for quiet contemplation.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Zen Garden</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Rock Garden</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>World Heritage</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Meditation</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=toji data-spot-name="Toji Temple &amp;amp; Pagoda" data-spot-pref=kyoto data-spot-fee=500 data-spot-dur=60 data-spot-lat=34.9805 data-spot-lng=135.7477 data-spot-area=kyoto-station data-spot-rating=4.4 data-spot-reviews=19000 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Toji_2015.JPG/1280px-Toji_2015.JPG data-spot-cats=sightseeing>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Toji_2015.JPG/1280px-Toji_2015.JPG alt="Toji Temple & Pagoda" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Minami, Kyoto</span>
+<span class=spot-season-badge>Year-round</span>
+</div>
+<h3 class=spot-name>Toji Temple & Pagoda</h3>
+<p class=spot-desc>Home to Japan's tallest wooden pagoda (55 m), a UNESCO temple near Kyoto Station famed for its Buddhist treasures and a lively monthly flea market.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Temple</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Pagoda</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>World Heritage</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>Flea Market</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 </div>
 <div class=see-all-wrap>
-<a class=see-all-btn style=color:#1a45a8 href=/prefectures/kyoto/sightseeing/>
-See all 12 Sightseeing spots →
-</a>
+<button class="see-all-btn show-more-btn" style=color:#1a45a8 type=button data-section=section-sightseeing>
+Show all (12) ↓
+</button>
 </div>
 </div>
 </section><section class=spot-section id=section-gourmet data-cat=gourmet>
@@ -664,11 +790,95 @@ See all 12 Sightseeing spots →
 </button>
 </div>
 </article>
+<article class="spot-card spot-more" data-spot-id=kyo-wagashi data-spot-name="Kyoto Wagashi Sweets" data-spot-pref=kyoto data-spot-fee=0 data-spot-dur=45 data-spot-lat=35.0116 data-spot-lng=135.7681 data-spot-area=central-kyoto data-spot-rating=4.5 data-spot-reviews=14000 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Wagashi_closeup_14.jpg/1280px-Wagashi_closeup_14.jpg data-spot-cats=gourmet>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Wagashi_closeup_14.jpg/1280px-Wagashi_closeup_14.jpg alt="Kyoto Wagashi Sweets" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🍜</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Central Kyoto</span>
+<span class=spot-season-badge>Year-round</span>
+</div>
+<h3 class=spot-name>Kyoto Wagashi Sweets</h3>
+<p class=spot-desc>Kyoto is the heart of wagashi — exquisite seasonal Japanese sweets like nerikiri, yatsuhashi and mochi, best paired with matcha at a historic confectioner or teahouse.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>Sweets</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>Wagashi</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>Matcha</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>Souvenir</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=obanzai data-spot-name="Obanzai Home Cooking" data-spot-pref=kyoto data-spot-fee=2500 data-spot-dur=60 data-spot-lat=35.0105 data-spot-lng=135.755 data-spot-area=city-centre data-spot-rating=4.4 data-spot-reviews=2100 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Obanzai_yasai.JPG/960px-Obanzai_yasai.JPG data-spot-cats=gourmet>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Obanzai_yasai.JPG/960px-Obanzai_yasai.JPG alt="Obanzai Home Cooking" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🍜</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 City Centre, Kyoto</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Obanzai Home Cooking</h3>
+<p class=spot-desc>Kyoto's traditional everyday cuisine — small dishes of simmered vegetables, tofu, and pickles made with kyo-yasai (Kyoto heirloom vegetables). Found at intimate neighbourhood restaurants throughout the city.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>Home Cooking</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>Vegetable</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>Local</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+<a class=btn-read-guide href=/guides/kyoto-obanzai-guide/>📖 Read the Guide →</a>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=fushimi-sake data-spot-name="Fushimi Sake District" data-spot-pref=kyoto data-spot-fee=0 data-spot-dur=90 data-spot-lat=34.9328 data-spot-lng=135.759 data-spot-area=fushimi data-spot-rating=4.4 data-spot-reviews=12000 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Gekkeikan_head_office.JPG/1280px-Gekkeikan_head_office.JPG data-spot-cats=gourmet>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Gekkeikan_head_office.JPG/1280px-Gekkeikan_head_office.JPG alt="Fushimi Sake District" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🍜</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Fushimi, Kyoto</span>
+<span class=spot-season-badge>Year-round</span>
+</div>
+<h3 class=spot-name>Fushimi Sake District</h3>
+<p class=spot-desc>One of Japan's top sake regions, where soft spring water feeds historic breweries along canal-side streets — tour a sake museum and taste Kyoto's smooth local brews.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>Sake</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>Brewery</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>Tasting</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>History</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=nishin-soba data-spot-name="Nishin Soba" data-spot-pref=kyoto data-spot-fee=0 data-spot-dur=40 data-spot-lat=35.0047 data-spot-lng=135.775 data-spot-area=gion data-spot-rating=4.3 data-spot-reviews=8000 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Nishin_soba.jpg/1280px-Nishin_soba.jpg data-spot-cats=gourmet>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Nishin_soba.jpg/1280px-Nishin_soba.jpg alt="Nishin Soba" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🍜</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Central Kyoto</span>
+<span class=spot-season-badge>Year-round</span>
+</div>
+<h3 class=spot-name>Nishin Soba</h3>
+<p class=spot-desc>A comforting Kyoto classic — warm buckwheat soba noodles topped with sweet-simmered dried herring, a hearty specialty best enjoyed at an old noodle house near Gion.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>Soba</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>Local Food</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>Noodles</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>Comfort Food</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 </div>
 <div class=see-all-wrap>
-<a class=see-all-btn style=color:#d64000 href=/prefectures/kyoto/gourmet/>
-See all 10 Gourmet spots →
-</a>
+<button class="see-all-btn show-more-btn" style=color:#d64000 type=button data-section=section-gourmet>
+Show all (10) ↓
+</button>
 </div>
 </div>
 </section><section class=spot-section id=section-nature data-cat=nature>
@@ -806,11 +1016,158 @@ See all 10 Gourmet spots →
 <a class=btn-read-guide href=/guides/kyoto-kurama-kibune-guide/>📖 Read the Guide →</a>
 </div>
 </article>
+<article class="spot-card spot-more" data-spot-id=tenryuji data-spot-name="Tenryuji Temple" data-spot-pref=kyoto data-spot-fee=800 data-spot-dur=60 data-spot-lat=35.0159 data-spot-lng=135.6737 data-spot-area=arashiyama data-spot-rating=4.5 data-spot-reviews=29000 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Tenryuji_Kyoto.jpg/1280px-Tenryuji_Kyoto.jpg data-spot-cats=sightseeing,nature>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Tenryuji_Kyoto.jpg/1280px-Tenryuji_Kyoto.jpg alt="Tenryuji Temple" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🏔️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Arashiyama, Kyoto</span>
+<span class=spot-season-badge>Year-round</span>
+</div>
+<h3 class=spot-name>Tenryuji Temple</h3>
+<p class=spot-desc>Arashiyama's most important Zen temple, whose exquisite 14th-century Sogenchi pond garden borrows the surrounding mountains — stunning in autumn, and steps from the bamboo grove.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Temple</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Garden</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>World Heritage</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Autumn Leaves</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=ohara-sanzenin data-spot-name="Ohara &amp;amp; Sanzen-in" data-spot-pref=kyoto data-spot-fee=700 data-spot-dur=90 data-spot-lat=35.1194 data-spot-lng=135.834 data-spot-area=ohara data-spot-rating=4.5 data-spot-reviews=11000 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Sanzen%27in_01.JPG/1280px-Sanzen%27in_01.JPG data-spot-cats=nature>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Sanzen%27in_01.JPG/1280px-Sanzen%27in_01.JPG alt="Ohara & Sanzen-in" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🏔️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Ohara, Kyoto</span>
+<span class=spot-season-badge>Autumn best</span>
+</div>
+<h3 class=spot-name>Ohara & Sanzen-in</h3>
+<p class=spot-desc>A tranquil rural temple village in the northern hills, where Sanzen-in's mossy gardens and little stone Jizo statues glow with autumn colour — a peaceful escape from the city.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Temple</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Moss Garden</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Autumn Leaves</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Countryside</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=kamogawa-river data-spot-name="Kamo River Walk" data-spot-pref=kyoto data-spot-fee=0 data-spot-dur=60 data-spot-lat=35.009 data-spot-lng=135.772 data-spot-area=kawaramachi data-spot-rating=4.5 data-spot-reviews=20000 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Kamogawa_walk.jpg/1280px-Kamogawa_walk.jpg data-spot-cats=nature>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Kamogawa_walk.jpg/1280px-Kamogawa_walk.jpg alt="Kamo River Walk" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🏔️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Central Kyoto</span>
+<span class=spot-season-badge>Year-round</span>
+</div>
+<h3 class=spot-name>Kamo River Walk</h3>
+<p class=spot-desc>Kyoto's beloved riverside promenade, where locals stroll, picnic and relax along the water — lined in summer with kawadoko dining terraces above the flowing Kamo River.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>River</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Walk</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Free Entry</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Riverside Dining</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=nishiyama-trail data-spot-name="Kyoto Nishiyama Trail" data-spot-pref=kyoto data-spot-fee=0 data-spot-dur=180 data-spot-lat=35.018 data-spot-lng=135.648 data-spot-area=arashiyama data-spot-rating=4.4 data-spot-reviews=1200 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Autumn_foliage_2012_%288252583379%29.jpg/960px-Autumn_foliage_2012_%288252583379%29.jpg data-spot-cats=nature>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Autumn_foliage_2012_%288252583379%29.jpg/960px-Autumn_foliage_2012_%288252583379%29.jpg alt="Kyoto Nishiyama Trail" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🏔️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Arashiyama, Kyoto</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Kyoto Nishiyama Trail</h3>
+<p class=spot-desc>A lesser-known 10 km forest trail linking Arashiyama, Matsuo Taisha, and Nishiki through the western hills — rich in bamboo groves, moss temples, and cedar forest away from tourist crowds.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Hiking</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Forest</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Hidden</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+<a class=btn-read-guide href=/guides/kyoto-nishiyama-trail-guide/>📖 Read the Guide →</a>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=maruyama-park data-spot-name="Maruyama Park" data-spot-pref=kyoto data-spot-fee=0 data-spot-dur=45 data-spot-lat=35.0035 data-spot-lng=135.7817 data-spot-area=gion data-spot-rating=4.4 data-spot-reviews=24000 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/%E5%86%86%E5%B1%B1%E5%85%AC%E5%9C%92.JPG/1280px-%E5%86%86%E5%B1%B1%E5%85%AC%E5%9C%92.JPG data-spot-cats=nature>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/%E5%86%86%E5%B1%B1%E5%85%AC%E5%9C%92.JPG/1280px-%E5%86%86%E5%B1%B1%E5%85%AC%E5%9C%92.JPG alt="Maruyama Park" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🏔️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Higashiyama, Kyoto</span>
+<span class=spot-season-badge>Spring (cherry)</span>
+</div>
+<h3 class=spot-name>Maruyama Park</h3>
+<p class=spot-desc>Kyoto's most popular hanami park behind Yasaka Shrine, famed for its giant illuminated weeping cherry tree and lively springtime picnics under the blossoms.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Park</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Cherry Blossoms</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Free Entry</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Night View</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=keage-incline data-spot-name="Keage Incline" data-spot-pref=kyoto data-spot-fee=0 data-spot-dur=40 data-spot-lat=35.0086 data-spot-lng=135.7899 data-spot-area=higashiyama data-spot-rating=4.4 data-spot-reviews=9000 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Cherry_blossoms_at_Keage_Incline_01.jpg/1280px-Cherry_blossoms_at_Keage_Incline_01.jpg data-spot-cats=nature>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Cherry_blossoms_at_Keage_Incline_01.jpg/1280px-Cherry_blossoms_at_Keage_Incline_01.jpg alt="Keage Incline" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🏔️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Higashiyama, Kyoto</span>
+<span class=spot-season-badge>Spring (cherry)</span>
+</div>
+<h3 class=spot-name>Keage Incline</h3>
+<p class=spot-desc>A disused canal railway slope near Nanzenji, blanketed each spring by a tunnel of cherry blossoms over its old tracks — one of Kyoto's most photogenic hanami walks.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Cherry Blossoms</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Free Entry</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Photo Spot</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>History</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=arashiyama-monkey-park data-spot-name="Arashiyama Monkey Park" data-spot-pref=kyoto data-spot-fee=600 data-spot-dur=90 data-spot-lat=35.0095 data-spot-lng=135.6779 data-spot-area=arashiyama data-spot-rating=4.4 data-spot-reviews=18000 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Iwatayama_Monkey_Park.jpg/1280px-Iwatayama_Monkey_Park.jpg data-spot-cats=leisure,nature>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Iwatayama_Monkey_Park.jpg/1280px-Iwatayama_Monkey_Park.jpg alt="Arashiyama Monkey Park" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🏔️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Arashiyama, Kyoto</span>
+<span class=spot-season-badge>Year-round</span>
+</div>
+<h3 class=spot-name>Arashiyama Monkey Park</h3>
+<p class=spot-desc>A short hilltop hike in Arashiyama rewards you with wild Japanese macaques roaming free and a sweeping panorama over Kyoto — you can hand-feed the monkeys from a hut.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Monkeys</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Viewpoint</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Family</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>Hiking</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 </div>
 <div class=see-all-wrap>
-<a class=see-all-btn style=color:#1a7a34 href=/prefectures/kyoto/nature/>
-See all 13 Nature spots →
-</a>
+<button class="see-all-btn show-more-btn" style=color:#1a7a34 type=button data-section=section-nature>
+Show all (13) ↓
+</button>
 </div>
 </div>
 </section><section class=spot-section id=section-leisure data-cat=leisure>
@@ -948,11 +1305,138 @@ See all 13 Nature spots →
 <a class=btn-read-guide href=/guides/kyoto-sagano-train-guide/>📖 Read the Guide →</a>
 </div>
 </article>
+<article class="spot-card spot-more" data-spot-id=kimono-rental data-spot-name="Kimono Rental &amp;amp; Strolling" data-spot-pref=kyoto data-spot-fee=8000 data-spot-dur=180 data-spot-lat=35.005 data-spot-lng=135.775 data-spot-area=gion data-spot-rating=4.5 data-spot-reviews=2400 data-spot-img="https://plus.unsplash.com/premium_photo-1661429571803-32c647db5a14?q=80&w=687&auto=format&fit=crop" data-spot-cats=leisure>
+<img class=spot-img src="https://plus.unsplash.com/premium_photo-1661429571803-32c647db5a14?q=80&w=687&auto=format&fit=crop" alt="Kimono Rental & Strolling" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎿</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Gion, Kyoto</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Kimono Rental & Strolling</h3>
+<p class=spot-desc>Rent a beautifully styled kimono from shops near Gion or Higashiyama and spend the day strolling Kyoto's stone-paved alleyways — the experience transforms photographs and deepens connection to the city.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Kimono</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Fashion</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Cultural Experience</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+<a class=btn-read-guide href=/guides/kyoto-kimono-guide/>📖 Read the Guide →</a>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=kyoto-cycling data-spot-name="Kyoto Cycling Tours" data-spot-pref=kyoto data-spot-fee=2000 data-spot-dur=120 data-spot-lat=35.0085 data-spot-lng=135.7707 data-spot-area=city-centre data-spot-rating=4.4 data-spot-reviews=1400 data-spot-img="https://images.unsplash.com/photo-1730033135148-0d7d7f99afdf?q=80&w=1174&auto=format&fit=crop" data-spot-cats=leisure>
+<img class=spot-img src="https://images.unsplash.com/photo-1730033135148-0d7d7f99afdf?q=80&w=1174&auto=format&fit=crop" alt="Kyoto Cycling Tours" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎿</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 City Centre, Kyoto</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Kyoto Cycling Tours</h3>
+<p class=spot-desc>Kyoto's flat city centre and wide riverside paths make it ideal for cycling — rent a bike near Kyoto Station and cover temples, canal paths, and Nishiki Market in a single morning.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Cycling</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>City Tour</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Active</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+<a class=btn-read-guide href=/guides/kyoto-cycling-guide/>📖 Read the Guide →</a>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=kyoto-toei-uzumasa-filmland data-spot-name="Toei Uzumasa Eigamura Film Studio" data-spot-pref=kyoto data-spot-fee=2400 data-spot-dur=150 data-spot-lat=35.0161 data-spot-lng=135.7072 data-spot-area=uzumasa data-spot-rating=4.4 data-spot-reviews=4500 data-spot-img="https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?w=800&q=80" data-spot-cats=leisure>
+<img class=spot-img src="https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?w=800&q=80" alt="Toei Uzumasa Eigamura Film Studio" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎿</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Ukyo-ku, Kyoto</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Toei Uzumasa Eigamura Film Studio</h3>
+<p class=spot-desc>Active film studio and theme park where samurai dramas, period films, and ninja movies are regularly produced, Uzumasa Eigamura lets visitors walk through the working Edo-period street sets, watch live action scenes being filmed, and participate in hands-on ninja training and samurai costume photoshoots. Ninja and geisha cosplay experiences are available year-round.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Film Studio</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Edo Period</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Samurai</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Theme Park</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+<a class=btn-read-guide href=/guides/kyoto-uzumasa-eigamura-guide/>📖 Read the Guide →</a>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=kyoto-aquarium data-spot-name="Kyoto Aquarium" data-spot-pref=kyoto data-spot-fee=2400 data-spot-dur=150 data-spot-lat=34.988 data-spot-lng=135.747 data-spot-area=kyoto-station data-spot-rating=4.4 data-spot-reviews=17000 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/KYOTO_AQUARIUM.JPG/1280px-KYOTO_AQUARIUM.JPG data-spot-cats=leisure>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/KYOTO_AQUARIUM.JPG/1280px-KYOTO_AQUARIUM.JPG alt="Kyoto Aquarium" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎿</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Shimogyo, Kyoto</span>
+<span class=spot-season-badge>Year-round</span>
+</div>
+<h3 class=spot-name>Kyoto Aquarium</h3>
+<p class=spot-desc>A modern inland aquarium in Umekoji Park with playful penguins, a huge sea tank, giant salamanders and a dolphin show — a fun, all-weather day out for families.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Aquarium</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Family</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Penguins</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Indoor</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=arashiyama-monkey-park data-spot-name="Arashiyama Monkey Park" data-spot-pref=kyoto data-spot-fee=600 data-spot-dur=90 data-spot-lat=35.0095 data-spot-lng=135.6779 data-spot-area=arashiyama data-spot-rating=4.4 data-spot-reviews=18000 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Iwatayama_Monkey_Park.jpg/1280px-Iwatayama_Monkey_Park.jpg data-spot-cats=leisure,nature>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Iwatayama_Monkey_Park.jpg/1280px-Iwatayama_Monkey_Park.jpg alt="Arashiyama Monkey Park" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎿</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Arashiyama, Kyoto</span>
+<span class=spot-season-badge>Year-round</span>
+</div>
+<h3 class=spot-name>Arashiyama Monkey Park</h3>
+<p class=spot-desc>A short hilltop hike in Arashiyama rewards you with wild Japanese macaques roaming free and a sweeping panorama over Kyoto — you can hand-feed the monkeys from a hut.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Monkeys</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Viewpoint</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Family</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Hiking</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=kyoto-tower data-spot-name="Kyoto Tower" data-spot-pref=kyoto data-spot-fee=900 data-spot-dur=45 data-spot-lat=34.9875 data-spot-lng=135.759 data-spot-area=kyoto-station data-spot-rating=4.2 data-spot-reviews=26000 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Kyoto_Tower_at_dusk%2C_from_railway_station.jpg/1280px-Kyoto_Tower_at_dusk%2C_from_railway_station.jpg data-spot-cats=leisure>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Kyoto_Tower_at_dusk%2C_from_railway_station.jpg/1280px-Kyoto_Tower_at_dusk%2C_from_railway_station.jpg alt="Kyoto Tower" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎿</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Shimogyo, Kyoto</span>
+<span class=spot-season-badge>Year-round</span>
+</div>
+<h3 class=spot-name>Kyoto Tower</h3>
+<p class=spot-desc>Kyoto's tallest structure, right by the station, whose 100 m observation deck offers 360° views over the temple-dotted city — atmospheric at dusk as the old capital lights up.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Observation Deck</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Landmark</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Night View</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>Kyoto Station</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 </div>
 <div class=see-all-wrap>
-<a class=see-all-btn style=color:#b35c00 href=/prefectures/kyoto/leisure/>
-See all 12 Leisure spots →
-</a>
+<button class="see-all-btn show-more-btn" style=color:#b35c00 type=button data-section=section-leisure>
+Show all (12) ↓
+</button>
 </div>
 </div>
 </section><section class=spot-section id=section-events data-cat=events>
@@ -1090,11 +1574,116 @@ See all 12 Leisure spots →
 <a class=btn-read-guide href=/guides/kyoto-jidai-matsuri-guide/>📖 Read the Guide →</a>
 </div>
 </article>
+<article class="spot-card spot-more" data-spot-id=miyako-odori data-spot-name="Miyako Odori Geiko Dance" data-spot-pref=kyoto data-spot-fee=4000 data-spot-dur=75 data-spot-lat=35.003 data-spot-lng=135.7745 data-spot-area=gion data-spot-rating=4.6 data-spot-reviews=6000 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Miyako_Odori_%28cropped%29.jpg/1280px-Miyako_Odori_%28cropped%29.jpg data-spot-cats=events>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Miyako_Odori_%28cropped%29.jpg/1280px-Miyako_Odori_%28cropped%29.jpg alt="Miyako Odori Geiko Dance" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎆</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Gion, Kyoto</span>
+<span class=spot-season-badge>April</span>
+</div>
+<h3 class=spot-name>Miyako Odori Geiko Dance</h3>
+<p class=spot-desc>Gion's dazzling springtime dance, in which geiko and maiko perform elegant seasonal routines on a lantern-lit stage — a rare, beautiful glimpse into Kyoto's geisha arts.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>Geiko</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>Dance</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>Spring</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>Performance</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=higashiyama-hanatouro data-spot-name="Higashiyama Hanatouro (Mar)" data-spot-pref=kyoto data-spot-fee=0 data-spot-dur=90 data-spot-lat=35.002 data-spot-lng=135.78 data-spot-area=higashiyama data-spot-rating=4.5 data-spot-reviews=2700 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/%E4%BA%AC%E9%83%BD%E3%83%BB%E6%9D%B1%E5%B1%B1%E8%8A%B1%E7%81%AF%E8%B7%AF%E5%85%AB%E5%9D%82%E7%A5%9E%E7%A4%BE%E7%A5%87%E5%9C%92%E9%96%A3%EF%BC%92.jpg/960px-%E4%BA%AC%E9%83%BD%E3%83%BB%E6%9D%B1%E5%B1%B1%E8%8A%B1%E7%81%AF%E8%B7%AF%E5%85%AB%E5%9D%82%E7%A5%9E%E7%A4%BE%E7%A5%87%E5%9C%92%E9%96%A3%EF%BC%92.jpg data-spot-cats=events>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/%E4%BA%AC%E9%83%BD%E3%83%BB%E6%9D%B1%E5%B1%B1%E8%8A%B1%E7%81%AF%E8%B7%AF%E5%85%AB%E5%9D%82%E7%A5%9E%E7%A4%BE%E7%A5%87%E5%9C%92%E9%96%A3%EF%BC%92.jpg/960px-%E4%BA%AC%E9%83%BD%E3%83%BB%E6%9D%B1%E5%B1%B1%E8%8A%B1%E7%81%AF%E8%B7%AF%E5%85%AB%E5%9D%82%E7%A5%9E%E7%A4%BE%E7%A5%87%E5%9C%92%E9%96%A3%EF%BC%92.jpg alt="Higashiyama Hanatouro (Mar)" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎆</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Higashiyama, Kyoto</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Higashiyama Hanatouro (Mar)</h3>
+<p class=spot-desc>The historic stone-paved lanes of Higashiyama are lined with hundreds of bamboo lanterns for two weeks each March — a magical night-walk experience past illuminated temples and traditional shops.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>Illumination</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>Lanterns</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>Night Walk</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+<a class=btn-read-guide href=/guides/kyoto-hanatouro-guide/>📖 Read the Guide →</a>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=aoi-matsuri data-spot-name="Aoi Matsuri (May)" data-spot-pref=kyoto data-spot-fee=0 data-spot-dur=120 data-spot-lat=35.0234 data-spot-lng=135.7649 data-spot-area=city-centre data-spot-rating=4.5 data-spot-reviews=2200 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Aoi_Matsuri.jpg/960px-Aoi_Matsuri.jpg data-spot-cats=events>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Aoi_Matsuri.jpg/960px-Aoi_Matsuri.jpg alt="Aoi Matsuri (May)" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎆</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 City Centre, Kyoto</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>Aoi Matsuri (May)</h3>
+<p class=spot-desc>One of Kyoto's three great festivals — an elegant procession of 500 people in Heian-period court costume from the Imperial Palace to Kamigamo and Shimogamo Shrines on May 15.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>Festival</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>Imperial</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>Procession</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+<a class=btn-read-guide href=/guides/kyoto-aoi-matsuri-guide/>📖 Read the Guide →</a>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=kurama-fire-festival data-spot-name="Kurama Fire Festival" data-spot-pref=kyoto data-spot-fee=0 data-spot-dur=150 data-spot-lat=35.1197 data-spot-lng=135.771 data-spot-area=kurama data-spot-rating=4.5 data-spot-reviews=7000 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/%E9%9E%8D%E9%A6%AC%E3%81%AE%E7%81%AB%E7%A5%AD4.jpg/1280px-%E9%9E%8D%E9%A6%AC%E3%81%AE%E7%81%AB%E7%A5%AD4.jpg data-spot-cats=events>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/%E9%9E%8D%E9%A6%AC%E3%81%AE%E7%81%AB%E7%A5%AD4.jpg/1280px-%E9%9E%8D%E9%A6%AC%E3%81%AE%E7%81%AB%E7%A5%AD4.jpg alt="Kurama Fire Festival" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎆</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Kurama, Kyoto</span>
+<span class=spot-season-badge>October 22</span>
+</div>
+<h3 class=spot-name>Kurama Fire Festival</h3>
+<p class=spot-desc>On 22 October, the mountain village of Kurama blazes as men carry huge flaming torches through the streets to a shrine — one of Kyoto's most primal and dramatic festivals.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>Festival</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>Fire</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>October</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>Mountain Village</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=kyoto-setsubun data-spot-name="Kyoto Setsubun Festivals" data-spot-pref=kyoto data-spot-fee=0 data-spot-dur=90 data-spot-lat=35.029 data-spot-lng=135.783 data-spot-area=central-kyoto data-spot-rating=4.4 data-spot-reviews=8000 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Bean-Throwing_Ceremony_at_Osu_Kannon%2C_Osu_Naka_Ward_Nagoya_2021.jpg/1280px-Bean-Throwing_Ceremony_at_Osu_Kannon%2C_Osu_Naka_Ward_Nagoya_2021.jpg data-spot-cats=events>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Bean-Throwing_Ceremony_at_Osu_Kannon%2C_Osu_Naka_Ward_Nagoya_2021.jpg/1280px-Bean-Throwing_Ceremony_at_Osu_Kannon%2C_Osu_Naka_Ward_Nagoya_2021.jpg alt="Kyoto Setsubun Festivals" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎆</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 Kyoto shrines & temples</span>
+<span class=spot-season-badge>Early February</span>
+</div>
+<h3 class=spot-name>Kyoto Setsubun Festivals</h3>
+<p class=spot-desc>In early February, Kyoto's shrines and temples hold lively bean-throwing rituals to drive out demons and welcome spring — with maiko appearances and dances at Yasaka and Yoshida.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>Festival</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>Bean Throwing</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>February</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>Tradition</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 </div>
 <div class=see-all-wrap>
-<a class=see-all-btn style=color:#b5006e href=/prefectures/kyoto/events/>
-See all 11 Events spots →
-</a>
+<button class="see-all-btn show-more-btn" style=color:#b5006e type=button data-section=section-events>
+Show all (11) ↓
+</button>
 </div>
 </div>
 </section><section class=spot-section id=section-experience data-cat=experience>
@@ -1342,6 +1931,13 @@ See all 11 Events spots →
 </div>
 <script>
 (function(){
+ 
+document.querySelectorAll('.show-more-btn').forEach(function(btn){
+  btn.addEventListener('click', function(){
+    var sec = document.getElementById(btn.dataset.section);
+    if (sec) sec.classList.add('spots-expanded');
+  });
+});
  
 const CATS = {
   sightseeing:{ color:"#1a45a8" },

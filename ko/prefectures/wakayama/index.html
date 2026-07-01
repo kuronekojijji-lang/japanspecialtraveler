@@ -99,7 +99,7 @@
   document.addEventListener('keydown', function(e){ if(e.key==='Escape') close(); });
 })();
 </script>
-<style>.pref-breadcrumb{background:#f8f9fa;border-bottom:1px solid var(--border);padding:.6rem 1.5rem;font-size:.82rem;color:var(--gray)}.pref-breadcrumb a{color:var(--red);text-decoration:none}.pref-breadcrumb a:hover{text-decoration:underline}.pref-breadcrumb span{margin:0 .4rem}.pref-hero{position:relative;min-height:440px;display:flex;align-items:flex-end;background:#1a0a2a 50%/cover no-repeat;background-image:url(https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=1600&q=80)}.pref-hero::after{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,.15) 0%,rgba(0,0,0,.7) 100%)}.pref-hero-body{position:relative;z-index:1;padding:2.5rem 1.5rem 2rem;max-width:var(--max-w);margin:0 auto;width:100%}.pref-hero-eyebrow{color:rgba(255,255,255,.75);font-size:.82rem;font-weight:600;text-transform:uppercase;letter-spacing:.1em;margin-bottom:.5rem}.pref-hero h1{color:#fff;font-size:clamp(2.2rem,5.5vw,3.4rem);font-weight:900;margin:0 0 .5rem;line-height:1.1}.pref-hero .pref-sub{color:rgba(255,255,255,.88);font-size:1.05rem;max-width:560px;margin-bottom:1rem}.pref-stats{display:flex;flex-wrap:wrap;gap:.6rem}.pref-stat{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);border-radius:20px;padding:.3rem .85rem;color:#fff;font-size:.8rem;font-weight:600}.pref-section{padding:2.5rem 1.5rem}.pref-section+.pref-section{padding-top:0}.pref-container{max-width:var(--max-w);margin:0 auto}.pref-section-title{font-size:1.55rem;font-weight:900;margin:0 0 .4rem;display:flex;align-items:center;gap:.5rem}.pref-section-lead{font-size:1rem;color:#555;line-height:1.7;max-width:680px;margin-bottom:1.5rem}.ponko-guide{display:flex;align-items:flex-end;gap:0;margin-bottom:1.6rem}.ponko-bubble{flex:1;min-width:0;background:linear-gradient(135deg,#fff9f0,#fff3e0);border:2px solid #f5a623;border-radius:18px 18px 18px 4px;padding:1.2rem 1.5rem;position:relative;box-shadow:0 4px 14px rgba(245,166,35,.13)}.ponko-bubble::after{content:'';position:absolute;right:-18px;bottom:22px;border:9px solid transparent;border-left-color:#f5a623}.ponko-bubble::before{content:'';position:absolute;right:-13px;bottom:23px;z-index:1;border:8px solid transparent;border-left-color:#fff9f0}.ponko-bubble p{font-size:.97rem;line-height:1.8;color:#333;margin:0}.ponko-figure{flex-shrink:0;width:170px;margin-left:4px;animation:ponko-float 3s ease-in-out infinite}.ponko-figure img{width:100%;height:auto;display:block;filter:drop-shadow(0 6px 10px rgba(0,0,0,.18))}@keyframes ponko-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}@media(max-width:640px){.ponko-guide{flex-direction:column;align-items:center}.ponko-bubble{border-radius:18px;order:2;width:100%}.ponko-bubble::after,.ponko-bubble::before{display:none}.ponko-figure{order:1;width:130px;margin-left:0;margin-bottom:.5rem;animation:none}}.quick-facts{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.8rem;margin-top:1.4rem}.qf-card{background:#f8f9fb;border:1px solid var(--border);border-radius:12px;padding:1rem 1.1rem;display:flex;align-items:flex-start;gap:.7rem}.qf-icon{font-size:1.4rem;flex-shrink:0}.qf-label{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--gray);margin-bottom:.15rem}.qf-value{font-size:.9rem;font-weight:600;color:var(--dark)}.access-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}.access-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 8px rgba(0,0,0,5%)}.access-card-hd{display:flex;align-items:center;gap:.5rem;margin-bottom:.8rem}.access-card-icon{font-size:1.5rem}.access-card-title{font-size:1rem;font-weight:800;color:var(--dark)}.access-card ul{margin:0;padding-left:1.1rem}.access-card li{font-size:.875rem;line-height:1.65;color:#444;margin-bottom:.3rem}.access-card li strong{color:var(--dark)}.access-tip{margin-top:1.2rem;background:#fff8e6;border:1px solid #ffe0a0;border-radius:10px;padding:.9rem 1.1rem;font-size:.85rem;line-height:1.6;color:#5a3e00}.access-tip strong{display:block;margin-bottom:.2rem;font-size:.88rem}.guide-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem}.guide-card{background:#fff;border-radius:14px;overflow:hidden;border:1px solid var(--border);box-shadow:0 2px 8px rgba(0,0,0,5%);transition:transform .15s,box-shadow .15s;position:relative;display:flex;flex-direction:column}.guide-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.guide-card-img{width:100%;height:150px;object-fit:cover;background:#e8eef4;display:block}.guide-card-img-ph{width:100%;height:150px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:2.5rem}.guide-card-body{padding:.9rem 1rem 1rem;flex:1}.guide-cat-badge{display:inline-block;font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;padding:.15rem .55rem;border-radius:8px;background:var(--red);color:#fff;margin-bottom:.4rem}.guide-card-title{font-size:.92rem;font-weight:800;color:var(--dark);line-height:1.4}.guide-coming-soon{position:absolute;top:.6rem;right:.6rem;background:rgba(0,0,0,.55);color:#fff;font-size:.65rem;font-weight:700;padding:.2rem .5rem;border-radius:6px;text-transform:uppercase;letter-spacing:.05em}.guide-card-link{text-decoration:none;color:inherit;display:flex;flex-direction:column;height:100%}.pref-toc{background:#fff;border-bottom:2px solid var(--border);position:sticky;top:0;z-index:100;overflow-x:auto}.pref-toc-inner{display:flex;gap:0;max-width:var(--max-w);margin:0 auto}.pref-toc-btn{flex:none;display:flex;align-items:center;gap:.4rem;padding:.8rem 1.2rem;border:none;background:0 0;cursor:pointer;font-family:inherit;font-size:.88rem;font-weight:600;color:var(--gray);border-bottom:3px solid transparent;transition:all .18s;white-space:nowrap}.pref-toc-btn .toc-icon{font-size:1.1rem}.pref-toc-btn:hover{color:var(--dark);background:#f8f8f8}.pref-toc-btn.active{color:var(--toc-color,var(--red));border-bottom-color:var(--toc-color,var(--red))}.spot-section{padding:2rem 1.5rem 2.5rem}.spot-section.hidden{display:none}.spot-section-inner{max-width:var(--max-w);margin:0 auto}.section-hd{display:flex;align-items:center;gap:.6rem;margin-bottom:1.4rem;padding-bottom:.7rem;border-bottom:2px solid var(--border)}.section-hd .s-icon{font-size:1.6rem}.section-hd h2{font-size:1.35rem;font-weight:800;margin:0}.section-hd .s-count{margin-left:auto;background:var(--sec-color,var(--red));color:#fff;border-radius:20px;padding:.15rem .65rem;font-size:.78rem;font-weight:700}.spot-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.25rem}.spot-card{border-radius:14px;overflow:hidden;border:1px solid var(--border);background:#fff;box-shadow:0 2px 8px rgba(0,0,0,6%);transition:transform .15s,box-shadow .15s;display:flex;flex-direction:column}.spot-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.spot-img{width:100%;height:200px;object-fit:cover;background:#e8eef4;display:block}.spot-img-ph{width:100%;height:200px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:3rem}.spot-body{padding:1rem 1.1rem 1.1rem;flex:1;display:flex;flex-direction:column}.spot-meta{display:flex;align-items:center;gap:.5rem;margin-bottom:.5rem}.spot-location{font-size:.78rem;color:var(--gray);font-weight:500}.spot-season-badge{margin-left:auto;font-size:.7rem;font-weight:700;padding:.1rem .5rem;border-radius:10px;background:#f0f4f8;color:#555;white-space:nowrap}.spot-name{font-size:1.08rem;font-weight:800;color:var(--dark);margin:0 0 .45rem;line-height:1.3}.spot-desc{font-size:.86rem;line-height:1.65;color:#555;flex:1;margin-bottom:.75rem}.spot-tags{display:flex;flex-wrap:wrap;gap:.3rem}.spot-tag{font-size:.7rem;font-weight:600;padding:.15rem .5rem;border-radius:6px;background:var(--tag-bg,#f0f4f8);color:var(--tag-color,#445)}.tips-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem}.tip-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 6px rgba(0,0,0,4%)}.tip-card-icon{font-size:1.8rem;margin-bottom:.6rem}.tip-card-title{font-size:.95rem;font-weight:800;color:var(--dark);margin-bottom:.5rem}.tip-card-body{font-size:.85rem;line-height:1.65;color:#555}.tip-card-body ul{margin:.3rem 0 0;padding-left:1.1rem}.tip-card-body li{margin-bottom:.2rem}.pref-cta{background:var(--bg-soft);padding:2.5rem 1.5rem 3rem;border-top:1px solid var(--border)}.pref-cta .pref-container{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}@media(max-width:600px){.pref-hero{min-height:320px}.quick-facts{grid-template-columns:repeat(2,1fr)}.pref-toc-btn{padding:.7rem .9rem;font-size:.82rem}}.btn-add-plan{display:inline-flex;align-items:center;gap:.35rem;margin-top:.75rem;padding:.45rem .9rem;border:1.5px solid #2d5be3;border-radius:8px;background:#fff;color:#2d5be3;font-size:.78rem;font-weight:700;font-family:inherit;cursor:pointer;transition:background .15s,color .15s,transform .1s;width:100%;justify-content:center}.btn-add-plan:hover{background:#2d5be3;color:#fff;transform:translateY(-1px)}.btn-add-plan.in-plan{background:#e8f0ff;color:#1a45a8;border-color:#1a45a8}.btn-add-plan.in-plan:hover{background:#c0003a;color:#fff;border-color:#c0003a}.btn-read-guide{display:inline-flex;align-items:center;justify-content:center;gap:.35rem;margin-top:.5rem;padding:.45rem .9rem;border:1.5px solid #1a7a34;border-radius:8px;background:#f0faf2;color:#1a7a34;font-size:.78rem;font-weight:700;text-decoration:none;width:100%;transition:background .15s,color .15s,transform .1s}.btn-read-guide:hover{background:#1a7a34;color:#fff;transform:translateY(-1px);text-decoration:none}.see-all-wrap{text-align:center;margin-top:1.5rem;padding-top:1rem;border-top:1px dashed var(--border)}.see-all-btn{display:inline-flex;align-items:center;gap:.4rem;padding:.55rem 1.5rem;border:2px solid;border-radius:10px;font-size:.88rem;font-weight:700;text-decoration:none;transition:all .15s}.see-all-btn:hover{opacity:.8;text-decoration:none}</style>
+<style>.pref-breadcrumb{background:#f8f9fa;border-bottom:1px solid var(--border);padding:.6rem 1.5rem;font-size:.82rem;color:var(--gray)}.pref-breadcrumb a{color:var(--red);text-decoration:none}.pref-breadcrumb a:hover{text-decoration:underline}.pref-breadcrumb span{margin:0 .4rem}.pref-hero{position:relative;min-height:440px;display:flex;align-items:flex-end;background:#1a0a2a 50%/cover no-repeat;background-image:url(https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=1600&q=80)}.pref-hero::after{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,.15) 0%,rgba(0,0,0,.7) 100%)}.pref-hero-body{position:relative;z-index:1;padding:2.5rem 1.5rem 2rem;max-width:var(--max-w);margin:0 auto;width:100%}.pref-hero-eyebrow{color:rgba(255,255,255,.75);font-size:.82rem;font-weight:600;text-transform:uppercase;letter-spacing:.1em;margin-bottom:.5rem}.pref-hero h1{color:#fff;font-size:clamp(2.2rem,5.5vw,3.4rem);font-weight:900;margin:0 0 .5rem;line-height:1.1}.pref-hero .pref-sub{color:rgba(255,255,255,.88);font-size:1.05rem;max-width:560px;margin-bottom:1rem}.pref-stats{display:flex;flex-wrap:wrap;gap:.6rem}.pref-stat{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);border-radius:20px;padding:.3rem .85rem;color:#fff;font-size:.8rem;font-weight:600}.pref-section{padding:2.5rem 1.5rem}.pref-section+.pref-section{padding-top:0}.pref-container{max-width:var(--max-w);margin:0 auto}.pref-section-title{font-size:1.55rem;font-weight:900;margin:0 0 .4rem;display:flex;align-items:center;gap:.5rem}.pref-section-lead{font-size:1rem;color:#555;line-height:1.7;max-width:680px;margin-bottom:1.5rem}.ponko-guide{display:flex;align-items:flex-end;gap:0;margin-bottom:1.6rem}.ponko-bubble{flex:1;min-width:0;background:linear-gradient(135deg,#fff9f0,#fff3e0);border:2px solid #f5a623;border-radius:18px 18px 18px 4px;padding:1.2rem 1.5rem;position:relative;box-shadow:0 4px 14px rgba(245,166,35,.13)}.ponko-bubble::after{content:'';position:absolute;right:-18px;bottom:22px;border:9px solid transparent;border-left-color:#f5a623}.ponko-bubble::before{content:'';position:absolute;right:-13px;bottom:23px;z-index:1;border:8px solid transparent;border-left-color:#fff9f0}.ponko-bubble p{font-size:.97rem;line-height:1.8;color:#333;margin:0}.ponko-figure{flex-shrink:0;width:170px;margin-left:4px;animation:ponko-float 3s ease-in-out infinite}.ponko-figure img{width:100%;height:auto;display:block;filter:drop-shadow(0 6px 10px rgba(0,0,0,.18))}@keyframes ponko-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}@media(max-width:640px){.ponko-guide{flex-direction:column;align-items:center}.ponko-bubble{border-radius:18px;order:2;width:100%}.ponko-bubble::after,.ponko-bubble::before{display:none}.ponko-figure{order:1;width:130px;margin-left:0;margin-bottom:.5rem;animation:none}}.quick-facts{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.8rem;margin-top:1.4rem}.qf-card{background:#f8f9fb;border:1px solid var(--border);border-radius:12px;padding:1rem 1.1rem;display:flex;align-items:flex-start;gap:.7rem}.qf-icon{font-size:1.4rem;flex-shrink:0}.qf-label{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--gray);margin-bottom:.15rem}.qf-value{font-size:.9rem;font-weight:600;color:var(--dark)}.access-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}.access-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 8px rgba(0,0,0,5%)}.access-card-hd{display:flex;align-items:center;gap:.5rem;margin-bottom:.8rem}.access-card-icon{font-size:1.5rem}.access-card-title{font-size:1rem;font-weight:800;color:var(--dark)}.access-card ul{margin:0;padding-left:1.1rem}.access-card li{font-size:.875rem;line-height:1.65;color:#444;margin-bottom:.3rem}.access-card li strong{color:var(--dark)}.access-tip{margin-top:1.2rem;background:#fff8e6;border:1px solid #ffe0a0;border-radius:10px;padding:.9rem 1.1rem;font-size:.85rem;line-height:1.6;color:#5a3e00}.access-tip strong{display:block;margin-bottom:.2rem;font-size:.88rem}.guide-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem}.guide-card{background:#fff;border-radius:14px;overflow:hidden;border:1px solid var(--border);box-shadow:0 2px 8px rgba(0,0,0,5%);transition:transform .15s,box-shadow .15s;position:relative;display:flex;flex-direction:column}.guide-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.guide-card-img{width:100%;height:150px;object-fit:cover;background:#e8eef4;display:block}.guide-card-img-ph{width:100%;height:150px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:2.5rem}.guide-card-body{padding:.9rem 1rem 1rem;flex:1}.guide-cat-badge{display:inline-block;font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;padding:.15rem .55rem;border-radius:8px;background:var(--red);color:#fff;margin-bottom:.4rem}.guide-card-title{font-size:.92rem;font-weight:800;color:var(--dark);line-height:1.4}.guide-coming-soon{position:absolute;top:.6rem;right:.6rem;background:rgba(0,0,0,.55);color:#fff;font-size:.65rem;font-weight:700;padding:.2rem .5rem;border-radius:6px;text-transform:uppercase;letter-spacing:.05em}.guide-card-link{text-decoration:none;color:inherit;display:flex;flex-direction:column;height:100%}.pref-toc{background:#fff;border-bottom:2px solid var(--border);position:sticky;top:0;z-index:100;overflow-x:auto}.pref-toc-inner{display:flex;gap:0;max-width:var(--max-w);margin:0 auto}.pref-toc-btn{flex:none;display:flex;align-items:center;gap:.4rem;padding:.8rem 1.2rem;border:none;background:0 0;cursor:pointer;font-family:inherit;font-size:.88rem;font-weight:600;color:var(--gray);border-bottom:3px solid transparent;transition:all .18s;white-space:nowrap}.pref-toc-btn .toc-icon{font-size:1.1rem}.pref-toc-btn:hover{color:var(--dark);background:#f8f8f8}.pref-toc-btn.active{color:var(--toc-color,var(--red));border-bottom-color:var(--toc-color,var(--red))}.spot-section{padding:2rem 1.5rem 2.5rem}.spot-section.hidden{display:none}.spot-section-inner{max-width:var(--max-w);margin:0 auto}.section-hd{display:flex;align-items:center;gap:.6rem;margin-bottom:1.4rem;padding-bottom:.7rem;border-bottom:2px solid var(--border)}.section-hd .s-icon{font-size:1.6rem}.section-hd h2{font-size:1.35rem;font-weight:800;margin:0}.section-hd .s-count{margin-left:auto;background:var(--sec-color,var(--red));color:#fff;border-radius:20px;padding:.15rem .65rem;font-size:.78rem;font-weight:700}.spot-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.25rem}.spot-card{border-radius:14px;overflow:hidden;border:1px solid var(--border);background:#fff;box-shadow:0 2px 8px rgba(0,0,0,6%);transition:transform .15s,box-shadow .15s;display:flex;flex-direction:column}.spot-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.spot-img{width:100%;height:200px;object-fit:cover;background:#e8eef4;display:block}.spot-img-ph{width:100%;height:200px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:3rem}.spot-body{padding:1rem 1.1rem 1.1rem;flex:1;display:flex;flex-direction:column}.spot-meta{display:flex;align-items:center;gap:.5rem;margin-bottom:.5rem}.spot-location{font-size:.78rem;color:var(--gray);font-weight:500}.spot-season-badge{margin-left:auto;font-size:.7rem;font-weight:700;padding:.1rem .5rem;border-radius:10px;background:#f0f4f8;color:#555;white-space:nowrap}.spot-name{font-size:1.08rem;font-weight:800;color:var(--dark);margin:0 0 .45rem;line-height:1.3}.spot-desc{font-size:.86rem;line-height:1.65;color:#555;flex:1;margin-bottom:.75rem}.spot-tags{display:flex;flex-wrap:wrap;gap:.3rem}.spot-tag{font-size:.7rem;font-weight:600;padding:.15rem .5rem;border-radius:6px;background:var(--tag-bg,#f0f4f8);color:var(--tag-color,#445)}.tips-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem}.tip-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 6px rgba(0,0,0,4%)}.tip-card-icon{font-size:1.8rem;margin-bottom:.6rem}.tip-card-title{font-size:.95rem;font-weight:800;color:var(--dark);margin-bottom:.5rem}.tip-card-body{font-size:.85rem;line-height:1.65;color:#555}.tip-card-body ul{margin:.3rem 0 0;padding-left:1.1rem}.tip-card-body li{margin-bottom:.2rem}.pref-cta{background:var(--bg-soft);padding:2.5rem 1.5rem 3rem;border-top:1px solid var(--border)}.pref-cta .pref-container{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}@media(max-width:600px){.pref-hero{min-height:320px}.quick-facts{grid-template-columns:repeat(2,1fr)}.pref-toc-btn{padding:.7rem .9rem;font-size:.82rem}}.btn-add-plan{display:inline-flex;align-items:center;gap:.35rem;margin-top:.75rem;padding:.45rem .9rem;border:1.5px solid #2d5be3;border-radius:8px;background:#fff;color:#2d5be3;font-size:.78rem;font-weight:700;font-family:inherit;cursor:pointer;transition:background .15s,color .15s,transform .1s;width:100%;justify-content:center}.btn-add-plan:hover{background:#2d5be3;color:#fff;transform:translateY(-1px)}.btn-add-plan.in-plan{background:#e8f0ff;color:#1a45a8;border-color:#1a45a8}.btn-add-plan.in-plan:hover{background:#c0003a;color:#fff;border-color:#c0003a}.btn-read-guide{display:inline-flex;align-items:center;justify-content:center;gap:.35rem;margin-top:.5rem;padding:.45rem .9rem;border:1.5px solid #1a7a34;border-radius:8px;background:#f0faf2;color:#1a7a34;font-size:.78rem;font-weight:700;text-decoration:none;width:100%;transition:background .15s,color .15s,transform .1s}.btn-read-guide:hover{background:#1a7a34;color:#fff;transform:translateY(-1px);text-decoration:none}.see-all-wrap{text-align:center;margin-top:1.5rem;padding-top:1rem;border-top:1px dashed var(--border)}.see-all-btn{display:inline-flex;align-items:center;gap:.4rem;padding:.55rem 1.5rem;border:2px solid;border-radius:10px;font-size:.88rem;font-weight:700;text-decoration:none;transition:all .15s}.see-all-btn:hover{opacity:.8;text-decoration:none}.see-all-btn{cursor:pointer;background:0 0}.spot-card.spot-more{display:none}.spot-section.spots-expanded .spot-card.spot-more{display:flex}.spot-section.spots-expanded .see-all-wrap{display:none}</style>
 <nav class=pref-breadcrumb aria-label=breadcrumb>
 <a href=/>홈</a><span>›</span>
 <a href=/explore/>일본 탐색</a><span>›</span>
@@ -543,11 +543,271 @@
 </button>
 </div>
 </article>
+<article class="spot-card spot-more" data-spot-id=kumano-hongu-taisha data-spot-name="구마노 혼구 타이샤 신사" data-spot-pref=wakayama data-spot-fee=0 data-spot-dur=85 data-spot-lat=33.8523 data-spot-lng=135.7289 data-spot-area=kumano-region data-spot-rating=4.6 data-spot-reviews=1900 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Kumano_Kodo_Kumano_Hongu_Taisha_World_heritage_%E7%86%8A%E9%87%8E%E6%9C%AC%E5%AE%AE%E5%A4%A7%E7%A4%BE02.JPG/960px-Kumano_Kodo_Kumano_Hongu_Taisha_World_heritage_%E7%86%8A%E9%87%8E%E6%9C%AC%E5%AE%AE%E5%A4%A7%E7%A4%BE02.JPG data-spot-cats=sightseeing,sightseeing>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Kumano_Kodo_Kumano_Hongu_Taisha_World_heritage_%E7%86%8A%E9%87%8E%E6%9C%AC%E5%AE%AE%E5%A4%A7%E7%A4%BE02.JPG/960px-Kumano_Kodo_Kumano_Hongu_Taisha_World_heritage_%E7%86%8A%E9%87%8E%E6%9C%AC%E5%AE%AE%E5%A4%A7%E7%A4%BE02.JPG alt="구마노 혼구 타이샤 신사" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 구마노 지역, 와카야마</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>구마노 혼구 타이샤 신사</h3>
+<p class=spot-desc>세 곳의 구마노 대사 중 가장 큰 혼구 타이샤는 구마노강 옆에 장엄하게 자리하며 순례 루트의 영적 중심입니다. 거대한 도리이 문과 평화로운 강변 환경이 필수적인 순례 방문지로 만들어줍니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>대신사</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>순례</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>신성한 건축</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=kumano-hayatama-shrine data-spot-name="구마노 하야타마 타이샤 신사" data-spot-pref=wakayama data-spot-fee=0 data-spot-dur=75 data-spot-lat=33.6804 data-spot-lng=135.9763 data-spot-area=kumano-region data-spot-rating=4.5 data-spot-reviews=1600 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Shingu_Kumano_Hayatama-taisha_Torii.jpg/960px-Shingu_Kumano_Hayatama-taisha_Torii.jpg data-spot-cats=sightseeing,sightseeing>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Shingu_Kumano_Hayatama-taisha_Torii.jpg/960px-Shingu_Kumano_Hayatama-taisha_Torii.jpg alt="구마노 하야타마 타이샤 신사" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 신구, 와카야마</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>구마노 하야타마 타이샤 신사</h3>
+<p class=spot-desc>세 곳의 구마노 대사 중 하나인 이 고대 신도 성지는 구마노강을 내려다보는 숲이 우거진 산 위에 극적으로 자리잡고 있습니다. 신사의 주홍빛 도리이 문과 평화로운 분위기는 구마노 순례길의 신성한 하이라이트로 만들어줍니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>신성한 신사</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>순례지</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>산 성지</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=kongobu-ji-temple data-spot-name="곤고부지 본당(고야산)" data-spot-pref=wakayama data-spot-fee=600 data-spot-dur=75 data-spot-lat=34.2158 data-spot-lng=135.5932 data-spot-area=koyasan data-spot-rating=4.5 data-spot-reviews=1300 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Kongobuji_Temple%2C_Koyasan%2C_Japan_-_front_facade.JPG/960px-Kongobuji_Temple%2C_Koyasan%2C_Japan_-_front_facade.JPG data-spot-cats=sightseeing,sightseeing>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Kongobuji_Temple%2C_Koyasan%2C_Japan_-_front_facade.JPG/960px-Kongobuji_Temple%2C_Koyasan%2C_Japan_-_front_facade.JPG alt="곤고부지 본당(고야산)" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 고야산, 와카야마</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>곤고부지 본당(고야산)</h3>
+<p class=spot-desc>고야산 불교 공동체의 행정 본부인 이 인상적인 사원은 일본 최대 암석 정원 중 하나(반류테이)와 놀라운 건축적 세부를 자랑합니다. 화려한 홀에는 수 세기에 걸친 불교 예술과 신성한 유물이 전시되어 있습니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>불교 사원</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>석정원</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>건축</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=hashigui-rocks data-spot-name="하시구이 바위(교각 바위 지형)" data-spot-pref=wakayama data-spot-fee=0 data-spot-dur=60 data-spot-lat=33.5289 data-spot-lng=135.6423 data-spot-area=kushimoto data-spot-rating=4.5 data-spot-reviews=1200 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/180429_Hashiguiiwa_Kushimoto_Wakayama_pref_Japan02bs.jpg/960px-180429_Hashiguiiwa_Kushimoto_Wakayama_pref_Japan02bs.jpg data-spot-cats=nature,sightseeing>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/180429_Hashiguiiwa_Kushimoto_Wakayama_pref_Japan02bs.jpg/960px-180429_Hashiguiiwa_Kushimoto_Wakayama_pref_Japan02bs.jpg alt="하시구이 바위(교각 바위 지형)" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 구시모토, 와카야마</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>하시구이 바위(교각 바위 지형)</h3>
+<p class=spot-desc>이 극적인 암석 기둥들이 와카야마 남해안을 따라 바다에서 솟아올라 일본에서 가장 인상적인 지질 지형 중 하나를 만들어냅니다. 황금빛 빛이 40미터 높이의 돌을 비추는 일몰 시 방문하면 멋진 사진을 찍을 수 있습니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>지질 지형</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>경치 좋은 해안</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>사진</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=shoro-shrine-arashiyama data-spot-name="요로 신사(수국 성지)" data-spot-pref=wakayama data-spot-fee=0 data-spot-dur=90 data-spot-lat=33.7634 data-spot-lng=135.4256 data-spot-area=tanabe data-spot-rating=4.4 data-spot-reviews=1050 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Hakusan_Shrine_Ajisai_%2851926095554%29.jpg/960px-Hakusan_Shrine_Ajisai_%2851926095554%29.jpg data-spot-cats=sightseeing,sightseeing>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Hakusan_Shrine_Ajisai_%2851926095554%29.jpg/960px-Hakusan_Shrine_Ajisai_%2851926095554%29.jpg alt="요로 신사(수국 성지)" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 다나베, 와카야마</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>요로 신사(수국 성지)</h3>
+<p class=spot-desc>이 분위기 있는 신사는 6월에 다양한 색상의 15,000송이 이상의 꽃이 피는 아름다운 수국 정원으로 유명합니다. 평화로운 숲 배경과 전통 도리이 문이 꽃이 절정인 시기에 마법 같은 환경을 만들어냅니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>꽃 성지</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>역사적 신사</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>계절 아름다움</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=katsuura-tuna-market data-spot-name="가쓰우라 참치 시장" data-spot-pref=wakayama data-spot-fee=0 data-spot-dur=90 data-spot-lat=33.5628 data-spot-lng=135.7256 data-spot-area=katsuura data-spot-rating=4.4 data-spot-reviews=1100 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Tsukiji_fish_market_tuna_auction.jpg/960px-Tsukiji_fish_market_tuna_auction.jpg data-spot-cats=gourmet,sightseeing>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Tsukiji_fish_market_tuna_auction.jpg/960px-Tsukiji_fish_market_tuna_auction.jpg alt="가쓰우라 참치 시장" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 가쓰우라, 와카야마</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>가쓰우라 참치 시장</h3>
+<p class=spot-desc>이 활기찬 새벽 어시장은 신선한 참치와 쿠로시오 해류 어획물을 일출에 전시하는 일본 어업 유산의 진정한 단면을 보여줍니다. 항구가 내려다보이는 노점에서 초신선 스시를 즐기며 전통 생선 경매 절차를 관찰할 수 있습니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>해산물 시장</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>신선한 생선</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>지역 문화</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=kishu-ume-plum-village data-spot-name="기슈 매실 마을" data-spot-pref=wakayama data-spot-fee=0 data-spot-dur=100 data-spot-lat=33.9745 data-spot-lng=135.3456 data-spot-area=minabe data-spot-rating=4.4 data-spot-reviews=1100 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Minabe-Bairin_Minabe_Wakayama04n3200.jpg/960px-Minabe-Bairin_Minabe_Wakayama04n3200.jpg data-spot-cats=gourmet,sightseeing>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Minabe-Bairin_Minabe_Wakayama04n3200.jpg/960px-Minabe-Bairin_Minabe_Wakayama04n3200.jpg alt="기슈 매실 마을" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 미나베, 와카야마</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>기슈 매실 마을</h3>
+<p class=spot-desc>일본 매실(우메) 생산의 중심지인 이 그림 같은 마을은 전통 매실 농업과 생산 시설을 선보입니다. 봄 매화 꽃피는 시기(1~2월) 또는 여름 수확기에 방문해 우메보시(절인 매실), 매실 주스, 매실 향 과자를 시식해보세요.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>매실 제품</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>전통 농업</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>시식 투어</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=namikaze-trail-hidden-shrine data-spot-name="나미카제 트레일 숨겨진 신사(덴진 신사)" data-spot-pref=wakayama data-spot-fee=0 data-spot-dur=75 data-spot-lat=33.8012 data-spot-lng=135.2834 data-spot-area=arida data-spot-rating=4.3 data-spot-reviews=340 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Daimonzaka8554.JPG/960px-Daimonzaka8554.JPG data-spot-cats=sightseeing,nature>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Daimonzaka8554.JPG/960px-Daimonzaka8554.JPG alt="나미카제 트레일 숨겨진 신사(덴진 신사)" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 아리다, 와카야마</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>나미카제 트레일 숨겨진 신사(덴진 신사)</h3>
+<p class=spot-desc>나미카제 해안 트레일을 따라 조용한 숲속에 자리한 이 덜 알려진 신사는 현지 순례자들에게는 인기 있지만 관광객이 거의 찾지 않는 평화로운 피난처입니다. 고목들 사이의 분위기 있는 환경과 바다 전망이 완벽한 숨겨진 발견을 만들어냅니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>숨겨진 보석</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>산림 하이킹</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>지역 신앙</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=shirahama-beach data-spot-name="시라하마 해변과 온천" data-spot-pref=wakayama data-spot-fee=0 data-spot-dur=180 data-spot-lat=33.6845 data-spot-lng=135.3567 data-spot-area=shirahama data-spot-rating=4.3 data-spot-reviews=1700 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/131221_Shirarahama_Beach_Shirahama_Wakayama_pref_Japan07s3bs.jpg/960px-131221_Shirarahama_Beach_Shirahama_Wakayama_pref_Japan07s3bs.jpg data-spot-cats=leisure,sightseeing>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/131221_Shirarahama_Beach_Shirahama_Wakayama_pref_Japan07s3bs.jpg/960px-131221_Shirarahama_Beach_Shirahama_Wakayama_pref_Japan07s3bs.jpg alt="시라하마 해변과 온천" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 시라하마, 와카야마</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>시라하마 해변과 온천</h3>
+<p class=spot-desc>이 유명한 백사장 해수욕장은 해변가 온천과 결합되어 모래 위에 발을 담그고 천연 미네랄 온천을 즐길 수 있습니다. 극적인 암석 지형과 바닷가 절벽이 특히 일몰 시 인상적인 전망을 만들어냅니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>백사장 해변</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>온천 리조트</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>해안 전망</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=wakayama-castle data-spot-name="와카야마 성" data-spot-pref=wakayama data-spot-fee=410 data-spot-dur=120 data-spot-lat=34.2261 data-spot-lng=135.1673 data-spot-area=central-wakayama data-spot-rating=4.2 data-spot-reviews=1800 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Wakayama_Castle_-_Apr_4%2C_2017_%282%29.jpg/960px-Wakayama_Castle_-_Apr_4%2C_2017_%282%29.jpg data-spot-cats=sightseeing,sightseeing>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Wakayama_Castle_-_Apr_4%2C_2017_%282%29.jpg/960px-Wakayama_Castle_-_Apr_4%2C_2017_%282%29.jpg alt="와카야마 성" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 와카야마 중심부, 와카야마</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>와카야마 성</h3>
+<p class=spot-desc>원래 1585년에 건축된 이 언덕 위의 웅장한 성은 와카야마시와 태평양의 멋진 파노라마 전망을 제공합니다. 복원된 천수각에는 역사 유물이 전시되어 있으며, 성터는 봄에 화려하게 꽃피는 수백 그루의 벚나무로 유명합니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>역사적 성</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>도시 전망</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>벚꽃</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=wakayama-marine-museum data-spot-name="와카야마 해양 박물관" data-spot-pref=wakayama data-spot-fee=1200 data-spot-dur=120 data-spot-lat=34.2134 data-spot-lng=135.1456 data-spot-area=central-wakayama data-spot-rating=4.2 data-spot-reviews=780 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Loggerhead_sea_turtle.jpg/960px-Loggerhead_sea_turtle.jpg data-spot-cats=sightseeing,sightseeing>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Loggerhead_sea_turtle.jpg/960px-Loggerhead_sea_turtle.jpg alt="와카야마 해양 박물관" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 와카야마 중심부, 와카야마</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>와카야마 해양 박물관</h3>
+<p class=spot-desc>이 흥미로운 박물관은 쿠로시오 해류의 해양 생태다양성을 돌고래와 바다거북이 있는 인터랙티브 수조와 함께 선보입니다. 창의적인 전시와 살아있는 동물 시연을 통해 와카야마의 어업 유산과 해양 보전 노력에 대해 알아볼 수 있습니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>해양 생물</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>교육적</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>인터랙티브 전시</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=tanabe-castle-ruins data-spot-name="다나베 성터 공원" data-spot-pref=wakayama data-spot-fee=0 data-spot-dur=75 data-spot-lat=33.7456 data-spot-lng=135.3834 data-spot-area=tanabe data-spot-rating=4.1 data-spot-reviews=680 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Tanabe_castle_in_wakayama001.JPG/960px-Tanabe_castle_in_wakayama001.JPG data-spot-cats=sightseeing,sightseeing>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Tanabe_castle_in_wakayama001.JPG/960px-Tanabe_castle_in_wakayama001.JPG alt="다나베 성터 공원" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 다나베, 와카야마</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>다나베 성터 공원</h3>
+<p class=spot-desc>16세기 이 성의 분위기 있는 유적은 벚꽃과 철쭉으로 유명한 경치 좋은 공원 안에 있습니다. 기초만 남아 있지만 이 장소는 평화로운 숲속 산책과 다나베 역사 마을 전망을 제공합니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>역사적 성</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>공원</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>벚꽃</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=taiji-whale-museum data-spot-name="다이지 고래 박물관" data-spot-pref=wakayama data-spot-fee=1000 data-spot-dur=90 data-spot-lat=33.6245 data-spot-lng=135.6512 data-spot-area=taiji data-spot-rating=4.1 data-spot-reviews=420 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Dolphin_show%2C_Taiji_Whale_Museum_1.jpg/960px-Dolphin_show%2C_Taiji_Whale_Museum_1.jpg data-spot-cats=sightseeing,sightseeing>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Dolphin_show%2C_Taiji_Whale_Museum_1.jpg/960px-Dolphin_show%2C_Taiji_Whale_Museum_1.jpg alt="다이지 고래 박물관" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 다이지, 와카야마</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>다이지 고래 박물관</h3>
+<p class=spot-desc>이 박물관은 400년에 걸친 해양 전통을 아우르는 전시를 통해 다이지의 복잡한 포경 역사를 소개합니다. 논란의 여지가 있는 주제임에도 불구하고 박물관은 지역 문화와 바다에 대한 일본의 관계를 이해하는 시각을 제공합니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>해양 역사</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>포경 유산</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>교육적</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 </div>
 <div class=see-all-wrap>
-<a class=see-all-btn style=color:#1a45a8 href=/prefectures/wakayama/sightseeing/>
-See all 19 관광명소 spots →
-</a>
+<button class="see-all-btn show-more-btn" style=color:#1a45a8 type=button data-section=section-sightseeing>
+전체 보기 (19) ↓
+</button>
 </div>
 </div>
 </section><section class=spot-section id=section-gourmet data-cat=gourmet>
@@ -788,11 +1048,51 @@ See all 19 관광명소 spots →
 </button>
 </div>
 </article>
+<article class="spot-card spot-more" data-spot-id=kii-peninsula-cave-exploring data-spot-name="기이 반도 동굴 투어" data-spot-pref=wakayama data-spot-fee=800 data-spot-dur=100 data-spot-lat=33.7234 data-spot-lng=135.6789 data-spot-area=kii-peninsula data-spot-rating=4.3 data-spot-reviews=550 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Stalactite_cave_on_Ishigakijima%2C_Japan.jpg/960px-Stalactite_cave_on_Ishigakijima%2C_Japan.jpg data-spot-cats=nature,leisure>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Stalactite_cave_on_Ishigakijima%2C_Japan.jpg/960px-Stalactite_cave_on_Ishigakijima%2C_Japan.jpg alt="기이 반도 동굴 투어" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🏔️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 기이 반도, 와카야마</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>기이 반도 동굴 투어</h3>
+<p class=spot-desc>수백만 년에 걸쳐 물이 석회암을 뚫고 만들어낸 신비로운 지하 동굴 시스템을 탐험하세요. 가이드 투어는 종유석, 지하 강, 숨겨진 방을 공개하며 이 자연 불가사의를 만들어낸 지질학적 과정을 설명합니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>지하 모험</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>지질학적 경이</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>가이드 투어</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=namikaze-trail-hidden-shrine data-spot-name="나미카제 트레일 숨겨진 신사(덴진 신사)" data-spot-pref=wakayama data-spot-fee=0 data-spot-dur=75 data-spot-lat=33.8012 data-spot-lng=135.2834 data-spot-area=arida data-spot-rating=4.3 data-spot-reviews=340 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Daimonzaka8554.JPG/960px-Daimonzaka8554.JPG data-spot-cats=sightseeing,nature>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Daimonzaka8554.JPG/960px-Daimonzaka8554.JPG alt="나미카제 트레일 숨겨진 신사(덴진 신사)" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🏔️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 아리다, 와카야마</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>나미카제 트레일 숨겨진 신사(덴진 신사)</h3>
+<p class=spot-desc>나미카제 해안 트레일을 따라 조용한 숲속에 자리한 이 덜 알려진 신사는 현지 순례자들에게는 인기 있지만 관광객이 거의 찾지 않는 평화로운 피난처입니다. 고목들 사이의 분위기 있는 환경과 바다 전망이 완벽한 숨겨진 발견을 만들어냅니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>숨겨진 보석</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>산림 하이킹</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>지역 신앙</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 </div>
 <div class=see-all-wrap>
-<a class=see-all-btn style=color:#1a7a34 href=/prefectures/wakayama/nature/>
-See all 8 자연 spots →
-</a>
+<button class="see-all-btn show-more-btn" style=color:#1a7a34 type=button data-section=section-nature>
+전체 보기 (8) ↓
+</button>
 </div>
 </div>
 </section><section class=spot-section id=section-leisure data-cat=leisure>
@@ -924,11 +1224,31 @@ See all 8 자연 spots →
 </button>
 </div>
 </article>
+<article class="spot-card spot-more" data-spot-id=kii-peninsula-cave-exploring data-spot-name="기이 반도 동굴 투어" data-spot-pref=wakayama data-spot-fee=800 data-spot-dur=100 data-spot-lat=33.7234 data-spot-lng=135.6789 data-spot-area=kii-peninsula data-spot-rating=4.3 data-spot-reviews=550 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Stalactite_cave_on_Ishigakijima%2C_Japan.jpg/960px-Stalactite_cave_on_Ishigakijima%2C_Japan.jpg data-spot-cats=nature,leisure>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Stalactite_cave_on_Ishigakijima%2C_Japan.jpg/960px-Stalactite_cave_on_Ishigakijima%2C_Japan.jpg alt="기이 반도 동굴 투어" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎿</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 기이 반도, 와카야마</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>기이 반도 동굴 투어</h3>
+<p class=spot-desc>수백만 년에 걸쳐 물이 석회암을 뚫고 만들어낸 신비로운 지하 동굴 시스템을 탐험하세요. 가이드 투어는 종유석, 지하 강, 숨겨진 방을 공개하며 이 자연 불가사의를 만들어낸 지질학적 과정을 설명합니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>지하 모험</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>지질학적 경이</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>가이드 투어</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 </div>
 <div class=see-all-wrap>
-<a class=see-all-btn style=color:#b35c00 href=/prefectures/wakayama/leisure/>
-See all 7 레저 spots →
-</a>
+<button class="see-all-btn show-more-btn" style=color:#b35c00 type=button data-section=section-leisure>
+전체 보기 (7) ↓
+</button>
 </div>
 </div>
 </section><section class=spot-section id=section-events data-cat=events>
@@ -1183,6 +1503,13 @@ See all 7 레저 spots →
 </div>
 <script>
 (function(){
+ 
+document.querySelectorAll('.show-more-btn').forEach(function(btn){
+  btn.addEventListener('click', function(){
+    var sec = document.getElementById(btn.dataset.section);
+    if (sec) sec.classList.add('spots-expanded');
+  });
+});
  
 const CATS = {
   sightseeing:{ color:"#1a45a8" },

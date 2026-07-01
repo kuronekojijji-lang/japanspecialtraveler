@@ -99,7 +99,7 @@
   document.addEventListener('keydown', function(e){ if(e.key==='Escape') close(); });
 })();
 </script>
-<style>.pref-breadcrumb{background:#f8f9fa;border-bottom:1px solid var(--border);padding:.6rem 1.5rem;font-size:.82rem;color:var(--gray)}.pref-breadcrumb a{color:var(--red);text-decoration:none}.pref-breadcrumb a:hover{text-decoration:underline}.pref-breadcrumb span{margin:0 .4rem}.pref-hero{position:relative;min-height:440px;display:flex;align-items:flex-end;background:#1a1a2e 50%/cover no-repeat;background-image:url(https://images.unsplash.com/photo-1540960638993-58c7eb31ce3a?w=1600&q=80)}.pref-hero::after{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,.15) 0%,rgba(0,0,0,.7) 100%)}.pref-hero-body{position:relative;z-index:1;padding:2.5rem 1.5rem 2rem;max-width:var(--max-w);margin:0 auto;width:100%}.pref-hero-eyebrow{color:rgba(255,255,255,.75);font-size:.82rem;font-weight:600;text-transform:uppercase;letter-spacing:.1em;margin-bottom:.5rem}.pref-hero h1{color:#fff;font-size:clamp(2.2rem,5.5vw,3.4rem);font-weight:900;margin:0 0 .5rem;line-height:1.1}.pref-hero .pref-sub{color:rgba(255,255,255,.88);font-size:1.05rem;max-width:560px;margin-bottom:1rem}.pref-stats{display:flex;flex-wrap:wrap;gap:.6rem}.pref-stat{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);border-radius:20px;padding:.3rem .85rem;color:#fff;font-size:.8rem;font-weight:600}.pref-section{padding:2.5rem 1.5rem}.pref-section+.pref-section{padding-top:0}.pref-container{max-width:var(--max-w);margin:0 auto}.pref-section-title{font-size:1.55rem;font-weight:900;margin:0 0 .4rem;display:flex;align-items:center;gap:.5rem}.pref-section-lead{font-size:1rem;color:#555;line-height:1.7;max-width:680px;margin-bottom:1.5rem}.ponko-guide{display:flex;align-items:flex-end;gap:0;margin-bottom:1.6rem}.ponko-bubble{flex:1;min-width:0;background:linear-gradient(135deg,#fff9f0,#fff3e0);border:2px solid #f5a623;border-radius:18px 18px 18px 4px;padding:1.2rem 1.5rem;position:relative;box-shadow:0 4px 14px rgba(245,166,35,.13)}.ponko-bubble::after{content:'';position:absolute;right:-18px;bottom:22px;border:9px solid transparent;border-left-color:#f5a623}.ponko-bubble::before{content:'';position:absolute;right:-13px;bottom:23px;z-index:1;border:8px solid transparent;border-left-color:#fff9f0}.ponko-bubble p{font-size:.97rem;line-height:1.8;color:#333;margin:0}.ponko-figure{flex-shrink:0;width:170px;margin-left:4px;animation:ponko-float 3s ease-in-out infinite}.ponko-figure img{width:100%;height:auto;display:block;filter:drop-shadow(0 6px 10px rgba(0,0,0,.18))}@keyframes ponko-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}@media(max-width:640px){.ponko-guide{flex-direction:column;align-items:center}.ponko-bubble{border-radius:18px;order:2;width:100%}.ponko-bubble::after,.ponko-bubble::before{display:none}.ponko-figure{order:1;width:130px;margin-left:0;margin-bottom:.5rem;animation:none}}.quick-facts{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.8rem;margin-top:1.4rem}.qf-card{background:#f8f9fb;border:1px solid var(--border);border-radius:12px;padding:1rem 1.1rem;display:flex;align-items:flex-start;gap:.7rem}.qf-icon{font-size:1.4rem;flex-shrink:0}.qf-label{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--gray);margin-bottom:.15rem}.qf-value{font-size:.9rem;font-weight:600;color:var(--dark)}.access-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}.access-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 8px rgba(0,0,0,5%)}.access-card-hd{display:flex;align-items:center;gap:.5rem;margin-bottom:.8rem}.access-card-icon{font-size:1.5rem}.access-card-title{font-size:1rem;font-weight:800;color:var(--dark)}.access-card ul{margin:0;padding-left:1.1rem}.access-card li{font-size:.875rem;line-height:1.65;color:#444;margin-bottom:.3rem}.access-card li strong{color:var(--dark)}.access-tip{margin-top:1.2rem;background:#fff8e6;border:1px solid #ffe0a0;border-radius:10px;padding:.9rem 1.1rem;font-size:.85rem;line-height:1.6;color:#5a3e00}.access-tip strong{display:block;margin-bottom:.2rem;font-size:.88rem}.guide-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem}.guide-card{background:#fff;border-radius:14px;overflow:hidden;border:1px solid var(--border);box-shadow:0 2px 8px rgba(0,0,0,5%);transition:transform .15s,box-shadow .15s;position:relative;display:flex;flex-direction:column}.guide-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.guide-card-img{width:100%;height:150px;object-fit:cover;background:#e8eef4;display:block}.guide-card-img-ph{width:100%;height:150px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:2.5rem}.guide-card-body{padding:.9rem 1rem 1rem;flex:1}.guide-cat-badge{display:inline-block;font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;padding:.15rem .55rem;border-radius:8px;background:var(--red);color:#fff;margin-bottom:.4rem}.guide-card-title{font-size:.92rem;font-weight:800;color:var(--dark);line-height:1.4}.guide-coming-soon{position:absolute;top:.6rem;right:.6rem;background:rgba(0,0,0,.55);color:#fff;font-size:.65rem;font-weight:700;padding:.2rem .5rem;border-radius:6px;text-transform:uppercase;letter-spacing:.05em}.guide-card-link{text-decoration:none;color:inherit;display:flex;flex-direction:column;height:100%}.pref-toc{background:#fff;border-bottom:2px solid var(--border);position:sticky;top:0;z-index:100;overflow-x:auto}.pref-toc-inner{display:flex;gap:0;max-width:var(--max-w);margin:0 auto}.pref-toc-btn{flex:none;display:flex;align-items:center;gap:.4rem;padding:.8rem 1.2rem;border:none;background:0 0;cursor:pointer;font-family:inherit;font-size:.88rem;font-weight:600;color:var(--gray);border-bottom:3px solid transparent;transition:all .18s;white-space:nowrap}.pref-toc-btn .toc-icon{font-size:1.1rem}.pref-toc-btn:hover{color:var(--dark);background:#f8f8f8}.pref-toc-btn.active{color:var(--toc-color,var(--red));border-bottom-color:var(--toc-color,var(--red))}.spot-section{padding:2rem 1.5rem 2.5rem}.spot-section.hidden{display:none}.spot-section-inner{max-width:var(--max-w);margin:0 auto}.section-hd{display:flex;align-items:center;gap:.6rem;margin-bottom:1.4rem;padding-bottom:.7rem;border-bottom:2px solid var(--border)}.section-hd .s-icon{font-size:1.6rem}.section-hd h2{font-size:1.35rem;font-weight:800;margin:0}.section-hd .s-count{margin-left:auto;background:var(--sec-color,var(--red));color:#fff;border-radius:20px;padding:.15rem .65rem;font-size:.78rem;font-weight:700}.spot-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.25rem}.spot-card{border-radius:14px;overflow:hidden;border:1px solid var(--border);background:#fff;box-shadow:0 2px 8px rgba(0,0,0,6%);transition:transform .15s,box-shadow .15s;display:flex;flex-direction:column}.spot-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.spot-img{width:100%;height:200px;object-fit:cover;background:#e8eef4;display:block}.spot-img-ph{width:100%;height:200px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:3rem}.spot-body{padding:1rem 1.1rem 1.1rem;flex:1;display:flex;flex-direction:column}.spot-meta{display:flex;align-items:center;gap:.5rem;margin-bottom:.5rem}.spot-location{font-size:.78rem;color:var(--gray);font-weight:500}.spot-season-badge{margin-left:auto;font-size:.7rem;font-weight:700;padding:.1rem .5rem;border-radius:10px;background:#f0f4f8;color:#555;white-space:nowrap}.spot-name{font-size:1.08rem;font-weight:800;color:var(--dark);margin:0 0 .45rem;line-height:1.3}.spot-desc{font-size:.86rem;line-height:1.65;color:#555;flex:1;margin-bottom:.75rem}.spot-tags{display:flex;flex-wrap:wrap;gap:.3rem}.spot-tag{font-size:.7rem;font-weight:600;padding:.15rem .5rem;border-radius:6px;background:var(--tag-bg,#f0f4f8);color:var(--tag-color,#445)}.tips-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem}.tip-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 6px rgba(0,0,0,4%)}.tip-card-icon{font-size:1.8rem;margin-bottom:.6rem}.tip-card-title{font-size:.95rem;font-weight:800;color:var(--dark);margin-bottom:.5rem}.tip-card-body{font-size:.85rem;line-height:1.65;color:#555}.tip-card-body ul{margin:.3rem 0 0;padding-left:1.1rem}.tip-card-body li{margin-bottom:.2rem}.pref-cta{background:var(--bg-soft);padding:2.5rem 1.5rem 3rem;border-top:1px solid var(--border)}.pref-cta .pref-container{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}@media(max-width:600px){.pref-hero{min-height:320px}.quick-facts{grid-template-columns:repeat(2,1fr)}.pref-toc-btn{padding:.7rem .9rem;font-size:.82rem}}.btn-add-plan{display:inline-flex;align-items:center;gap:.35rem;margin-top:.75rem;padding:.45rem .9rem;border:1.5px solid #2d5be3;border-radius:8px;background:#fff;color:#2d5be3;font-size:.78rem;font-weight:700;font-family:inherit;cursor:pointer;transition:background .15s,color .15s,transform .1s;width:100%;justify-content:center}.btn-add-plan:hover{background:#2d5be3;color:#fff;transform:translateY(-1px)}.btn-add-plan.in-plan{background:#e8f0ff;color:#1a45a8;border-color:#1a45a8}.btn-add-plan.in-plan:hover{background:#c0003a;color:#fff;border-color:#c0003a}.btn-read-guide{display:inline-flex;align-items:center;justify-content:center;gap:.35rem;margin-top:.5rem;padding:.45rem .9rem;border:1.5px solid #1a7a34;border-radius:8px;background:#f0faf2;color:#1a7a34;font-size:.78rem;font-weight:700;text-decoration:none;width:100%;transition:background .15s,color .15s,transform .1s}.btn-read-guide:hover{background:#1a7a34;color:#fff;transform:translateY(-1px);text-decoration:none}.see-all-wrap{text-align:center;margin-top:1.5rem;padding-top:1rem;border-top:1px dashed var(--border)}.see-all-btn{display:inline-flex;align-items:center;gap:.4rem;padding:.55rem 1.5rem;border:2px solid;border-radius:10px;font-size:.88rem;font-weight:700;text-decoration:none;transition:all .15s}.see-all-btn:hover{opacity:.8;text-decoration:none}</style>
+<style>.pref-breadcrumb{background:#f8f9fa;border-bottom:1px solid var(--border);padding:.6rem 1.5rem;font-size:.82rem;color:var(--gray)}.pref-breadcrumb a{color:var(--red);text-decoration:none}.pref-breadcrumb a:hover{text-decoration:underline}.pref-breadcrumb span{margin:0 .4rem}.pref-hero{position:relative;min-height:440px;display:flex;align-items:flex-end;background:#1a1a2e 50%/cover no-repeat;background-image:url(https://images.unsplash.com/photo-1540960638993-58c7eb31ce3a?w=1600&q=80)}.pref-hero::after{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,.15) 0%,rgba(0,0,0,.7) 100%)}.pref-hero-body{position:relative;z-index:1;padding:2.5rem 1.5rem 2rem;max-width:var(--max-w);margin:0 auto;width:100%}.pref-hero-eyebrow{color:rgba(255,255,255,.75);font-size:.82rem;font-weight:600;text-transform:uppercase;letter-spacing:.1em;margin-bottom:.5rem}.pref-hero h1{color:#fff;font-size:clamp(2.2rem,5.5vw,3.4rem);font-weight:900;margin:0 0 .5rem;line-height:1.1}.pref-hero .pref-sub{color:rgba(255,255,255,.88);font-size:1.05rem;max-width:560px;margin-bottom:1rem}.pref-stats{display:flex;flex-wrap:wrap;gap:.6rem}.pref-stat{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);border-radius:20px;padding:.3rem .85rem;color:#fff;font-size:.8rem;font-weight:600}.pref-section{padding:2.5rem 1.5rem}.pref-section+.pref-section{padding-top:0}.pref-container{max-width:var(--max-w);margin:0 auto}.pref-section-title{font-size:1.55rem;font-weight:900;margin:0 0 .4rem;display:flex;align-items:center;gap:.5rem}.pref-section-lead{font-size:1rem;color:#555;line-height:1.7;max-width:680px;margin-bottom:1.5rem}.ponko-guide{display:flex;align-items:flex-end;gap:0;margin-bottom:1.6rem}.ponko-bubble{flex:1;min-width:0;background:linear-gradient(135deg,#fff9f0,#fff3e0);border:2px solid #f5a623;border-radius:18px 18px 18px 4px;padding:1.2rem 1.5rem;position:relative;box-shadow:0 4px 14px rgba(245,166,35,.13)}.ponko-bubble::after{content:'';position:absolute;right:-18px;bottom:22px;border:9px solid transparent;border-left-color:#f5a623}.ponko-bubble::before{content:'';position:absolute;right:-13px;bottom:23px;z-index:1;border:8px solid transparent;border-left-color:#fff9f0}.ponko-bubble p{font-size:.97rem;line-height:1.8;color:#333;margin:0}.ponko-figure{flex-shrink:0;width:170px;margin-left:4px;animation:ponko-float 3s ease-in-out infinite}.ponko-figure img{width:100%;height:auto;display:block;filter:drop-shadow(0 6px 10px rgba(0,0,0,.18))}@keyframes ponko-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}@media(max-width:640px){.ponko-guide{flex-direction:column;align-items:center}.ponko-bubble{border-radius:18px;order:2;width:100%}.ponko-bubble::after,.ponko-bubble::before{display:none}.ponko-figure{order:1;width:130px;margin-left:0;margin-bottom:.5rem;animation:none}}.quick-facts{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.8rem;margin-top:1.4rem}.qf-card{background:#f8f9fb;border:1px solid var(--border);border-radius:12px;padding:1rem 1.1rem;display:flex;align-items:flex-start;gap:.7rem}.qf-icon{font-size:1.4rem;flex-shrink:0}.qf-label{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--gray);margin-bottom:.15rem}.qf-value{font-size:.9rem;font-weight:600;color:var(--dark)}.access-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}.access-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 8px rgba(0,0,0,5%)}.access-card-hd{display:flex;align-items:center;gap:.5rem;margin-bottom:.8rem}.access-card-icon{font-size:1.5rem}.access-card-title{font-size:1rem;font-weight:800;color:var(--dark)}.access-card ul{margin:0;padding-left:1.1rem}.access-card li{font-size:.875rem;line-height:1.65;color:#444;margin-bottom:.3rem}.access-card li strong{color:var(--dark)}.access-tip{margin-top:1.2rem;background:#fff8e6;border:1px solid #ffe0a0;border-radius:10px;padding:.9rem 1.1rem;font-size:.85rem;line-height:1.6;color:#5a3e00}.access-tip strong{display:block;margin-bottom:.2rem;font-size:.88rem}.guide-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem}.guide-card{background:#fff;border-radius:14px;overflow:hidden;border:1px solid var(--border);box-shadow:0 2px 8px rgba(0,0,0,5%);transition:transform .15s,box-shadow .15s;position:relative;display:flex;flex-direction:column}.guide-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.guide-card-img{width:100%;height:150px;object-fit:cover;background:#e8eef4;display:block}.guide-card-img-ph{width:100%;height:150px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:2.5rem}.guide-card-body{padding:.9rem 1rem 1rem;flex:1}.guide-cat-badge{display:inline-block;font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;padding:.15rem .55rem;border-radius:8px;background:var(--red);color:#fff;margin-bottom:.4rem}.guide-card-title{font-size:.92rem;font-weight:800;color:var(--dark);line-height:1.4}.guide-coming-soon{position:absolute;top:.6rem;right:.6rem;background:rgba(0,0,0,.55);color:#fff;font-size:.65rem;font-weight:700;padding:.2rem .5rem;border-radius:6px;text-transform:uppercase;letter-spacing:.05em}.guide-card-link{text-decoration:none;color:inherit;display:flex;flex-direction:column;height:100%}.pref-toc{background:#fff;border-bottom:2px solid var(--border);position:sticky;top:0;z-index:100;overflow-x:auto}.pref-toc-inner{display:flex;gap:0;max-width:var(--max-w);margin:0 auto}.pref-toc-btn{flex:none;display:flex;align-items:center;gap:.4rem;padding:.8rem 1.2rem;border:none;background:0 0;cursor:pointer;font-family:inherit;font-size:.88rem;font-weight:600;color:var(--gray);border-bottom:3px solid transparent;transition:all .18s;white-space:nowrap}.pref-toc-btn .toc-icon{font-size:1.1rem}.pref-toc-btn:hover{color:var(--dark);background:#f8f8f8}.pref-toc-btn.active{color:var(--toc-color,var(--red));border-bottom-color:var(--toc-color,var(--red))}.spot-section{padding:2rem 1.5rem 2.5rem}.spot-section.hidden{display:none}.spot-section-inner{max-width:var(--max-w);margin:0 auto}.section-hd{display:flex;align-items:center;gap:.6rem;margin-bottom:1.4rem;padding-bottom:.7rem;border-bottom:2px solid var(--border)}.section-hd .s-icon{font-size:1.6rem}.section-hd h2{font-size:1.35rem;font-weight:800;margin:0}.section-hd .s-count{margin-left:auto;background:var(--sec-color,var(--red));color:#fff;border-radius:20px;padding:.15rem .65rem;font-size:.78rem;font-weight:700}.spot-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.25rem}.spot-card{border-radius:14px;overflow:hidden;border:1px solid var(--border);background:#fff;box-shadow:0 2px 8px rgba(0,0,0,6%);transition:transform .15s,box-shadow .15s;display:flex;flex-direction:column}.spot-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.spot-img{width:100%;height:200px;object-fit:cover;background:#e8eef4;display:block}.spot-img-ph{width:100%;height:200px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:3rem}.spot-body{padding:1rem 1.1rem 1.1rem;flex:1;display:flex;flex-direction:column}.spot-meta{display:flex;align-items:center;gap:.5rem;margin-bottom:.5rem}.spot-location{font-size:.78rem;color:var(--gray);font-weight:500}.spot-season-badge{margin-left:auto;font-size:.7rem;font-weight:700;padding:.1rem .5rem;border-radius:10px;background:#f0f4f8;color:#555;white-space:nowrap}.spot-name{font-size:1.08rem;font-weight:800;color:var(--dark);margin:0 0 .45rem;line-height:1.3}.spot-desc{font-size:.86rem;line-height:1.65;color:#555;flex:1;margin-bottom:.75rem}.spot-tags{display:flex;flex-wrap:wrap;gap:.3rem}.spot-tag{font-size:.7rem;font-weight:600;padding:.15rem .5rem;border-radius:6px;background:var(--tag-bg,#f0f4f8);color:var(--tag-color,#445)}.tips-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem}.tip-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 6px rgba(0,0,0,4%)}.tip-card-icon{font-size:1.8rem;margin-bottom:.6rem}.tip-card-title{font-size:.95rem;font-weight:800;color:var(--dark);margin-bottom:.5rem}.tip-card-body{font-size:.85rem;line-height:1.65;color:#555}.tip-card-body ul{margin:.3rem 0 0;padding-left:1.1rem}.tip-card-body li{margin-bottom:.2rem}.pref-cta{background:var(--bg-soft);padding:2.5rem 1.5rem 3rem;border-top:1px solid var(--border)}.pref-cta .pref-container{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}@media(max-width:600px){.pref-hero{min-height:320px}.quick-facts{grid-template-columns:repeat(2,1fr)}.pref-toc-btn{padding:.7rem .9rem;font-size:.82rem}}.btn-add-plan{display:inline-flex;align-items:center;gap:.35rem;margin-top:.75rem;padding:.45rem .9rem;border:1.5px solid #2d5be3;border-radius:8px;background:#fff;color:#2d5be3;font-size:.78rem;font-weight:700;font-family:inherit;cursor:pointer;transition:background .15s,color .15s,transform .1s;width:100%;justify-content:center}.btn-add-plan:hover{background:#2d5be3;color:#fff;transform:translateY(-1px)}.btn-add-plan.in-plan{background:#e8f0ff;color:#1a45a8;border-color:#1a45a8}.btn-add-plan.in-plan:hover{background:#c0003a;color:#fff;border-color:#c0003a}.btn-read-guide{display:inline-flex;align-items:center;justify-content:center;gap:.35rem;margin-top:.5rem;padding:.45rem .9rem;border:1.5px solid #1a7a34;border-radius:8px;background:#f0faf2;color:#1a7a34;font-size:.78rem;font-weight:700;text-decoration:none;width:100%;transition:background .15s,color .15s,transform .1s}.btn-read-guide:hover{background:#1a7a34;color:#fff;transform:translateY(-1px);text-decoration:none}.see-all-wrap{text-align:center;margin-top:1.5rem;padding-top:1rem;border-top:1px dashed var(--border)}.see-all-btn{display:inline-flex;align-items:center;gap:.4rem;padding:.55rem 1.5rem;border:2px solid;border-radius:10px;font-size:.88rem;font-weight:700;text-decoration:none;transition:all .15s}.see-all-btn:hover{opacity:.8;text-decoration:none}.see-all-btn{cursor:pointer;background:0 0}.spot-card.spot-more{display:none}.spot-section.spots-expanded .spot-card.spot-more{display:flex}.spot-section.spots-expanded .see-all-wrap{display:none}</style>
 <nav class=pref-breadcrumb aria-label=breadcrumb>
 <a href=/>홈</a><span>›</span>
 <a href=/explore/>일본 탐색</a><span>›</span>
@@ -531,11 +531,32 @@
 </button>
 </div>
 </article>
+<article class="spot-card spot-more" data-spot-id=kaminoyama-castle data-spot-name="카미노야마 성" data-spot-pref=yamagata data-spot-fee=400 data-spot-dur=75 data-spot-lat=38.17 data-spot-lng=140.35 data-spot-area=kaminoyama data-spot-rating=4.2 data-spot-reviews=850 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Kaminoyama_Castle_20230806b.jpg/960px-Kaminoyama_Castle_20230806b.jpg data-spot-cats=sightseeing>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Kaminoyama_Castle_20230806b.jpg/960px-Kaminoyama_Castle_20230806b.jpg alt="카미노야마 성" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 카미노야마, 야마가타현</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>카미노야마 성</h3>
+<p class=spot-desc>카미노야마 성의 흰 벽 천수각은 온천 마을과 자오 산기슭 위에 서 있으며, 센고쿠 시대 원래 기초 위에 1982년 재건되었습니다. 성 안에는 지역 역사 박물관이 있으며, 언덕에서는 시내와 자오 산맥의 파노라마 전망이 펼쳐집니다. 4월 말에는 주변 벚꽃나무들이 만발해 야마가타 봄의 가장 아름다운 사진 명소 중 하나가 됩니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>성</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>벚꽃</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>에도 시대</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>카미노야마</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 </div>
 <div class=see-all-wrap>
-<a class=see-all-btn style=color:#1a45a8 href=/prefectures/yamagata/sightseeing/>
-See all 7 관광명소 spots →
-</a>
+<button class="see-all-btn show-more-btn" style=color:#1a45a8 type=button data-section=section-sightseeing>
+전체 보기 (7) ↓
+</button>
 </div>
 </div>
 </section><section class=spot-section id=section-gourmet data-cat=gourmet>
@@ -670,11 +691,32 @@ See all 7 관광명소 spots →
 </button>
 </div>
 </article>
+<article class="spot-card spot-more" data-spot-id=yamagata-dashi data-spot-name="야마가타 다시 (여름 채소 양념)" data-spot-pref=yamagata data-spot-fee=0 data-spot-dur=45 data-spot-lat=38.25 data-spot-lng=140.34 data-spot-area=yamagata-city data-spot-rating=4.3 data-spot-reviews=580 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Cherry_blossom_farm_by_the_street_Yamagata_Japan.jpg/960px-Cherry_blossom_farm_by_the_street_Yamagata_Japan.jpg data-spot-cats=gourmet>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Cherry_blossom_farm_by_the_street_Yamagata_Japan.jpg/960px-Cherry_blossom_farm_by_the_street_Yamagata_Japan.jpg alt="야마가타 다시 (여름 채소 양념)" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🍜</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 야마가타시, 야마가타현</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>야마가타 다시 (여름 채소 양념)</h3>
+<p class=spot-desc>같은 이름의 육수와 혼동하지 마세요. 야마가타 다시는 오이, 가지, 오크라, 생강 묘가, 시소, 풋콩을 간장과 함께 잘게 다진 여름 양념으로, 두부나 밥 위에 차게 얹어 상쾌한 여름 요리로 즐깁니다. 집마다 나름의 변형이 있어 레시피 경쟁이 치열합니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>다시</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>여름 채소</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>두부 토핑</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>발효</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 </div>
 <div class=see-all-wrap>
-<a class=see-all-btn style=color:#d64000 href=/prefectures/yamagata/gourmet/>
-See all 7 미식 spots →
-</a>
+<button class="see-all-btn show-more-btn" style=color:#d64000 type=button data-section=section-gourmet>
+전체 보기 (7) ↓
+</button>
 </div>
 </div>
 </section><section class=spot-section id=section-nature data-cat=nature>
@@ -810,11 +852,52 @@ See all 7 미식 spots →
 </button>
 </div>
 </article>
+<article class="spot-card spot-more" data-spot-id=mogami-gorge-boat-ride data-spot-name="모가미쿄 협곡 보트 여행" data-spot-pref=yamagata data-spot-fee=2200 data-spot-dur=70 data-spot-lat=38.768 data-spot-lng=140.099 data-spot-area=mogami data-spot-rating=4.5 data-spot-reviews=2000 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Mogami_River_gorge_boat_ride.jpg/960px-Mogami_River_gorge_boat_ride.jpg data-spot-cats=leisure,nature>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Mogami_River_gorge_boat_ride.jpg/960px-Mogami_River_gorge_boat_ride.jpg alt="모가미쿄 협곡 보트 여행" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🏔️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 모가미, 야마가타현</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>모가미쿄 협곡 보트 여행</h3>
+<p class=spot-desc>모가미 강 12km 협곡 여행은 선원들이 뱃머리에서 전통 후나우타를 부르며 봄 벚꽃, 여름 신록, 가을 단풍으로 뒤덮인 가파른 암벽을 따라 흘러갑니다. 후루쿠치에서 쿠사나기까지 60분간의 유람선은 일본 100경 중 하나를 통과하며, 4월부터 11월까지 계절마다 크게 달라지는 경치를 보여줍니다. 겨울에는 따뜻한 사케가 선내에서 제공됩니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>강 보트</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>협곡</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>파노라마 유람</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=tobishima-island data-spot-name="도비시마 섬 — 바닷새 성역" data-spot-pref=yamagata data-spot-fee=0 data-spot-dur=180 data-spot-lat=38.78 data-spot-lng=139.31 data-spot-area=tobishima data-spot-rating=4.4 data-spot-reviews=580 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Kinka_zan.jpg/960px-Kinka_zan.jpg data-spot-cats=nature>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Kinka_zan.jpg/960px-Kinka_zan.jpg alt="도비시마 섬 — 바닷새 성역" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🏔️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 도비시마섬, 사카타 앞바다, 야마가타현</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>도비시마 섬 — 바닷새 성역</h3>
+<p class=spot-desc>도비시마는 사카타 해안에서 39km 떨어진 일본해에 위치한 작은 섬으로, 약 250명의 주민이 사는 고립된 섬입니다. 주변 바다에는 검은꼬리갈매기와 다른 바닷새의 큰 서식지가 있습니다. 사카타에서 페리로 두 시간이 걸리며, 절벽 산책로와 어항, 거의 없는 관광객은 야마가타에서 가장 보람 있는 오프 더 비튼 트랙 경험 중 하나입니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>섬</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>바닷새</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>외딴 곳</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>자연보호구역</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 </div>
 <div class=see-all-wrap>
-<a class=see-all-btn style=color:#1a7a34 href=/prefectures/yamagata/nature/>
-See all 8 자연 spots →
-</a>
+<button class="see-all-btn show-more-btn" style=color:#1a7a34 type=button data-section=section-nature>
+전체 보기 (8) ↓
+</button>
 </div>
 </div>
 </section><section class=spot-section id=section-leisure data-cat=leisure>
@@ -949,11 +1032,72 @@ See all 8 자연 spots →
 </button>
 </div>
 </article>
+<article class="spot-card spot-more" data-spot-id=yamagata-cherry-picking-wine data-spot-name="야마가타 체리 따기 &amp;amp; 와이너리 방문" data-spot-pref=yamagata data-spot-fee=1500 data-spot-dur=90 data-spot-lat=38.178 data-spot-lng=140.357 data-spot-area=higashine data-spot-rating=4.4 data-spot-reviews=1100 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Cherry_picking_Yamagata.jpg/960px-Cherry_picking_Yamagata.jpg data-spot-cats=gourmet,leisure>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Cherry_picking_Yamagata.jpg/960px-Cherry_picking_Yamagata.jpg alt="야마가타 체리 따기 & 와이너리 방문" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎿</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 히가시네, 야마가타현</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>야마가타 체리 따기 & 와이너리 방문</h3>
+<p class=spot-desc>야마가타는 일본 제1의 체리 생산 현이며, 높은 산지에서는 Muscat Bailey A와 Delaware 품종을 재배하는 성장하는 와인 산업도 지원합니다. 6월 과수원 방문에서는 사토 니시키와 베니 타마 체리를 나무에서 직접 딸 수 있으며, 카미노야마와 사가에의 와이너리는 포도밭 전망이 있는 시음실을 운영합니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>체리</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>와인</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>과수원</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=tendo-shogi-craft data-spot-name="덴도 온센 &amp;amp; 쇼기 말 공예" data-spot-pref=yamagata data-spot-fee=400 data-spot-dur=90 data-spot-lat=38.35 data-spot-lng=140.34 data-spot-area=tendo data-spot-rating=4.3 data-spot-reviews=720 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tend%C5%8D.jpg/960px-Tend%C5%8D.jpg data-spot-cats=leisure>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tend%C5%8D.jpg/960px-Tend%C5%8D.jpg alt="덴도 온센 & 쇼기 말 공예" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎿</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 덴도, 야마가타현</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>덴도 온센 & 쇼기 말 공예</h3>
+<p class=spot-desc>덴도는 일본 쇼기(일본 장기) 말의 95% 이상을 생산하는 곳으로, 장인들이 150년간 변하지 않은 기법으로 황양나무 말에 손으로 글자를 새기고 먹물을 입힙니다. 덴도 쇼기 박물관과 공예 체험장이 방문객을 맞이하며, 봄에는 에도 복장을 한 사람들이 야외의 거대한 판 위에서 살아있는 말로 등장하는 유명한 인간 쇼기 토너먼트도 개최됩니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>쇼기</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>전통 공예</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>온천</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>인간 쇼기</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=kaminoyama-onsen-town data-spot-name="카미노야마 온센 — 성하 온천 마을" data-spot-pref=yamagata data-spot-fee=200 data-spot-dur=120 data-spot-lat=38.153 data-spot-lng=140.268 data-spot-area=kaminoyama data-spot-rating=4.3 data-spot-reviews=870 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Kaminoyama_Castle_Yamagata.jpg/960px-Kaminoyama_Castle_Yamagata.jpg data-spot-cats=leisure>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Kaminoyama_Castle_Yamagata.jpg/960px-Kaminoyama_Castle_Yamagata.jpg alt="카미노야마 온센 — 성하 온천 마을" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎿</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 카미노야마, 야마가타현</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>카미노야마 온센 — 성하 온천 마을</h3>
+<p class=spot-desc>카미노야마 온센은 자오산 기슭의 아담한 온천 마을로 550년의 역사를 자랑하며, 7개의 공중 목욕탕(구도유)을 통합 패스로 돌아볼 수 있습니다. 카미노야마 성과 벚꽃 공원을 중심으로 한 아담한 마을은 목조 목욕탕과 과자 가게가 있는 고전적인 온천 마을 분위기를 유지하고 있습니다. 대형 온천 리조트보다 더 조용하고 친밀한 대안으로, 숙박 없이 발 온천이나 공중 목욕탕을 이용할 수 있습니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>온천</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>성</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>온천 원천</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 </div>
 <div class=see-all-wrap>
-<a class=see-all-btn style=color:#b35c00 href=/prefectures/yamagata/leisure/>
-See all 9 레저 spots →
-</a>
+<button class="see-all-btn show-more-btn" style=color:#b35c00 type=button data-section=section-leisure>
+전체 보기 (9) ↓
+</button>
 </div>
 </div>
 </section><section class=spot-section id=section-events data-cat=events>
@@ -1088,11 +1232,52 @@ See all 9 레저 spots →
 </button>
 </div>
 </article>
+<article class="spot-card spot-more" data-spot-id=tendo-ningen-shogi data-spot-name="덴도 인간 쇼기 (4월)" data-spot-pref=yamagata data-spot-fee=0 data-spot-dur=120 data-spot-lat=38.362 data-spot-lng=140.376 data-spot-area=tendo data-spot-rating=4.5 data-spot-reviews=1300 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Tendo_Ningen_Shogi.jpg/960px-Tendo_Ningen_Shogi.jpg data-spot-cats=events>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Tendo_Ningen_Shogi.jpg/960px-Tendo_Ningen_Shogi.jpg alt="덴도 인간 쇼기 (4월)" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎆</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 덴도, 야마가타현</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>덴도 인간 쇼기 (4월)</h3>
+<p class=spot-desc>덴도 시는 일본 쇼기 말의 90% 이상을 생산하며, 매년 4월에 니겐 쇼기로 이 유산을 기념합니다. 완전한 사무라이와 궁중 의상을 입은 사람들이 마이즈루 공원 정상의 거대한 야외 보드 위에서 살아있는 말로 등장합니다. 한쪽 정자에 앉은 프로 쇼기 기사가 각 수를 발표하면 의상 입은 참가자들이 '보드' 잔디 위를 전진하고 후퇴합니다. 벚꽃을 배경으로 한 연극적 광경은 일본에서 가장 독특한 봄 행사 중 하나입니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>쇼기</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>인간 쇼기</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>봄</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=gassan-ski-opening data-spot-name="갓산 겨울 개장식 (5월)" data-spot-pref=yamagata data-spot-fee=1700 data-spot-dur=180 data-spot-lat=38.55 data-spot-lng=140.4 data-spot-area=haguro data-spot-rating=4.4 data-spot-reviews=680 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/220430_ZaoOnsen_Yamagata_Yamagata_pref_Japan02s3.jpg/960px-220430_ZaoOnsen_Yamagata_Yamagata_pref_Japan02s3.jpg data-spot-cats=events>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/220430_ZaoOnsen_Yamagata_Yamagata_pref_Japan02s3.jpg/960px-220430_ZaoOnsen_Yamagata_Yamagata_pref_Japan02s3.jpg alt="갓산 겨울 개장식 (5월)" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎆</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 갓산, 하구로군, 야마가타현</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>갓산 겨울 개장식 (5월)</h3>
+<p class=spot-desc>매년 봄, 갓산 스키장은 상부 사면의 새 시즌을 공식 개장합니다. 보통 4월 말이나 5월 초로 일본 전역의 저지대 스키장이 오래전에 문을 닫은 시기입니다. 개장식에는 구름 위의 봄 햇살 속에서 스키를 타러 온 스키어와 스노보더들이 모여드는데, 발은 두꺼운 눈 속에 있지만 상체는 반팔을 입는 경우도 많습니다. 눈과 주변 야생화 초원의 조합은 전형적인 일본적 경험입니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>스키 개장</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>5월 스키</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>갓산</span>
+<span class=spot-tag style=background:#ffe8f4;color:#88004e>봄 눈</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 </div>
 <div class=see-all-wrap>
-<a class=see-all-btn style=color:#b5006e href=/prefectures/yamagata/events/>
-See all 8 이벤트 spots →
-</a>
+<button class="see-all-btn show-more-btn" style=color:#b5006e type=button data-section=section-events>
+전체 보기 (8) ↓
+</button>
 </div>
 </div>
 </section><section class=spot-section id=section-experience data-cat=experience>
@@ -1242,6 +1427,13 @@ See all 8 이벤트 spots →
 </div>
 <script>
 (function(){
+ 
+document.querySelectorAll('.show-more-btn').forEach(function(btn){
+  btn.addEventListener('click', function(){
+    var sec = document.getElementById(btn.dataset.section);
+    if (sec) sec.classList.add('spots-expanded');
+  });
+});
  
 const CATS = {
   sightseeing:{ color:"#1a45a8" },

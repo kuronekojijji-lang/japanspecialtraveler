@@ -99,7 +99,7 @@
   document.addEventListener('keydown', function(e){ if(e.key==='Escape') close(); });
 })();
 </script>
-<style>.pref-breadcrumb{background:#f8f9fa;border-bottom:1px solid var(--border);padding:.6rem 1.5rem;font-size:.82rem;color:var(--gray)}.pref-breadcrumb a{color:var(--red);text-decoration:none}.pref-breadcrumb a:hover{text-decoration:underline}.pref-breadcrumb span{margin:0 .4rem}.pref-hero{position:relative;min-height:440px;display:flex;align-items:flex-end;background:#0a1a00 50%/cover no-repeat;background-image:url(https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=1600&q=80)}.pref-hero::after{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,.15) 0%,rgba(0,0,0,.7) 100%)}.pref-hero-body{position:relative;z-index:1;padding:2.5rem 1.5rem 2rem;max-width:var(--max-w);margin:0 auto;width:100%}.pref-hero-eyebrow{color:rgba(255,255,255,.75);font-size:.82rem;font-weight:600;text-transform:uppercase;letter-spacing:.1em;margin-bottom:.5rem}.pref-hero h1{color:#fff;font-size:clamp(2.2rem,5.5vw,3.4rem);font-weight:900;margin:0 0 .5rem;line-height:1.1}.pref-hero .pref-sub{color:rgba(255,255,255,.88);font-size:1.05rem;max-width:560px;margin-bottom:1rem}.pref-stats{display:flex;flex-wrap:wrap;gap:.6rem}.pref-stat{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);border-radius:20px;padding:.3rem .85rem;color:#fff;font-size:.8rem;font-weight:600}.pref-section{padding:2.5rem 1.5rem}.pref-section+.pref-section{padding-top:0}.pref-container{max-width:var(--max-w);margin:0 auto}.pref-section-title{font-size:1.55rem;font-weight:900;margin:0 0 .4rem;display:flex;align-items:center;gap:.5rem}.pref-section-lead{font-size:1rem;color:#555;line-height:1.7;max-width:680px;margin-bottom:1.5rem}.ponko-guide{display:flex;align-items:flex-end;gap:0;margin-bottom:1.6rem}.ponko-bubble{flex:1;min-width:0;background:linear-gradient(135deg,#fff9f0,#fff3e0);border:2px solid #f5a623;border-radius:18px 18px 18px 4px;padding:1.2rem 1.5rem;position:relative;box-shadow:0 4px 14px rgba(245,166,35,.13)}.ponko-bubble::after{content:'';position:absolute;right:-18px;bottom:22px;border:9px solid transparent;border-left-color:#f5a623}.ponko-bubble::before{content:'';position:absolute;right:-13px;bottom:23px;z-index:1;border:8px solid transparent;border-left-color:#fff9f0}.ponko-bubble p{font-size:.97rem;line-height:1.8;color:#333;margin:0}.ponko-figure{flex-shrink:0;width:170px;margin-left:4px;animation:ponko-float 3s ease-in-out infinite}.ponko-figure img{width:100%;height:auto;display:block;filter:drop-shadow(0 6px 10px rgba(0,0,0,.18))}@keyframes ponko-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}@media(max-width:640px){.ponko-guide{flex-direction:column;align-items:center}.ponko-bubble{border-radius:18px;order:2;width:100%}.ponko-bubble::after,.ponko-bubble::before{display:none}.ponko-figure{order:1;width:130px;margin-left:0;margin-bottom:.5rem;animation:none}}.quick-facts{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.8rem;margin-top:1.4rem}.qf-card{background:#f8f9fb;border:1px solid var(--border);border-radius:12px;padding:1rem 1.1rem;display:flex;align-items:flex-start;gap:.7rem}.qf-icon{font-size:1.4rem;flex-shrink:0}.qf-label{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--gray);margin-bottom:.15rem}.qf-value{font-size:.9rem;font-weight:600;color:var(--dark)}.access-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}.access-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 8px rgba(0,0,0,5%)}.access-card-hd{display:flex;align-items:center;gap:.5rem;margin-bottom:.8rem}.access-card-icon{font-size:1.5rem}.access-card-title{font-size:1rem;font-weight:800;color:var(--dark)}.access-card ul{margin:0;padding-left:1.1rem}.access-card li{font-size:.875rem;line-height:1.65;color:#444;margin-bottom:.3rem}.access-card li strong{color:var(--dark)}.access-tip{margin-top:1.2rem;background:#fff8e6;border:1px solid #ffe0a0;border-radius:10px;padding:.9rem 1.1rem;font-size:.85rem;line-height:1.6;color:#5a3e00}.access-tip strong{display:block;margin-bottom:.2rem;font-size:.88rem}.guide-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem}.guide-card{background:#fff;border-radius:14px;overflow:hidden;border:1px solid var(--border);box-shadow:0 2px 8px rgba(0,0,0,5%);transition:transform .15s,box-shadow .15s;position:relative;display:flex;flex-direction:column}.guide-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.guide-card-img{width:100%;height:150px;object-fit:cover;background:#e8eef4;display:block}.guide-card-img-ph{width:100%;height:150px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:2.5rem}.guide-card-body{padding:.9rem 1rem 1rem;flex:1}.guide-cat-badge{display:inline-block;font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;padding:.15rem .55rem;border-radius:8px;background:var(--red);color:#fff;margin-bottom:.4rem}.guide-card-title{font-size:.92rem;font-weight:800;color:var(--dark);line-height:1.4}.guide-coming-soon{position:absolute;top:.6rem;right:.6rem;background:rgba(0,0,0,.55);color:#fff;font-size:.65rem;font-weight:700;padding:.2rem .5rem;border-radius:6px;text-transform:uppercase;letter-spacing:.05em}.guide-card-link{text-decoration:none;color:inherit;display:flex;flex-direction:column;height:100%}.pref-toc{background:#fff;border-bottom:2px solid var(--border);position:sticky;top:0;z-index:100;overflow-x:auto}.pref-toc-inner{display:flex;gap:0;max-width:var(--max-w);margin:0 auto}.pref-toc-btn{flex:none;display:flex;align-items:center;gap:.4rem;padding:.8rem 1.2rem;border:none;background:0 0;cursor:pointer;font-family:inherit;font-size:.88rem;font-weight:600;color:var(--gray);border-bottom:3px solid transparent;transition:all .18s;white-space:nowrap}.pref-toc-btn .toc-icon{font-size:1.1rem}.pref-toc-btn:hover{color:var(--dark);background:#f8f8f8}.pref-toc-btn.active{color:var(--toc-color,var(--red));border-bottom-color:var(--toc-color,var(--red))}.spot-section{padding:2rem 1.5rem 2.5rem}.spot-section.hidden{display:none}.spot-section-inner{max-width:var(--max-w);margin:0 auto}.section-hd{display:flex;align-items:center;gap:.6rem;margin-bottom:1.4rem;padding-bottom:.7rem;border-bottom:2px solid var(--border)}.section-hd .s-icon{font-size:1.6rem}.section-hd h2{font-size:1.35rem;font-weight:800;margin:0}.section-hd .s-count{margin-left:auto;background:var(--sec-color,var(--red));color:#fff;border-radius:20px;padding:.15rem .65rem;font-size:.78rem;font-weight:700}.spot-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.25rem}.spot-card{border-radius:14px;overflow:hidden;border:1px solid var(--border);background:#fff;box-shadow:0 2px 8px rgba(0,0,0,6%);transition:transform .15s,box-shadow .15s;display:flex;flex-direction:column}.spot-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.spot-img{width:100%;height:200px;object-fit:cover;background:#e8eef4;display:block}.spot-img-ph{width:100%;height:200px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:3rem}.spot-body{padding:1rem 1.1rem 1.1rem;flex:1;display:flex;flex-direction:column}.spot-meta{display:flex;align-items:center;gap:.5rem;margin-bottom:.5rem}.spot-location{font-size:.78rem;color:var(--gray);font-weight:500}.spot-season-badge{margin-left:auto;font-size:.7rem;font-weight:700;padding:.1rem .5rem;border-radius:10px;background:#f0f4f8;color:#555;white-space:nowrap}.spot-name{font-size:1.08rem;font-weight:800;color:var(--dark);margin:0 0 .45rem;line-height:1.3}.spot-desc{font-size:.86rem;line-height:1.65;color:#555;flex:1;margin-bottom:.75rem}.spot-tags{display:flex;flex-wrap:wrap;gap:.3rem}.spot-tag{font-size:.7rem;font-weight:600;padding:.15rem .5rem;border-radius:6px;background:var(--tag-bg,#f0f4f8);color:var(--tag-color,#445)}.tips-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem}.tip-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 6px rgba(0,0,0,4%)}.tip-card-icon{font-size:1.8rem;margin-bottom:.6rem}.tip-card-title{font-size:.95rem;font-weight:800;color:var(--dark);margin-bottom:.5rem}.tip-card-body{font-size:.85rem;line-height:1.65;color:#555}.tip-card-body ul{margin:.3rem 0 0;padding-left:1.1rem}.tip-card-body li{margin-bottom:.2rem}.pref-cta{background:var(--bg-soft);padding:2.5rem 1.5rem 3rem;border-top:1px solid var(--border)}.pref-cta .pref-container{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}@media(max-width:600px){.pref-hero{min-height:320px}.quick-facts{grid-template-columns:repeat(2,1fr)}.pref-toc-btn{padding:.7rem .9rem;font-size:.82rem}}.btn-add-plan{display:inline-flex;align-items:center;gap:.35rem;margin-top:.75rem;padding:.45rem .9rem;border:1.5px solid #2d5be3;border-radius:8px;background:#fff;color:#2d5be3;font-size:.78rem;font-weight:700;font-family:inherit;cursor:pointer;transition:background .15s,color .15s,transform .1s;width:100%;justify-content:center}.btn-add-plan:hover{background:#2d5be3;color:#fff;transform:translateY(-1px)}.btn-add-plan.in-plan{background:#e8f0ff;color:#1a45a8;border-color:#1a45a8}.btn-add-plan.in-plan:hover{background:#c0003a;color:#fff;border-color:#c0003a}.btn-read-guide{display:inline-flex;align-items:center;justify-content:center;gap:.35rem;margin-top:.5rem;padding:.45rem .9rem;border:1.5px solid #1a7a34;border-radius:8px;background:#f0faf2;color:#1a7a34;font-size:.78rem;font-weight:700;text-decoration:none;width:100%;transition:background .15s,color .15s,transform .1s}.btn-read-guide:hover{background:#1a7a34;color:#fff;transform:translateY(-1px);text-decoration:none}.see-all-wrap{text-align:center;margin-top:1.5rem;padding-top:1rem;border-top:1px dashed var(--border)}.see-all-btn{display:inline-flex;align-items:center;gap:.4rem;padding:.55rem 1.5rem;border:2px solid;border-radius:10px;font-size:.88rem;font-weight:700;text-decoration:none;transition:all .15s}.see-all-btn:hover{opacity:.8;text-decoration:none}</style>
+<style>.pref-breadcrumb{background:#f8f9fa;border-bottom:1px solid var(--border);padding:.6rem 1.5rem;font-size:.82rem;color:var(--gray)}.pref-breadcrumb a{color:var(--red);text-decoration:none}.pref-breadcrumb a:hover{text-decoration:underline}.pref-breadcrumb span{margin:0 .4rem}.pref-hero{position:relative;min-height:440px;display:flex;align-items:flex-end;background:#0a1a00 50%/cover no-repeat;background-image:url(https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=1600&q=80)}.pref-hero::after{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,.15) 0%,rgba(0,0,0,.7) 100%)}.pref-hero-body{position:relative;z-index:1;padding:2.5rem 1.5rem 2rem;max-width:var(--max-w);margin:0 auto;width:100%}.pref-hero-eyebrow{color:rgba(255,255,255,.75);font-size:.82rem;font-weight:600;text-transform:uppercase;letter-spacing:.1em;margin-bottom:.5rem}.pref-hero h1{color:#fff;font-size:clamp(2.2rem,5.5vw,3.4rem);font-weight:900;margin:0 0 .5rem;line-height:1.1}.pref-hero .pref-sub{color:rgba(255,255,255,.88);font-size:1.05rem;max-width:560px;margin-bottom:1rem}.pref-stats{display:flex;flex-wrap:wrap;gap:.6rem}.pref-stat{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);border-radius:20px;padding:.3rem .85rem;color:#fff;font-size:.8rem;font-weight:600}.pref-section{padding:2.5rem 1.5rem}.pref-section+.pref-section{padding-top:0}.pref-container{max-width:var(--max-w);margin:0 auto}.pref-section-title{font-size:1.55rem;font-weight:900;margin:0 0 .4rem;display:flex;align-items:center;gap:.5rem}.pref-section-lead{font-size:1rem;color:#555;line-height:1.7;max-width:680px;margin-bottom:1.5rem}.ponko-guide{display:flex;align-items:flex-end;gap:0;margin-bottom:1.6rem}.ponko-bubble{flex:1;min-width:0;background:linear-gradient(135deg,#fff9f0,#fff3e0);border:2px solid #f5a623;border-radius:18px 18px 18px 4px;padding:1.2rem 1.5rem;position:relative;box-shadow:0 4px 14px rgba(245,166,35,.13)}.ponko-bubble::after{content:'';position:absolute;right:-18px;bottom:22px;border:9px solid transparent;border-left-color:#f5a623}.ponko-bubble::before{content:'';position:absolute;right:-13px;bottom:23px;z-index:1;border:8px solid transparent;border-left-color:#fff9f0}.ponko-bubble p{font-size:.97rem;line-height:1.8;color:#333;margin:0}.ponko-figure{flex-shrink:0;width:170px;margin-left:4px;animation:ponko-float 3s ease-in-out infinite}.ponko-figure img{width:100%;height:auto;display:block;filter:drop-shadow(0 6px 10px rgba(0,0,0,.18))}@keyframes ponko-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}@media(max-width:640px){.ponko-guide{flex-direction:column;align-items:center}.ponko-bubble{border-radius:18px;order:2;width:100%}.ponko-bubble::after,.ponko-bubble::before{display:none}.ponko-figure{order:1;width:130px;margin-left:0;margin-bottom:.5rem;animation:none}}.quick-facts{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.8rem;margin-top:1.4rem}.qf-card{background:#f8f9fb;border:1px solid var(--border);border-radius:12px;padding:1rem 1.1rem;display:flex;align-items:flex-start;gap:.7rem}.qf-icon{font-size:1.4rem;flex-shrink:0}.qf-label{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--gray);margin-bottom:.15rem}.qf-value{font-size:.9rem;font-weight:600;color:var(--dark)}.access-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}.access-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 8px rgba(0,0,0,5%)}.access-card-hd{display:flex;align-items:center;gap:.5rem;margin-bottom:.8rem}.access-card-icon{font-size:1.5rem}.access-card-title{font-size:1rem;font-weight:800;color:var(--dark)}.access-card ul{margin:0;padding-left:1.1rem}.access-card li{font-size:.875rem;line-height:1.65;color:#444;margin-bottom:.3rem}.access-card li strong{color:var(--dark)}.access-tip{margin-top:1.2rem;background:#fff8e6;border:1px solid #ffe0a0;border-radius:10px;padding:.9rem 1.1rem;font-size:.85rem;line-height:1.6;color:#5a3e00}.access-tip strong{display:block;margin-bottom:.2rem;font-size:.88rem}.guide-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem}.guide-card{background:#fff;border-radius:14px;overflow:hidden;border:1px solid var(--border);box-shadow:0 2px 8px rgba(0,0,0,5%);transition:transform .15s,box-shadow .15s;position:relative;display:flex;flex-direction:column}.guide-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.guide-card-img{width:100%;height:150px;object-fit:cover;background:#e8eef4;display:block}.guide-card-img-ph{width:100%;height:150px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:2.5rem}.guide-card-body{padding:.9rem 1rem 1rem;flex:1}.guide-cat-badge{display:inline-block;font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;padding:.15rem .55rem;border-radius:8px;background:var(--red);color:#fff;margin-bottom:.4rem}.guide-card-title{font-size:.92rem;font-weight:800;color:var(--dark);line-height:1.4}.guide-coming-soon{position:absolute;top:.6rem;right:.6rem;background:rgba(0,0,0,.55);color:#fff;font-size:.65rem;font-weight:700;padding:.2rem .5rem;border-radius:6px;text-transform:uppercase;letter-spacing:.05em}.guide-card-link{text-decoration:none;color:inherit;display:flex;flex-direction:column;height:100%}.pref-toc{background:#fff;border-bottom:2px solid var(--border);position:sticky;top:0;z-index:100;overflow-x:auto}.pref-toc-inner{display:flex;gap:0;max-width:var(--max-w);margin:0 auto}.pref-toc-btn{flex:none;display:flex;align-items:center;gap:.4rem;padding:.8rem 1.2rem;border:none;background:0 0;cursor:pointer;font-family:inherit;font-size:.88rem;font-weight:600;color:var(--gray);border-bottom:3px solid transparent;transition:all .18s;white-space:nowrap}.pref-toc-btn .toc-icon{font-size:1.1rem}.pref-toc-btn:hover{color:var(--dark);background:#f8f8f8}.pref-toc-btn.active{color:var(--toc-color,var(--red));border-bottom-color:var(--toc-color,var(--red))}.spot-section{padding:2rem 1.5rem 2.5rem}.spot-section.hidden{display:none}.spot-section-inner{max-width:var(--max-w);margin:0 auto}.section-hd{display:flex;align-items:center;gap:.6rem;margin-bottom:1.4rem;padding-bottom:.7rem;border-bottom:2px solid var(--border)}.section-hd .s-icon{font-size:1.6rem}.section-hd h2{font-size:1.35rem;font-weight:800;margin:0}.section-hd .s-count{margin-left:auto;background:var(--sec-color,var(--red));color:#fff;border-radius:20px;padding:.15rem .65rem;font-size:.78rem;font-weight:700}.spot-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.25rem}.spot-card{border-radius:14px;overflow:hidden;border:1px solid var(--border);background:#fff;box-shadow:0 2px 8px rgba(0,0,0,6%);transition:transform .15s,box-shadow .15s;display:flex;flex-direction:column}.spot-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.spot-img{width:100%;height:200px;object-fit:cover;background:#e8eef4;display:block}.spot-img-ph{width:100%;height:200px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:3rem}.spot-body{padding:1rem 1.1rem 1.1rem;flex:1;display:flex;flex-direction:column}.spot-meta{display:flex;align-items:center;gap:.5rem;margin-bottom:.5rem}.spot-location{font-size:.78rem;color:var(--gray);font-weight:500}.spot-season-badge{margin-left:auto;font-size:.7rem;font-weight:700;padding:.1rem .5rem;border-radius:10px;background:#f0f4f8;color:#555;white-space:nowrap}.spot-name{font-size:1.08rem;font-weight:800;color:var(--dark);margin:0 0 .45rem;line-height:1.3}.spot-desc{font-size:.86rem;line-height:1.65;color:#555;flex:1;margin-bottom:.75rem}.spot-tags{display:flex;flex-wrap:wrap;gap:.3rem}.spot-tag{font-size:.7rem;font-weight:600;padding:.15rem .5rem;border-radius:6px;background:var(--tag-bg,#f0f4f8);color:var(--tag-color,#445)}.tips-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem}.tip-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 6px rgba(0,0,0,4%)}.tip-card-icon{font-size:1.8rem;margin-bottom:.6rem}.tip-card-title{font-size:.95rem;font-weight:800;color:var(--dark);margin-bottom:.5rem}.tip-card-body{font-size:.85rem;line-height:1.65;color:#555}.tip-card-body ul{margin:.3rem 0 0;padding-left:1.1rem}.tip-card-body li{margin-bottom:.2rem}.pref-cta{background:var(--bg-soft);padding:2.5rem 1.5rem 3rem;border-top:1px solid var(--border)}.pref-cta .pref-container{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}@media(max-width:600px){.pref-hero{min-height:320px}.quick-facts{grid-template-columns:repeat(2,1fr)}.pref-toc-btn{padding:.7rem .9rem;font-size:.82rem}}.btn-add-plan{display:inline-flex;align-items:center;gap:.35rem;margin-top:.75rem;padding:.45rem .9rem;border:1.5px solid #2d5be3;border-radius:8px;background:#fff;color:#2d5be3;font-size:.78rem;font-weight:700;font-family:inherit;cursor:pointer;transition:background .15s,color .15s,transform .1s;width:100%;justify-content:center}.btn-add-plan:hover{background:#2d5be3;color:#fff;transform:translateY(-1px)}.btn-add-plan.in-plan{background:#e8f0ff;color:#1a45a8;border-color:#1a45a8}.btn-add-plan.in-plan:hover{background:#c0003a;color:#fff;border-color:#c0003a}.btn-read-guide{display:inline-flex;align-items:center;justify-content:center;gap:.35rem;margin-top:.5rem;padding:.45rem .9rem;border:1.5px solid #1a7a34;border-radius:8px;background:#f0faf2;color:#1a7a34;font-size:.78rem;font-weight:700;text-decoration:none;width:100%;transition:background .15s,color .15s,transform .1s}.btn-read-guide:hover{background:#1a7a34;color:#fff;transform:translateY(-1px);text-decoration:none}.see-all-wrap{text-align:center;margin-top:1.5rem;padding-top:1rem;border-top:1px dashed var(--border)}.see-all-btn{display:inline-flex;align-items:center;gap:.4rem;padding:.55rem 1.5rem;border:2px solid;border-radius:10px;font-size:.88rem;font-weight:700;text-decoration:none;transition:all .15s}.see-all-btn:hover{opacity:.8;text-decoration:none}.see-all-btn{cursor:pointer;background:0 0}.spot-card.spot-more{display:none}.spot-section.spots-expanded .spot-card.spot-more{display:flex}.spot-section.spots-expanded .see-all-wrap{display:none}</style>
 <nav class=pref-breadcrumb aria-label=breadcrumb>
 <a href=/>홈</a><span>›</span>
 <a href=/explore/>일본 탐색</a><span>›</span>
@@ -549,11 +549,179 @@
 </button>
 </div>
 </article>
+<article class="spot-card spot-more" data-spot-id=himuka-coast-scenic-drive data-spot-name="휴가 해안 경관 드라이브" data-spot-pref=miyazaki data-spot-fee=0 data-spot-dur=120 data-spot-lat=31.6333 data-spot-lng=131.6167 data-spot-area=southern-coast data-spot-rating=4.4 data-spot-reviews=680 data-spot-img="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" data-spot-cats=sightseeing,nature>
+<img class=spot-img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" alt="휴가 해안 경관 드라이브" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 미야자키현 남부 해안</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>휴가 해안 경관 드라이브</h3>
+<p class=spot-desc>인파가 적은 이 해안 노선은 유명한 니치난 해안 못지않게 빼어난 바다 전망과 극적인 절벽 지형을 선사하면서도 관광객은 더 적습니다. 여러 사진 명소와 탐방할 작은 어촌이 있어 느긋한 드라이브에 완벽합니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>해안 드라이브</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>바다 전망</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>사진</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>숨은 명소</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=aya-folk-village data-spot-name="아야 민속촌 &amp;amp; 사케 양조장" data-spot-pref=miyazaki data-spot-fee=500 data-spot-dur=120 data-spot-lat=32.1167 data-spot-lng=130.9833 data-spot-area=aya data-spot-rating=4.4 data-spot-reviews=1100 data-spot-img="https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=800&q=80" data-spot-cats=sightseeing,gourmet>
+<img class=spot-img src="https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=800&q=80" alt="아야 민속촌 & 사케 양조장" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 미야자키현 아야</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>아야 민속촌 & 사케 양조장</h3>
+<p class=spot-desc>이 잘 보존된 마을은 에도 시대의 건물과 공예를 선보이는 동시에 가동 중인 사케 양조장과 현지 장인 공방을 운영합니다. 방문객은 현지 사케를 맛보고, 장인들이 작업하는 모습을 보며, 일본 시골의 문화 전통에 흠뻑 빠질 수 있습니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>전통 공예</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>사케 시음</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>문화 보존</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>역사 건축</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=tonokuchi-cave data-spot-name="도노쿠치 종유굴" data-spot-pref=miyazaki data-spot-fee=500 data-spot-dur=75 data-spot-lat=32.5667 data-spot-lng=131.0833 data-spot-area=takachiho data-spot-rating=4.3 data-spot-reviews=720 data-spot-img="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" data-spot-cats=nature,sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" alt="도노쿠치 종유굴" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 미야자키현 다카치호</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>도노쿠치 종유굴</h3>
+<p class=spot-desc>이 인상적인 석회 동굴은 정취 있는 조명을 받은 멋진 종유석과 석순을 갖추고 있습니다. 동굴 통로가 크고 작은 방들을 굽이굽이 지나, 더운 날에도 시원하고 상쾌한 체험을 선사합니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>동굴 탐험</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>종유석</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>지하</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>숨은 명소</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=aburatsu-fishing-port data-spot-name="아부라쓰 어항" data-spot-pref=miyazaki data-spot-fee=0 data-spot-dur=90 data-spot-lat=31.5667 data-spot-lng=131.5833 data-spot-area=aburatsu data-spot-rating=4.3 data-spot-reviews=850 data-spot-img="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80" data-spot-cats=gourmet,sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80" alt="아부라쓰 어항" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 미야자키현 아부라쓰</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>아부라쓰 어항</h3>
+<p class=spot-desc>가동 중인 이 어항은 매일 열리는 어시장 경매와 신선한 해산물 식당을 통해 일본 해양 생활의 진면목을 보여줍니다. 이른 아침에 방문하면 분주한 활기를 포착하고 믿기지 않을 만큼 신선한 사시미와 생선구이를 즐길 수 있습니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>신선한 해산물</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>가동 중인 어항</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>현지 체험</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>사진</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=tsuwano-mountain-temple data-spot-name="이쓰키 신사 &amp;amp; 산사 단지" data-spot-pref=miyazaki data-spot-fee=300 data-spot-dur=75 data-spot-lat=32.3389 data-spot-lng=130.75 data-spot-area=inland-miyazaki data-spot-rating=4.2 data-spot-reviews=580 data-spot-img="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" data-spot-cats=sightseeing,sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" alt="이쓰키 신사 & 산사 단지" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 미야자키현 내륙</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>이쓰키 신사 & 산사 단지</h3>
+<p class=spot-desc>내륙 산자락에 자리한 이 신사 단지는 고요한 숲속 환경에서 신토와 불교 요소를 어우릅니다. 산을 오르는 길에 경치 좋은 전망이 펼쳐지고, 단지 자체에는 수백 년 된 목조 건축물과 유물이 있습니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>산속 신사</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>역사 사찰</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>등산</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>영적 장소</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=miyazaki-prefectural-museum data-spot-name="미야자키현 종합박물관" data-spot-pref=miyazaki data-spot-fee=700 data-spot-dur=90 data-spot-lat=31.9208 data-spot-lng=131.4361 data-spot-area=miyazaki-city data-spot-rating=4.1 data-spot-reviews=650 data-spot-img="https://images.unsplash.com/photo-1564399579883-451a5d44ec08?w=800&q=80" data-spot-cats=sightseeing,sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1564399579883-451a5d44ec08?w=800&q=80" alt="미야자키현 종합박물관" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 미야자키현 미야자키시</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>미야자키현 종합박물관</h3>
+<p class=spot-desc>이 종합 박물관은 잘 구성된 전시를 통해 미야자키의 자연사, 문화유산, 현지 미술을 선보입니다. 이 지역의 신화, 지리, 독특한 문화 정체성을 이해하는 데 훌륭한 맥락을 제공합니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>역사</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>미술</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>현지 문화</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>실내 활동</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=tateba-shrine data-spot-name="다테이와 신사 — 신화의 랜드마크" data-spot-pref=miyazaki data-spot-fee=0 data-spot-dur=40 data-spot-lat=31.925 data-spot-lng=131.65 data-spot-area=nichinan-coast data-spot-rating=4.1 data-spot-reviews=420 data-spot-img="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" data-spot-cats=sightseeing,sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" alt="다테이와 신사 — 신화의 랜드마크" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 미야자키현 니치난시</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>다테이와 신사 — 신화의 랜드마크</h3>
+<p class=spot-desc>규모는 작지만 영적으로 의미 깊은 이 신사는 일본 상고 신화 문헌에 언급되며 해안 풍경을 굽어봅니다. 평온한 환경과 신토 신화와의 연관성은 문화에 관심 있는 여행자에게 뜻깊은 순례지로 만들어 줍니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>신토 신사</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>신화</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>상고 유적</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>영적 체험</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=sadao-park data-spot-name="사이토바루 공원 &amp;amp; 고분군" data-spot-pref=miyazaki data-spot-fee=400 data-spot-dur=60 data-spot-lat=32.0583 data-spot-lng=131.125 data-spot-area=miyazaki-region data-spot-rating=3.9 data-spot-reviews=450 data-spot-img="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" data-spot-cats=sightseeing,sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" alt="사이토바루 공원 & 고분군" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 미야자키현 미야자키 지역</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>사이토바루 공원 & 고분군</h3>
+<p class=spot-desc>이 역사 공원은 야요이 시대 고분군을 보호하며 미야자키의 깊은 고고학 유산을 드러냅니다. 산책로가 여러 고분을 잇고, 인접한 박물관이 그 역사적 의의를 설명합니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>고고학 유적</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>상고 역사</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>공원</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>교육</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 </div>
 <div class=see-all-wrap>
-<a class=see-all-btn style=color:#1a45a8 href=/prefectures/miyazaki/sightseeing/>
-See all 14 관광명소 spots →
-</a>
+<button class="see-all-btn show-more-btn" style=color:#1a45a8 type=button data-section=section-sightseeing>
+전체 보기 (14) ↓
+</button>
 </div>
 </div>
 </section><section class=spot-section id=section-gourmet data-cat=gourmet>
@@ -690,11 +858,53 @@ See all 14 관광명소 spots →
 </button>
 </div>
 </article>
+<article class="spot-card spot-more" data-spot-id=aburatsu-fishing-port data-spot-name="아부라쓰 어항" data-spot-pref=miyazaki data-spot-fee=0 data-spot-dur=90 data-spot-lat=31.5667 data-spot-lng=131.5833 data-spot-area=aburatsu data-spot-rating=4.3 data-spot-reviews=850 data-spot-img="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80" data-spot-cats=gourmet,sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80" alt="아부라쓰 어항" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🍜</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 미야자키현 아부라쓰</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>아부라쓰 어항</h3>
+<p class=spot-desc>가동 중인 이 어항은 매일 열리는 어시장 경매와 신선한 해산물 식당을 통해 일본 해양 생활의 진면목을 보여줍니다. 이른 아침에 방문하면 분주한 활기를 포착하고 믿기지 않을 만큼 신선한 사시미와 생선구이를 즐길 수 있습니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>신선한 해산물</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>가동 중인 어항</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>현지 체험</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>사진</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=hiyajiru-cold-udon data-spot-name="히야지루 찬 우동 체험" data-spot-pref=miyazaki data-spot-fee=0 data-spot-dur=40 data-spot-lat=31.9111 data-spot-lng=131.4167 data-spot-area=miyazaki-city data-spot-rating=4.2 data-spot-reviews=750 data-spot-img="https://images.unsplash.com/photo-1621996346565-411f4419d500?w=800&q=80" data-spot-cats=gourmet>
+<img class=spot-img src="https://images.unsplash.com/photo-1621996346565-411f4419d500?w=800&q=80" alt="히야지루 찬 우동 체험" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🍜</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 미야자키현 미야자키시</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>히야지루 찬 우동 체험</h3>
+<p class=spot-desc>히야지루는 미야자키의 시원한 찬 우동 요리로, 독특한 참깨 기반 소스에 찍어 먹어 더운 여름에 안성맞춤입니다. 이 향토 별미는 쫄깃한 우동과 고소하고 감칠맛 나는 소스를 결합해 이 지역만의 독특한 식문화 정체성을 보여줍니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>찬 면</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>향토 별미</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>여름 별미</span>
+<span class=spot-tag style=background:#fff0ea;color:#9a3000>전통 레시피</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 </div>
 <div class=see-all-wrap>
-<a class=see-all-btn style=color:#d64000 href=/prefectures/miyazaki/gourmet/>
-See all 8 미식 spots →
-</a>
+<button class="see-all-btn show-more-btn" style=color:#d64000 type=button data-section=section-gourmet>
+전체 보기 (8) ↓
+</button>
 </div>
 </div>
 </section><section class=spot-section id=section-nature data-cat=nature>
@@ -831,11 +1041,32 @@ See all 8 미식 spots →
 </button>
 </div>
 </article>
+<article class="spot-card spot-more" data-spot-id=tonokuchi-cave data-spot-name="도노쿠치 종유굴" data-spot-pref=miyazaki data-spot-fee=500 data-spot-dur=75 data-spot-lat=32.5667 data-spot-lng=131.0833 data-spot-area=takachiho data-spot-rating=4.3 data-spot-reviews=720 data-spot-img="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" data-spot-cats=nature,sightseeing>
+<img class=spot-img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" alt="도노쿠치 종유굴" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🏔️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 미야자키현 다카치호</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>도노쿠치 종유굴</h3>
+<p class=spot-desc>이 인상적인 석회 동굴은 정취 있는 조명을 받은 멋진 종유석과 석순을 갖추고 있습니다. 동굴 통로가 크고 작은 방들을 굽이굽이 지나, 더운 날에도 시원하고 상쾌한 체험을 선사합니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>동굴 탐험</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>종유석</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>지하</span>
+<span class=spot-tag style=background:#e4f4e8;color:#155a28>숨은 명소</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 </div>
 <div class=see-all-wrap>
-<a class=see-all-btn style=color:#1a7a34 href=/prefectures/miyazaki/nature/>
-See all 7 자연 spots →
-</a>
+<button class="see-all-btn show-more-btn" style=color:#1a7a34 type=button data-section=section-nature>
+전체 보기 (7) ↓
+</button>
 </div>
 </div>
 </section><section class=spot-section id=section-leisure data-cat=leisure>
@@ -972,11 +1203,74 @@ See all 7 자연 spots →
 </button>
 </div>
 </article>
+<article class="spot-card spot-more" data-spot-id=kirishima-hot-spring-resort data-spot-name="기리시마 온천 리조트" data-spot-pref=miyazaki data-spot-fee=800 data-spot-dur=90 data-spot-lat=31.9342 data-spot-lng=130.8167 data-spot-area=kirishima data-spot-rating=4.4 data-spot-reviews=1400 data-spot-img="https://images.unsplash.com/photo-1571863533956-7522c3c1d533?w=800&q=80" data-spot-cats=leisure>
+<img class=spot-img src="https://images.unsplash.com/photo-1571863533956-7522c3c1d533?w=800&q=80" alt="기리시마 온천 리조트" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎿</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 미야자키현 기리시마</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>기리시마 온천 리조트</h3>
+<p class=spot-desc>화산 기리시마 연산에 안긴 이 온천 리조트 지역은 멋진 산 전망과 깨끗하고 광물이 풍부한 물을 갖춘 천연 온천을 제공합니다. 전통 일본 온천 문화를 즐기며 산을 탐방하기에 이상적인 거점입니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>온천</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>산 전망</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>휴식</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>천연 온천수</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=hyuga-natsu-citrus data-spot-name="휴가나쓰 감귤 농원 &amp;amp; 시장" data-spot-pref=miyazaki data-spot-fee=0 data-spot-dur=60 data-spot-lat=32.2833 data-spot-lng=131.65 data-spot-area=hyuga-city data-spot-rating=4.3 data-spot-reviews=890 data-spot-img="https://images.unsplash.com/photo-1557804506-669714d2e9d8?w=800&q=80" data-spot-cats=gourmet,leisure>
+<img class=spot-img src="https://images.unsplash.com/photo-1557804506-669714d2e9d8?w=800&q=80" alt="휴가나쓰 감귤 농원 & 시장" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎿</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 미야자키현 휴가시</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>휴가나쓰 감귤 농원 & 시장</h3>
+<p class=spot-desc>휴가나쓰는 미야자키현 원산의 프리미엄 감귤로, 달콤한 풍미와 향긋한 향으로 유명합니다. 현지 농원과 시장을 방문해 이 제철 별미를 신선하게 맛보거나, 프리미엄 과일과 주스를 기념품으로 구입해 가세요.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>감귤</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>농장 직송</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>현지 농산물</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>제철 수확</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=seagaia-resort data-spot-name="시가이아 리조트 &amp;amp; 오션 돔" data-spot-pref=miyazaki data-spot-fee=2500 data-spot-dur=180 data-spot-lat=31.9042 data-spot-lng=131.2814 data-spot-area=miyazaki-city data-spot-rating=4.2 data-spot-reviews=1450 data-spot-img="https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&q=80" data-spot-cats=leisure>
+<img class=spot-img src="https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&q=80" alt="시가이아 리조트 & 오션 돔" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎿</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 미야자키현 미야자키시</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>시가이아 리조트 & 오션 돔</h3>
+<p class=spot-desc>이 광대한 해변 리조트 단지는 연중 수영, 워터슬라이드, 해변 활동이 가능한 실내 오션 돔을 갖추고 있습니다. 아름다운 바다 전망과 함께 즐길 거리와 휴식을 찾는 가족에게 이상적인 목적지입니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>워터파크</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>해변 리조트</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>가족 친화</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>엔터테인먼트</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 </div>
 <div class=see-all-wrap>
-<a class=see-all-btn style=color:#b35c00 href=/prefectures/miyazaki/leisure/>
-See all 9 레저 spots →
-</a>
+<button class="see-all-btn show-more-btn" style=color:#b35c00 type=button data-section=section-leisure>
+전체 보기 (9) ↓
+</button>
 </div>
 </div>
 </section><section class=spot-section id=section-events data-cat=events>
@@ -1168,6 +1462,13 @@ See all 9 레저 spots →
 </div>
 <script>
 (function(){
+ 
+document.querySelectorAll('.show-more-btn').forEach(function(btn){
+  btn.addEventListener('click', function(){
+    var sec = document.getElementById(btn.dataset.section);
+    if (sec) sec.classList.add('spots-expanded');
+  });
+});
  
 const CATS = {
   sightseeing:{ color:"#1a45a8" },

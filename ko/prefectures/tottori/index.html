@@ -99,7 +99,7 @@
   document.addEventListener('keydown', function(e){ if(e.key==='Escape') close(); });
 })();
 </script>
-<style>.pref-breadcrumb{background:#f8f9fa;border-bottom:1px solid var(--border);padding:.6rem 1.5rem;font-size:.82rem;color:var(--gray)}.pref-breadcrumb a{color:var(--red);text-decoration:none}.pref-breadcrumb a:hover{text-decoration:underline}.pref-breadcrumb span{margin:0 .4rem}.pref-hero{position:relative;min-height:440px;display:flex;align-items:flex-end;background:#2a1a00 50%/cover no-repeat;background-image:url(https://images.unsplash.com/photo-1601823984263-b87b59798b70?w=1600&q=80)}.pref-hero::after{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,.15) 0%,rgba(0,0,0,.7) 100%)}.pref-hero-body{position:relative;z-index:1;padding:2.5rem 1.5rem 2rem;max-width:var(--max-w);margin:0 auto;width:100%}.pref-hero-eyebrow{color:rgba(255,255,255,.75);font-size:.82rem;font-weight:600;text-transform:uppercase;letter-spacing:.1em;margin-bottom:.5rem}.pref-hero h1{color:#fff;font-size:clamp(2.2rem,5.5vw,3.4rem);font-weight:900;margin:0 0 .5rem;line-height:1.1}.pref-hero .pref-sub{color:rgba(255,255,255,.88);font-size:1.05rem;max-width:560px;margin-bottom:1rem}.pref-stats{display:flex;flex-wrap:wrap;gap:.6rem}.pref-stat{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);border-radius:20px;padding:.3rem .85rem;color:#fff;font-size:.8rem;font-weight:600}.pref-section{padding:2.5rem 1.5rem}.pref-section+.pref-section{padding-top:0}.pref-container{max-width:var(--max-w);margin:0 auto}.pref-section-title{font-size:1.55rem;font-weight:900;margin:0 0 .4rem;display:flex;align-items:center;gap:.5rem}.pref-section-lead{font-size:1rem;color:#555;line-height:1.7;max-width:680px;margin-bottom:1.5rem}.ponko-guide{display:flex;align-items:flex-end;gap:0;margin-bottom:1.6rem}.ponko-bubble{flex:1;min-width:0;background:linear-gradient(135deg,#fff9f0,#fff3e0);border:2px solid #f5a623;border-radius:18px 18px 18px 4px;padding:1.2rem 1.5rem;position:relative;box-shadow:0 4px 14px rgba(245,166,35,.13)}.ponko-bubble::after{content:'';position:absolute;right:-18px;bottom:22px;border:9px solid transparent;border-left-color:#f5a623}.ponko-bubble::before{content:'';position:absolute;right:-13px;bottom:23px;z-index:1;border:8px solid transparent;border-left-color:#fff9f0}.ponko-bubble p{font-size:.97rem;line-height:1.8;color:#333;margin:0}.ponko-figure{flex-shrink:0;width:170px;margin-left:4px;animation:ponko-float 3s ease-in-out infinite}.ponko-figure img{width:100%;height:auto;display:block;filter:drop-shadow(0 6px 10px rgba(0,0,0,.18))}@keyframes ponko-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}@media(max-width:640px){.ponko-guide{flex-direction:column;align-items:center}.ponko-bubble{border-radius:18px;order:2;width:100%}.ponko-bubble::after,.ponko-bubble::before{display:none}.ponko-figure{order:1;width:130px;margin-left:0;margin-bottom:.5rem;animation:none}}.quick-facts{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.8rem;margin-top:1.4rem}.qf-card{background:#f8f9fb;border:1px solid var(--border);border-radius:12px;padding:1rem 1.1rem;display:flex;align-items:flex-start;gap:.7rem}.qf-icon{font-size:1.4rem;flex-shrink:0}.qf-label{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--gray);margin-bottom:.15rem}.qf-value{font-size:.9rem;font-weight:600;color:var(--dark)}.access-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}.access-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 8px rgba(0,0,0,5%)}.access-card-hd{display:flex;align-items:center;gap:.5rem;margin-bottom:.8rem}.access-card-icon{font-size:1.5rem}.access-card-title{font-size:1rem;font-weight:800;color:var(--dark)}.access-card ul{margin:0;padding-left:1.1rem}.access-card li{font-size:.875rem;line-height:1.65;color:#444;margin-bottom:.3rem}.access-card li strong{color:var(--dark)}.access-tip{margin-top:1.2rem;background:#fff8e6;border:1px solid #ffe0a0;border-radius:10px;padding:.9rem 1.1rem;font-size:.85rem;line-height:1.6;color:#5a3e00}.access-tip strong{display:block;margin-bottom:.2rem;font-size:.88rem}.guide-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem}.guide-card{background:#fff;border-radius:14px;overflow:hidden;border:1px solid var(--border);box-shadow:0 2px 8px rgba(0,0,0,5%);transition:transform .15s,box-shadow .15s;position:relative;display:flex;flex-direction:column}.guide-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.guide-card-img{width:100%;height:150px;object-fit:cover;background:#e8eef4;display:block}.guide-card-img-ph{width:100%;height:150px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:2.5rem}.guide-card-body{padding:.9rem 1rem 1rem;flex:1}.guide-cat-badge{display:inline-block;font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;padding:.15rem .55rem;border-radius:8px;background:var(--red);color:#fff;margin-bottom:.4rem}.guide-card-title{font-size:.92rem;font-weight:800;color:var(--dark);line-height:1.4}.guide-coming-soon{position:absolute;top:.6rem;right:.6rem;background:rgba(0,0,0,.55);color:#fff;font-size:.65rem;font-weight:700;padding:.2rem .5rem;border-radius:6px;text-transform:uppercase;letter-spacing:.05em}.guide-card-link{text-decoration:none;color:inherit;display:flex;flex-direction:column;height:100%}.pref-toc{background:#fff;border-bottom:2px solid var(--border);position:sticky;top:0;z-index:100;overflow-x:auto}.pref-toc-inner{display:flex;gap:0;max-width:var(--max-w);margin:0 auto}.pref-toc-btn{flex:none;display:flex;align-items:center;gap:.4rem;padding:.8rem 1.2rem;border:none;background:0 0;cursor:pointer;font-family:inherit;font-size:.88rem;font-weight:600;color:var(--gray);border-bottom:3px solid transparent;transition:all .18s;white-space:nowrap}.pref-toc-btn .toc-icon{font-size:1.1rem}.pref-toc-btn:hover{color:var(--dark);background:#f8f8f8}.pref-toc-btn.active{color:var(--toc-color,var(--red));border-bottom-color:var(--toc-color,var(--red))}.spot-section{padding:2rem 1.5rem 2.5rem}.spot-section.hidden{display:none}.spot-section-inner{max-width:var(--max-w);margin:0 auto}.section-hd{display:flex;align-items:center;gap:.6rem;margin-bottom:1.4rem;padding-bottom:.7rem;border-bottom:2px solid var(--border)}.section-hd .s-icon{font-size:1.6rem}.section-hd h2{font-size:1.35rem;font-weight:800;margin:0}.section-hd .s-count{margin-left:auto;background:var(--sec-color,var(--red));color:#fff;border-radius:20px;padding:.15rem .65rem;font-size:.78rem;font-weight:700}.spot-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.25rem}.spot-card{border-radius:14px;overflow:hidden;border:1px solid var(--border);background:#fff;box-shadow:0 2px 8px rgba(0,0,0,6%);transition:transform .15s,box-shadow .15s;display:flex;flex-direction:column}.spot-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.spot-img{width:100%;height:200px;object-fit:cover;background:#e8eef4;display:block}.spot-img-ph{width:100%;height:200px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:3rem}.spot-body{padding:1rem 1.1rem 1.1rem;flex:1;display:flex;flex-direction:column}.spot-meta{display:flex;align-items:center;gap:.5rem;margin-bottom:.5rem}.spot-location{font-size:.78rem;color:var(--gray);font-weight:500}.spot-season-badge{margin-left:auto;font-size:.7rem;font-weight:700;padding:.1rem .5rem;border-radius:10px;background:#f0f4f8;color:#555;white-space:nowrap}.spot-name{font-size:1.08rem;font-weight:800;color:var(--dark);margin:0 0 .45rem;line-height:1.3}.spot-desc{font-size:.86rem;line-height:1.65;color:#555;flex:1;margin-bottom:.75rem}.spot-tags{display:flex;flex-wrap:wrap;gap:.3rem}.spot-tag{font-size:.7rem;font-weight:600;padding:.15rem .5rem;border-radius:6px;background:var(--tag-bg,#f0f4f8);color:var(--tag-color,#445)}.tips-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem}.tip-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 6px rgba(0,0,0,4%)}.tip-card-icon{font-size:1.8rem;margin-bottom:.6rem}.tip-card-title{font-size:.95rem;font-weight:800;color:var(--dark);margin-bottom:.5rem}.tip-card-body{font-size:.85rem;line-height:1.65;color:#555}.tip-card-body ul{margin:.3rem 0 0;padding-left:1.1rem}.tip-card-body li{margin-bottom:.2rem}.pref-cta{background:var(--bg-soft);padding:2.5rem 1.5rem 3rem;border-top:1px solid var(--border)}.pref-cta .pref-container{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}@media(max-width:600px){.pref-hero{min-height:320px}.quick-facts{grid-template-columns:repeat(2,1fr)}.pref-toc-btn{padding:.7rem .9rem;font-size:.82rem}}.btn-add-plan{display:inline-flex;align-items:center;gap:.35rem;margin-top:.75rem;padding:.45rem .9rem;border:1.5px solid #2d5be3;border-radius:8px;background:#fff;color:#2d5be3;font-size:.78rem;font-weight:700;font-family:inherit;cursor:pointer;transition:background .15s,color .15s,transform .1s;width:100%;justify-content:center}.btn-add-plan:hover{background:#2d5be3;color:#fff;transform:translateY(-1px)}.btn-add-plan.in-plan{background:#e8f0ff;color:#1a45a8;border-color:#1a45a8}.btn-add-plan.in-plan:hover{background:#c0003a;color:#fff;border-color:#c0003a}.btn-read-guide{display:inline-flex;align-items:center;justify-content:center;gap:.35rem;margin-top:.5rem;padding:.45rem .9rem;border:1.5px solid #1a7a34;border-radius:8px;background:#f0faf2;color:#1a7a34;font-size:.78rem;font-weight:700;text-decoration:none;width:100%;transition:background .15s,color .15s,transform .1s}.btn-read-guide:hover{background:#1a7a34;color:#fff;transform:translateY(-1px);text-decoration:none}.see-all-wrap{text-align:center;margin-top:1.5rem;padding-top:1rem;border-top:1px dashed var(--border)}.see-all-btn{display:inline-flex;align-items:center;gap:.4rem;padding:.55rem 1.5rem;border:2px solid;border-radius:10px;font-size:.88rem;font-weight:700;text-decoration:none;transition:all .15s}.see-all-btn:hover{opacity:.8;text-decoration:none}</style>
+<style>.pref-breadcrumb{background:#f8f9fa;border-bottom:1px solid var(--border);padding:.6rem 1.5rem;font-size:.82rem;color:var(--gray)}.pref-breadcrumb a{color:var(--red);text-decoration:none}.pref-breadcrumb a:hover{text-decoration:underline}.pref-breadcrumb span{margin:0 .4rem}.pref-hero{position:relative;min-height:440px;display:flex;align-items:flex-end;background:#2a1a00 50%/cover no-repeat;background-image:url(https://images.unsplash.com/photo-1601823984263-b87b59798b70?w=1600&q=80)}.pref-hero::after{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,.15) 0%,rgba(0,0,0,.7) 100%)}.pref-hero-body{position:relative;z-index:1;padding:2.5rem 1.5rem 2rem;max-width:var(--max-w);margin:0 auto;width:100%}.pref-hero-eyebrow{color:rgba(255,255,255,.75);font-size:.82rem;font-weight:600;text-transform:uppercase;letter-spacing:.1em;margin-bottom:.5rem}.pref-hero h1{color:#fff;font-size:clamp(2.2rem,5.5vw,3.4rem);font-weight:900;margin:0 0 .5rem;line-height:1.1}.pref-hero .pref-sub{color:rgba(255,255,255,.88);font-size:1.05rem;max-width:560px;margin-bottom:1rem}.pref-stats{display:flex;flex-wrap:wrap;gap:.6rem}.pref-stat{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);border-radius:20px;padding:.3rem .85rem;color:#fff;font-size:.8rem;font-weight:600}.pref-section{padding:2.5rem 1.5rem}.pref-section+.pref-section{padding-top:0}.pref-container{max-width:var(--max-w);margin:0 auto}.pref-section-title{font-size:1.55rem;font-weight:900;margin:0 0 .4rem;display:flex;align-items:center;gap:.5rem}.pref-section-lead{font-size:1rem;color:#555;line-height:1.7;max-width:680px;margin-bottom:1.5rem}.ponko-guide{display:flex;align-items:flex-end;gap:0;margin-bottom:1.6rem}.ponko-bubble{flex:1;min-width:0;background:linear-gradient(135deg,#fff9f0,#fff3e0);border:2px solid #f5a623;border-radius:18px 18px 18px 4px;padding:1.2rem 1.5rem;position:relative;box-shadow:0 4px 14px rgba(245,166,35,.13)}.ponko-bubble::after{content:'';position:absolute;right:-18px;bottom:22px;border:9px solid transparent;border-left-color:#f5a623}.ponko-bubble::before{content:'';position:absolute;right:-13px;bottom:23px;z-index:1;border:8px solid transparent;border-left-color:#fff9f0}.ponko-bubble p{font-size:.97rem;line-height:1.8;color:#333;margin:0}.ponko-figure{flex-shrink:0;width:170px;margin-left:4px;animation:ponko-float 3s ease-in-out infinite}.ponko-figure img{width:100%;height:auto;display:block;filter:drop-shadow(0 6px 10px rgba(0,0,0,.18))}@keyframes ponko-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}@media(max-width:640px){.ponko-guide{flex-direction:column;align-items:center}.ponko-bubble{border-radius:18px;order:2;width:100%}.ponko-bubble::after,.ponko-bubble::before{display:none}.ponko-figure{order:1;width:130px;margin-left:0;margin-bottom:.5rem;animation:none}}.quick-facts{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.8rem;margin-top:1.4rem}.qf-card{background:#f8f9fb;border:1px solid var(--border);border-radius:12px;padding:1rem 1.1rem;display:flex;align-items:flex-start;gap:.7rem}.qf-icon{font-size:1.4rem;flex-shrink:0}.qf-label{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--gray);margin-bottom:.15rem}.qf-value{font-size:.9rem;font-weight:600;color:var(--dark)}.access-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}.access-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 8px rgba(0,0,0,5%)}.access-card-hd{display:flex;align-items:center;gap:.5rem;margin-bottom:.8rem}.access-card-icon{font-size:1.5rem}.access-card-title{font-size:1rem;font-weight:800;color:var(--dark)}.access-card ul{margin:0;padding-left:1.1rem}.access-card li{font-size:.875rem;line-height:1.65;color:#444;margin-bottom:.3rem}.access-card li strong{color:var(--dark)}.access-tip{margin-top:1.2rem;background:#fff8e6;border:1px solid #ffe0a0;border-radius:10px;padding:.9rem 1.1rem;font-size:.85rem;line-height:1.6;color:#5a3e00}.access-tip strong{display:block;margin-bottom:.2rem;font-size:.88rem}.guide-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem}.guide-card{background:#fff;border-radius:14px;overflow:hidden;border:1px solid var(--border);box-shadow:0 2px 8px rgba(0,0,0,5%);transition:transform .15s,box-shadow .15s;position:relative;display:flex;flex-direction:column}.guide-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.guide-card-img{width:100%;height:150px;object-fit:cover;background:#e8eef4;display:block}.guide-card-img-ph{width:100%;height:150px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:2.5rem}.guide-card-body{padding:.9rem 1rem 1rem;flex:1}.guide-cat-badge{display:inline-block;font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;padding:.15rem .55rem;border-radius:8px;background:var(--red);color:#fff;margin-bottom:.4rem}.guide-card-title{font-size:.92rem;font-weight:800;color:var(--dark);line-height:1.4}.guide-coming-soon{position:absolute;top:.6rem;right:.6rem;background:rgba(0,0,0,.55);color:#fff;font-size:.65rem;font-weight:700;padding:.2rem .5rem;border-radius:6px;text-transform:uppercase;letter-spacing:.05em}.guide-card-link{text-decoration:none;color:inherit;display:flex;flex-direction:column;height:100%}.pref-toc{background:#fff;border-bottom:2px solid var(--border);position:sticky;top:0;z-index:100;overflow-x:auto}.pref-toc-inner{display:flex;gap:0;max-width:var(--max-w);margin:0 auto}.pref-toc-btn{flex:none;display:flex;align-items:center;gap:.4rem;padding:.8rem 1.2rem;border:none;background:0 0;cursor:pointer;font-family:inherit;font-size:.88rem;font-weight:600;color:var(--gray);border-bottom:3px solid transparent;transition:all .18s;white-space:nowrap}.pref-toc-btn .toc-icon{font-size:1.1rem}.pref-toc-btn:hover{color:var(--dark);background:#f8f8f8}.pref-toc-btn.active{color:var(--toc-color,var(--red));border-bottom-color:var(--toc-color,var(--red))}.spot-section{padding:2rem 1.5rem 2.5rem}.spot-section.hidden{display:none}.spot-section-inner{max-width:var(--max-w);margin:0 auto}.section-hd{display:flex;align-items:center;gap:.6rem;margin-bottom:1.4rem;padding-bottom:.7rem;border-bottom:2px solid var(--border)}.section-hd .s-icon{font-size:1.6rem}.section-hd h2{font-size:1.35rem;font-weight:800;margin:0}.section-hd .s-count{margin-left:auto;background:var(--sec-color,var(--red));color:#fff;border-radius:20px;padding:.15rem .65rem;font-size:.78rem;font-weight:700}.spot-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.25rem}.spot-card{border-radius:14px;overflow:hidden;border:1px solid var(--border);background:#fff;box-shadow:0 2px 8px rgba(0,0,0,6%);transition:transform .15s,box-shadow .15s;display:flex;flex-direction:column}.spot-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}.spot-img{width:100%;height:200px;object-fit:cover;background:#e8eef4;display:block}.spot-img-ph{width:100%;height:200px;background:linear-gradient(135deg,#dce4f0,#b8cce4);display:flex;align-items:center;justify-content:center;font-size:3rem}.spot-body{padding:1rem 1.1rem 1.1rem;flex:1;display:flex;flex-direction:column}.spot-meta{display:flex;align-items:center;gap:.5rem;margin-bottom:.5rem}.spot-location{font-size:.78rem;color:var(--gray);font-weight:500}.spot-season-badge{margin-left:auto;font-size:.7rem;font-weight:700;padding:.1rem .5rem;border-radius:10px;background:#f0f4f8;color:#555;white-space:nowrap}.spot-name{font-size:1.08rem;font-weight:800;color:var(--dark);margin:0 0 .45rem;line-height:1.3}.spot-desc{font-size:.86rem;line-height:1.65;color:#555;flex:1;margin-bottom:.75rem}.spot-tags{display:flex;flex-wrap:wrap;gap:.3rem}.spot-tag{font-size:.7rem;font-weight:600;padding:.15rem .5rem;border-radius:6px;background:var(--tag-bg,#f0f4f8);color:var(--tag-color,#445)}.tips-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem}.tip-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.3rem;box-shadow:0 2px 6px rgba(0,0,0,4%)}.tip-card-icon{font-size:1.8rem;margin-bottom:.6rem}.tip-card-title{font-size:.95rem;font-weight:800;color:var(--dark);margin-bottom:.5rem}.tip-card-body{font-size:.85rem;line-height:1.65;color:#555}.tip-card-body ul{margin:.3rem 0 0;padding-left:1.1rem}.tip-card-body li{margin-bottom:.2rem}.pref-cta{background:var(--bg-soft);padding:2.5rem 1.5rem 3rem;border-top:1px solid var(--border)}.pref-cta .pref-container{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}@media(max-width:600px){.pref-hero{min-height:320px}.quick-facts{grid-template-columns:repeat(2,1fr)}.pref-toc-btn{padding:.7rem .9rem;font-size:.82rem}}.btn-add-plan{display:inline-flex;align-items:center;gap:.35rem;margin-top:.75rem;padding:.45rem .9rem;border:1.5px solid #2d5be3;border-radius:8px;background:#fff;color:#2d5be3;font-size:.78rem;font-weight:700;font-family:inherit;cursor:pointer;transition:background .15s,color .15s,transform .1s;width:100%;justify-content:center}.btn-add-plan:hover{background:#2d5be3;color:#fff;transform:translateY(-1px)}.btn-add-plan.in-plan{background:#e8f0ff;color:#1a45a8;border-color:#1a45a8}.btn-add-plan.in-plan:hover{background:#c0003a;color:#fff;border-color:#c0003a}.btn-read-guide{display:inline-flex;align-items:center;justify-content:center;gap:.35rem;margin-top:.5rem;padding:.45rem .9rem;border:1.5px solid #1a7a34;border-radius:8px;background:#f0faf2;color:#1a7a34;font-size:.78rem;font-weight:700;text-decoration:none;width:100%;transition:background .15s,color .15s,transform .1s}.btn-read-guide:hover{background:#1a7a34;color:#fff;transform:translateY(-1px);text-decoration:none}.see-all-wrap{text-align:center;margin-top:1.5rem;padding-top:1rem;border-top:1px dashed var(--border)}.see-all-btn{display:inline-flex;align-items:center;gap:.4rem;padding:.55rem 1.5rem;border:2px solid;border-radius:10px;font-size:.88rem;font-weight:700;text-decoration:none;transition:all .15s}.see-all-btn:hover{opacity:.8;text-decoration:none}.see-all-btn{cursor:pointer;background:0 0}.spot-card.spot-more{display:none}.spot-section.spots-expanded .spot-card.spot-more{display:flex}.spot-section.spots-expanded .see-all-wrap{display:none}</style>
 <nav class=pref-breadcrumb aria-label=breadcrumb>
 <a href=/>홈</a><span>›</span>
 <a href=/explore/>일본 탐색</a><span>›</span>
@@ -543,11 +543,151 @@
 </button>
 </div>
 </article>
+<article class="spot-card spot-more" data-spot-id=tottori-seaside-park data-spot-name="돗토리 해안 공원" data-spot-pref=tottori data-spot-fee=0 data-spot-dur=75 data-spot-lat=35.5089 data-spot-lng=134.2089 data-spot-area=central-tottori data-spot-rating=4.3 data-spot-reviews=980 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Lake_Togo02nt3200.jpg/960px-Lake_Togo02nt3200.jpg data-spot-cats=sightseeing,leisure>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Lake_Togo02nt3200.jpg/960px-Lake_Togo02nt3200.jpg alt="돗토리 해안 공원" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 돗토리 중심부, 돗토리현</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>돗토리 해안 공원</h3>
+<p class=spot-desc>자연 경관과 놀이터, 전망대, 해변 등 다양한 레크리에이션 시설이 어우러진 넓은 해변 공원입니다. 해안 뷰가 펼쳐지는 산책로와 소풍에 제격인 잔디밭이 마련되어 있습니다. 우수한 시설과 계절별 이벤트를 갖춰 가족 나들이에 안성맞춤입니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>해변 공원</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>레크리에이션 공간</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>가족 활동</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=sekiya-shrine data-spot-name="세키야 신사 숨겨진 폭포" data-spot-pref=tottori data-spot-fee=0 data-spot-dur=90 data-spot-lat=35.4156 data-spot-lng=133.6789 data-spot-area=western-tottori data-spot-rating=4.3 data-spot-reviews=380 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Misasa_jinja_tyouzusha_202106.jpg/960px-Misasa_jinja_tyouzusha_202106.jpg data-spot-cats=nature,sightseeing>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Misasa_jinja_tyouzusha_202106.jpg/960px-Misasa_jinja_tyouzusha_202106.jpg alt="세키야 신사 숨겨진 폭포" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 돗토리 서부, 돗토리현</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>세키야 신사 숨겨진 폭포</h3>
+<p class=spot-desc>오래된 신사 근처 울창한 숲속에 자리한 그림 같은 폭포가 있는 숨겨진 명소입니다. 1시간이 채 안 걸리는 트레킹 끝에 아름다운 전망과 평화로운 자연환경이 기다립니다. 군중을 피해 진정한 자연 체험을 원하는 분들에게 안성맞춤입니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>신성한 폭포</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>하이킹</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>비밀 명소</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=tottori-castle-ruins data-spot-name="돗토리 성터" data-spot-pref=tottori data-spot-fee=0 data-spot-dur=75 data-spot-lat=35.5017 data-spot-lng=134.2267 data-spot-area=central-tottori data-spot-rating=4.3 data-spot-reviews=1800 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Tottori_castle01_2816.jpg/960px-Tottori_castle01_2816.jpg data-spot-cats=sightseeing,sightseeing>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Tottori_castle01_2816.jpg/960px-Tottori_castle01_2816.jpg alt="돗토리 성터" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 돗토리 중심부, 돗토리현</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>돗토리 성터</h3>
+<p class=spot-desc>해발 263m 언덕 위에 자리한 이 성터에서는 돗토리 시가지의 파노라마 전망과 봄철 절경인 벚꽃을 감상할 수 있습니다. 원래 건물은 사라졌지만 석축과 기초가 500년 역사를 전합니다. 주변 공원은 하이킹과 사무라이 유산 탐방에 안성맞춤입니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>역사적 요새</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>산 전망</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>벚꽃</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=tottori-art-museum data-spot-name="돗토리현립 미술관" data-spot-pref=tottori data-spot-fee=900 data-spot-dur=90 data-spot-lat=35.5008 data-spot-lng=134.2342 data-spot-area=central-tottori data-spot-rating=4.2 data-spot-reviews=670 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Tottori_Sand_Museum-2.jpg/960px-Tottori_Sand_Museum-2.jpg data-spot-cats=sightseeing>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Tottori_Sand_Museum-2.jpg/960px-Tottori_Sand_Museum-2.jpg alt="돗토리현립 미술관" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 돗토리 중심부, 돗토리현</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>돗토리현립 미술관</h3>
+<p class=spot-desc>현대 일본 및 국제 미술을 돗토리 출신 작가의 작품을 중심으로 전시하는 현대적인 미술관입니다. 세련된 건축물이 조경된 정원과 조화롭게 어우러집니다. 정기적으로 바뀌는 순환 전시로 재방문해도 새로운 즐거움을 선사합니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>현대 미술</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>지역 작가</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>건축</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=akasaki-pottery-village data-spot-name="아카사키 도자기 마을" data-spot-pref=tottori data-spot-fee=1500 data-spot-dur=90 data-spot-lat=35.3834 data-spot-lng=133.7945 data-spot-area=hokuei-town data-spot-rating=4.2 data-spot-reviews=450 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Traditional_Industry_Hall_of_Koishiwara_Pottery.jpg/960px-Traditional_Industry_Hall_of_Koishiwara_Pottery.jpg data-spot-cats=sightseeing,leisure>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Traditional_Industry_Hall_of_Koishiwara_Pottery.jpg/960px-Traditional_Industry_Hall_of_Koishiwara_Pottery.jpg alt="아카사키 도자기 마을" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 호쿠에이초, 돗토리현</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>아카사키 도자기 마을</h3>
+<p class=spot-desc>수백 년간 이어진 돗토리 도예 전통을 잇는 여러 도예가들이 거주하는 시골 마을입니다. 많은 공방에서 물레 체험이나 채색 체험을 받을 수 있습니다. 가마가 있는 소박한 마을 분위기에서 진정한 공예 체험을 즐겨보세요.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>도자기 공예</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>작가 공방</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>체험 워크숍</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=yonago-lake data-spot-name="나카우미 호수" data-spot-pref=tottori data-spot-fee=0 data-spot-dur=90 data-spot-lat=35.3942 data-spot-lng=133.3389 data-spot-area=yonago-area data-spot-rating=4.1 data-spot-reviews=720 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Nakaumi.skyport3.jpg/960px-Nakaumi.skyport3.jpg data-spot-cats=nature,sightseeing>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Nakaumi.skyport3.jpg/960px-Nakaumi.skyport3.jpg alt="나카우미 호수" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 요나고 지역, 돗토리현</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>나카우미 호수</h3>
+<p class=spot-desc>돗토리 최대 호수에서 평화로운 호반 산책, 조류 관찰, 파노라마 뷰가 있는 레스토랑을 즐겨보세요. 수면 위의 일몰이 특히 환상적입니다. 주변에 여러 자연센터와 야생동물 관찰 포인트가 있어 자연 애호가에게 적합합니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>경치 좋은 호수</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>조류 관찰</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>일몰 뷰</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=tottori-folklore-museum data-spot-name="돗토리 민속 박물관" data-spot-pref=tottori data-spot-fee=500 data-spot-dur=60 data-spot-lat=35.5058 data-spot-lng=134.2358 data-spot-area=central-tottori data-spot-rating=4.1 data-spot-reviews=580 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Kurayoshi01n4592.jpg/960px-Kurayoshi01n4592.jpg data-spot-cats=sightseeing>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Kurayoshi01n4592.jpg/960px-Kurayoshi01n4592.jpg alt="돗토리 민속 박물관" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>⛩️</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 돗토리 중심부, 돗토리현</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>돗토리 민속 박물관</h3>
+<p class=spot-desc>수백 년에 걸친 돗토리 역사 속 농기구, 직물, 도자기, 민예품 등을 통해 전통 농촌 생활을 살펴볼 수 있습니다. 박물관의 아름다운 전통 건물은 서민들의 삶과 일을 보여줍니다. 지역 문화와 장인 정신을 깊이 이해할 수 있는 공간입니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>전통 생활</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>민예품</span>
+<span class=spot-tag style=background:#e8eeff;color:#1a3a9a>지역 유산</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 </div>
 <div class=see-all-wrap>
-<a class=see-all-btn style=color:#1a45a8 href=/prefectures/tottori/sightseeing/>
-See all 13 관광명소 spots →
-</a>
+<button class="see-all-btn show-more-btn" style=color:#1a45a8 type=button data-section=section-sightseeing>
+전체 보기 (13) ↓
+</button>
 </div>
 </div>
 </section><section class=spot-section id=section-gourmet data-cat=gourmet>
@@ -940,11 +1080,111 @@ See all 13 관광명소 spots →
 </button>
 </div>
 </article>
+<article class="spot-card spot-more" data-spot-id=sand-dune-melon-farm data-spot-name="사구 멜론 농장 투어" data-spot-pref=tottori data-spot-fee=1200 data-spot-dur=60 data-spot-lat=35.5286 data-spot-lng=134.1544 data-spot-area=central-tottori data-spot-rating=4.3 data-spot-reviews=680 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Tottori_Sandunes_03.jpg/960px-Tottori_Sandunes_03.jpg data-spot-cats=gourmet,leisure>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Tottori_Sandunes_03.jpg/960px-Tottori_Sandunes_03.jpg alt="사구 멜론 농장 투어" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎿</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 돗토리 중심부, 돗토리현</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>사구 멜론 농장 투어</h3>
+<p class=spot-desc>돗토리의 독특한 모래 토양에서 재배된 사구 멜론은 특별히 달콤한 맛을 자랑합니다. 농장을 방문해 특이한 재배 방법을 배우고 신선한 멜론 주스와 파르페를 맛보세요. 6~8월 여름 투어에서는 뒤로 사구가 펼쳐지는 광활한 멜론 밭을 배경으로 사진을 찍을 수 있습니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>특산 과일</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>농업 유산</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>계절 투어</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=tottori-seaside-park data-spot-name="돗토리 해안 공원" data-spot-pref=tottori data-spot-fee=0 data-spot-dur=75 data-spot-lat=35.5089 data-spot-lng=134.2089 data-spot-area=central-tottori data-spot-rating=4.3 data-spot-reviews=980 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Lake_Togo02nt3200.jpg/960px-Lake_Togo02nt3200.jpg data-spot-cats=sightseeing,leisure>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Lake_Togo02nt3200.jpg/960px-Lake_Togo02nt3200.jpg alt="돗토리 해안 공원" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎿</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 돗토리 중심부, 돗토리현</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>돗토리 해안 공원</h3>
+<p class=spot-desc>자연 경관과 놀이터, 전망대, 해변 등 다양한 레크리에이션 시설이 어우러진 넓은 해변 공원입니다. 해안 뷰가 펼쳐지는 산책로와 소풍에 제격인 잔디밭이 마련되어 있습니다. 우수한 시설과 계절별 이벤트를 갖춰 가족 나들이에 안성맞춤입니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>해변 공원</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>레크리에이션 공간</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>가족 활동</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=kinkakuji-tottori data-spot-name="하쿠센노유 (숨겨진 명소 온천)" data-spot-pref=tottori data-spot-fee=500 data-spot-dur=75 data-spot-lat=35.3567 data-spot-lng=133.8123 data-spot-area=northern-mountains data-spot-rating=4.2 data-spot-reviews=420 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Sanbutsuji_01.JPG/960px-Sanbutsuji_01.JPG data-spot-cats=leisure>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Sanbutsuji_01.JPG/960px-Sanbutsuji_01.JPG alt="하쿠센노유 (숨겨진 명소 온천)" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎿</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 북부 산악 지역, 돗토리현</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>하쿠센노유 (숨겨진 명소 온천)</h3>
+<p class=spot-desc>돗토리의 우거진 산속에 자리한 이 아늑한 온천은 완벽한 고요함과 자연과의 교감을 선사합니다. 소박한 목욕탕에서는 땅 깊은 곳에서 솟아나는 자연 온천수를 즐길 수 있으며, 주변 숲이 명상적인 분위기를 만들어냅니다. 소문 나지 않은 진정한 일본을 경험하고 싶은 여행자에게 완벽한 장소입니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>외딴 온천</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>자연 속 힐링</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>고요함</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=akasaki-pottery-village data-spot-name="아카사키 도자기 마을" data-spot-pref=tottori data-spot-fee=1500 data-spot-dur=90 data-spot-lat=35.3834 data-spot-lng=133.7945 data-spot-area=hokuei-town data-spot-rating=4.2 data-spot-reviews=450 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Traditional_Industry_Hall_of_Koishiwara_Pottery.jpg/960px-Traditional_Industry_Hall_of_Koishiwara_Pottery.jpg data-spot-cats=sightseeing,leisure>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Traditional_Industry_Hall_of_Koishiwara_Pottery.jpg/960px-Traditional_Industry_Hall_of_Koishiwara_Pottery.jpg alt="아카사키 도자기 마을" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎿</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 호쿠에이초, 돗토리현</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>아카사키 도자기 마을</h3>
+<p class=spot-desc>수백 년간 이어진 돗토리 도예 전통을 잇는 여러 도예가들이 거주하는 시골 마을입니다. 많은 공방에서 물레 체험이나 채색 체험을 받을 수 있습니다. 가마가 있는 소박한 마을 분위기에서 진정한 공예 체험을 즐겨보세요.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>도자기 공예</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>작가 공방</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>체험 워크숍</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
+<article class="spot-card spot-more" data-spot-id=hawai-onsen data-spot-name="하와이 온천" data-spot-pref=tottori data-spot-fee=850 data-spot-dur=90 data-spot-lat=35.3944 data-spot-lng=134.1489 data-spot-area=kurayoshi-area data-spot-rating=4.2 data-spot-reviews=910 data-spot-img=https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Togo_Onsen06bs4592.jpg/960px-Togo_Onsen06bs4592.jpg data-spot-cats=leisure>
+<img class=spot-img src=https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Togo_Onsen06bs4592.jpg/960px-Togo_Onsen06bs4592.jpg alt="하와이 온천" loading=lazy onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class=spot-img-ph style=display:none>🎿</div>
+<div class=spot-body>
+<div class=spot-meta>
+<span class=spot-location>📍 구라요시 지역, 돗토리현</span>
+<span class=spot-season-badge></span>
+</div>
+<h3 class=spot-name>하와이 온천</h3>
+<p class=spot-desc>야자수와 이국적인 인테리어로 꾸며진 하와이 열대 테마 공중목욕탕과 전통 일본 욕탕을 동시에 즐길 수 있는 독특한 온천 시설입니다. 다양한 수온과 특별 욕탕을 갖춰 재미와 휴식을 함께 원하는 가족에게 안성맞춤입니다.</p>
+<div class=spot-tags>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>열대 테마 온천</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>현대 시설</span>
+<span class=spot-tag style=background:#fff3e0;color:#7a3f00>가족 친화적</span>
+</div>
+<button class=btn-add-plan onclick=prefTogglePlan(this)>
+🗺️ Add to Plan
+</button>
+</div>
+</article>
 </div>
 <div class=see-all-wrap>
-<a class=see-all-btn style=color:#b35c00 href=/prefectures/tottori/leisure/>
-See all 11 레저 spots →
-</a>
+<button class="see-all-btn show-more-btn" style=color:#b35c00 type=button data-section=section-leisure>
+전체 보기 (11) ↓
+</button>
 </div>
 </div>
 </section><section class=spot-section id=section-events data-cat=events>
@@ -1136,6 +1376,13 @@ See all 11 레저 spots →
 </div>
 <script>
 (function(){
+ 
+document.querySelectorAll('.show-more-btn').forEach(function(btn){
+  btn.addEventListener('click', function(){
+    var sec = document.getElementById(btn.dataset.section);
+    if (sec) sec.classList.add('spots-expanded');
+  });
+});
  
 const CATS = {
   sightseeing:{ color:"#1a45a8" },
