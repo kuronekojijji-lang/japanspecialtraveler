@@ -698,8 +698,7 @@ Disclosure: This site contains affiliate links. If you book through our links, w
       var h = a.getAttribute('href');
       if (!h || h.charAt(0) === '#') return;                          
       if (/^(https?:|\/\/|mailto:|tel:)/.test(h)) return;            
-      if (h.indexOf('/fr/') === 0 || h.indexOf('/ko/') === 0) return; 
-      if (h === '/fr' || h === '/ko') return;
+      if (/^\/(fr|ko|zh-cn|zh-tw|zh-hk)(\/|$)/.test(h)) return;      
       if (h.charAt(0) === '/') a.setAttribute('href', pfx + h);
     });
   }
