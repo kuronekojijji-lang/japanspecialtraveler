@@ -231,7 +231,8 @@
 <div class=cta-box>
 <h4>🏨 Find Hotels in Wakayama</h4>
 <p>Compare prices and availability across hundreds of hotels.</p>
-<a href="https://www.booking.com/searchresults.html?ss=wakayama+japan&aid=YOUR_BOOKING_ID" class=cta-btn target=_blank rel=noopener>Search Hotels on Booking.com &rarr;</a>
+<a href="https://tp.media/r?campaign_id=84&marker=737703&p=2076&trs=537880&u=https%3A%2F%2Fwww.booking.com%2Fsearchresults.html%3Fss%3DWakayama%252C%2BJapan%26lang%3Den-gb" class=cta-btn target=_blank rel="noopener sponsored">Search Hotels on Booking.com →</a>
+<a href="https://tp.media/r?campaign_id=104&marker=737703&p=2854&trs=537880&u=https%3A%2F%2Fwww.agoda.com%2Fcity%2Fwakayama-jp.html" class=cta-alt target=_blank rel="noopener sponsored">or compare prices on Agoda →</a>
 </div>
 <div class=cta-box>
 <h4>🎌 Tours & Experiences</h4>
@@ -286,7 +287,7 @@
 <label for=affGuests>Guests</label>
 <select id=affGuests><option value=1>1</option><option value=2 selected>2</option><option value=3>3</option><option value=4>4</option><option value=5>5</option><option value=6>6+</option></select>
 </div>
-<button type=submit class=aff-search-btn data-aid=YOUR_BOOKING_ID>
+<button type=submit class=aff-search-btn data-tp="https://tp.media/r?campaign_id=84&marker=737703&p=2076&trs=537880&u=" data-lang=en-gb>
 Search Hotels →
 </button>
 </form>
@@ -345,20 +346,25 @@ Search Hotels →
   });
 
   
+  
+  
   form.addEventListener('submit', function(e){
     e.preventDefault();
+    var btn      = document.querySelector('.aff-search-btn') || { getAttribute: function(){ return ''; } };
     var dest     = (document.getElementById('affDest').value || '').trim() || 'Japan';
     var checkin  = document.getElementById('affCheckin').value;
     var checkout = document.getElementById('affCheckout').value;
     var guests   = document.getElementById('affGuests').value;
-    var aid      = (document.querySelector('.aff-search-btn') || {}).getAttribute('data-aid') || '';
-    var url = 'https://www.booking.com/searchresults.html'
-            + '?ss=' + encodeURIComponent(dest)
-            + (checkin  ? '&checkin='  + checkin  : '')
-            + (checkout ? '&checkout=' + checkout : '')
-            + '&group_adults=' + guests
-            + '&no_rooms=1'
-            + (aid ? '&aid=' + aid : '');
+    var lang     = btn.getAttribute('data-lang') || 'en-gb';
+    var target = 'https://www.booking.com/searchresults.html'
+               + '?ss=' + encodeURIComponent(dest)
+               + (checkin  ? '&checkin='  + checkin  : '')
+               + (checkout ? '&checkout=' + checkout : '')
+               + '&group_adults=' + guests
+               + '&no_rooms=1'
+               + '&lang=' + lang;
+    var tp  = btn.getAttribute('data-tp') || '';
+    var url = tp ? tp + encodeURIComponent(target) : target;
     window.open(url, '_blank', 'noopener');
   });
 

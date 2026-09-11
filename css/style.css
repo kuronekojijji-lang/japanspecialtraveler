@@ -342,6 +342,15 @@ blockquote {
 .cta-btn.blue:hover {
   background: #112C6E;
 }
+/* secondary "or compare on …" link under a hotel CTA button */
+.cta-alt {
+  display: block;
+  margin-top: .6rem;
+  font-size: .82rem;
+  color: #666 !important;
+  text-decoration: underline;
+}
+.cta-alt:hover { color: var(--dark) !important; }
 
 /* ── Season banner ── */
 .season-banner {

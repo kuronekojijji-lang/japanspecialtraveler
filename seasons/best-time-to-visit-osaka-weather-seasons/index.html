@@ -388,8 +388,8 @@
 <li><strong>The Ritz-Carlton Osaka:</strong> In Umeda, combining classic luxury with a location directly above Osaka&rsquo;s best transit hub.</li>
 <li><strong>W Osaka:</strong> Opened 2021 on Midōsuji Boulevard, with bold design by Tadao Ando. The rooftop bar is the city&rsquo;s best for sunset drinks.</li>
 </ul>
-<p><strong>🔖 Booking tip:</strong> For cherry blossom season (late March–early April), Golden Week (April 29–May 5), and New Year&rsquo;s (December 28–January 3), book at least 3 months in advance. Prices can triple during these periods. For the best rates, book directly through hotel websites and check for member-only discounts. Use <a href=https://www.booking.com>Booking.com</a>
-or <a href=https://www.agoda.com>Agoda</a>
+<p><strong>🔖 Booking tip:</strong> For cherry blossom season (late March–early April), Golden Week (April 29–May 5), and New Year&rsquo;s (December 28–January 3), book at least 3 months in advance. Prices can triple during these periods. For the best rates, book directly through hotel websites and check for member-only discounts. Use <a href="https://tp.media/r?campaign_id=84&marker=737703&p=2076&trs=537880&u=https%3A%2F%2Fwww.booking.com%2Fsearchresults.html%3Fss%3DOsaka%252C%2BJapan%26lang%3Den-gb">Booking.com</a>
+or <a href="https://tp.media/r?campaign_id=104&marker=737703&p=2854&trs=537880&u=https%3A%2F%2Fwww.agoda.com%2Fcity%2Fosaka-jp.html">Agoda</a>
 for price comparison — Agoda often has significantly better rates for Asian hotels.</p>
 <hr>
 <h2 id=local-tips-insider-knowledge-for-osaka>Local Tips: Insider Knowledge for Osaka</h2>
@@ -476,7 +476,8 @@ starting in January for updated predictions. The best free viewing is along the 
 <div class=cta-box>
 <h4>🏨 Find Hotels in Osaka</h4>
 <p>Compare prices and availability across hundreds of hotels.</p>
-<a href="https://www.booking.com/searchresults.html?ss=osaka+japan&aid=YOUR_BOOKING_ID" class=cta-btn target=_blank rel=noopener>Search Hotels on Booking.com &rarr;</a>
+<a href="https://tp.media/r?campaign_id=84&marker=737703&p=2076&trs=537880&u=https%3A%2F%2Fwww.booking.com%2Fsearchresults.html%3Fss%3DOsaka%252C%2BJapan%26lang%3Den-gb" class=cta-btn target=_blank rel="noopener sponsored">Search Hotels on Booking.com →</a>
+<a href="https://tp.media/r?campaign_id=104&marker=737703&p=2854&trs=537880&u=https%3A%2F%2Fwww.agoda.com%2Fcity%2Fosaka-jp.html" class=cta-alt target=_blank rel="noopener sponsored">or compare prices on Agoda →</a>
 </div>
 <div class=cta-box>
 <h4>🎌 Tours & Experiences</h4>
@@ -532,7 +533,7 @@ starting in January for updated predictions. The best free viewing is along the 
 <label for=affGuests>Guests</label>
 <select id=affGuests><option value=1>1</option><option value=2 selected>2</option><option value=3>3</option><option value=4>4</option><option value=5>5</option><option value=6>6+</option></select>
 </div>
-<button type=submit class=aff-search-btn data-aid=YOUR_BOOKING_ID>
+<button type=submit class=aff-search-btn data-tp="https://tp.media/r?campaign_id=84&marker=737703&p=2076&trs=537880&u=" data-lang=en-gb>
 Search Hotels →
 </button>
 </form>
@@ -591,20 +592,25 @@ Search Hotels →
   });
 
   
+  
+  
   form.addEventListener('submit', function(e){
     e.preventDefault();
+    var btn      = document.querySelector('.aff-search-btn') || { getAttribute: function(){ return ''; } };
     var dest     = (document.getElementById('affDest').value || '').trim() || 'Japan';
     var checkin  = document.getElementById('affCheckin').value;
     var checkout = document.getElementById('affCheckout').value;
     var guests   = document.getElementById('affGuests').value;
-    var aid      = (document.querySelector('.aff-search-btn') || {}).getAttribute('data-aid') || '';
-    var url = 'https://www.booking.com/searchresults.html'
-            + '?ss=' + encodeURIComponent(dest)
-            + (checkin  ? '&checkin='  + checkin  : '')
-            + (checkout ? '&checkout=' + checkout : '')
-            + '&group_adults=' + guests
-            + '&no_rooms=1'
-            + (aid ? '&aid=' + aid : '');
+    var lang     = btn.getAttribute('data-lang') || 'en-gb';
+    var target = 'https://www.booking.com/searchresults.html'
+               + '?ss=' + encodeURIComponent(dest)
+               + (checkin  ? '&checkin='  + checkin  : '')
+               + (checkout ? '&checkout=' + checkout : '')
+               + '&group_adults=' + guests
+               + '&no_rooms=1'
+               + '&lang=' + lang;
+    var tp  = btn.getAttribute('data-tp') || '';
+    var url = tp ? tp + encodeURIComponent(target) : target;
     window.open(url, '_blank', 'noopener');
   });
 
