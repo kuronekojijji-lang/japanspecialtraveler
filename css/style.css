@@ -352,6 +352,28 @@ blockquote {
 }
 .cta-alt:hover { color: var(--dark) !important; }
 
+/* inline "check availability" link under a hotel section in an article */
+.hotel-inline-cta {
+  margin: .9rem 0 1.6rem;
+}
+.hotel-inline-cta a {
+  display: inline-block;
+  padding: .45rem .95rem;
+  border: 1px solid var(--red);
+  border-radius: 5px;
+  font-size: .86rem;
+  font-weight: 600;
+  color: var(--red) !important;
+  text-decoration: none !important;
+  transition: background .15s, color .15s;
+}
+.hotel-inline-cta a:hover {
+  background: var(--red);
+  color: var(--bg) !important;
+}
+/* mid-article version of the hotel CTA box */
+.hotel-mid-cta { margin: 2rem 0; }
+
 /* ── Season banner ── */
 .season-banner {
   background: linear-gradient(135deg, #FFF7ED, #FFEDD5);
